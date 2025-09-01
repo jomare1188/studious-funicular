@@ -31,15 +31,15 @@ from rich.logging import RichHandler
 import argparse
 
 # Set up logging
-FORMAT = '%(message)s'
+FORMAT = "%(message)s"
 
 logging.basicConfig(
     format=FORMAT,
-    level='INFO',
+    level="INFO",
     handlers=[RichHandler(show_time=False, show_path=False, markup=True)],
 )
 
-log_text = logging.getLogger('rich')
+log_text = logging.getLogger("rich")
 log_text.setLevel(20)
 
 
@@ -269,7 +269,7 @@ class SRAInfoExtractor:
     ) -> pd.DataFrame:
         """
         Process a DataFrame with SRA run accessions and add PMID information.
-        
+
         Args:
             df (pd.DataFrame): Input DataFrame containing SRA run accessions.
             run_column (str): Name of the column containing run accessions.
@@ -278,17 +278,17 @@ class SRAInfoExtractor:
         Returns:
             pd.DataFrame: The processed DataFrame with added PMID information.
         """
-        
+
         progress = Progress(
-        SpinnerColumn(),
-        TaskProgressColumn(),
-        TextColumn('[progress.description]{task.description}'),
-        BarColumn(),
-        TimeElapsedColumn(),
-        TimeRemainingColumn(),
-        MofNCompleteColumn(),
-    )
-        
+            SpinnerColumn(),
+            TaskProgressColumn(),
+            TextColumn("[progress.description]{task.description}"),
+            BarColumn(),
+            TimeElapsedColumn(),
+            TimeRemainingColumn(),
+            MofNCompleteColumn(),
+        )
+
         df = df.copy()
 
         # Add new columns
@@ -300,7 +300,7 @@ class SRAInfoExtractor:
         total_runs = len(df)
 
         with progress:
-            progress.add_task(f'[cyan]Processing SRA runs', total=total_runs)
+            progress.add_task(f"[cyan]Processing SRA runs", total=total_runs)
             for i, row in df.iterrows():
                 run_accession = row[run_column]
                 bioproject_id = (
@@ -333,15 +333,23 @@ class SRAInfoExtractor:
 
         return df
 
+
 def get_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
-    description='Searches PMID Database for SRA Runs',
-    add_help=True,
-)
-    parser.add_argument('--email', type=str, required=True, help='Email address for NCBI Entrez')
-    parser.add_argument('--input', type=str, required=True, help="Path to the input CSV file")
-    parser.add_argument('--output', type=str, required=True, help="Path to the output CSV file")
+        description="Searches PMID Database for SRA Runs",
+        add_help=True,
+    )
+    parser.add_argument(
+        "--email", type=str, required=True, help="Email address for NCBI Entrez"
+    )
+    parser.add_argument(
+        "--input", type=str, required=True, help="Path to the input CSV file"
+    )
+    parser.add_argument(
+        "--output", type=str, required=True, help="Path to the output CSV file"
+    )
     return parser
+
 
 def main(parser: argparse.ArgumentParser) -> None:
     args = parser.parse_args()
@@ -351,8 +359,7 @@ def main(parser: argparse.ArgumentParser) -> None:
         tool_name="enhanced_sra_pmid_mapper",
     )
 
-    df = pd.read_csv(args.input, header=0,
-                 low_memory=False)
+    df = pd.read_csv(args.input, header=0, low_memory=False)
     result_df = mapper.process_dataframe(
         df, run_column="Run", bioproject_column="BioProject"
     )
