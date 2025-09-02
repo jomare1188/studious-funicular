@@ -48,7 +48,7 @@ def start_driver() -> webdriver.Firefox:
     '''
     driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()))
     log_text.info("Driver ok!")
-    driver.implicitly_wait(5)
+    driver.implicitly_wait(10)
     return driver
 
 
@@ -178,7 +178,7 @@ def scrape_multiple_bioprojects(bioproject_ids: list[str], filter_by_bioproject:
             driver.get(scholar_url)
             
             # Add respectful delay
-            time.sleep(randint(2, 5))
+            time.sleep(randint(5, 10))
             
             # Extract articles for this bioproject
             articles = extract_article_data(driver, bioproject_id, filter_by_bioproject)
