@@ -429,7 +429,7 @@ if __name__ == "__main__":
         filtered_df = df[df['PMID_count'] == 0]
 
     # Get unique BioProject IDs from that filtered set
-    bioproject_ids = filtered_df['BioProject'].unique().tolist()
+    bioproject_ids = filtered_df['BioProject'].dropna().unique().tolist()
     log_text.info(f"Found {len(bioproject_ids)} unique bioprojects to process")
 
     # Create backup of original file
