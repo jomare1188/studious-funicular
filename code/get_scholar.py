@@ -423,7 +423,10 @@ if __name__ == "__main__":
 
     df = read_df(args.input)
     # Filter rows where PMID_count == 0
-    filtered_df = df[df['PMID_count'] == 0]
+    if 'scholar_processed' in df.columns: # first execution
+        filtered_df = df[(df['PMID_count'] == 0) & df['scholar_processed']]
+    else:
+        filtered_df = df[df['PMID_count'] == 0]
 
     # Get unique BioProject IDs from that filtered set
     bioproject_ids = filtered_df['BioProject'].unique().tolist()
@@ -436,10 +439,11 @@ if __name__ == "__main__":
     
     # Scrape articles with incremental CSV updates
     main_csv_file = args.output
+    output_file = args.output.replace('.csv', '') + "_combined_scholar_results.json"
     results = scrape_scholar_articles_batch(
         bioproject_ids=bioproject_ids, 
         filter_by_bioproject=False,
-        output_file="combined_scholar_results.json",  # Combined results
+        output_file=output_file,  # Combined results
         save_individual=True,  # Individual files per bioproject
         output_dir="scholar_results",  # Directory for individual files
         df=df,  # Your DataFrame
