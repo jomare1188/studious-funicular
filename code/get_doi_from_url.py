@@ -414,7 +414,7 @@ def get_parser() -> argparse.ArgumentParser:
     """
 
     parser = argparse.ArgumentParser(
-        description="Searches PMID Database for SRA Runs",
+        description="Searches DOI from scholar_links and JSON files",
         add_help=True,
     )
     parser.add_argument(
