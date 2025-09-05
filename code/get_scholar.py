@@ -23,6 +23,8 @@ import pandas as pd
 from datetime import datetime
 from rich.logging import RichHandler
 import argparse
+import os
+import json
 
 # Set up logging
 FORMAT = "%(message)s"
@@ -225,10 +227,7 @@ def save_individual_bioproject_results(bioproject_id: str, articles: list[dict],
         articles (list[dict]): List of article data for this bioproject
         output_dir (str): Directory to save files
     """
-    import os
-    import json
-    import pandas as pd
-    
+   
     # Create output directory if it doesn't exist
     os.makedirs(output_dir, exist_ok=True)
     
