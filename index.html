@@ -12,7 +12,7 @@
 
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      background: linear-gradient(135deg, #002fff 0%, #008cff 100%);
       min-height: 100vh;
       padding: 20px;
       color: #333;
@@ -30,7 +30,7 @@
     }
 
     h1 {
-      background: linear-gradient(135deg, #667eea, #764ba2);
+      background: linear-gradient(135deg, #0038bb, #0048b5);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
@@ -69,7 +69,7 @@
 
     button {
       padding: 12px 24px;
-      background: linear-gradient(135deg, #667eea, #764ba2);
+      background: linear-gradient(135deg, #005493, #0061bc);
       color: white;
       border: none;
       border-radius: 12px;
@@ -233,7 +233,7 @@
 </head>
 <body>
   <div class="container">
-    <h1>🔍 JSON Viewer</h1>
+    <h1>JSON Viewer</h1>
     
     <div class="controls">
       <select id="fileSelect">
@@ -247,13 +247,13 @@
         <span>📄 JSON Content</span>
         <button class="copy-btn" onclick="copyToClipboard()" style="display: none;">Copy</button>
       </div>
-      <pre id="output" class="welcome">Choose a file to view its beautiful JSON content ✨</pre>
+      <pre id="output" class="welcome">Choose a file to view its JSON content ✨</pre>
     </div>
   </div>
 
   <script>
     const files = [
-    "scholar_results/json/nan_articles.json",
+      "scholar_results/json/nan_articles.json",
 "scholar_results/json/PRJEB12880_articles.json",
 "scholar_results/json/PRJEB15329_articles.json",
 "scholar_results/json/PRJEB15858_articles.json",
@@ -1676,7 +1676,7 @@
 "scholar_results/json/PRJNA998826_articles.json",
 "scholar_results/json/PRJNA999084_articles.json",
 "scholar_results/json/PRJNA999253_articles.json",
-];
+    ];
 
     const select = document.getElementById("fileSelect");
     const output = document.getElementById("output");
@@ -1717,53 +1717,16 @@
         .replace(/([{}[\],])/g, '<span class="json-punctuation">$1</span>');
     }
 
-    function syntaxHighlight(json) {
-      if (typeof json !== 'string') {
-        json = JSON.stringify(json, null, 2);
-      }
-      
-      return json.replace(/&/g, '&amp;')
-                 .replace(/</g, '&lt;')
-                 .replace(/>/g, '&gt;')
-                 .replace(/("(\\u[a-zA-Z0-9]{4}|\\[^u]|[^\\"])*"(\s*:)?|\b(true|false|null)\b|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?)/g, 
-        function (match) {
-          let cls = 'json-number';
-          if (/^"/.test(match)) {
-            if (/:$/.test(match)) {
-              cls = 'json-key';
-            } else {
-              cls = 'json-string';
-            }
-          } else if (/true|false/.test(match)) {
-            cls = 'json-boolean';
-          } else if (/null/.test(match)) {
-            cls = 'json-null';
-          }
-          return '<span class="' + cls + '">' + match + '</span>';
-        })
-        .replace(/([{}[\],])/g, '<span class="json-punctuation">$1</span>');
-    }
-
     async function loadJson() {
       const file = select.value;
       
       if (!file) {
-        const errorMsg = '<span class="error">⚠️ Please select a file first</span>';
-        if (currentView === 'fields') {
-          fieldsOutput.innerHTML = errorMsg;
-        } else {
-          output.innerHTML = errorMsg;
-        }
+        output.innerHTML = '<span class="error">⚠️ Please select a file first</span>';
         copyBtn.style.display = 'none';
         return;
       }
 
-      const loadingMsg = '<div class="loading">Loading JSON content...</div>';
-      if (currentView === 'fields') {
-        fieldsOutput.innerHTML = loadingMsg;
-      } else {
-        output.innerHTML = loadingMsg;
-      }
+      output.innerHTML = '<div class="loading">Loading JSON content...</div>';
       copyBtn.style.display = 'none';
 
       try {
@@ -1771,43 +1734,29 @@
         if (!response.ok) throw new Error(`Failed to load ${file} (${response.status})`);
         
         const data = await response.json();
-        currentData = data;
+        const formattedJson = JSON.stringify(data, null, 2);
+        const highlightedJson = syntaxHighlight(formattedJson);
         
-        if (currentView === 'fields') {
-          displayFields(data);
-        } else {
-          showRaw();
-        }
-        
+        output.innerHTML = highlightedJson;
+        output.className = '';
         copyBtn.style.display = 'block';
         
+        // Store raw JSON for copying
+        output.dataset.rawJson = formattedJson;
+        
       } catch (err) {
-        const errorMsg = `<div class="error">❌ Error: ${err.message}</div>`;
-        if (currentView === 'fields') {
-          fieldsOutput.innerHTML = errorMsg;
-        } else {
-          output.innerHTML = errorMsg;
-          output.className = '';
-        }
+        output.innerHTML = `<div class="error">❌ Error: ${err.message}</div>`;
+        output.className = '';
         copyBtn.style.display = 'none';
-        currentData = null;
       }
     }
 
     async function copyToClipboard() {
-      let textToCopy = '';
-      
-      if (currentView === 'fields' && currentData) {
-        // Copy fields data as formatted text
-        textToCopy = extractFieldsText(currentData);
-      } else if (output.dataset.rawJson) {
-        textToCopy = output.dataset.rawJson;
-      } else {
-        return;
-      }
+      const rawJson = output.dataset.rawJson;
+      if (!rawJson) return;
 
       try {
-        await navigator.clipboard.writeText(textToCopy);
+        await navigator.clipboard.writeText(rawJson);
         
         const originalText = copyBtn.textContent;
         copyBtn.textContent = '✓ Copied!';
@@ -1821,7 +1770,7 @@
         console.error('Failed to copy:', err);
         // Fallback for older browsers
         const textArea = document.createElement('textarea');
-        textArea.value = textToCopy;
+        textArea.value = rawJson;
         document.body.appendChild(textArea);
         textArea.select();
         document.execCommand('copy');
@@ -1832,51 +1781,6 @@
           copyBtn.textContent = 'Copy';
         }, 2000);
       }
-    }
-
-    function extractFieldsText(data) {
-      let fieldsData = [];
-      
-      if (data.fields) {
-        fieldsData = Array.isArray(data.fields) ? data.fields : [data.fields];
-      } else if (Array.isArray(data)) {
-        data.forEach(item => {
-          if (item.fields) {
-            const itemFields = Array.isArray(item.fields) ? item.fields : [item.fields];
-            fieldsData.push(...itemFields);
-          }
-        });
-      } else {
-        Object.keys(data).forEach(key => {
-          if (key.toLowerCase().includes('field') && data[key]) {
-            const keyFields = Array.isArray(data[key]) ? data[key] : [data[key]];
-            fieldsData.push(...keyFields);
-          }
-        });
-      }
-
-      if (fieldsData.length === 0) {
-        return 'No fields found in this JSON file';
-      }
-
-      let text = `Fields Data (${fieldsData.length} fields)\n`;
-      text += '='.repeat(40) + '\n\n';
-      
-      fieldsData.forEach((field, index) => {
-        text += `Field ${index + 1}:\n`;
-        text += '-'.repeat(15) + '\n';
-        
-        if (typeof field === 'object' && field !== null) {
-          Object.keys(field).forEach(key => {
-            text += `${key}: ${JSON.stringify(field[key], null, 2)}\n`;
-          });
-        } else {
-          text += `Value: ${field}\n`;
-        }
-        text += '\n';
-      });
-      
-      return text;
     }
 
     // Auto-load first file on page load (optional)
