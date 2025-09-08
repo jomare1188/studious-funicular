@@ -28,7 +28,7 @@ log_text = logging.getLogger("rich")
 log_text.setLevel(20)
 
 
-def process_doi_integration(csv_file_path, scholar_results_folder):
+def process_doi_integration(csv_file_path: str, scholar_results_folder: str):
     """
     Process CSV file and update/create JSON files with DOI and PMID information
 
@@ -45,6 +45,7 @@ def process_doi_integration(csv_file_path, scholar_results_folder):
         bioproject_id = row["BioProject"]
         doi_results_str = row.get("doi_results", "")
         pmids_str = row.get("PMIDs", "")
+        runs_for_bioproject = len(df[df["BioProject"] == bioproject_id])
 
         # Parse the doi_results JSON string (handle blank/empty values)
         doi_results = []
@@ -80,15 +81,28 @@ def process_doi_integration(csv_file_path, scholar_results_folder):
         # Check if JSON file exists
         if os.path.exists(json_file_path):
             # Update existing file
-            update_existing_json(json_file_path, doi_results, pmids, bioproject_id)
+            update_existing_json(
+                json_file_path, doi_results, pmids, runs_for_bioproject
+            )
         else:
             # Create new file
-            create_new_json(json_file_path, doi_results, pmids, bioproject_id)
+            create_new_json(
+                json_file_path, doi_results, pmids, bioproject_id, runs_for_bioproject
+            )
 
 
-def update_existing_json(json_file_path, doi_results, pmids, bioproject_id):
+def update_existing_json(
+    json_file_path: str, doi_results: list, pmids: list, runs_for_bioproject: int
+):
     """
     Update existing JSON file with DOI and PMID information
+
+    Args:
+        json_file_path (str): Path to the existing JSON file
+        doi_results (list): List of DOI results to integrate
+        pmids (list): List of PMIDs to integrate
+        runs_for_bioproject (int): Number of runs for the BioProject
+
     """
     try:
         # Read existing JSON file
@@ -113,6 +127,11 @@ def update_existing_json(json_file_path, doi_results, pmids, bioproject_id):
         if pmids:
             data["PubMedIDs"] = pmids
 
+        # Update total_articles count
+        data["total_articles"] = len(data.get("articles", []))
+
+        # Update runs count if applicable
+        data["runs"] = runs_for_bioproject
         # Write updated data back to file
         with open(json_file_path, "w", encoding="utf-8") as f:
             json.dump(data, f, indent=2, ensure_ascii=False)
@@ -123,9 +142,22 @@ def update_existing_json(json_file_path, doi_results, pmids, bioproject_id):
         log_text.error(f"Error updating {json_file_path}: {str(e)}")
 
 
-def create_new_json(json_file_path, doi_results, pmids, bioproject_id):
+def create_new_json(
+    json_file_path: str,
+    doi_results: list,
+    pmids: list,
+    bioproject_id: str,
+    runs_for_bioproject: int,
+):
     """
     Create new JSON file with DOI and PMID information
+
+    Args:
+        json_file_path (str): Path to the new JSON file to create
+        doi_results (list): List of DOI results to integrate
+        pmids (list): List of PMIDs to integrate
+        bioproject_id (str): BioProject ID
+        runs_for_bioproject (int): Number of runs for the BioProject
     """
     try:
         # Create articles list from doi_results
@@ -158,6 +190,9 @@ def create_new_json(json_file_path, doi_results, pmids, bioproject_id):
         if pmids:
             json_data["PubMedIDs"] = pmids
 
+        # Add runs count if applicable
+        json_data["runs"] = runs_for_bioproject
+
         # Create directory if it doesn't exist
         os.makedirs(os.path.dirname(json_file_path), exist_ok=True)
 
@@ -171,9 +206,12 @@ def create_new_json(json_file_path, doi_results, pmids, bioproject_id):
         log_text.error(f"Error creating {json_file_path}: {str(e)}")
 
 
-def validate_data_structure(csv_file_path):
+def validate_data_structure(csv_file_path: str):
     """
     Validate the CSV file structure and show sample data
+
+    Args:
+        csv_file_path (str): Path to the CSV file to validate
     """
     try:
         df = pd.read_csv(csv_file_path, header=0, low_memory=False)
@@ -210,7 +248,7 @@ def get_parser() -> argparse.ArgumentParser:
     """
 
     parser = argparse.ArgumentParser(
-        description="Searches DOI from scholar_links and JSON files",
+        description="Create and update JSON files with DOI and PMID information from a CSV file",
         add_help=True,
     )
     parser.add_argument(
