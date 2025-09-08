@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JSON Viewer</title>
+  <style>
+    body { font-family: sans-serif; padding: 20px; }
+    select, button { margin: 10px 0; padding: 5px; }
+    pre { background: #f4f4f4; padding: 10px; border-radius: 8px; }
+  </style>
+</head>
+<body>
+  <h1>Select JSON File</h1>
+  <select id="fileSelect"></select>
+  <button onclick="loadJson()">Load</button>
+
+  <h2>Content</h2>
+  <pre id="output">Choose a file to view its contents</pre>
+
+  <script src="script.js"></script>
+</body>
+</html>
