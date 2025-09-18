@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>JSON Viewer</title>
+  <title>JSON Viewer with Search</title>
   <style>
     * {
       margin: 0;
@@ -45,7 +45,7 @@
       display: flex;
       gap: 15px;
       margin-bottom: 30px;
-      align-items: center;
+      align-items: flex-end;
       flex-wrap: wrap;
     }
 
@@ -64,7 +64,7 @@
       letter-spacing: 0.5px;
     }
 
-    select {
+    select, input[type="text"] {
       padding: 12px 16px;
       border: 2px solid #e1e8ed;
       border-radius: 12px;
@@ -76,13 +76,21 @@
       min-width: 150px;
     }
 
-    select:focus {
+    input[type="text"] {
+      cursor: text;
+    }
+
+    select:focus, input[type="text"]:focus {
       border-color: #667eea;
       box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
     }
 
     #fileSelect {
       flex: 1;
+      min-width: 200px;
+    }
+
+    #searchInput {
       min-width: 200px;
     }
 
@@ -99,7 +107,6 @@
       box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
       outline: none;
       height: fit-content;
-      align-self: flex-end;
     }
 
     button:hover {
@@ -116,6 +123,50 @@
       cursor: not-allowed;
       transform: none;
       box-shadow: 0 4px 15px rgba(102, 126, 234, 0.2);
+    }
+
+    .search-results {
+      margin: 15px 0;
+      max-height: 150px;
+      overflow-y: auto;
+      border: 1px solid #e1e8ed;
+      border-radius: 12px;
+      background: white;
+      display: none;
+    }
+
+    .search-result-item {
+      padding: 12px 16px;
+      cursor: pointer;
+      border-bottom: 1px solid #f1f5f9;
+      transition: background-color 0.2s ease;
+    }
+
+    .search-result-item:hover {
+      background-color: #f8fafc;
+    }
+
+    .search-result-item:last-child {
+      border-bottom: none;
+    }
+
+    .search-result-item.selected {
+      background-color: #667eea;
+      color: white;
+    }
+
+    .search-highlight {
+      background-color: #fef08a;
+      font-weight: 600;
+      padding: 1px 2px;
+      border-radius: 2px;
+    }
+
+    .no-results {
+      padding: 12px 16px;
+      color: #64748b;
+      font-style: italic;
+      text-align: center;
     }
 
     .output-container {
@@ -233,7 +284,7 @@
         min-width: auto;
       }
 
-      select, button {
+      select, button, input[type="text"] {
         width: 100%;
         min-width: auto;
       }
@@ -245,28 +296,28 @@
     }
 
     /* Custom Scrollbar */
-    #output::-webkit-scrollbar {
+    #output::-webkit-scrollbar, .search-results::-webkit-scrollbar {
       width: 8px;
     }
 
-    #output::-webkit-scrollbar-track {
+    #output::-webkit-scrollbar-track, .search-results::-webkit-scrollbar-track {
       background: #2d3748;
       border-radius: 4px;
     }
 
-    #output::-webkit-scrollbar-thumb {
+    #output::-webkit-scrollbar-thumb, .search-results::-webkit-scrollbar-thumb {
       background: #4a5568;
       border-radius: 4px;
     }
 
-    #output::-webkit-scrollbar-thumb:hover {
+    #output::-webkit-scrollbar-thumb:hover, .search-results::-webkit-scrollbar-thumb:hover {
       background: #667eea;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>JSON Viewer</h1>
+    <h1>JSON Viewer with Project Search</h1>
     
     <div class="controls">
       <div class="filter-group">
@@ -285,6 +336,12 @@
           <option value="dna">DNA</option>
           <option value="rna">RNA</option>
         </select>
+      </div>
+      
+      <div class="filter-group">
+        <label class="filter-label">Search Project ID</label>
+        <input type="text" id="searchInput" placeholder="Type project ID..." disabled>
+        <div class="search-results" id="searchResults"></div>
       </div>
       
       <div class="filter-group">
@@ -307,7 +364,6 @@
   </div>
 
   <script>
-
     const fileStructure = {
       citrus: {
         dna: [
@@ -1798,22 +1854,30 @@
 
     const plantFilter = document.getElementById("plantFilter");
     const sequenceFilter = document.getElementById("sequenceFilter");
+    const searchInput = document.getElementById("searchInput");
+    const searchResults = document.getElementById("searchResults");
     const fileSelect = document.getElementById("fileSelect");
     const loadBtn = document.getElementById("loadBtn");
     const output = document.getElementById("output");
     const copyBtn = document.querySelector('.copy-btn');
 
-    // Update file dropdown based on selected filters
+    let currentFiles = [];
+    let selectedResultIndex = -1;
+
+    // Update available files and enable search when filters change
     function updateFileDropdown() {
       const plant = plantFilter.value;
       const sequence = sequenceFilter.value;
       
-      // Clear existing options
       fileSelect.innerHTML = '';
+      searchInput.value = '';
+      searchResults.style.display = 'none';
+      currentFiles = [];
       
       if (!plant || !sequence) {
         fileSelect.innerHTML = '<option value="">First select filters above...</option>';
         fileSelect.disabled = true;
+        searchInput.disabled = true;
         loadBtn.disabled = true;
         return;
       }
@@ -1825,13 +1889,16 @@
       if (availableFiles.length === 0) {
         fileSelect.innerHTML = '<option value="">No files available for this combination</option>';
         fileSelect.disabled = true;
+        searchInput.disabled = true;
         loadBtn.disabled = true;
         return;
       }
       
-      // Enable dropdown and populate with actual available files
+      // Store current files and enable search
+      currentFiles = availableFiles;
+      searchInput.disabled = false;
       fileSelect.disabled = false;
-      fileSelect.innerHTML = '<option value="">Select a JSON file...</option>';
+      fileSelect.innerHTML = '<option value="">Select a JSON file or use search...</option>';
       
       availableFiles.forEach(file => {
         const option = document.createElement("option");
@@ -1844,14 +1911,129 @@
       loadBtn.disabled = false;
     }
 
-    // Event listeners for filter changes
+    // Search functionality
+    function searchProjects(query) {
+      if (!query.trim() || currentFiles.length === 0) {
+        searchResults.style.display = 'none';
+        selectedResultIndex = -1;
+        return;
+      }
+
+      // Extract project IDs from filenames and filter
+      const results = currentFiles
+        .map(file => {
+          const projectId = file.replace('_articles.json', '');
+          return { file, projectId };
+        })
+        .filter(item => item.projectId.toLowerCase().includes(query.toLowerCase()))
+        .slice(0, 10); // Limit to 10 results
+
+      if (results.length === 0) {
+        searchResults.innerHTML = '<div class="no-results">No projects found</div>';
+        searchResults.style.display = 'block';
+        selectedResultIndex = -1;
+        return;
+      }
+
+      // Build results HTML with highlighting
+      const resultsHTML = results.map((item, index) => {
+        const highlightedId = item.projectId.replace(
+          new RegExp(`(${query})`, 'gi'),
+          '<span class="search-highlight">$1</span>'
+        );
+        return `<div class="search-result-item" data-index="${index}" data-file="${item.file}" data-project="${item.projectId}">
+          ${highlightedId}
+        </div>`;
+      }).join('');
+
+      searchResults.innerHTML = resultsHTML;
+      searchResults.style.display = 'block';
+      selectedResultIndex = -1;
+    }
+
+    // Handle search result selection
+    function selectSearchResult(file, projectId) {
+      const plant = plantFilter.value;
+      const sequence = sequenceFilter.value;
+      const fullPath = `scholar_results/json/${plant}/${sequence}/${file}`;
+      
+      // Set the file select dropdown
+      fileSelect.value = fullPath;
+      searchInput.value = projectId;
+      searchResults.style.display = 'none';
+      selectedResultIndex = -1;
+      
+      // Enable load button
+      loadBtn.disabled = false;
+    }
+
+    // Keyboard navigation for search results
+    function handleSearchKeydown(e) {
+      const resultItems = searchResults.querySelectorAll('.search-result-item');
+      
+      if (resultItems.length === 0) return;
+
+      if (e.key === 'ArrowDown') {
+        e.preventDefault();
+        selectedResultIndex = Math.min(selectedResultIndex + 1, resultItems.length - 1);
+        updateSelectedResult(resultItems);
+      } else if (e.key === 'ArrowUp') {
+        e.preventDefault();
+        selectedResultIndex = Math.max(selectedResultIndex - 1, -1);
+        updateSelectedResult(resultItems);
+      } else if (e.key === 'Enter' && selectedResultIndex >= 0) {
+        e.preventDefault();
+        const selectedItem = resultItems[selectedResultIndex];
+        selectSearchResult(
+          selectedItem.dataset.file,
+          selectedItem.dataset.project
+        );
+      } else if (e.key === 'Escape') {
+        searchResults.style.display = 'none';
+        selectedResultIndex = -1;
+      }
+    }
+
+    function updateSelectedResult(resultItems) {
+      resultItems.forEach((item, index) => {
+        item.classList.toggle('selected', index === selectedResultIndex);
+      });
+    }
+
+    // Event listeners
     plantFilter.addEventListener('change', updateFileDropdown);
     sequenceFilter.addEventListener('change', updateFileDropdown);
     
-    // Event listener for file selection
+    searchInput.addEventListener('input', (e) => {
+      searchProjects(e.target.value);
+    });
+    
+    searchInput.addEventListener('keydown', handleSearchKeydown);
+    
+    // Handle clicks on search results
+    searchResults.addEventListener('click', (e) => {
+      if (e.target.classList.contains('search-result-item')) {
+        selectSearchResult(
+          e.target.dataset.file,
+          e.target.dataset.project
+        );
+      }
+    });
+    
+    // Hide search results when clicking outside
+    document.addEventListener('click', (e) => {
+      if (!searchInput.contains(e.target) && !searchResults.contains(e.target)) {
+        searchResults.style.display = 'none';
+        selectedResultIndex = -1;
+      }
+    });
+    
     fileSelect.addEventListener('change', function() {
       if (this.value) {
         loadBtn.disabled = false;
+        // Clear search when manually selecting from dropdown
+        searchInput.value = '';
+        searchResults.style.display = 'none';
       } else {
         loadBtn.disabled = true;
       }
