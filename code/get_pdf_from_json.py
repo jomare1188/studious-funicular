@@ -10,9 +10,11 @@
 import argparse
 import json
 import logging
+import threading
 import time
 from collections import defaultdict
 from datetime import datetime
+from functools import wraps
 from pathlib import Path
 from random import randint
 from urllib.parse import parse_qs, unquote, urlparse
@@ -34,6 +36,117 @@ logging.basicConfig(
 
 log_text = logging.getLogger("rich")
 log_text.setLevel(20)
+
+
+class APIRateLimiter:
+    """Thread-safe API rate limiter with request counting and automatic sleep."""
+
+    def __init__(self, request_limit: int = 450, sleep_duration: int = 90000):
+        """
+        Initialize the rate limiter.
+
+        Args:
+            request_limit: Maximum requests per API before triggering sleep
+            sleep_duration: Sleep duration in seconds when limit is reached
+        """
+        self.request_limit = request_limit
+        self.sleep_duration = sleep_duration
+        self.download_counts = {
+            "springer": 0,
+            "elsevier": 0,
+            "wiley": 0,
+            "frontiers": 0,
+            "aps": 0,
+            "unpaywall": 0,
+        }
+        self._lock = threading.Lock()
+        self._sleeping_apis = set()
+
+    def track_request(self, api_name: str):
+        """
+        Decorator to track API requests and handle rate limiting.
+
+        Args:
+            api_name: Name of the API (must match keys in download_counts)
+        """
+
+        def decorator(func):
+            @wraps(func)
+            def wrapper(*args, **kwargs):
+                # Check if this API is currently sleeping
+                if api_name in self._sleeping_apis:
+                    log_text.info(
+                        f"{api_name} API is currently rate-limited, waiting..."
+                    )
+                    while api_name in self._sleeping_apis:
+                        time.sleep(10)  # Check every 10 seconds
+
+                # Increment counter before making request
+                with self._lock:
+                    self.download_counts[api_name] += 1
+                    current_count = self.download_counts[api_name]
+
+                    log_text.info(f"{api_name} request #{current_count}")
+
+                    # Check if we've reached the limit
+                    if current_count >= self.request_limit:
+                        self._sleeping_apis.add(api_name)
+                        log_text.warning(
+                            f"{api_name} has reached {self.request_limit} requests. "
+                            f"Sleeping for {self.sleep_duration} seconds..."
+                        )
+
+                        # Reset counter
+                        self.download_counts[api_name] = 0
+
+                        # Sleep in a separate thread to avoid blocking other APIs
+                        def sleep_and_wake():
+                            time.sleep(self.sleep_duration)
+                            with self._lock:
+                                if api_name in self._sleeping_apis:
+                                    self._sleeping_apis.remove(api_name)
+                                    log_text.info(
+                                        f"{api_name} API is now available again."
+                                    )
+
+                        threading.Thread(target=sleep_and_wake, daemon=True).start()
+
+                        # Block this request until sleep is over
+                        while api_name in self._sleeping_apis:
+                            time.sleep(1)
+
+                # Execute the original function
+                try:
+                    return func(*args, **kwargs)
+                except Exception as e:
+                    # If request failed, decrement counter
+                    with self._lock:
+                        if self.download_counts[api_name] > 0:
+                            self.download_counts[api_name] -= 1
+                    raise e
+
+            return wrapper
+
+        return decorator
+
+    def get_counts(self) -> dict[str, int]:
+        """Get current request counts for all APIs."""
+        with self._lock:
+            return self.download_counts.copy()
+
+    def reset_count(self, api_name: str):
+        """Manually reset count for a specific API."""
+        with self._lock:
+            self.download_counts[api_name] = 0
+            if api_name in self._sleeping_apis:
+                self._sleeping_apis.remove(api_name)
+
+    def reset_all_counts(self):
+        """Reset all API counts."""
+        with self._lock:
+            for api in self.download_counts:
+                self.download_counts[api] = 0
+            self._sleeping_apis.clear()
 
 
 class ProcessSpringerXML:
@@ -811,6 +924,7 @@ class APSDownloader:
 
 
 class TXTDownloader:
+    _rate_limiter = APIRateLimiter(request_limit=450, sleep_duration=90000)
     def __init__(self, api_keys_file: str, email: str, output_dir: str, file_name: str):
         """
         Initialize the TXTDownloader with API keys, email, and output directory.
@@ -830,8 +944,17 @@ class TXTDownloader:
             self.api_keys = json.load(f)
 
         self.session = requests.Session()
-
-        # TODO WILEY API KEYS
+    
+        
+    @property
+    def rate_limiter(self):
+        """Access to the rate limiter."""
+        return self._rate_limiter
+    
+    @property
+    def download_counts(self):
+        """Access to current download counts."""
+        return self._rate_limiter.get_counts()
 
     def identify_publisher_and_type(self, doi: str) -> tuple:
         """
@@ -868,6 +991,7 @@ class TXTDownloader:
         else:
             return "unknown", "unknown"
 
+    @_rate_limiter.track_request("springer")
     def get_springer_txt(self, doi: str) -> dict | tuple:
         """
         Download TXT from Springer.
@@ -894,6 +1018,7 @@ class TXTDownloader:
                 f"Error fetching Springer OpenAccess for DOI {doi}: {e}"
             )
 
+    @_rate_limiter.track_request("elsevier")
     def get_elsevier_txt(self, doi: str) -> dict | tuple:
         """Download TXT from Elsevier
         Args:
@@ -922,6 +1047,7 @@ class TXTDownloader:
         except Exception as e:
             return None, f"Elsevier request failed: {str(e)}"
 
+    @_rate_limiter.track_request("wiley")
     def get_wiley_pdf(self, doi: str) -> tuple:
         """Download PDF from Wiley using TDM API
         Args:
@@ -942,6 +1068,7 @@ class TXTDownloader:
         except Exception as exc:
             return None, f"Wiley TDM error: {exc}"
 
+    @_rate_limiter.track_request("frontiers")
     def get_frontiers_pdf(self, doi: str) -> tuple:
         """Direct download from Frontiers
         Args:
@@ -963,6 +1090,7 @@ class TXTDownloader:
             return None, f"Frontiers request failed: {str(e)}"
         # return f"https://www.frontiersin.org/articles/{doi}/pdf", None
 
+    @_rate_limiter.track_request("unpaywall")
     def get_unpaywall_pdf(self, doi: str) -> tuple:
         """Fallback: Try Unpaywall for open access versions
         Args:
@@ -1028,14 +1156,17 @@ class TXTDownloader:
         if publisher == "springer":
             pdf_content, error_msg = self.get_springer_txt(doi)
             source_used = "Springer Nature API"
+            # download_counts["springer"] += 1
 
         elif publisher == "elsevier":
             pdf_content, error_msg = self.get_elsevier_txt(doi)
             source_used = "Elsevier API"
+            # download_counts["elsevier"] += 1
 
         elif publisher == "wiley":
             pdf_content, error_msg = self.get_wiley_pdf(doi)
             source_used = "Wiley TDM API"
+            # download_counts["wiley"] += 1
             if pdf_content == "WILEY_DOWNLOADED":
                 log_text.info(f"Wiley PDF already saved | Source: {source_used}")
                 return None
@@ -1044,6 +1175,7 @@ class TXTDownloader:
             apsdownload = APSDownloader()
             pdf_content, error_msg = apsdownload.get_aps_pdf(doi)
             source_used = "American Phytopathological Society (APS)"
+            # download_counts["aps"] += 1
 
         # elif publisher == 'biorxiv':
         #     pdf_content, error_msg = self.get_biorxiv_pdf(doi)
@@ -1056,6 +1188,7 @@ class TXTDownloader:
         elif publisher == "frontiers":
             pdf_content, error_msg = self.get_frontiers_pdf(doi)
             source_used = "Frontiers Direct"
+            # download_counts["frontiers"] += 1
         # ONLY use Unpaywall as fallback if publisher APIs failed
         if pdf_content is None:
             log_text.info(f"Publisher API failed: {error_msg}")
@@ -1063,6 +1196,7 @@ class TXTDownloader:
             pdf_content, fallback_error = self.get_unpaywall_pdf(doi)
             if pdf_content is not None:
                 source_used = "Unpaywall"
+                # download_counts["unpaywall"] += 1
             else:
                 error_msg = f"All methods failed. Publisher: {error_msg}, Unpaywall: {fallback_error}"
 
@@ -1098,6 +1232,17 @@ class TXTDownloader:
                 f"Saved structured TXT JSON: {filename} | Source: {source_used}"
             )
             return None
+        
+    def print_status(self):
+        """Print current request counts and status."""
+        counts = self.download_counts
+        sleeping = self.rate_limiter._sleeping_apis
+        
+        log_text.info("\n=== API Request Status ===")
+        for api, count in counts.items():
+            status = " (SLEEPING)" if api in sleeping else ""
+            log_text.info(f"{api.capitalize()}: {count}/450{status}")
+        log_text.info("========================\n")
 
 
 def get_parser() -> argparse.ArgumentParser:
@@ -1218,6 +1363,46 @@ def extract_doi_from_url(url: str) -> str | None:
     return None
 
 
+def pmid2doi(pmid: str) -> str | None:
+    """
+    Convert a PubMed ID (PMID) to a DOI using the NCBI E-utilities API.
+    Args:
+        pmid (str): The PubMed ID to convert.
+    Returns:
+        str | None: The corresponding DOI if found, otherwise None.
+    """
+    if not pmid or not pmid.isdigit():
+        return None
+
+    url = f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id={pmid}&retmode=json"
+
+    try:
+        response = requests.get(url, timeout=30)
+        if response.status_code == 200:
+            data = response.json()
+            result = data.get("result", {})
+            uid_data = result.get(pmid, {})
+
+            # Check multiple possible locations for DOI
+            # 1. Check articleids array for DOI entries
+            article_ids = uid_data.get("articleids", [])
+            for article_id in article_ids:
+                if article_id.get("idtype") == "doi":
+                    doi = article_id.get("value")
+                    if doi and doi.startswith("10."):
+                        return doi
+
+            # 2. Check elocationid as fallback
+            doi = uid_data.get("elocationid")
+            if doi and doi.startswith("10."):
+                return doi
+
+    except Exception as e:
+        log_text.error(f"Error converting PMID {pmid} to DOI: {e}")
+
+    return None
+
+
 def main():
     parser = get_parser()
     args = parser.parse_args()
@@ -1239,36 +1424,68 @@ def main():
             with open(json_file, "r", encoding="utf-8") as f:
                 data = json.load(f)
             articles = data.get("articles")
-            for article in articles:
-                doi = fix_doi(article)
+            if len(articles) > 0:
+                for article in articles:
+                    doi = fix_doi(article)
+                    if doi:
+                        bioproject_name = (
+                            str(json_file).split("/")[-1].split("_articles.json")[0]
+                        )
+                        downloader = TXTDownloader(
+                            api_keys_file, email, input_dir, bioproject_name
+                        )
+                        result = downloader.download_txt(doi)
+
+                        if result is None:
+                            log_text.info(f"Successfully processed DOI: {doi}")
+                        else:
+                            log_text.error(
+                                f"Failed to process DOI: {doi} | Error: {result}"
+                            )
+                            logger_dict[bioproject_name] = logger_dict.get(
+                                bioproject_name, []
+                            ) + [doi]
+            pmids = data.get("PubMedIDs")
+            log_text.info(f"Processing {len(pmids)} PubMed IDs")
+            for pmid in pmids:
+                doi = pmid2doi(pmid)
+                bioproject_name = (
+                    str(json_file).split("/")[-1].split("_articles.json")[0]
+                )
                 if doi:
-                    bioproject_name = (
-                        str(json_file).split("/")[-1].split("_articles.json")[0]
-                    )
                     downloader = TXTDownloader(
                         api_keys_file, email, input_dir, bioproject_name
                     )
                     result = downloader.download_txt(doi)
 
                     if result is None:
-                        log_text.info(f"Successfully processed DOI: {doi}")
+                        log_text.info(
+                            f"Successfully processed PMID: {pmid} -> DOI: {doi}"
+                        )
                     else:
                         log_text.error(
-                            f"Failed to process DOI: {doi} | Error: {result}"
+                            f"Failed to process PMID: {pmid} -> DOI: {doi} | Error: {result}"
                         )
                         logger_dict[bioproject_name] = logger_dict.get(
                             bioproject_name, []
                         ) + [doi]
-
+                else:
+                    log_text.error(f"Could not convert PMID to DOI: {pmid}")
+                    logger_dict[bioproject_name] = logger_dict.get(
+                        bioproject_name, []
+                    ) + [f"PMID:{pmid}"]
             # To avoid hitting rate limits
             time.sleep(randint(1, 3))
-
+            downloader.print_status()
         except Exception as e:
             log_text.error(f"Error processing file {json_file}: {str(e)}")
+            
 
         # Savinf the log of failed DOIs in the folder
+        bioproject_name = str(json_file).split("/")[-1].split("_articles.json")[0]
         error_file = bioproject_name + "/failed_dois.json"
         output_dir = input_dir / "files" / error_file
+        output_dir.parent.mkdir(parents=True, exist_ok=True)
         with open(output_dir, "w", encoding="utf-8") as f:
             json.dump(logger_dict, f, indent=2, ensure_ascii=False)
         log_text.info(f"Saved error log to: {output_dir}")
@@ -1279,7 +1496,7 @@ def main():
     with open(combined_error_file, "w", encoding="utf-8") as f:
         json.dump(all_errors, f, indent=2, ensure_ascii=False)
     log_text.info(f"Saved combined error log to: {combined_error_file}")
-
+    downloader.print_status()
 
 if __name__ == "__main__":
     main()
