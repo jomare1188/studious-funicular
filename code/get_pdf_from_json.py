@@ -1445,35 +1445,35 @@ def main():
                             logger_dict[bioproject_name] = logger_dict.get(
                                 bioproject_name, []
                             ) + [doi]
-            pmids = data.get("PubMedIDs")
-            log_text.info(f"Processing {len(pmids)} PubMed IDs")
-            for pmid in pmids:
-                doi = pmid2doi(pmid)
-                bioproject_name = (
-                    str(json_file).split("/")[-1].split("_articles.json")[0]
-                )
-                if doi:
-                    downloader = TXTDownloader(
-                        api_keys_file, email, input_dir, bioproject_name
+            pmids = data.get("PubMedIDs", None)
+            if pmids:
+                for pmid in pmids:
+                    doi = pmid2doi(pmid)
+                    bioproject_name = (
+                        str(json_file).split("/")[-1].split("_articles.json")[0]
                     )
-                    result = downloader.download_txt(doi)
+                    if doi:
+                        downloader = TXTDownloader(
+                            api_keys_file, email, input_dir, bioproject_name
+                        )
+                        result = downloader.download_txt(doi)
 
-                    if result is None:
-                        log_text.info(
-                            f"Successfully processed PMID: {pmid} -> DOI: {doi}"
-                        )
+                        if result is None:
+                            log_text.info(
+                                f"Successfully processed PMID: {pmid} -> DOI: {doi}"
+                            )
+                        else:
+                            log_text.error(
+                                f"Failed to process PMID: {pmid} -> DOI: {doi} | Error: {result}"
+                            )
+                            logger_dict[bioproject_name] = logger_dict.get(
+                                bioproject_name, []
+                            ) + [doi]
                     else:
-                        log_text.error(
-                            f"Failed to process PMID: {pmid} -> DOI: {doi} | Error: {result}"
-                        )
+                        log_text.error(f"Could not convert PMID to DOI: {pmid}")
                         logger_dict[bioproject_name] = logger_dict.get(
                             bioproject_name, []
-                        ) + [doi]
-                else:
-                    log_text.error(f"Could not convert PMID to DOI: {pmid}")
-                    logger_dict[bioproject_name] = logger_dict.get(
-                        bioproject_name, []
-                    ) + [f"PMID:{pmid}"]
+                        ) + [f"PMID:{pmid}"]
             # To avoid hitting rate limits
             time.sleep(randint(1, 3))
             downloader.print_status()
