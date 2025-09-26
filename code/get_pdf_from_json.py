@@ -80,6 +80,13 @@ class APIRateLimiter:
                     )
                     while api_name in self._sleeping_apis:
                         time.sleep(10)  # Check every 10 seconds
+                        # Log message for every 5 minutes of waiting show past time, current count and how much time has passed and how much time is left
+                        if int(time.time()) % 300 == 0:
+                            with self._lock:
+                                current_count = self.download_counts[api_name]
+                            log_text.info(
+                                f"Still waiting for {api_name}. Current count: {current_count}. Time waited: {int(time.time()) % 300} seconds."
+                            )
 
                 # Increment counter before making request
                 with self._lock:
