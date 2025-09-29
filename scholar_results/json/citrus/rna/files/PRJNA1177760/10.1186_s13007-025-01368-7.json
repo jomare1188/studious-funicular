@@ -1,0 +1,670 @@
+{
+  "metadata": {
+    "extraction_timestamp": "2025-09-26T11:17:45.785500",
+    "article_type": "research-article",
+    "language": "en"
+  },
+  "publication_info": {
+    "journal": "Plant Methods",
+    "issn": "1746-4811",
+    "publisher": "BioMed Central",
+    "doi": "10.1186/s13007-025-01368-7",
+    "volume": "21",
+    "issue": "1",
+    "publication_dates": {
+      "pub": "2025-04-10",
+      "collection": "2025-12"
+    }
+  },
+  "title": "Citrus phloem specific transcriptional profiling through the development of a citrus tristeza virus expressed translating ribosome affinity purification system",
+  "authors": [
+    {
+      "surname": "Culver",
+      "given_names": "James N.",
+      "full_name": "James N. Culver",
+      "email": "jculver@umd.edu",
+      "is_corresponding": true,
+      "affiliation_refs": [
+        "Aff1",
+        "Aff2"
+      ]
+    },
+    {
+      "surname": "Vallar",
+      "given_names": "Meinhart",
+      "full_name": "Meinhart Vallar",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff1"
+      ]
+    },
+    {
+      "surname": "Burchard",
+      "given_names": "Erik",
+      "full_name": "Erik Burchard",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff3"
+      ]
+    },
+    {
+      "surname": "Kamens",
+      "given_names": "Sophie",
+      "full_name": "Sophie Kamens",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff1"
+      ]
+    },
+    {
+      "surname": "Lair",
+      "given_names": "Sebastien",
+      "full_name": "Sebastien Lair",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff1"
+      ]
+    },
+    {
+      "surname": "Qi",
+      "given_names": "Yiping",
+      "full_name": "Yiping Qi",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff2"
+      ]
+    },
+    {
+      "surname": "Collum",
+      "given_names": "Tamara D.",
+      "full_name": "Tamara D. Collum",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff3"
+      ]
+    },
+    {
+      "surname": "Dardick",
+      "given_names": "Christopher",
+      "full_name": "Christopher Dardick",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff3"
+      ]
+    },
+    {
+      "surname": "El-Mohtar",
+      "given_names": "Choaa A.",
+      "full_name": "Choaa A. El-Mohtar",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff4"
+      ]
+    },
+    {
+      "surname": "Rogers",
+      "given_names": "Elizabeth E.",
+      "full_name": "Elizabeth E. Rogers",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff5"
+      ]
+    }
+  ],
+  "affiliations": {
+    "Aff1": {
+      "institution": "University of Maryland",
+      "department": "Institute for Bioscience and Biotechnology Research",
+      "address": {
+        "city": "College Park",
+        "state": "MD",
+        "country": "USA"
+      }
+    },
+    "Aff2": {
+      "institution": "University of Maryland",
+      "department": "Department of Plant Science and Landscape Architecture",
+      "address": {
+        "city": "College Park",
+        "state": "MD",
+        "country": "USA"
+      }
+    },
+    "Aff3": {
+      "institution": "USDA, Agricultural Research Service, Appalachian Fruit Research Station",
+      "address": {
+        "city": "Kearneysville",
+        "state": "WV",
+        "country": "USA"
+      }
+    },
+    "Aff4": {
+      "institution": "University of Florida",
+      "department": "Department of Plant Pathology, Citrus Research and Education Center",
+      "address": {
+        "city": "Gainesville",
+        "state": "FL",
+        "country": "USA"
+      }
+    },
+    "Aff5": {
+      "institution": "USDA, Agricultural Research Service, Foreign Disease-Weed Science Research Unit",
+      "address": {
+        "city": "Frederick",
+        "state": "MD",
+        "country": "USA"
+      }
+    }
+  },
+  "abstract": {
+    "sections": {
+      "background": "The analysis of translationally active mRNAs, or translatome, is a useful approach for monitoring cellular and plant physiological responses. One such method is the translating ribosome affinity purification (TRAP) system, which utilizes tagged ribosomal proteins to isolate ribosome-associated transcripts. This approach enables spatial and temporal gene expression analysis by driving the expression of tagged ribosomal proteins with tissue- or development-specific promoters. In plants, TRAP has enhanced our understanding of physiological responses to various biotic and abiotic factors. However, its utility is hampered by the necessity to generate transgenic plants expressing the tagged ribosomal protein, making this approach particularly challenging in perennial crops such as citrus.",
+      "results": "This study involved the construction of a citrus tristeza virus (CTV) vector to express an immuno-tagged ribosome protein (CTV-hfRPL18). CTV, limited to the phloem, has been used for expressing marker and therapeutic sequences, making it suitable for analyzing citrus vascular tissue responses, including those related to huanglongbing disease. CTV-hfRPL18 successfully expressed a clementine-derived hfRPL18 peptide, and polysome purifications demonstrated enrichment for the hfRPL18 peptide. Subsequent translatome isolations from infected Nicotiana benthamiana and Citrus macrophylla showed enrichment for phloem-associated genes.",
+      "conclusion": "The CTV-hfRPL18 vector offers a transgene-free and rapid system for TRAP expression and translatome analysis of phloem tissues within citrus."
+    },
+    "full_text": "Abstract Background The analysis of translationally active mRNAs, or translatome, is a useful approach for monitoring cellular and plant physiological responses. One such method is the translating ribosome affinity purification (TRAP) system, which utilizes tagged ribosomal proteins to isolate ribosome-associated transcripts. This approach enables spatial and temporal gene expression analysis by driving the expression of tagged ribosomal proteins with tissue- or development-specific promoters. In plants, TRAP has enhanced our understanding of physiological responses to various biotic and abiotic factors. However, its utility is hampered by the necessity to generate transgenic plants expressing the tagged ribosomal protein, making this approach particularly challenging in perennial crops such as citrus. Results This study involved the construction of a citrus tristeza virus (CTV) vector to express an immuno-tagged ribosome protein (CTV-hfRPL18). CTV, limited to the phloem, has been used for expressing marker and therapeutic sequences, making it suitable for analyzing citrus vascular tissue responses, including those related to huanglongbing disease. CTV-hfRPL18 successfully expressed a clementine-derived hfRPL18 peptide, and polysome purifications demonstrated enrichment for the hfRPL18 peptide. Subsequent translatome isolations from infected Nicotiana benthamiana and Citrus macrophylla showed enrichment for phloem-associated genes. Conclusion The CTV-hfRPL18 vector offers a transgene-free and rapid system for TRAP expression and translatome analysis of phloem tissues within citrus."
+  },
+  "keywords": [
+    {
+      "language": "en",
+      "keywords": [
+        "Virus vector",
+        "Phloem gene expression",
+        "Citrus translatome analysis",
+        "Translating ribosome affinity purification (TRAP)"
+      ]
+    },
+    {
+      "language": "en",
+      "keywords": [
+        "Protein trafficking in plants",
+        "Plant stem cell",
+        "Plant Biotechnology",
+        "Plant Molecular Biology",
+        "RNA sequencing",
+        "Replisome"
+      ]
+    },
+    {
+      "language": "en",
+      "keywords": [
+        "Biological Sciences",
+        "Plant Biology"
+      ]
+    }
+  ],
+  "funding": [
+    {
+      "source": "United States Department of Agriculture, National Institutes of Food and Agriculture",
+      "award_id": "2020-70029-33161"
+    },
+    {
+      "source": "Citrus Research and Development Foundation,",
+      "award_id": "18-019"
+    }
+  ],
+  "content": {
+    "sections": [
+      {
+        "id": "Sec1",
+        "title": "Background",
+        "paragraphs": [
+          {
+            "id": "Par4",
+            "text": "The ability to identify transcriptional responses in plants has revolutionized our understanding of plant-pathogen interactions. However, plant responses are often compartmentalized, with unique transcriptional responses occurring in different organs, tissues, and cell types [ 1 , 2 ]. Many pathogens have evolved to infect specific host tissues, such as the powdery mildew pathogen Blumeria graminis , which invades only leaf epidermal cells, and some virus pathogens, like potato leaf-roll virus, which infect only host vascular tissues [ 3 , 4 ]. Consequently, key host responses against pathogens often occur in a cell- and tissue-specific manner. To better understand these interactions and responses, methods are needed to access transcriptional, protein, and metabolic responses within specific host tissues that interface directly with the pathogen."
+          },
+          {
+            "id": "Par5",
+            "text": "Methods for isolating RNAs from specific cells or plant tissues include techniques such as laser dissection, aphid stylectomy, and single-cell isolation and sorting [ 5 , 6 – 7 ]. While effective, these methods require specialized equipment and can be costly to perform. As an alternative, translating ribosome affinity purification (TRAP) has been adapted to plants, offering a simple, non-invasive means to isolate cell- and tissue-specific mRNAs [ 8 ]. This method uses an expressed tagged ribosomal protein to pull down mRNA-associated polyribosomes (polysomes), allowing the isolation of actively translated mRNAs. TRAP has been successfully used to investigate the transcriptional profile of specific plant cells and tissues [ 9 , 10 – 11 ]."
+          },
+          {
+            "id": "Par6",
+            "text": "TRAP has been adapted to investigate the transcriptional profile of a range of specific plant cells and tissues during developmental, environmental and pathogenic responses [ 12 , 13 , 14 , 15 , 16 – 17 ]. TRAP based investigations have proven particularly effective at analyzing plant responses within the vascular phloem [ 8 , 12 , 18 ]. Thus, TRAP is ideally suited for analyzing responses to phloem-restricted pathogens, such as the causal agent of Huanglongbing (HLB), Candidatus Liberibacter asiaticus (CLas), which is a significant threat to citrus production [ 19 ]. Although studies have investigated gene transcriptional changes in citrus during CLas infection, the lack of phloem-specific studies hinders the identification of transcriptional alterations occurring directly in CLas-infected tissues [ 20 , 21 , 22 – 23 ]. However, a drawback of using TRAP is the need to produce transgenic plants expressing the tagged ribosomal protein from cell- or tissue-specific promoters. This drawback is especially acute in plant species such as citrus that are difficult and time consuming to transform and regenerate. Thus, there is a need to establish simpler means to introduce the tagged ribosomal protein in a phloem specific manner."
+          },
+          {
+            "id": "Par7",
+            "text": "In this study, we aimed to overcome the need for transgenic plants by using a virus vector to express the tagged ribosome peptide. To promote phloem transcript isolation, we selected the citrus tristeza virus (CTV) vector CTV9-47R-244 [ 24 , 25 ]. CTV is a member of the Closteroviridae , with a 19.3 kb plus-strand RNA genome that contains 12 open reading frames along with 5’ and 3’ non-coding regions. The virus is predominately phloem localized but can also invade elements of the metaxylem [ 26 ]. Functions for several of the encoded peptides have been identified and their role in virus replication, movement and disease development were investigated [ 27 , 28 ]. CTV’s importance as a pathogen and its potential use as a biocontrol agent has resulted in its development as a vector for the expression of functional peptides and nucleic acids [ 24 , 28 ]. CTV vectors have generally been developed from mild strains and can be highly stable with reports of more than four years of expression within infected trees [ 29 ]. Application of the TRAP system through the phloem-limited CTV vector offers a unique means to identify phloem-expressed mRNAs without the need for transgenic methods. This is particularly important in citrus, where many economically important cultivars are challenging to transform."
+          }
+        ]
+      },
+      {
+        "id": "Sec2",
+        "title": "Methods",
+        "paragraphs": [
+          {
+            "id": "Par8",
+            "text": "The RPL18 peptide sequence, Ciclev10002597, was obtained from Citrus x clementina , v1.0 [ 30 ]. The RPL18 coding sequence was altered to reduce homology to the endogenous host gene while maintaining codon usage for maximum expression (Table S1 ). The commercially synthesized RPL18 ORF sequence shared 77% identity to the N. benthamiana and 80% identity to Citrus x clementina . The synthesized ORF also contained 5’ hexa-histidine and FLAG tags as well as 5’ Stu I and 3’ Pac I restriction sites for cloning into the full-length CTV infectious clone, p35SCTV9-47R-244 [ 24 , 25 ]. The resulting construct p35SCTV-hfRPL18 replaces the virus p13 ORF with the modified RPL18 coding sequence (Fig. 1 a) [ 24 ]. Agroinfiltration was used to initiate CTV-GFP and CTV-hfRPL18 infections in N. benthamiana . Infected N. benthamiana leaf extract containing virions was used as inoculum to infect Citrus macrophylla via a bark-flap method [ 31 ]. Inoculated N. benthamiana plants were maintained in growth chambers with 12-hr photoperiods at 24 o C. Infected C. macrophylla plants were maintained with 14-hr photoperiods at 20–26 o C in the plant biosafety level 3 greenhouse facility at the United States Department of Agriculture, Agriculture Research Service facility, Fort Detrick, MD."
+          },
+          {
+            "id": "Par9",
+            "text": "Fig. 1 CTV-hfRPL18 construct. a , Diagram of CTV-hfRPL18 genome showing replacement of the CTV p13 ORF with that of hfRPL18 (red). b and c , Disease symptoms associated with CTV-hfRPL18 infection in N. benthamiana ( b ) and C. macrophylla ( c )"
+          },
+          {
+            "id": "",
+            "text": "CTV-hfRPL18 construct. a , Diagram of CTV-hfRPL18 genome showing replacement of the CTV p13 ORF with that of hfRPL18 (red). b and c , Disease symptoms associated with CTV-hfRPL18 infection in N. benthamiana ( b ) and C. macrophylla ( c )"
+          },
+          {
+            "id": "Par10",
+            "text": "Infected N. benthamiana leaf tissue was harvested between 6- and 12-weeks post-infiltration while infected C. macrophylla leaf tissue was collected between 3 and 17 months post-infection. Maintenance of the CTV inserted RPL18 ORF was confirmed via RT-PCR using primers sets flanking the ORF (5’AGTCCTCGAGAACCACTTAGTTGTTTAGCTATC; 3’GTACCTGCAGATCCTGATGGTCTCCGTTCA) as well as specific to the inserted RPL18 ORF (5’AGGCCTATGGGTCATCATCATCACCATC; 3’TTAATTAATCAAACTCTAAAACCCC). The amplified CTV genome region was also sequenced to ensure fidelity to the cloned RPL18 sequence."
+          },
+          {
+            "id": "Par11",
+            "text": "Polysomes were isolated from CTV infected tissues following a previously described method [ 12 , 13 , 32 , 33 ]. For N. benthamiana , leaf extracts were derived from eight to twelve leaves taken from at least two infected plants. For C. macrophylla , ~ 5 g of leaves from new flushes of growth were taken from individual infected trees. In summary, leaf tissue was pulverized in liquid nitrogen and extracted in Polysome Extraction Buffer (PEB; 200 mM Tris-HCl, pH 9.0, 200 mM KCl, 25 mM ethylene glycol tetraacetic acid (EGTA) pH 8.0, 35mM MgCl2, 1% (v/v) octylphenyl-polyethylene glycol (Igepal CA-630), 1% (v/v) polyoxyethylene 10 tridecyl ether, 1% (v/ v) sodium deoxycholate, 5 mM dithiothreitol (DTT), 1 mM PMSF, 50 µg/mL cycloheximide, 50 µg/mL chloramphenicol, 0.5 mg/mL heparin) using 10 mL PEB per 5 g of tissue. Leaf extracts were initially clarified by centrifugation at 16,000 g for 15 min and then filtered through miracloth. Filtered extracts were then loaded onto 1.6 M sucrose cushion and centrifuged at 170,000 g for 18 h at 4 °C to pellet polysomes. The resulting polysome pellet was resuspended in 1 mL of PEB with anti-FLAG magnetic beads (50 µl– Sigma-Aldrich, St. Louis, MO) and incubated overnight at 4 °C. Beads were washed three times in wash buffer (200 mM Tris- HCl, pH 9.0, 200 mM KCl, 25 mM EGTA, 35 mM MgCl2, 5 mM DTT, 50 µg/mL cycloheximide, 50 µg/mL chloramphenicol) and RNA was eluted using 100 µl wash buffer with 10 µL of 5 mg/mL FLAG3 peptide (Sigma-Aldrich, St. Louis, MO), and 0.5 µl of 2 U/mL RNAse OUT (Thermo-Fisher Scientific Cleveland, OH). Eluted RNA was further purified by Qiagen RNeasy kit (Qiagen, Valencia, CA USA) as per the manufactures protocol. Expression of the hfRPL18 peptide was assessed by SDS-PAGE and western blotting using antibodies against the FLAG or hexa-histidine tag (Sigma-Aldrich, St. Louis, MO)."
+          },
+          {
+            "id": "Par12",
+            "text": "RNAseq was performed on translatome mRNA isolated from C. macrophylla leaf tissue isolated at two independent times from two CTV infected trees and two to three infected CTV-hfRPL18 trees. Generated cDNA libraries averaged > 18 million 150-bp paired-end sequence reads. Corresponding Fastq sequence files were trimmed and filtered for adapter sequence and quality using BBDuk (Joint Genome Institute, https://jgi.doe.gov/ ) software. Filtered reads were mapped to the Phytozome Citrus clementina ver 1.0 genome ( https://phytozome-next.jgi.doe.gov ), the CTV genome, and the CTV_RPL18 sequence using STAR (version 2.7.10a, GitHub - alexdobin/STAR: RNA-seq aligner) transcript alignment software. BAM files from mapping were visualized and counted using CLC Genomics Workbench Version 22.0.1 ( https://digitalinsights.qiagen.com ). Counts for the C. clementina genome mapping were generated using feature counts v2.0.3 from the Subread ( http://subread.sourceforge.net ) software package. Differential gene expression analysis (‘CTV’ vs. ‘CTV-hfRPL18’) was performed using edgeR (Bioconductor - edgeR) v3.6.8 running in the R (R: The R Project for Statistical Computing (r-project.org) version 4.2.2 environment. The best Arabidopsis gene matches for identified genes were derived from the Phytozome C. clementina annotation. Gene ontology (GO) analysis was done using the graphical gene-set enrichment tool ShinyGO [ 34 ]."
+          },
+          {
+            "id": "Par13",
+            "text": "CTV-hfRPL18 translatome RNA and total RNA isolated from CTV-hfRPL18 infected N. benthamiana leaf tissue were compared by PCR for enrichment of previously identified phloem associated mRNAs using gene specific primer pairs (Table S2 ) [ 12 ]. N. benthamiana CTV-hfRPL18 translatome RNA was purified as described above with the Qiagen RNeasy kit used to isolate total RNA."
+          },
+          {
+            "id": "Par14",
+            "text": "In citrus, conformation of phloem identified CTV-hfRPL18 translatome mRNA was done using promoter expression studies. Specifically, promoter sequences from callose synthase 7 - Ciclev10030495m (1725nt), sulfate transporter 2;1- Ciclev10025101m (1723nt), leucine-rich repeat kinase - Ciclev10024393m (1705) and cation binding protein - Ciclev10016618m (1658nt) were identified using the Citrus Genome Database ( https://www.citrusgenomedb.org ) and PCR amplified from genomic DNA isolated from Citrus x clementina trees using promoter specific primer (Table S3 ). Citrus promoter sequences were subsequently cloned upstream of the GUS open reading frame within pBI101.1 (Arabidopsis Biological Resource Center) using primer-generated restriction sites. Promoter GUS constructs were transformed into Agrobacterium tumefaciens GV3101 [ 35 ], and a floral dip method used to transform Arabidopsis thaliana , Shahdara [ 36 ]. Transformed plants were subjected to GUS histochemical staining as previously described [ 37 ]."
+          }
+        ],
+        "subsections": [
+          {
+            "id": "Sec3",
+            "title": "CTV translatome construct, infection and plant growth conditions",
+            "paragraphs": [
+              {
+                "id": "Par8",
+                "text": "The RPL18 peptide sequence, Ciclev10002597, was obtained from Citrus x clementina , v1.0 [ 30 ]. The RPL18 coding sequence was altered to reduce homology to the endogenous host gene while maintaining codon usage for maximum expression (Table S1 ). The commercially synthesized RPL18 ORF sequence shared 77% identity to the N. benthamiana and 80% identity to Citrus x clementina . The synthesized ORF also contained 5’ hexa-histidine and FLAG tags as well as 5’ Stu I and 3’ Pac I restriction sites for cloning into the full-length CTV infectious clone, p35SCTV9-47R-244 [ 24 , 25 ]. The resulting construct p35SCTV-hfRPL18 replaces the virus p13 ORF with the modified RPL18 coding sequence (Fig. 1 a) [ 24 ]. Agroinfiltration was used to initiate CTV-GFP and CTV-hfRPL18 infections in N. benthamiana . Infected N. benthamiana leaf extract containing virions was used as inoculum to infect Citrus macrophylla via a bark-flap method [ 31 ]. Inoculated N. benthamiana plants were maintained in growth chambers with 12-hr photoperiods at 24 o C. Infected C. macrophylla plants were maintained with 14-hr photoperiods at 20–26 o C in the plant biosafety level 3 greenhouse facility at the United States Department of Agriculture, Agriculture Research Service facility, Fort Detrick, MD."
+              },
+              {
+                "id": "Par9",
+                "text": "Fig. 1 CTV-hfRPL18 construct. a , Diagram of CTV-hfRPL18 genome showing replacement of the CTV p13 ORF with that of hfRPL18 (red). b and c , Disease symptoms associated with CTV-hfRPL18 infection in N. benthamiana ( b ) and C. macrophylla ( c )"
+              },
+              {
+                "id": "",
+                "text": "CTV-hfRPL18 construct. a , Diagram of CTV-hfRPL18 genome showing replacement of the CTV p13 ORF with that of hfRPL18 (red). b and c , Disease symptoms associated with CTV-hfRPL18 infection in N. benthamiana ( b ) and C. macrophylla ( c )"
+              },
+              {
+                "id": "Par10",
+                "text": "Infected N. benthamiana leaf tissue was harvested between 6- and 12-weeks post-infiltration while infected C. macrophylla leaf tissue was collected between 3 and 17 months post-infection. Maintenance of the CTV inserted RPL18 ORF was confirmed via RT-PCR using primers sets flanking the ORF (5’AGTCCTCGAGAACCACTTAGTTGTTTAGCTATC; 3’GTACCTGCAGATCCTGATGGTCTCCGTTCA) as well as specific to the inserted RPL18 ORF (5’AGGCCTATGGGTCATCATCATCACCATC; 3’TTAATTAATCAAACTCTAAAACCCC). The amplified CTV genome region was also sequenced to ensure fidelity to the cloned RPL18 sequence."
+              }
+            ]
+          },
+          {
+            "id": "Sec4",
+            "title": "Purification of polysomes and associated mRNAs",
+            "paragraphs": [
+              {
+                "id": "Par11",
+                "text": "Polysomes were isolated from CTV infected tissues following a previously described method [ 12 , 13 , 32 , 33 ]. For N. benthamiana , leaf extracts were derived from eight to twelve leaves taken from at least two infected plants. For C. macrophylla , ~ 5 g of leaves from new flushes of growth were taken from individual infected trees. In summary, leaf tissue was pulverized in liquid nitrogen and extracted in Polysome Extraction Buffer (PEB; 200 mM Tris-HCl, pH 9.0, 200 mM KCl, 25 mM ethylene glycol tetraacetic acid (EGTA) pH 8.0, 35mM MgCl2, 1% (v/v) octylphenyl-polyethylene glycol (Igepal CA-630), 1% (v/v) polyoxyethylene 10 tridecyl ether, 1% (v/ v) sodium deoxycholate, 5 mM dithiothreitol (DTT), 1 mM PMSF, 50 µg/mL cycloheximide, 50 µg/mL chloramphenicol, 0.5 mg/mL heparin) using 10 mL PEB per 5 g of tissue. Leaf extracts were initially clarified by centrifugation at 16,000 g for 15 min and then filtered through miracloth. Filtered extracts were then loaded onto 1.6 M sucrose cushion and centrifuged at 170,000 g for 18 h at 4 °C to pellet polysomes. The resulting polysome pellet was resuspended in 1 mL of PEB with anti-FLAG magnetic beads (50 µl– Sigma-Aldrich, St. Louis, MO) and incubated overnight at 4 °C. Beads were washed three times in wash buffer (200 mM Tris- HCl, pH 9.0, 200 mM KCl, 25 mM EGTA, 35 mM MgCl2, 5 mM DTT, 50 µg/mL cycloheximide, 50 µg/mL chloramphenicol) and RNA was eluted using 100 µl wash buffer with 10 µL of 5 mg/mL FLAG3 peptide (Sigma-Aldrich, St. Louis, MO), and 0.5 µl of 2 U/mL RNAse OUT (Thermo-Fisher Scientific Cleveland, OH). Eluted RNA was further purified by Qiagen RNeasy kit (Qiagen, Valencia, CA USA) as per the manufactures protocol. Expression of the hfRPL18 peptide was assessed by SDS-PAGE and western blotting using antibodies against the FLAG or hexa-histidine tag (Sigma-Aldrich, St. Louis, MO)."
+              }
+            ]
+          },
+          {
+            "id": "Sec5",
+            "title": "RNA translatome analysis and gene ontology",
+            "paragraphs": [
+              {
+                "id": "Par12",
+                "text": "RNAseq was performed on translatome mRNA isolated from C. macrophylla leaf tissue isolated at two independent times from two CTV infected trees and two to three infected CTV-hfRPL18 trees. Generated cDNA libraries averaged > 18 million 150-bp paired-end sequence reads. Corresponding Fastq sequence files were trimmed and filtered for adapter sequence and quality using BBDuk (Joint Genome Institute, https://jgi.doe.gov/ ) software. Filtered reads were mapped to the Phytozome Citrus clementina ver 1.0 genome ( https://phytozome-next.jgi.doe.gov ), the CTV genome, and the CTV_RPL18 sequence using STAR (version 2.7.10a, GitHub - alexdobin/STAR: RNA-seq aligner) transcript alignment software. BAM files from mapping were visualized and counted using CLC Genomics Workbench Version 22.0.1 ( https://digitalinsights.qiagen.com ). Counts for the C. clementina genome mapping were generated using feature counts v2.0.3 from the Subread ( http://subread.sourceforge.net ) software package. Differential gene expression analysis (‘CTV’ vs. ‘CTV-hfRPL18’) was performed using edgeR (Bioconductor - edgeR) v3.6.8 running in the R (R: The R Project for Statistical Computing (r-project.org) version 4.2.2 environment. The best Arabidopsis gene matches for identified genes were derived from the Phytozome C. clementina annotation. Gene ontology (GO) analysis was done using the graphical gene-set enrichment tool ShinyGO [ 34 ]."
+              }
+            ]
+          },
+          {
+            "id": "Sec6",
+            "title": "Confirmation of phloem expression",
+            "paragraphs": [
+              {
+                "id": "Par13",
+                "text": "CTV-hfRPL18 translatome RNA and total RNA isolated from CTV-hfRPL18 infected N. benthamiana leaf tissue were compared by PCR for enrichment of previously identified phloem associated mRNAs using gene specific primer pairs (Table S2 ) [ 12 ]. N. benthamiana CTV-hfRPL18 translatome RNA was purified as described above with the Qiagen RNeasy kit used to isolate total RNA."
+              },
+              {
+                "id": "Par14",
+                "text": "In citrus, conformation of phloem identified CTV-hfRPL18 translatome mRNA was done using promoter expression studies. Specifically, promoter sequences from callose synthase 7 - Ciclev10030495m (1725nt), sulfate transporter 2;1- Ciclev10025101m (1723nt), leucine-rich repeat kinase - Ciclev10024393m (1705) and cation binding protein - Ciclev10016618m (1658nt) were identified using the Citrus Genome Database ( https://www.citrusgenomedb.org ) and PCR amplified from genomic DNA isolated from Citrus x clementina trees using promoter specific primer (Table S3 ). Citrus promoter sequences were subsequently cloned upstream of the GUS open reading frame within pBI101.1 (Arabidopsis Biological Resource Center) using primer-generated restriction sites. Promoter GUS constructs were transformed into Agrobacterium tumefaciens GV3101 [ 35 ], and a floral dip method used to transform Arabidopsis thaliana , Shahdara [ 36 ]. Transformed plants were subjected to GUS histochemical staining as previously described [ 37 ]."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Sec3",
+        "title": "CTV translatome construct, infection and plant growth conditions",
+        "paragraphs": [
+          {
+            "id": "Par8",
+            "text": "The RPL18 peptide sequence, Ciclev10002597, was obtained from Citrus x clementina , v1.0 [ 30 ]. The RPL18 coding sequence was altered to reduce homology to the endogenous host gene while maintaining codon usage for maximum expression (Table S1 ). The commercially synthesized RPL18 ORF sequence shared 77% identity to the N. benthamiana and 80% identity to Citrus x clementina . The synthesized ORF also contained 5’ hexa-histidine and FLAG tags as well as 5’ Stu I and 3’ Pac I restriction sites for cloning into the full-length CTV infectious clone, p35SCTV9-47R-244 [ 24 , 25 ]. The resulting construct p35SCTV-hfRPL18 replaces the virus p13 ORF with the modified RPL18 coding sequence (Fig. 1 a) [ 24 ]. Agroinfiltration was used to initiate CTV-GFP and CTV-hfRPL18 infections in N. benthamiana . Infected N. benthamiana leaf extract containing virions was used as inoculum to infect Citrus macrophylla via a bark-flap method [ 31 ]. Inoculated N. benthamiana plants were maintained in growth chambers with 12-hr photoperiods at 24 o C. Infected C. macrophylla plants were maintained with 14-hr photoperiods at 20–26 o C in the plant biosafety level 3 greenhouse facility at the United States Department of Agriculture, Agriculture Research Service facility, Fort Detrick, MD."
+          },
+          {
+            "id": "Par9",
+            "text": "Fig. 1 CTV-hfRPL18 construct. a , Diagram of CTV-hfRPL18 genome showing replacement of the CTV p13 ORF with that of hfRPL18 (red). b and c , Disease symptoms associated with CTV-hfRPL18 infection in N. benthamiana ( b ) and C. macrophylla ( c )"
+          },
+          {
+            "id": "",
+            "text": "CTV-hfRPL18 construct. a , Diagram of CTV-hfRPL18 genome showing replacement of the CTV p13 ORF with that of hfRPL18 (red). b and c , Disease symptoms associated with CTV-hfRPL18 infection in N. benthamiana ( b ) and C. macrophylla ( c )"
+          },
+          {
+            "id": "Par10",
+            "text": "Infected N. benthamiana leaf tissue was harvested between 6- and 12-weeks post-infiltration while infected C. macrophylla leaf tissue was collected between 3 and 17 months post-infection. Maintenance of the CTV inserted RPL18 ORF was confirmed via RT-PCR using primers sets flanking the ORF (5’AGTCCTCGAGAACCACTTAGTTGTTTAGCTATC; 3’GTACCTGCAGATCCTGATGGTCTCCGTTCA) as well as specific to the inserted RPL18 ORF (5’AGGCCTATGGGTCATCATCATCACCATC; 3’TTAATTAATCAAACTCTAAAACCCC). The amplified CTV genome region was also sequenced to ensure fidelity to the cloned RPL18 sequence."
+          }
+        ]
+      },
+      {
+        "id": "Sec4",
+        "title": "Purification of polysomes and associated mRNAs",
+        "paragraphs": [
+          {
+            "id": "Par11",
+            "text": "Polysomes were isolated from CTV infected tissues following a previously described method [ 12 , 13 , 32 , 33 ]. For N. benthamiana , leaf extracts were derived from eight to twelve leaves taken from at least two infected plants. For C. macrophylla , ~ 5 g of leaves from new flushes of growth were taken from individual infected trees. In summary, leaf tissue was pulverized in liquid nitrogen and extracted in Polysome Extraction Buffer (PEB; 200 mM Tris-HCl, pH 9.0, 200 mM KCl, 25 mM ethylene glycol tetraacetic acid (EGTA) pH 8.0, 35mM MgCl2, 1% (v/v) octylphenyl-polyethylene glycol (Igepal CA-630), 1% (v/v) polyoxyethylene 10 tridecyl ether, 1% (v/ v) sodium deoxycholate, 5 mM dithiothreitol (DTT), 1 mM PMSF, 50 µg/mL cycloheximide, 50 µg/mL chloramphenicol, 0.5 mg/mL heparin) using 10 mL PEB per 5 g of tissue. Leaf extracts were initially clarified by centrifugation at 16,000 g for 15 min and then filtered through miracloth. Filtered extracts were then loaded onto 1.6 M sucrose cushion and centrifuged at 170,000 g for 18 h at 4 °C to pellet polysomes. The resulting polysome pellet was resuspended in 1 mL of PEB with anti-FLAG magnetic beads (50 µl– Sigma-Aldrich, St. Louis, MO) and incubated overnight at 4 °C. Beads were washed three times in wash buffer (200 mM Tris- HCl, pH 9.0, 200 mM KCl, 25 mM EGTA, 35 mM MgCl2, 5 mM DTT, 50 µg/mL cycloheximide, 50 µg/mL chloramphenicol) and RNA was eluted using 100 µl wash buffer with 10 µL of 5 mg/mL FLAG3 peptide (Sigma-Aldrich, St. Louis, MO), and 0.5 µl of 2 U/mL RNAse OUT (Thermo-Fisher Scientific Cleveland, OH). Eluted RNA was further purified by Qiagen RNeasy kit (Qiagen, Valencia, CA USA) as per the manufactures protocol. Expression of the hfRPL18 peptide was assessed by SDS-PAGE and western blotting using antibodies against the FLAG or hexa-histidine tag (Sigma-Aldrich, St. Louis, MO)."
+          }
+        ]
+      },
+      {
+        "id": "Sec5",
+        "title": "RNA translatome analysis and gene ontology",
+        "paragraphs": [
+          {
+            "id": "Par12",
+            "text": "RNAseq was performed on translatome mRNA isolated from C. macrophylla leaf tissue isolated at two independent times from two CTV infected trees and two to three infected CTV-hfRPL18 trees. Generated cDNA libraries averaged > 18 million 150-bp paired-end sequence reads. Corresponding Fastq sequence files were trimmed and filtered for adapter sequence and quality using BBDuk (Joint Genome Institute, https://jgi.doe.gov/ ) software. Filtered reads were mapped to the Phytozome Citrus clementina ver 1.0 genome ( https://phytozome-next.jgi.doe.gov ), the CTV genome, and the CTV_RPL18 sequence using STAR (version 2.7.10a, GitHub - alexdobin/STAR: RNA-seq aligner) transcript alignment software. BAM files from mapping were visualized and counted using CLC Genomics Workbench Version 22.0.1 ( https://digitalinsights.qiagen.com ). Counts for the C. clementina genome mapping were generated using feature counts v2.0.3 from the Subread ( http://subread.sourceforge.net ) software package. Differential gene expression analysis (‘CTV’ vs. ‘CTV-hfRPL18’) was performed using edgeR (Bioconductor - edgeR) v3.6.8 running in the R (R: The R Project for Statistical Computing (r-project.org) version 4.2.2 environment. The best Arabidopsis gene matches for identified genes were derived from the Phytozome C. clementina annotation. Gene ontology (GO) analysis was done using the graphical gene-set enrichment tool ShinyGO [ 34 ]."
+          }
+        ]
+      },
+      {
+        "id": "Sec6",
+        "title": "Confirmation of phloem expression",
+        "paragraphs": [
+          {
+            "id": "Par13",
+            "text": "CTV-hfRPL18 translatome RNA and total RNA isolated from CTV-hfRPL18 infected N. benthamiana leaf tissue were compared by PCR for enrichment of previously identified phloem associated mRNAs using gene specific primer pairs (Table S2 ) [ 12 ]. N. benthamiana CTV-hfRPL18 translatome RNA was purified as described above with the Qiagen RNeasy kit used to isolate total RNA."
+          },
+          {
+            "id": "Par14",
+            "text": "In citrus, conformation of phloem identified CTV-hfRPL18 translatome mRNA was done using promoter expression studies. Specifically, promoter sequences from callose synthase 7 - Ciclev10030495m (1725nt), sulfate transporter 2;1- Ciclev10025101m (1723nt), leucine-rich repeat kinase - Ciclev10024393m (1705) and cation binding protein - Ciclev10016618m (1658nt) were identified using the Citrus Genome Database ( https://www.citrusgenomedb.org ) and PCR amplified from genomic DNA isolated from Citrus x clementina trees using promoter specific primer (Table S3 ). Citrus promoter sequences were subsequently cloned upstream of the GUS open reading frame within pBI101.1 (Arabidopsis Biological Resource Center) using primer-generated restriction sites. Promoter GUS constructs were transformed into Agrobacterium tumefaciens GV3101 [ 35 ], and a floral dip method used to transform Arabidopsis thaliana , Shahdara [ 36 ]. Transformed plants were subjected to GUS histochemical staining as previously described [ 37 ]."
+          }
+        ]
+      },
+      {
+        "id": "Sec7",
+        "title": "Results",
+        "paragraphs": [
+          {
+            "id": "Par15",
+            "text": "The p35SCTV9-47R-244 vector is derived from an attenuated CTV strain containing genome unique restriction sites that allowed for the replacement of the virus p13 ORF with that of the hfRPL18 ORF (Fig. 1 a) [ 24 ]. Loss of the CTV p13 ORF does not significantly impact virus infectivity, replication or spread within infected trees [ 38 ]. The CTV-hfRPL18 construct infected both N. benthamiana and C. macrophylla , causing leaf chlorosis in N. benthamiana and few detectable symptoms in new growth flushes of C. macrophylla (Fig. 1 b & c). The stability of CTV-hfRPL18 in C. macrophylla was examined at 3 months and then again in the same trees at 17 months post-infection. Total RNA from new leaf flushes was extracted, and RT-PCR was conducted using primers flanking or specific to the inserted hfRPL18 ORF. Results showed that the full-length hfRPL18 ORF was maintained and easily amplified using flanking primers at 3 months post-infection (Fig. 2 a). However, in each of the four trees tested there were additional smaller amplified bands likely representing viral genomes that had lost the inserted sequence. At 17 months post-infection most of the amplified bands observed using flanking primers were smaller in size than expected, indicating the loss of all or part of the hfRPL18 ORF (Fig. 2 b). However, using hfRPL18-specific primers, the full-length ORF was detected in 3 out of 4 infected trees, suggesting most infected trees partly retained the full hfRPL18 ORF (Fig. 2 b)."
+          },
+          {
+            "id": "Par16",
+            "text": "Fig. 2 Stability of CTV-hfRPL18 within infected C. macrophylla trees at 3- and 17-months post-infection. a , Amplified RT-PCR products using primers flanking the hfRPL18 ORF at 3 months post-infection. b , RT-PCR products using both flanking and hfRPL18 specific primers at 17 months post-infection. λ Pst (marker lane), + (plasmid CTV-hfRPL18), - (RT-PCR of RNA from a healthy tree), CTV (RT-PCR of RNA from CTV empty vector infected tree). Arrows indicate the expected location for full length product for flanking or hfRPL18 specific primers"
+          },
+          {
+            "id": "",
+            "text": "Stability of CTV-hfRPL18 within infected C. macrophylla trees at 3- and 17-months post-infection. a , Amplified RT-PCR products using primers flanking the hfRPL18 ORF at 3 months post-infection. b , RT-PCR products using both flanking and hfRPL18 specific primers at 17 months post-infection. λ Pst (marker lane), + (plasmid CTV-hfRPL18), - (RT-PCR of RNA from a healthy tree), CTV (RT-PCR of RNA from CTV empty vector infected tree). Arrows indicate the expected location for full length product for flanking or hfRPL18 specific primers"
+          },
+          {
+            "id": "Par17",
+            "text": "The CTV-hfRPL18 base vector p35SCTV9-47R-244 vector is known to infect the vascular phloem of both citrus and N. benthamiana [ 24 ]. Within infected N. benthamiana CTV-hfRPL18 spread systemically within six weeks post-agroinfiltration. The hfRPL18 peptide was readily detected within crude extracts of macerated systemic leaf tissues via Western immunoblot (Fig. 3 a). Isolation of the polysome fraction also produced detectable levels of hfRPL18, indicating the presence of the tagged peptide within assembled polysomes. Furthermore, eluate from the polysome fraction, incubated with anti-FLAG magnetic beads, showed enrichment for the CTV-expressed hfRPL18 peptide (Fig. 3 a). In C. macrophylla , the hfRPL18 peptide was not detected within crude extracts of macerated leaf tissues but was readily detected in the eluate from the polysome fraction incubated with anti-FLAG magnetic beads (Fig. 3 b). These findings demonstrate the expression of the hfRPL18 peptide by CTV and its assembly into polysomes."
+          },
+          {
+            "id": "Par18",
+            "text": "Fig. 3 hfRPL18 purification and associated RNA extractions. a and b , Detection of hfRPL18 by Western immunoblot at different purification steps in N. benthamiana and C. macrophylla displaying enrichment for the hfRPL18 protein from magnetic bead elution fractions. c , RNA levels obtained from magnetic beads eluted hfRPL18 protein. Bars represent average ± standard deviation (Table S4 )"
+          },
+          {
+            "id": "",
+            "text": "hfRPL18 purification and associated RNA extractions. a and b , Detection of hfRPL18 by Western immunoblot at different purification steps in N. benthamiana and C. macrophylla displaying enrichment for the hfRPL18 protein from magnetic bead elution fractions. c , RNA levels obtained from magnetic beads eluted hfRPL18 protein. Bars represent average ± standard deviation (Table S4 )"
+          },
+          {
+            "id": "Par19",
+            "text": "Within N. benthamiana leaf tissue infected with CTV-hfRPL18, RNA levels isolated from hfRPL18-purified polysomes were more than 25-fold higher than RNA isolated from tissue infected with CTV-GFP (51.2 ± 35.2 SD ng/µl vs. 2.3 ± 1.5 SD ng/µl, respectively; Table S4 , Fig. 3 c). For CTV-hfRPL18 infected C. macrophylla at 12–17 months post-infection, polysome RNA isolations averaged 2.5 fold higher than from C. macrophylla trees infected with the empty CTV9-47R-244 vector (125.6 ng/µl ± 29.7 SD vs. 48.5 ng/µl ± 20.4 SD, respectively; Table S4 , Fig. 3 c). The higher background levels of RNA from infected C. macrophylla were addressed by reducing the level of magnetic beads in the protocol from 50 to 25 µl and increasing wash times to 20 min, resulting in a 5.8-fold higher level of polysome RNA isolated from CTV-hfRPL18 vs. CTV9-47R-244 vector infected trees (Table S4 ). These findings indicate that CTV expressed hfRPL18 is produced during infection in both N. benthamiana and C. macrophylla and is readily purified from isolated polysome fractions."
+          },
+          {
+            "id": "Par20",
+            "text": "As CTV infected tissue does not contain hfRPL18, the mRNAs isolated from this tissue represent background RNA. To account for this background, RNAseq data from CTV infected tissues were compared to that of CTV-hfRPL18 infected tissues to identify mRNAs that were enriched in the CTV-hfRPL18 tissues. Results from this comparison identified 406 enriched genes from the CTV-hfRPL18 infected tissues (pValue < 0.05; Table S5 ). In examining the translatome within CTV-hfRPL18 infected plants we identified the presence of CTV genomic transcripts in all infected samples ranging from 95 to 2,510 total CTV reads per sample. However, read coverage for the region covering the inserted RPL18 ORF was low, averaging less than 10 reads per sample. These low read levels are likely due to instabilities in the CTV-hfRPL18 vector. Nonetheless, even in 17-month post-infection tissue with the greatest CTV instability, Western immunoblot detected the immune-tagged RPL18 protein (Fig. 3 b). This is consistent with our detection of full-length hfRPL18 in infected trees and previous studies that show the CTV vector can express the slightly larger GFP ORF for more than four years in citrus (Fig. 2 b) [ 29 ]."
+          },
+          {
+            "id": "Par21",
+            "text": "Gene ontology studies identified several biological processes with fold enrichments greater than 2.0 (Fig. 4 ). The GO process displaying the highest level of enrichment was potassium homeostasis. Potassium is the major cation found within phloem and an essential factor in plant growth, signaling, and responses to stress [ 39 , 40 ]. The second most highly enriched process was associated with mannitol responses. Mannitol is known to be a phloem-translocated photoassimilate associated with plant mediated pathogen resistance [ 41 , 42 ]. In citrus higher mannitol accumulations also correlate with increased levels of tolerance to CLas [ 43 ]. Other enriched processes include GO terms associated with cell and membrane transport, ion transport, and flavonoid biosynthesis and metabolism. These processes are consistent with the abundance of ions such as potassium found within phloem while flavonoids are plant secondary metabolites with diverse functions, including defense against pathogen infection and stress responses [ 42 , 44 , 45 ]. Combined the isolation of mRNAs associated with these biological processes is consistent with phloem functions and support the ability of the CTV-hfRPL18 to isolate phloem associated mRNAs."
+          },
+          {
+            "id": "Par22",
+            "text": "Fig. 4 Gene ontology of C. macrophylla identified phloem associated genes. GO analysis was done using the graphical gene-set enrichment tool ShinyGO (Table S6 ) [ 34 ]"
+          },
+          {
+            "id": "",
+            "text": "Gene ontology of C. macrophylla identified phloem associated genes. GO analysis was done using the graphical gene-set enrichment tool ShinyGO (Table S6 ) [ 34 ]"
+          },
+          {
+            "id": "Par23",
+            "text": "To further examine the validity of the CTV-hfRPL18 identified genes as phloem expressed both RT-PCR expression analysis and promoter expression studies were performed. Within N. benthamiana RT-PCR analysis was conducted to determine if CTV-hfRPL18 polysome RNA was enriched for phloem-specific mRNAs. For this study, primers were designed to target six previously identified N. benthamiana phloem-associated mRNAs from the hfRPL18 purified polysome RNA [ 12 ]. For comparison, similar PCR reactions were performed using total RNA from CTV-hfRPL18 infected tissue. Of six specific phloem genes investigated, four showed visible enrichment in the CTV-hfRPL18 polysome fraction (Fig. 5 )."
+          },
+          {
+            "id": "Par24",
+            "text": "Fig. 5 Phloem expression of CTV-hfRPL18 identified genes in N. benthamiana . A set of six previously identified N. benthamiana phloem-associated mRNAs were assessed for their presence in the CTV-hfRPL18 enriched translatome [ 12 ]. PCR amplification for each gene show all expressed within the CTV-hfRPL18 translatome with four being enriched in comparison to extracted total RNA"
+          },
+          {
+            "id": "",
+            "text": "Phloem expression of CTV-hfRPL18 identified genes in N. benthamiana . A set of six previously identified N. benthamiana phloem-associated mRNAs were assessed for their presence in the CTV-hfRPL18 enriched translatome [ 12 ]. PCR amplification for each gene show all expressed within the CTV-hfRPL18 translatome with four being enriched in comparison to extracted total RNA"
+          },
+          {
+            "id": "Par25",
+            "text": "To validate phloem expression, C. clementina promoter sequences derived from CTV-hfRPL18 identified genes were used to drive GUS expression (Fig. 6 ). Four genes were selected, callose synthase 7 ( CccalS7 ), sulfate transporter 2;1 ( CcSult2;1 ), leucine-rich repeat kinase ( CcLRR1 ), and cation binding protein ( CcCat ). For convenience, expression studies were done in an Arabidopsis system as previous studies have found that promoters from phloem expressed genes, such the Arabidopsis sucrose transporter 2 , confer similar expression profiles in a range of plants, including citrus and Prunus [ 18 , 46 , 47 ]. The CccalS7 gene has been shown to be phloem expressed and induced in response to HLB [ 48 , 49 – 50 ]. Consistent with this finding the CcCalS7 promoter displayed phloem expression (Fig. 6 a). Similarly, the CcSult2;1 promoter also demonstrated phloem expression while the CcCat promoter displayed expression throughout the whole leaf including the phloem (Fig. 6 b and c). Only the CcLRR1 promoter did not display any notable leaf expression (Fig. 6 d). Thus, three of the four investigated promoters were found to express within phloem, further supporting the CTV-hfRPL18 as a rapid means to identify phloem expressed genes."
+          },
+          {
+            "id": "Par26",
+            "text": "Fig. 6 Promoter expression analysis of selected Citrus x clementina CTV-hfRPL18 phloem associated mRNAs. Promoter sequences from four genes enriched in the CTV-hfRPL18 translatome were used to drive GUS expression in Arabidopsis (Table S3 ). GUS stained leaves from representative plants transformed with promoters from a , Ciclev10030495m callose synthase-like 7; b , Ciclev10016618m cation binding - like protein; c , Ciclev10025101m. sulfate transporter 2;1; d , Ciclev10024393m leucine-rich repeat transmembrane protein kinase"
+          },
+          {
+            "id": "",
+            "text": "Promoter expression analysis of selected Citrus x clementina CTV-hfRPL18 phloem associated mRNAs. Promoter sequences from four genes enriched in the CTV-hfRPL18 translatome were used to drive GUS expression in Arabidopsis (Table S3 ). GUS stained leaves from representative plants transformed with promoters from a , Ciclev10030495m callose synthase-like 7; b , Ciclev10016618m cation binding - like protein; c , Ciclev10025101m. sulfate transporter 2;1; d , Ciclev10024393m leucine-rich repeat transmembrane protein kinase"
+          }
+        ],
+        "subsections": [
+          {
+            "id": "Sec8",
+            "title": "CTV-hfRPL18 infection and stability",
+            "paragraphs": [
+              {
+                "id": "Par15",
+                "text": "The p35SCTV9-47R-244 vector is derived from an attenuated CTV strain containing genome unique restriction sites that allowed for the replacement of the virus p13 ORF with that of the hfRPL18 ORF (Fig. 1 a) [ 24 ]. Loss of the CTV p13 ORF does not significantly impact virus infectivity, replication or spread within infected trees [ 38 ]. The CTV-hfRPL18 construct infected both N. benthamiana and C. macrophylla , causing leaf chlorosis in N. benthamiana and few detectable symptoms in new growth flushes of C. macrophylla (Fig. 1 b & c). The stability of CTV-hfRPL18 in C. macrophylla was examined at 3 months and then again in the same trees at 17 months post-infection. Total RNA from new leaf flushes was extracted, and RT-PCR was conducted using primers flanking or specific to the inserted hfRPL18 ORF. Results showed that the full-length hfRPL18 ORF was maintained and easily amplified using flanking primers at 3 months post-infection (Fig. 2 a). However, in each of the four trees tested there were additional smaller amplified bands likely representing viral genomes that had lost the inserted sequence. At 17 months post-infection most of the amplified bands observed using flanking primers were smaller in size than expected, indicating the loss of all or part of the hfRPL18 ORF (Fig. 2 b). However, using hfRPL18-specific primers, the full-length ORF was detected in 3 out of 4 infected trees, suggesting most infected trees partly retained the full hfRPL18 ORF (Fig. 2 b)."
+              },
+              {
+                "id": "Par16",
+                "text": "Fig. 2 Stability of CTV-hfRPL18 within infected C. macrophylla trees at 3- and 17-months post-infection. a , Amplified RT-PCR products using primers flanking the hfRPL18 ORF at 3 months post-infection. b , RT-PCR products using both flanking and hfRPL18 specific primers at 17 months post-infection. λ Pst (marker lane), + (plasmid CTV-hfRPL18), - (RT-PCR of RNA from a healthy tree), CTV (RT-PCR of RNA from CTV empty vector infected tree). Arrows indicate the expected location for full length product for flanking or hfRPL18 specific primers"
+              },
+              {
+                "id": "",
+                "text": "Stability of CTV-hfRPL18 within infected C. macrophylla trees at 3- and 17-months post-infection. a , Amplified RT-PCR products using primers flanking the hfRPL18 ORF at 3 months post-infection. b , RT-PCR products using both flanking and hfRPL18 specific primers at 17 months post-infection. λ Pst (marker lane), + (plasmid CTV-hfRPL18), - (RT-PCR of RNA from a healthy tree), CTV (RT-PCR of RNA from CTV empty vector infected tree). Arrows indicate the expected location for full length product for flanking or hfRPL18 specific primers"
+              }
+            ]
+          },
+          {
+            "id": "Sec9",
+            "title": "Expression and translatome isolation of CTV-hfRPL18",
+            "paragraphs": [
+              {
+                "id": "Par17",
+                "text": "The CTV-hfRPL18 base vector p35SCTV9-47R-244 vector is known to infect the vascular phloem of both citrus and N. benthamiana [ 24 ]. Within infected N. benthamiana CTV-hfRPL18 spread systemically within six weeks post-agroinfiltration. The hfRPL18 peptide was readily detected within crude extracts of macerated systemic leaf tissues via Western immunoblot (Fig. 3 a). Isolation of the polysome fraction also produced detectable levels of hfRPL18, indicating the presence of the tagged peptide within assembled polysomes. Furthermore, eluate from the polysome fraction, incubated with anti-FLAG magnetic beads, showed enrichment for the CTV-expressed hfRPL18 peptide (Fig. 3 a). In C. macrophylla , the hfRPL18 peptide was not detected within crude extracts of macerated leaf tissues but was readily detected in the eluate from the polysome fraction incubated with anti-FLAG magnetic beads (Fig. 3 b). These findings demonstrate the expression of the hfRPL18 peptide by CTV and its assembly into polysomes."
+              },
+              {
+                "id": "Par18",
+                "text": "Fig. 3 hfRPL18 purification and associated RNA extractions. a and b , Detection of hfRPL18 by Western immunoblot at different purification steps in N. benthamiana and C. macrophylla displaying enrichment for the hfRPL18 protein from magnetic bead elution fractions. c , RNA levels obtained from magnetic beads eluted hfRPL18 protein. Bars represent average ± standard deviation (Table S4 )"
+              },
+              {
+                "id": "",
+                "text": "hfRPL18 purification and associated RNA extractions. a and b , Detection of hfRPL18 by Western immunoblot at different purification steps in N. benthamiana and C. macrophylla displaying enrichment for the hfRPL18 protein from magnetic bead elution fractions. c , RNA levels obtained from magnetic beads eluted hfRPL18 protein. Bars represent average ± standard deviation (Table S4 )"
+              },
+              {
+                "id": "Par19",
+                "text": "Within N. benthamiana leaf tissue infected with CTV-hfRPL18, RNA levels isolated from hfRPL18-purified polysomes were more than 25-fold higher than RNA isolated from tissue infected with CTV-GFP (51.2 ± 35.2 SD ng/µl vs. 2.3 ± 1.5 SD ng/µl, respectively; Table S4 , Fig. 3 c). For CTV-hfRPL18 infected C. macrophylla at 12–17 months post-infection, polysome RNA isolations averaged 2.5 fold higher than from C. macrophylla trees infected with the empty CTV9-47R-244 vector (125.6 ng/µl ± 29.7 SD vs. 48.5 ng/µl ± 20.4 SD, respectively; Table S4 , Fig. 3 c). The higher background levels of RNA from infected C. macrophylla were addressed by reducing the level of magnetic beads in the protocol from 50 to 25 µl and increasing wash times to 20 min, resulting in a 5.8-fold higher level of polysome RNA isolated from CTV-hfRPL18 vs. CTV9-47R-244 vector infected trees (Table S4 ). These findings indicate that CTV expressed hfRPL18 is produced during infection in both N. benthamiana and C. macrophylla and is readily purified from isolated polysome fractions."
+              }
+            ]
+          },
+          {
+            "id": "Sec10",
+            "title": "CTV-hfRPL18 translatome RNA analysis and gene ontology",
+            "paragraphs": [
+              {
+                "id": "Par20",
+                "text": "As CTV infected tissue does not contain hfRPL18, the mRNAs isolated from this tissue represent background RNA. To account for this background, RNAseq data from CTV infected tissues were compared to that of CTV-hfRPL18 infected tissues to identify mRNAs that were enriched in the CTV-hfRPL18 tissues. Results from this comparison identified 406 enriched genes from the CTV-hfRPL18 infected tissues (pValue < 0.05; Table S5 ). In examining the translatome within CTV-hfRPL18 infected plants we identified the presence of CTV genomic transcripts in all infected samples ranging from 95 to 2,510 total CTV reads per sample. However, read coverage for the region covering the inserted RPL18 ORF was low, averaging less than 10 reads per sample. These low read levels are likely due to instabilities in the CTV-hfRPL18 vector. Nonetheless, even in 17-month post-infection tissue with the greatest CTV instability, Western immunoblot detected the immune-tagged RPL18 protein (Fig. 3 b). This is consistent with our detection of full-length hfRPL18 in infected trees and previous studies that show the CTV vector can express the slightly larger GFP ORF for more than four years in citrus (Fig. 2 b) [ 29 ]."
+              },
+              {
+                "id": "Par21",
+                "text": "Gene ontology studies identified several biological processes with fold enrichments greater than 2.0 (Fig. 4 ). The GO process displaying the highest level of enrichment was potassium homeostasis. Potassium is the major cation found within phloem and an essential factor in plant growth, signaling, and responses to stress [ 39 , 40 ]. The second most highly enriched process was associated with mannitol responses. Mannitol is known to be a phloem-translocated photoassimilate associated with plant mediated pathogen resistance [ 41 , 42 ]. In citrus higher mannitol accumulations also correlate with increased levels of tolerance to CLas [ 43 ]. Other enriched processes include GO terms associated with cell and membrane transport, ion transport, and flavonoid biosynthesis and metabolism. These processes are consistent with the abundance of ions such as potassium found within phloem while flavonoids are plant secondary metabolites with diverse functions, including defense against pathogen infection and stress responses [ 42 , 44 , 45 ]. Combined the isolation of mRNAs associated with these biological processes is consistent with phloem functions and support the ability of the CTV-hfRPL18 to isolate phloem associated mRNAs."
+              },
+              {
+                "id": "Par22",
+                "text": "Fig. 4 Gene ontology of C. macrophylla identified phloem associated genes. GO analysis was done using the graphical gene-set enrichment tool ShinyGO (Table S6 ) [ 34 ]"
+              },
+              {
+                "id": "",
+                "text": "Gene ontology of C. macrophylla identified phloem associated genes. GO analysis was done using the graphical gene-set enrichment tool ShinyGO (Table S6 ) [ 34 ]"
+              },
+              {
+                "id": "Par23",
+                "text": "To further examine the validity of the CTV-hfRPL18 identified genes as phloem expressed both RT-PCR expression analysis and promoter expression studies were performed. Within N. benthamiana RT-PCR analysis was conducted to determine if CTV-hfRPL18 polysome RNA was enriched for phloem-specific mRNAs. For this study, primers were designed to target six previously identified N. benthamiana phloem-associated mRNAs from the hfRPL18 purified polysome RNA [ 12 ]. For comparison, similar PCR reactions were performed using total RNA from CTV-hfRPL18 infected tissue. Of six specific phloem genes investigated, four showed visible enrichment in the CTV-hfRPL18 polysome fraction (Fig. 5 )."
+              },
+              {
+                "id": "Par24",
+                "text": "Fig. 5 Phloem expression of CTV-hfRPL18 identified genes in N. benthamiana . A set of six previously identified N. benthamiana phloem-associated mRNAs were assessed for their presence in the CTV-hfRPL18 enriched translatome [ 12 ]. PCR amplification for each gene show all expressed within the CTV-hfRPL18 translatome with four being enriched in comparison to extracted total RNA"
+              },
+              {
+                "id": "",
+                "text": "Phloem expression of CTV-hfRPL18 identified genes in N. benthamiana . A set of six previously identified N. benthamiana phloem-associated mRNAs were assessed for their presence in the CTV-hfRPL18 enriched translatome [ 12 ]. PCR amplification for each gene show all expressed within the CTV-hfRPL18 translatome with four being enriched in comparison to extracted total RNA"
+              },
+              {
+                "id": "Par25",
+                "text": "To validate phloem expression, C. clementina promoter sequences derived from CTV-hfRPL18 identified genes were used to drive GUS expression (Fig. 6 ). Four genes were selected, callose synthase 7 ( CccalS7 ), sulfate transporter 2;1 ( CcSult2;1 ), leucine-rich repeat kinase ( CcLRR1 ), and cation binding protein ( CcCat ). For convenience, expression studies were done in an Arabidopsis system as previous studies have found that promoters from phloem expressed genes, such the Arabidopsis sucrose transporter 2 , confer similar expression profiles in a range of plants, including citrus and Prunus [ 18 , 46 , 47 ]. The CccalS7 gene has been shown to be phloem expressed and induced in response to HLB [ 48 , 49 – 50 ]. Consistent with this finding the CcCalS7 promoter displayed phloem expression (Fig. 6 a). Similarly, the CcSult2;1 promoter also demonstrated phloem expression while the CcCat promoter displayed expression throughout the whole leaf including the phloem (Fig. 6 b and c). Only the CcLRR1 promoter did not display any notable leaf expression (Fig. 6 d). Thus, three of the four investigated promoters were found to express within phloem, further supporting the CTV-hfRPL18 as a rapid means to identify phloem expressed genes."
+              },
+              {
+                "id": "Par26",
+                "text": "Fig. 6 Promoter expression analysis of selected Citrus x clementina CTV-hfRPL18 phloem associated mRNAs. Promoter sequences from four genes enriched in the CTV-hfRPL18 translatome were used to drive GUS expression in Arabidopsis (Table S3 ). GUS stained leaves from representative plants transformed with promoters from a , Ciclev10030495m callose synthase-like 7; b , Ciclev10016618m cation binding - like protein; c , Ciclev10025101m. sulfate transporter 2;1; d , Ciclev10024393m leucine-rich repeat transmembrane protein kinase"
+              },
+              {
+                "id": "",
+                "text": "Promoter expression analysis of selected Citrus x clementina CTV-hfRPL18 phloem associated mRNAs. Promoter sequences from four genes enriched in the CTV-hfRPL18 translatome were used to drive GUS expression in Arabidopsis (Table S3 ). GUS stained leaves from representative plants transformed with promoters from a , Ciclev10030495m callose synthase-like 7; b , Ciclev10016618m cation binding - like protein; c , Ciclev10025101m. sulfate transporter 2;1; d , Ciclev10024393m leucine-rich repeat transmembrane protein kinase"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Sec8",
+        "title": "CTV-hfRPL18 infection and stability",
+        "paragraphs": [
+          {
+            "id": "Par15",
+            "text": "The p35SCTV9-47R-244 vector is derived from an attenuated CTV strain containing genome unique restriction sites that allowed for the replacement of the virus p13 ORF with that of the hfRPL18 ORF (Fig. 1 a) [ 24 ]. Loss of the CTV p13 ORF does not significantly impact virus infectivity, replication or spread within infected trees [ 38 ]. The CTV-hfRPL18 construct infected both N. benthamiana and C. macrophylla , causing leaf chlorosis in N. benthamiana and few detectable symptoms in new growth flushes of C. macrophylla (Fig. 1 b & c). The stability of CTV-hfRPL18 in C. macrophylla was examined at 3 months and then again in the same trees at 17 months post-infection. Total RNA from new leaf flushes was extracted, and RT-PCR was conducted using primers flanking or specific to the inserted hfRPL18 ORF. Results showed that the full-length hfRPL18 ORF was maintained and easily amplified using flanking primers at 3 months post-infection (Fig. 2 a). However, in each of the four trees tested there were additional smaller amplified bands likely representing viral genomes that had lost the inserted sequence. At 17 months post-infection most of the amplified bands observed using flanking primers were smaller in size than expected, indicating the loss of all or part of the hfRPL18 ORF (Fig. 2 b). However, using hfRPL18-specific primers, the full-length ORF was detected in 3 out of 4 infected trees, suggesting most infected trees partly retained the full hfRPL18 ORF (Fig. 2 b)."
+          },
+          {
+            "id": "Par16",
+            "text": "Fig. 2 Stability of CTV-hfRPL18 within infected C. macrophylla trees at 3- and 17-months post-infection. a , Amplified RT-PCR products using primers flanking the hfRPL18 ORF at 3 months post-infection. b , RT-PCR products using both flanking and hfRPL18 specific primers at 17 months post-infection. λ Pst (marker lane), + (plasmid CTV-hfRPL18), - (RT-PCR of RNA from a healthy tree), CTV (RT-PCR of RNA from CTV empty vector infected tree). Arrows indicate the expected location for full length product for flanking or hfRPL18 specific primers"
+          },
+          {
+            "id": "",
+            "text": "Stability of CTV-hfRPL18 within infected C. macrophylla trees at 3- and 17-months post-infection. a , Amplified RT-PCR products using primers flanking the hfRPL18 ORF at 3 months post-infection. b , RT-PCR products using both flanking and hfRPL18 specific primers at 17 months post-infection. λ Pst (marker lane), + (plasmid CTV-hfRPL18), - (RT-PCR of RNA from a healthy tree), CTV (RT-PCR of RNA from CTV empty vector infected tree). Arrows indicate the expected location for full length product for flanking or hfRPL18 specific primers"
+          }
+        ]
+      },
+      {
+        "id": "Sec9",
+        "title": "Expression and translatome isolation of CTV-hfRPL18",
+        "paragraphs": [
+          {
+            "id": "Par17",
+            "text": "The CTV-hfRPL18 base vector p35SCTV9-47R-244 vector is known to infect the vascular phloem of both citrus and N. benthamiana [ 24 ]. Within infected N. benthamiana CTV-hfRPL18 spread systemically within six weeks post-agroinfiltration. The hfRPL18 peptide was readily detected within crude extracts of macerated systemic leaf tissues via Western immunoblot (Fig. 3 a). Isolation of the polysome fraction also produced detectable levels of hfRPL18, indicating the presence of the tagged peptide within assembled polysomes. Furthermore, eluate from the polysome fraction, incubated with anti-FLAG magnetic beads, showed enrichment for the CTV-expressed hfRPL18 peptide (Fig. 3 a). In C. macrophylla , the hfRPL18 peptide was not detected within crude extracts of macerated leaf tissues but was readily detected in the eluate from the polysome fraction incubated with anti-FLAG magnetic beads (Fig. 3 b). These findings demonstrate the expression of the hfRPL18 peptide by CTV and its assembly into polysomes."
+          },
+          {
+            "id": "Par18",
+            "text": "Fig. 3 hfRPL18 purification and associated RNA extractions. a and b , Detection of hfRPL18 by Western immunoblot at different purification steps in N. benthamiana and C. macrophylla displaying enrichment for the hfRPL18 protein from magnetic bead elution fractions. c , RNA levels obtained from magnetic beads eluted hfRPL18 protein. Bars represent average ± standard deviation (Table S4 )"
+          },
+          {
+            "id": "",
+            "text": "hfRPL18 purification and associated RNA extractions. a and b , Detection of hfRPL18 by Western immunoblot at different purification steps in N. benthamiana and C. macrophylla displaying enrichment for the hfRPL18 protein from magnetic bead elution fractions. c , RNA levels obtained from magnetic beads eluted hfRPL18 protein. Bars represent average ± standard deviation (Table S4 )"
+          },
+          {
+            "id": "Par19",
+            "text": "Within N. benthamiana leaf tissue infected with CTV-hfRPL18, RNA levels isolated from hfRPL18-purified polysomes were more than 25-fold higher than RNA isolated from tissue infected with CTV-GFP (51.2 ± 35.2 SD ng/µl vs. 2.3 ± 1.5 SD ng/µl, respectively; Table S4 , Fig. 3 c). For CTV-hfRPL18 infected C. macrophylla at 12–17 months post-infection, polysome RNA isolations averaged 2.5 fold higher than from C. macrophylla trees infected with the empty CTV9-47R-244 vector (125.6 ng/µl ± 29.7 SD vs. 48.5 ng/µl ± 20.4 SD, respectively; Table S4 , Fig. 3 c). The higher background levels of RNA from infected C. macrophylla were addressed by reducing the level of magnetic beads in the protocol from 50 to 25 µl and increasing wash times to 20 min, resulting in a 5.8-fold higher level of polysome RNA isolated from CTV-hfRPL18 vs. CTV9-47R-244 vector infected trees (Table S4 ). These findings indicate that CTV expressed hfRPL18 is produced during infection in both N. benthamiana and C. macrophylla and is readily purified from isolated polysome fractions."
+          }
+        ]
+      },
+      {
+        "id": "Sec10",
+        "title": "CTV-hfRPL18 translatome RNA analysis and gene ontology",
+        "paragraphs": [
+          {
+            "id": "Par20",
+            "text": "As CTV infected tissue does not contain hfRPL18, the mRNAs isolated from this tissue represent background RNA. To account for this background, RNAseq data from CTV infected tissues were compared to that of CTV-hfRPL18 infected tissues to identify mRNAs that were enriched in the CTV-hfRPL18 tissues. Results from this comparison identified 406 enriched genes from the CTV-hfRPL18 infected tissues (pValue < 0.05; Table S5 ). In examining the translatome within CTV-hfRPL18 infected plants we identified the presence of CTV genomic transcripts in all infected samples ranging from 95 to 2,510 total CTV reads per sample. However, read coverage for the region covering the inserted RPL18 ORF was low, averaging less than 10 reads per sample. These low read levels are likely due to instabilities in the CTV-hfRPL18 vector. Nonetheless, even in 17-month post-infection tissue with the greatest CTV instability, Western immunoblot detected the immune-tagged RPL18 protein (Fig. 3 b). This is consistent with our detection of full-length hfRPL18 in infected trees and previous studies that show the CTV vector can express the slightly larger GFP ORF for more than four years in citrus (Fig. 2 b) [ 29 ]."
+          },
+          {
+            "id": "Par21",
+            "text": "Gene ontology studies identified several biological processes with fold enrichments greater than 2.0 (Fig. 4 ). The GO process displaying the highest level of enrichment was potassium homeostasis. Potassium is the major cation found within phloem and an essential factor in plant growth, signaling, and responses to stress [ 39 , 40 ]. The second most highly enriched process was associated with mannitol responses. Mannitol is known to be a phloem-translocated photoassimilate associated with plant mediated pathogen resistance [ 41 , 42 ]. In citrus higher mannitol accumulations also correlate with increased levels of tolerance to CLas [ 43 ]. Other enriched processes include GO terms associated with cell and membrane transport, ion transport, and flavonoid biosynthesis and metabolism. These processes are consistent with the abundance of ions such as potassium found within phloem while flavonoids are plant secondary metabolites with diverse functions, including defense against pathogen infection and stress responses [ 42 , 44 , 45 ]. Combined the isolation of mRNAs associated with these biological processes is consistent with phloem functions and support the ability of the CTV-hfRPL18 to isolate phloem associated mRNAs."
+          },
+          {
+            "id": "Par22",
+            "text": "Fig. 4 Gene ontology of C. macrophylla identified phloem associated genes. GO analysis was done using the graphical gene-set enrichment tool ShinyGO (Table S6 ) [ 34 ]"
+          },
+          {
+            "id": "",
+            "text": "Gene ontology of C. macrophylla identified phloem associated genes. GO analysis was done using the graphical gene-set enrichment tool ShinyGO (Table S6 ) [ 34 ]"
+          },
+          {
+            "id": "Par23",
+            "text": "To further examine the validity of the CTV-hfRPL18 identified genes as phloem expressed both RT-PCR expression analysis and promoter expression studies were performed. Within N. benthamiana RT-PCR analysis was conducted to determine if CTV-hfRPL18 polysome RNA was enriched for phloem-specific mRNAs. For this study, primers were designed to target six previously identified N. benthamiana phloem-associated mRNAs from the hfRPL18 purified polysome RNA [ 12 ]. For comparison, similar PCR reactions were performed using total RNA from CTV-hfRPL18 infected tissue. Of six specific phloem genes investigated, four showed visible enrichment in the CTV-hfRPL18 polysome fraction (Fig. 5 )."
+          },
+          {
+            "id": "Par24",
+            "text": "Fig. 5 Phloem expression of CTV-hfRPL18 identified genes in N. benthamiana . A set of six previously identified N. benthamiana phloem-associated mRNAs were assessed for their presence in the CTV-hfRPL18 enriched translatome [ 12 ]. PCR amplification for each gene show all expressed within the CTV-hfRPL18 translatome with four being enriched in comparison to extracted total RNA"
+          },
+          {
+            "id": "",
+            "text": "Phloem expression of CTV-hfRPL18 identified genes in N. benthamiana . A set of six previously identified N. benthamiana phloem-associated mRNAs were assessed for their presence in the CTV-hfRPL18 enriched translatome [ 12 ]. PCR amplification for each gene show all expressed within the CTV-hfRPL18 translatome with four being enriched in comparison to extracted total RNA"
+          },
+          {
+            "id": "Par25",
+            "text": "To validate phloem expression, C. clementina promoter sequences derived from CTV-hfRPL18 identified genes were used to drive GUS expression (Fig. 6 ). Four genes were selected, callose synthase 7 ( CccalS7 ), sulfate transporter 2;1 ( CcSult2;1 ), leucine-rich repeat kinase ( CcLRR1 ), and cation binding protein ( CcCat ). For convenience, expression studies were done in an Arabidopsis system as previous studies have found that promoters from phloem expressed genes, such the Arabidopsis sucrose transporter 2 , confer similar expression profiles in a range of plants, including citrus and Prunus [ 18 , 46 , 47 ]. The CccalS7 gene has been shown to be phloem expressed and induced in response to HLB [ 48 , 49 – 50 ]. Consistent with this finding the CcCalS7 promoter displayed phloem expression (Fig. 6 a). Similarly, the CcSult2;1 promoter also demonstrated phloem expression while the CcCat promoter displayed expression throughout the whole leaf including the phloem (Fig. 6 b and c). Only the CcLRR1 promoter did not display any notable leaf expression (Fig. 6 d). Thus, three of the four investigated promoters were found to express within phloem, further supporting the CTV-hfRPL18 as a rapid means to identify phloem expressed genes."
+          },
+          {
+            "id": "Par26",
+            "text": "Fig. 6 Promoter expression analysis of selected Citrus x clementina CTV-hfRPL18 phloem associated mRNAs. Promoter sequences from four genes enriched in the CTV-hfRPL18 translatome were used to drive GUS expression in Arabidopsis (Table S3 ). GUS stained leaves from representative plants transformed with promoters from a , Ciclev10030495m callose synthase-like 7; b , Ciclev10016618m cation binding - like protein; c , Ciclev10025101m. sulfate transporter 2;1; d , Ciclev10024393m leucine-rich repeat transmembrane protein kinase"
+          },
+          {
+            "id": "",
+            "text": "Promoter expression analysis of selected Citrus x clementina CTV-hfRPL18 phloem associated mRNAs. Promoter sequences from four genes enriched in the CTV-hfRPL18 translatome were used to drive GUS expression in Arabidopsis (Table S3 ). GUS stained leaves from representative plants transformed with promoters from a , Ciclev10030495m callose synthase-like 7; b , Ciclev10016618m cation binding - like protein; c , Ciclev10025101m. sulfate transporter 2;1; d , Ciclev10024393m leucine-rich repeat transmembrane protein kinase"
+          }
+        ]
+      },
+      {
+        "id": "Sec11",
+        "title": "Discussion",
+        "paragraphs": [
+          {
+            "id": "Par27",
+            "text": "Plant viruses have been extensively utilized as vectors for expressing foreign gene sequences [ 29 , 51 , 52 ]. Viral vectors designed for protein and/or RNA expression have proven to be important tools for functional analysis, including overexpression or silencing of specific plant genes [ 53 , 54 ]. They are also used for large-scale protein production and delivering plant therapeutics targeting pathogens [ 55 , 56 ]. CTV was previously developed as a vector using both gene addition and replacement strategies [ 29 ]. Remarkably, several of these vectors have provided stable gene expression over multiple years and are currently used to express peptides and RNAs targeting HLB and its vector Diaphorina citri [ 24 , 27 , 57 ]. This ability to express and maintain foreign gene sequences in variants that cause little to no disease has made CTV a valuable tool for studying citrus tree biology."
+          },
+          {
+            "id": "Par28",
+            "text": "Here, we expand the use of the CTV vector to include transcriptional analysis of citrus phloem through the expression of the hfRPL18 TRAP system. TRAP offers a simple method to directly sample ribosome-associated mRNAs via immuno-pull down, allowing mRNA sampling from whole tissues, eliminating the need for more complicated tissue sampling methods. In citrus, stability of the hfRPL18 ORF within the CTV genome varied between sampling times, with samples at 2 and 6 months post-infection displaying significantly more full-length hfRPL18 sequence than observed in 17 month old tissues. Additionally, sequencing data from the 17-month tissue showed low read coverage from the CTV hfRPL18 insertion site, reflecting the observed loss of the hfRPL18 ORF in the initial PCR analysis. It is possible that sequence homology between the CTV-hfRPL18 and the endogenous RPL18 contributed to observed instability. However, at all sampling times, the full-length hfRPL18 ORF could be PCR amplified, and importantly, the hfRPL18 protein was enriched via immuno-pull down of the polysome fraction at both 6 months and 17 months post-infection, albeit to a lesser degree at the later time (Fig. 3 ). Enrichment of mRNA levels from the polysome fractions of CTV-hfRPL18-infected trees also indicates that the expressed hfRPL18 assembles into functional ribosomes. Together, these results demonstrate the capability of the CTV-hfRPL18 vector to express the RPL18 ORF within infected phloem over a range of sampling times."
+          },
+          {
+            "id": "Par29",
+            "text": "One challenge with using the viral vector is identifying control mRNAs for comparison and in the identification of differentially regulated phloem genes. In transgenic translatome studies, expression of the hfRPL18 ORF by the ubiquitous 35 S promoter typically serves as the control for comparison to translatome mRNA obtained from the tissue specific expression of the hfRPL18 [ 8 , 12 , 13 ]. Here, we relied on either total RNA for N. benthamiana or CTV-infected citrus tissues for comparison to identify CTV-hfRPL18 enriched genes. Because of this limitation, we cannot identify downregulated phloem-specific genes in response to CTV infection. However, comparisons of CTV-hfRPL18 translatomes that include other treatments, such as HLB-infected vs. uninfected, could be used to directly identify positively and negatively regulated phloem genes."
+          },
+          {
+            "id": "Par30",
+            "text": "Analysis of the 406 CTV-hfRPL18 identified citrus genes revealed several previously identified phloem associated genes. These include transporter homologs for nitrate (NPF1.2) sulfate (CcSULTR2;1) auxin (AUX1), zinc (ZIF2), and potassium (KT1) [ 58 , 59 – 60 ]. In addition, callose synthase 7, which has been found to be expressed within the phloem of citrus and expressed in response to HLB infection was also identified within the CTV-hfRPL18 translatome [ 48 ]. For comparison, 74 (18%) of the 406 CTV-hfRPL18 phloem associated citrus genes were also identified within the phloem translatome of Prunus trees that expressed a transgene hfRPL18 ORF. This level of overlap is similar to previous single species translatome studies that identified between 8 and 22% overlap (Deeken et al. 2008; Mustroph et al. 2009; Zhao et al. 2005)."
+          },
+          {
+            "id": "Par31",
+            "text": "Conformation of the phloem expression of CTV-hfRPL18 identified genes was further determined by PCR enrichment in N. benthamiana where the mRNAs for 4 of 6 previously identified phloem genes were found to be enriched within the CTV-hfRPL18 translatome RNA (Fig. 5 ). For citrus, the promoters from three of four CTV-hfRPL18 enriched genes showed clear phloem expression (Fig. 6 ). Combined these findings provide further evidence of the potential of CTV-hfRPL18 to identify phloem expressed genes."
+          }
+        ]
+      },
+      {
+        "id": "Sec12",
+        "title": "Conclusion",
+        "paragraphs": [
+          {
+            "id": "Par32",
+            "text": "The CTV-hfRPL18 vector provides a simplified means to examine mRNA expression specific to citrus vascular phloem. Applying this technology to various citrus cultivars without the need to produce transgenic trees represents a significant advancement in developing more detailed understandings of citrus responses to a range of biotic and abiotic challenges. Particularly in response to the phloem-limited causal agent of citrus greening disease where comparisons of the CTV-hfRPL18 translatome between highly susceptible and tolerant citrus varieties could rapidly provide information on defense and susceptibility genes associated with each phenotype, providing targets for future gene editing efforts aimed at altering the expression and function of such key genes."
+          }
+        ]
+      }
+    ],
+    "full_text": "Background The ability to identify transcriptional responses in plants has revolutionized our understanding of plant-pathogen interactions. However, plant responses are often compartmentalized, with unique transcriptional responses occurring in different organs, tissues, and cell types [ 1 , 2 ]. Many pathogens have evolved to infect specific host tissues, such as the powdery mildew pathogen Blumeria graminis , which invades only leaf epidermal cells, and some virus pathogens, like potato leaf-roll virus, which infect only host vascular tissues [ 3 , 4 ]. Consequently, key host responses against pathogens often occur in a cell- and tissue-specific manner. To better understand these interactions and responses, methods are needed to access transcriptional, protein, and metabolic responses within specific host tissues that interface directly with the pathogen. Methods for isolating RNAs from specific cells or plant tissues include techniques such as laser dissection, aphid stylectomy, and single-cell isolation and sorting [ 5 , 6 – 7 ]. While effective, these methods require specialized equipment and can be costly to perform. As an alternative, translating ribosome affinity purification (TRAP) has been adapted to plants, offering a simple, non-invasive means to isolate cell- and tissue-specific mRNAs [ 8 ]. This method uses an expressed tagged ribosomal protein to pull down mRNA-associated polyribosomes (polysomes), allowing the isolation of actively translated mRNAs. TRAP has been successfully used to investigate the transcriptional profile of specific plant cells and tissues [ 9 , 10 – 11 ]. TRAP has been adapted to investigate the transcriptional profile of a range of specific plant cells and tissues during developmental, environmental and pathogenic responses [ 12 , 13 , 14 , 15 , 16 – 17 ]. TRAP based investigations have proven particularly effective at analyzing plant responses within the vascular phloem [ 8 , 12 , 18 ]. Thus, TRAP is ideally suited for analyzing responses to phloem-restricted pathogens, such as the causal agent of Huanglongbing (HLB), Candidatus Liberibacter asiaticus (CLas), which is a significant threat to citrus production [ 19 ]. Although studies have investigated gene transcriptional changes in citrus during CLas infection, the lack of phloem-specific studies hinders the identification of transcriptional alterations occurring directly in CLas-infected tissues [ 20 , 21 , 22 – 23 ]. However, a drawback of using TRAP is the need to produce transgenic plants expressing the tagged ribosomal protein from cell- or tissue-specific promoters. This drawback is especially acute in plant species such as citrus that are difficult and time consuming to transform and regenerate. Thus, there is a need to establish simpler means to introduce the tagged ribosomal protein in a phloem specific manner. In this study, we aimed to overcome the need for transgenic plants by using a virus vector to express the tagged ribosome peptide. To promote phloem transcript isolation, we selected the citrus tristeza virus (CTV) vector CTV9-47R-244 [ 24 , 25 ]. CTV is a member of the Closteroviridae , with a 19.3 kb plus-strand RNA genome that contains 12 open reading frames along with 5’ and 3’ non-coding regions. The virus is predominately phloem localized but can also invade elements of the metaxylem [ 26 ]. Functions for several of the encoded peptides have been identified and their role in virus replication, movement and disease development were investigated [ 27 , 28 ]. CTV’s importance as a pathogen and its potential use as a biocontrol agent has resulted in its development as a vector for the expression of functional peptides and nucleic acids [ 24 , 28 ]. CTV vectors have generally been developed from mild strains and can be highly stable with reports of more than four years of expression within infected trees [ 29 ]. Application of the TRAP system through the phloem-limited CTV vector offers a unique means to identify phloem-expressed mRNAs without the need for transgenic methods. This is particularly important in citrus, where many economically important cultivars are challenging to transform. Methods CTV translatome construct, infection and plant growth conditions The RPL18 peptide sequence, Ciclev10002597, was obtained from Citrus x clementina , v1.0 [ 30 ]. The RPL18 coding sequence was altered to reduce homology to the endogenous host gene while maintaining codon usage for maximum expression (Table S1 ). The commercially synthesized RPL18 ORF sequence shared 77% identity to the N. benthamiana and 80% identity to Citrus x clementina . The synthesized ORF also contained 5’ hexa-histidine and FLAG tags as well as 5’ Stu I and 3’ Pac I restriction sites for cloning into the full-length CTV infectious clone, p35SCTV9-47R-244 [ 24 , 25 ]. The resulting construct p35SCTV-hfRPL18 replaces the virus p13 ORF with the modified RPL18 coding sequence (Fig. 1 a) [ 24 ]. Agroinfiltration was used to initiate CTV-GFP and CTV-hfRPL18 infections in N. benthamiana . Infected N. benthamiana leaf extract containing virions was used as inoculum to infect Citrus macrophylla via a bark-flap method [ 31 ]. Inoculated N. benthamiana plants were maintained in growth chambers with 12-hr photoperiods at 24 o C. Infected C. macrophylla plants were maintained with 14-hr photoperiods at 20–26 o C in the plant biosafety level 3 greenhouse facility at the United States Department of Agriculture, Agriculture Research Service facility, Fort Detrick, MD. Fig. 1 CTV-hfRPL18 construct. a , Diagram of CTV-hfRPL18 genome showing replacement of the CTV p13 ORF with that of hfRPL18 (red). b and c , Disease symptoms associated with CTV-hfRPL18 infection in N. benthamiana ( b ) and C. macrophylla ( c ) Infected N. benthamiana leaf tissue was harvested between 6- and 12-weeks post-infiltration while infected C. macrophylla leaf tissue was collected between 3 and 17 months post-infection. Maintenance of the CTV inserted RPL18 ORF was confirmed via RT-PCR using primers sets flanking the ORF (5’AGTCCTCGAGAACCACTTAGTTGTTTAGCTATC; 3’GTACCTGCAGATCCTGATGGTCTCCGTTCA) as well as specific to the inserted RPL18 ORF (5’AGGCCTATGGGTCATCATCATCACCATC; 3’TTAATTAATCAAACTCTAAAACCCC). The amplified CTV genome region was also sequenced to ensure fidelity to the cloned RPL18 sequence. Purification of polysomes and associated mRNAs Polysomes were isolated from CTV infected tissues following a previously described method [ 12 , 13 , 32 , 33 ]. For N. benthamiana , leaf extracts were derived from eight to twelve leaves taken from at least two infected plants. For C. macrophylla , ~ 5 g of leaves from new flushes of growth were taken from individual infected trees. In summary, leaf tissue was pulverized in liquid nitrogen and extracted in Polysome Extraction Buffer (PEB; 200 mM Tris-HCl, pH 9.0, 200 mM KCl, 25 mM ethylene glycol tetraacetic acid (EGTA) pH 8.0, 35mM MgCl2, 1% (v/v) octylphenyl-polyethylene glycol (Igepal CA-630), 1% (v/v) polyoxyethylene 10 tridecyl ether, 1% (v/ v) sodium deoxycholate, 5 mM dithiothreitol (DTT), 1 mM PMSF, 50 µg/mL cycloheximide, 50 µg/mL chloramphenicol, 0.5 mg/mL heparin) using 10 mL PEB per 5 g of tissue. Leaf extracts were initially clarified by centrifugation at 16,000 g for 15 min and then filtered through miracloth. Filtered extracts were then loaded onto 1.6 M sucrose cushion and centrifuged at 170,000 g for 18 h at 4 °C to pellet polysomes. The resulting polysome pellet was resuspended in 1 mL of PEB with anti-FLAG magnetic beads (50 µl– Sigma-Aldrich, St. Louis, MO) and incubated overnight at 4 °C. Beads were washed three times in wash buffer (200 mM Tris- HCl, pH 9.0, 200 mM KCl, 25 mM EGTA, 35 mM MgCl2, 5 mM DTT, 50 µg/mL cycloheximide, 50 µg/mL chloramphenicol) and RNA was eluted using 100 µl wash buffer with 10 µL of 5 mg/mL FLAG3 peptide (Sigma-Aldrich, St. Louis, MO), and 0.5 µl of 2 U/mL RNAse OUT (Thermo-Fisher Scientific Cleveland, OH). Eluted RNA was further purified by Qiagen RNeasy kit (Qiagen, Valencia, CA USA) as per the manufactures protocol. Expression of the hfRPL18 peptide was assessed by SDS-PAGE and western blotting using antibodies against the FLAG or hexa-histidine tag (Sigma-Aldrich, St. Louis, MO). RNA translatome analysis and gene ontology RNAseq was performed on translatome mRNA isolated from C. macrophylla leaf tissue isolated at two independent times from two CTV infected trees and two to three infected CTV-hfRPL18 trees. Generated cDNA libraries averaged > 18 million 150-bp paired-end sequence reads. Corresponding Fastq sequence files were trimmed and filtered for adapter sequence and quality using BBDuk (Joint Genome Institute, https://jgi.doe.gov/ ) software. Filtered reads were mapped to the Phytozome Citrus clementina ver 1.0 genome ( https://phytozome-next.jgi.doe.gov ), the CTV genome, and the CTV_RPL18 sequence using STAR (version 2.7.10a, GitHub - alexdobin/STAR: RNA-seq aligner) transcript alignment software. BAM files from mapping were visualized and counted using CLC Genomics Workbench Version 22.0.1 ( https://digitalinsights.qiagen.com ). Counts for the C. clementina genome mapping were generated using feature counts v2.0.3 from the Subread ( http://subread.sourceforge.net ) software package. Differential gene expression analysis (‘CTV’ vs. ‘CTV-hfRPL18’) was performed using edgeR (Bioconductor - edgeR) v3.6.8 running in the R (R: The R Project for Statistical Computing (r-project.org) version 4.2.2 environment. The best Arabidopsis gene matches for identified genes were derived from the Phytozome C. clementina annotation. Gene ontology (GO) analysis was done using the graphical gene-set enrichment tool ShinyGO [ 34 ]. Confirmation of phloem expression CTV-hfRPL18 translatome RNA and total RNA isolated from CTV-hfRPL18 infected N. benthamiana leaf tissue were compared by PCR for enrichment of previously identified phloem associated mRNAs using gene specific primer pairs (Table S2 ) [ 12 ]. N. benthamiana CTV-hfRPL18 translatome RNA was purified as described above with the Qiagen RNeasy kit used to isolate total RNA. In citrus, conformation of phloem identified CTV-hfRPL18 translatome mRNA was done using promoter expression studies. Specifically, promoter sequences from callose synthase 7 - Ciclev10030495m (1725nt), sulfate transporter 2;1- Ciclev10025101m (1723nt), leucine-rich repeat kinase - Ciclev10024393m (1705) and cation binding protein - Ciclev10016618m (1658nt) were identified using the Citrus Genome Database ( https://www.citrusgenomedb.org ) and PCR amplified from genomic DNA isolated from Citrus x clementina trees using promoter specific primer (Table S3 ). Citrus promoter sequences were subsequently cloned upstream of the GUS open reading frame within pBI101.1 (Arabidopsis Biological Resource Center) using primer-generated restriction sites. Promoter GUS constructs were transformed into Agrobacterium tumefaciens GV3101 [ 35 ], and a floral dip method used to transform Arabidopsis thaliana , Shahdara [ 36 ]. Transformed plants were subjected to GUS histochemical staining as previously described [ 37 ]. Results CTV-hfRPL18 infection and stability The p35SCTV9-47R-244 vector is derived from an attenuated CTV strain containing genome unique restriction sites that allowed for the replacement of the virus p13 ORF with that of the hfRPL18 ORF (Fig. 1 a) [ 24 ]. Loss of the CTV p13 ORF does not significantly impact virus infectivity, replication or spread within infected trees [ 38 ]. The CTV-hfRPL18 construct infected both N. benthamiana and C. macrophylla , causing leaf chlorosis in N. benthamiana and few detectable symptoms in new growth flushes of C. macrophylla (Fig. 1 b & c). The stability of CTV-hfRPL18 in C. macrophylla was examined at 3 months and then again in the same trees at 17 months post-infection. Total RNA from new leaf flushes was extracted, and RT-PCR was conducted using primers flanking or specific to the inserted hfRPL18 ORF. Results showed that the full-length hfRPL18 ORF was maintained and easily amplified using flanking primers at 3 months post-infection (Fig. 2 a). However, in each of the four trees tested there were additional smaller amplified bands likely representing viral genomes that had lost the inserted sequence. At 17 months post-infection most of the amplified bands observed using flanking primers were smaller in size than expected, indicating the loss of all or part of the hfRPL18 ORF (Fig. 2 b). However, using hfRPL18-specific primers, the full-length ORF was detected in 3 out of 4 infected trees, suggesting most infected trees partly retained the full hfRPL18 ORF (Fig. 2 b). Fig. 2 Stability of CTV-hfRPL18 within infected C. macrophylla trees at 3- and 17-months post-infection. a , Amplified RT-PCR products using primers flanking the hfRPL18 ORF at 3 months post-infection. b , RT-PCR products using both flanking and hfRPL18 specific primers at 17 months post-infection. λ Pst (marker lane), + (plasmid CTV-hfRPL18), - (RT-PCR of RNA from a healthy tree), CTV (RT-PCR of RNA from CTV empty vector infected tree). Arrows indicate the expected location for full length product for flanking or hfRPL18 specific primers Expression and translatome isolation of CTV-hfRPL18 The CTV-hfRPL18 base vector p35SCTV9-47R-244 vector is known to infect the vascular phloem of both citrus and N. benthamiana [ 24 ]. Within infected N. benthamiana CTV-hfRPL18 spread systemically within six weeks post-agroinfiltration. The hfRPL18 peptide was readily detected within crude extracts of macerated systemic leaf tissues via Western immunoblot (Fig. 3 a). Isolation of the polysome fraction also produced detectable levels of hfRPL18, indicating the presence of the tagged peptide within assembled polysomes. Furthermore, eluate from the polysome fraction, incubated with anti-FLAG magnetic beads, showed enrichment for the CTV-expressed hfRPL18 peptide (Fig. 3 a). In C. macrophylla , the hfRPL18 peptide was not detected within crude extracts of macerated leaf tissues but was readily detected in the eluate from the polysome fraction incubated with anti-FLAG magnetic beads (Fig. 3 b). These findings demonstrate the expression of the hfRPL18 peptide by CTV and its assembly into polysomes. Fig. 3 hfRPL18 purification and associated RNA extractions. a and b , Detection of hfRPL18 by Western immunoblot at different purification steps in N. benthamiana and C. macrophylla displaying enrichment for the hfRPL18 protein from magnetic bead elution fractions. c , RNA levels obtained from magnetic beads eluted hfRPL18 protein. Bars represent average ± standard deviation (Table S4 ) Within N. benthamiana leaf tissue infected with CTV-hfRPL18, RNA levels isolated from hfRPL18-purified polysomes were more than 25-fold higher than RNA isolated from tissue infected with CTV-GFP (51.2 ± 35.2 SD ng/µl vs. 2.3 ± 1.5 SD ng/µl, respectively; Table S4 , Fig. 3 c). For CTV-hfRPL18 infected C. macrophylla at 12–17 months post-infection, polysome RNA isolations averaged 2.5 fold higher than from C. macrophylla trees infected with the empty CTV9-47R-244 vector (125.6 ng/µl ± 29.7 SD vs. 48.5 ng/µl ± 20.4 SD, respectively; Table S4 , Fig. 3 c). The higher background levels of RNA from infected C. macrophylla were addressed by reducing the level of magnetic beads in the protocol from 50 to 25 µl and increasing wash times to 20 min, resulting in a 5.8-fold higher level of polysome RNA isolated from CTV-hfRPL18 vs. CTV9-47R-244 vector infected trees (Table S4 ). These findings indicate that CTV expressed hfRPL18 is produced during infection in both N. benthamiana and C. macrophylla and is readily purified from isolated polysome fractions. CTV-hfRPL18 translatome RNA analysis and gene ontology As CTV infected tissue does not contain hfRPL18, the mRNAs isolated from this tissue represent background RNA. To account for this background, RNAseq data from CTV infected tissues were compared to that of CTV-hfRPL18 infected tissues to identify mRNAs that were enriched in the CTV-hfRPL18 tissues. Results from this comparison identified 406 enriched genes from the CTV-hfRPL18 infected tissues (pValue < 0.05; Table S5 ). In examining the translatome within CTV-hfRPL18 infected plants we identified the presence of CTV genomic transcripts in all infected samples ranging from 95 to 2,510 total CTV reads per sample. However, read coverage for the region covering the inserted RPL18 ORF was low, averaging less than 10 reads per sample. These low read levels are likely due to instabilities in the CTV-hfRPL18 vector. Nonetheless, even in 17-month post-infection tissue with the greatest CTV instability, Western immunoblot detected the immune-tagged RPL18 protein (Fig. 3 b). This is consistent with our detection of full-length hfRPL18 in infected trees and previous studies that show the CTV vector can express the slightly larger GFP ORF for more than four years in citrus (Fig. 2 b) [ 29 ]. Gene ontology studies identified several biological processes with fold enrichments greater than 2.0 (Fig. 4 ). The GO process displaying the highest level of enrichment was potassium homeostasis. Potassium is the major cation found within phloem and an essential factor in plant growth, signaling, and responses to stress [ 39 , 40 ]. The second most highly enriched process was associated with mannitol responses. Mannitol is known to be a phloem-translocated photoassimilate associated with plant mediated pathogen resistance [ 41 , 42 ]. In citrus higher mannitol accumulations also correlate with increased levels of tolerance to CLas [ 43 ]. Other enriched processes include GO terms associated with cell and membrane transport, ion transport, and flavonoid biosynthesis and metabolism. These processes are consistent with the abundance of ions such as potassium found within phloem while flavonoids are plant secondary metabolites with diverse functions, including defense against pathogen infection and stress responses [ 42 , 44 , 45 ]. Combined the isolation of mRNAs associated with these biological processes is consistent with phloem functions and support the ability of the CTV-hfRPL18 to isolate phloem associated mRNAs. Fig. 4 Gene ontology of C. macrophylla identified phloem associated genes. GO analysis was done using the graphical gene-set enrichment tool ShinyGO (Table S6 ) [ 34 ] To further examine the validity of the CTV-hfRPL18 identified genes as phloem expressed both RT-PCR expression analysis and promoter expression studies were performed. Within N. benthamiana RT-PCR analysis was conducted to determine if CTV-hfRPL18 polysome RNA was enriched for phloem-specific mRNAs. For this study, primers were designed to target six previously identified N. benthamiana phloem-associated mRNAs from the hfRPL18 purified polysome RNA [ 12 ]. For comparison, similar PCR reactions were performed using total RNA from CTV-hfRPL18 infected tissue. Of six specific phloem genes investigated, four showed visible enrichment in the CTV-hfRPL18 polysome fraction (Fig. 5 ). Fig. 5 Phloem expression of CTV-hfRPL18 identified genes in N. benthamiana . A set of six previously identified N. benthamiana phloem-associated mRNAs were assessed for their presence in the CTV-hfRPL18 enriched translatome [ 12 ]. PCR amplification for each gene show all expressed within the CTV-hfRPL18 translatome with four being enriched in comparison to extracted total RNA To validate phloem expression, C. clementina promoter sequences derived from CTV-hfRPL18 identified genes were used to drive GUS expression (Fig. 6 ). Four genes were selected, callose synthase 7 ( CccalS7 ), sulfate transporter 2;1 ( CcSult2;1 ), leucine-rich repeat kinase ( CcLRR1 ), and cation binding protein ( CcCat ). For convenience, expression studies were done in an Arabidopsis system as previous studies have found that promoters from phloem expressed genes, such the Arabidopsis sucrose transporter 2 , confer similar expression profiles in a range of plants, including citrus and Prunus [ 18 , 46 , 47 ]. The CccalS7 gene has been shown to be phloem expressed and induced in response to HLB [ 48 , 49 – 50 ]. Consistent with this finding the CcCalS7 promoter displayed phloem expression (Fig. 6 a). Similarly, the CcSult2;1 promoter also demonstrated phloem expression while the CcCat promoter displayed expression throughout the whole leaf including the phloem (Fig. 6 b and c). Only the CcLRR1 promoter did not display any notable leaf expression (Fig. 6 d). Thus, three of the four investigated promoters were found to express within phloem, further supporting the CTV-hfRPL18 as a rapid means to identify phloem expressed genes. Fig. 6 Promoter expression analysis of selected Citrus x clementina CTV-hfRPL18 phloem associated mRNAs. Promoter sequences from four genes enriched in the CTV-hfRPL18 translatome were used to drive GUS expression in Arabidopsis (Table S3 ). GUS stained leaves from representative plants transformed with promoters from a , Ciclev10030495m callose synthase-like 7; b , Ciclev10016618m cation binding - like protein; c , Ciclev10025101m. sulfate transporter 2;1; d , Ciclev10024393m leucine-rich repeat transmembrane protein kinase Discussion Plant viruses have been extensively utilized as vectors for expressing foreign gene sequences [ 29 , 51 , 52 ]. Viral vectors designed for protein and/or RNA expression have proven to be important tools for functional analysis, including overexpression or silencing of specific plant genes [ 53 , 54 ]. They are also used for large-scale protein production and delivering plant therapeutics targeting pathogens [ 55 , 56 ]. CTV was previously developed as a vector using both gene addition and replacement strategies [ 29 ]. Remarkably, several of these vectors have provided stable gene expression over multiple years and are currently used to express peptides and RNAs targeting HLB and its vector Diaphorina citri [ 24 , 27 , 57 ]. This ability to express and maintain foreign gene sequences in variants that cause little to no disease has made CTV a valuable tool for studying citrus tree biology. Here, we expand the use of the CTV vector to include transcriptional analysis of citrus phloem through the expression of the hfRPL18 TRAP system. TRAP offers a simple method to directly sample ribosome-associated mRNAs via immuno-pull down, allowing mRNA sampling from whole tissues, eliminating the need for more complicated tissue sampling methods. In citrus, stability of the hfRPL18 ORF within the CTV genome varied between sampling times, with samples at 2 and 6 months post-infection displaying significantly more full-length hfRPL18 sequence than observed in 17 month old tissues. Additionally, sequencing data from the 17-month tissue showed low read coverage from the CTV hfRPL18 insertion site, reflecting the observed loss of the hfRPL18 ORF in the initial PCR analysis. It is possible that sequence homology between the CTV-hfRPL18 and the endogenous RPL18 contributed to observed instability. However, at all sampling times, the full-length hfRPL18 ORF could be PCR amplified, and importantly, the hfRPL18 protein was enriched via immuno-pull down of the polysome fraction at both 6 months and 17 months post-infection, albeit to a lesser degree at the later time (Fig. 3 ). Enrichment of mRNA levels from the polysome fractions of CTV-hfRPL18-infected trees also indicates that the expressed hfRPL18 assembles into functional ribosomes. Together, these results demonstrate the capability of the CTV-hfRPL18 vector to express the RPL18 ORF within infected phloem over a range of sampling times. One challenge with using the viral vector is identifying control mRNAs for comparison and in the identification of differentially regulated phloem genes. In transgenic translatome studies, expression of the hfRPL18 ORF by the ubiquitous 35 S promoter typically serves as the control for comparison to translatome mRNA obtained from the tissue specific expression of the hfRPL18 [ 8 , 12 , 13 ]. Here, we relied on either total RNA for N. benthamiana or CTV-infected citrus tissues for comparison to identify CTV-hfRPL18 enriched genes. Because of this limitation, we cannot identify downregulated phloem-specific genes in response to CTV infection. However, comparisons of CTV-hfRPL18 translatomes that include other treatments, such as HLB-infected vs. uninfected, could be used to directly identify positively and negatively regulated phloem genes. Analysis of the 406 CTV-hfRPL18 identified citrus genes revealed several previously identified phloem associated genes. These include transporter homologs for nitrate (NPF1.2) sulfate (CcSULTR2;1) auxin (AUX1), zinc (ZIF2), and potassium (KT1) [ 58 , 59 – 60 ]. In addition, callose synthase 7, which has been found to be expressed within the phloem of citrus and expressed in response to HLB infection was also identified within the CTV-hfRPL18 translatome [ 48 ]. For comparison, 74 (18%) of the 406 CTV-hfRPL18 phloem associated citrus genes were also identified within the phloem translatome of Prunus trees that expressed a transgene hfRPL18 ORF. This level of overlap is similar to previous single species translatome studies that identified between 8 and 22% overlap (Deeken et al. 2008; Mustroph et al. 2009; Zhao et al. 2005). Conformation of the phloem expression of CTV-hfRPL18 identified genes was further determined by PCR enrichment in N. benthamiana where the mRNAs for 4 of 6 previously identified phloem genes were found to be enriched within the CTV-hfRPL18 translatome RNA (Fig. 5 ). For citrus, the promoters from three of four CTV-hfRPL18 enriched genes showed clear phloem expression (Fig. 6 ). Combined these findings provide further evidence of the potential of CTV-hfRPL18 to identify phloem expressed genes. Conclusion The CTV-hfRPL18 vector provides a simplified means to examine mRNA expression specific to citrus vascular phloem. Applying this technology to various citrus cultivars without the need to produce transgenic trees represents a significant advancement in developing more detailed understandings of citrus responses to a range of biotic and abiotic challenges. Particularly in response to the phloem-limited causal agent of citrus greening disease where comparisons of the CTV-hfRPL18 translatome between highly susceptible and tolerant citrus varieties could rapidly provide information on defense and susceptibility genes associated with each phenotype, providing targets for future gene editing efforts aimed at altering the expression and function of such key genes."
+  },
+  "references_count": 60
+}

@@ -1,0 +1,389 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Alice: Draft genome sequence of agrobacterium deltaense strain CNPSo 3391, isolated from a soybean nodule in Mozambique.</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="Generator" content="DSpace 5.6" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="/alice/favicon.ico" type="image/x-icon"/>
+        <link rel="stylesheet" href="/alice/static/css/jquery-ui-1.10.3.custom/redmond/jquery-ui-1.10.3.custom.css" type="text/css" />
+        <link rel="stylesheet" href="/alice/static/css/bootstrap/bootstrap.min.css" type="text/css" />
+        <link rel="stylesheet" href="/alice/static/css/bootstrap/bootstrap-theme.min.css" type="text/css" />
+        <link rel="stylesheet" href="/alice/static/css/bootstrap/dspace-theme.css" type="text/css" />
+        
+        <link rel="search" type="application/opensearchdescription+xml" href="/alice/open-search/description.xml" title="DSpace"/>
+        
+        
+<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC.creator" content="SCHERER, A. J." xml:lang="eng" />
+<meta name="DC.creator" content="DELAMUTA, J. R. M." xml:lang="eng" />
+<meta name="DC.creator" content="RIBEIRO, R. A." xml:lang="eng" />
+<meta name="DC.creator" content="CHIBEBA, A. M." xml:lang="eng" />
+<meta name="DC.creator" content="KYEI-BOAHEN, S." xml:lang="eng" />
+<meta name="DC.creator" content="NOGUEIRA, M. A." xml:lang="eng" />
+<meta name="DC.creator" content="HUNGRIA, M." xml:lang="eng" />
+<meta name="DCTERMS.dateAccepted" content="2019-04-27T00:43:55Z" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.available" content="2019-04-27T00:43:55Z" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.created" content="2019-04-26" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.issued" content="2019" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.bibliographicCitation" content="Microbiology Resource Announcements, v. 8, n. 10, e01675-18, 2019." xml:lang="eng" />
+<meta name="DC.identifier" content="http://www.alice.cnptia.embrapa.br/alice/handle/doc/1108516" scheme="DCTERMS.URI" />
+<meta name="DC.language" content="eng" xml:lang="eng" scheme="DCTERMS.RFC1766" />
+<meta name="DC.rights" content="openAccess" xml:lang="eng" />
+<meta name="DC.title" content="Draft genome sequence of agrobacterium deltaense strain CNPSo 3391, isolated from a soybean nodule in Mozambique." xml:lang="eng" />
+<meta name="DC.type" content="Artigo de periódico" xml:lang="eng" />
+<meta name="DC.date" content="2019-10-28T11:11:11Z" scheme="DCTERMS.W3CDTF" />
+<meta name="DC.subject" content="Soja" xml:lang="eng" />
+<meta name="DC.subject" content="Nódulo" xml:lang="eng" />
+<meta name="DC.subject" content="Genoma" xml:lang="eng" />
+<meta name="DC.subject" content="Soybeans" xml:lang="eng" />
+<meta name="DC.subject" content="Genome" xml:lang="eng" />
+<meta name="DC.format" content="2 p." xml:lang="eng" />
+<meta name="DC.identifier" content="10.1128/MRA .01675-18" xml:lang="eng" />
+<meta name="DC.contributor" content="UEL; CNPQ; CNPQ; INTERNATIONAL INSTITUTE OF TROPICAL AGRICULTURE (IITA), NAMPULA, MOZAMBIQUE; INTERNATIONAL INSTITUTE OF TROPICAL AGRICULTURE (IITA), NAMPULA, MOZAMBIQUE; MARCO ANTONIO NOGUEIRA, CNPSO; MARIANGELA HUNGRIA DA CUNHA, CNPSO." xml:lang="eng" />
+
+<meta name="citation_keywords" content="Soja; Nódulo; Genoma; Soybeans; Genome" />
+<meta name="citation_title" content="Draft genome sequence of agrobacterium deltaense strain CNPSo 3391, isolated from a soybean nodule in Mozambique." />
+<meta name="citation_publisher" content="Microbiology Resource Announcements, v. 8, n. 10, e01675-18, 2019." />
+<meta name="citation_language" content="eng" />
+<meta name="citation_author" content="SCHERER, A. J." />
+<meta name="citation_author" content="DELAMUTA, J. R. M." />
+<meta name="citation_author" content="RIBEIRO, R. A." />
+<meta name="citation_author" content="CHIBEBA, A. M." />
+<meta name="citation_author" content="KYEI-BOAHEN, S." />
+<meta name="citation_author" content="NOGUEIRA, M. A." />
+<meta name="citation_author" content="HUNGRIA, M." />
+<meta name="citation_pdf_url" content="http://www.alice.cnptia.embrapa.br/bitstream/doc/1108516/1/2019AmJMicrobDraftGenomeAgrobacMozambiqueSchereretal.pdf" />
+<meta name="citation_date" content="2019" />
+<meta name="citation_abstract_html_url" content="http://www.alice.cnptia.embrapa.br/handle/doc/1108516" />
+
+        
+
+        <script type='text/javascript' src="/alice/static/js/jquery/jquery-1.10.2.min.js"></script>
+        <script type='text/javascript' src='/alice/static/js/jquery/jquery-ui-1.10.3.custom.min.js'></script>
+        <script type='text/javascript' src='/alice/static/js/bootstrap/bootstrap.min.js'></script>
+        <script type='text/javascript' src='/alice/static/js/holder.js'></script>
+        <script type="text/javascript" src="/alice/utils.js"></script>
+        <script type="text/javascript" src="/alice/static/js/choice-support.js"></script>
+
+        
+        
+
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+          <script src="/alice/static/js/html5shiv.js"></script>
+          <script src="/alice/static/js/respond.min.js"></script>
+        <![endif]-->
+    </head>
+
+    
+    
+    <body class="undernavigation">
+
+                <div class="row" style="padding-bottom: 0px;">
+
+
+                  <div class="col-md-3 brand">
+                      <a  href="/alice/" style="outline: none;">
+                <img src="/alice/image/logo_ALICE.jpg" alt="Alice logo" class="logoRepositorio" style="" width="508px" >
+                  <img src="/alice/image/Alice_Embrapa.jpg" alt="Alice logo" class="logoComposto" style="" width="508px" >
+                      </a>
+                    </div>
+
+
+                    <div class="col-md-9" style="padding-top: 0px;">
+
+
+                    <img src="/alice/image/aliceback.jpg" alt="alice" class="banerDireita">
+
+                    <a  href="https://www.embrapa.br/" target="_blank" style="outline: none;">
+                      <img src="/alice/image/embrapa_logo.jpg" alt="Embrapa " class="logoEmbrapa" width="330px">
+                      </a>
+                    </div>
+
+
+                    </div>
+
+
+
+
+        <a class="sr-only" href="#content">Skip navigation</a>
+        <header class="navbar navbar-inverse navbar-fixed">
+
+
+
+
+            
+            <div class="container" style="padding-right: 0px;">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+    
+</div>
+<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+    <ul class="nav navbar-nav">
+        <li class="false"><a href="/alice/"> Home</a></li>
+
+        <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Browse <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+                <li><a href="/alice/community-list">Embrapa Units</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Browse Items by:</li>
+                    
+
+                
+                <li><a href="/alice/browse?type=dateissued">Issue Date</a></li>
+                    
+                <li><a href="/alice/browse?type=author">Author</a></li>
+                    
+                <li><a href="/alice/browse?type=editor">Editor</a></li>
+                    
+                <li><a href="/alice/browse?type=title">Title</a></li>
+                    
+                <li><a href="/alice/browse?type=subject">Subject</a></li>
+                    
+                <li><a href="/alice/browse?type=type">Type</a></li>
+                    
+
+                
+
+            </ul>
+        </li>
+
+        <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+            <ul class="dropdown-menu" style="font-size: 15px;">
+                <li><a href="/alice/alice.jsp" style="font-size: 15px;">Alice</a></li>
+                <li><a href="https://www.embrapa.br/seb/o-sistema" target="_blank" style="font-size: 15px;">Embrapa's Library System (SEB)</a></li>
+                <li><a href="/alice/interoperabilidade.jsp" style="font-size: 15px;">Data interoperability</a></li>
+                <li><a href="https://www.embrapa.br/politica-de-governanca-de-dados-informacao-e-conhecimento"  target="_blank" style="font-size: 15px;">Governance policy</a></li>
+                <li><a href="/alice/duvidas.jsp" style="font-size: 15px;">Frequently questions</a></li>
+                <li><a href="/alice/contato.jsp" style="font-size: 15px;">Contact</a></li>
+            </ul>
+        </li>
+        <!--STATS ADDON  -->
+        
+        <li><a href="/alice/stats?level=general&type=access&page=downviews-series">Statistics</a></li>
+            
+        <!--END STATS ADDON  -->
+    </ul>
+    
+    
+    <div style="padding-top:15px;padding-left:25px;">
+        <div class="dropdown">
+            <a class="pull-right" href="?locale=es"><img alt="Español" title="Español" src="/alice/image/spain.png"></a>
+            <a class="pull-right" href="?locale=en"><img alt="English" title="English" src="/alice/image/english.png"></a>
+            <a class="pull-right" href="?locale=pt_BR"><img alt="Português" title="Português" src="/alice/image/brazil.png"></a>
+        </div>
+    </div>
+    
+    
+
+</nav>
+
+            </div>
+            
+        </header>
+
+        <main id="content" role="main">
+
+            
+            <div class="container">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+		
+
+
+                
+                <div class="well">Please use this identifier to cite or link to this item:
+                <code>http://www.alice.cnptia.embrapa.br/alice/handle/doc/1108516</code></div>
+
+
+
+    
+    <table class="table itemDisplayTable">
+<tr><td class="metadataFieldLabel">Title:&nbsp;</td><td class="metadataFieldValue">Draft&#x20;genome&#x20;sequence&#x20;of&#x20;agrobacterium&#x20;deltaense&#x20;strain&#x20;CNPSo&#x20;3391,&#x20;isolated&#x20;from&#x20;a&#x20;soybean&#x20;nodule&#x20;in&#x20;Mozambique.</td></tr>
+<tr><td class="metadataFieldLabel">Authors:&nbsp;</td><td class="metadataFieldValue"><a class="author"href="/alice/browse?type=author&amp;value=SCHERER%2C+A.+J.">SCHERER,&#x20;A.&#x20;J.</a><a class="reportimage"  target="_self"  alt="???stats.reporting.author.alt???" href="/alice/stats/report.jsp?type=author&amp;id=U0NIRVJFUiwgQS4gSi4="><img src="/alice/image/stats/report.png" /></a><a class="reportimage"  target="_self"  alt="???stats.reporting.author.alt???" href="/alice/stats/report.jsp?type=author&amp;id=U0NIRVJFUiwgQS4gSi4=&bibtex=yes"><img src="/alice/image/stats/bib.png" /></a><br /><a class="author"href="/alice/browse?type=author&amp;value=DELAMUTA%2C+J.+R.+M.">DELAMUTA,&#x20;J.&#x20;R.&#x20;M.</a><a class="reportimage"  target="_self"  alt="???stats.reporting.author.alt???" href="/alice/stats/report.jsp?type=author&amp;id=REVMQU1VVEEsIEouIFIuIE0u"><img src="/alice/image/stats/report.png" /></a><a class="reportimage"  target="_self"  alt="???stats.reporting.author.alt???" href="/alice/stats/report.jsp?type=author&amp;id=REVMQU1VVEEsIEouIFIuIE0u&bibtex=yes"><img src="/alice/image/stats/bib.png" /></a><br /><a class="author"href="/alice/browse?type=author&amp;value=RIBEIRO%2C+R.+A.">RIBEIRO,&#x20;R.&#x20;A.</a><a class="reportimage"  target="_self"  alt="???stats.reporting.author.alt???" href="/alice/stats/report.jsp?type=author&amp;id=UklCRUlSTywgUi4gQS4="><img src="/alice/image/stats/report.png" /></a><a class="reportimage"  target="_self"  alt="???stats.reporting.author.alt???" href="/alice/stats/report.jsp?type=author&amp;id=UklCRUlSTywgUi4gQS4=&bibtex=yes"><img src="/alice/image/stats/bib.png" /></a><br /><a class="author"href="/alice/browse?type=author&amp;value=CHIBEBA%2C+A.+M.">CHIBEBA,&#x20;A.&#x20;M.</a><a class="reportimage"  target="_self"  alt="???stats.reporting.author.alt???" href="/alice/stats/report.jsp?type=author&amp;id=Q0hJQkVCQSwgQS4gTS4="><img src="/alice/image/stats/report.png" /></a><a class="reportimage"  target="_self"  alt="???stats.reporting.author.alt???" href="/alice/stats/report.jsp?type=author&amp;id=Q0hJQkVCQSwgQS4gTS4=&bibtex=yes"><img src="/alice/image/stats/bib.png" /></a><br /><a class="author"href="/alice/browse?type=author&amp;value=KYEI-BOAHEN%2C+S.">KYEI-BOAHEN,&#x20;S.</a><a class="reportimage"  target="_self"  alt="???stats.reporting.author.alt???" href="/alice/stats/report.jsp?type=author&amp;id=S1lFSS1CT0FIRU4sIFMu"><img src="/alice/image/stats/report.png" /></a><a class="reportimage"  target="_self"  alt="???stats.reporting.author.alt???" href="/alice/stats/report.jsp?type=author&amp;id=S1lFSS1CT0FIRU4sIFMu&bibtex=yes"><img src="/alice/image/stats/bib.png" /></a><br /><a class="author"href="/alice/browse?type=author&amp;value=NOGUEIRA%2C+M.+A.">NOGUEIRA,&#x20;M.&#x20;A.</a><a class="reportimage"  target="_self"  alt="???stats.reporting.author.alt???" href="/alice/stats/report.jsp?type=author&amp;id=Tk9HVUVJUkEsIE0uIEEu"><img src="/alice/image/stats/report.png" /></a><a class="reportimage"  target="_self"  alt="???stats.reporting.author.alt???" href="/alice/stats/report.jsp?type=author&amp;id=Tk9HVUVJUkEsIE0uIEEu&bibtex=yes"><img src="/alice/image/stats/bib.png" /></a><br /><a class="author"href="/alice/browse?type=author&amp;value=HUNGRIA%2C+M.">HUNGRIA,&#x20;M.</a><a class="reportimage"  target="_self"  alt="???stats.reporting.author.alt???" href="/alice/stats/report.jsp?type=author&amp;id=SFVOR1JJQSwgTS4="><img src="/alice/image/stats/report.png" /></a><a class="reportimage"  target="_self"  alt="???stats.reporting.author.alt???" href="/alice/stats/report.jsp?type=author&amp;id=SFVOR1JJQSwgTS4=&bibtex=yes"><img src="/alice/image/stats/bib.png" /></a></td></tr>
+<tr><td class="metadataFieldLabel">Affiliation:&nbsp;</td><td class="metadataFieldValue">UEL;&#x20;CNPQ;&#x20;CNPQ;&#x20;INTERNATIONAL&#x20;INSTITUTE&#x20;OF&#x20;TROPICAL&#x20;AGRICULTURE&#x20;(IITA),&#x20;NAMPULA,&#x20;MOZAMBIQUE;&#x20;INTERNATIONAL&#x20;INSTITUTE&#x20;OF&#x20;TROPICAL&#x20;AGRICULTURE&#x20;(IITA),&#x20;NAMPULA,&#x20;MOZAMBIQUE;&#x20;MARCO&#x20;ANTONIO&#x20;NOGUEIRA,&#x20;CNPSO;&#x20;MARIANGELA&#x20;HUNGRIA&#x20;DA&#x20;CUNHA,&#x20;CNPSO.</td></tr>
+<tr><td class="metadataFieldLabel">Date Issued:&nbsp;</td><td class="metadataFieldValue">2019</td></tr>
+<tr><td class="metadataFieldLabel">Citation:&nbsp;</td><td class="metadataFieldValue">Microbiology&#x20;Resource&#x20;Announcements,&#x20;v.&#x20;8,&#x20;n.&#x20;10,&#x20;e01675-18,&#x20;2019.</td></tr>
+<tr><td class="metadataFieldLabel">Pages:&nbsp;</td><td class="metadataFieldValue">2&#x20;p.</td></tr>
+<tr><td class="metadataFieldLabel">Thesagro:&nbsp;</td><td class="metadataFieldValue">Soja<br />Nódulo<br />Genoma</td></tr>
+<tr><td class="metadataFieldLabel">NAL Thesaurus:&nbsp;</td><td class="metadataFieldValue">Soybeans<br />Genome</td></tr>
+<tr><td class="metadataFieldLabel">DOI:&nbsp;</td><td class="metadataFieldValue">10.1128&#x2F;MRA&#x20;.01675-18</td></tr>
+<tr><td class="metadataFieldLabel">Type of Material:&nbsp;</td><td class="metadataFieldValue">Artigo&#x20;de&#x20;periódico</td></tr>
+<tr><td class="metadataFieldLabel">Access:&nbsp;</td><td class="metadataFieldValue">openAccess</td></tr>
+<tr><td class="metadataFieldLabel">Appears in Collections:</td><td class="metadataFieldValue"><a href="/alice/handle/item/340">Artigo em periódico indexado (CNPSO)</a><a class="reportimage"  target="_self"  alt="???stats.reporting.collection.alt???" href="/alice/stats/report.jsp?type=collection&amp;id=298"><img src="/alice/image/stats/report.png" /></a><a class="reportimage"  target="_self"  alt="???stats.reporting.collection.alt???" href="/alice/stats/report.jsp?type=collection&amp;id=298&bibtex=yes"><img src="/alice/image/stats/bib.png" /></a><br/></td></tr>
+</table><br/>
+<div class="panel panel-info"><div class="panel-heading">Files in This Item:</div>
+<table class="table panel-body"><tr><th id="t1" class="standard">File</th>
+<th id="t2" class="standard">Description</th>
+<th id="t3" class="standard">Size</th><th id="t4" class="standard">Format</th><th>&nbsp;</th></tr>
+<tr><td headers="t1" class="standard"><a target="_blank" href="/alice/bitstream/doc/1108516/1/2019AmJMicrobDraftGenomeAgrobacMozambiqueSchereretal.pdf">2019AmJMicrobDraftGenomeAgrobacMozambiqueSchereretal.pdf</a></td><td headers="t2" class="standard"></td><td headers="t3" class="standard">121.55 kB</td><td headers="t4" class="standard">Adobe PDF</td><td class="standard" align="center"><a target="_blank" href="/alice/bitstream/doc/1108516/1/2019AmJMicrobDraftGenomeAgrobacMozambiqueSchereretal.pdf"><img src="/alice/retrieve/443865/2019AmJMicrobDraftGenomeAgrobacMozambiqueSchereretal.pdf.jpg" alt="Thumbnail" /></a><br /><a class="btn btn-primary" target="_blank" href="/alice/bitstream/doc/1108516/1/2019AmJMicrobDraftGenomeAgrobacMozambiqueSchereretal.pdf">View/Open</a></td></tr></table>
+</div>
+
+<div class="container row">
+
+
+    <a class="btn btn-default" href="/alice/handle/doc/1108516?mode=full">
+        Show full item record
+    </a>
+
+	<!--STATS ADDON  -->
+		
+				<a class="statisticsLink  btn btn-info" href="/alice/stats?level=item&type=access&page=downviews-series&object=item&object-id=doc/1108516">
+				<span class="glyphicon glyphicon-stats"></span></a>
+			
+	<!--END STATS ADDON  -->
+
+
+    
+
+</div>
+<br/>
+    
+
+
+    
+
+<div class="well" style="height: 35px; padding-left: 10px; padding-right:10px; padding-top:6px">
+        <div style="float: left;">
+      <p align="center"><a target="_blank" href="http://www.facebook.com/sharer.php?s=100&p[Draft genome sequence of agrobacterium deltaense strain CNPSo 3391, isolated from a soybean nodule in Mozambique.]=Draft genome sequence of agrobacterium deltaense strain CNPSo 3391, isolated from a soybean nodule in Mozambique.&p[summary]=&p[url]=http://www.alice.cnptia.embrapa.br/alice/handle/doc/1108516"><img style="padding-left:3px;padding-rigth:3px" alt="Facebook" title="Compartilhe no Facebook" src="/alice/image/share/facebook.png"></a><a target="_blank" href="http://twitter.com/home?status=Draft genome sequence of agrobacterium deltaense strain CNPSo 3391, isolated from a soybean nodule in Mozambique.&nbsp;http://www.alice.cnptia.embrapa.br/alice/handle/doc/1108516"><img style="padding-left:3px;padding-rigth:3px" alt="Twitter" title="Compartilhe no Twitter" src="/alice/image/share/twitter.png"></a><a target="_blank" href="http://delicious.com/post?url=http://www.alice.cnptia.embrapa.br/alice/handle/doc/1108516&title=Draft genome sequence of agrobacterium deltaense strain CNPSo 3391, isolated from a soybean nodule in Mozambique."><img style="padding-left:3px;padding-rigth:3px" alt="Delicious" title="Compartilhe no Delicious" src="/alice/image/share/delicious.png"></a><a target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&url=http://www.alice.cnptia.embrapa.br/alice/handle/doc/1108516&title=Draft genome sequence of agrobacterium deltaense strain CNPSo 3391, isolated from a soybean nodule in Mozambique.&summary="><img style="padding-left:3px;padding-rigth:3px" alt="LinkedIn" title="Compartilhe no LinkedIn" src="/alice/image/share/linkedin.png"></a><a target="_blank" href="https://www.google.com/bookmarks/mark?op=add&bkmk=http://www.alice.cnptia.embrapa.br/alice/handle/doc/1108516&title=Draft genome sequence of agrobacterium deltaense strain CNPSo 3391, isolated from a soybean nodule in Mozambique."><img style="padding-left:3px;padding-rigth:3px" alt="Google Bookmarks" title="Adicionar ao Google Bookmarks" src="/alice/image/share/googlebookmark.png"></a><a target="_blank" href="http://www.myspace.com/Modules/PostTo/Pages/?u=http://www.alice.cnptia.embrapa.br/alice/handle/doc/1108516"><img style="padding-left:3px;padding-rigth:3px" alt="MySpace" title="Compartilhe no MySpace" src="/alice/image/share/myspace.png"></a></p>
+       </div>
+       <div style="float: right;">
+
+
+       </div>
+       </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</main>
+
+<footer class="navbar navbar-inverse navbar-bottom">
+    <div id="designedby" class="container text-muted">
+        <div class="col-md-5" align="left" id="footer">
+            Indexed by </br>
+            <a href="https://oasisbr.ibict.br/" target="_BLANK">
+            <img src="/alice/image/oasisbr.png" alt="Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto" title="Oasisbr" width="176" height="59" />
+            </a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://www.fao.org/agris/" target="_BLANK">
+                <img src=https://assets.agris.fao.org/public/images/2024-10/ADP_cert_2025.png alt="BR1– FAO AGRIS data provider 2025" title="Seal of recognition for active AGRIS Data Providers 2025" width="90" height="118" />
+            </a>
+        </div>
+        <div class="col-md-3" align="left">
+                Supported by  </br></br></br>
+                <a href="http://www.dspace.org/" target="_BLANK">
+                <img src="/alice/image/DSpace-logo-light.png" alt="DSpace logo" width="150" height="38"></img>
+            </a>
+        </div>
+        <div class="col-md-4" align="right" id="footer2">
+            <p>
+            <a class="linkRodape" style="color: #FFF;" href="https://www.embrapa.br/" target="_BLANK">  Brazilian Agricultural Research Corporation - Embrapa</a>
+            SAC: <a class="linkRodape" style="color: #FFF;" href="https://www.embrapa.br/fale-conosco" target="_BLANK">https://www.embrapa.br/fale-conosco</a></br></br>
+The repository content is licensed under the Creative Commons License<a style="color: white;" href="https://creativecommons.org/licenses/by-nc-nd/4.0/"> Attribution-NonCommercial-NoDerivs 4.0 International.</a></br>
+               <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+               <img alt=Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a>
+            </p>
+            <a href="/alice/htmlmap"></a></p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
+

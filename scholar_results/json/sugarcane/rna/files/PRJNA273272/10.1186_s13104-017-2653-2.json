@@ -1,0 +1,4755 @@
+{
+  "metadata": {
+    "extraction_timestamp": "2025-09-28T13:26:07.121580",
+    "article_type": "research-article",
+    "language": "en"
+  },
+  "publication_info": {
+    "journal": "BMC Research Notes",
+    "issn": "1756-0500",
+    "publisher": "BioMed Central",
+    "doi": "10.1186/s13104-017-2653-2",
+    "volume": "10",
+    "issue": "1",
+    "publication_dates": {
+      "pub": "2017-08-08",
+      "collection": "2017-12"
+    }
+  },
+  "title": "Development of novel genic microsatellite markers from transcriptome sequencing in sugar maple ( Acer saccharum Marsh.)",
+  "authors": [
+    {
+      "surname": "Harmon",
+      "given_names": "Monica",
+      "full_name": "Monica Harmon",
+      "email": "harmon@mtu.edu",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff1"
+      ]
+    },
+    {
+      "surname": "Lane",
+      "given_names": "Thomas",
+      "full_name": "Thomas Lane",
+      "email": "tlane13utk@gmail.com",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff2"
+      ]
+    },
+    {
+      "surname": "Staton",
+      "given_names": "Margaret",
+      "full_name": "Margaret Staton",
+      "email": "mstaton1@utk.edu",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff2"
+      ]
+    },
+    {
+      "surname": "Coggeshall",
+      "given_names": "Mark V.",
+      "full_name": "Mark V. Coggeshall",
+      "email": "mcoggeshall@fs.fed.us",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff3"
+      ]
+    },
+    {
+      "surname": "Best",
+      "given_names": "Teodora",
+      "full_name": "Teodora Best",
+      "email": "txo115@psu.edu",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff4"
+      ]
+    },
+    {
+      "surname": "Chen",
+      "given_names": "Chien-Chih",
+      "full_name": "Chien-Chih Chen",
+      "email": "cxc493@gmail.com",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff5",
+        "Aff6"
+      ]
+    },
+    {
+      "surname": "Liang",
+      "given_names": "Haiying",
+      "full_name": "Haiying Liang",
+      "email": "hliang@clemson.edu",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff5"
+      ]
+    },
+    {
+      "surname": "Zembower",
+      "given_names": "Nicole",
+      "full_name": "Nicole Zembower",
+      "email": "nmb119@psu.edu",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff4"
+      ]
+    },
+    {
+      "surname": "Drautz-Moses",
+      "given_names": "Daniela I.",
+      "full_name": "Daniela I. Drautz-Moses",
+      "email": "danielamoses@pmail.ntu.edu.sg",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff7"
+      ]
+    },
+    {
+      "surname": "Hwee",
+      "given_names": "Yap Zhei",
+      "full_name": "Yap Zhei Hwee",
+      "email": "ZHYap@ntu.edu.sg",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff7"
+      ]
+    },
+    {
+      "surname": "Schuster",
+      "given_names": "Stephan C.",
+      "full_name": "Stephan C. Schuster",
+      "email": "SCSchuster@ntu.edu.sg",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff7"
+      ]
+    },
+    {
+      "surname": "Schlarbaum",
+      "given_names": "Scott E.",
+      "full_name": "Scott E. Schlarbaum",
+      "email": "tenntip@utk.edu",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff8"
+      ]
+    },
+    {
+      "surname": "Carlson",
+      "given_names": "John E.",
+      "full_name": "John E. Carlson",
+      "email": "jec16@psu.edu",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff4"
+      ]
+    },
+    {
+      "surname": "Gailing",
+      "given_names": "Oliver",
+      "full_name": "Oliver Gailing",
+      "email": "ogailing@mtu.edu",
+      "is_corresponding": true,
+      "affiliation_refs": [
+        "Aff1",
+        "Aff9"
+      ]
+    }
+  ],
+  "affiliations": {
+    "Aff1": {
+      "institution": "Michigan Technological University",
+      "department": "School of Forest Resources and Environmental Science",
+      "address": {
+        "city": "Houghton",
+        "state": "MI",
+        "country": "USA"
+      }
+    },
+    "Aff2": {
+      "institution": "The University of Tennessee",
+      "department": "Department of Entomology and Plant Pathology",
+      "address": {
+        "city": "Knoxville",
+        "state": "TN",
+        "country": "USA"
+      }
+    },
+    "Aff3": {
+      "institution": "University of Missouri",
+      "department": "Department of Forestry",
+      "address": {
+        "city": "Columbia",
+        "state": "MO",
+        "country": "USA"
+      }
+    },
+    "Aff4": {
+      "institution": "The Pennsylvania State University",
+      "department": "Department of Ecosystem Science and Management and Department of Plant Science",
+      "address": {
+        "city": "University Park",
+        "state": "PA",
+        "country": "USA"
+      }
+    },
+    "Aff5": {
+      "institution": "Clemson University",
+      "department": "Department of Genetics and Biochemistry",
+      "address": {
+        "city": "Clemson",
+        "state": "SC",
+        "country": "USA"
+      }
+    },
+    "Aff6": {
+      "institution": "Fiji National University",
+      "department": "College of Agriculture, Fisheries and Forestry",
+      "address": {
+        "city": "Nausori",
+        "country": "Fiji"
+      }
+    },
+    "Aff7": {
+      "institution": "Nanyang Technological University",
+      "department": "Singapore Centre for Environmental Life Sciences Engineering",
+      "address": {
+        "city": "Singapore",
+        "country": "Singapore"
+      }
+    },
+    "Aff8": {
+      "institution": "The University of Tennessee",
+      "department": "Department of Forestry, Wildlife & Fisheries",
+      "address": {
+        "city": "Knoxville",
+        "state": "TN",
+        "country": "USA"
+      }
+    },
+    "Aff9": {
+      "institution": "University of Goettingen",
+      "department": "Forest Genetics and Forest Tree Breeding, Faculty of Forest Sciences",
+      "address": {
+        "city": "Goettingen",
+        "country": "Germany"
+      }
+    }
+  },
+  "abstract": {
+    "sections": {
+      "background": "Sugar maple ( Acer saccharum Marsh.) is a hardwood tree species native to northeastern North America and economically valued for its wood and sap. Yet, few molecular genetic resources have been developed for this species to date. Microsatellite markers have been a useful tool in population genetics, e.g., to monitor genetic variation and to analyze gene flow patterns. The objective of this study is to develop a reference transcriptome and microsatellite markers in sugar maple.",
+      "findings": "A set of 117,861 putative unique transcripts were assembled using 29.2 Gb of RNA sequencing data derived from different tissues and stress treatments. From this set of sequences a total of 1068 microsatellite motifs were identified. Out of 58 genic microsatellite markers tested on a population of 47 sugar maple trees in upper Michigan, 22 amplified well, of which 16 were polymorphic and 6 were monomorphic. Values for expected heterozygosity varied from 0.224 to 0.726 for individual loci. Of the 16 polymorphic markers, 15 exhibited transferability to other Acer L. species.",
+      "conclusions": "Genic microsatellite markers can be applied to analyze genetic variation in potentially adaptive genes relative to genomic reference markers as a basis for the management of sugar maple genetic resources in the face of climate change."
+    },
+    "full_text": "Abstract Background Sugar maple ( Acer saccharum Marsh.) is a hardwood tree species native to northeastern North America and economically valued for its wood and sap. Yet, few molecular genetic resources have been developed for this species to date. Microsatellite markers have been a useful tool in population genetics, e.g., to monitor genetic variation and to analyze gene flow patterns. The objective of this study is to develop a reference transcriptome and microsatellite markers in sugar maple. Findings A set of 117,861 putative unique transcripts were assembled using 29.2 Gb of RNA sequencing data derived from different tissues and stress treatments. From this set of sequences a total of 1068 microsatellite motifs were identified. Out of 58 genic microsatellite markers tested on a population of 47 sugar maple trees in upper Michigan, 22 amplified well, of which 16 were polymorphic and 6 were monomorphic. Values for expected heterozygosity varied from 0.224 to 0.726 for individual loci. Of the 16 polymorphic markers, 15 exhibited transferability to other Acer L. species. Conclusions Genic microsatellite markers can be applied to analyze genetic variation in potentially adaptive genes relative to genomic reference markers as a basis for the management of sugar maple genetic resources in the face of climate change."
+  },
+  "keywords": [
+    {
+      "language": "en",
+      "keywords": [
+        "Acer saccharum",
+        "EST-SSRs",
+        "Transferability",
+        "Next-generation sequencing"
+      ]
+    }
+  ],
+  "funding": [
+    {
+      "source": "Directorate for Biological Sciences",
+      "award_id": "1025974"
+    }
+  ],
+  "content": {
+    "sections": [
+      {
+        "id": "Sec1",
+        "title": "Background",
+        "paragraphs": [
+          {
+            "id": "Par4",
+            "text": "Sugar maple ( Acer saccharum Marsh.) is a hardwood species native to the Northeastern United States and Southern Canada. It is valued for its wood and syrup/sugar, supports a large industry [ 1 ] and is an important ecosystem component [ 2 ]. While microsatellite markers have many applications in population genetic analyses, few resources for sugar maple have been developed to date [ 3 , 4 ]."
+          },
+          {
+            "id": "Par5",
+            "text": "Microsatellite markers are short sequence repeats (SSRs) which are often highly variable and prone to mutations [ 5 ]. Genic microsatellite markers can be derived from EST-libraries and can be located in the coding regions or in the 5′- and 3′ untranslated regions of mRNAs [ 6 ]. Due to their location in expressed genes, they often show a lower genetic variation than genomic (non-genic) microsatellites and a higher transferability between related species [ 6 ]. Especially, stress-responsive genes might be under selection and show clinal variation along environmental gradients. Heat and drought stress and population fragmentation are especially expected at the southern distribution edge of the species [ 7 ], as the result of a warming climate. The new genic microsatellites will be useful to analyze patterns of genetic variation and provide the basis for the management and conservation of the species’ genetic resources in a changing climate."
+          }
+        ]
+      },
+      {
+        "id": "Sec2",
+        "title": "Methods",
+        "paragraphs": [
+          {
+            "id": "Par6",
+            "text": "Leaf samples were collected from 47 georeferenced adult trees of one natural population close to Houghton, MI (47°07′07.46″N, 88°35′16.41″W) in a region which is dominated by sugar maple forests [ 4 ]. Total genomic DNA was isolated for the 47 samples of Acer saccharum and for three samples of each Acer rubrum L. (section Rubra ), Acer saccharinum L. (section Rubra ), Acer platanoides L. (section Platanoidea ) and Acer ginnala Maxim. (section Ginnala ) from ~1 cm 2 of silica gel dried leaf samples using the DNeasy Plant Mini Kit (Qiagen, Hilden, Germany)."
+          },
+          {
+            "id": "Par7",
+            "text": "A total of 51 transcriptome libraries were derived from tissues (leaves, petioles, roots) of ozone, cold, heat, drought, wound stressed and unstressed half-sib seedlings. Tissue types and treatments are described in Additional file 1 . Details on ozone and wound stress treatments are given in [ 8 ]. Tissues were flash frozen and stored at −80 °C until RNA was extracted. Approximately 1 g of frozen tissue was used for isolation of total RNA with a modified CTAB method that uses lithium chloride precipitation [ 9 ]. After RNA quality assessment with an Agilent Bioanalyzer (Agilent Technologies), RNA was subjected to TruSeq Stranded mRNA library preparation (San Diego, CA), following the manufacturer’s protocol. All libraries were labeled with dual barcodes. Paired-end sequencing of 46 sugar maple libraries was performed on an Illumina HiSeq 2500 instrument (San Diego, CA) at a read length of 101 bp. A further set of 5 libraries were sequenced on an Illumina MiSeq (San Diego, CA) (Additional file 1 ). Raw reads can be found in the NCBI Short Read Archive (SRA) with the bioproject accession PRJNA273272. Read statistics for each library are provided in Additional file 1 ."
+          },
+          {
+            "id": "Par8",
+            "text": "Trimmomatic version 0.35 was used to trim raw sequencing reads of adapter sequences and low quality bases [ 10 ]. Kmer-based error correction of RNASeq reads was performed in Rcorrector (kmer length of 31) [ 11 ]. Trimmed and corrected reads were assembled with the Trinity pipeline version r20131110 [ 12 ]. Isoforms from the Trinity pipeline were collapsed and further assembled with cd-hit version 4.6.1 [ 13 ]. Open reading frame (ORF) prediction was executed with TransDecoder version 2.0.1 [ 14 ]. TransDecoder predictions were further improved by performing searches using BLAST version 2.2.29 versus the Uniprot SwissProt protein databases (cut-off of e-value <1e−4) and by HMMER version 3.1b2 against the pfam database [ 15 , 16 , 17 – 18 ]. Two methods were employed to determine assembly completeness of the sugar maple transcriptome. First, transcripts were assessed by BUSCO (Benchmarking Universal Single-Copy Orthologs) version 1.1b1 to determine the presence of universal single-copy orthologs using the early release plant database [ 19 ]. Second, TransRate v1.0.3 was used to calculate quality scores for contigs based on the read alignment evidence [ 20 ]."
+          },
+          {
+            "id": "Par9",
+            "text": "BLAST version 2.2.29 queries were performed against the plant taxonomic division of the TrEMBL protein database and Swiss-Prot protein database [ 15 , 16 ]. Simple sequence repeats (SSRs) were found by searching putative unique transcripts (PUTs) using a perl script ( https://github.com/mestato/lab_code/tree/master/hwg_gssr_scripts ). SSRs needed to meet specific requirements for inclusion in the final output, requiring: 2 bp repeats to have 8–200 copies, 3 bp repeats to have 7–133 copies, and 4 bp repeats to have 6–100 copies. Compound SSRs, defined as SSRs occurring with less than 15 bases of separation, were removed. Dustmasker was used to mask low complexity regions to aid primer design in Primer3 v2.3.6 [ 15 , 21 ]. The following Primer3 parameters were used: primer_product_size_range  =  100–450, primer_min_tm  =  55.0, primer_max_tm  =  65.0, primer_min_gc  =  40, primer_max_gc  =  60, primer_max_poly_x  =  3, primer_gc_clamp  =  2."
+          },
+          {
+            "id": "Par10",
+            "text": "The DNA was diluted to ~1 ng/µl with double deionized water (Ultra Pure Water, Molecular Grade, Phenix Research Products). A 15 µl PCR reaction was prepared consisting of 6 µl double deionized water (Ultra Pure Water, Molecular Grade from Phenix Research Products), 5 µl HotFIREPol (Solis Biodyne, containing 2 mM dNTPs, 1U Taq polymerase, 10 mM MgCl 2 ), 0.2 µl of 5 µM forward primer with the M13 tail (5′-CACGACGTTGTAAACGAC-3′), 1.5 µl of 5 µM 5′ dye labelled (6-FAM) M13 primer, 0.5 µl of 5 µM pig-tailed (5′-GTTTCTT-3′) reverse primer [ 22 , 23 ] (Sigma Aldrich Inc., St. Louis, MO) and 2 µl DNA (~2 ng). The PCR touchdown reaction was performed in an Applied Biosystems 2720 Thermal Cycler (Foster City, CA) consisting of an initial denaturation at 95 °C for 15 min, 10 touch-down cycles of 1 min at 94 °C, 1 min at 60 °C (decreasing 1 °C each cycle), and 1 min at 72 °C, followed by 25 cycles of 94 °C for 1 min, 50 °C for 1 min and 72 °C for 1 min. The final extension was at 72 °C for 20 min. PCR products were checked on 1.5% agarose gels and stained with 2 µl GelRed (10,000X in water; Biotium, Hayward, CA) and exact fragment sizes were determined after electrophoretic separation on an ABI Prism ® Genetic Analyzer 3730 with Gene-ScanTM LIZ-500 as internal size standard. Alleles were assigned to bins after careful visual inspection using GeneMarker ® V2.6.7 (SoftGenetics)."
+          },
+          {
+            "id": "Par11",
+            "text": "Primer pairs (Sigma Aldrich Inc., St. Louis, MO) were tested for amplification initially in four randomly selected samples. Markers that amplified polymorphic products in the expected size range in these four samples were amplified in all 47 samples. Genetic variation assessment was conducted using GenAlEx 6.502 [ 24 ]. Specifically, observed and expected heterozygosity (H o , H e , respectively) [ 25 ] and number of alleles (N a ) were calculated. Further, the inbreeding coefficient ( F ) was estimated for each locus in the population using GENEPOP version 4.2 [ 26 , 27 ]. Significant deviations from Hardy–Weinberg proportions were tested using Fischer’s exact test in GENEPOP. Additionally pairwise linkage disequilibrium was tested for all marker pairs in GENEPOP. Bonferroni corrections were applied to adjust for multiple testing [ 28 ]."
+          }
+        ],
+        "subsections": [
+          {
+            "id": "Sec3",
+            "title": "Plant materials for SSR analysis",
+            "paragraphs": [
+              {
+                "id": "Par6",
+                "text": "Leaf samples were collected from 47 georeferenced adult trees of one natural population close to Houghton, MI (47°07′07.46″N, 88°35′16.41″W) in a region which is dominated by sugar maple forests [ 4 ]. Total genomic DNA was isolated for the 47 samples of Acer saccharum and for three samples of each Acer rubrum L. (section Rubra ), Acer saccharinum L. (section Rubra ), Acer platanoides L. (section Platanoidea ) and Acer ginnala Maxim. (section Ginnala ) from ~1 cm 2 of silica gel dried leaf samples using the DNeasy Plant Mini Kit (Qiagen, Hilden, Germany)."
+              }
+            ]
+          },
+          {
+            "id": "Sec4",
+            "title": "Library preparation, transcriptome sequencing and assembly",
+            "paragraphs": [
+              {
+                "id": "Par7",
+                "text": "A total of 51 transcriptome libraries were derived from tissues (leaves, petioles, roots) of ozone, cold, heat, drought, wound stressed and unstressed half-sib seedlings. Tissue types and treatments are described in Additional file 1 . Details on ozone and wound stress treatments are given in [ 8 ]. Tissues were flash frozen and stored at −80 °C until RNA was extracted. Approximately 1 g of frozen tissue was used for isolation of total RNA with a modified CTAB method that uses lithium chloride precipitation [ 9 ]. After RNA quality assessment with an Agilent Bioanalyzer (Agilent Technologies), RNA was subjected to TruSeq Stranded mRNA library preparation (San Diego, CA), following the manufacturer’s protocol. All libraries were labeled with dual barcodes. Paired-end sequencing of 46 sugar maple libraries was performed on an Illumina HiSeq 2500 instrument (San Diego, CA) at a read length of 101 bp. A further set of 5 libraries were sequenced on an Illumina MiSeq (San Diego, CA) (Additional file 1 ). Raw reads can be found in the NCBI Short Read Archive (SRA) with the bioproject accession PRJNA273272. Read statistics for each library are provided in Additional file 1 ."
+              },
+              {
+                "id": "Par8",
+                "text": "Trimmomatic version 0.35 was used to trim raw sequencing reads of adapter sequences and low quality bases [ 10 ]. Kmer-based error correction of RNASeq reads was performed in Rcorrector (kmer length of 31) [ 11 ]. Trimmed and corrected reads were assembled with the Trinity pipeline version r20131110 [ 12 ]. Isoforms from the Trinity pipeline were collapsed and further assembled with cd-hit version 4.6.1 [ 13 ]. Open reading frame (ORF) prediction was executed with TransDecoder version 2.0.1 [ 14 ]. TransDecoder predictions were further improved by performing searches using BLAST version 2.2.29 versus the Uniprot SwissProt protein databases (cut-off of e-value <1e−4) and by HMMER version 3.1b2 against the pfam database [ 15 , 16 , 17 – 18 ]. Two methods were employed to determine assembly completeness of the sugar maple transcriptome. First, transcripts were assessed by BUSCO (Benchmarking Universal Single-Copy Orthologs) version 1.1b1 to determine the presence of universal single-copy orthologs using the early release plant database [ 19 ]. Second, TransRate v1.0.3 was used to calculate quality scores for contigs based on the read alignment evidence [ 20 ]."
+              }
+            ]
+          },
+          {
+            "id": "Sec5",
+            "title": "Functional annotation and SSR discovery",
+            "paragraphs": [
+              {
+                "id": "Par9",
+                "text": "BLAST version 2.2.29 queries were performed against the plant taxonomic division of the TrEMBL protein database and Swiss-Prot protein database [ 15 , 16 ]. Simple sequence repeats (SSRs) were found by searching putative unique transcripts (PUTs) using a perl script ( https://github.com/mestato/lab_code/tree/master/hwg_gssr_scripts ). SSRs needed to meet specific requirements for inclusion in the final output, requiring: 2 bp repeats to have 8–200 copies, 3 bp repeats to have 7–133 copies, and 4 bp repeats to have 6–100 copies. Compound SSRs, defined as SSRs occurring with less than 15 bases of separation, were removed. Dustmasker was used to mask low complexity regions to aid primer design in Primer3 v2.3.6 [ 15 , 21 ]. The following Primer3 parameters were used: primer_product_size_range  =  100–450, primer_min_tm  =  55.0, primer_max_tm  =  65.0, primer_min_gc  =  40, primer_max_gc  =  60, primer_max_poly_x  =  3, primer_gc_clamp  =  2."
+              }
+            ]
+          },
+          {
+            "id": "Sec6",
+            "title": "Marker analyses",
+            "paragraphs": [
+              {
+                "id": "Par10",
+                "text": "The DNA was diluted to ~1 ng/µl with double deionized water (Ultra Pure Water, Molecular Grade, Phenix Research Products). A 15 µl PCR reaction was prepared consisting of 6 µl double deionized water (Ultra Pure Water, Molecular Grade from Phenix Research Products), 5 µl HotFIREPol (Solis Biodyne, containing 2 mM dNTPs, 1U Taq polymerase, 10 mM MgCl 2 ), 0.2 µl of 5 µM forward primer with the M13 tail (5′-CACGACGTTGTAAACGAC-3′), 1.5 µl of 5 µM 5′ dye labelled (6-FAM) M13 primer, 0.5 µl of 5 µM pig-tailed (5′-GTTTCTT-3′) reverse primer [ 22 , 23 ] (Sigma Aldrich Inc., St. Louis, MO) and 2 µl DNA (~2 ng). The PCR touchdown reaction was performed in an Applied Biosystems 2720 Thermal Cycler (Foster City, CA) consisting of an initial denaturation at 95 °C for 15 min, 10 touch-down cycles of 1 min at 94 °C, 1 min at 60 °C (decreasing 1 °C each cycle), and 1 min at 72 °C, followed by 25 cycles of 94 °C for 1 min, 50 °C for 1 min and 72 °C for 1 min. The final extension was at 72 °C for 20 min. PCR products were checked on 1.5% agarose gels and stained with 2 µl GelRed (10,000X in water; Biotium, Hayward, CA) and exact fragment sizes were determined after electrophoretic separation on an ABI Prism ® Genetic Analyzer 3730 with Gene-ScanTM LIZ-500 as internal size standard. Alleles were assigned to bins after careful visual inspection using GeneMarker ® V2.6.7 (SoftGenetics)."
+              },
+              {
+                "id": "Par11",
+                "text": "Primer pairs (Sigma Aldrich Inc., St. Louis, MO) were tested for amplification initially in four randomly selected samples. Markers that amplified polymorphic products in the expected size range in these four samples were amplified in all 47 samples. Genetic variation assessment was conducted using GenAlEx 6.502 [ 24 ]. Specifically, observed and expected heterozygosity (H o , H e , respectively) [ 25 ] and number of alleles (N a ) were calculated. Further, the inbreeding coefficient ( F ) was estimated for each locus in the population using GENEPOP version 4.2 [ 26 , 27 ]. Significant deviations from Hardy–Weinberg proportions were tested using Fischer’s exact test in GENEPOP. Additionally pairwise linkage disequilibrium was tested for all marker pairs in GENEPOP. Bonferroni corrections were applied to adjust for multiple testing [ 28 ]."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Sec3",
+        "title": "Plant materials for SSR analysis",
+        "paragraphs": [
+          {
+            "id": "Par6",
+            "text": "Leaf samples were collected from 47 georeferenced adult trees of one natural population close to Houghton, MI (47°07′07.46″N, 88°35′16.41″W) in a region which is dominated by sugar maple forests [ 4 ]. Total genomic DNA was isolated for the 47 samples of Acer saccharum and for three samples of each Acer rubrum L. (section Rubra ), Acer saccharinum L. (section Rubra ), Acer platanoides L. (section Platanoidea ) and Acer ginnala Maxim. (section Ginnala ) from ~1 cm 2 of silica gel dried leaf samples using the DNeasy Plant Mini Kit (Qiagen, Hilden, Germany)."
+          }
+        ]
+      },
+      {
+        "id": "Sec4",
+        "title": "Library preparation, transcriptome sequencing and assembly",
+        "paragraphs": [
+          {
+            "id": "Par7",
+            "text": "A total of 51 transcriptome libraries were derived from tissues (leaves, petioles, roots) of ozone, cold, heat, drought, wound stressed and unstressed half-sib seedlings. Tissue types and treatments are described in Additional file 1 . Details on ozone and wound stress treatments are given in [ 8 ]. Tissues were flash frozen and stored at −80 °C until RNA was extracted. Approximately 1 g of frozen tissue was used for isolation of total RNA with a modified CTAB method that uses lithium chloride precipitation [ 9 ]. After RNA quality assessment with an Agilent Bioanalyzer (Agilent Technologies), RNA was subjected to TruSeq Stranded mRNA library preparation (San Diego, CA), following the manufacturer’s protocol. All libraries were labeled with dual barcodes. Paired-end sequencing of 46 sugar maple libraries was performed on an Illumina HiSeq 2500 instrument (San Diego, CA) at a read length of 101 bp. A further set of 5 libraries were sequenced on an Illumina MiSeq (San Diego, CA) (Additional file 1 ). Raw reads can be found in the NCBI Short Read Archive (SRA) with the bioproject accession PRJNA273272. Read statistics for each library are provided in Additional file 1 ."
+          },
+          {
+            "id": "Par8",
+            "text": "Trimmomatic version 0.35 was used to trim raw sequencing reads of adapter sequences and low quality bases [ 10 ]. Kmer-based error correction of RNASeq reads was performed in Rcorrector (kmer length of 31) [ 11 ]. Trimmed and corrected reads were assembled with the Trinity pipeline version r20131110 [ 12 ]. Isoforms from the Trinity pipeline were collapsed and further assembled with cd-hit version 4.6.1 [ 13 ]. Open reading frame (ORF) prediction was executed with TransDecoder version 2.0.1 [ 14 ]. TransDecoder predictions were further improved by performing searches using BLAST version 2.2.29 versus the Uniprot SwissProt protein databases (cut-off of e-value <1e−4) and by HMMER version 3.1b2 against the pfam database [ 15 , 16 , 17 – 18 ]. Two methods were employed to determine assembly completeness of the sugar maple transcriptome. First, transcripts were assessed by BUSCO (Benchmarking Universal Single-Copy Orthologs) version 1.1b1 to determine the presence of universal single-copy orthologs using the early release plant database [ 19 ]. Second, TransRate v1.0.3 was used to calculate quality scores for contigs based on the read alignment evidence [ 20 ]."
+          }
+        ]
+      },
+      {
+        "id": "Sec5",
+        "title": "Functional annotation and SSR discovery",
+        "paragraphs": [
+          {
+            "id": "Par9",
+            "text": "BLAST version 2.2.29 queries were performed against the plant taxonomic division of the TrEMBL protein database and Swiss-Prot protein database [ 15 , 16 ]. Simple sequence repeats (SSRs) were found by searching putative unique transcripts (PUTs) using a perl script ( https://github.com/mestato/lab_code/tree/master/hwg_gssr_scripts ). SSRs needed to meet specific requirements for inclusion in the final output, requiring: 2 bp repeats to have 8–200 copies, 3 bp repeats to have 7–133 copies, and 4 bp repeats to have 6–100 copies. Compound SSRs, defined as SSRs occurring with less than 15 bases of separation, were removed. Dustmasker was used to mask low complexity regions to aid primer design in Primer3 v2.3.6 [ 15 , 21 ]. The following Primer3 parameters were used: primer_product_size_range  =  100–450, primer_min_tm  =  55.0, primer_max_tm  =  65.0, primer_min_gc  =  40, primer_max_gc  =  60, primer_max_poly_x  =  3, primer_gc_clamp  =  2."
+          }
+        ]
+      },
+      {
+        "id": "Sec6",
+        "title": "Marker analyses",
+        "paragraphs": [
+          {
+            "id": "Par10",
+            "text": "The DNA was diluted to ~1 ng/µl with double deionized water (Ultra Pure Water, Molecular Grade, Phenix Research Products). A 15 µl PCR reaction was prepared consisting of 6 µl double deionized water (Ultra Pure Water, Molecular Grade from Phenix Research Products), 5 µl HotFIREPol (Solis Biodyne, containing 2 mM dNTPs, 1U Taq polymerase, 10 mM MgCl 2 ), 0.2 µl of 5 µM forward primer with the M13 tail (5′-CACGACGTTGTAAACGAC-3′), 1.5 µl of 5 µM 5′ dye labelled (6-FAM) M13 primer, 0.5 µl of 5 µM pig-tailed (5′-GTTTCTT-3′) reverse primer [ 22 , 23 ] (Sigma Aldrich Inc., St. Louis, MO) and 2 µl DNA (~2 ng). The PCR touchdown reaction was performed in an Applied Biosystems 2720 Thermal Cycler (Foster City, CA) consisting of an initial denaturation at 95 °C for 15 min, 10 touch-down cycles of 1 min at 94 °C, 1 min at 60 °C (decreasing 1 °C each cycle), and 1 min at 72 °C, followed by 25 cycles of 94 °C for 1 min, 50 °C for 1 min and 72 °C for 1 min. The final extension was at 72 °C for 20 min. PCR products were checked on 1.5% agarose gels and stained with 2 µl GelRed (10,000X in water; Biotium, Hayward, CA) and exact fragment sizes were determined after electrophoretic separation on an ABI Prism ® Genetic Analyzer 3730 with Gene-ScanTM LIZ-500 as internal size standard. Alleles were assigned to bins after careful visual inspection using GeneMarker ® V2.6.7 (SoftGenetics)."
+          },
+          {
+            "id": "Par11",
+            "text": "Primer pairs (Sigma Aldrich Inc., St. Louis, MO) were tested for amplification initially in four randomly selected samples. Markers that amplified polymorphic products in the expected size range in these four samples were amplified in all 47 samples. Genetic variation assessment was conducted using GenAlEx 6.502 [ 24 ]. Specifically, observed and expected heterozygosity (H o , H e , respectively) [ 25 ] and number of alleles (N a ) were calculated. Further, the inbreeding coefficient ( F ) was estimated for each locus in the population using GENEPOP version 4.2 [ 26 , 27 ]. Significant deviations from Hardy–Weinberg proportions were tested using Fischer’s exact test in GENEPOP. Additionally pairwise linkage disequilibrium was tested for all marker pairs in GENEPOP. Bonferroni corrections were applied to adjust for multiple testing [ 28 ]."
+          }
+        ]
+      },
+      {
+        "id": "Sec7",
+        "title": "Results and discussion",
+        "paragraphs": [
+          {
+            "id": "Par12",
+            "text": "Illumina sequencing of 51 transcriptome sugar maple libraries of varying tissue types and treatments produced 282 million reads (29.9 Gb), available at NCBI SRA bioproject accession PRJNA273272 (Additional file 1 ). De novo assembly of reads yielded 117,861 putative unique transcripts (PUTs) with an average length of 945 bases and an N50 length of 1667 bases. TransDecoder version 2.0.1 was used to identify 67,537 possible open read frames (ORFs) derived from 51,390 PUTs (43.6%). Multiple ORFs per PUT can occur for example due to chimeras in the assembly or sequencing errors (insertions/deletions) that shift the reading frame incorrectly. The peptide sequences calculated from the ORFs average 284 amino acids in length. Assembly accuracy was assessed as quality metrics based on examination of read mapping using Transrate [ 20 ] and identified an overall mapping rate of 72.8%, and over 85% of those mapped reads supported the assembly (i.e. both pairs aligned to the same transcript in the correct orientation without overlapping either transcript end). Out of a total of 956 BUSCO ortho-groups searched, 914 were found in the BUSCO database. These were further classified as 434 complete single-copy genes, 446 complete but duplicated genes, and 34 fragmented copies of genes. This represents the first transcriptome reference for sugar maple and will be a valuable genomic resource for future studies, for example, to generate markers, to use as a reference for gene expression sequencing or to identify candidate stress-response genes. Raw reads are stored at NCBI Short Read Archive (SRA) with the bioproject accession PRJNA273272."
+          },
+          {
+            "id": "Par13",
+            "text": "Sugar maple PUTs were used as queries for BLAST searches against the proteins in the Swiss-Prot and plant TrEMBL [ 16 ] databases yielding 64,458 (54.7%) PUTs with matches to TrEMBL plant proteins and 49,760 (42.2%) PUTs with matches to Swiss-Prot. Simple Sequence Repeat (SSR) extraction found 6279 SSRs in 5965 PUTs (5.1%). SSRs were identified for 2, 3, and 4 bp motifs. The 4 bp motifs were the rarest, making up 0.97% of total SSRs found. The shorter 2 bp and 3 bp motifs were much more common, making up 78.7 and 20.4% of total SSRs found, respectively. Primers were designed for 1068 SSRs using the flanking regions of the repeats (Additional file 2 ). Of these 812 were 2 bp repeats ranging from 8 to 15 repeats, 234 were 3 bp repeats ranging from 7 to 14 repeats, and 22 were 4 bp repeats with 6 repeats. Additional file 2 contains a report of the SSR analysis along with primers designed for SSRs meeting the appropriate requirements and functional annotations for SSR markers."
+          },
+          {
+            "id": "Par14",
+            "text": "We selected 58 SSRs with a wide range of expected amplicon sizes (100–487 bp) to develop sets of markers with non-overlapping size ranges that could be used for multiplex PCRs in subsequent studies. Out of the 58 primers tested, 16 amplified polymorphic loci and 6 amplified monomorphic loci (Table 1 ; Additional file 2 ). The expected size for the polymorphic markers varied from 113 and 425 bp. For polymorphic loci H e ranged from 0.224 to 0.726, H o from 0.143 to 0.722 and N a from 2 to 12. A total of 11 out of the 16 markers showed no significant deviation from Hardy–Weinberg proportions after Bonferroni correction, while markers As_di12 and As_di38 (p < 0.05) and markers As_di34, As_di48 and As_di9 (p < 0.01) showed significant and positive F values. No significant linkage disequilibrium was found between marker pairs after Bonferroni correction (p < 0.05). Table 1 Primer sequences and descriptions of 22 microsatellite markers developed in Acer saccharum Locus Primer sequences (5′–3′) Repeat EdEdmotif Size range (bp) **Expected fragment size N a H o H e F p As_di1 F: TCCCAGGCATGAACAAGGTT R: TGCAGTAAGTTGACAGCTCT (AC) 9 251–273 230 9 0.581 0.658 0.117 0.0034 As_di7 F: GGGTCTGTCTCTGTTTCTGCA R: ACAGGGTTCACTGAGCTGTG (AC) 9 151–161 134 6 0.651 0.602 0.081 0.2578 As_di9 a F: TGCTGGAAAGTGGAACCTGT R: AGTCTGATCTGTCATGGGCTC (TA) 8 121–147 100 12 0.375 0.835 0.551 <0.0001** m As_di11 F: AGAGAACCACCAAGGATGCA R: CAGGGAGCCATTTCACTCTGA (GA) 8 187 167 1 0 0 – – As_di12 F: AAGACATCTTGAGGGCGGTG R: TGTAACTGCATAACGGGCCA (TC) 9 447–458 425 4 0.194 0.271 0.283 0.0014* m As_di13 F: TCAAGAAATACTGGCTCAGGTCA R: ACATGCATGTTGAGCGATTGT (TC) 8 264 238 1 0 0 – – As_di15 F: GGGCAGAGAGGGAATTCGAG R: TGGGGAGACAGAACTTGTGC (TC) 8 259–265 235 4 0.375 0.429 0.126 0.0236 As_di16 F: AATTGCCTGTGGTGGGAACT R: ACTCCACTCTCTTTCTTGCTCA (GT) 8 211–218 190 4 0.675 0.680 0.007 0.8696 m As_di19 F: GACCTGACCACCTCCTCCTA R: AGGGCAACATACACGGATCG (CT) 9 228 205 1 0 0 – – As_di21 F: TGTCAGCAGCCCTACAGTTG R: ACAGGTCACGATCTCTCCCT (GT) 8 135–142 113 4 0.450 0.609 0.261 0.0455 m As_di27 F: TCATGACCATGACCCAACACT R: TCCTGTGGATTCTTTTGTATCTGGT (TC) 8 386 363 1 0 0 – – m As_di30 F: GATCCCCTTCGTTGCTGACA R: GGACTGCCCGATTGATACTCA (TG) 9 457 432 1 0 0 – – m As_di31 F: CTCCACCACCATCCAACCAA R: TCCTCAGCTTCTTGGGCTTG (AC) 8 187–189 167 1 0 0 – – As_di34 a F: AACGGATGGCAAGCTAGCTT R: CAGGCCTGCCCAGAAACTAA (AC) 8 225–240 218 4 0.217 0.726 0.701 <0.0001** As_di35 F: TGTTAGTCTCCTCCACACGT R: CAGCAGCAGCAGCAAAACT (TC) 8 151–153 129 2 0.143 0.224 0.362 0.0751 As_di36 F: ATGTGAGTCCGTGAGTCCGT R: ATAAGCAGCAGCAGCAGACA (TG) 8 237–245 212 5 0.475 0.606 0.216 0.0322 As_di37 F: TGGTGGGTAGCAGCAAAAGA R:TGCACATGGGATGATGATCAGT (TG) 11 167–184 151 8 0.722 0.704 −0.025 0.9324 As_di38 F: ACAGAGAGAGAGAGAGCTTGT R: TACCGTCATGGCCGATGATG (AC) 8 175–179 154 3 0.184 0.362 0.491 0.0012* As_di41 F: AAGCTGAGAAACCCAAAGCA R: CACCACCCAACCCTTTTCCT (TA) 8 259–271 236 6 0.526 0.625 0.157 0.2675 As_di48 F: AGGTTCGGGTTTTGAATCTTCA R: CAAGGACTTTGGCTCTGCTG (TA) 8 173–179 155 4 0.200 0.678 0.705 <0.0001** As_di49 F: TGCAACTGTTGAGTGGTGGA R: ACAAGTCGAACAACCCGTTG (TG) 10 159–183 133 10 0.625 0.636 0.017 0.0528 As_tetra1 F: TTGACGGAGAGCTTGGTTCC R: AAAACCCAATTCGCCACGTG (TGCT) 6 257–273 241 5 0.341 0.337 −0.012 0.4674 + Mean 6 0.424 0.543 0.222 Mean 4 0.308 0.395 0.222 N a number of alleles per locus, H o observed heterozygosity, H e expected heterozygosity, F inbreeding coefficient * Significantly different from Hardy–Weinberg proportions (α = 0.05) after Bonferroni corrections ** Significantly different from Hardy–Weinberg proportions (α = 0.01) after Bonferroni corrections m : these markers amplified monomorphic loci and were not tested on the whole population. **: expected fragment size based on EST contigs. Actual fragments were longer as tailed primers were used for amplification. + Mean variation was calculated for polymorphic markers only to allow for comparisons with other related studies on sugar maple [ 4 ] a Markers As_di34 and As_di9 did not amplify in nearly half of the samples and should not be used for population level analyses"
+          },
+          {
+            "id": "",
+            "text": "Primer sequences and descriptions of 22 microsatellite markers developed in Acer saccharum"
+          },
+          {
+            "id": "",
+            "text": "Locus"
+          },
+          {
+            "id": "",
+            "text": "Primer sequences (5′–3′)"
+          },
+          {
+            "id": "",
+            "text": "Repeat EdEdmotif"
+          },
+          {
+            "id": "",
+            "text": "Size range (bp)"
+          },
+          {
+            "id": "",
+            "text": "**Expected fragment size"
+          },
+          {
+            "id": "",
+            "text": "N a"
+          },
+          {
+            "id": "",
+            "text": "H o"
+          },
+          {
+            "id": "",
+            "text": "H e"
+          },
+          {
+            "id": "",
+            "text": "F"
+          },
+          {
+            "id": "",
+            "text": "p"
+          },
+          {
+            "id": "",
+            "text": "As_di1"
+          },
+          {
+            "id": "",
+            "text": "F: TCCCAGGCATGAACAAGGTT"
+          },
+          {
+            "id": "",
+            "text": "R: TGCAGTAAGTTGACAGCTCT"
+          },
+          {
+            "id": "",
+            "text": "(AC) 9"
+          },
+          {
+            "id": "",
+            "text": "251–273"
+          },
+          {
+            "id": "",
+            "text": "230"
+          },
+          {
+            "id": "",
+            "text": "9"
+          },
+          {
+            "id": "",
+            "text": "0.581"
+          },
+          {
+            "id": "",
+            "text": "0.658"
+          },
+          {
+            "id": "",
+            "text": "0.117"
+          },
+          {
+            "id": "",
+            "text": "0.0034"
+          },
+          {
+            "id": "",
+            "text": "As_di7"
+          },
+          {
+            "id": "",
+            "text": "F: GGGTCTGTCTCTGTTTCTGCA"
+          },
+          {
+            "id": "",
+            "text": "R: ACAGGGTTCACTGAGCTGTG"
+          },
+          {
+            "id": "",
+            "text": "(AC) 9"
+          },
+          {
+            "id": "",
+            "text": "151–161"
+          },
+          {
+            "id": "",
+            "text": "134"
+          },
+          {
+            "id": "",
+            "text": "6"
+          },
+          {
+            "id": "",
+            "text": "0.651"
+          },
+          {
+            "id": "",
+            "text": "0.602"
+          },
+          {
+            "id": "",
+            "text": "0.081"
+          },
+          {
+            "id": "",
+            "text": "0.2578"
+          },
+          {
+            "id": "",
+            "text": "As_di9 a"
+          },
+          {
+            "id": "",
+            "text": "F: TGCTGGAAAGTGGAACCTGT"
+          },
+          {
+            "id": "",
+            "text": "R: AGTCTGATCTGTCATGGGCTC"
+          },
+          {
+            "id": "",
+            "text": "(TA) 8"
+          },
+          {
+            "id": "",
+            "text": "121–147"
+          },
+          {
+            "id": "",
+            "text": "100"
+          },
+          {
+            "id": "",
+            "text": "12"
+          },
+          {
+            "id": "",
+            "text": "0.375"
+          },
+          {
+            "id": "",
+            "text": "0.835"
+          },
+          {
+            "id": "",
+            "text": "0.551"
+          },
+          {
+            "id": "",
+            "text": "<0.0001**"
+          },
+          {
+            "id": "",
+            "text": "m As_di11"
+          },
+          {
+            "id": "",
+            "text": "F: AGAGAACCACCAAGGATGCA"
+          },
+          {
+            "id": "",
+            "text": "R: CAGGGAGCCATTTCACTCTGA"
+          },
+          {
+            "id": "",
+            "text": "(GA) 8"
+          },
+          {
+            "id": "",
+            "text": "187"
+          },
+          {
+            "id": "",
+            "text": "167"
+          },
+          {
+            "id": "",
+            "text": "1"
+          },
+          {
+            "id": "",
+            "text": "0"
+          },
+          {
+            "id": "",
+            "text": "0"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "As_di12"
+          },
+          {
+            "id": "",
+            "text": "F: AAGACATCTTGAGGGCGGTG"
+          },
+          {
+            "id": "",
+            "text": "R: TGTAACTGCATAACGGGCCA"
+          },
+          {
+            "id": "",
+            "text": "(TC) 9"
+          },
+          {
+            "id": "",
+            "text": "447–458"
+          },
+          {
+            "id": "",
+            "text": "425"
+          },
+          {
+            "id": "",
+            "text": "4"
+          },
+          {
+            "id": "",
+            "text": "0.194"
+          },
+          {
+            "id": "",
+            "text": "0.271"
+          },
+          {
+            "id": "",
+            "text": "0.283"
+          },
+          {
+            "id": "",
+            "text": "0.0014*"
+          },
+          {
+            "id": "",
+            "text": "m As_di13"
+          },
+          {
+            "id": "",
+            "text": "F: TCAAGAAATACTGGCTCAGGTCA"
+          },
+          {
+            "id": "",
+            "text": "R: ACATGCATGTTGAGCGATTGT"
+          },
+          {
+            "id": "",
+            "text": "(TC) 8"
+          },
+          {
+            "id": "",
+            "text": "264"
+          },
+          {
+            "id": "",
+            "text": "238"
+          },
+          {
+            "id": "",
+            "text": "1"
+          },
+          {
+            "id": "",
+            "text": "0"
+          },
+          {
+            "id": "",
+            "text": "0"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "As_di15"
+          },
+          {
+            "id": "",
+            "text": "F: GGGCAGAGAGGGAATTCGAG"
+          },
+          {
+            "id": "",
+            "text": "R: TGGGGAGACAGAACTTGTGC"
+          },
+          {
+            "id": "",
+            "text": "(TC) 8"
+          },
+          {
+            "id": "",
+            "text": "259–265"
+          },
+          {
+            "id": "",
+            "text": "235"
+          },
+          {
+            "id": "",
+            "text": "4"
+          },
+          {
+            "id": "",
+            "text": "0.375"
+          },
+          {
+            "id": "",
+            "text": "0.429"
+          },
+          {
+            "id": "",
+            "text": "0.126"
+          },
+          {
+            "id": "",
+            "text": "0.0236"
+          },
+          {
+            "id": "",
+            "text": "As_di16"
+          },
+          {
+            "id": "",
+            "text": "F: AATTGCCTGTGGTGGGAACT"
+          },
+          {
+            "id": "",
+            "text": "R: ACTCCACTCTCTTTCTTGCTCA"
+          },
+          {
+            "id": "",
+            "text": "(GT) 8"
+          },
+          {
+            "id": "",
+            "text": "211–218"
+          },
+          {
+            "id": "",
+            "text": "190"
+          },
+          {
+            "id": "",
+            "text": "4"
+          },
+          {
+            "id": "",
+            "text": "0.675"
+          },
+          {
+            "id": "",
+            "text": "0.680"
+          },
+          {
+            "id": "",
+            "text": "0.007"
+          },
+          {
+            "id": "",
+            "text": "0.8696"
+          },
+          {
+            "id": "",
+            "text": "m As_di19"
+          },
+          {
+            "id": "",
+            "text": "F: GACCTGACCACCTCCTCCTA"
+          },
+          {
+            "id": "",
+            "text": "R: AGGGCAACATACACGGATCG"
+          },
+          {
+            "id": "",
+            "text": "(CT) 9"
+          },
+          {
+            "id": "",
+            "text": "228"
+          },
+          {
+            "id": "",
+            "text": "205"
+          },
+          {
+            "id": "",
+            "text": "1"
+          },
+          {
+            "id": "",
+            "text": "0"
+          },
+          {
+            "id": "",
+            "text": "0"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "As_di21"
+          },
+          {
+            "id": "",
+            "text": "F: TGTCAGCAGCCCTACAGTTG"
+          },
+          {
+            "id": "",
+            "text": "R: ACAGGTCACGATCTCTCCCT"
+          },
+          {
+            "id": "",
+            "text": "(GT) 8"
+          },
+          {
+            "id": "",
+            "text": "135–142"
+          },
+          {
+            "id": "",
+            "text": "113"
+          },
+          {
+            "id": "",
+            "text": "4"
+          },
+          {
+            "id": "",
+            "text": "0.450"
+          },
+          {
+            "id": "",
+            "text": "0.609"
+          },
+          {
+            "id": "",
+            "text": "0.261"
+          },
+          {
+            "id": "",
+            "text": "0.0455"
+          },
+          {
+            "id": "",
+            "text": "m As_di27"
+          },
+          {
+            "id": "",
+            "text": "F: TCATGACCATGACCCAACACT"
+          },
+          {
+            "id": "",
+            "text": "R: TCCTGTGGATTCTTTTGTATCTGGT"
+          },
+          {
+            "id": "",
+            "text": "(TC) 8"
+          },
+          {
+            "id": "",
+            "text": "386"
+          },
+          {
+            "id": "",
+            "text": "363"
+          },
+          {
+            "id": "",
+            "text": "1"
+          },
+          {
+            "id": "",
+            "text": "0"
+          },
+          {
+            "id": "",
+            "text": "0"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "m As_di30"
+          },
+          {
+            "id": "",
+            "text": "F: GATCCCCTTCGTTGCTGACA"
+          },
+          {
+            "id": "",
+            "text": "R: GGACTGCCCGATTGATACTCA"
+          },
+          {
+            "id": "",
+            "text": "(TG) 9"
+          },
+          {
+            "id": "",
+            "text": "457"
+          },
+          {
+            "id": "",
+            "text": "432"
+          },
+          {
+            "id": "",
+            "text": "1"
+          },
+          {
+            "id": "",
+            "text": "0"
+          },
+          {
+            "id": "",
+            "text": "0"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "m As_di31"
+          },
+          {
+            "id": "",
+            "text": "F: CTCCACCACCATCCAACCAA"
+          },
+          {
+            "id": "",
+            "text": "R: TCCTCAGCTTCTTGGGCTTG"
+          },
+          {
+            "id": "",
+            "text": "(AC) 8"
+          },
+          {
+            "id": "",
+            "text": "187–189"
+          },
+          {
+            "id": "",
+            "text": "167"
+          },
+          {
+            "id": "",
+            "text": "1"
+          },
+          {
+            "id": "",
+            "text": "0"
+          },
+          {
+            "id": "",
+            "text": "0"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "As_di34 a"
+          },
+          {
+            "id": "",
+            "text": "F: AACGGATGGCAAGCTAGCTT"
+          },
+          {
+            "id": "",
+            "text": "R: CAGGCCTGCCCAGAAACTAA"
+          },
+          {
+            "id": "",
+            "text": "(AC) 8"
+          },
+          {
+            "id": "",
+            "text": "225–240"
+          },
+          {
+            "id": "",
+            "text": "218"
+          },
+          {
+            "id": "",
+            "text": "4"
+          },
+          {
+            "id": "",
+            "text": "0.217"
+          },
+          {
+            "id": "",
+            "text": "0.726"
+          },
+          {
+            "id": "",
+            "text": "0.701"
+          },
+          {
+            "id": "",
+            "text": "<0.0001**"
+          },
+          {
+            "id": "",
+            "text": "As_di35"
+          },
+          {
+            "id": "",
+            "text": "F: TGTTAGTCTCCTCCACACGT"
+          },
+          {
+            "id": "",
+            "text": "R: CAGCAGCAGCAGCAAAACT"
+          },
+          {
+            "id": "",
+            "text": "(TC) 8"
+          },
+          {
+            "id": "",
+            "text": "151–153"
+          },
+          {
+            "id": "",
+            "text": "129"
+          },
+          {
+            "id": "",
+            "text": "2"
+          },
+          {
+            "id": "",
+            "text": "0.143"
+          },
+          {
+            "id": "",
+            "text": "0.224"
+          },
+          {
+            "id": "",
+            "text": "0.362"
+          },
+          {
+            "id": "",
+            "text": "0.0751"
+          },
+          {
+            "id": "",
+            "text": "As_di36"
+          },
+          {
+            "id": "",
+            "text": "F: ATGTGAGTCCGTGAGTCCGT"
+          },
+          {
+            "id": "",
+            "text": "R: ATAAGCAGCAGCAGCAGACA"
+          },
+          {
+            "id": "",
+            "text": "(TG) 8"
+          },
+          {
+            "id": "",
+            "text": "237–245"
+          },
+          {
+            "id": "",
+            "text": "212"
+          },
+          {
+            "id": "",
+            "text": "5"
+          },
+          {
+            "id": "",
+            "text": "0.475"
+          },
+          {
+            "id": "",
+            "text": "0.606"
+          },
+          {
+            "id": "",
+            "text": "0.216"
+          },
+          {
+            "id": "",
+            "text": "0.0322"
+          },
+          {
+            "id": "",
+            "text": "As_di37"
+          },
+          {
+            "id": "",
+            "text": "F: TGGTGGGTAGCAGCAAAAGA"
+          },
+          {
+            "id": "",
+            "text": "R:TGCACATGGGATGATGATCAGT"
+          },
+          {
+            "id": "",
+            "text": "(TG) 11"
+          },
+          {
+            "id": "",
+            "text": "167–184"
+          },
+          {
+            "id": "",
+            "text": "151"
+          },
+          {
+            "id": "",
+            "text": "8"
+          },
+          {
+            "id": "",
+            "text": "0.722"
+          },
+          {
+            "id": "",
+            "text": "0.704"
+          },
+          {
+            "id": "",
+            "text": "−0.025"
+          },
+          {
+            "id": "",
+            "text": "0.9324"
+          },
+          {
+            "id": "",
+            "text": "As_di38"
+          },
+          {
+            "id": "",
+            "text": "F: ACAGAGAGAGAGAGAGCTTGT"
+          },
+          {
+            "id": "",
+            "text": "R: TACCGTCATGGCCGATGATG"
+          },
+          {
+            "id": "",
+            "text": "(AC) 8"
+          },
+          {
+            "id": "",
+            "text": "175–179"
+          },
+          {
+            "id": "",
+            "text": "154"
+          },
+          {
+            "id": "",
+            "text": "3"
+          },
+          {
+            "id": "",
+            "text": "0.184"
+          },
+          {
+            "id": "",
+            "text": "0.362"
+          },
+          {
+            "id": "",
+            "text": "0.491"
+          },
+          {
+            "id": "",
+            "text": "0.0012*"
+          },
+          {
+            "id": "",
+            "text": "As_di41"
+          },
+          {
+            "id": "",
+            "text": "F: AAGCTGAGAAACCCAAAGCA"
+          },
+          {
+            "id": "",
+            "text": "R: CACCACCCAACCCTTTTCCT"
+          },
+          {
+            "id": "",
+            "text": "(TA) 8"
+          },
+          {
+            "id": "",
+            "text": "259–271"
+          },
+          {
+            "id": "",
+            "text": "236"
+          },
+          {
+            "id": "",
+            "text": "6"
+          },
+          {
+            "id": "",
+            "text": "0.526"
+          },
+          {
+            "id": "",
+            "text": "0.625"
+          },
+          {
+            "id": "",
+            "text": "0.157"
+          },
+          {
+            "id": "",
+            "text": "0.2675"
+          },
+          {
+            "id": "",
+            "text": "As_di48"
+          },
+          {
+            "id": "",
+            "text": "F: AGGTTCGGGTTTTGAATCTTCA"
+          },
+          {
+            "id": "",
+            "text": "R: CAAGGACTTTGGCTCTGCTG"
+          },
+          {
+            "id": "",
+            "text": "(TA) 8"
+          },
+          {
+            "id": "",
+            "text": "173–179"
+          },
+          {
+            "id": "",
+            "text": "155"
+          },
+          {
+            "id": "",
+            "text": "4"
+          },
+          {
+            "id": "",
+            "text": "0.200"
+          },
+          {
+            "id": "",
+            "text": "0.678"
+          },
+          {
+            "id": "",
+            "text": "0.705"
+          },
+          {
+            "id": "",
+            "text": "<0.0001**"
+          },
+          {
+            "id": "",
+            "text": "As_di49"
+          },
+          {
+            "id": "",
+            "text": "F: TGCAACTGTTGAGTGGTGGA"
+          },
+          {
+            "id": "",
+            "text": "R: ACAAGTCGAACAACCCGTTG"
+          },
+          {
+            "id": "",
+            "text": "(TG) 10"
+          },
+          {
+            "id": "",
+            "text": "159–183"
+          },
+          {
+            "id": "",
+            "text": "133"
+          },
+          {
+            "id": "",
+            "text": "10"
+          },
+          {
+            "id": "",
+            "text": "0.625"
+          },
+          {
+            "id": "",
+            "text": "0.636"
+          },
+          {
+            "id": "",
+            "text": "0.017"
+          },
+          {
+            "id": "",
+            "text": "0.0528"
+          },
+          {
+            "id": "",
+            "text": "As_tetra1"
+          },
+          {
+            "id": "",
+            "text": "F: TTGACGGAGAGCTTGGTTCC"
+          },
+          {
+            "id": "",
+            "text": "R: AAAACCCAATTCGCCACGTG"
+          },
+          {
+            "id": "",
+            "text": "(TGCT) 6"
+          },
+          {
+            "id": "",
+            "text": "257–273"
+          },
+          {
+            "id": "",
+            "text": "241"
+          },
+          {
+            "id": "",
+            "text": "5"
+          },
+          {
+            "id": "",
+            "text": "0.341"
+          },
+          {
+            "id": "",
+            "text": "0.337"
+          },
+          {
+            "id": "",
+            "text": "−0.012"
+          },
+          {
+            "id": "",
+            "text": "0.4674"
+          },
+          {
+            "id": "",
+            "text": "+ Mean"
+          },
+          {
+            "id": "",
+            "text": "6"
+          },
+          {
+            "id": "",
+            "text": "0.424"
+          },
+          {
+            "id": "",
+            "text": "0.543"
+          },
+          {
+            "id": "",
+            "text": "0.222"
+          },
+          {
+            "id": "",
+            "text": "Mean"
+          },
+          {
+            "id": "",
+            "text": "4"
+          },
+          {
+            "id": "",
+            "text": "0.308"
+          },
+          {
+            "id": "",
+            "text": "0.395"
+          },
+          {
+            "id": "",
+            "text": "0.222"
+          },
+          {
+            "id": "",
+            "text": "N a number of alleles per locus, H o observed heterozygosity, H e expected heterozygosity, F inbreeding coefficient"
+          },
+          {
+            "id": "",
+            "text": "* Significantly different from Hardy–Weinberg proportions (α = 0.05) after Bonferroni corrections"
+          },
+          {
+            "id": "",
+            "text": "** Significantly different from Hardy–Weinberg proportions (α = 0.01) after Bonferroni corrections m : these markers amplified monomorphic loci and were not tested on the whole population. **: expected fragment size based on EST contigs. Actual fragments were longer as tailed primers were used for amplification. + Mean variation was calculated for polymorphic markers only to allow for comparisons with other related studies on sugar maple [ 4 ]"
+          },
+          {
+            "id": "",
+            "text": "a Markers As_di34 and As_di9 did not amplify in nearly half of the samples and should not be used for population level analyses"
+          },
+          {
+            "id": "Par15",
+            "text": "A total of 16 markers were tested for transferability in three DNA samples from each of the four Acer species which represent three taxonomic sections: A. saccharinum (section Rubra ), A. rubrum (section Rubra ), A. platanoides (section Platanoidea ) and A. ginnala (section Ginnala ) using the same PCR protocol as described above. The results showed that most primers amplified a multi-banding pattern across species. However, 15 markers amplified single loci in the expected size range in at least one other Acer species (Table 2 ). Ten markers were monomorphic in some or all species (Table 2 ). Two markers, As_tetra1 and As_di41, were polymorphic in more than one species. Table 2 Transferability of Acer saccharum microsatellite loci to other Acer species A. saccharum A. rubrum A. saccharinum A. platanoides A. ginnala As_di1 – – As_di1 As_di1* As_di7 As_di7 As_di7* – – As_di9 – – As_di9 As_di9* As_di12 – As_di12 – – As_di15 – – As_di15 As_di15* As_di16 – – – As_di16 As_di21 – As_di21* As_di21 – As_di35 As_di35 As_di35* As_di35* – As_di36 – – As_di36* – As_di37 – As_di37* As_di37* – As_di38 – As_di38 – – As_di41 As_di41 As_di41 As_di41 As_di41 As_di48 As_di48 As_di48* As_di48* As_di48* As_di49 – – As_di49 As_di49* As_tetra1 – – As_tetra1 As_tetra1 All of these markers amplified single polymorphic loci in A. saccharum * Monomorphic in species as indicated by column. Only markers that are transferable to at least one of the four maple species are shown – No amplification"
+          },
+          {
+            "id": "",
+            "text": "Transferability of Acer saccharum microsatellite loci to other Acer species"
+          },
+          {
+            "id": "",
+            "text": "A. saccharum"
+          },
+          {
+            "id": "",
+            "text": "A. rubrum"
+          },
+          {
+            "id": "",
+            "text": "A. saccharinum"
+          },
+          {
+            "id": "",
+            "text": "A. platanoides"
+          },
+          {
+            "id": "",
+            "text": "A. ginnala"
+          },
+          {
+            "id": "",
+            "text": "As_di1"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "As_di1"
+          },
+          {
+            "id": "",
+            "text": "As_di1*"
+          },
+          {
+            "id": "",
+            "text": "As_di7"
+          },
+          {
+            "id": "",
+            "text": "As_di7"
+          },
+          {
+            "id": "",
+            "text": "As_di7*"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "As_di9"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "As_di9"
+          },
+          {
+            "id": "",
+            "text": "As_di9*"
+          },
+          {
+            "id": "",
+            "text": "As_di12"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "As_di12"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "As_di15"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "As_di15"
+          },
+          {
+            "id": "",
+            "text": "As_di15*"
+          },
+          {
+            "id": "",
+            "text": "As_di16"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "As_di16"
+          },
+          {
+            "id": "",
+            "text": "As_di21"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "As_di21*"
+          },
+          {
+            "id": "",
+            "text": "As_di21"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "As_di35"
+          },
+          {
+            "id": "",
+            "text": "As_di35"
+          },
+          {
+            "id": "",
+            "text": "As_di35*"
+          },
+          {
+            "id": "",
+            "text": "As_di35*"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "As_di36"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "As_di36*"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "As_di37"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "As_di37*"
+          },
+          {
+            "id": "",
+            "text": "As_di37*"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "As_di38"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "As_di38"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "As_di41"
+          },
+          {
+            "id": "",
+            "text": "As_di41"
+          },
+          {
+            "id": "",
+            "text": "As_di41"
+          },
+          {
+            "id": "",
+            "text": "As_di41"
+          },
+          {
+            "id": "",
+            "text": "As_di41"
+          },
+          {
+            "id": "",
+            "text": "As_di48"
+          },
+          {
+            "id": "",
+            "text": "As_di48"
+          },
+          {
+            "id": "",
+            "text": "As_di48*"
+          },
+          {
+            "id": "",
+            "text": "As_di48*"
+          },
+          {
+            "id": "",
+            "text": "As_di48*"
+          },
+          {
+            "id": "",
+            "text": "As_di49"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "As_di49"
+          },
+          {
+            "id": "",
+            "text": "As_di49*"
+          },
+          {
+            "id": "",
+            "text": "As_tetra1"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "As_tetra1"
+          },
+          {
+            "id": "",
+            "text": "As_tetra1"
+          },
+          {
+            "id": "",
+            "text": "All of these markers amplified single polymorphic loci in A. saccharum"
+          },
+          {
+            "id": "",
+            "text": "* Monomorphic in species as indicated by column. Only markers that are transferable to at least one of the four maple species are shown"
+          },
+          {
+            "id": "",
+            "text": "– No amplification"
+          },
+          {
+            "id": "Par16",
+            "text": "The level of genetic variation for individual polymorphic markers varied considerably. Mean variation at polymorphic markers was much lower for genic (H o :0.424; H e :0.543) than for non-genic markers in the same samples (H o :0.708; H e :0.822 [ 4 ]). Similarly, lower genetic variation was observed at genic EST-SSRs than at genomic SSRs in several Quercus rubra L. and Quercus ellipsoidalis E.J. Hill populations [ 29 ]. The generally lower genetic variation at genic EST-SSRs suggests that these markers are not selectively neutral, but subject to selection [ 6 ]. Genetic variation observed at genic EST-SSRs in sugar maple was lower than estimates obtained in other wind-pollinated tree species such as North American oak species Q. rubra and Q. ellipsoidalis from the same geographic region (H e = 0.700, range 0.690–0.740, [ 29 ]). As for non-genic markers which were characterized in the same population [ 4 ] most F values are not significantly different from zero. High F values at individual markers could be due to the presence of null alleles. Markers As_di34 and As_di9 with high F values and significant deviation from Hardy–Weinberg proportions (p < 0.001) showed no amplification in nearly half of the samples suggesting high null allele frequencies. All other markers amplified in most samples making them applicable for population genetic analyses. Only two out of the 47 samples showed variable amplification success potentially as result of low DNA quality. The other marker, As_di48, with a very high F value showed high amplification success comparable to the other markers. Overall high variation was observed in F values ranging from −0.081 for As_di7 to 0.705 for As_di48."
+          },
+          {
+            "id": "Par17",
+            "text": "The overall high level of genetic variation, the absence of linkage disequilibrium and low to moderate deviations from HWE for most markers suggest the suitability of these markers for population genetic studies in sugar maple. In addition, markers showed high transferability to other Acer species providing at least two new polymorphic markers for the four other Acer species, and even six new polymorphic markers for one of the species, A. platanoides. High transferability of markers across Acer sections suggests their potential usefulness for population genetic analyses in other maple species. In contrast, only two out of 13 genomic SSRs amplified polymorphic loci in one other species, Acer ginnala [ 4 ]. This high transferability is typical of EST-SSRs and has been shown repeatedly in crop plants and is more prevalent than in non-EST-SSR markers [ 6 ]. Genetic variation at SSR markers was only assessed in a single natural population in Michigan. Allelic diversity will certainly vary among populations within the large distribution range of the species. However, in outcrossing, wind-pollinated tree species with wide and continuous distribution ranges such as sugar maple most of the genetic variation (i.e. H e ) is generally distributed within populations [ 30 ] and similar levels of within population variation are expected within the main distribution range of the species."
+          }
+        ],
+        "subsections": [
+          {
+            "id": "Sec8",
+            "title": "Transcriptome assembly and validation",
+            "paragraphs": [
+              {
+                "id": "Par12",
+                "text": "Illumina sequencing of 51 transcriptome sugar maple libraries of varying tissue types and treatments produced 282 million reads (29.9 Gb), available at NCBI SRA bioproject accession PRJNA273272 (Additional file 1 ). De novo assembly of reads yielded 117,861 putative unique transcripts (PUTs) with an average length of 945 bases and an N50 length of 1667 bases. TransDecoder version 2.0.1 was used to identify 67,537 possible open read frames (ORFs) derived from 51,390 PUTs (43.6%). Multiple ORFs per PUT can occur for example due to chimeras in the assembly or sequencing errors (insertions/deletions) that shift the reading frame incorrectly. The peptide sequences calculated from the ORFs average 284 amino acids in length. Assembly accuracy was assessed as quality metrics based on examination of read mapping using Transrate [ 20 ] and identified an overall mapping rate of 72.8%, and over 85% of those mapped reads supported the assembly (i.e. both pairs aligned to the same transcript in the correct orientation without overlapping either transcript end). Out of a total of 956 BUSCO ortho-groups searched, 914 were found in the BUSCO database. These were further classified as 434 complete single-copy genes, 446 complete but duplicated genes, and 34 fragmented copies of genes. This represents the first transcriptome reference for sugar maple and will be a valuable genomic resource for future studies, for example, to generate markers, to use as a reference for gene expression sequencing or to identify candidate stress-response genes. Raw reads are stored at NCBI Short Read Archive (SRA) with the bioproject accession PRJNA273272."
+              }
+            ]
+          },
+          {
+            "id": "Sec9",
+            "title": "Functional annotation and SSR discovery",
+            "paragraphs": [
+              {
+                "id": "Par13",
+                "text": "Sugar maple PUTs were used as queries for BLAST searches against the proteins in the Swiss-Prot and plant TrEMBL [ 16 ] databases yielding 64,458 (54.7%) PUTs with matches to TrEMBL plant proteins and 49,760 (42.2%) PUTs with matches to Swiss-Prot. Simple Sequence Repeat (SSR) extraction found 6279 SSRs in 5965 PUTs (5.1%). SSRs were identified for 2, 3, and 4 bp motifs. The 4 bp motifs were the rarest, making up 0.97% of total SSRs found. The shorter 2 bp and 3 bp motifs were much more common, making up 78.7 and 20.4% of total SSRs found, respectively. Primers were designed for 1068 SSRs using the flanking regions of the repeats (Additional file 2 ). Of these 812 were 2 bp repeats ranging from 8 to 15 repeats, 234 were 3 bp repeats ranging from 7 to 14 repeats, and 22 were 4 bp repeats with 6 repeats. Additional file 2 contains a report of the SSR analysis along with primers designed for SSRs meeting the appropriate requirements and functional annotations for SSR markers."
+              }
+            ]
+          },
+          {
+            "id": "Sec10",
+            "title": "Microsatellite marker characterization",
+            "paragraphs": [
+              {
+                "id": "Par14",
+                "text": "We selected 58 SSRs with a wide range of expected amplicon sizes (100–487 bp) to develop sets of markers with non-overlapping size ranges that could be used for multiplex PCRs in subsequent studies. Out of the 58 primers tested, 16 amplified polymorphic loci and 6 amplified monomorphic loci (Table 1 ; Additional file 2 ). The expected size for the polymorphic markers varied from 113 and 425 bp. For polymorphic loci H e ranged from 0.224 to 0.726, H o from 0.143 to 0.722 and N a from 2 to 12. A total of 11 out of the 16 markers showed no significant deviation from Hardy–Weinberg proportions after Bonferroni correction, while markers As_di12 and As_di38 (p < 0.05) and markers As_di34, As_di48 and As_di9 (p < 0.01) showed significant and positive F values. No significant linkage disequilibrium was found between marker pairs after Bonferroni correction (p < 0.05). Table 1 Primer sequences and descriptions of 22 microsatellite markers developed in Acer saccharum Locus Primer sequences (5′–3′) Repeat EdEdmotif Size range (bp) **Expected fragment size N a H o H e F p As_di1 F: TCCCAGGCATGAACAAGGTT R: TGCAGTAAGTTGACAGCTCT (AC) 9 251–273 230 9 0.581 0.658 0.117 0.0034 As_di7 F: GGGTCTGTCTCTGTTTCTGCA R: ACAGGGTTCACTGAGCTGTG (AC) 9 151–161 134 6 0.651 0.602 0.081 0.2578 As_di9 a F: TGCTGGAAAGTGGAACCTGT R: AGTCTGATCTGTCATGGGCTC (TA) 8 121–147 100 12 0.375 0.835 0.551 <0.0001** m As_di11 F: AGAGAACCACCAAGGATGCA R: CAGGGAGCCATTTCACTCTGA (GA) 8 187 167 1 0 0 – – As_di12 F: AAGACATCTTGAGGGCGGTG R: TGTAACTGCATAACGGGCCA (TC) 9 447–458 425 4 0.194 0.271 0.283 0.0014* m As_di13 F: TCAAGAAATACTGGCTCAGGTCA R: ACATGCATGTTGAGCGATTGT (TC) 8 264 238 1 0 0 – – As_di15 F: GGGCAGAGAGGGAATTCGAG R: TGGGGAGACAGAACTTGTGC (TC) 8 259–265 235 4 0.375 0.429 0.126 0.0236 As_di16 F: AATTGCCTGTGGTGGGAACT R: ACTCCACTCTCTTTCTTGCTCA (GT) 8 211–218 190 4 0.675 0.680 0.007 0.8696 m As_di19 F: GACCTGACCACCTCCTCCTA R: AGGGCAACATACACGGATCG (CT) 9 228 205 1 0 0 – – As_di21 F: TGTCAGCAGCCCTACAGTTG R: ACAGGTCACGATCTCTCCCT (GT) 8 135–142 113 4 0.450 0.609 0.261 0.0455 m As_di27 F: TCATGACCATGACCCAACACT R: TCCTGTGGATTCTTTTGTATCTGGT (TC) 8 386 363 1 0 0 – – m As_di30 F: GATCCCCTTCGTTGCTGACA R: GGACTGCCCGATTGATACTCA (TG) 9 457 432 1 0 0 – – m As_di31 F: CTCCACCACCATCCAACCAA R: TCCTCAGCTTCTTGGGCTTG (AC) 8 187–189 167 1 0 0 – – As_di34 a F: AACGGATGGCAAGCTAGCTT R: CAGGCCTGCCCAGAAACTAA (AC) 8 225–240 218 4 0.217 0.726 0.701 <0.0001** As_di35 F: TGTTAGTCTCCTCCACACGT R: CAGCAGCAGCAGCAAAACT (TC) 8 151–153 129 2 0.143 0.224 0.362 0.0751 As_di36 F: ATGTGAGTCCGTGAGTCCGT R: ATAAGCAGCAGCAGCAGACA (TG) 8 237–245 212 5 0.475 0.606 0.216 0.0322 As_di37 F: TGGTGGGTAGCAGCAAAAGA R:TGCACATGGGATGATGATCAGT (TG) 11 167–184 151 8 0.722 0.704 −0.025 0.9324 As_di38 F: ACAGAGAGAGAGAGAGCTTGT R: TACCGTCATGGCCGATGATG (AC) 8 175–179 154 3 0.184 0.362 0.491 0.0012* As_di41 F: AAGCTGAGAAACCCAAAGCA R: CACCACCCAACCCTTTTCCT (TA) 8 259–271 236 6 0.526 0.625 0.157 0.2675 As_di48 F: AGGTTCGGGTTTTGAATCTTCA R: CAAGGACTTTGGCTCTGCTG (TA) 8 173–179 155 4 0.200 0.678 0.705 <0.0001** As_di49 F: TGCAACTGTTGAGTGGTGGA R: ACAAGTCGAACAACCCGTTG (TG) 10 159–183 133 10 0.625 0.636 0.017 0.0528 As_tetra1 F: TTGACGGAGAGCTTGGTTCC R: AAAACCCAATTCGCCACGTG (TGCT) 6 257–273 241 5 0.341 0.337 −0.012 0.4674 + Mean 6 0.424 0.543 0.222 Mean 4 0.308 0.395 0.222 N a number of alleles per locus, H o observed heterozygosity, H e expected heterozygosity, F inbreeding coefficient * Significantly different from Hardy–Weinberg proportions (α = 0.05) after Bonferroni corrections ** Significantly different from Hardy–Weinberg proportions (α = 0.01) after Bonferroni corrections m : these markers amplified monomorphic loci and were not tested on the whole population. **: expected fragment size based on EST contigs. Actual fragments were longer as tailed primers were used for amplification. + Mean variation was calculated for polymorphic markers only to allow for comparisons with other related studies on sugar maple [ 4 ] a Markers As_di34 and As_di9 did not amplify in nearly half of the samples and should not be used for population level analyses"
+              },
+              {
+                "id": "",
+                "text": "Primer sequences and descriptions of 22 microsatellite markers developed in Acer saccharum"
+              },
+              {
+                "id": "",
+                "text": "Locus"
+              },
+              {
+                "id": "",
+                "text": "Primer sequences (5′–3′)"
+              },
+              {
+                "id": "",
+                "text": "Repeat EdEdmotif"
+              },
+              {
+                "id": "",
+                "text": "Size range (bp)"
+              },
+              {
+                "id": "",
+                "text": "**Expected fragment size"
+              },
+              {
+                "id": "",
+                "text": "N a"
+              },
+              {
+                "id": "",
+                "text": "H o"
+              },
+              {
+                "id": "",
+                "text": "H e"
+              },
+              {
+                "id": "",
+                "text": "F"
+              },
+              {
+                "id": "",
+                "text": "p"
+              },
+              {
+                "id": "",
+                "text": "As_di1"
+              },
+              {
+                "id": "",
+                "text": "F: TCCCAGGCATGAACAAGGTT"
+              },
+              {
+                "id": "",
+                "text": "R: TGCAGTAAGTTGACAGCTCT"
+              },
+              {
+                "id": "",
+                "text": "(AC) 9"
+              },
+              {
+                "id": "",
+                "text": "251–273"
+              },
+              {
+                "id": "",
+                "text": "230"
+              },
+              {
+                "id": "",
+                "text": "9"
+              },
+              {
+                "id": "",
+                "text": "0.581"
+              },
+              {
+                "id": "",
+                "text": "0.658"
+              },
+              {
+                "id": "",
+                "text": "0.117"
+              },
+              {
+                "id": "",
+                "text": "0.0034"
+              },
+              {
+                "id": "",
+                "text": "As_di7"
+              },
+              {
+                "id": "",
+                "text": "F: GGGTCTGTCTCTGTTTCTGCA"
+              },
+              {
+                "id": "",
+                "text": "R: ACAGGGTTCACTGAGCTGTG"
+              },
+              {
+                "id": "",
+                "text": "(AC) 9"
+              },
+              {
+                "id": "",
+                "text": "151–161"
+              },
+              {
+                "id": "",
+                "text": "134"
+              },
+              {
+                "id": "",
+                "text": "6"
+              },
+              {
+                "id": "",
+                "text": "0.651"
+              },
+              {
+                "id": "",
+                "text": "0.602"
+              },
+              {
+                "id": "",
+                "text": "0.081"
+              },
+              {
+                "id": "",
+                "text": "0.2578"
+              },
+              {
+                "id": "",
+                "text": "As_di9 a"
+              },
+              {
+                "id": "",
+                "text": "F: TGCTGGAAAGTGGAACCTGT"
+              },
+              {
+                "id": "",
+                "text": "R: AGTCTGATCTGTCATGGGCTC"
+              },
+              {
+                "id": "",
+                "text": "(TA) 8"
+              },
+              {
+                "id": "",
+                "text": "121–147"
+              },
+              {
+                "id": "",
+                "text": "100"
+              },
+              {
+                "id": "",
+                "text": "12"
+              },
+              {
+                "id": "",
+                "text": "0.375"
+              },
+              {
+                "id": "",
+                "text": "0.835"
+              },
+              {
+                "id": "",
+                "text": "0.551"
+              },
+              {
+                "id": "",
+                "text": "<0.0001**"
+              },
+              {
+                "id": "",
+                "text": "m As_di11"
+              },
+              {
+                "id": "",
+                "text": "F: AGAGAACCACCAAGGATGCA"
+              },
+              {
+                "id": "",
+                "text": "R: CAGGGAGCCATTTCACTCTGA"
+              },
+              {
+                "id": "",
+                "text": "(GA) 8"
+              },
+              {
+                "id": "",
+                "text": "187"
+              },
+              {
+                "id": "",
+                "text": "167"
+              },
+              {
+                "id": "",
+                "text": "1"
+              },
+              {
+                "id": "",
+                "text": "0"
+              },
+              {
+                "id": "",
+                "text": "0"
+              },
+              {
+                "id": "",
+                "text": "–"
+              },
+              {
+                "id": "",
+                "text": "–"
+              },
+              {
+                "id": "",
+                "text": "As_di12"
+              },
+              {
+                "id": "",
+                "text": "F: AAGACATCTTGAGGGCGGTG"
+              },
+              {
+                "id": "",
+                "text": "R: TGTAACTGCATAACGGGCCA"
+              },
+              {
+                "id": "",
+                "text": "(TC) 9"
+              },
+              {
+                "id": "",
+                "text": "447–458"
+              },
+              {
+                "id": "",
+                "text": "425"
+              },
+              {
+                "id": "",
+                "text": "4"
+              },
+              {
+                "id": "",
+                "text": "0.194"
+              },
+              {
+                "id": "",
+                "text": "0.271"
+              },
+              {
+                "id": "",
+                "text": "0.283"
+              },
+              {
+                "id": "",
+                "text": "0.0014*"
+              },
+              {
+                "id": "",
+                "text": "m As_di13"
+              },
+              {
+                "id": "",
+                "text": "F: TCAAGAAATACTGGCTCAGGTCA"
+              },
+              {
+                "id": "",
+                "text": "R: ACATGCATGTTGAGCGATTGT"
+              },
+              {
+                "id": "",
+                "text": "(TC) 8"
+              },
+              {
+                "id": "",
+                "text": "264"
+              },
+              {
+                "id": "",
+                "text": "238"
+              },
+              {
+                "id": "",
+                "text": "1"
+              },
+              {
+                "id": "",
+                "text": "0"
+              },
+              {
+                "id": "",
+                "text": "0"
+              },
+              {
+                "id": "",
+                "text": "–"
+              },
+              {
+                "id": "",
+                "text": "–"
+              },
+              {
+                "id": "",
+                "text": "As_di15"
+              },
+              {
+                "id": "",
+                "text": "F: GGGCAGAGAGGGAATTCGAG"
+              },
+              {
+                "id": "",
+                "text": "R: TGGGGAGACAGAACTTGTGC"
+              },
+              {
+                "id": "",
+                "text": "(TC) 8"
+              },
+              {
+                "id": "",
+                "text": "259–265"
+              },
+              {
+                "id": "",
+                "text": "235"
+              },
+              {
+                "id": "",
+                "text": "4"
+              },
+              {
+                "id": "",
+                "text": "0.375"
+              },
+              {
+                "id": "",
+                "text": "0.429"
+              },
+              {
+                "id": "",
+                "text": "0.126"
+              },
+              {
+                "id": "",
+                "text": "0.0236"
+              },
+              {
+                "id": "",
+                "text": "As_di16"
+              },
+              {
+                "id": "",
+                "text": "F: AATTGCCTGTGGTGGGAACT"
+              },
+              {
+                "id": "",
+                "text": "R: ACTCCACTCTCTTTCTTGCTCA"
+              },
+              {
+                "id": "",
+                "text": "(GT) 8"
+              },
+              {
+                "id": "",
+                "text": "211–218"
+              },
+              {
+                "id": "",
+                "text": "190"
+              },
+              {
+                "id": "",
+                "text": "4"
+              },
+              {
+                "id": "",
+                "text": "0.675"
+              },
+              {
+                "id": "",
+                "text": "0.680"
+              },
+              {
+                "id": "",
+                "text": "0.007"
+              },
+              {
+                "id": "",
+                "text": "0.8696"
+              },
+              {
+                "id": "",
+                "text": "m As_di19"
+              },
+              {
+                "id": "",
+                "text": "F: GACCTGACCACCTCCTCCTA"
+              },
+              {
+                "id": "",
+                "text": "R: AGGGCAACATACACGGATCG"
+              },
+              {
+                "id": "",
+                "text": "(CT) 9"
+              },
+              {
+                "id": "",
+                "text": "228"
+              },
+              {
+                "id": "",
+                "text": "205"
+              },
+              {
+                "id": "",
+                "text": "1"
+              },
+              {
+                "id": "",
+                "text": "0"
+              },
+              {
+                "id": "",
+                "text": "0"
+              },
+              {
+                "id": "",
+                "text": "–"
+              },
+              {
+                "id": "",
+                "text": "–"
+              },
+              {
+                "id": "",
+                "text": "As_di21"
+              },
+              {
+                "id": "",
+                "text": "F: TGTCAGCAGCCCTACAGTTG"
+              },
+              {
+                "id": "",
+                "text": "R: ACAGGTCACGATCTCTCCCT"
+              },
+              {
+                "id": "",
+                "text": "(GT) 8"
+              },
+              {
+                "id": "",
+                "text": "135–142"
+              },
+              {
+                "id": "",
+                "text": "113"
+              },
+              {
+                "id": "",
+                "text": "4"
+              },
+              {
+                "id": "",
+                "text": "0.450"
+              },
+              {
+                "id": "",
+                "text": "0.609"
+              },
+              {
+                "id": "",
+                "text": "0.261"
+              },
+              {
+                "id": "",
+                "text": "0.0455"
+              },
+              {
+                "id": "",
+                "text": "m As_di27"
+              },
+              {
+                "id": "",
+                "text": "F: TCATGACCATGACCCAACACT"
+              },
+              {
+                "id": "",
+                "text": "R: TCCTGTGGATTCTTTTGTATCTGGT"
+              },
+              {
+                "id": "",
+                "text": "(TC) 8"
+              },
+              {
+                "id": "",
+                "text": "386"
+              },
+              {
+                "id": "",
+                "text": "363"
+              },
+              {
+                "id": "",
+                "text": "1"
+              },
+              {
+                "id": "",
+                "text": "0"
+              },
+              {
+                "id": "",
+                "text": "0"
+              },
+              {
+                "id": "",
+                "text": "–"
+              },
+              {
+                "id": "",
+                "text": "–"
+              },
+              {
+                "id": "",
+                "text": "m As_di30"
+              },
+              {
+                "id": "",
+                "text": "F: GATCCCCTTCGTTGCTGACA"
+              },
+              {
+                "id": "",
+                "text": "R: GGACTGCCCGATTGATACTCA"
+              },
+              {
+                "id": "",
+                "text": "(TG) 9"
+              },
+              {
+                "id": "",
+                "text": "457"
+              },
+              {
+                "id": "",
+                "text": "432"
+              },
+              {
+                "id": "",
+                "text": "1"
+              },
+              {
+                "id": "",
+                "text": "0"
+              },
+              {
+                "id": "",
+                "text": "0"
+              },
+              {
+                "id": "",
+                "text": "–"
+              },
+              {
+                "id": "",
+                "text": "–"
+              },
+              {
+                "id": "",
+                "text": "m As_di31"
+              },
+              {
+                "id": "",
+                "text": "F: CTCCACCACCATCCAACCAA"
+              },
+              {
+                "id": "",
+                "text": "R: TCCTCAGCTTCTTGGGCTTG"
+              },
+              {
+                "id": "",
+                "text": "(AC) 8"
+              },
+              {
+                "id": "",
+                "text": "187–189"
+              },
+              {
+                "id": "",
+                "text": "167"
+              },
+              {
+                "id": "",
+                "text": "1"
+              },
+              {
+                "id": "",
+                "text": "0"
+              },
+              {
+                "id": "",
+                "text": "0"
+              },
+              {
+                "id": "",
+                "text": "–"
+              },
+              {
+                "id": "",
+                "text": "–"
+              },
+              {
+                "id": "",
+                "text": "As_di34 a"
+              },
+              {
+                "id": "",
+                "text": "F: AACGGATGGCAAGCTAGCTT"
+              },
+              {
+                "id": "",
+                "text": "R: CAGGCCTGCCCAGAAACTAA"
+              },
+              {
+                "id": "",
+                "text": "(AC) 8"
+              },
+              {
+                "id": "",
+                "text": "225–240"
+              },
+              {
+                "id": "",
+                "text": "218"
+              },
+              {
+                "id": "",
+                "text": "4"
+              },
+              {
+                "id": "",
+                "text": "0.217"
+              },
+              {
+                "id": "",
+                "text": "0.726"
+              },
+              {
+                "id": "",
+                "text": "0.701"
+              },
+              {
+                "id": "",
+                "text": "<0.0001**"
+              },
+              {
+                "id": "",
+                "text": "As_di35"
+              },
+              {
+                "id": "",
+                "text": "F: TGTTAGTCTCCTCCACACGT"
+              },
+              {
+                "id": "",
+                "text": "R: CAGCAGCAGCAGCAAAACT"
+              },
+              {
+                "id": "",
+                "text": "(TC) 8"
+              },
+              {
+                "id": "",
+                "text": "151–153"
+              },
+              {
+                "id": "",
+                "text": "129"
+              },
+              {
+                "id": "",
+                "text": "2"
+              },
+              {
+                "id": "",
+                "text": "0.143"
+              },
+              {
+                "id": "",
+                "text": "0.224"
+              },
+              {
+                "id": "",
+                "text": "0.362"
+              },
+              {
+                "id": "",
+                "text": "0.0751"
+              },
+              {
+                "id": "",
+                "text": "As_di36"
+              },
+              {
+                "id": "",
+                "text": "F: ATGTGAGTCCGTGAGTCCGT"
+              },
+              {
+                "id": "",
+                "text": "R: ATAAGCAGCAGCAGCAGACA"
+              },
+              {
+                "id": "",
+                "text": "(TG) 8"
+              },
+              {
+                "id": "",
+                "text": "237–245"
+              },
+              {
+                "id": "",
+                "text": "212"
+              },
+              {
+                "id": "",
+                "text": "5"
+              },
+              {
+                "id": "",
+                "text": "0.475"
+              },
+              {
+                "id": "",
+                "text": "0.606"
+              },
+              {
+                "id": "",
+                "text": "0.216"
+              },
+              {
+                "id": "",
+                "text": "0.0322"
+              },
+              {
+                "id": "",
+                "text": "As_di37"
+              },
+              {
+                "id": "",
+                "text": "F: TGGTGGGTAGCAGCAAAAGA"
+              },
+              {
+                "id": "",
+                "text": "R:TGCACATGGGATGATGATCAGT"
+              },
+              {
+                "id": "",
+                "text": "(TG) 11"
+              },
+              {
+                "id": "",
+                "text": "167–184"
+              },
+              {
+                "id": "",
+                "text": "151"
+              },
+              {
+                "id": "",
+                "text": "8"
+              },
+              {
+                "id": "",
+                "text": "0.722"
+              },
+              {
+                "id": "",
+                "text": "0.704"
+              },
+              {
+                "id": "",
+                "text": "−0.025"
+              },
+              {
+                "id": "",
+                "text": "0.9324"
+              },
+              {
+                "id": "",
+                "text": "As_di38"
+              },
+              {
+                "id": "",
+                "text": "F: ACAGAGAGAGAGAGAGCTTGT"
+              },
+              {
+                "id": "",
+                "text": "R: TACCGTCATGGCCGATGATG"
+              },
+              {
+                "id": "",
+                "text": "(AC) 8"
+              },
+              {
+                "id": "",
+                "text": "175–179"
+              },
+              {
+                "id": "",
+                "text": "154"
+              },
+              {
+                "id": "",
+                "text": "3"
+              },
+              {
+                "id": "",
+                "text": "0.184"
+              },
+              {
+                "id": "",
+                "text": "0.362"
+              },
+              {
+                "id": "",
+                "text": "0.491"
+              },
+              {
+                "id": "",
+                "text": "0.0012*"
+              },
+              {
+                "id": "",
+                "text": "As_di41"
+              },
+              {
+                "id": "",
+                "text": "F: AAGCTGAGAAACCCAAAGCA"
+              },
+              {
+                "id": "",
+                "text": "R: CACCACCCAACCCTTTTCCT"
+              },
+              {
+                "id": "",
+                "text": "(TA) 8"
+              },
+              {
+                "id": "",
+                "text": "259–271"
+              },
+              {
+                "id": "",
+                "text": "236"
+              },
+              {
+                "id": "",
+                "text": "6"
+              },
+              {
+                "id": "",
+                "text": "0.526"
+              },
+              {
+                "id": "",
+                "text": "0.625"
+              },
+              {
+                "id": "",
+                "text": "0.157"
+              },
+              {
+                "id": "",
+                "text": "0.2675"
+              },
+              {
+                "id": "",
+                "text": "As_di48"
+              },
+              {
+                "id": "",
+                "text": "F: AGGTTCGGGTTTTGAATCTTCA"
+              },
+              {
+                "id": "",
+                "text": "R: CAAGGACTTTGGCTCTGCTG"
+              },
+              {
+                "id": "",
+                "text": "(TA) 8"
+              },
+              {
+                "id": "",
+                "text": "173–179"
+              },
+              {
+                "id": "",
+                "text": "155"
+              },
+              {
+                "id": "",
+                "text": "4"
+              },
+              {
+                "id": "",
+                "text": "0.200"
+              },
+              {
+                "id": "",
+                "text": "0.678"
+              },
+              {
+                "id": "",
+                "text": "0.705"
+              },
+              {
+                "id": "",
+                "text": "<0.0001**"
+              },
+              {
+                "id": "",
+                "text": "As_di49"
+              },
+              {
+                "id": "",
+                "text": "F: TGCAACTGTTGAGTGGTGGA"
+              },
+              {
+                "id": "",
+                "text": "R: ACAAGTCGAACAACCCGTTG"
+              },
+              {
+                "id": "",
+                "text": "(TG) 10"
+              },
+              {
+                "id": "",
+                "text": "159–183"
+              },
+              {
+                "id": "",
+                "text": "133"
+              },
+              {
+                "id": "",
+                "text": "10"
+              },
+              {
+                "id": "",
+                "text": "0.625"
+              },
+              {
+                "id": "",
+                "text": "0.636"
+              },
+              {
+                "id": "",
+                "text": "0.017"
+              },
+              {
+                "id": "",
+                "text": "0.0528"
+              },
+              {
+                "id": "",
+                "text": "As_tetra1"
+              },
+              {
+                "id": "",
+                "text": "F: TTGACGGAGAGCTTGGTTCC"
+              },
+              {
+                "id": "",
+                "text": "R: AAAACCCAATTCGCCACGTG"
+              },
+              {
+                "id": "",
+                "text": "(TGCT) 6"
+              },
+              {
+                "id": "",
+                "text": "257–273"
+              },
+              {
+                "id": "",
+                "text": "241"
+              },
+              {
+                "id": "",
+                "text": "5"
+              },
+              {
+                "id": "",
+                "text": "0.341"
+              },
+              {
+                "id": "",
+                "text": "0.337"
+              },
+              {
+                "id": "",
+                "text": "−0.012"
+              },
+              {
+                "id": "",
+                "text": "0.4674"
+              },
+              {
+                "id": "",
+                "text": "+ Mean"
+              },
+              {
+                "id": "",
+                "text": "6"
+              },
+              {
+                "id": "",
+                "text": "0.424"
+              },
+              {
+                "id": "",
+                "text": "0.543"
+              },
+              {
+                "id": "",
+                "text": "0.222"
+              },
+              {
+                "id": "",
+                "text": "Mean"
+              },
+              {
+                "id": "",
+                "text": "4"
+              },
+              {
+                "id": "",
+                "text": "0.308"
+              },
+              {
+                "id": "",
+                "text": "0.395"
+              },
+              {
+                "id": "",
+                "text": "0.222"
+              },
+              {
+                "id": "",
+                "text": "N a number of alleles per locus, H o observed heterozygosity, H e expected heterozygosity, F inbreeding coefficient"
+              },
+              {
+                "id": "",
+                "text": "* Significantly different from Hardy–Weinberg proportions (α = 0.05) after Bonferroni corrections"
+              },
+              {
+                "id": "",
+                "text": "** Significantly different from Hardy–Weinberg proportions (α = 0.01) after Bonferroni corrections m : these markers amplified monomorphic loci and were not tested on the whole population. **: expected fragment size based on EST contigs. Actual fragments were longer as tailed primers were used for amplification. + Mean variation was calculated for polymorphic markers only to allow for comparisons with other related studies on sugar maple [ 4 ]"
+              },
+              {
+                "id": "",
+                "text": "a Markers As_di34 and As_di9 did not amplify in nearly half of the samples and should not be used for population level analyses"
+              },
+              {
+                "id": "Par15",
+                "text": "A total of 16 markers were tested for transferability in three DNA samples from each of the four Acer species which represent three taxonomic sections: A. saccharinum (section Rubra ), A. rubrum (section Rubra ), A. platanoides (section Platanoidea ) and A. ginnala (section Ginnala ) using the same PCR protocol as described above. The results showed that most primers amplified a multi-banding pattern across species. However, 15 markers amplified single loci in the expected size range in at least one other Acer species (Table 2 ). Ten markers were monomorphic in some or all species (Table 2 ). Two markers, As_tetra1 and As_di41, were polymorphic in more than one species. Table 2 Transferability of Acer saccharum microsatellite loci to other Acer species A. saccharum A. rubrum A. saccharinum A. platanoides A. ginnala As_di1 – – As_di1 As_di1* As_di7 As_di7 As_di7* – – As_di9 – – As_di9 As_di9* As_di12 – As_di12 – – As_di15 – – As_di15 As_di15* As_di16 – – – As_di16 As_di21 – As_di21* As_di21 – As_di35 As_di35 As_di35* As_di35* – As_di36 – – As_di36* – As_di37 – As_di37* As_di37* – As_di38 – As_di38 – – As_di41 As_di41 As_di41 As_di41 As_di41 As_di48 As_di48 As_di48* As_di48* As_di48* As_di49 – – As_di49 As_di49* As_tetra1 – – As_tetra1 As_tetra1 All of these markers amplified single polymorphic loci in A. saccharum * Monomorphic in species as indicated by column. Only markers that are transferable to at least one of the four maple species are shown – No amplification"
+              },
+              {
+                "id": "",
+                "text": "Transferability of Acer saccharum microsatellite loci to other Acer species"
+              },
+              {
+                "id": "",
+                "text": "A. saccharum"
+              },
+              {
+                "id": "",
+                "text": "A. rubrum"
+              },
+              {
+                "id": "",
+                "text": "A. saccharinum"
+              },
+              {
+                "id": "",
+                "text": "A. platanoides"
+              },
+              {
+                "id": "",
+                "text": "A. ginnala"
+              },
+              {
+                "id": "",
+                "text": "As_di1"
+              },
+              {
+                "id": "",
+                "text": "–"
+              },
+              {
+                "id": "",
+                "text": "–"
+              },
+              {
+                "id": "",
+                "text": "As_di1"
+              },
+              {
+                "id": "",
+                "text": "As_di1*"
+              },
+              {
+                "id": "",
+                "text": "As_di7"
+              },
+              {
+                "id": "",
+                "text": "As_di7"
+              },
+              {
+                "id": "",
+                "text": "As_di7*"
+              },
+              {
+                "id": "",
+                "text": "–"
+              },
+              {
+                "id": "",
+                "text": "–"
+              },
+              {
+                "id": "",
+                "text": "As_di9"
+              },
+              {
+                "id": "",
+                "text": "–"
+              },
+              {
+                "id": "",
+                "text": "–"
+              },
+              {
+                "id": "",
+                "text": "As_di9"
+              },
+              {
+                "id": "",
+                "text": "As_di9*"
+              },
+              {
+                "id": "",
+                "text": "As_di12"
+              },
+              {
+                "id": "",
+                "text": "–"
+              },
+              {
+                "id": "",
+                "text": "As_di12"
+              },
+              {
+                "id": "",
+                "text": "–"
+              },
+              {
+                "id": "",
+                "text": "–"
+              },
+              {
+                "id": "",
+                "text": "As_di15"
+              },
+              {
+                "id": "",
+                "text": "–"
+              },
+              {
+                "id": "",
+                "text": "–"
+              },
+              {
+                "id": "",
+                "text": "As_di15"
+              },
+              {
+                "id": "",
+                "text": "As_di15*"
+              },
+              {
+                "id": "",
+                "text": "As_di16"
+              },
+              {
+                "id": "",
+                "text": "–"
+              },
+              {
+                "id": "",
+                "text": "–"
+              },
+              {
+                "id": "",
+                "text": "–"
+              },
+              {
+                "id": "",
+                "text": "As_di16"
+              },
+              {
+                "id": "",
+                "text": "As_di21"
+              },
+              {
+                "id": "",
+                "text": "–"
+              },
+              {
+                "id": "",
+                "text": "As_di21*"
+              },
+              {
+                "id": "",
+                "text": "As_di21"
+              },
+              {
+                "id": "",
+                "text": "–"
+              },
+              {
+                "id": "",
+                "text": "As_di35"
+              },
+              {
+                "id": "",
+                "text": "As_di35"
+              },
+              {
+                "id": "",
+                "text": "As_di35*"
+              },
+              {
+                "id": "",
+                "text": "As_di35*"
+              },
+              {
+                "id": "",
+                "text": "–"
+              },
+              {
+                "id": "",
+                "text": "As_di36"
+              },
+              {
+                "id": "",
+                "text": "–"
+              },
+              {
+                "id": "",
+                "text": "–"
+              },
+              {
+                "id": "",
+                "text": "As_di36*"
+              },
+              {
+                "id": "",
+                "text": "–"
+              },
+              {
+                "id": "",
+                "text": "As_di37"
+              },
+              {
+                "id": "",
+                "text": "–"
+              },
+              {
+                "id": "",
+                "text": "As_di37*"
+              },
+              {
+                "id": "",
+                "text": "As_di37*"
+              },
+              {
+                "id": "",
+                "text": "–"
+              },
+              {
+                "id": "",
+                "text": "As_di38"
+              },
+              {
+                "id": "",
+                "text": "–"
+              },
+              {
+                "id": "",
+                "text": "As_di38"
+              },
+              {
+                "id": "",
+                "text": "–"
+              },
+              {
+                "id": "",
+                "text": "–"
+              },
+              {
+                "id": "",
+                "text": "As_di41"
+              },
+              {
+                "id": "",
+                "text": "As_di41"
+              },
+              {
+                "id": "",
+                "text": "As_di41"
+              },
+              {
+                "id": "",
+                "text": "As_di41"
+              },
+              {
+                "id": "",
+                "text": "As_di41"
+              },
+              {
+                "id": "",
+                "text": "As_di48"
+              },
+              {
+                "id": "",
+                "text": "As_di48"
+              },
+              {
+                "id": "",
+                "text": "As_di48*"
+              },
+              {
+                "id": "",
+                "text": "As_di48*"
+              },
+              {
+                "id": "",
+                "text": "As_di48*"
+              },
+              {
+                "id": "",
+                "text": "As_di49"
+              },
+              {
+                "id": "",
+                "text": "–"
+              },
+              {
+                "id": "",
+                "text": "–"
+              },
+              {
+                "id": "",
+                "text": "As_di49"
+              },
+              {
+                "id": "",
+                "text": "As_di49*"
+              },
+              {
+                "id": "",
+                "text": "As_tetra1"
+              },
+              {
+                "id": "",
+                "text": "–"
+              },
+              {
+                "id": "",
+                "text": "–"
+              },
+              {
+                "id": "",
+                "text": "As_tetra1"
+              },
+              {
+                "id": "",
+                "text": "As_tetra1"
+              },
+              {
+                "id": "",
+                "text": "All of these markers amplified single polymorphic loci in A. saccharum"
+              },
+              {
+                "id": "",
+                "text": "* Monomorphic in species as indicated by column. Only markers that are transferable to at least one of the four maple species are shown"
+              },
+              {
+                "id": "",
+                "text": "– No amplification"
+              },
+              {
+                "id": "Par16",
+                "text": "The level of genetic variation for individual polymorphic markers varied considerably. Mean variation at polymorphic markers was much lower for genic (H o :0.424; H e :0.543) than for non-genic markers in the same samples (H o :0.708; H e :0.822 [ 4 ]). Similarly, lower genetic variation was observed at genic EST-SSRs than at genomic SSRs in several Quercus rubra L. and Quercus ellipsoidalis E.J. Hill populations [ 29 ]. The generally lower genetic variation at genic EST-SSRs suggests that these markers are not selectively neutral, but subject to selection [ 6 ]. Genetic variation observed at genic EST-SSRs in sugar maple was lower than estimates obtained in other wind-pollinated tree species such as North American oak species Q. rubra and Q. ellipsoidalis from the same geographic region (H e = 0.700, range 0.690–0.740, [ 29 ]). As for non-genic markers which were characterized in the same population [ 4 ] most F values are not significantly different from zero. High F values at individual markers could be due to the presence of null alleles. Markers As_di34 and As_di9 with high F values and significant deviation from Hardy–Weinberg proportions (p < 0.001) showed no amplification in nearly half of the samples suggesting high null allele frequencies. All other markers amplified in most samples making them applicable for population genetic analyses. Only two out of the 47 samples showed variable amplification success potentially as result of low DNA quality. The other marker, As_di48, with a very high F value showed high amplification success comparable to the other markers. Overall high variation was observed in F values ranging from −0.081 for As_di7 to 0.705 for As_di48."
+              },
+              {
+                "id": "Par17",
+                "text": "The overall high level of genetic variation, the absence of linkage disequilibrium and low to moderate deviations from HWE for most markers suggest the suitability of these markers for population genetic studies in sugar maple. In addition, markers showed high transferability to other Acer species providing at least two new polymorphic markers for the four other Acer species, and even six new polymorphic markers for one of the species, A. platanoides. High transferability of markers across Acer sections suggests their potential usefulness for population genetic analyses in other maple species. In contrast, only two out of 13 genomic SSRs amplified polymorphic loci in one other species, Acer ginnala [ 4 ]. This high transferability is typical of EST-SSRs and has been shown repeatedly in crop plants and is more prevalent than in non-EST-SSR markers [ 6 ]. Genetic variation at SSR markers was only assessed in a single natural population in Michigan. Allelic diversity will certainly vary among populations within the large distribution range of the species. However, in outcrossing, wind-pollinated tree species with wide and continuous distribution ranges such as sugar maple most of the genetic variation (i.e. H e ) is generally distributed within populations [ 30 ] and similar levels of within population variation are expected within the main distribution range of the species."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Sec8",
+        "title": "Transcriptome assembly and validation",
+        "paragraphs": [
+          {
+            "id": "Par12",
+            "text": "Illumina sequencing of 51 transcriptome sugar maple libraries of varying tissue types and treatments produced 282 million reads (29.9 Gb), available at NCBI SRA bioproject accession PRJNA273272 (Additional file 1 ). De novo assembly of reads yielded 117,861 putative unique transcripts (PUTs) with an average length of 945 bases and an N50 length of 1667 bases. TransDecoder version 2.0.1 was used to identify 67,537 possible open read frames (ORFs) derived from 51,390 PUTs (43.6%). Multiple ORFs per PUT can occur for example due to chimeras in the assembly or sequencing errors (insertions/deletions) that shift the reading frame incorrectly. The peptide sequences calculated from the ORFs average 284 amino acids in length. Assembly accuracy was assessed as quality metrics based on examination of read mapping using Transrate [ 20 ] and identified an overall mapping rate of 72.8%, and over 85% of those mapped reads supported the assembly (i.e. both pairs aligned to the same transcript in the correct orientation without overlapping either transcript end). Out of a total of 956 BUSCO ortho-groups searched, 914 were found in the BUSCO database. These were further classified as 434 complete single-copy genes, 446 complete but duplicated genes, and 34 fragmented copies of genes. This represents the first transcriptome reference for sugar maple and will be a valuable genomic resource for future studies, for example, to generate markers, to use as a reference for gene expression sequencing or to identify candidate stress-response genes. Raw reads are stored at NCBI Short Read Archive (SRA) with the bioproject accession PRJNA273272."
+          }
+        ]
+      },
+      {
+        "id": "Sec9",
+        "title": "Functional annotation and SSR discovery",
+        "paragraphs": [
+          {
+            "id": "Par13",
+            "text": "Sugar maple PUTs were used as queries for BLAST searches against the proteins in the Swiss-Prot and plant TrEMBL [ 16 ] databases yielding 64,458 (54.7%) PUTs with matches to TrEMBL plant proteins and 49,760 (42.2%) PUTs with matches to Swiss-Prot. Simple Sequence Repeat (SSR) extraction found 6279 SSRs in 5965 PUTs (5.1%). SSRs were identified for 2, 3, and 4 bp motifs. The 4 bp motifs were the rarest, making up 0.97% of total SSRs found. The shorter 2 bp and 3 bp motifs were much more common, making up 78.7 and 20.4% of total SSRs found, respectively. Primers were designed for 1068 SSRs using the flanking regions of the repeats (Additional file 2 ). Of these 812 were 2 bp repeats ranging from 8 to 15 repeats, 234 were 3 bp repeats ranging from 7 to 14 repeats, and 22 were 4 bp repeats with 6 repeats. Additional file 2 contains a report of the SSR analysis along with primers designed for SSRs meeting the appropriate requirements and functional annotations for SSR markers."
+          }
+        ]
+      },
+      {
+        "id": "Sec10",
+        "title": "Microsatellite marker characterization",
+        "paragraphs": [
+          {
+            "id": "Par14",
+            "text": "We selected 58 SSRs with a wide range of expected amplicon sizes (100–487 bp) to develop sets of markers with non-overlapping size ranges that could be used for multiplex PCRs in subsequent studies. Out of the 58 primers tested, 16 amplified polymorphic loci and 6 amplified monomorphic loci (Table 1 ; Additional file 2 ). The expected size for the polymorphic markers varied from 113 and 425 bp. For polymorphic loci H e ranged from 0.224 to 0.726, H o from 0.143 to 0.722 and N a from 2 to 12. A total of 11 out of the 16 markers showed no significant deviation from Hardy–Weinberg proportions after Bonferroni correction, while markers As_di12 and As_di38 (p < 0.05) and markers As_di34, As_di48 and As_di9 (p < 0.01) showed significant and positive F values. No significant linkage disequilibrium was found between marker pairs after Bonferroni correction (p < 0.05). Table 1 Primer sequences and descriptions of 22 microsatellite markers developed in Acer saccharum Locus Primer sequences (5′–3′) Repeat EdEdmotif Size range (bp) **Expected fragment size N a H o H e F p As_di1 F: TCCCAGGCATGAACAAGGTT R: TGCAGTAAGTTGACAGCTCT (AC) 9 251–273 230 9 0.581 0.658 0.117 0.0034 As_di7 F: GGGTCTGTCTCTGTTTCTGCA R: ACAGGGTTCACTGAGCTGTG (AC) 9 151–161 134 6 0.651 0.602 0.081 0.2578 As_di9 a F: TGCTGGAAAGTGGAACCTGT R: AGTCTGATCTGTCATGGGCTC (TA) 8 121–147 100 12 0.375 0.835 0.551 <0.0001** m As_di11 F: AGAGAACCACCAAGGATGCA R: CAGGGAGCCATTTCACTCTGA (GA) 8 187 167 1 0 0 – – As_di12 F: AAGACATCTTGAGGGCGGTG R: TGTAACTGCATAACGGGCCA (TC) 9 447–458 425 4 0.194 0.271 0.283 0.0014* m As_di13 F: TCAAGAAATACTGGCTCAGGTCA R: ACATGCATGTTGAGCGATTGT (TC) 8 264 238 1 0 0 – – As_di15 F: GGGCAGAGAGGGAATTCGAG R: TGGGGAGACAGAACTTGTGC (TC) 8 259–265 235 4 0.375 0.429 0.126 0.0236 As_di16 F: AATTGCCTGTGGTGGGAACT R: ACTCCACTCTCTTTCTTGCTCA (GT) 8 211–218 190 4 0.675 0.680 0.007 0.8696 m As_di19 F: GACCTGACCACCTCCTCCTA R: AGGGCAACATACACGGATCG (CT) 9 228 205 1 0 0 – – As_di21 F: TGTCAGCAGCCCTACAGTTG R: ACAGGTCACGATCTCTCCCT (GT) 8 135–142 113 4 0.450 0.609 0.261 0.0455 m As_di27 F: TCATGACCATGACCCAACACT R: TCCTGTGGATTCTTTTGTATCTGGT (TC) 8 386 363 1 0 0 – – m As_di30 F: GATCCCCTTCGTTGCTGACA R: GGACTGCCCGATTGATACTCA (TG) 9 457 432 1 0 0 – – m As_di31 F: CTCCACCACCATCCAACCAA R: TCCTCAGCTTCTTGGGCTTG (AC) 8 187–189 167 1 0 0 – – As_di34 a F: AACGGATGGCAAGCTAGCTT R: CAGGCCTGCCCAGAAACTAA (AC) 8 225–240 218 4 0.217 0.726 0.701 <0.0001** As_di35 F: TGTTAGTCTCCTCCACACGT R: CAGCAGCAGCAGCAAAACT (TC) 8 151–153 129 2 0.143 0.224 0.362 0.0751 As_di36 F: ATGTGAGTCCGTGAGTCCGT R: ATAAGCAGCAGCAGCAGACA (TG) 8 237–245 212 5 0.475 0.606 0.216 0.0322 As_di37 F: TGGTGGGTAGCAGCAAAAGA R:TGCACATGGGATGATGATCAGT (TG) 11 167–184 151 8 0.722 0.704 −0.025 0.9324 As_di38 F: ACAGAGAGAGAGAGAGCTTGT R: TACCGTCATGGCCGATGATG (AC) 8 175–179 154 3 0.184 0.362 0.491 0.0012* As_di41 F: AAGCTGAGAAACCCAAAGCA R: CACCACCCAACCCTTTTCCT (TA) 8 259–271 236 6 0.526 0.625 0.157 0.2675 As_di48 F: AGGTTCGGGTTTTGAATCTTCA R: CAAGGACTTTGGCTCTGCTG (TA) 8 173–179 155 4 0.200 0.678 0.705 <0.0001** As_di49 F: TGCAACTGTTGAGTGGTGGA R: ACAAGTCGAACAACCCGTTG (TG) 10 159–183 133 10 0.625 0.636 0.017 0.0528 As_tetra1 F: TTGACGGAGAGCTTGGTTCC R: AAAACCCAATTCGCCACGTG (TGCT) 6 257–273 241 5 0.341 0.337 −0.012 0.4674 + Mean 6 0.424 0.543 0.222 Mean 4 0.308 0.395 0.222 N a number of alleles per locus, H o observed heterozygosity, H e expected heterozygosity, F inbreeding coefficient * Significantly different from Hardy–Weinberg proportions (α = 0.05) after Bonferroni corrections ** Significantly different from Hardy–Weinberg proportions (α = 0.01) after Bonferroni corrections m : these markers amplified monomorphic loci and were not tested on the whole population. **: expected fragment size based on EST contigs. Actual fragments were longer as tailed primers were used for amplification. + Mean variation was calculated for polymorphic markers only to allow for comparisons with other related studies on sugar maple [ 4 ] a Markers As_di34 and As_di9 did not amplify in nearly half of the samples and should not be used for population level analyses"
+          },
+          {
+            "id": "",
+            "text": "Primer sequences and descriptions of 22 microsatellite markers developed in Acer saccharum"
+          },
+          {
+            "id": "",
+            "text": "Locus"
+          },
+          {
+            "id": "",
+            "text": "Primer sequences (5′–3′)"
+          },
+          {
+            "id": "",
+            "text": "Repeat EdEdmotif"
+          },
+          {
+            "id": "",
+            "text": "Size range (bp)"
+          },
+          {
+            "id": "",
+            "text": "**Expected fragment size"
+          },
+          {
+            "id": "",
+            "text": "N a"
+          },
+          {
+            "id": "",
+            "text": "H o"
+          },
+          {
+            "id": "",
+            "text": "H e"
+          },
+          {
+            "id": "",
+            "text": "F"
+          },
+          {
+            "id": "",
+            "text": "p"
+          },
+          {
+            "id": "",
+            "text": "As_di1"
+          },
+          {
+            "id": "",
+            "text": "F: TCCCAGGCATGAACAAGGTT"
+          },
+          {
+            "id": "",
+            "text": "R: TGCAGTAAGTTGACAGCTCT"
+          },
+          {
+            "id": "",
+            "text": "(AC) 9"
+          },
+          {
+            "id": "",
+            "text": "251–273"
+          },
+          {
+            "id": "",
+            "text": "230"
+          },
+          {
+            "id": "",
+            "text": "9"
+          },
+          {
+            "id": "",
+            "text": "0.581"
+          },
+          {
+            "id": "",
+            "text": "0.658"
+          },
+          {
+            "id": "",
+            "text": "0.117"
+          },
+          {
+            "id": "",
+            "text": "0.0034"
+          },
+          {
+            "id": "",
+            "text": "As_di7"
+          },
+          {
+            "id": "",
+            "text": "F: GGGTCTGTCTCTGTTTCTGCA"
+          },
+          {
+            "id": "",
+            "text": "R: ACAGGGTTCACTGAGCTGTG"
+          },
+          {
+            "id": "",
+            "text": "(AC) 9"
+          },
+          {
+            "id": "",
+            "text": "151–161"
+          },
+          {
+            "id": "",
+            "text": "134"
+          },
+          {
+            "id": "",
+            "text": "6"
+          },
+          {
+            "id": "",
+            "text": "0.651"
+          },
+          {
+            "id": "",
+            "text": "0.602"
+          },
+          {
+            "id": "",
+            "text": "0.081"
+          },
+          {
+            "id": "",
+            "text": "0.2578"
+          },
+          {
+            "id": "",
+            "text": "As_di9 a"
+          },
+          {
+            "id": "",
+            "text": "F: TGCTGGAAAGTGGAACCTGT"
+          },
+          {
+            "id": "",
+            "text": "R: AGTCTGATCTGTCATGGGCTC"
+          },
+          {
+            "id": "",
+            "text": "(TA) 8"
+          },
+          {
+            "id": "",
+            "text": "121–147"
+          },
+          {
+            "id": "",
+            "text": "100"
+          },
+          {
+            "id": "",
+            "text": "12"
+          },
+          {
+            "id": "",
+            "text": "0.375"
+          },
+          {
+            "id": "",
+            "text": "0.835"
+          },
+          {
+            "id": "",
+            "text": "0.551"
+          },
+          {
+            "id": "",
+            "text": "<0.0001**"
+          },
+          {
+            "id": "",
+            "text": "m As_di11"
+          },
+          {
+            "id": "",
+            "text": "F: AGAGAACCACCAAGGATGCA"
+          },
+          {
+            "id": "",
+            "text": "R: CAGGGAGCCATTTCACTCTGA"
+          },
+          {
+            "id": "",
+            "text": "(GA) 8"
+          },
+          {
+            "id": "",
+            "text": "187"
+          },
+          {
+            "id": "",
+            "text": "167"
+          },
+          {
+            "id": "",
+            "text": "1"
+          },
+          {
+            "id": "",
+            "text": "0"
+          },
+          {
+            "id": "",
+            "text": "0"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "As_di12"
+          },
+          {
+            "id": "",
+            "text": "F: AAGACATCTTGAGGGCGGTG"
+          },
+          {
+            "id": "",
+            "text": "R: TGTAACTGCATAACGGGCCA"
+          },
+          {
+            "id": "",
+            "text": "(TC) 9"
+          },
+          {
+            "id": "",
+            "text": "447–458"
+          },
+          {
+            "id": "",
+            "text": "425"
+          },
+          {
+            "id": "",
+            "text": "4"
+          },
+          {
+            "id": "",
+            "text": "0.194"
+          },
+          {
+            "id": "",
+            "text": "0.271"
+          },
+          {
+            "id": "",
+            "text": "0.283"
+          },
+          {
+            "id": "",
+            "text": "0.0014*"
+          },
+          {
+            "id": "",
+            "text": "m As_di13"
+          },
+          {
+            "id": "",
+            "text": "F: TCAAGAAATACTGGCTCAGGTCA"
+          },
+          {
+            "id": "",
+            "text": "R: ACATGCATGTTGAGCGATTGT"
+          },
+          {
+            "id": "",
+            "text": "(TC) 8"
+          },
+          {
+            "id": "",
+            "text": "264"
+          },
+          {
+            "id": "",
+            "text": "238"
+          },
+          {
+            "id": "",
+            "text": "1"
+          },
+          {
+            "id": "",
+            "text": "0"
+          },
+          {
+            "id": "",
+            "text": "0"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "As_di15"
+          },
+          {
+            "id": "",
+            "text": "F: GGGCAGAGAGGGAATTCGAG"
+          },
+          {
+            "id": "",
+            "text": "R: TGGGGAGACAGAACTTGTGC"
+          },
+          {
+            "id": "",
+            "text": "(TC) 8"
+          },
+          {
+            "id": "",
+            "text": "259–265"
+          },
+          {
+            "id": "",
+            "text": "235"
+          },
+          {
+            "id": "",
+            "text": "4"
+          },
+          {
+            "id": "",
+            "text": "0.375"
+          },
+          {
+            "id": "",
+            "text": "0.429"
+          },
+          {
+            "id": "",
+            "text": "0.126"
+          },
+          {
+            "id": "",
+            "text": "0.0236"
+          },
+          {
+            "id": "",
+            "text": "As_di16"
+          },
+          {
+            "id": "",
+            "text": "F: AATTGCCTGTGGTGGGAACT"
+          },
+          {
+            "id": "",
+            "text": "R: ACTCCACTCTCTTTCTTGCTCA"
+          },
+          {
+            "id": "",
+            "text": "(GT) 8"
+          },
+          {
+            "id": "",
+            "text": "211–218"
+          },
+          {
+            "id": "",
+            "text": "190"
+          },
+          {
+            "id": "",
+            "text": "4"
+          },
+          {
+            "id": "",
+            "text": "0.675"
+          },
+          {
+            "id": "",
+            "text": "0.680"
+          },
+          {
+            "id": "",
+            "text": "0.007"
+          },
+          {
+            "id": "",
+            "text": "0.8696"
+          },
+          {
+            "id": "",
+            "text": "m As_di19"
+          },
+          {
+            "id": "",
+            "text": "F: GACCTGACCACCTCCTCCTA"
+          },
+          {
+            "id": "",
+            "text": "R: AGGGCAACATACACGGATCG"
+          },
+          {
+            "id": "",
+            "text": "(CT) 9"
+          },
+          {
+            "id": "",
+            "text": "228"
+          },
+          {
+            "id": "",
+            "text": "205"
+          },
+          {
+            "id": "",
+            "text": "1"
+          },
+          {
+            "id": "",
+            "text": "0"
+          },
+          {
+            "id": "",
+            "text": "0"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "As_di21"
+          },
+          {
+            "id": "",
+            "text": "F: TGTCAGCAGCCCTACAGTTG"
+          },
+          {
+            "id": "",
+            "text": "R: ACAGGTCACGATCTCTCCCT"
+          },
+          {
+            "id": "",
+            "text": "(GT) 8"
+          },
+          {
+            "id": "",
+            "text": "135–142"
+          },
+          {
+            "id": "",
+            "text": "113"
+          },
+          {
+            "id": "",
+            "text": "4"
+          },
+          {
+            "id": "",
+            "text": "0.450"
+          },
+          {
+            "id": "",
+            "text": "0.609"
+          },
+          {
+            "id": "",
+            "text": "0.261"
+          },
+          {
+            "id": "",
+            "text": "0.0455"
+          },
+          {
+            "id": "",
+            "text": "m As_di27"
+          },
+          {
+            "id": "",
+            "text": "F: TCATGACCATGACCCAACACT"
+          },
+          {
+            "id": "",
+            "text": "R: TCCTGTGGATTCTTTTGTATCTGGT"
+          },
+          {
+            "id": "",
+            "text": "(TC) 8"
+          },
+          {
+            "id": "",
+            "text": "386"
+          },
+          {
+            "id": "",
+            "text": "363"
+          },
+          {
+            "id": "",
+            "text": "1"
+          },
+          {
+            "id": "",
+            "text": "0"
+          },
+          {
+            "id": "",
+            "text": "0"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "m As_di30"
+          },
+          {
+            "id": "",
+            "text": "F: GATCCCCTTCGTTGCTGACA"
+          },
+          {
+            "id": "",
+            "text": "R: GGACTGCCCGATTGATACTCA"
+          },
+          {
+            "id": "",
+            "text": "(TG) 9"
+          },
+          {
+            "id": "",
+            "text": "457"
+          },
+          {
+            "id": "",
+            "text": "432"
+          },
+          {
+            "id": "",
+            "text": "1"
+          },
+          {
+            "id": "",
+            "text": "0"
+          },
+          {
+            "id": "",
+            "text": "0"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "m As_di31"
+          },
+          {
+            "id": "",
+            "text": "F: CTCCACCACCATCCAACCAA"
+          },
+          {
+            "id": "",
+            "text": "R: TCCTCAGCTTCTTGGGCTTG"
+          },
+          {
+            "id": "",
+            "text": "(AC) 8"
+          },
+          {
+            "id": "",
+            "text": "187–189"
+          },
+          {
+            "id": "",
+            "text": "167"
+          },
+          {
+            "id": "",
+            "text": "1"
+          },
+          {
+            "id": "",
+            "text": "0"
+          },
+          {
+            "id": "",
+            "text": "0"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "As_di34 a"
+          },
+          {
+            "id": "",
+            "text": "F: AACGGATGGCAAGCTAGCTT"
+          },
+          {
+            "id": "",
+            "text": "R: CAGGCCTGCCCAGAAACTAA"
+          },
+          {
+            "id": "",
+            "text": "(AC) 8"
+          },
+          {
+            "id": "",
+            "text": "225–240"
+          },
+          {
+            "id": "",
+            "text": "218"
+          },
+          {
+            "id": "",
+            "text": "4"
+          },
+          {
+            "id": "",
+            "text": "0.217"
+          },
+          {
+            "id": "",
+            "text": "0.726"
+          },
+          {
+            "id": "",
+            "text": "0.701"
+          },
+          {
+            "id": "",
+            "text": "<0.0001**"
+          },
+          {
+            "id": "",
+            "text": "As_di35"
+          },
+          {
+            "id": "",
+            "text": "F: TGTTAGTCTCCTCCACACGT"
+          },
+          {
+            "id": "",
+            "text": "R: CAGCAGCAGCAGCAAAACT"
+          },
+          {
+            "id": "",
+            "text": "(TC) 8"
+          },
+          {
+            "id": "",
+            "text": "151–153"
+          },
+          {
+            "id": "",
+            "text": "129"
+          },
+          {
+            "id": "",
+            "text": "2"
+          },
+          {
+            "id": "",
+            "text": "0.143"
+          },
+          {
+            "id": "",
+            "text": "0.224"
+          },
+          {
+            "id": "",
+            "text": "0.362"
+          },
+          {
+            "id": "",
+            "text": "0.0751"
+          },
+          {
+            "id": "",
+            "text": "As_di36"
+          },
+          {
+            "id": "",
+            "text": "F: ATGTGAGTCCGTGAGTCCGT"
+          },
+          {
+            "id": "",
+            "text": "R: ATAAGCAGCAGCAGCAGACA"
+          },
+          {
+            "id": "",
+            "text": "(TG) 8"
+          },
+          {
+            "id": "",
+            "text": "237–245"
+          },
+          {
+            "id": "",
+            "text": "212"
+          },
+          {
+            "id": "",
+            "text": "5"
+          },
+          {
+            "id": "",
+            "text": "0.475"
+          },
+          {
+            "id": "",
+            "text": "0.606"
+          },
+          {
+            "id": "",
+            "text": "0.216"
+          },
+          {
+            "id": "",
+            "text": "0.0322"
+          },
+          {
+            "id": "",
+            "text": "As_di37"
+          },
+          {
+            "id": "",
+            "text": "F: TGGTGGGTAGCAGCAAAAGA"
+          },
+          {
+            "id": "",
+            "text": "R:TGCACATGGGATGATGATCAGT"
+          },
+          {
+            "id": "",
+            "text": "(TG) 11"
+          },
+          {
+            "id": "",
+            "text": "167–184"
+          },
+          {
+            "id": "",
+            "text": "151"
+          },
+          {
+            "id": "",
+            "text": "8"
+          },
+          {
+            "id": "",
+            "text": "0.722"
+          },
+          {
+            "id": "",
+            "text": "0.704"
+          },
+          {
+            "id": "",
+            "text": "−0.025"
+          },
+          {
+            "id": "",
+            "text": "0.9324"
+          },
+          {
+            "id": "",
+            "text": "As_di38"
+          },
+          {
+            "id": "",
+            "text": "F: ACAGAGAGAGAGAGAGCTTGT"
+          },
+          {
+            "id": "",
+            "text": "R: TACCGTCATGGCCGATGATG"
+          },
+          {
+            "id": "",
+            "text": "(AC) 8"
+          },
+          {
+            "id": "",
+            "text": "175–179"
+          },
+          {
+            "id": "",
+            "text": "154"
+          },
+          {
+            "id": "",
+            "text": "3"
+          },
+          {
+            "id": "",
+            "text": "0.184"
+          },
+          {
+            "id": "",
+            "text": "0.362"
+          },
+          {
+            "id": "",
+            "text": "0.491"
+          },
+          {
+            "id": "",
+            "text": "0.0012*"
+          },
+          {
+            "id": "",
+            "text": "As_di41"
+          },
+          {
+            "id": "",
+            "text": "F: AAGCTGAGAAACCCAAAGCA"
+          },
+          {
+            "id": "",
+            "text": "R: CACCACCCAACCCTTTTCCT"
+          },
+          {
+            "id": "",
+            "text": "(TA) 8"
+          },
+          {
+            "id": "",
+            "text": "259–271"
+          },
+          {
+            "id": "",
+            "text": "236"
+          },
+          {
+            "id": "",
+            "text": "6"
+          },
+          {
+            "id": "",
+            "text": "0.526"
+          },
+          {
+            "id": "",
+            "text": "0.625"
+          },
+          {
+            "id": "",
+            "text": "0.157"
+          },
+          {
+            "id": "",
+            "text": "0.2675"
+          },
+          {
+            "id": "",
+            "text": "As_di48"
+          },
+          {
+            "id": "",
+            "text": "F: AGGTTCGGGTTTTGAATCTTCA"
+          },
+          {
+            "id": "",
+            "text": "R: CAAGGACTTTGGCTCTGCTG"
+          },
+          {
+            "id": "",
+            "text": "(TA) 8"
+          },
+          {
+            "id": "",
+            "text": "173–179"
+          },
+          {
+            "id": "",
+            "text": "155"
+          },
+          {
+            "id": "",
+            "text": "4"
+          },
+          {
+            "id": "",
+            "text": "0.200"
+          },
+          {
+            "id": "",
+            "text": "0.678"
+          },
+          {
+            "id": "",
+            "text": "0.705"
+          },
+          {
+            "id": "",
+            "text": "<0.0001**"
+          },
+          {
+            "id": "",
+            "text": "As_di49"
+          },
+          {
+            "id": "",
+            "text": "F: TGCAACTGTTGAGTGGTGGA"
+          },
+          {
+            "id": "",
+            "text": "R: ACAAGTCGAACAACCCGTTG"
+          },
+          {
+            "id": "",
+            "text": "(TG) 10"
+          },
+          {
+            "id": "",
+            "text": "159–183"
+          },
+          {
+            "id": "",
+            "text": "133"
+          },
+          {
+            "id": "",
+            "text": "10"
+          },
+          {
+            "id": "",
+            "text": "0.625"
+          },
+          {
+            "id": "",
+            "text": "0.636"
+          },
+          {
+            "id": "",
+            "text": "0.017"
+          },
+          {
+            "id": "",
+            "text": "0.0528"
+          },
+          {
+            "id": "",
+            "text": "As_tetra1"
+          },
+          {
+            "id": "",
+            "text": "F: TTGACGGAGAGCTTGGTTCC"
+          },
+          {
+            "id": "",
+            "text": "R: AAAACCCAATTCGCCACGTG"
+          },
+          {
+            "id": "",
+            "text": "(TGCT) 6"
+          },
+          {
+            "id": "",
+            "text": "257–273"
+          },
+          {
+            "id": "",
+            "text": "241"
+          },
+          {
+            "id": "",
+            "text": "5"
+          },
+          {
+            "id": "",
+            "text": "0.341"
+          },
+          {
+            "id": "",
+            "text": "0.337"
+          },
+          {
+            "id": "",
+            "text": "−0.012"
+          },
+          {
+            "id": "",
+            "text": "0.4674"
+          },
+          {
+            "id": "",
+            "text": "+ Mean"
+          },
+          {
+            "id": "",
+            "text": "6"
+          },
+          {
+            "id": "",
+            "text": "0.424"
+          },
+          {
+            "id": "",
+            "text": "0.543"
+          },
+          {
+            "id": "",
+            "text": "0.222"
+          },
+          {
+            "id": "",
+            "text": "Mean"
+          },
+          {
+            "id": "",
+            "text": "4"
+          },
+          {
+            "id": "",
+            "text": "0.308"
+          },
+          {
+            "id": "",
+            "text": "0.395"
+          },
+          {
+            "id": "",
+            "text": "0.222"
+          },
+          {
+            "id": "",
+            "text": "N a number of alleles per locus, H o observed heterozygosity, H e expected heterozygosity, F inbreeding coefficient"
+          },
+          {
+            "id": "",
+            "text": "* Significantly different from Hardy–Weinberg proportions (α = 0.05) after Bonferroni corrections"
+          },
+          {
+            "id": "",
+            "text": "** Significantly different from Hardy–Weinberg proportions (α = 0.01) after Bonferroni corrections m : these markers amplified monomorphic loci and were not tested on the whole population. **: expected fragment size based on EST contigs. Actual fragments were longer as tailed primers were used for amplification. + Mean variation was calculated for polymorphic markers only to allow for comparisons with other related studies on sugar maple [ 4 ]"
+          },
+          {
+            "id": "",
+            "text": "a Markers As_di34 and As_di9 did not amplify in nearly half of the samples and should not be used for population level analyses"
+          },
+          {
+            "id": "Par15",
+            "text": "A total of 16 markers were tested for transferability in three DNA samples from each of the four Acer species which represent three taxonomic sections: A. saccharinum (section Rubra ), A. rubrum (section Rubra ), A. platanoides (section Platanoidea ) and A. ginnala (section Ginnala ) using the same PCR protocol as described above. The results showed that most primers amplified a multi-banding pattern across species. However, 15 markers amplified single loci in the expected size range in at least one other Acer species (Table 2 ). Ten markers were monomorphic in some or all species (Table 2 ). Two markers, As_tetra1 and As_di41, were polymorphic in more than one species. Table 2 Transferability of Acer saccharum microsatellite loci to other Acer species A. saccharum A. rubrum A. saccharinum A. platanoides A. ginnala As_di1 – – As_di1 As_di1* As_di7 As_di7 As_di7* – – As_di9 – – As_di9 As_di9* As_di12 – As_di12 – – As_di15 – – As_di15 As_di15* As_di16 – – – As_di16 As_di21 – As_di21* As_di21 – As_di35 As_di35 As_di35* As_di35* – As_di36 – – As_di36* – As_di37 – As_di37* As_di37* – As_di38 – As_di38 – – As_di41 As_di41 As_di41 As_di41 As_di41 As_di48 As_di48 As_di48* As_di48* As_di48* As_di49 – – As_di49 As_di49* As_tetra1 – – As_tetra1 As_tetra1 All of these markers amplified single polymorphic loci in A. saccharum * Monomorphic in species as indicated by column. Only markers that are transferable to at least one of the four maple species are shown – No amplification"
+          },
+          {
+            "id": "",
+            "text": "Transferability of Acer saccharum microsatellite loci to other Acer species"
+          },
+          {
+            "id": "",
+            "text": "A. saccharum"
+          },
+          {
+            "id": "",
+            "text": "A. rubrum"
+          },
+          {
+            "id": "",
+            "text": "A. saccharinum"
+          },
+          {
+            "id": "",
+            "text": "A. platanoides"
+          },
+          {
+            "id": "",
+            "text": "A. ginnala"
+          },
+          {
+            "id": "",
+            "text": "As_di1"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "As_di1"
+          },
+          {
+            "id": "",
+            "text": "As_di1*"
+          },
+          {
+            "id": "",
+            "text": "As_di7"
+          },
+          {
+            "id": "",
+            "text": "As_di7"
+          },
+          {
+            "id": "",
+            "text": "As_di7*"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "As_di9"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "As_di9"
+          },
+          {
+            "id": "",
+            "text": "As_di9*"
+          },
+          {
+            "id": "",
+            "text": "As_di12"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "As_di12"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "As_di15"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "As_di15"
+          },
+          {
+            "id": "",
+            "text": "As_di15*"
+          },
+          {
+            "id": "",
+            "text": "As_di16"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "As_di16"
+          },
+          {
+            "id": "",
+            "text": "As_di21"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "As_di21*"
+          },
+          {
+            "id": "",
+            "text": "As_di21"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "As_di35"
+          },
+          {
+            "id": "",
+            "text": "As_di35"
+          },
+          {
+            "id": "",
+            "text": "As_di35*"
+          },
+          {
+            "id": "",
+            "text": "As_di35*"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "As_di36"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "As_di36*"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "As_di37"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "As_di37*"
+          },
+          {
+            "id": "",
+            "text": "As_di37*"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "As_di38"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "As_di38"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "As_di41"
+          },
+          {
+            "id": "",
+            "text": "As_di41"
+          },
+          {
+            "id": "",
+            "text": "As_di41"
+          },
+          {
+            "id": "",
+            "text": "As_di41"
+          },
+          {
+            "id": "",
+            "text": "As_di41"
+          },
+          {
+            "id": "",
+            "text": "As_di48"
+          },
+          {
+            "id": "",
+            "text": "As_di48"
+          },
+          {
+            "id": "",
+            "text": "As_di48*"
+          },
+          {
+            "id": "",
+            "text": "As_di48*"
+          },
+          {
+            "id": "",
+            "text": "As_di48*"
+          },
+          {
+            "id": "",
+            "text": "As_di49"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "As_di49"
+          },
+          {
+            "id": "",
+            "text": "As_di49*"
+          },
+          {
+            "id": "",
+            "text": "As_tetra1"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "–"
+          },
+          {
+            "id": "",
+            "text": "As_tetra1"
+          },
+          {
+            "id": "",
+            "text": "As_tetra1"
+          },
+          {
+            "id": "",
+            "text": "All of these markers amplified single polymorphic loci in A. saccharum"
+          },
+          {
+            "id": "",
+            "text": "* Monomorphic in species as indicated by column. Only markers that are transferable to at least one of the four maple species are shown"
+          },
+          {
+            "id": "",
+            "text": "– No amplification"
+          },
+          {
+            "id": "Par16",
+            "text": "The level of genetic variation for individual polymorphic markers varied considerably. Mean variation at polymorphic markers was much lower for genic (H o :0.424; H e :0.543) than for non-genic markers in the same samples (H o :0.708; H e :0.822 [ 4 ]). Similarly, lower genetic variation was observed at genic EST-SSRs than at genomic SSRs in several Quercus rubra L. and Quercus ellipsoidalis E.J. Hill populations [ 29 ]. The generally lower genetic variation at genic EST-SSRs suggests that these markers are not selectively neutral, but subject to selection [ 6 ]. Genetic variation observed at genic EST-SSRs in sugar maple was lower than estimates obtained in other wind-pollinated tree species such as North American oak species Q. rubra and Q. ellipsoidalis from the same geographic region (H e = 0.700, range 0.690–0.740, [ 29 ]). As for non-genic markers which were characterized in the same population [ 4 ] most F values are not significantly different from zero. High F values at individual markers could be due to the presence of null alleles. Markers As_di34 and As_di9 with high F values and significant deviation from Hardy–Weinberg proportions (p < 0.001) showed no amplification in nearly half of the samples suggesting high null allele frequencies. All other markers amplified in most samples making them applicable for population genetic analyses. Only two out of the 47 samples showed variable amplification success potentially as result of low DNA quality. The other marker, As_di48, with a very high F value showed high amplification success comparable to the other markers. Overall high variation was observed in F values ranging from −0.081 for As_di7 to 0.705 for As_di48."
+          },
+          {
+            "id": "Par17",
+            "text": "The overall high level of genetic variation, the absence of linkage disequilibrium and low to moderate deviations from HWE for most markers suggest the suitability of these markers for population genetic studies in sugar maple. In addition, markers showed high transferability to other Acer species providing at least two new polymorphic markers for the four other Acer species, and even six new polymorphic markers for one of the species, A. platanoides. High transferability of markers across Acer sections suggests their potential usefulness for population genetic analyses in other maple species. In contrast, only two out of 13 genomic SSRs amplified polymorphic loci in one other species, Acer ginnala [ 4 ]. This high transferability is typical of EST-SSRs and has been shown repeatedly in crop plants and is more prevalent than in non-EST-SSR markers [ 6 ]. Genetic variation at SSR markers was only assessed in a single natural population in Michigan. Allelic diversity will certainly vary among populations within the large distribution range of the species. However, in outcrossing, wind-pollinated tree species with wide and continuous distribution ranges such as sugar maple most of the genetic variation (i.e. H e ) is generally distributed within populations [ 30 ] and similar levels of within population variation are expected within the main distribution range of the species."
+          }
+        ]
+      },
+      {
+        "id": "Sec11",
+        "title": "Conclusions",
+        "paragraphs": [
+          {
+            "id": "Par18",
+            "text": "Especially in the trailing (southern) edges of the species’ distribution range lower genetic variation is expected as result of differential mortality due to increased abiotic and biotic stressors. With the availability of both neutral genomic SSRs and genic SSRs with potential role in adaptation, patterns of genetic variation and their relation to environmental and climatic variables can be studied. For example, the presented marker and transcriptome resources can be used to identify genes involved in the adaptation to these stressful conditions, for example by analyzing associations of alleles with environmental gradients [ 31 ]."
+          }
+        ]
+      }
+    ],
+    "full_text": "Background Sugar maple ( Acer saccharum Marsh.) is a hardwood species native to the Northeastern United States and Southern Canada. It is valued for its wood and syrup/sugar, supports a large industry [ 1 ] and is an important ecosystem component [ 2 ]. While microsatellite markers have many applications in population genetic analyses, few resources for sugar maple have been developed to date [ 3 , 4 ]. Microsatellite markers are short sequence repeats (SSRs) which are often highly variable and prone to mutations [ 5 ]. Genic microsatellite markers can be derived from EST-libraries and can be located in the coding regions or in the 5′- and 3′ untranslated regions of mRNAs [ 6 ]. Due to their location in expressed genes, they often show a lower genetic variation than genomic (non-genic) microsatellites and a higher transferability between related species [ 6 ]. Especially, stress-responsive genes might be under selection and show clinal variation along environmental gradients. Heat and drought stress and population fragmentation are especially expected at the southern distribution edge of the species [ 7 ], as the result of a warming climate. The new genic microsatellites will be useful to analyze patterns of genetic variation and provide the basis for the management and conservation of the species’ genetic resources in a changing climate. Methods Plant materials for SSR analysis Leaf samples were collected from 47 georeferenced adult trees of one natural population close to Houghton, MI (47°07′07.46″N, 88°35′16.41″W) in a region which is dominated by sugar maple forests [ 4 ]. Total genomic DNA was isolated for the 47 samples of Acer saccharum and for three samples of each Acer rubrum L. (section Rubra ), Acer saccharinum L. (section Rubra ), Acer platanoides L. (section Platanoidea ) and Acer ginnala Maxim. (section Ginnala ) from ~1 cm 2 of silica gel dried leaf samples using the DNeasy Plant Mini Kit (Qiagen, Hilden, Germany). Library preparation, transcriptome sequencing and assembly A total of 51 transcriptome libraries were derived from tissues (leaves, petioles, roots) of ozone, cold, heat, drought, wound stressed and unstressed half-sib seedlings. Tissue types and treatments are described in Additional file 1 . Details on ozone and wound stress treatments are given in [ 8 ]. Tissues were flash frozen and stored at −80 °C until RNA was extracted. Approximately 1 g of frozen tissue was used for isolation of total RNA with a modified CTAB method that uses lithium chloride precipitation [ 9 ]. After RNA quality assessment with an Agilent Bioanalyzer (Agilent Technologies), RNA was subjected to TruSeq Stranded mRNA library preparation (San Diego, CA), following the manufacturer’s protocol. All libraries were labeled with dual barcodes. Paired-end sequencing of 46 sugar maple libraries was performed on an Illumina HiSeq 2500 instrument (San Diego, CA) at a read length of 101 bp. A further set of 5 libraries were sequenced on an Illumina MiSeq (San Diego, CA) (Additional file 1 ). Raw reads can be found in the NCBI Short Read Archive (SRA) with the bioproject accession PRJNA273272. Read statistics for each library are provided in Additional file 1 . Trimmomatic version 0.35 was used to trim raw sequencing reads of adapter sequences and low quality bases [ 10 ]. Kmer-based error correction of RNASeq reads was performed in Rcorrector (kmer length of 31) [ 11 ]. Trimmed and corrected reads were assembled with the Trinity pipeline version r20131110 [ 12 ]. Isoforms from the Trinity pipeline were collapsed and further assembled with cd-hit version 4.6.1 [ 13 ]. Open reading frame (ORF) prediction was executed with TransDecoder version 2.0.1 [ 14 ]. TransDecoder predictions were further improved by performing searches using BLAST version 2.2.29 versus the Uniprot SwissProt protein databases (cut-off of e-value <1e−4) and by HMMER version 3.1b2 against the pfam database [ 15 , 16 , 17 – 18 ]. Two methods were employed to determine assembly completeness of the sugar maple transcriptome. First, transcripts were assessed by BUSCO (Benchmarking Universal Single-Copy Orthologs) version 1.1b1 to determine the presence of universal single-copy orthologs using the early release plant database [ 19 ]. Second, TransRate v1.0.3 was used to calculate quality scores for contigs based on the read alignment evidence [ 20 ]. Functional annotation and SSR discovery BLAST version 2.2.29 queries were performed against the plant taxonomic division of the TrEMBL protein database and Swiss-Prot protein database [ 15 , 16 ]. Simple sequence repeats (SSRs) were found by searching putative unique transcripts (PUTs) using a perl script ( https://github.com/mestato/lab_code/tree/master/hwg_gssr_scripts ). SSRs needed to meet specific requirements for inclusion in the final output, requiring: 2 bp repeats to have 8–200 copies, 3 bp repeats to have 7–133 copies, and 4 bp repeats to have 6–100 copies. Compound SSRs, defined as SSRs occurring with less than 15 bases of separation, were removed. Dustmasker was used to mask low complexity regions to aid primer design in Primer3 v2.3.6 [ 15 , 21 ]. The following Primer3 parameters were used: primer_product_size_range  =  100–450, primer_min_tm  =  55.0, primer_max_tm  =  65.0, primer_min_gc  =  40, primer_max_gc  =  60, primer_max_poly_x  =  3, primer_gc_clamp  =  2. Marker analyses The DNA was diluted to ~1 ng/µl with double deionized water (Ultra Pure Water, Molecular Grade, Phenix Research Products). A 15 µl PCR reaction was prepared consisting of 6 µl double deionized water (Ultra Pure Water, Molecular Grade from Phenix Research Products), 5 µl HotFIREPol (Solis Biodyne, containing 2 mM dNTPs, 1U Taq polymerase, 10 mM MgCl 2 ), 0.2 µl of 5 µM forward primer with the M13 tail (5′-CACGACGTTGTAAACGAC-3′), 1.5 µl of 5 µM 5′ dye labelled (6-FAM) M13 primer, 0.5 µl of 5 µM pig-tailed (5′-GTTTCTT-3′) reverse primer [ 22 , 23 ] (Sigma Aldrich Inc., St. Louis, MO) and 2 µl DNA (~2 ng). The PCR touchdown reaction was performed in an Applied Biosystems 2720 Thermal Cycler (Foster City, CA) consisting of an initial denaturation at 95 °C for 15 min, 10 touch-down cycles of 1 min at 94 °C, 1 min at 60 °C (decreasing 1 °C each cycle), and 1 min at 72 °C, followed by 25 cycles of 94 °C for 1 min, 50 °C for 1 min and 72 °C for 1 min. The final extension was at 72 °C for 20 min. PCR products were checked on 1.5% agarose gels and stained with 2 µl GelRed (10,000X in water; Biotium, Hayward, CA) and exact fragment sizes were determined after electrophoretic separation on an ABI Prism ® Genetic Analyzer 3730 with Gene-ScanTM LIZ-500 as internal size standard. Alleles were assigned to bins after careful visual inspection using GeneMarker ® V2.6.7 (SoftGenetics). Primer pairs (Sigma Aldrich Inc., St. Louis, MO) were tested for amplification initially in four randomly selected samples. Markers that amplified polymorphic products in the expected size range in these four samples were amplified in all 47 samples. Genetic variation assessment was conducted using GenAlEx 6.502 [ 24 ]. Specifically, observed and expected heterozygosity (H o , H e , respectively) [ 25 ] and number of alleles (N a ) were calculated. Further, the inbreeding coefficient ( F ) was estimated for each locus in the population using GENEPOP version 4.2 [ 26 , 27 ]. Significant deviations from Hardy–Weinberg proportions were tested using Fischer’s exact test in GENEPOP. Additionally pairwise linkage disequilibrium was tested for all marker pairs in GENEPOP. Bonferroni corrections were applied to adjust for multiple testing [ 28 ]. Results and discussion Transcriptome assembly and validation Illumina sequencing of 51 transcriptome sugar maple libraries of varying tissue types and treatments produced 282 million reads (29.9 Gb), available at NCBI SRA bioproject accession PRJNA273272 (Additional file 1 ). De novo assembly of reads yielded 117,861 putative unique transcripts (PUTs) with an average length of 945 bases and an N50 length of 1667 bases. TransDecoder version 2.0.1 was used to identify 67,537 possible open read frames (ORFs) derived from 51,390 PUTs (43.6%). Multiple ORFs per PUT can occur for example due to chimeras in the assembly or sequencing errors (insertions/deletions) that shift the reading frame incorrectly. The peptide sequences calculated from the ORFs average 284 amino acids in length. Assembly accuracy was assessed as quality metrics based on examination of read mapping using Transrate [ 20 ] and identified an overall mapping rate of 72.8%, and over 85% of those mapped reads supported the assembly (i.e. both pairs aligned to the same transcript in the correct orientation without overlapping either transcript end). Out of a total of 956 BUSCO ortho-groups searched, 914 were found in the BUSCO database. These were further classified as 434 complete single-copy genes, 446 complete but duplicated genes, and 34 fragmented copies of genes. This represents the first transcriptome reference for sugar maple and will be a valuable genomic resource for future studies, for example, to generate markers, to use as a reference for gene expression sequencing or to identify candidate stress-response genes. Raw reads are stored at NCBI Short Read Archive (SRA) with the bioproject accession PRJNA273272. Functional annotation and SSR discovery Sugar maple PUTs were used as queries for BLAST searches against the proteins in the Swiss-Prot and plant TrEMBL [ 16 ] databases yielding 64,458 (54.7%) PUTs with matches to TrEMBL plant proteins and 49,760 (42.2%) PUTs with matches to Swiss-Prot. Simple Sequence Repeat (SSR) extraction found 6279 SSRs in 5965 PUTs (5.1%). SSRs were identified for 2, 3, and 4 bp motifs. The 4 bp motifs were the rarest, making up 0.97% of total SSRs found. The shorter 2 bp and 3 bp motifs were much more common, making up 78.7 and 20.4% of total SSRs found, respectively. Primers were designed for 1068 SSRs using the flanking regions of the repeats (Additional file 2 ). Of these 812 were 2 bp repeats ranging from 8 to 15 repeats, 234 were 3 bp repeats ranging from 7 to 14 repeats, and 22 were 4 bp repeats with 6 repeats. Additional file 2 contains a report of the SSR analysis along with primers designed for SSRs meeting the appropriate requirements and functional annotations for SSR markers. Microsatellite marker characterization We selected 58 SSRs with a wide range of expected amplicon sizes (100–487 bp) to develop sets of markers with non-overlapping size ranges that could be used for multiplex PCRs in subsequent studies. Out of the 58 primers tested, 16 amplified polymorphic loci and 6 amplified monomorphic loci (Table 1 ; Additional file 2 ). The expected size for the polymorphic markers varied from 113 and 425 bp. For polymorphic loci H e ranged from 0.224 to 0.726, H o from 0.143 to 0.722 and N a from 2 to 12. A total of 11 out of the 16 markers showed no significant deviation from Hardy–Weinberg proportions after Bonferroni correction, while markers As_di12 and As_di38 (p < 0.05) and markers As_di34, As_di48 and As_di9 (p < 0.01) showed significant and positive F values. No significant linkage disequilibrium was found between marker pairs after Bonferroni correction (p < 0.05). Table 1 Primer sequences and descriptions of 22 microsatellite markers developed in Acer saccharum Locus Primer sequences (5′–3′) Repeat EdEdmotif Size range (bp) **Expected fragment size N a H o H e F p As_di1 F: TCCCAGGCATGAACAAGGTT R: TGCAGTAAGTTGACAGCTCT (AC) 9 251–273 230 9 0.581 0.658 0.117 0.0034 As_di7 F: GGGTCTGTCTCTGTTTCTGCA R: ACAGGGTTCACTGAGCTGTG (AC) 9 151–161 134 6 0.651 0.602 0.081 0.2578 As_di9 a F: TGCTGGAAAGTGGAACCTGT R: AGTCTGATCTGTCATGGGCTC (TA) 8 121–147 100 12 0.375 0.835 0.551 <0.0001** m As_di11 F: AGAGAACCACCAAGGATGCA R: CAGGGAGCCATTTCACTCTGA (GA) 8 187 167 1 0 0 – – As_di12 F: AAGACATCTTGAGGGCGGTG R: TGTAACTGCATAACGGGCCA (TC) 9 447–458 425 4 0.194 0.271 0.283 0.0014* m As_di13 F: TCAAGAAATACTGGCTCAGGTCA R: ACATGCATGTTGAGCGATTGT (TC) 8 264 238 1 0 0 – – As_di15 F: GGGCAGAGAGGGAATTCGAG R: TGGGGAGACAGAACTTGTGC (TC) 8 259–265 235 4 0.375 0.429 0.126 0.0236 As_di16 F: AATTGCCTGTGGTGGGAACT R: ACTCCACTCTCTTTCTTGCTCA (GT) 8 211–218 190 4 0.675 0.680 0.007 0.8696 m As_di19 F: GACCTGACCACCTCCTCCTA R: AGGGCAACATACACGGATCG (CT) 9 228 205 1 0 0 – – As_di21 F: TGTCAGCAGCCCTACAGTTG R: ACAGGTCACGATCTCTCCCT (GT) 8 135–142 113 4 0.450 0.609 0.261 0.0455 m As_di27 F: TCATGACCATGACCCAACACT R: TCCTGTGGATTCTTTTGTATCTGGT (TC) 8 386 363 1 0 0 – – m As_di30 F: GATCCCCTTCGTTGCTGACA R: GGACTGCCCGATTGATACTCA (TG) 9 457 432 1 0 0 – – m As_di31 F: CTCCACCACCATCCAACCAA R: TCCTCAGCTTCTTGGGCTTG (AC) 8 187–189 167 1 0 0 – – As_di34 a F: AACGGATGGCAAGCTAGCTT R: CAGGCCTGCCCAGAAACTAA (AC) 8 225–240 218 4 0.217 0.726 0.701 <0.0001** As_di35 F: TGTTAGTCTCCTCCACACGT R: CAGCAGCAGCAGCAAAACT (TC) 8 151–153 129 2 0.143 0.224 0.362 0.0751 As_di36 F: ATGTGAGTCCGTGAGTCCGT R: ATAAGCAGCAGCAGCAGACA (TG) 8 237–245 212 5 0.475 0.606 0.216 0.0322 As_di37 F: TGGTGGGTAGCAGCAAAAGA R:TGCACATGGGATGATGATCAGT (TG) 11 167–184 151 8 0.722 0.704 −0.025 0.9324 As_di38 F: ACAGAGAGAGAGAGAGCTTGT R: TACCGTCATGGCCGATGATG (AC) 8 175–179 154 3 0.184 0.362 0.491 0.0012* As_di41 F: AAGCTGAGAAACCCAAAGCA R: CACCACCCAACCCTTTTCCT (TA) 8 259–271 236 6 0.526 0.625 0.157 0.2675 As_di48 F: AGGTTCGGGTTTTGAATCTTCA R: CAAGGACTTTGGCTCTGCTG (TA) 8 173–179 155 4 0.200 0.678 0.705 <0.0001** As_di49 F: TGCAACTGTTGAGTGGTGGA R: ACAAGTCGAACAACCCGTTG (TG) 10 159–183 133 10 0.625 0.636 0.017 0.0528 As_tetra1 F: TTGACGGAGAGCTTGGTTCC R: AAAACCCAATTCGCCACGTG (TGCT) 6 257–273 241 5 0.341 0.337 −0.012 0.4674 + Mean 6 0.424 0.543 0.222 Mean 4 0.308 0.395 0.222 N a number of alleles per locus, H o observed heterozygosity, H e expected heterozygosity, F inbreeding coefficient * Significantly different from Hardy–Weinberg proportions (α = 0.05) after Bonferroni corrections ** Significantly different from Hardy–Weinberg proportions (α = 0.01) after Bonferroni corrections m : these markers amplified monomorphic loci and were not tested on the whole population. **: expected fragment size based on EST contigs. Actual fragments were longer as tailed primers were used for amplification. + Mean variation was calculated for polymorphic markers only to allow for comparisons with other related studies on sugar maple [ 4 ] a Markers As_di34 and As_di9 did not amplify in nearly half of the samples and should not be used for population level analyses A total of 16 markers were tested for transferability in three DNA samples from each of the four Acer species which represent three taxonomic sections: A. saccharinum (section Rubra ), A. rubrum (section Rubra ), A. platanoides (section Platanoidea ) and A. ginnala (section Ginnala ) using the same PCR protocol as described above. The results showed that most primers amplified a multi-banding pattern across species. However, 15 markers amplified single loci in the expected size range in at least one other Acer species (Table 2 ). Ten markers were monomorphic in some or all species (Table 2 ). Two markers, As_tetra1 and As_di41, were polymorphic in more than one species. Table 2 Transferability of Acer saccharum microsatellite loci to other Acer species A. saccharum A. rubrum A. saccharinum A. platanoides A. ginnala As_di1 – – As_di1 As_di1* As_di7 As_di7 As_di7* – – As_di9 – – As_di9 As_di9* As_di12 – As_di12 – – As_di15 – – As_di15 As_di15* As_di16 – – – As_di16 As_di21 – As_di21* As_di21 – As_di35 As_di35 As_di35* As_di35* – As_di36 – – As_di36* – As_di37 – As_di37* As_di37* – As_di38 – As_di38 – – As_di41 As_di41 As_di41 As_di41 As_di41 As_di48 As_di48 As_di48* As_di48* As_di48* As_di49 – – As_di49 As_di49* As_tetra1 – – As_tetra1 As_tetra1 All of these markers amplified single polymorphic loci in A. saccharum * Monomorphic in species as indicated by column. Only markers that are transferable to at least one of the four maple species are shown – No amplification The level of genetic variation for individual polymorphic markers varied considerably. Mean variation at polymorphic markers was much lower for genic (H o :0.424; H e :0.543) than for non-genic markers in the same samples (H o :0.708; H e :0.822 [ 4 ]). Similarly, lower genetic variation was observed at genic EST-SSRs than at genomic SSRs in several Quercus rubra L. and Quercus ellipsoidalis E.J. Hill populations [ 29 ]. The generally lower genetic variation at genic EST-SSRs suggests that these markers are not selectively neutral, but subject to selection [ 6 ]. Genetic variation observed at genic EST-SSRs in sugar maple was lower than estimates obtained in other wind-pollinated tree species such as North American oak species Q. rubra and Q. ellipsoidalis from the same geographic region (H e = 0.700, range 0.690–0.740, [ 29 ]). As for non-genic markers which were characterized in the same population [ 4 ] most F values are not significantly different from zero. High F values at individual markers could be due to the presence of null alleles. Markers As_di34 and As_di9 with high F values and significant deviation from Hardy–Weinberg proportions (p < 0.001) showed no amplification in nearly half of the samples suggesting high null allele frequencies. All other markers amplified in most samples making them applicable for population genetic analyses. Only two out of the 47 samples showed variable amplification success potentially as result of low DNA quality. The other marker, As_di48, with a very high F value showed high amplification success comparable to the other markers. Overall high variation was observed in F values ranging from −0.081 for As_di7 to 0.705 for As_di48. The overall high level of genetic variation, the absence of linkage disequilibrium and low to moderate deviations from HWE for most markers suggest the suitability of these markers for population genetic studies in sugar maple. In addition, markers showed high transferability to other Acer species providing at least two new polymorphic markers for the four other Acer species, and even six new polymorphic markers for one of the species, A. platanoides. High transferability of markers across Acer sections suggests their potential usefulness for population genetic analyses in other maple species. In contrast, only two out of 13 genomic SSRs amplified polymorphic loci in one other species, Acer ginnala [ 4 ]. This high transferability is typical of EST-SSRs and has been shown repeatedly in crop plants and is more prevalent than in non-EST-SSR markers [ 6 ]. Genetic variation at SSR markers was only assessed in a single natural population in Michigan. Allelic diversity will certainly vary among populations within the large distribution range of the species. However, in outcrossing, wind-pollinated tree species with wide and continuous distribution ranges such as sugar maple most of the genetic variation (i.e. H e ) is generally distributed within populations [ 30 ] and similar levels of within population variation are expected within the main distribution range of the species. Conclusions Especially in the trailing (southern) edges of the species’ distribution range lower genetic variation is expected as result of differential mortality due to increased abiotic and biotic stressors. With the availability of both neutral genomic SSRs and genic SSRs with potential role in adaptation, patterns of genetic variation and their relation to environmental and climatic variables can be studied. For example, the presented marker and transcriptome resources can be used to identify genes involved in the adaptation to these stressful conditions, for example by analyzing associations of alleles with environmental gradients [ 31 ]."
+  },
+  "references_count": 31
+}

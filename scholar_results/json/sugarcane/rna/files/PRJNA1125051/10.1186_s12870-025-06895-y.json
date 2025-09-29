@@ -1,0 +1,1424 @@
+{
+  "metadata": {
+    "extraction_timestamp": "2025-09-28T13:20:13.731700",
+    "article_type": "research-article",
+    "language": "en"
+  },
+  "publication_info": {
+    "journal": "BMC Plant Biology",
+    "issn": "1471-2229",
+    "publisher": "BioMed Central",
+    "doi": "10.1186/s12870-025-06895-y",
+    "volume": "25",
+    "issue": "1",
+    "publication_dates": {
+      "pub": "2025-07-23",
+      "collection": "2025-12"
+    }
+  },
+  "title": "Sugarcane yellow leaf virus impairs the transcriptomic defense response of sugarcane to its new aphid vector Melanaphis sorghi",
+  "authors": [
+    {
+      "surname": "Pimenta",
+      "given_names": "Ricardo José Gonzaga",
+      "full_name": "Ricardo José Gonzaga Pimenta",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff1"
+      ]
+    },
+    {
+      "surname": "Aono",
+      "given_names": "Alexandre Hild",
+      "full_name": "Alexandre Hild Aono",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff1"
+      ]
+    },
+    {
+      "surname": "Sforça",
+      "given_names": "Danilo Augusto",
+      "full_name": "Danilo Augusto Sforça",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff2"
+      ]
+    },
+    {
+      "surname": "Melloni",
+      "given_names": "Maria Natália Guindalini",
+      "full_name": "Maria Natália Guindalini Melloni",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff3"
+      ]
+    },
+    {
+      "surname": "Gonçalves",
+      "given_names": "Marcos Cesar",
+      "full_name": "Marcos Cesar Gonçalves",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff4"
+      ]
+    },
+    {
+      "surname": "Pinto",
+      "given_names": "Luciana Rossini",
+      "full_name": "Luciana Rossini Pinto",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff3"
+      ]
+    },
+    {
+      "surname": "de Souza",
+      "given_names": "Anete Pereira",
+      "full_name": "Anete Pereira de Souza",
+      "email": "anete@unicamp.br",
+      "is_corresponding": true,
+      "affiliation_refs": [
+        "Aff1",
+        "Aff2"
+      ]
+    }
+  ],
+  "affiliations": {
+    "Aff1": {
+      "institution": "Universidade Estadual de Campinas (UNICAMP)",
+      "department": "Institute of Biology",
+      "address": {
+        "city": "Campinas",
+        "country": "Brazil"
+      }
+    },
+    "Aff2": {
+      "institution": "Universidade Estadual de Campinas (UNICAMP)",
+      "department": "Centre for Molecular Biology and Genetic Engineering (CBMEG)",
+      "address": {
+        "city": "Campinas",
+        "country": "Brazil"
+      }
+    },
+    "Aff3": {
+      "institution": "Instituto Agronômico de Campinas (IAC/APTA)",
+      "department": "Advanced Centre for Sugarcane Research and Development",
+      "address": {
+        "city": "Ribeirão Preto",
+        "country": "Brazil"
+      }
+    },
+    "Aff4": {
+      "institution": "Instituto Biológico (IB/APTA)",
+      "department": "Plant Protection Research Centre",
+      "address": {
+        "city": "São Paulo",
+        "country": "Brazil"
+      }
+    }
+  },
+  "abstract": {
+    "sections": {
+      "background": "Sugarcane ( Saccharum spp.) is a preeminent sugar and bioenergy crop and has great economic importance in tropical countries. A major disease affecting this crop is yellow leaf disease, caused by sugarcane yellow leaf virus (SCYLV, Polerovirus SCYLV , Solemoviridae ). The sugarcane aphid Melanaphis sacchari is considered the main vector of SCYLV, and the closely related sorghum aphid Melanaphis sorghi , which has recently emerged as a pest of great relevance in sorghum, has also been suspected to be a vector. Genetic resistance is an important resource for preventing yield losses caused by SCYLV and its vectors, but knowledge on the underlying molecular mechanisms is lacking. Therefore, the present work aimed to investigate the transcriptomic responses of sugarcane to SCYLV and M. sorghi , which was reported to transmit this virus for the first time herein.",
+      "results": "Two sugarcane cultivars, one susceptible and one tolerant to SCYLV, were fed upon by aviruliferous and viruliferous aphids. The transcriptome of the plants was assessed via RNA-Seq via differential gene expression analyses and a gene coexpression network. The susceptible cultivar showed an incipient reaction to both M. sorghi and SCYLV, with very few differentially expressed genes (DEGs) identified in comparison with aphid-free plants. The response of the tolerant cultivar to aviruliferous M. sorghi involved pathways typically associated with defense against herbivory, which were also enriched in coexpression network modules in which DEGs were overrepresented. Some of these genes were hubs in their respective modules, indicating that they are potential key regulators of defense responses. However, these responses were diminished when viruliferous aphids were used, and other processes linked to infection with SCYLV were altered.",
+      "conclusions": "These results indicated that SCYLV could affect sugarcane defense responses to its vector, similar to other viruses of the same genus. Possible implications for the epidemiology and impact of SCYLV and M. sorghi are discussed."
+    },
+    "full_text": "Abstract Background Sugarcane ( Saccharum spp.) is a preeminent sugar and bioenergy crop and has great economic importance in tropical countries. A major disease affecting this crop is yellow leaf disease, caused by sugarcane yellow leaf virus (SCYLV, Polerovirus SCYLV , Solemoviridae ). The sugarcane aphid Melanaphis sacchari is considered the main vector of SCYLV, and the closely related sorghum aphid Melanaphis sorghi , which has recently emerged as a pest of great relevance in sorghum, has also been suspected to be a vector. Genetic resistance is an important resource for preventing yield losses caused by SCYLV and its vectors, but knowledge on the underlying molecular mechanisms is lacking. Therefore, the present work aimed to investigate the transcriptomic responses of sugarcane to SCYLV and M. sorghi , which was reported to transmit this virus for the first time herein. Results Two sugarcane cultivars, one susceptible and one tolerant to SCYLV, were fed upon by aviruliferous and viruliferous aphids. The transcriptome of the plants was assessed via RNA-Seq via differential gene expression analyses and a gene coexpression network. The susceptible cultivar showed an incipient reaction to both M. sorghi and SCYLV, with very few differentially expressed genes (DEGs) identified in comparison with aphid-free plants. The response of the tolerant cultivar to aviruliferous M. sorghi involved pathways typically associated with defense against herbivory, which were also enriched in coexpression network modules in which DEGs were overrepresented. Some of these genes were hubs in their respective modules, indicating that they are potential key regulators of defense responses. However, these responses were diminished when viruliferous aphids were used, and other processes linked to infection with SCYLV were altered. Conclusions These results indicated that SCYLV could affect sugarcane defense responses to its vector, similar to other viruses of the same genus. Possible implications for the epidemiology and impact of SCYLV and M. sorghi are discussed."
+  },
+  "keywords": [
+    {
+      "language": "en",
+      "keywords": [
+        "Saccharum",
+        "SCYLV",
+        "YLD",
+        "Sorghum aphid",
+        "RNA-Seq",
+        "Gene coexpression network"
+      ]
+    },
+    {
+      "language": "en",
+      "keywords": [
+        "Plant Immunity",
+        "Plant Biochemistry",
+        "Sugar Phosphate",
+        "Phytoplasma",
+        "Plant Light Response",
+        "Pattern Recognition Receptors in Plants"
+      ]
+    },
+    {
+      "language": "en",
+      "keywords": [
+        "Biological Sciences",
+        "Genetics",
+        "Plant Biology",
+        "Agricultural and Veterinary Sciences",
+        "Crop and Pasture Production"
+      ]
+    }
+  ],
+  "funding": [
+    {
+      "source": "Fundação de Amparo à Pesquisa do Estado de São Paulo",
+      "award_id": "2018/18588-8, 2019/21682-9, 2019/03232-6"
+    },
+    {
+      "source": "Conselho Nacional de Desenvolvimento Científico e Tecnológico",
+      "award_id": "424050/2016-1"
+    },
+    {
+      "source": "Coordenação de Aperfeiçoamento de Pessoal de Nível Superior"
+    }
+  ],
+  "content": {
+    "sections": [
+      {
+        "id": "Sec1",
+        "title": "Background",
+        "paragraphs": [
+          {
+            "id": "Par25",
+            "text": "Sugarcane ( Saccharum spp.) is a major sugar and energy crop in tropical regions of the world, accounting for nearly 80% of the global production of sugar [ 1 ]. The yield of this crop is affected by several diseases, including yellow leaf disease (YLD), which is recognized mainly by the yellowing of abaxial leaf midribs of mature plants [ 2 , 3 ]. This disease is caused by sugarcane yellow leaf virus (SCYLV), a positive-sense ssRNA virus belonging to the species Polerovirus SCYLV of the Solemoviridae family [ 4 ] present in all sugarcane-growing regions of the world [ 5 ]. This virus is known to affect photosynthesis efficiency as well as the metabolism and transport of carbohydrates [ 6 , 7 – 8 ]; this impairs growth and leads to substantial reductions in sugar productivity and tonnage, which reflect yield losses of up to 37% [ 8 , 9 – 10 ]."
+          },
+          {
+            "id": "Par26",
+            "text": "SCYLV is transmitted in a persistent, circulative and nonpropagative manner by several aphid species, among which the sugarcane aphid Melanaphis sacchari (Zehntner, 1897) is considered the most relevant [ 11 ]. M. sacchari is capable of reproducing via apomictic parthenogenesis and is widely distributed throughout the world [ 12 ]. In sugarcane, economic losses caused by M. sacchari are usually not concerning, and the species is mostly regarded as an important vector of viruses [ 13 , 14 ]. In the last decade, a ‘superclone’ of a closely related species, the sorghum aphid Melanaphis sorghi (Theobald, 1904), has emerged as a major pest of sorghum ( Sorghum bicolor ) in the Americas [ 15 , 16 ]. Although the transmission of SCYLV by M. sorghi has not been reported thus far, SCYLV has been detected in S. bicolor [ 17 , 18 ]."
+          },
+          {
+            "id": "Par27",
+            "text": "Knowledge of the molecular mechanisms that underlie the response of sugarcane to SCYLV is still lacking. Genetic mapping studies targeting SCYLV resistance have been performed but are limited by the highly complex sugarcane genome, phenotyping constraints, and the quantitative nature of this trait [ 19 , 20 ]. The ineffectiveness of the transmission of SCYLV by mechanical methods [ 11 ] has further restricted research on this virus, as it implies that data on resistance to SCYLV and its vectors are frequently intertwined. For example, a marker associated with resistance to SCLYV identified by association mapping was found to be linked to a lipoxygenase gene associated with aphid resistance [ 19 ]. Sugarcane resistance to aphids, which could help prevent infection by SCYLV, has been assessed at the phenotypic level (e.g [ 21 , 22 – 23 ]), but its genetic basis has not been investigated in this crop."
+          },
+          {
+            "id": "Par28",
+            "text": "RNA sequencing (RNA-Seq) has become a common method for investigating the mechanisms underlying biological phenomena. Research on sugarcane has contributed to the understanding of plant responses to pests and several pathogens, including viruses [ 24 , 25 ]. This type of analysis has not yet been undertaken for the feeding of sucking insects and has been performed for SCYLV infection only in a susceptible cultivar infested with aviruliferous and viruliferous M. sacchari [ 26 ]. Assessing the responses of genotypes with contrasting responses to SCYLV, as well as those of aphid-free plants, can help elucidate the molecular mechanisms underlying resistance to both aphids and viruses, as well as their interactions."
+          },
+          {
+            "id": "Par29",
+            "text": "In this study, the ability of M. sorghi to transmit SCYLV in sugarcane was demonstrated, with transmission rates reaching 100% after 48 hours of feeding. The transcriptomic responses of sugarcane to SCYLV and M. sorghi were subsequently investigated via RNA-Seq. Two sugarcane hybrid cultivars, one susceptible and one tolerant to SCYLV, were exposed to either aviruliferous or viruliferous aphids. Comparing the transcriptomes of these plants with those of aphid-free controls and building a weighted gene coexpression network provided insights into the early molecular responses of sugarcane to SCYLV and M. sorghi."
+          }
+        ]
+      },
+      {
+        "id": "Sec2",
+        "title": "Methods",
+        "paragraphs": [
+          {
+            "id": "Par30",
+            "text": "The study included utilized two Brazilian hybrid sugarcane cultivars, SP71-6163 and IACSP95-5000, identified and supplied by Dr. Silvana Creste from the Instituto Agronômico de Campinas’ Advanced Centre for Sugarcane Research and Development (IAC/ACSRD). Plant materials were maintained in vivo within the IAC/ACSRD germplasm bank. All field studies and the acquisition of plant material were conducted in accordance with local and national regulations, requiring no additional permissions or licenses. No voucher specimens were deposited."
+          },
+          {
+            "id": "Par31",
+            "text": "SP71-6163 is efficiently infected by SCYLV, develops severe symptoms of YLD and is strongly affected by the virus in terms of yield [ 2 , 27 ]; therefore, it was chosen as an SCYLV-susceptible genotype. Despite being a highly suitable host for M. sacchari and exhibiting SCYLV infection rates similar to those of SP71-6163 [ 23 , 27 ], IACSP95-5000 has not been reported to exhibit YLD symptoms or high yield losses (M.G.A. Landell, personal communication); for these reasons, this cultivar was selected as an SCYLV-tolerant genotype. Virus-free plants of the two cultivars were generated via meristem micropropagation at the IAC/ACSRD’s biofactory."
+          },
+          {
+            "id": "Par32",
+            "text": "Plants clonally propagated from an SCYLV-infected SP71-6163 plant in the IAC/ACSRD in Ribeirão Preto, Brazil [ 20 ], were used as a source of inoculum. Total RNA was extracted from the leaf of one plant following a protocol adapted from Kistner and Matamoros [ 28 ]. RNA was quantified on a NanoDrop 2000 spectrophotometer and subjected to electrophoresis on a 1% denaturing agarose gel stained with ethidium bromide for an integrity check. Reverse transcription (RT) was performed with the ImProm-II Reverse Transcription System Kit (Promega, Madison, USA). Phusion High-Fidelity PCR Master Mix (New England BioLabs, Ipswich, USA) was used to amplify overlapping fragments covering the complete SCYLV genome. The primers were designed via Primer3Plus v. 3.3.0 [ 29 ]; details are provided in Table S9. PCR products were sequenced on a 3500xL Genetic Analyzer (Applied Biosystems, Foster City, USA)."
+          },
+          {
+            "id": "Par33",
+            "text": "Geneious Prime v. 7.1.3 software [ 30 ] was used for Sanger sequencing data handling and producing a de novo assembly of a contiguous complete genomic sequence. The complete genomes of 101 SCYLV isolates from 17 different countries, as well as the Potato leafroll virus (PLRV) reference genome [ 31 , 32 , 33 , 34 , 35 , 36 , 37 , 38 , 39 , 40 , 41 – 42 ], were retrieved from GenBank, pairwise-aligned via ClustalW v. 2.1 [ 43 ] and trimmed to the length of the shortest sequences. Pairwise Hamming distances [ 44 ] were calculated via UGENE v. 48.1 [ 45 ]. The presence of recombinants was determined via the Recombination Detection Program v. 5.33 (RDP5) [ 46 ] with seven different methods with default parameters: RDP, GENECONV, BOOTSCAN, MAXCHI, CHIMAERA, SISCAN and 3SEQ. Only recombination events detected by at least five methods and showing significant support with a Bonferroni-corrected p value cutoff of 0.05 were considered valid [ 47 ]. Recombinant isolates were removed for subsequent analyses, and MEGA11 v. 11.0.11 [ 48 ] was used to find the best-fit DNA/protein model based on the Bayesian information criterion (BIC) score. The model with the lowest BIC score was used to construct a maximum likelihood tree rooted by the PLRV genome via the same software using bootstrap procedures with 1,000 replicates, and the resulting tree was visualized with FigTree v. 1.4.4 218 software [ 49 ]."
+          },
+          {
+            "id": "Par34",
+            "text": "Melanaphis sp. aphids were obtained from a sugarcane field in Ribeirão Preto, Brazil, and reared on detached sugarcane leaf fragments in test tubes with 1% agar in a plant growth chamber. A colony of aviruliferous aphids was obtained by transferring individual adult aphids onto virus-free sugarcane leaves and transferring newborn nymphs to separate virus-free leaves. Colonies obtained were tested for the presence of SCYLV via RT‒PCR. For this purpose, RNA was extracted from pools of five aphids via TRIzol (Invitrogen, Carlsbad, USA), quantified on a NanoDrop spectrophotometer and converted into cDNA via the ImProm-II Reverse Transcription System Kit. cDNA was used for PCR diagnosis as described by Gonçalves et al. [ 50 ]. Prior to the inoculation experiments, a viruliferous colony was obtained by transferring aphids to SCYLV-infected SP71-6163 plants kept in aphid-proof cages. Aphids were allowed an acquisition access period of at least 48 hours."
+          },
+          {
+            "id": "Par35",
+            "text": "While M. sacchari is the most common Melanaphis species that infests sugarcane, M. sorghi has been recently reported in Brazil [ 16 , 51 ]. Thus, a molecular diagnostic marker was used to determine the species of the established colony. DNA was extracted from a pool of five aphids via a protocol adapted from Sunnucks and Hales [ 52 ]. The primers MelF2 (GTGCTTATTGTCGCTGCTGG) and MelR2 (TTGTCTCCGGGAACAGCTTC) were designed to amplify a fragment of the elongation factor 1-alpha ( EF1-α ) gene harboring five polymorphic sites, one of which can distinguish M. sacchari and M. sorghi [ 16 ]. PCR was performed using Phusion High-Fidelity PCR Master Mix and an annealing temperature of 60 °C. The PCR products were sequenced on a 3500xL Genetic Analyzer. Geneious Prime was used to handle sequences and analyze the nucleotides present at the polymorphic sites."
+          },
+          {
+            "id": "Par36",
+            "text": "The inoculation experiment was performed in a plant growth chamber maintained at 30 °C under a 12-hour light/dark cycle; three biological replicates consisting of 11-month-old plants were used for each experimental condition. Clip cages were positioned on the median region of the top visible dewlap leaf of each plant, in which five viruliferous or aviruliferous adult aphids were placed; for aphid-free control plants, no aphids were used. After inoculation access periods (IAPs) of 4, 24–48 hours, aphids were removed, and whole leaves were collected and flash-frozen in liquid nitrogen."
+          },
+          {
+            "id": "Par37",
+            "text": "Total RNA was extracted from the ~ 10 cm leaf section around the clip cage placement site, quality was checked, and RT was performed as previously described. cDNA was used to confirm infection and estimate the SCYLV titer via a quantitative PCR (qPCR)-based relative quantification method detailed by Pimenta et al. [ 20 ]. The normality and variance of the viral quantification data were verified via Shapiro‒Wilk and F tests, respectively, and differences in quantification between genotypes were assessed via an unpaired t test in R software [ 53 ]."
+          },
+          {
+            "id": "Par38",
+            "text": "RNA from selected samples was used to prepare RNA-Seq libraries via the TruSeq Stranded mRNA Library Prep Kit (Illumina, San Diego, USA). A 2 × 150 bp paired-end sequencing library was prepared with the NovaSeq 6000 SP Reagent Kit v1.5 (Illumina, San Diego, USA) and sequenced in a NovaSeq 6000 instrument (Illumina, San Diego, USA)."
+          },
+          {
+            "id": "Par39",
+            "text": "In addition to the data generated for the samples from the present study, previously available RNA-Seq data were included in the analyses to contribute to the assembly of a representative transcriptomic reference and to the construction of a robust gene coexpression network. These consisted of data from leaf samples collected from twelve diverse Saccharum genotypes generated by Correr et al. [ 54 ]. The quality of all the RNA-Seq data was assessed via FastQC [ 55 ]. Trimmomatic v.0.39 [ 56 ] was used for read trimming, using a 5-bp sliding window with a minimum average Phred quality score of 20 and removing reads shorter than 75 bp."
+          },
+          {
+            "id": "Par40",
+            "text": "Filtered reads were aligned to the genomes of Saccharum officinarum (GenBank GCA_020631735.1) and Saccharum spontaneum (GenBank GCA_022457205.1) via STAR v. 2.7.3 [ 57 ]. These genomes are allele-resolved, and each haplotype was treated as a different reference. Thus, twelve different alignments were performed for each sample, representing the eight haplotypes of S. officinarum and the four of S. spontaneum . After comparative mapping, the resulting files were sorted based on their genomic positions via SAMtools v. 1.12 [ 58 ] and used to define twelve distinct transcriptomes via Stringtie v. 2.1.6 [ 59 ]. CD-HIT v. [ 60 ] was then used to reduce redundancies in the reference. This software was first used for the transcriptomes of each species to combine genes from individual haplotypes and subsequently to combine the transcriptomes generated for the two species. This final reference was evaluated with BUSCO v. 5.0.0 [ 61 ] via datasets of conserved orthologs from Eukaryota and Viridiplantae; it was then annotated with Trinotate v. 4.0.1 [ 62 ] by performing a homology search of sequences on UniProt release 2024_1 [ 63 ]."
+          },
+          {
+            "id": "Par41",
+            "text": "Transcript quantification was performed with Salmon v. 1.1.0 [ 64 ], using selective alignment and correcting for fragment-level GC bias. Resulting files were imported into R using tximport v. 1.26.1 [ 65 ] and converted to counts per million (CPM) using the edgeR package v. 3.40.2 [ 66 ]. Low-expressed genes (sum of CPMs < 3 in all samples of a treatment) were removed, followed by the exclusion of genes showing inconsistent expression across replicates, identified via paired t-tests across six sequencing lanes per treatment ( p < 0.05)."
+          },
+          {
+            "id": "Par42",
+            "text": "DESeq2 v1.38.3 [ 67 ] was used for differential gene expression (DGE) analyses, applying thresholds of |log₂ fold change (FC)| ≥ 1 and false discovery rate (FDR)-adjusted p ≤ 0.05. Nine pairwise comparisons were performed across the two cultivars (SP71-6163 and IACSP95-5000) under three treatments (control, infested with aviruliferous aphids, and infested with viruliferous aphids). Overlaps between DEG sets were visualized using UpSetR [ 68 ], and Gene Ontology (GO) enrichment for each DEG set was tested with topGO v2.50.0 [ 69 ] using Fisher’s exact tests (α = 0.05). REVIGO v1.8.1 [ 70 ] was used to summarize and visualize enriched GO categories."
+          },
+          {
+            "id": "Par43",
+            "text": "A gene coexpression network was constructed using data generated in the present study as well as those from Correr et al. [ 54 ]. The quantification data were filtered to retain genes with a CPM ≥ 1 in all the samples from at least one treatment. The edgeR R package was used to normalize quantifications by transcripts per million (TPM), and the WGCNA R package v. 1.72.5 [ 71 ] was used to construct the gene coexpression network. Pairwise Pearson correlations of TPM values considering a power function fitting scale-free independence were used. A soft threshold value corresponding to an R 2 value of approximately 0.8 was used to approximate a scale-free topology model. The functional modules in the network were defined via unweighted pair group method with arithmetic mean (UPGMA) based on a topological overlap matrix and dynamic dendrogram pruning. Hubs, defined as the genes with the highest connectivity in each module, were identified with the dedicated WGCNA function."
+          },
+          {
+            "id": "Par44",
+            "text": "Fisher’s exact tests with an FDR correction with α = 0.05, performed in R, were used to verify whether the DEG sets identified in the DGE analyses were overrepresented in any of the modules of the network. GO enrichment analysis was performed on the genes included in these modules with topGO using Fisher’s tests with α = 0.05, and enriched GO terms were visualized with REVIGO."
+          },
+          {
+            "id": "Par45",
+            "text": "The RNA-Seq libraries were validated via RT‒qPCR. The primers used to amplify eight DEGs and one gene stably and highly expressed across all the samples were designed via Primer3Plus, with the parameters optimized for qPCR. Additionally, primers designed to amplify one common sugarcane control gene, glyceraldehyde-3-phosphate dehydrogenase ( GAPDH ) [ 72 ], were synthesized. The sequences of all the qPCR primers can be found in Table S11. cDNA was synthesized via the QuantiTect Reverse Transcription Kit (QIAGEN, Hilden, Germany). qPCR was performed via iTaq Universal SYBR Green Supermix (Bio-Rad, Philadelphia, USA) on a Bio-Rad CFX384 Touch detection system (Bio-Rad, Philadelphia, USA). The mean Cq values of the two endogenous controls were used to correct the DEG Cq values. All reactions were performed via three technical replicates. Linear models correlating the CPM and ∆Cq values were fitted and plotted in R via the ggplot2 [ 73 ] and ggpubr [ 74 ] packages."
+          }
+        ],
+        "subsections": [
+          {
+            "id": "Sec3",
+            "title": "Plant material and virus isolation",
+            "paragraphs": [
+              {
+                "id": "Par30",
+                "text": "The study included utilized two Brazilian hybrid sugarcane cultivars, SP71-6163 and IACSP95-5000, identified and supplied by Dr. Silvana Creste from the Instituto Agronômico de Campinas’ Advanced Centre for Sugarcane Research and Development (IAC/ACSRD). Plant materials were maintained in vivo within the IAC/ACSRD germplasm bank. All field studies and the acquisition of plant material were conducted in accordance with local and national regulations, requiring no additional permissions or licenses. No voucher specimens were deposited."
+              },
+              {
+                "id": "Par31",
+                "text": "SP71-6163 is efficiently infected by SCYLV, develops severe symptoms of YLD and is strongly affected by the virus in terms of yield [ 2 , 27 ]; therefore, it was chosen as an SCYLV-susceptible genotype. Despite being a highly suitable host for M. sacchari and exhibiting SCYLV infection rates similar to those of SP71-6163 [ 23 , 27 ], IACSP95-5000 has not been reported to exhibit YLD symptoms or high yield losses (M.G.A. Landell, personal communication); for these reasons, this cultivar was selected as an SCYLV-tolerant genotype. Virus-free plants of the two cultivars were generated via meristem micropropagation at the IAC/ACSRD’s biofactory."
+              },
+              {
+                "id": "Par32",
+                "text": "Plants clonally propagated from an SCYLV-infected SP71-6163 plant in the IAC/ACSRD in Ribeirão Preto, Brazil [ 20 ], were used as a source of inoculum. Total RNA was extracted from the leaf of one plant following a protocol adapted from Kistner and Matamoros [ 28 ]. RNA was quantified on a NanoDrop 2000 spectrophotometer and subjected to electrophoresis on a 1% denaturing agarose gel stained with ethidium bromide for an integrity check. Reverse transcription (RT) was performed with the ImProm-II Reverse Transcription System Kit (Promega, Madison, USA). Phusion High-Fidelity PCR Master Mix (New England BioLabs, Ipswich, USA) was used to amplify overlapping fragments covering the complete SCYLV genome. The primers were designed via Primer3Plus v. 3.3.0 [ 29 ]; details are provided in Table S9. PCR products were sequenced on a 3500xL Genetic Analyzer (Applied Biosystems, Foster City, USA)."
+              },
+              {
+                "id": "Par33",
+                "text": "Geneious Prime v. 7.1.3 software [ 30 ] was used for Sanger sequencing data handling and producing a de novo assembly of a contiguous complete genomic sequence. The complete genomes of 101 SCYLV isolates from 17 different countries, as well as the Potato leafroll virus (PLRV) reference genome [ 31 , 32 , 33 , 34 , 35 , 36 , 37 , 38 , 39 , 40 , 41 – 42 ], were retrieved from GenBank, pairwise-aligned via ClustalW v. 2.1 [ 43 ] and trimmed to the length of the shortest sequences. Pairwise Hamming distances [ 44 ] were calculated via UGENE v. 48.1 [ 45 ]. The presence of recombinants was determined via the Recombination Detection Program v. 5.33 (RDP5) [ 46 ] with seven different methods with default parameters: RDP, GENECONV, BOOTSCAN, MAXCHI, CHIMAERA, SISCAN and 3SEQ. Only recombination events detected by at least five methods and showing significant support with a Bonferroni-corrected p value cutoff of 0.05 were considered valid [ 47 ]. Recombinant isolates were removed for subsequent analyses, and MEGA11 v. 11.0.11 [ 48 ] was used to find the best-fit DNA/protein model based on the Bayesian information criterion (BIC) score. The model with the lowest BIC score was used to construct a maximum likelihood tree rooted by the PLRV genome via the same software using bootstrap procedures with 1,000 replicates, and the resulting tree was visualized with FigTree v. 1.4.4 218 software [ 49 ]."
+              }
+            ]
+          },
+          {
+            "id": "Sec4",
+            "title": "Aphid rearing and identification",
+            "paragraphs": [
+              {
+                "id": "Par34",
+                "text": "Melanaphis sp. aphids were obtained from a sugarcane field in Ribeirão Preto, Brazil, and reared on detached sugarcane leaf fragments in test tubes with 1% agar in a plant growth chamber. A colony of aviruliferous aphids was obtained by transferring individual adult aphids onto virus-free sugarcane leaves and transferring newborn nymphs to separate virus-free leaves. Colonies obtained were tested for the presence of SCYLV via RT‒PCR. For this purpose, RNA was extracted from pools of five aphids via TRIzol (Invitrogen, Carlsbad, USA), quantified on a NanoDrop spectrophotometer and converted into cDNA via the ImProm-II Reverse Transcription System Kit. cDNA was used for PCR diagnosis as described by Gonçalves et al. [ 50 ]. Prior to the inoculation experiments, a viruliferous colony was obtained by transferring aphids to SCYLV-infected SP71-6163 plants kept in aphid-proof cages. Aphids were allowed an acquisition access period of at least 48 hours."
+              },
+              {
+                "id": "Par35",
+                "text": "While M. sacchari is the most common Melanaphis species that infests sugarcane, M. sorghi has been recently reported in Brazil [ 16 , 51 ]. Thus, a molecular diagnostic marker was used to determine the species of the established colony. DNA was extracted from a pool of five aphids via a protocol adapted from Sunnucks and Hales [ 52 ]. The primers MelF2 (GTGCTTATTGTCGCTGCTGG) and MelR2 (TTGTCTCCGGGAACAGCTTC) were designed to amplify a fragment of the elongation factor 1-alpha ( EF1-α ) gene harboring five polymorphic sites, one of which can distinguish M. sacchari and M. sorghi [ 16 ]. PCR was performed using Phusion High-Fidelity PCR Master Mix and an annealing temperature of 60 °C. The PCR products were sequenced on a 3500xL Genetic Analyzer. Geneious Prime was used to handle sequences and analyze the nucleotides present at the polymorphic sites."
+              }
+            ]
+          },
+          {
+            "id": "Sec5",
+            "title": "Inoculation experiment and sample processing",
+            "paragraphs": [
+              {
+                "id": "Par36",
+                "text": "The inoculation experiment was performed in a plant growth chamber maintained at 30 °C under a 12-hour light/dark cycle; three biological replicates consisting of 11-month-old plants were used for each experimental condition. Clip cages were positioned on the median region of the top visible dewlap leaf of each plant, in which five viruliferous or aviruliferous adult aphids were placed; for aphid-free control plants, no aphids were used. After inoculation access periods (IAPs) of 4, 24–48 hours, aphids were removed, and whole leaves were collected and flash-frozen in liquid nitrogen."
+              },
+              {
+                "id": "Par37",
+                "text": "Total RNA was extracted from the ~ 10 cm leaf section around the clip cage placement site, quality was checked, and RT was performed as previously described. cDNA was used to confirm infection and estimate the SCYLV titer via a quantitative PCR (qPCR)-based relative quantification method detailed by Pimenta et al. [ 20 ]. The normality and variance of the viral quantification data were verified via Shapiro‒Wilk and F tests, respectively, and differences in quantification between genotypes were assessed via an unpaired t test in R software [ 53 ]."
+              },
+              {
+                "id": "Par38",
+                "text": "RNA from selected samples was used to prepare RNA-Seq libraries via the TruSeq Stranded mRNA Library Prep Kit (Illumina, San Diego, USA). A 2 × 150 bp paired-end sequencing library was prepared with the NovaSeq 6000 SP Reagent Kit v1.5 (Illumina, San Diego, USA) and sequenced in a NovaSeq 6000 instrument (Illumina, San Diego, USA)."
+              }
+            ]
+          },
+          {
+            "id": "Sec6",
+            "title": "Reference transcriptome assembly and annotation",
+            "paragraphs": [
+              {
+                "id": "Par39",
+                "text": "In addition to the data generated for the samples from the present study, previously available RNA-Seq data were included in the analyses to contribute to the assembly of a representative transcriptomic reference and to the construction of a robust gene coexpression network. These consisted of data from leaf samples collected from twelve diverse Saccharum genotypes generated by Correr et al. [ 54 ]. The quality of all the RNA-Seq data was assessed via FastQC [ 55 ]. Trimmomatic v.0.39 [ 56 ] was used for read trimming, using a 5-bp sliding window with a minimum average Phred quality score of 20 and removing reads shorter than 75 bp."
+              },
+              {
+                "id": "Par40",
+                "text": "Filtered reads were aligned to the genomes of Saccharum officinarum (GenBank GCA_020631735.1) and Saccharum spontaneum (GenBank GCA_022457205.1) via STAR v. 2.7.3 [ 57 ]. These genomes are allele-resolved, and each haplotype was treated as a different reference. Thus, twelve different alignments were performed for each sample, representing the eight haplotypes of S. officinarum and the four of S. spontaneum . After comparative mapping, the resulting files were sorted based on their genomic positions via SAMtools v. 1.12 [ 58 ] and used to define twelve distinct transcriptomes via Stringtie v. 2.1.6 [ 59 ]. CD-HIT v. [ 60 ] was then used to reduce redundancies in the reference. This software was first used for the transcriptomes of each species to combine genes from individual haplotypes and subsequently to combine the transcriptomes generated for the two species. This final reference was evaluated with BUSCO v. 5.0.0 [ 61 ] via datasets of conserved orthologs from Eukaryota and Viridiplantae; it was then annotated with Trinotate v. 4.0.1 [ 62 ] by performing a homology search of sequences on UniProt release 2024_1 [ 63 ]."
+              }
+            ]
+          },
+          {
+            "id": "Sec7",
+            "title": "Differential gene expression analyses",
+            "paragraphs": [
+              {
+                "id": "Par41",
+                "text": "Transcript quantification was performed with Salmon v. 1.1.0 [ 64 ], using selective alignment and correcting for fragment-level GC bias. Resulting files were imported into R using tximport v. 1.26.1 [ 65 ] and converted to counts per million (CPM) using the edgeR package v. 3.40.2 [ 66 ]. Low-expressed genes (sum of CPMs < 3 in all samples of a treatment) were removed, followed by the exclusion of genes showing inconsistent expression across replicates, identified via paired t-tests across six sequencing lanes per treatment ( p < 0.05)."
+              },
+              {
+                "id": "Par42",
+                "text": "DESeq2 v1.38.3 [ 67 ] was used for differential gene expression (DGE) analyses, applying thresholds of |log₂ fold change (FC)| ≥ 1 and false discovery rate (FDR)-adjusted p ≤ 0.05. Nine pairwise comparisons were performed across the two cultivars (SP71-6163 and IACSP95-5000) under three treatments (control, infested with aviruliferous aphids, and infested with viruliferous aphids). Overlaps between DEG sets were visualized using UpSetR [ 68 ], and Gene Ontology (GO) enrichment for each DEG set was tested with topGO v2.50.0 [ 69 ] using Fisher’s exact tests (α = 0.05). REVIGO v1.8.1 [ 70 ] was used to summarize and visualize enriched GO categories."
+              }
+            ]
+          },
+          {
+            "id": "Sec8",
+            "title": "Gene coexpression network",
+            "paragraphs": [
+              {
+                "id": "Par43",
+                "text": "A gene coexpression network was constructed using data generated in the present study as well as those from Correr et al. [ 54 ]. The quantification data were filtered to retain genes with a CPM ≥ 1 in all the samples from at least one treatment. The edgeR R package was used to normalize quantifications by transcripts per million (TPM), and the WGCNA R package v. 1.72.5 [ 71 ] was used to construct the gene coexpression network. Pairwise Pearson correlations of TPM values considering a power function fitting scale-free independence were used. A soft threshold value corresponding to an R 2 value of approximately 0.8 was used to approximate a scale-free topology model. The functional modules in the network were defined via unweighted pair group method with arithmetic mean (UPGMA) based on a topological overlap matrix and dynamic dendrogram pruning. Hubs, defined as the genes with the highest connectivity in each module, were identified with the dedicated WGCNA function."
+              },
+              {
+                "id": "Par44",
+                "text": "Fisher’s exact tests with an FDR correction with α = 0.05, performed in R, were used to verify whether the DEG sets identified in the DGE analyses were overrepresented in any of the modules of the network. GO enrichment analysis was performed on the genes included in these modules with topGO using Fisher’s tests with α = 0.05, and enriched GO terms were visualized with REVIGO."
+              }
+            ]
+          },
+          {
+            "id": "Sec9",
+            "title": "RT‒qPCR validation",
+            "paragraphs": [
+              {
+                "id": "Par45",
+                "text": "The RNA-Seq libraries were validated via RT‒qPCR. The primers used to amplify eight DEGs and one gene stably and highly expressed across all the samples were designed via Primer3Plus, with the parameters optimized for qPCR. Additionally, primers designed to amplify one common sugarcane control gene, glyceraldehyde-3-phosphate dehydrogenase ( GAPDH ) [ 72 ], were synthesized. The sequences of all the qPCR primers can be found in Table S11. cDNA was synthesized via the QuantiTect Reverse Transcription Kit (QIAGEN, Hilden, Germany). qPCR was performed via iTaq Universal SYBR Green Supermix (Bio-Rad, Philadelphia, USA) on a Bio-Rad CFX384 Touch detection system (Bio-Rad, Philadelphia, USA). The mean Cq values of the two endogenous controls were used to correct the DEG Cq values. All reactions were performed via three technical replicates. Linear models correlating the CPM and ∆Cq values were fitted and plotted in R via the ggplot2 [ 73 ] and ggpubr [ 74 ] packages."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Sec3",
+        "title": "Plant material and virus isolation",
+        "paragraphs": [
+          {
+            "id": "Par30",
+            "text": "The study included utilized two Brazilian hybrid sugarcane cultivars, SP71-6163 and IACSP95-5000, identified and supplied by Dr. Silvana Creste from the Instituto Agronômico de Campinas’ Advanced Centre for Sugarcane Research and Development (IAC/ACSRD). Plant materials were maintained in vivo within the IAC/ACSRD germplasm bank. All field studies and the acquisition of plant material were conducted in accordance with local and national regulations, requiring no additional permissions or licenses. No voucher specimens were deposited."
+          },
+          {
+            "id": "Par31",
+            "text": "SP71-6163 is efficiently infected by SCYLV, develops severe symptoms of YLD and is strongly affected by the virus in terms of yield [ 2 , 27 ]; therefore, it was chosen as an SCYLV-susceptible genotype. Despite being a highly suitable host for M. sacchari and exhibiting SCYLV infection rates similar to those of SP71-6163 [ 23 , 27 ], IACSP95-5000 has not been reported to exhibit YLD symptoms or high yield losses (M.G.A. Landell, personal communication); for these reasons, this cultivar was selected as an SCYLV-tolerant genotype. Virus-free plants of the two cultivars were generated via meristem micropropagation at the IAC/ACSRD’s biofactory."
+          },
+          {
+            "id": "Par32",
+            "text": "Plants clonally propagated from an SCYLV-infected SP71-6163 plant in the IAC/ACSRD in Ribeirão Preto, Brazil [ 20 ], were used as a source of inoculum. Total RNA was extracted from the leaf of one plant following a protocol adapted from Kistner and Matamoros [ 28 ]. RNA was quantified on a NanoDrop 2000 spectrophotometer and subjected to electrophoresis on a 1% denaturing agarose gel stained with ethidium bromide for an integrity check. Reverse transcription (RT) was performed with the ImProm-II Reverse Transcription System Kit (Promega, Madison, USA). Phusion High-Fidelity PCR Master Mix (New England BioLabs, Ipswich, USA) was used to amplify overlapping fragments covering the complete SCYLV genome. The primers were designed via Primer3Plus v. 3.3.0 [ 29 ]; details are provided in Table S9. PCR products were sequenced on a 3500xL Genetic Analyzer (Applied Biosystems, Foster City, USA)."
+          },
+          {
+            "id": "Par33",
+            "text": "Geneious Prime v. 7.1.3 software [ 30 ] was used for Sanger sequencing data handling and producing a de novo assembly of a contiguous complete genomic sequence. The complete genomes of 101 SCYLV isolates from 17 different countries, as well as the Potato leafroll virus (PLRV) reference genome [ 31 , 32 , 33 , 34 , 35 , 36 , 37 , 38 , 39 , 40 , 41 – 42 ], were retrieved from GenBank, pairwise-aligned via ClustalW v. 2.1 [ 43 ] and trimmed to the length of the shortest sequences. Pairwise Hamming distances [ 44 ] were calculated via UGENE v. 48.1 [ 45 ]. The presence of recombinants was determined via the Recombination Detection Program v. 5.33 (RDP5) [ 46 ] with seven different methods with default parameters: RDP, GENECONV, BOOTSCAN, MAXCHI, CHIMAERA, SISCAN and 3SEQ. Only recombination events detected by at least five methods and showing significant support with a Bonferroni-corrected p value cutoff of 0.05 were considered valid [ 47 ]. Recombinant isolates were removed for subsequent analyses, and MEGA11 v. 11.0.11 [ 48 ] was used to find the best-fit DNA/protein model based on the Bayesian information criterion (BIC) score. The model with the lowest BIC score was used to construct a maximum likelihood tree rooted by the PLRV genome via the same software using bootstrap procedures with 1,000 replicates, and the resulting tree was visualized with FigTree v. 1.4.4 218 software [ 49 ]."
+          }
+        ]
+      },
+      {
+        "id": "Sec4",
+        "title": "Aphid rearing and identification",
+        "paragraphs": [
+          {
+            "id": "Par34",
+            "text": "Melanaphis sp. aphids were obtained from a sugarcane field in Ribeirão Preto, Brazil, and reared on detached sugarcane leaf fragments in test tubes with 1% agar in a plant growth chamber. A colony of aviruliferous aphids was obtained by transferring individual adult aphids onto virus-free sugarcane leaves and transferring newborn nymphs to separate virus-free leaves. Colonies obtained were tested for the presence of SCYLV via RT‒PCR. For this purpose, RNA was extracted from pools of five aphids via TRIzol (Invitrogen, Carlsbad, USA), quantified on a NanoDrop spectrophotometer and converted into cDNA via the ImProm-II Reverse Transcription System Kit. cDNA was used for PCR diagnosis as described by Gonçalves et al. [ 50 ]. Prior to the inoculation experiments, a viruliferous colony was obtained by transferring aphids to SCYLV-infected SP71-6163 plants kept in aphid-proof cages. Aphids were allowed an acquisition access period of at least 48 hours."
+          },
+          {
+            "id": "Par35",
+            "text": "While M. sacchari is the most common Melanaphis species that infests sugarcane, M. sorghi has been recently reported in Brazil [ 16 , 51 ]. Thus, a molecular diagnostic marker was used to determine the species of the established colony. DNA was extracted from a pool of five aphids via a protocol adapted from Sunnucks and Hales [ 52 ]. The primers MelF2 (GTGCTTATTGTCGCTGCTGG) and MelR2 (TTGTCTCCGGGAACAGCTTC) were designed to amplify a fragment of the elongation factor 1-alpha ( EF1-α ) gene harboring five polymorphic sites, one of which can distinguish M. sacchari and M. sorghi [ 16 ]. PCR was performed using Phusion High-Fidelity PCR Master Mix and an annealing temperature of 60 °C. The PCR products were sequenced on a 3500xL Genetic Analyzer. Geneious Prime was used to handle sequences and analyze the nucleotides present at the polymorphic sites."
+          }
+        ]
+      },
+      {
+        "id": "Sec5",
+        "title": "Inoculation experiment and sample processing",
+        "paragraphs": [
+          {
+            "id": "Par36",
+            "text": "The inoculation experiment was performed in a plant growth chamber maintained at 30 °C under a 12-hour light/dark cycle; three biological replicates consisting of 11-month-old plants were used for each experimental condition. Clip cages were positioned on the median region of the top visible dewlap leaf of each plant, in which five viruliferous or aviruliferous adult aphids were placed; for aphid-free control plants, no aphids were used. After inoculation access periods (IAPs) of 4, 24–48 hours, aphids were removed, and whole leaves were collected and flash-frozen in liquid nitrogen."
+          },
+          {
+            "id": "Par37",
+            "text": "Total RNA was extracted from the ~ 10 cm leaf section around the clip cage placement site, quality was checked, and RT was performed as previously described. cDNA was used to confirm infection and estimate the SCYLV titer via a quantitative PCR (qPCR)-based relative quantification method detailed by Pimenta et al. [ 20 ]. The normality and variance of the viral quantification data were verified via Shapiro‒Wilk and F tests, respectively, and differences in quantification between genotypes were assessed via an unpaired t test in R software [ 53 ]."
+          },
+          {
+            "id": "Par38",
+            "text": "RNA from selected samples was used to prepare RNA-Seq libraries via the TruSeq Stranded mRNA Library Prep Kit (Illumina, San Diego, USA). A 2 × 150 bp paired-end sequencing library was prepared with the NovaSeq 6000 SP Reagent Kit v1.5 (Illumina, San Diego, USA) and sequenced in a NovaSeq 6000 instrument (Illumina, San Diego, USA)."
+          }
+        ]
+      },
+      {
+        "id": "Sec6",
+        "title": "Reference transcriptome assembly and annotation",
+        "paragraphs": [
+          {
+            "id": "Par39",
+            "text": "In addition to the data generated for the samples from the present study, previously available RNA-Seq data were included in the analyses to contribute to the assembly of a representative transcriptomic reference and to the construction of a robust gene coexpression network. These consisted of data from leaf samples collected from twelve diverse Saccharum genotypes generated by Correr et al. [ 54 ]. The quality of all the RNA-Seq data was assessed via FastQC [ 55 ]. Trimmomatic v.0.39 [ 56 ] was used for read trimming, using a 5-bp sliding window with a minimum average Phred quality score of 20 and removing reads shorter than 75 bp."
+          },
+          {
+            "id": "Par40",
+            "text": "Filtered reads were aligned to the genomes of Saccharum officinarum (GenBank GCA_020631735.1) and Saccharum spontaneum (GenBank GCA_022457205.1) via STAR v. 2.7.3 [ 57 ]. These genomes are allele-resolved, and each haplotype was treated as a different reference. Thus, twelve different alignments were performed for each sample, representing the eight haplotypes of S. officinarum and the four of S. spontaneum . After comparative mapping, the resulting files were sorted based on their genomic positions via SAMtools v. 1.12 [ 58 ] and used to define twelve distinct transcriptomes via Stringtie v. 2.1.6 [ 59 ]. CD-HIT v. [ 60 ] was then used to reduce redundancies in the reference. This software was first used for the transcriptomes of each species to combine genes from individual haplotypes and subsequently to combine the transcriptomes generated for the two species. This final reference was evaluated with BUSCO v. 5.0.0 [ 61 ] via datasets of conserved orthologs from Eukaryota and Viridiplantae; it was then annotated with Trinotate v. 4.0.1 [ 62 ] by performing a homology search of sequences on UniProt release 2024_1 [ 63 ]."
+          }
+        ]
+      },
+      {
+        "id": "Sec7",
+        "title": "Differential gene expression analyses",
+        "paragraphs": [
+          {
+            "id": "Par41",
+            "text": "Transcript quantification was performed with Salmon v. 1.1.0 [ 64 ], using selective alignment and correcting for fragment-level GC bias. Resulting files were imported into R using tximport v. 1.26.1 [ 65 ] and converted to counts per million (CPM) using the edgeR package v. 3.40.2 [ 66 ]. Low-expressed genes (sum of CPMs < 3 in all samples of a treatment) were removed, followed by the exclusion of genes showing inconsistent expression across replicates, identified via paired t-tests across six sequencing lanes per treatment ( p < 0.05)."
+          },
+          {
+            "id": "Par42",
+            "text": "DESeq2 v1.38.3 [ 67 ] was used for differential gene expression (DGE) analyses, applying thresholds of |log₂ fold change (FC)| ≥ 1 and false discovery rate (FDR)-adjusted p ≤ 0.05. Nine pairwise comparisons were performed across the two cultivars (SP71-6163 and IACSP95-5000) under three treatments (control, infested with aviruliferous aphids, and infested with viruliferous aphids). Overlaps between DEG sets were visualized using UpSetR [ 68 ], and Gene Ontology (GO) enrichment for each DEG set was tested with topGO v2.50.0 [ 69 ] using Fisher’s exact tests (α = 0.05). REVIGO v1.8.1 [ 70 ] was used to summarize and visualize enriched GO categories."
+          }
+        ]
+      },
+      {
+        "id": "Sec8",
+        "title": "Gene coexpression network",
+        "paragraphs": [
+          {
+            "id": "Par43",
+            "text": "A gene coexpression network was constructed using data generated in the present study as well as those from Correr et al. [ 54 ]. The quantification data were filtered to retain genes with a CPM ≥ 1 in all the samples from at least one treatment. The edgeR R package was used to normalize quantifications by transcripts per million (TPM), and the WGCNA R package v. 1.72.5 [ 71 ] was used to construct the gene coexpression network. Pairwise Pearson correlations of TPM values considering a power function fitting scale-free independence were used. A soft threshold value corresponding to an R 2 value of approximately 0.8 was used to approximate a scale-free topology model. The functional modules in the network were defined via unweighted pair group method with arithmetic mean (UPGMA) based on a topological overlap matrix and dynamic dendrogram pruning. Hubs, defined as the genes with the highest connectivity in each module, were identified with the dedicated WGCNA function."
+          },
+          {
+            "id": "Par44",
+            "text": "Fisher’s exact tests with an FDR correction with α = 0.05, performed in R, were used to verify whether the DEG sets identified in the DGE analyses were overrepresented in any of the modules of the network. GO enrichment analysis was performed on the genes included in these modules with topGO using Fisher’s tests with α = 0.05, and enriched GO terms were visualized with REVIGO."
+          }
+        ]
+      },
+      {
+        "id": "Sec9",
+        "title": "RT‒qPCR validation",
+        "paragraphs": [
+          {
+            "id": "Par45",
+            "text": "The RNA-Seq libraries were validated via RT‒qPCR. The primers used to amplify eight DEGs and one gene stably and highly expressed across all the samples were designed via Primer3Plus, with the parameters optimized for qPCR. Additionally, primers designed to amplify one common sugarcane control gene, glyceraldehyde-3-phosphate dehydrogenase ( GAPDH ) [ 72 ], were synthesized. The sequences of all the qPCR primers can be found in Table S11. cDNA was synthesized via the QuantiTect Reverse Transcription Kit (QIAGEN, Hilden, Germany). qPCR was performed via iTaq Universal SYBR Green Supermix (Bio-Rad, Philadelphia, USA) on a Bio-Rad CFX384 Touch detection system (Bio-Rad, Philadelphia, USA). The mean Cq values of the two endogenous controls were used to correct the DEG Cq values. All reactions were performed via three technical replicates. Linear models correlating the CPM and ∆Cq values were fitted and plotted in R via the ggplot2 [ 73 ] and ggpubr [ 74 ] packages."
+          }
+        ]
+      },
+      {
+        "id": "Sec10",
+        "title": "Results",
+        "paragraphs": [
+          {
+            "id": "Par46",
+            "text": "The complete genome of the SCYLV isolate infecting the source of inoculum was obtained and pairwise-aligned with publicly available genomes of 101 SCYLV isolates. The genome of this new isolate, named BRA-SP1, was found to be most closely related to that of BR-06-Leaf, which originated from a sugarcane sample collected in 2018 in Brazil. Forty-one polymorphisms were detected between the genomes of BRA-SP1 and BR-06-Leaf, which presented 99.3% similarity. Recombination analyses indicated that thirteen isolates included in the alignment were potential recombinants (Table S1), and these were thus excluded from the subsequent phylogenetic analysis. A maximum likelihood tree was constructed with the remaining 89 aligned sequences via a general time reversible model with gamma-distributed invariant sites. The results indicated the existence of three well-supported major SCYLV clades, including all the isolates from Mauritius and Reunion (clade REU), a few isolates from Asia, the Americas and Papua New Guinea (clade CUB), and isolates from diverse locations (clade BRA). Isolate BRA-SP1 was positioned in clade BRA, close to other samples originating from Brazil (Fig. 1 )."
+          },
+          {
+            "id": "Par47",
+            "text": "Fig. 1 Maximum likelihood phylogenetic tree constructed using genome sequences of 89 sugarcane yellow leaf virus isolates, including BRA-SP1, used in the present study. Bootstrap support values (> 80%) are shown at branch nodes. Three major well-supported clades are color-coded: CUB (blue), REU (red), and BRA (yellow). Scale bar indicates 0.02 substitutions/site"
+          },
+          {
+            "id": "",
+            "text": "Maximum likelihood phylogenetic tree constructed using genome sequences of 89 sugarcane yellow leaf virus isolates, including BRA-SP1, used in the present study. Bootstrap support values (> 80%) are shown at branch nodes. Three major well-supported clades are color-coded: CUB (blue), REU (red), and BRA (yellow). Scale bar indicates 0.02 substitutions/site"
+          },
+          {
+            "id": "Par48",
+            "text": "A colony of aviruliferous Melanaphis sp. aphids collected from a sugarcane field was established, and a fragment of the EF1-α gene harboring five polymorphic sites was sequenced from a pool of five insects. The nucleotides observed at positions 296, 478, 637, 663, and 735 were Y, T, A, G, and C, respectively (Figure S1). These results match the EF1-α haplotype “H2c” described by Nibouche et al. [ 18 ]; thus, the colony was identified as M. sorghi ."
+          },
+          {
+            "id": "Par49",
+            "text": "Plants of the sugarcane cultivars SP71-6163 (SCYLV-susceptible) and IACSP95-5000 (SCYLV-tolerant) were exposed to M. sorghi aphids for varying periods to assess viral transmission. RT‒qPCR confirmed that SCYLV was not present in any plants exposed to aviruliferous aphids or plants not exposed to aphids, which were used as controls. The number and percentage of plants in which SCYLV was detected at different IAPs are summarized in Table S2. The virus was detected in SP71-6163 after as little as four hours of exposure to M. sorghi , showing that this aphid is capable of vectoring SCYLV in sugarcane under controlled conditions. The virus was detected in 100% of the plants of both cultivars after only 48 hours of exposure to M. sorghi ; thus, this IAP was chosen for subsequent RNA-Seq analysis. At this time point, the mean SCYLV relative quantification of SP71-6163 (0.0013) was significantly ( p = 0.03) greater than that of IACSP95-5000 (0.0003)."
+          },
+          {
+            "id": "Par50",
+            "text": "The sequencing of the 18 RNA-Seq libraries yielded 1,023,617,499 paired-end reads; over 95% of these (961.2 million) could be attributed to the libraries, resulting in an average of 53.4 million reads per sample. After trimming, all reads presented an average Phred score ≥ 24, and 99.7% of them presented a Phred score ≥ 30 (Table S3)."
+          },
+          {
+            "id": "Par51",
+            "text": "In conjunction with these data, trimmed RNA-Seq data from leaf samples of twelve diverse Saccharum genotypes [ 56 ] were used to construct a new reference sugarcane transcriptome. Filtered reads were aligned to the allele-resolved genomes of the two main ancestral Saccharum species: S. spontaneum and S. officinarum . The numbers of assembled transcripts for the S. spontaneum haplotypes were (A) 33,969, (B) 33,913, (C) 33,576 and (D) 33,672. For S. officinarum , the quantities were as follows: (A) 34,993, (B) 34,081, (C) 33,832, (D) 32,513, (E) 31,720, (F) 30,280, (G) 29,124 and (H) 25,926. Reducing redundancies in the two references via CD-HIT resulted in 95,533 and 141,626 transcripts for S. spontaneum and S. officinarum , respectively. These two sets were then combined, yielding a final reference containing 206,426 transcripts with an N50 of 2,097 bases. Searches via BUSCO revealed that this reference included 99.3% and 98.4% of the conserved orthologs of eukaryotes and green plants, respectively (Table S4). A total of 43,291 of these transcripts, hereafter referred to as “genes”, could be annotated with Trinotate."
+          },
+          {
+            "id": "Par52",
+            "text": "On average, 89.4% of the reads from each RNA-Seq library generated in the present study were mapped to this reference (Table S3). The first two gene filtering steps, which were based on CPM values, resulted in the retention of 85,685 expressed genes. A multidimensional scaling analysis performed with these data is shown in Figure S2, where the proximity between replicates of each genotype and the biological condition is observed."
+          },
+          {
+            "id": "Par53",
+            "text": "After performing t tests, sets of genes to be excluded in each condition were obtained and combined according to the comparisons to be carried out in the DGE analyses. The quantities of genes excluded in each condition and in the union of sets, as well as the number of genes retained for each comparison, can be found in Table S5. DGE analyses were performed for nine different comparisons. The number of DEGs identified in each group can be seen in Table 1 , which distinguishes upregulated (log 2 (FC)) > 1) and downregulated (log 2 (FC) < 1) genes, and in Fig. 2 , which shows intersections between DEG sets. Additionally, Table S6 presents a complete list of DEGs and associated information. The expression patterns of eight DEGs were validated through RT‒qPCR using GAPDH and Cluster_58111 as endogenous controls. Overall, strong and significant linear correlations between the CPM and ∆Cq values were observed, with R 2 values ranging from 0.56 to 0.92 (Fig. 3 )."
+          },
+          {
+            "id": "Par54",
+            "text": "Table 1 Number of up- and downregulated differentially expressed genes (DEGs). DEGs are reported for the second condition relative to the first Comparison Differentially expressed genes Upregulated Downregulated Total SP71-6163 NA vs. SP71-6163 AA 63 7 70 SP71-6163 NA vs. SP71-6163 VA 23 9 32 SP71-6163 AA vs. SP71-6163 VA 2 2 4 IACSP95-5000 NA vs. IACSP95-5000 AA 589 64 653 IACSP95-5000 NA vs. IACSP95-5000 VA 27 138 165 IACSP95-5000 AA vs. IACSP95-5000 VA 33 328 361 SP71-6163 NA vs. IACSP95-5000 NA 7 19 26 SP71-6163 AA vs. IACSP95-5000 AA 163 50 213 SP71-6163 VA vs. IACSP95-5000 VA 21 156 177 NA No aphids (control), AA Aviruliferous aphids, VA Viruliferous aphids"
+          },
+          {
+            "id": "",
+            "text": "Number of up- and downregulated differentially expressed genes (DEGs). DEGs are reported for the second condition relative to the first"
+          },
+          {
+            "id": "",
+            "text": "Comparison"
+          },
+          {
+            "id": "",
+            "text": "Differentially expressed genes"
+          },
+          {
+            "id": "",
+            "text": "Upregulated"
+          },
+          {
+            "id": "",
+            "text": "Downregulated"
+          },
+          {
+            "id": "",
+            "text": "Total"
+          },
+          {
+            "id": "",
+            "text": "SP71-6163 NA vs. SP71-6163 AA"
+          },
+          {
+            "id": "",
+            "text": "63"
+          },
+          {
+            "id": "",
+            "text": "7"
+          },
+          {
+            "id": "",
+            "text": "70"
+          },
+          {
+            "id": "",
+            "text": "SP71-6163 NA vs. SP71-6163 VA"
+          },
+          {
+            "id": "",
+            "text": "23"
+          },
+          {
+            "id": "",
+            "text": "9"
+          },
+          {
+            "id": "",
+            "text": "32"
+          },
+          {
+            "id": "",
+            "text": "SP71-6163 AA vs. SP71-6163 VA"
+          },
+          {
+            "id": "",
+            "text": "2"
+          },
+          {
+            "id": "",
+            "text": "2"
+          },
+          {
+            "id": "",
+            "text": "4"
+          },
+          {
+            "id": "",
+            "text": "IACSP95-5000 NA vs. IACSP95-5000 AA"
+          },
+          {
+            "id": "",
+            "text": "589"
+          },
+          {
+            "id": "",
+            "text": "64"
+          },
+          {
+            "id": "",
+            "text": "653"
+          },
+          {
+            "id": "",
+            "text": "IACSP95-5000 NA vs. IACSP95-5000 VA"
+          },
+          {
+            "id": "",
+            "text": "27"
+          },
+          {
+            "id": "",
+            "text": "138"
+          },
+          {
+            "id": "",
+            "text": "165"
+          },
+          {
+            "id": "",
+            "text": "IACSP95-5000 AA vs. IACSP95-5000 VA"
+          },
+          {
+            "id": "",
+            "text": "33"
+          },
+          {
+            "id": "",
+            "text": "328"
+          },
+          {
+            "id": "",
+            "text": "361"
+          },
+          {
+            "id": "",
+            "text": "SP71-6163 NA vs. IACSP95-5000 NA"
+          },
+          {
+            "id": "",
+            "text": "7"
+          },
+          {
+            "id": "",
+            "text": "19"
+          },
+          {
+            "id": "",
+            "text": "26"
+          },
+          {
+            "id": "",
+            "text": "SP71-6163 AA vs. IACSP95-5000 AA"
+          },
+          {
+            "id": "",
+            "text": "163"
+          },
+          {
+            "id": "",
+            "text": "50"
+          },
+          {
+            "id": "",
+            "text": "213"
+          },
+          {
+            "id": "",
+            "text": "SP71-6163 VA vs. IACSP95-5000 VA"
+          },
+          {
+            "id": "",
+            "text": "21"
+          },
+          {
+            "id": "",
+            "text": "156"
+          },
+          {
+            "id": "",
+            "text": "177"
+          },
+          {
+            "id": "",
+            "text": "NA No aphids (control), AA Aviruliferous aphids, VA Viruliferous aphids"
+          },
+          {
+            "id": "Par55",
+            "text": "Fig. 2 UpSet plot showing the intersections of differentially expressed gene (DEG) sets across cultivar and treatment comparisons. Horizontal bars show the total number of DEGs per comparison. Vertical bars indicate the size of shared DEG sets across the conditions connected by black dots below"
+          },
+          {
+            "id": "",
+            "text": "UpSet plot showing the intersections of differentially expressed gene (DEG) sets across cultivar and treatment comparisons. Horizontal bars show the total number of DEGs per comparison. Vertical bars indicate the size of shared DEG sets across the conditions connected by black dots below"
+          },
+          {
+            "id": "Par56",
+            "text": "Fig. 3 Correlation plots between counts per million (CPM) values obtained via RNA-Seq and ΔCq values obtained via RT-qPCR for nine differentially expressed genes. NA: no aphids (control), AA: aviruliferous aphids, VA: viruliferous aphids"
+          },
+          {
+            "id": "",
+            "text": "Correlation plots between counts per million (CPM) values obtained via RNA-Seq and ΔCq values obtained via RT-qPCR for nine differentially expressed genes. NA: no aphids (control), AA: aviruliferous aphids, VA: viruliferous aphids"
+          },
+          {
+            "id": "Par57",
+            "text": "The infestation by aviruliferous and viruliferous aphids led mostly to the upregulation of genes in the SCYLV-susceptible cultivar SP71-6163. Sixty-three genes were upregulated and 7 were downregulated in response to aviruliferous aphids, whereas 23 were upregulated and 9 were downregulated in response to viruliferous aphids. In the tolerant cultivar IACSP95-5000, infestation by aviruliferous aphids led mainly to gene upregulation, with 589 upregulated genes and 64 downregulated genes. However, infection by viruliferous aphids led to the downregulation of several genes, with 27 upregulated and 138 downregulated genes. These results were also clearly observed in the comparisons between the two cultivars, in which a low number of DEGs (26) were found in the control condition. Additionally, in both cultivars, the number of DEGs in the comparison between controls and plants with aviruliferous aphids (70 in SP71-6163 and 653 in IACSP95-5000) was much greater than that in the comparisons between controls and plants with viruliferous aphids (32 in SP71-6163 and 165 in IACSP95-5000)."
+          },
+          {
+            "id": "Par58",
+            "text": "A more detailed investigation of DEG annotations and the results of GO enrichment analyses further demonstrated the differences in the responses of each cultivar to both M. sorghi and SCYLV. REVIGO TreeMaps showing the biological processes predominating in each DEG set are shown in Figs. 3 , S3 and S4. In the response of SP71-6163 to aviruliferous aphids (Figure S3), terms associated with ‘ent-kaurene oxidation to kaurenoic acid’ and ‘negative regulation of transcription by RNA polymerase II’ were enriched. IACSP95-5000 seemed to activate more defense-specific pathways in response to M. sorghi . In this cultivar, two processes with a clear association with plant resistance to aphids were highly represented: the metabolism of flavonoids and the regulation of Rac protein signal transduction (Figure S4). The representative genes for these processes are Cluster_17139, encoding a C-type lectin domain containing 16 A (CLEC16A) protein, and Cluster_45858, encoding afadin- and alpha-actinin-binding protein B, both of which were upregulated in response to M. sorghi . When the two cultivars were compared, processes associated with the ‘innate immune response’, ‘regulation of histone H3-K9 methylation’ and ‘signal peptide processing’ were enriched (Fig. 4 ). The genes Cluster_10338 and Cluster_5506, annotated as phytosulfokine receptor 2 and E3 ubiquitin-protein ligase BRE1-like 2, respectively, were representative of the ‘innate immune response’ process and were upregulated in IACSP95-5000 infested with aviruliferous aphids."
+          },
+          {
+            "id": "Par59",
+            "text": "Fig. 4 REVIGO TreeMap showing enriched Gene Ontology terms in differentially expressed genes between SP71-6163 and IACSP95-5000 under control, aviruliferous aphid, and viruliferous aphid conditions. Similar terms are grouped and colored accordingly"
+          },
+          {
+            "id": "",
+            "text": "REVIGO TreeMap showing enriched Gene Ontology terms in differentially expressed genes between SP71-6163 and IACSP95-5000 under control, aviruliferous aphid, and viruliferous aphid conditions. Similar terms are grouped and colored accordingly"
+          },
+          {
+            "id": "Par60",
+            "text": "Differences were also clear when the response of the two cultivars to viruliferous aphids was analyzed. In SP71-6163, the ‘methionine biosynthetic process’ and ‘methylation’ categories were enriched (Figure S3). In IACSP95-5000, processes associated with the biogenesis of ribosomes constituted a high proportion of enriched GO terms, along with others such as the biosynthesis of amylopectin (Figure S4). Ribosome biogenesis was apparently altered in IACSP95-5000 in response to SCYLV, with the downregulation of a 25S rRNA (cytosine-C(5))-methyltransferase gene (Cluster 21838), and amylopectin synthesis was also affected, with differential expression of soluble starch synthase (Cluster_1012). These two processes were also clearly represented when the two cultivars were compared, together with ‘photosynthetic acclimation’ and ‘vacuolar transmembrane transport’ (Fig. 4 )."
+          },
+          {
+            "id": "Par61",
+            "text": "In the comparison of IACSP95-5000 infested with aviruliferous and viruliferous aphids, several processes that were present in other comparisons also stood out. GO terms associated with ‘flavonoid transport from the endoplasmic reticulum to plant-type vacuole’, for example, were present in the comparisons between plants with viruliferous aphids and both the control and plants with aviruliferous aphids, with several DEGs identified in within-genotype comparisons also present in these comparisons. However, genes linked to these terms, such as Cluster_17139, were upregulated in response to M. sorghi alone and downregulated in response to SCYLV-viruliferous aphids. Notably, genes associated with the regulation of Rac protein signal transduction were upregulated in response to aviruliferous aphids but were not differentially expressed between the control plants and the plants infested with viruliferous aphids. Similarly, GO terms associated with the biogenesis of ribosomes and amylopectin biosynthesis were identified via comparisons of plants exposed to viruliferous aphids with both the controls and plants exposed to aviruliferous aphids."
+          },
+          {
+            "id": "Par62",
+            "text": "After additional filtering steps, TPM-normalized data from 85,685 genes were used to construct a gene coexpression network via WGCNA. The pairwise Pearson correlation coefficients were increased to a soft threshold with β = 7, corresponding to an R 2 of 0.798 and a mean connectivity of 536 (Figure S5). Using the UPGMA approach, 47 functional modules were defined in this network, with sizes ranging from 125 to 14,816 genes and an average size of 2,112 genes (Fig. 5 and Table S8). Additionally, the genes with the highest connectivity in each module were identified as hubs. Three genes identified as hubs in their modules were also identified as DEGs. These genes were Cluster_21034 in the darkorange module, annotated as an L-type lectin domain-containing receptor kinase; Cluster_140592 in the ivory module, annotated as histone H4; and Cluster_39399 in the violet module, annotated as autophagy-related protein 16 − 1."
+          },
+          {
+            "id": "Par63",
+            "text": "Fig. 5 Dendrogram of gene coexpression modules identified by WGCNA. Each color below the dendrogram corresponds to a distinct coexpression module"
+          },
+          {
+            "id": "",
+            "text": "Dendrogram of gene coexpression modules identified by WGCNA. Each color below the dendrogram corresponds to a distinct coexpression module"
+          },
+          {
+            "id": "Par64",
+            "text": "Some DEG sets were overrepresented in eight network modules, with some highly significant associations (Table S9). Notably, the three modules whose hub genes were also differentially expressed—darkorange, ivory, and violet—were among them. The most significant associations involved the modules darkorange, plum1 and violet, associated with comparisons including IACSP95-5000 infested with aviruliferous aphids, and magenta, associated with comparisons that included IACSP95-5000 infested with viruliferous aphids. These modules were enriched for various biological processes, as depicted in Figure S6. In the darkorange module, ‘regulation of DNA stability’ and ‘lipoxygenase pathway’ were the most prevalent categories. In the plum1 module, ‘regulation of glucose metabolic process’ and ‘flavonoid transport from endoplasmic reticulum to plant-type vacuole’ were predominant. In the violet module, ‘regulation of muscle cell differentiation’ and ‘protein urmylation’ were the most prevalent categories. In the magenta module, ‘shade avoidance’ and ‘copper ion transport’ were the most abundant. Other interesting processes enriched in other modules included ‘regulation of peroxidase activity’ and ‘regulation of ncRNA transcription’ in the ivory module and ‘regulation by virus of viral protein levels in host cell’ in the midnightblue module."
+          }
+        ],
+        "subsections": [
+          {
+            "id": "Sec11",
+            "title": "Viral isolation and aphid species identification",
+            "paragraphs": [
+              {
+                "id": "Par46",
+                "text": "The complete genome of the SCYLV isolate infecting the source of inoculum was obtained and pairwise-aligned with publicly available genomes of 101 SCYLV isolates. The genome of this new isolate, named BRA-SP1, was found to be most closely related to that of BR-06-Leaf, which originated from a sugarcane sample collected in 2018 in Brazil. Forty-one polymorphisms were detected between the genomes of BRA-SP1 and BR-06-Leaf, which presented 99.3% similarity. Recombination analyses indicated that thirteen isolates included in the alignment were potential recombinants (Table S1), and these were thus excluded from the subsequent phylogenetic analysis. A maximum likelihood tree was constructed with the remaining 89 aligned sequences via a general time reversible model with gamma-distributed invariant sites. The results indicated the existence of three well-supported major SCYLV clades, including all the isolates from Mauritius and Reunion (clade REU), a few isolates from Asia, the Americas and Papua New Guinea (clade CUB), and isolates from diverse locations (clade BRA). Isolate BRA-SP1 was positioned in clade BRA, close to other samples originating from Brazil (Fig. 1 )."
+              },
+              {
+                "id": "Par47",
+                "text": "Fig. 1 Maximum likelihood phylogenetic tree constructed using genome sequences of 89 sugarcane yellow leaf virus isolates, including BRA-SP1, used in the present study. Bootstrap support values (> 80%) are shown at branch nodes. Three major well-supported clades are color-coded: CUB (blue), REU (red), and BRA (yellow). Scale bar indicates 0.02 substitutions/site"
+              },
+              {
+                "id": "",
+                "text": "Maximum likelihood phylogenetic tree constructed using genome sequences of 89 sugarcane yellow leaf virus isolates, including BRA-SP1, used in the present study. Bootstrap support values (> 80%) are shown at branch nodes. Three major well-supported clades are color-coded: CUB (blue), REU (red), and BRA (yellow). Scale bar indicates 0.02 substitutions/site"
+              },
+              {
+                "id": "Par48",
+                "text": "A colony of aviruliferous Melanaphis sp. aphids collected from a sugarcane field was established, and a fragment of the EF1-α gene harboring five polymorphic sites was sequenced from a pool of five insects. The nucleotides observed at positions 296, 478, 637, 663, and 735 were Y, T, A, G, and C, respectively (Figure S1). These results match the EF1-α haplotype “H2c” described by Nibouche et al. [ 18 ]; thus, the colony was identified as M. sorghi ."
+              }
+            ]
+          },
+          {
+            "id": "Sec12",
+            "title": "Inoculation experiment",
+            "paragraphs": [
+              {
+                "id": "Par49",
+                "text": "Plants of the sugarcane cultivars SP71-6163 (SCYLV-susceptible) and IACSP95-5000 (SCYLV-tolerant) were exposed to M. sorghi aphids for varying periods to assess viral transmission. RT‒qPCR confirmed that SCYLV was not present in any plants exposed to aviruliferous aphids or plants not exposed to aphids, which were used as controls. The number and percentage of plants in which SCYLV was detected at different IAPs are summarized in Table S2. The virus was detected in SP71-6163 after as little as four hours of exposure to M. sorghi , showing that this aphid is capable of vectoring SCYLV in sugarcane under controlled conditions. The virus was detected in 100% of the plants of both cultivars after only 48 hours of exposure to M. sorghi ; thus, this IAP was chosen for subsequent RNA-Seq analysis. At this time point, the mean SCYLV relative quantification of SP71-6163 (0.0013) was significantly ( p = 0.03) greater than that of IACSP95-5000 (0.0003)."
+              }
+            ]
+          },
+          {
+            "id": "Sec13",
+            "title": "Transcriptome reference assembly and quantification",
+            "paragraphs": [
+              {
+                "id": "Par50",
+                "text": "The sequencing of the 18 RNA-Seq libraries yielded 1,023,617,499 paired-end reads; over 95% of these (961.2 million) could be attributed to the libraries, resulting in an average of 53.4 million reads per sample. After trimming, all reads presented an average Phred score ≥ 24, and 99.7% of them presented a Phred score ≥ 30 (Table S3)."
+              },
+              {
+                "id": "Par51",
+                "text": "In conjunction with these data, trimmed RNA-Seq data from leaf samples of twelve diverse Saccharum genotypes [ 56 ] were used to construct a new reference sugarcane transcriptome. Filtered reads were aligned to the allele-resolved genomes of the two main ancestral Saccharum species: S. spontaneum and S. officinarum . The numbers of assembled transcripts for the S. spontaneum haplotypes were (A) 33,969, (B) 33,913, (C) 33,576 and (D) 33,672. For S. officinarum , the quantities were as follows: (A) 34,993, (B) 34,081, (C) 33,832, (D) 32,513, (E) 31,720, (F) 30,280, (G) 29,124 and (H) 25,926. Reducing redundancies in the two references via CD-HIT resulted in 95,533 and 141,626 transcripts for S. spontaneum and S. officinarum , respectively. These two sets were then combined, yielding a final reference containing 206,426 transcripts with an N50 of 2,097 bases. Searches via BUSCO revealed that this reference included 99.3% and 98.4% of the conserved orthologs of eukaryotes and green plants, respectively (Table S4). A total of 43,291 of these transcripts, hereafter referred to as “genes”, could be annotated with Trinotate."
+              },
+              {
+                "id": "Par52",
+                "text": "On average, 89.4% of the reads from each RNA-Seq library generated in the present study were mapped to this reference (Table S3). The first two gene filtering steps, which were based on CPM values, resulted in the retention of 85,685 expressed genes. A multidimensional scaling analysis performed with these data is shown in Figure S2, where the proximity between replicates of each genotype and the biological condition is observed."
+              }
+            ]
+          },
+          {
+            "id": "Sec14",
+            "title": "Differential gene expression analyses",
+            "paragraphs": [
+              {
+                "id": "Par53",
+                "text": "After performing t tests, sets of genes to be excluded in each condition were obtained and combined according to the comparisons to be carried out in the DGE analyses. The quantities of genes excluded in each condition and in the union of sets, as well as the number of genes retained for each comparison, can be found in Table S5. DGE analyses were performed for nine different comparisons. The number of DEGs identified in each group can be seen in Table 1 , which distinguishes upregulated (log 2 (FC)) > 1) and downregulated (log 2 (FC) < 1) genes, and in Fig. 2 , which shows intersections between DEG sets. Additionally, Table S6 presents a complete list of DEGs and associated information. The expression patterns of eight DEGs were validated through RT‒qPCR using GAPDH and Cluster_58111 as endogenous controls. Overall, strong and significant linear correlations between the CPM and ∆Cq values were observed, with R 2 values ranging from 0.56 to 0.92 (Fig. 3 )."
+              },
+              {
+                "id": "Par54",
+                "text": "Table 1 Number of up- and downregulated differentially expressed genes (DEGs). DEGs are reported for the second condition relative to the first Comparison Differentially expressed genes Upregulated Downregulated Total SP71-6163 NA vs. SP71-6163 AA 63 7 70 SP71-6163 NA vs. SP71-6163 VA 23 9 32 SP71-6163 AA vs. SP71-6163 VA 2 2 4 IACSP95-5000 NA vs. IACSP95-5000 AA 589 64 653 IACSP95-5000 NA vs. IACSP95-5000 VA 27 138 165 IACSP95-5000 AA vs. IACSP95-5000 VA 33 328 361 SP71-6163 NA vs. IACSP95-5000 NA 7 19 26 SP71-6163 AA vs. IACSP95-5000 AA 163 50 213 SP71-6163 VA vs. IACSP95-5000 VA 21 156 177 NA No aphids (control), AA Aviruliferous aphids, VA Viruliferous aphids"
+              },
+              {
+                "id": "",
+                "text": "Number of up- and downregulated differentially expressed genes (DEGs). DEGs are reported for the second condition relative to the first"
+              },
+              {
+                "id": "",
+                "text": "Comparison"
+              },
+              {
+                "id": "",
+                "text": "Differentially expressed genes"
+              },
+              {
+                "id": "",
+                "text": "Upregulated"
+              },
+              {
+                "id": "",
+                "text": "Downregulated"
+              },
+              {
+                "id": "",
+                "text": "Total"
+              },
+              {
+                "id": "",
+                "text": "SP71-6163 NA vs. SP71-6163 AA"
+              },
+              {
+                "id": "",
+                "text": "63"
+              },
+              {
+                "id": "",
+                "text": "7"
+              },
+              {
+                "id": "",
+                "text": "70"
+              },
+              {
+                "id": "",
+                "text": "SP71-6163 NA vs. SP71-6163 VA"
+              },
+              {
+                "id": "",
+                "text": "23"
+              },
+              {
+                "id": "",
+                "text": "9"
+              },
+              {
+                "id": "",
+                "text": "32"
+              },
+              {
+                "id": "",
+                "text": "SP71-6163 AA vs. SP71-6163 VA"
+              },
+              {
+                "id": "",
+                "text": "2"
+              },
+              {
+                "id": "",
+                "text": "2"
+              },
+              {
+                "id": "",
+                "text": "4"
+              },
+              {
+                "id": "",
+                "text": "IACSP95-5000 NA vs. IACSP95-5000 AA"
+              },
+              {
+                "id": "",
+                "text": "589"
+              },
+              {
+                "id": "",
+                "text": "64"
+              },
+              {
+                "id": "",
+                "text": "653"
+              },
+              {
+                "id": "",
+                "text": "IACSP95-5000 NA vs. IACSP95-5000 VA"
+              },
+              {
+                "id": "",
+                "text": "27"
+              },
+              {
+                "id": "",
+                "text": "138"
+              },
+              {
+                "id": "",
+                "text": "165"
+              },
+              {
+                "id": "",
+                "text": "IACSP95-5000 AA vs. IACSP95-5000 VA"
+              },
+              {
+                "id": "",
+                "text": "33"
+              },
+              {
+                "id": "",
+                "text": "328"
+              },
+              {
+                "id": "",
+                "text": "361"
+              },
+              {
+                "id": "",
+                "text": "SP71-6163 NA vs. IACSP95-5000 NA"
+              },
+              {
+                "id": "",
+                "text": "7"
+              },
+              {
+                "id": "",
+                "text": "19"
+              },
+              {
+                "id": "",
+                "text": "26"
+              },
+              {
+                "id": "",
+                "text": "SP71-6163 AA vs. IACSP95-5000 AA"
+              },
+              {
+                "id": "",
+                "text": "163"
+              },
+              {
+                "id": "",
+                "text": "50"
+              },
+              {
+                "id": "",
+                "text": "213"
+              },
+              {
+                "id": "",
+                "text": "SP71-6163 VA vs. IACSP95-5000 VA"
+              },
+              {
+                "id": "",
+                "text": "21"
+              },
+              {
+                "id": "",
+                "text": "156"
+              },
+              {
+                "id": "",
+                "text": "177"
+              },
+              {
+                "id": "",
+                "text": "NA No aphids (control), AA Aviruliferous aphids, VA Viruliferous aphids"
+              },
+              {
+                "id": "Par55",
+                "text": "Fig. 2 UpSet plot showing the intersections of differentially expressed gene (DEG) sets across cultivar and treatment comparisons. Horizontal bars show the total number of DEGs per comparison. Vertical bars indicate the size of shared DEG sets across the conditions connected by black dots below"
+              },
+              {
+                "id": "",
+                "text": "UpSet plot showing the intersections of differentially expressed gene (DEG) sets across cultivar and treatment comparisons. Horizontal bars show the total number of DEGs per comparison. Vertical bars indicate the size of shared DEG sets across the conditions connected by black dots below"
+              },
+              {
+                "id": "Par56",
+                "text": "Fig. 3 Correlation plots between counts per million (CPM) values obtained via RNA-Seq and ΔCq values obtained via RT-qPCR for nine differentially expressed genes. NA: no aphids (control), AA: aviruliferous aphids, VA: viruliferous aphids"
+              },
+              {
+                "id": "",
+                "text": "Correlation plots between counts per million (CPM) values obtained via RNA-Seq and ΔCq values obtained via RT-qPCR for nine differentially expressed genes. NA: no aphids (control), AA: aviruliferous aphids, VA: viruliferous aphids"
+              },
+              {
+                "id": "Par57",
+                "text": "The infestation by aviruliferous and viruliferous aphids led mostly to the upregulation of genes in the SCYLV-susceptible cultivar SP71-6163. Sixty-three genes were upregulated and 7 were downregulated in response to aviruliferous aphids, whereas 23 were upregulated and 9 were downregulated in response to viruliferous aphids. In the tolerant cultivar IACSP95-5000, infestation by aviruliferous aphids led mainly to gene upregulation, with 589 upregulated genes and 64 downregulated genes. However, infection by viruliferous aphids led to the downregulation of several genes, with 27 upregulated and 138 downregulated genes. These results were also clearly observed in the comparisons between the two cultivars, in which a low number of DEGs (26) were found in the control condition. Additionally, in both cultivars, the number of DEGs in the comparison between controls and plants with aviruliferous aphids (70 in SP71-6163 and 653 in IACSP95-5000) was much greater than that in the comparisons between controls and plants with viruliferous aphids (32 in SP71-6163 and 165 in IACSP95-5000)."
+              },
+              {
+                "id": "Par58",
+                "text": "A more detailed investigation of DEG annotations and the results of GO enrichment analyses further demonstrated the differences in the responses of each cultivar to both M. sorghi and SCYLV. REVIGO TreeMaps showing the biological processes predominating in each DEG set are shown in Figs. 3 , S3 and S4. In the response of SP71-6163 to aviruliferous aphids (Figure S3), terms associated with ‘ent-kaurene oxidation to kaurenoic acid’ and ‘negative regulation of transcription by RNA polymerase II’ were enriched. IACSP95-5000 seemed to activate more defense-specific pathways in response to M. sorghi . In this cultivar, two processes with a clear association with plant resistance to aphids were highly represented: the metabolism of flavonoids and the regulation of Rac protein signal transduction (Figure S4). The representative genes for these processes are Cluster_17139, encoding a C-type lectin domain containing 16 A (CLEC16A) protein, and Cluster_45858, encoding afadin- and alpha-actinin-binding protein B, both of which were upregulated in response to M. sorghi . When the two cultivars were compared, processes associated with the ‘innate immune response’, ‘regulation of histone H3-K9 methylation’ and ‘signal peptide processing’ were enriched (Fig. 4 ). The genes Cluster_10338 and Cluster_5506, annotated as phytosulfokine receptor 2 and E3 ubiquitin-protein ligase BRE1-like 2, respectively, were representative of the ‘innate immune response’ process and were upregulated in IACSP95-5000 infested with aviruliferous aphids."
+              },
+              {
+                "id": "Par59",
+                "text": "Fig. 4 REVIGO TreeMap showing enriched Gene Ontology terms in differentially expressed genes between SP71-6163 and IACSP95-5000 under control, aviruliferous aphid, and viruliferous aphid conditions. Similar terms are grouped and colored accordingly"
+              },
+              {
+                "id": "",
+                "text": "REVIGO TreeMap showing enriched Gene Ontology terms in differentially expressed genes between SP71-6163 and IACSP95-5000 under control, aviruliferous aphid, and viruliferous aphid conditions. Similar terms are grouped and colored accordingly"
+              },
+              {
+                "id": "Par60",
+                "text": "Differences were also clear when the response of the two cultivars to viruliferous aphids was analyzed. In SP71-6163, the ‘methionine biosynthetic process’ and ‘methylation’ categories were enriched (Figure S3). In IACSP95-5000, processes associated with the biogenesis of ribosomes constituted a high proportion of enriched GO terms, along with others such as the biosynthesis of amylopectin (Figure S4). Ribosome biogenesis was apparently altered in IACSP95-5000 in response to SCYLV, with the downregulation of a 25S rRNA (cytosine-C(5))-methyltransferase gene (Cluster 21838), and amylopectin synthesis was also affected, with differential expression of soluble starch synthase (Cluster_1012). These two processes were also clearly represented when the two cultivars were compared, together with ‘photosynthetic acclimation’ and ‘vacuolar transmembrane transport’ (Fig. 4 )."
+              },
+              {
+                "id": "Par61",
+                "text": "In the comparison of IACSP95-5000 infested with aviruliferous and viruliferous aphids, several processes that were present in other comparisons also stood out. GO terms associated with ‘flavonoid transport from the endoplasmic reticulum to plant-type vacuole’, for example, were present in the comparisons between plants with viruliferous aphids and both the control and plants with aviruliferous aphids, with several DEGs identified in within-genotype comparisons also present in these comparisons. However, genes linked to these terms, such as Cluster_17139, were upregulated in response to M. sorghi alone and downregulated in response to SCYLV-viruliferous aphids. Notably, genes associated with the regulation of Rac protein signal transduction were upregulated in response to aviruliferous aphids but were not differentially expressed between the control plants and the plants infested with viruliferous aphids. Similarly, GO terms associated with the biogenesis of ribosomes and amylopectin biosynthesis were identified via comparisons of plants exposed to viruliferous aphids with both the controls and plants exposed to aviruliferous aphids."
+              }
+            ]
+          },
+          {
+            "id": "Sec15",
+            "title": "Gene coexpression network analyses",
+            "paragraphs": [
+              {
+                "id": "Par62",
+                "text": "After additional filtering steps, TPM-normalized data from 85,685 genes were used to construct a gene coexpression network via WGCNA. The pairwise Pearson correlation coefficients were increased to a soft threshold with β = 7, corresponding to an R 2 of 0.798 and a mean connectivity of 536 (Figure S5). Using the UPGMA approach, 47 functional modules were defined in this network, with sizes ranging from 125 to 14,816 genes and an average size of 2,112 genes (Fig. 5 and Table S8). Additionally, the genes with the highest connectivity in each module were identified as hubs. Three genes identified as hubs in their modules were also identified as DEGs. These genes were Cluster_21034 in the darkorange module, annotated as an L-type lectin domain-containing receptor kinase; Cluster_140592 in the ivory module, annotated as histone H4; and Cluster_39399 in the violet module, annotated as autophagy-related protein 16 − 1."
+              },
+              {
+                "id": "Par63",
+                "text": "Fig. 5 Dendrogram of gene coexpression modules identified by WGCNA. Each color below the dendrogram corresponds to a distinct coexpression module"
+              },
+              {
+                "id": "",
+                "text": "Dendrogram of gene coexpression modules identified by WGCNA. Each color below the dendrogram corresponds to a distinct coexpression module"
+              },
+              {
+                "id": "Par64",
+                "text": "Some DEG sets were overrepresented in eight network modules, with some highly significant associations (Table S9). Notably, the three modules whose hub genes were also differentially expressed—darkorange, ivory, and violet—were among them. The most significant associations involved the modules darkorange, plum1 and violet, associated with comparisons including IACSP95-5000 infested with aviruliferous aphids, and magenta, associated with comparisons that included IACSP95-5000 infested with viruliferous aphids. These modules were enriched for various biological processes, as depicted in Figure S6. In the darkorange module, ‘regulation of DNA stability’ and ‘lipoxygenase pathway’ were the most prevalent categories. In the plum1 module, ‘regulation of glucose metabolic process’ and ‘flavonoid transport from endoplasmic reticulum to plant-type vacuole’ were predominant. In the violet module, ‘regulation of muscle cell differentiation’ and ‘protein urmylation’ were the most prevalent categories. In the magenta module, ‘shade avoidance’ and ‘copper ion transport’ were the most abundant. Other interesting processes enriched in other modules included ‘regulation of peroxidase activity’ and ‘regulation of ncRNA transcription’ in the ivory module and ‘regulation by virus of viral protein levels in host cell’ in the midnightblue module."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Sec11",
+        "title": "Viral isolation and aphid species identification",
+        "paragraphs": [
+          {
+            "id": "Par46",
+            "text": "The complete genome of the SCYLV isolate infecting the source of inoculum was obtained and pairwise-aligned with publicly available genomes of 101 SCYLV isolates. The genome of this new isolate, named BRA-SP1, was found to be most closely related to that of BR-06-Leaf, which originated from a sugarcane sample collected in 2018 in Brazil. Forty-one polymorphisms were detected between the genomes of BRA-SP1 and BR-06-Leaf, which presented 99.3% similarity. Recombination analyses indicated that thirteen isolates included in the alignment were potential recombinants (Table S1), and these were thus excluded from the subsequent phylogenetic analysis. A maximum likelihood tree was constructed with the remaining 89 aligned sequences via a general time reversible model with gamma-distributed invariant sites. The results indicated the existence of three well-supported major SCYLV clades, including all the isolates from Mauritius and Reunion (clade REU), a few isolates from Asia, the Americas and Papua New Guinea (clade CUB), and isolates from diverse locations (clade BRA). Isolate BRA-SP1 was positioned in clade BRA, close to other samples originating from Brazil (Fig. 1 )."
+          },
+          {
+            "id": "Par47",
+            "text": "Fig. 1 Maximum likelihood phylogenetic tree constructed using genome sequences of 89 sugarcane yellow leaf virus isolates, including BRA-SP1, used in the present study. Bootstrap support values (> 80%) are shown at branch nodes. Three major well-supported clades are color-coded: CUB (blue), REU (red), and BRA (yellow). Scale bar indicates 0.02 substitutions/site"
+          },
+          {
+            "id": "",
+            "text": "Maximum likelihood phylogenetic tree constructed using genome sequences of 89 sugarcane yellow leaf virus isolates, including BRA-SP1, used in the present study. Bootstrap support values (> 80%) are shown at branch nodes. Three major well-supported clades are color-coded: CUB (blue), REU (red), and BRA (yellow). Scale bar indicates 0.02 substitutions/site"
+          },
+          {
+            "id": "Par48",
+            "text": "A colony of aviruliferous Melanaphis sp. aphids collected from a sugarcane field was established, and a fragment of the EF1-α gene harboring five polymorphic sites was sequenced from a pool of five insects. The nucleotides observed at positions 296, 478, 637, 663, and 735 were Y, T, A, G, and C, respectively (Figure S1). These results match the EF1-α haplotype “H2c” described by Nibouche et al. [ 18 ]; thus, the colony was identified as M. sorghi ."
+          }
+        ]
+      },
+      {
+        "id": "Sec12",
+        "title": "Inoculation experiment",
+        "paragraphs": [
+          {
+            "id": "Par49",
+            "text": "Plants of the sugarcane cultivars SP71-6163 (SCYLV-susceptible) and IACSP95-5000 (SCYLV-tolerant) were exposed to M. sorghi aphids for varying periods to assess viral transmission. RT‒qPCR confirmed that SCYLV was not present in any plants exposed to aviruliferous aphids or plants not exposed to aphids, which were used as controls. The number and percentage of plants in which SCYLV was detected at different IAPs are summarized in Table S2. The virus was detected in SP71-6163 after as little as four hours of exposure to M. sorghi , showing that this aphid is capable of vectoring SCYLV in sugarcane under controlled conditions. The virus was detected in 100% of the plants of both cultivars after only 48 hours of exposure to M. sorghi ; thus, this IAP was chosen for subsequent RNA-Seq analysis. At this time point, the mean SCYLV relative quantification of SP71-6163 (0.0013) was significantly ( p = 0.03) greater than that of IACSP95-5000 (0.0003)."
+          }
+        ]
+      },
+      {
+        "id": "Sec13",
+        "title": "Transcriptome reference assembly and quantification",
+        "paragraphs": [
+          {
+            "id": "Par50",
+            "text": "The sequencing of the 18 RNA-Seq libraries yielded 1,023,617,499 paired-end reads; over 95% of these (961.2 million) could be attributed to the libraries, resulting in an average of 53.4 million reads per sample. After trimming, all reads presented an average Phred score ≥ 24, and 99.7% of them presented a Phred score ≥ 30 (Table S3)."
+          },
+          {
+            "id": "Par51",
+            "text": "In conjunction with these data, trimmed RNA-Seq data from leaf samples of twelve diverse Saccharum genotypes [ 56 ] were used to construct a new reference sugarcane transcriptome. Filtered reads were aligned to the allele-resolved genomes of the two main ancestral Saccharum species: S. spontaneum and S. officinarum . The numbers of assembled transcripts for the S. spontaneum haplotypes were (A) 33,969, (B) 33,913, (C) 33,576 and (D) 33,672. For S. officinarum , the quantities were as follows: (A) 34,993, (B) 34,081, (C) 33,832, (D) 32,513, (E) 31,720, (F) 30,280, (G) 29,124 and (H) 25,926. Reducing redundancies in the two references via CD-HIT resulted in 95,533 and 141,626 transcripts for S. spontaneum and S. officinarum , respectively. These two sets were then combined, yielding a final reference containing 206,426 transcripts with an N50 of 2,097 bases. Searches via BUSCO revealed that this reference included 99.3% and 98.4% of the conserved orthologs of eukaryotes and green plants, respectively (Table S4). A total of 43,291 of these transcripts, hereafter referred to as “genes”, could be annotated with Trinotate."
+          },
+          {
+            "id": "Par52",
+            "text": "On average, 89.4% of the reads from each RNA-Seq library generated in the present study were mapped to this reference (Table S3). The first two gene filtering steps, which were based on CPM values, resulted in the retention of 85,685 expressed genes. A multidimensional scaling analysis performed with these data is shown in Figure S2, where the proximity between replicates of each genotype and the biological condition is observed."
+          }
+        ]
+      },
+      {
+        "id": "Sec14",
+        "title": "Differential gene expression analyses",
+        "paragraphs": [
+          {
+            "id": "Par53",
+            "text": "After performing t tests, sets of genes to be excluded in each condition were obtained and combined according to the comparisons to be carried out in the DGE analyses. The quantities of genes excluded in each condition and in the union of sets, as well as the number of genes retained for each comparison, can be found in Table S5. DGE analyses were performed for nine different comparisons. The number of DEGs identified in each group can be seen in Table 1 , which distinguishes upregulated (log 2 (FC)) > 1) and downregulated (log 2 (FC) < 1) genes, and in Fig. 2 , which shows intersections between DEG sets. Additionally, Table S6 presents a complete list of DEGs and associated information. The expression patterns of eight DEGs were validated through RT‒qPCR using GAPDH and Cluster_58111 as endogenous controls. Overall, strong and significant linear correlations between the CPM and ∆Cq values were observed, with R 2 values ranging from 0.56 to 0.92 (Fig. 3 )."
+          },
+          {
+            "id": "Par54",
+            "text": "Table 1 Number of up- and downregulated differentially expressed genes (DEGs). DEGs are reported for the second condition relative to the first Comparison Differentially expressed genes Upregulated Downregulated Total SP71-6163 NA vs. SP71-6163 AA 63 7 70 SP71-6163 NA vs. SP71-6163 VA 23 9 32 SP71-6163 AA vs. SP71-6163 VA 2 2 4 IACSP95-5000 NA vs. IACSP95-5000 AA 589 64 653 IACSP95-5000 NA vs. IACSP95-5000 VA 27 138 165 IACSP95-5000 AA vs. IACSP95-5000 VA 33 328 361 SP71-6163 NA vs. IACSP95-5000 NA 7 19 26 SP71-6163 AA vs. IACSP95-5000 AA 163 50 213 SP71-6163 VA vs. IACSP95-5000 VA 21 156 177 NA No aphids (control), AA Aviruliferous aphids, VA Viruliferous aphids"
+          },
+          {
+            "id": "",
+            "text": "Number of up- and downregulated differentially expressed genes (DEGs). DEGs are reported for the second condition relative to the first"
+          },
+          {
+            "id": "",
+            "text": "Comparison"
+          },
+          {
+            "id": "",
+            "text": "Differentially expressed genes"
+          },
+          {
+            "id": "",
+            "text": "Upregulated"
+          },
+          {
+            "id": "",
+            "text": "Downregulated"
+          },
+          {
+            "id": "",
+            "text": "Total"
+          },
+          {
+            "id": "",
+            "text": "SP71-6163 NA vs. SP71-6163 AA"
+          },
+          {
+            "id": "",
+            "text": "63"
+          },
+          {
+            "id": "",
+            "text": "7"
+          },
+          {
+            "id": "",
+            "text": "70"
+          },
+          {
+            "id": "",
+            "text": "SP71-6163 NA vs. SP71-6163 VA"
+          },
+          {
+            "id": "",
+            "text": "23"
+          },
+          {
+            "id": "",
+            "text": "9"
+          },
+          {
+            "id": "",
+            "text": "32"
+          },
+          {
+            "id": "",
+            "text": "SP71-6163 AA vs. SP71-6163 VA"
+          },
+          {
+            "id": "",
+            "text": "2"
+          },
+          {
+            "id": "",
+            "text": "2"
+          },
+          {
+            "id": "",
+            "text": "4"
+          },
+          {
+            "id": "",
+            "text": "IACSP95-5000 NA vs. IACSP95-5000 AA"
+          },
+          {
+            "id": "",
+            "text": "589"
+          },
+          {
+            "id": "",
+            "text": "64"
+          },
+          {
+            "id": "",
+            "text": "653"
+          },
+          {
+            "id": "",
+            "text": "IACSP95-5000 NA vs. IACSP95-5000 VA"
+          },
+          {
+            "id": "",
+            "text": "27"
+          },
+          {
+            "id": "",
+            "text": "138"
+          },
+          {
+            "id": "",
+            "text": "165"
+          },
+          {
+            "id": "",
+            "text": "IACSP95-5000 AA vs. IACSP95-5000 VA"
+          },
+          {
+            "id": "",
+            "text": "33"
+          },
+          {
+            "id": "",
+            "text": "328"
+          },
+          {
+            "id": "",
+            "text": "361"
+          },
+          {
+            "id": "",
+            "text": "SP71-6163 NA vs. IACSP95-5000 NA"
+          },
+          {
+            "id": "",
+            "text": "7"
+          },
+          {
+            "id": "",
+            "text": "19"
+          },
+          {
+            "id": "",
+            "text": "26"
+          },
+          {
+            "id": "",
+            "text": "SP71-6163 AA vs. IACSP95-5000 AA"
+          },
+          {
+            "id": "",
+            "text": "163"
+          },
+          {
+            "id": "",
+            "text": "50"
+          },
+          {
+            "id": "",
+            "text": "213"
+          },
+          {
+            "id": "",
+            "text": "SP71-6163 VA vs. IACSP95-5000 VA"
+          },
+          {
+            "id": "",
+            "text": "21"
+          },
+          {
+            "id": "",
+            "text": "156"
+          },
+          {
+            "id": "",
+            "text": "177"
+          },
+          {
+            "id": "",
+            "text": "NA No aphids (control), AA Aviruliferous aphids, VA Viruliferous aphids"
+          },
+          {
+            "id": "Par55",
+            "text": "Fig. 2 UpSet plot showing the intersections of differentially expressed gene (DEG) sets across cultivar and treatment comparisons. Horizontal bars show the total number of DEGs per comparison. Vertical bars indicate the size of shared DEG sets across the conditions connected by black dots below"
+          },
+          {
+            "id": "",
+            "text": "UpSet plot showing the intersections of differentially expressed gene (DEG) sets across cultivar and treatment comparisons. Horizontal bars show the total number of DEGs per comparison. Vertical bars indicate the size of shared DEG sets across the conditions connected by black dots below"
+          },
+          {
+            "id": "Par56",
+            "text": "Fig. 3 Correlation plots between counts per million (CPM) values obtained via RNA-Seq and ΔCq values obtained via RT-qPCR for nine differentially expressed genes. NA: no aphids (control), AA: aviruliferous aphids, VA: viruliferous aphids"
+          },
+          {
+            "id": "",
+            "text": "Correlation plots between counts per million (CPM) values obtained via RNA-Seq and ΔCq values obtained via RT-qPCR for nine differentially expressed genes. NA: no aphids (control), AA: aviruliferous aphids, VA: viruliferous aphids"
+          },
+          {
+            "id": "Par57",
+            "text": "The infestation by aviruliferous and viruliferous aphids led mostly to the upregulation of genes in the SCYLV-susceptible cultivar SP71-6163. Sixty-three genes were upregulated and 7 were downregulated in response to aviruliferous aphids, whereas 23 were upregulated and 9 were downregulated in response to viruliferous aphids. In the tolerant cultivar IACSP95-5000, infestation by aviruliferous aphids led mainly to gene upregulation, with 589 upregulated genes and 64 downregulated genes. However, infection by viruliferous aphids led to the downregulation of several genes, with 27 upregulated and 138 downregulated genes. These results were also clearly observed in the comparisons between the two cultivars, in which a low number of DEGs (26) were found in the control condition. Additionally, in both cultivars, the number of DEGs in the comparison between controls and plants with aviruliferous aphids (70 in SP71-6163 and 653 in IACSP95-5000) was much greater than that in the comparisons between controls and plants with viruliferous aphids (32 in SP71-6163 and 165 in IACSP95-5000)."
+          },
+          {
+            "id": "Par58",
+            "text": "A more detailed investigation of DEG annotations and the results of GO enrichment analyses further demonstrated the differences in the responses of each cultivar to both M. sorghi and SCYLV. REVIGO TreeMaps showing the biological processes predominating in each DEG set are shown in Figs. 3 , S3 and S4. In the response of SP71-6163 to aviruliferous aphids (Figure S3), terms associated with ‘ent-kaurene oxidation to kaurenoic acid’ and ‘negative regulation of transcription by RNA polymerase II’ were enriched. IACSP95-5000 seemed to activate more defense-specific pathways in response to M. sorghi . In this cultivar, two processes with a clear association with plant resistance to aphids were highly represented: the metabolism of flavonoids and the regulation of Rac protein signal transduction (Figure S4). The representative genes for these processes are Cluster_17139, encoding a C-type lectin domain containing 16 A (CLEC16A) protein, and Cluster_45858, encoding afadin- and alpha-actinin-binding protein B, both of which were upregulated in response to M. sorghi . When the two cultivars were compared, processes associated with the ‘innate immune response’, ‘regulation of histone H3-K9 methylation’ and ‘signal peptide processing’ were enriched (Fig. 4 ). The genes Cluster_10338 and Cluster_5506, annotated as phytosulfokine receptor 2 and E3 ubiquitin-protein ligase BRE1-like 2, respectively, were representative of the ‘innate immune response’ process and were upregulated in IACSP95-5000 infested with aviruliferous aphids."
+          },
+          {
+            "id": "Par59",
+            "text": "Fig. 4 REVIGO TreeMap showing enriched Gene Ontology terms in differentially expressed genes between SP71-6163 and IACSP95-5000 under control, aviruliferous aphid, and viruliferous aphid conditions. Similar terms are grouped and colored accordingly"
+          },
+          {
+            "id": "",
+            "text": "REVIGO TreeMap showing enriched Gene Ontology terms in differentially expressed genes between SP71-6163 and IACSP95-5000 under control, aviruliferous aphid, and viruliferous aphid conditions. Similar terms are grouped and colored accordingly"
+          },
+          {
+            "id": "Par60",
+            "text": "Differences were also clear when the response of the two cultivars to viruliferous aphids was analyzed. In SP71-6163, the ‘methionine biosynthetic process’ and ‘methylation’ categories were enriched (Figure S3). In IACSP95-5000, processes associated with the biogenesis of ribosomes constituted a high proportion of enriched GO terms, along with others such as the biosynthesis of amylopectin (Figure S4). Ribosome biogenesis was apparently altered in IACSP95-5000 in response to SCYLV, with the downregulation of a 25S rRNA (cytosine-C(5))-methyltransferase gene (Cluster 21838), and amylopectin synthesis was also affected, with differential expression of soluble starch synthase (Cluster_1012). These two processes were also clearly represented when the two cultivars were compared, together with ‘photosynthetic acclimation’ and ‘vacuolar transmembrane transport’ (Fig. 4 )."
+          },
+          {
+            "id": "Par61",
+            "text": "In the comparison of IACSP95-5000 infested with aviruliferous and viruliferous aphids, several processes that were present in other comparisons also stood out. GO terms associated with ‘flavonoid transport from the endoplasmic reticulum to plant-type vacuole’, for example, were present in the comparisons between plants with viruliferous aphids and both the control and plants with aviruliferous aphids, with several DEGs identified in within-genotype comparisons also present in these comparisons. However, genes linked to these terms, such as Cluster_17139, were upregulated in response to M. sorghi alone and downregulated in response to SCYLV-viruliferous aphids. Notably, genes associated with the regulation of Rac protein signal transduction were upregulated in response to aviruliferous aphids but were not differentially expressed between the control plants and the plants infested with viruliferous aphids. Similarly, GO terms associated with the biogenesis of ribosomes and amylopectin biosynthesis were identified via comparisons of plants exposed to viruliferous aphids with both the controls and plants exposed to aviruliferous aphids."
+          }
+        ]
+      },
+      {
+        "id": "Sec15",
+        "title": "Gene coexpression network analyses",
+        "paragraphs": [
+          {
+            "id": "Par62",
+            "text": "After additional filtering steps, TPM-normalized data from 85,685 genes were used to construct a gene coexpression network via WGCNA. The pairwise Pearson correlation coefficients were increased to a soft threshold with β = 7, corresponding to an R 2 of 0.798 and a mean connectivity of 536 (Figure S5). Using the UPGMA approach, 47 functional modules were defined in this network, with sizes ranging from 125 to 14,816 genes and an average size of 2,112 genes (Fig. 5 and Table S8). Additionally, the genes with the highest connectivity in each module were identified as hubs. Three genes identified as hubs in their modules were also identified as DEGs. These genes were Cluster_21034 in the darkorange module, annotated as an L-type lectin domain-containing receptor kinase; Cluster_140592 in the ivory module, annotated as histone H4; and Cluster_39399 in the violet module, annotated as autophagy-related protein 16 − 1."
+          },
+          {
+            "id": "Par63",
+            "text": "Fig. 5 Dendrogram of gene coexpression modules identified by WGCNA. Each color below the dendrogram corresponds to a distinct coexpression module"
+          },
+          {
+            "id": "",
+            "text": "Dendrogram of gene coexpression modules identified by WGCNA. Each color below the dendrogram corresponds to a distinct coexpression module"
+          },
+          {
+            "id": "Par64",
+            "text": "Some DEG sets were overrepresented in eight network modules, with some highly significant associations (Table S9). Notably, the three modules whose hub genes were also differentially expressed—darkorange, ivory, and violet—were among them. The most significant associations involved the modules darkorange, plum1 and violet, associated with comparisons including IACSP95-5000 infested with aviruliferous aphids, and magenta, associated with comparisons that included IACSP95-5000 infested with viruliferous aphids. These modules were enriched for various biological processes, as depicted in Figure S6. In the darkorange module, ‘regulation of DNA stability’ and ‘lipoxygenase pathway’ were the most prevalent categories. In the plum1 module, ‘regulation of glucose metabolic process’ and ‘flavonoid transport from endoplasmic reticulum to plant-type vacuole’ were predominant. In the violet module, ‘regulation of muscle cell differentiation’ and ‘protein urmylation’ were the most prevalent categories. In the magenta module, ‘shade avoidance’ and ‘copper ion transport’ were the most abundant. Other interesting processes enriched in other modules included ‘regulation of peroxidase activity’ and ‘regulation of ncRNA transcription’ in the ivory module and ‘regulation by virus of viral protein levels in host cell’ in the midnightblue module."
+          }
+        ]
+      },
+      {
+        "id": "Sec16",
+        "title": "Discussion",
+        "paragraphs": [
+          {
+            "id": "Par65",
+            "text": "In this study, M. sorghi was shown to be a vector of SCYLV in sugarcane. Until recently, this aphid species was considered restricted to Africa, but this view changed after the invasion of sorghum by the multilocus lineage (MLL)-F in the United States in 2013 [ 75 ]. Initially identified as M. sacchari [ 15 ], MLL-F was later identified by Nibouche et al. [ 16 ] as a lineage of M. sorghi. These authors also presented evidence that despite having a preference for sorghum, this species also infests sugarcane. Many previous studies that focused on Melanaphis spp. do not mention species identification methodologies and often reference M. sacchari , but others have supported the hypothesis that M. sorghi is responsible for recent aphid outbreaks in sorghum in the Americas [ 51 , 76 ]. Given the threat this aphid has posed in recent years, the evidence that it is capable of transmitting SCYLV is worrisome, especially given the potential detrimental effects of SCYLV on the host response to M. sorghi ."
+          },
+          {
+            "id": "Par66",
+            "text": "The DGE analysis performed here indicated that SCYLV-susceptible SP71-6163 has an incipient response to both SCYLV and M. sorghi , with very few genes activated or repressed in response to this virus and its vector. Its response to aviruliferous aphids led to the upregulation of Cluster_3551, encoding a leucine repeat-rich (LRR) receptor-like kinase that triggers plant innate immunity [ 77 ]. However, the functions of most DEGs identified in comparisons involving only SP71-6163 were overall not consistent with what is commonly described for plant transcriptomic responses to sucking insects, which usually include secondary metabolic processes, jasmonic and salicylic acid biosynthesis, and signal transduction [ 78 ], as well as those related to viruses, such as RNA silencing and other pathways related to plant host defense and stress responses [ 79 ]."
+          },
+          {
+            "id": "Par67",
+            "text": "However, some of these processes were clearly and differentially represented in the responses of SCYLV-tolerant IACSP95-5000. In addition to the upregulation of the LRR kinase-encoding gene Cluster_3551, plants of this cultivar exposed to the aviruliferous M. sorghi presented upregulation of genes associated with the biosynthesis of flavonoids, a class of chemically diverse secondary metabolites that are highly relevant in the defense of plants against insects [ 80 ]. Genes involved in flavonoid biosynthesis have been previously shown to be upregulated in sorghum infested with M. sacchari [ 81 , 82 ]. Here, genes encoding a CLEC16A protein (Cluster_17139), which has domains associated with intracellular membrane trafficking and the accumulation of flavonoids in plants [ 83 ], and a flavonoid 3’-monooxygenase (Cluster_78445), which is involved in the biosynthesis of these compounds, were upregulated in response to M. sorghi in IACSP95-5000. Similarly, the signaling of Rac proteins, a class of Rho GTPases, may be enhanced in IACSP95-5000 through the upregulation of afadin- and alpha-actinin-binding proteins observed in plants exposed to M. sorghi . These proteins are also linked to the production of reactive oxygen species and thus to plant responses to biotic stresses [ 84 ]. Indeed, a Rac protein has been demonstrated to improve the defense responses of cotton plants against the aphid Myzus persicae [ 85 ]."
+          },
+          {
+            "id": "Par68",
+            "text": "IACSP95-5000 also responded very differently to infection by SCYLV. Notably, infection with this virus seemed to lead to the regulation of genes linked to the biogenesis of ribosomes and the biosynthesis of amylopectin. A representative upregulated gene associated with the biogenesis of ribosomes is an rRNA methyltransferase, which participates in rRNA methylation, a process that optimizes ribosomal function [ 86 ]. In general, RNA viruses are known to induce heterogeneous ribosome production [ 87 ], and a higher expression of ribosomal protein genes in virus-infected plants has been reported in studies analyzing plant responses to SCYLV and to a Badnavirus [ 26 , 88 ]."
+          },
+          {
+            "id": "Par69",
+            "text": "The synthesis of amylopectin may also be affected by the modulation of the expression of starch synthase, an enzyme that plays a key role in the synthesis of this polysaccharide [ 89 ] and has even stronger links with infection by SCYLV. Amylopectin is the major component of starch, composing ca. 80% of this polymeric carbohydrate in sugarcane [ 90 , 91 ]. The most notorious effects of infection by SCYLV in sugarcane are related to the metabolism and transport of carbohydrates, one of which is the increased content of starch in the leaves, especially in tolerant or resistant varieties [ 7 , 85 , 92 ]. Thus, the differential regulation of genes affecting the synthesis of the main constituents of starch in response to SCYLV could be associated with its accumulation during infection."
+          },
+          {
+            "id": "Par70",
+            "text": "One of the most notable results observed here was the fewer DEGs identified in both sugarcane cultivars exposed to viruliferous aphids than in those exposed to aviruliferous aphids; this is an indication that infection by SCYLV has a suppressive effect on a plant’s response to its vector, an occurrence that has been observed in other members of the Polerovirus genus, including PLRV and turnip yellows virus (TuYV) [ 93 , 94 ]. Krieger et al. [ 94 ] recently demonstrated that TuYV has a suppressive effect on the defense mechanisms of Arabidopsis thaliana against M. persicae to increase its transmission efficiency. A similar phenomenon may occur in the sugarcane- M. sorghi -SCYLV system, in which the virus seemingly suppresses the activation of pathways leading to the biosynthesis of compounds that would otherwise be upregulated in response to the aphid alone."
+          },
+          {
+            "id": "Par71",
+            "text": "Additionally, a gene coexpression network revealed broader biological processes associated with sugarcane responses to M. sorghi and SCYLV. The darkorange module had an overrepresentation of DEGs from comparisons involving IACSP-95–5000 infested with aviruliferous aphids, among which was the top hub of this module. This gene encodes an L-type lectin domain-containing receptor kinase, a class of protein that has been shown to act as an immune receptor in plants and activate downstream defense pathways [ 95 ]. The recognition of attack by M. sorghi by such a kinase could lead to the activation of defense-related processes such as the lipoxygenase pathway, which was enriched in the darkorange module. Lipoxygenases are a family of enzymes with diverse biological roles, including the response to biotic and abiotic stresses. Some lipoxygenases are differentially expressed in sorghum in response to M. sacchari feeding [ 96 ], so their involvement in the response of sugarcane to M. sorghi is biologically plausible."
+          },
+          {
+            "id": "Par72",
+            "text": "A similar scenario was observed for the violet module, which also had an overrepresentation of DEGs associated with IACSP-95–5000 infested with aviruliferous aphids, including the top hub of the module. This gene encodes an autophagy-related protein, a class of proteins that modulates cell death in plants under biotic stresses, including aphid feeding [ 97 ]. Consistent with this finding, the violet module was enriched with several biological processes linked with autophagy, such as cell killing and protein catabolism, which may be enhanced in IACSP95-5000 in response to M. sorghi . Crucially, the hubs of the violet and darkorange modules were not differentially expressed in response to viruliferous aphids, reinforcing the hypothesis that SCYLV disrupted the associated immune responses."
+          },
+          {
+            "id": "Par73",
+            "text": "The plum1 module, which also showed high overrepresentation of DEGs identified in comparisons involving IACSP95-5000 infested with aviruliferous aphids, is also worthy of further discussion. In addition to the terms associated with flavonoid transport, whose role in response to aphids has been discussed, this module was enriched with terms linked with the metabolism of glucose. In sorghum, M. sacchari feeding affects the content of saccharides and increases the content of glucose, which has also been correlated with increased damage caused by this aphid [ 98 , 99 ]. Finally, the midnightblue module, which was associated with comparisons involving IACSP95-5000 infested with viruliferous aphids, was enriched with ‘regulation by virus of viral protein levels in host cell’ terms, which can be linked to the plant response to SCYLV. These results revealed further potential effects of M. sorghi feeding and infection with SCYLV that were not captured in the DGE analysis alone, demonstrating the ability of gene coexpression network methodologies to expand the scope of transcriptomic analyses."
+          },
+          {
+            "id": "Par74",
+            "text": "The potential of SCYLV to affect the host response to M. sorghi highlights the need for further investigations on the incidence of SCYLV in both this aphid and in the crops it infests, which could exacerbate the direct damage the aphid inflicts. Research on the percentage of Melanaphis spp. aphids carrying SCYLV has never been carried out on any crop. Studies analyzing aphids vectoring other poleroviruses have revealed incidences of up to 100% [ 100 , 101 ]. SCYLV is often highly prevalent in commercial sugarcane fields [ 102 , 103 – 104 ] and could serve as an inoculum source for sorghum fields, where the incidence of this virus has thus far been shown to be relatively low [ 105 , 106 ]. Recent research has shown that the behavior and biology of M. sacchari feeding on different SCYLV-infected sugarcane cultivars differ [ 23 ]. Building on this, it would be valuable to evaluate M. sorghi performance on SCYLV-infected and virus-free plants to assess how viral infection alters their fitness and feeding efficiency. Future studies should include life-table analyses and electrical penetration graph assays, which will help clarify how potential changes in vector biology contribute to SCYLV epidemiology."
+          }
+        ]
+      },
+      {
+        "id": "Sec17",
+        "title": "Conclusions",
+        "paragraphs": [
+          {
+            "id": "Par75",
+            "text": "This study revealed that M. sorghi is capable of vectoring SCYLV, posing an additional threat to the crops currently impacted by this aphid. Moreover, these findings indicate that infection by SCYLV has a negative effect on plant defense responses to its vector, leading to shifts in the expression of genes involved in pathways modulated in response to feeding by M. sorghi . Contrasting responses were observed in a comparison between SCYLV-susceptible and SCYLV-tolerant sugarcane genotypes, indicating that susceptibility may result from a combination of ineffective responses to both SCYLV and M. sorghi . This highlights the need for further investigations on the impacts of SCYLV on its vectors and hosts and corresponding implications for virus epidemiology."
+          },
+          {
+            "id": "Par76",
+            "text": "While the DGE and coexpression network analysis presented here identified hub genes as potential key players in modulating SCYLV tolerance and aphid response, their causal roles remain to be confirmed. Virus-induced gene silencing or knockout of target genes in sugarcane, with subsequent assessment of aphid colonization, feeding behavior, and SCYLV accumulation, could determine whether down-regulation of these candidates compromises resistance. Conversely, their overexpression could indicate effects on susceptibility to SCYLV and aphid performance. These approaches will be critical to establish definitive the role of the identified genes in plant-vector-virus interactions."
+          }
+        ]
+      }
+    ],
+    "full_text": "Background Sugarcane ( Saccharum spp.) is a major sugar and energy crop in tropical regions of the world, accounting for nearly 80% of the global production of sugar [ 1 ]. The yield of this crop is affected by several diseases, including yellow leaf disease (YLD), which is recognized mainly by the yellowing of abaxial leaf midribs of mature plants [ 2 , 3 ]. This disease is caused by sugarcane yellow leaf virus (SCYLV), a positive-sense ssRNA virus belonging to the species Polerovirus SCYLV of the Solemoviridae family [ 4 ] present in all sugarcane-growing regions of the world [ 5 ]. This virus is known to affect photosynthesis efficiency as well as the metabolism and transport of carbohydrates [ 6 , 7 – 8 ]; this impairs growth and leads to substantial reductions in sugar productivity and tonnage, which reflect yield losses of up to 37% [ 8 , 9 – 10 ]. SCYLV is transmitted in a persistent, circulative and nonpropagative manner by several aphid species, among which the sugarcane aphid Melanaphis sacchari (Zehntner, 1897) is considered the most relevant [ 11 ]. M. sacchari is capable of reproducing via apomictic parthenogenesis and is widely distributed throughout the world [ 12 ]. In sugarcane, economic losses caused by M. sacchari are usually not concerning, and the species is mostly regarded as an important vector of viruses [ 13 , 14 ]. In the last decade, a ‘superclone’ of a closely related species, the sorghum aphid Melanaphis sorghi (Theobald, 1904), has emerged as a major pest of sorghum ( Sorghum bicolor ) in the Americas [ 15 , 16 ]. Although the transmission of SCYLV by M. sorghi has not been reported thus far, SCYLV has been detected in S. bicolor [ 17 , 18 ]. Knowledge of the molecular mechanisms that underlie the response of sugarcane to SCYLV is still lacking. Genetic mapping studies targeting SCYLV resistance have been performed but are limited by the highly complex sugarcane genome, phenotyping constraints, and the quantitative nature of this trait [ 19 , 20 ]. The ineffectiveness of the transmission of SCYLV by mechanical methods [ 11 ] has further restricted research on this virus, as it implies that data on resistance to SCYLV and its vectors are frequently intertwined. For example, a marker associated with resistance to SCLYV identified by association mapping was found to be linked to a lipoxygenase gene associated with aphid resistance [ 19 ]. Sugarcane resistance to aphids, which could help prevent infection by SCYLV, has been assessed at the phenotypic level (e.g [ 21 , 22 – 23 ]), but its genetic basis has not been investigated in this crop. RNA sequencing (RNA-Seq) has become a common method for investigating the mechanisms underlying biological phenomena. Research on sugarcane has contributed to the understanding of plant responses to pests and several pathogens, including viruses [ 24 , 25 ]. This type of analysis has not yet been undertaken for the feeding of sucking insects and has been performed for SCYLV infection only in a susceptible cultivar infested with aviruliferous and viruliferous M. sacchari [ 26 ]. Assessing the responses of genotypes with contrasting responses to SCYLV, as well as those of aphid-free plants, can help elucidate the molecular mechanisms underlying resistance to both aphids and viruses, as well as their interactions. In this study, the ability of M. sorghi to transmit SCYLV in sugarcane was demonstrated, with transmission rates reaching 100% after 48 hours of feeding. The transcriptomic responses of sugarcane to SCYLV and M. sorghi were subsequently investigated via RNA-Seq. Two sugarcane hybrid cultivars, one susceptible and one tolerant to SCYLV, were exposed to either aviruliferous or viruliferous aphids. Comparing the transcriptomes of these plants with those of aphid-free controls and building a weighted gene coexpression network provided insights into the early molecular responses of sugarcane to SCYLV and M. sorghi. Methods Plant material and virus isolation The study included utilized two Brazilian hybrid sugarcane cultivars, SP71-6163 and IACSP95-5000, identified and supplied by Dr. Silvana Creste from the Instituto Agronômico de Campinas’ Advanced Centre for Sugarcane Research and Development (IAC/ACSRD). Plant materials were maintained in vivo within the IAC/ACSRD germplasm bank. All field studies and the acquisition of plant material were conducted in accordance with local and national regulations, requiring no additional permissions or licenses. No voucher specimens were deposited. SP71-6163 is efficiently infected by SCYLV, develops severe symptoms of YLD and is strongly affected by the virus in terms of yield [ 2 , 27 ]; therefore, it was chosen as an SCYLV-susceptible genotype. Despite being a highly suitable host for M. sacchari and exhibiting SCYLV infection rates similar to those of SP71-6163 [ 23 , 27 ], IACSP95-5000 has not been reported to exhibit YLD symptoms or high yield losses (M.G.A. Landell, personal communication); for these reasons, this cultivar was selected as an SCYLV-tolerant genotype. Virus-free plants of the two cultivars were generated via meristem micropropagation at the IAC/ACSRD’s biofactory. Plants clonally propagated from an SCYLV-infected SP71-6163 plant in the IAC/ACSRD in Ribeirão Preto, Brazil [ 20 ], were used as a source of inoculum. Total RNA was extracted from the leaf of one plant following a protocol adapted from Kistner and Matamoros [ 28 ]. RNA was quantified on a NanoDrop 2000 spectrophotometer and subjected to electrophoresis on a 1% denaturing agarose gel stained with ethidium bromide for an integrity check. Reverse transcription (RT) was performed with the ImProm-II Reverse Transcription System Kit (Promega, Madison, USA). Phusion High-Fidelity PCR Master Mix (New England BioLabs, Ipswich, USA) was used to amplify overlapping fragments covering the complete SCYLV genome. The primers were designed via Primer3Plus v. 3.3.0 [ 29 ]; details are provided in Table S9. PCR products were sequenced on a 3500xL Genetic Analyzer (Applied Biosystems, Foster City, USA). Geneious Prime v. 7.1.3 software [ 30 ] was used for Sanger sequencing data handling and producing a de novo assembly of a contiguous complete genomic sequence. The complete genomes of 101 SCYLV isolates from 17 different countries, as well as the Potato leafroll virus (PLRV) reference genome [ 31 , 32 , 33 , 34 , 35 , 36 , 37 , 38 , 39 , 40 , 41 – 42 ], were retrieved from GenBank, pairwise-aligned via ClustalW v. 2.1 [ 43 ] and trimmed to the length of the shortest sequences. Pairwise Hamming distances [ 44 ] were calculated via UGENE v. 48.1 [ 45 ]. The presence of recombinants was determined via the Recombination Detection Program v. 5.33 (RDP5) [ 46 ] with seven different methods with default parameters: RDP, GENECONV, BOOTSCAN, MAXCHI, CHIMAERA, SISCAN and 3SEQ. Only recombination events detected by at least five methods and showing significant support with a Bonferroni-corrected p value cutoff of 0.05 were considered valid [ 47 ]. Recombinant isolates were removed for subsequent analyses, and MEGA11 v. 11.0.11 [ 48 ] was used to find the best-fit DNA/protein model based on the Bayesian information criterion (BIC) score. The model with the lowest BIC score was used to construct a maximum likelihood tree rooted by the PLRV genome via the same software using bootstrap procedures with 1,000 replicates, and the resulting tree was visualized with FigTree v. 1.4.4 218 software [ 49 ]. Aphid rearing and identification Melanaphis sp. aphids were obtained from a sugarcane field in Ribeirão Preto, Brazil, and reared on detached sugarcane leaf fragments in test tubes with 1% agar in a plant growth chamber. A colony of aviruliferous aphids was obtained by transferring individual adult aphids onto virus-free sugarcane leaves and transferring newborn nymphs to separate virus-free leaves. Colonies obtained were tested for the presence of SCYLV via RT‒PCR. For this purpose, RNA was extracted from pools of five aphids via TRIzol (Invitrogen, Carlsbad, USA), quantified on a NanoDrop spectrophotometer and converted into cDNA via the ImProm-II Reverse Transcription System Kit. cDNA was used for PCR diagnosis as described by Gonçalves et al. [ 50 ]. Prior to the inoculation experiments, a viruliferous colony was obtained by transferring aphids to SCYLV-infected SP71-6163 plants kept in aphid-proof cages. Aphids were allowed an acquisition access period of at least 48 hours. While M. sacchari is the most common Melanaphis species that infests sugarcane, M. sorghi has been recently reported in Brazil [ 16 , 51 ]. Thus, a molecular diagnostic marker was used to determine the species of the established colony. DNA was extracted from a pool of five aphids via a protocol adapted from Sunnucks and Hales [ 52 ]. The primers MelF2 (GTGCTTATTGTCGCTGCTGG) and MelR2 (TTGTCTCCGGGAACAGCTTC) were designed to amplify a fragment of the elongation factor 1-alpha ( EF1-α ) gene harboring five polymorphic sites, one of which can distinguish M. sacchari and M. sorghi [ 16 ]. PCR was performed using Phusion High-Fidelity PCR Master Mix and an annealing temperature of 60 °C. The PCR products were sequenced on a 3500xL Genetic Analyzer. Geneious Prime was used to handle sequences and analyze the nucleotides present at the polymorphic sites. Inoculation experiment and sample processing The inoculation experiment was performed in a plant growth chamber maintained at 30 °C under a 12-hour light/dark cycle; three biological replicates consisting of 11-month-old plants were used for each experimental condition. Clip cages were positioned on the median region of the top visible dewlap leaf of each plant, in which five viruliferous or aviruliferous adult aphids were placed; for aphid-free control plants, no aphids were used. After inoculation access periods (IAPs) of 4, 24–48 hours, aphids were removed, and whole leaves were collected and flash-frozen in liquid nitrogen. Total RNA was extracted from the ~ 10 cm leaf section around the clip cage placement site, quality was checked, and RT was performed as previously described. cDNA was used to confirm infection and estimate the SCYLV titer via a quantitative PCR (qPCR)-based relative quantification method detailed by Pimenta et al. [ 20 ]. The normality and variance of the viral quantification data were verified via Shapiro‒Wilk and F tests, respectively, and differences in quantification between genotypes were assessed via an unpaired t test in R software [ 53 ]. RNA from selected samples was used to prepare RNA-Seq libraries via the TruSeq Stranded mRNA Library Prep Kit (Illumina, San Diego, USA). A 2 × 150 bp paired-end sequencing library was prepared with the NovaSeq 6000 SP Reagent Kit v1.5 (Illumina, San Diego, USA) and sequenced in a NovaSeq 6000 instrument (Illumina, San Diego, USA). Reference transcriptome assembly and annotation In addition to the data generated for the samples from the present study, previously available RNA-Seq data were included in the analyses to contribute to the assembly of a representative transcriptomic reference and to the construction of a robust gene coexpression network. These consisted of data from leaf samples collected from twelve diverse Saccharum genotypes generated by Correr et al. [ 54 ]. The quality of all the RNA-Seq data was assessed via FastQC [ 55 ]. Trimmomatic v.0.39 [ 56 ] was used for read trimming, using a 5-bp sliding window with a minimum average Phred quality score of 20 and removing reads shorter than 75 bp. Filtered reads were aligned to the genomes of Saccharum officinarum (GenBank GCA_020631735.1) and Saccharum spontaneum (GenBank GCA_022457205.1) via STAR v. 2.7.3 [ 57 ]. These genomes are allele-resolved, and each haplotype was treated as a different reference. Thus, twelve different alignments were performed for each sample, representing the eight haplotypes of S. officinarum and the four of S. spontaneum . After comparative mapping, the resulting files were sorted based on their genomic positions via SAMtools v. 1.12 [ 58 ] and used to define twelve distinct transcriptomes via Stringtie v. 2.1.6 [ 59 ]. CD-HIT v. [ 60 ] was then used to reduce redundancies in the reference. This software was first used for the transcriptomes of each species to combine genes from individual haplotypes and subsequently to combine the transcriptomes generated for the two species. This final reference was evaluated with BUSCO v. 5.0.0 [ 61 ] via datasets of conserved orthologs from Eukaryota and Viridiplantae; it was then annotated with Trinotate v. 4.0.1 [ 62 ] by performing a homology search of sequences on UniProt release 2024_1 [ 63 ]. Differential gene expression analyses Transcript quantification was performed with Salmon v. 1.1.0 [ 64 ], using selective alignment and correcting for fragment-level GC bias. Resulting files were imported into R using tximport v. 1.26.1 [ 65 ] and converted to counts per million (CPM) using the edgeR package v. 3.40.2 [ 66 ]. Low-expressed genes (sum of CPMs < 3 in all samples of a treatment) were removed, followed by the exclusion of genes showing inconsistent expression across replicates, identified via paired t-tests across six sequencing lanes per treatment ( p < 0.05). DESeq2 v1.38.3 [ 67 ] was used for differential gene expression (DGE) analyses, applying thresholds of |log₂ fold change (FC)| ≥ 1 and false discovery rate (FDR)-adjusted p ≤ 0.05. Nine pairwise comparisons were performed across the two cultivars (SP71-6163 and IACSP95-5000) under three treatments (control, infested with aviruliferous aphids, and infested with viruliferous aphids). Overlaps between DEG sets were visualized using UpSetR [ 68 ], and Gene Ontology (GO) enrichment for each DEG set was tested with topGO v2.50.0 [ 69 ] using Fisher’s exact tests (α = 0.05). REVIGO v1.8.1 [ 70 ] was used to summarize and visualize enriched GO categories. Gene coexpression network A gene coexpression network was constructed using data generated in the present study as well as those from Correr et al. [ 54 ]. The quantification data were filtered to retain genes with a CPM ≥ 1 in all the samples from at least one treatment. The edgeR R package was used to normalize quantifications by transcripts per million (TPM), and the WGCNA R package v. 1.72.5 [ 71 ] was used to construct the gene coexpression network. Pairwise Pearson correlations of TPM values considering a power function fitting scale-free independence were used. A soft threshold value corresponding to an R 2 value of approximately 0.8 was used to approximate a scale-free topology model. The functional modules in the network were defined via unweighted pair group method with arithmetic mean (UPGMA) based on a topological overlap matrix and dynamic dendrogram pruning. Hubs, defined as the genes with the highest connectivity in each module, were identified with the dedicated WGCNA function. Fisher’s exact tests with an FDR correction with α = 0.05, performed in R, were used to verify whether the DEG sets identified in the DGE analyses were overrepresented in any of the modules of the network. GO enrichment analysis was performed on the genes included in these modules with topGO using Fisher’s tests with α = 0.05, and enriched GO terms were visualized with REVIGO. RT‒qPCR validation The RNA-Seq libraries were validated via RT‒qPCR. The primers used to amplify eight DEGs and one gene stably and highly expressed across all the samples were designed via Primer3Plus, with the parameters optimized for qPCR. Additionally, primers designed to amplify one common sugarcane control gene, glyceraldehyde-3-phosphate dehydrogenase ( GAPDH ) [ 72 ], were synthesized. The sequences of all the qPCR primers can be found in Table S11. cDNA was synthesized via the QuantiTect Reverse Transcription Kit (QIAGEN, Hilden, Germany). qPCR was performed via iTaq Universal SYBR Green Supermix (Bio-Rad, Philadelphia, USA) on a Bio-Rad CFX384 Touch detection system (Bio-Rad, Philadelphia, USA). The mean Cq values of the two endogenous controls were used to correct the DEG Cq values. All reactions were performed via three technical replicates. Linear models correlating the CPM and ∆Cq values were fitted and plotted in R via the ggplot2 [ 73 ] and ggpubr [ 74 ] packages. Results Viral isolation and aphid species identification The complete genome of the SCYLV isolate infecting the source of inoculum was obtained and pairwise-aligned with publicly available genomes of 101 SCYLV isolates. The genome of this new isolate, named BRA-SP1, was found to be most closely related to that of BR-06-Leaf, which originated from a sugarcane sample collected in 2018 in Brazil. Forty-one polymorphisms were detected between the genomes of BRA-SP1 and BR-06-Leaf, which presented 99.3% similarity. Recombination analyses indicated that thirteen isolates included in the alignment were potential recombinants (Table S1), and these were thus excluded from the subsequent phylogenetic analysis. A maximum likelihood tree was constructed with the remaining 89 aligned sequences via a general time reversible model with gamma-distributed invariant sites. The results indicated the existence of three well-supported major SCYLV clades, including all the isolates from Mauritius and Reunion (clade REU), a few isolates from Asia, the Americas and Papua New Guinea (clade CUB), and isolates from diverse locations (clade BRA). Isolate BRA-SP1 was positioned in clade BRA, close to other samples originating from Brazil (Fig. 1 ). Fig. 1 Maximum likelihood phylogenetic tree constructed using genome sequences of 89 sugarcane yellow leaf virus isolates, including BRA-SP1, used in the present study. Bootstrap support values (> 80%) are shown at branch nodes. Three major well-supported clades are color-coded: CUB (blue), REU (red), and BRA (yellow). Scale bar indicates 0.02 substitutions/site A colony of aviruliferous Melanaphis sp. aphids collected from a sugarcane field was established, and a fragment of the EF1-α gene harboring five polymorphic sites was sequenced from a pool of five insects. The nucleotides observed at positions 296, 478, 637, 663, and 735 were Y, T, A, G, and C, respectively (Figure S1). These results match the EF1-α haplotype “H2c” described by Nibouche et al. [ 18 ]; thus, the colony was identified as M. sorghi . Inoculation experiment Plants of the sugarcane cultivars SP71-6163 (SCYLV-susceptible) and IACSP95-5000 (SCYLV-tolerant) were exposed to M. sorghi aphids for varying periods to assess viral transmission. RT‒qPCR confirmed that SCYLV was not present in any plants exposed to aviruliferous aphids or plants not exposed to aphids, which were used as controls. The number and percentage of plants in which SCYLV was detected at different IAPs are summarized in Table S2. The virus was detected in SP71-6163 after as little as four hours of exposure to M. sorghi , showing that this aphid is capable of vectoring SCYLV in sugarcane under controlled conditions. The virus was detected in 100% of the plants of both cultivars after only 48 hours of exposure to M. sorghi ; thus, this IAP was chosen for subsequent RNA-Seq analysis. At this time point, the mean SCYLV relative quantification of SP71-6163 (0.0013) was significantly ( p = 0.03) greater than that of IACSP95-5000 (0.0003). Transcriptome reference assembly and quantification The sequencing of the 18 RNA-Seq libraries yielded 1,023,617,499 paired-end reads; over 95% of these (961.2 million) could be attributed to the libraries, resulting in an average of 53.4 million reads per sample. After trimming, all reads presented an average Phred score ≥ 24, and 99.7% of them presented a Phred score ≥ 30 (Table S3). In conjunction with these data, trimmed RNA-Seq data from leaf samples of twelve diverse Saccharum genotypes [ 56 ] were used to construct a new reference sugarcane transcriptome. Filtered reads were aligned to the allele-resolved genomes of the two main ancestral Saccharum species: S. spontaneum and S. officinarum . The numbers of assembled transcripts for the S. spontaneum haplotypes were (A) 33,969, (B) 33,913, (C) 33,576 and (D) 33,672. For S. officinarum , the quantities were as follows: (A) 34,993, (B) 34,081, (C) 33,832, (D) 32,513, (E) 31,720, (F) 30,280, (G) 29,124 and (H) 25,926. Reducing redundancies in the two references via CD-HIT resulted in 95,533 and 141,626 transcripts for S. spontaneum and S. officinarum , respectively. These two sets were then combined, yielding a final reference containing 206,426 transcripts with an N50 of 2,097 bases. Searches via BUSCO revealed that this reference included 99.3% and 98.4% of the conserved orthologs of eukaryotes and green plants, respectively (Table S4). A total of 43,291 of these transcripts, hereafter referred to as “genes”, could be annotated with Trinotate. On average, 89.4% of the reads from each RNA-Seq library generated in the present study were mapped to this reference (Table S3). The first two gene filtering steps, which were based on CPM values, resulted in the retention of 85,685 expressed genes. A multidimensional scaling analysis performed with these data is shown in Figure S2, where the proximity between replicates of each genotype and the biological condition is observed. Differential gene expression analyses After performing t tests, sets of genes to be excluded in each condition were obtained and combined according to the comparisons to be carried out in the DGE analyses. The quantities of genes excluded in each condition and in the union of sets, as well as the number of genes retained for each comparison, can be found in Table S5. DGE analyses were performed for nine different comparisons. The number of DEGs identified in each group can be seen in Table 1 , which distinguishes upregulated (log 2 (FC)) > 1) and downregulated (log 2 (FC) < 1) genes, and in Fig. 2 , which shows intersections between DEG sets. Additionally, Table S6 presents a complete list of DEGs and associated information. The expression patterns of eight DEGs were validated through RT‒qPCR using GAPDH and Cluster_58111 as endogenous controls. Overall, strong and significant linear correlations between the CPM and ∆Cq values were observed, with R 2 values ranging from 0.56 to 0.92 (Fig. 3 ). Table 1 Number of up- and downregulated differentially expressed genes (DEGs). DEGs are reported for the second condition relative to the first Comparison Differentially expressed genes Upregulated Downregulated Total SP71-6163 NA vs. SP71-6163 AA 63 7 70 SP71-6163 NA vs. SP71-6163 VA 23 9 32 SP71-6163 AA vs. SP71-6163 VA 2 2 4 IACSP95-5000 NA vs. IACSP95-5000 AA 589 64 653 IACSP95-5000 NA vs. IACSP95-5000 VA 27 138 165 IACSP95-5000 AA vs. IACSP95-5000 VA 33 328 361 SP71-6163 NA vs. IACSP95-5000 NA 7 19 26 SP71-6163 AA vs. IACSP95-5000 AA 163 50 213 SP71-6163 VA vs. IACSP95-5000 VA 21 156 177 NA No aphids (control), AA Aviruliferous aphids, VA Viruliferous aphids Fig. 2 UpSet plot showing the intersections of differentially expressed gene (DEG) sets across cultivar and treatment comparisons. Horizontal bars show the total number of DEGs per comparison. Vertical bars indicate the size of shared DEG sets across the conditions connected by black dots below Fig. 3 Correlation plots between counts per million (CPM) values obtained via RNA-Seq and ΔCq values obtained via RT-qPCR for nine differentially expressed genes. NA: no aphids (control), AA: aviruliferous aphids, VA: viruliferous aphids The infestation by aviruliferous and viruliferous aphids led mostly to the upregulation of genes in the SCYLV-susceptible cultivar SP71-6163. Sixty-three genes were upregulated and 7 were downregulated in response to aviruliferous aphids, whereas 23 were upregulated and 9 were downregulated in response to viruliferous aphids. In the tolerant cultivar IACSP95-5000, infestation by aviruliferous aphids led mainly to gene upregulation, with 589 upregulated genes and 64 downregulated genes. However, infection by viruliferous aphids led to the downregulation of several genes, with 27 upregulated and 138 downregulated genes. These results were also clearly observed in the comparisons between the two cultivars, in which a low number of DEGs (26) were found in the control condition. Additionally, in both cultivars, the number of DEGs in the comparison between controls and plants with aviruliferous aphids (70 in SP71-6163 and 653 in IACSP95-5000) was much greater than that in the comparisons between controls and plants with viruliferous aphids (32 in SP71-6163 and 165 in IACSP95-5000). A more detailed investigation of DEG annotations and the results of GO enrichment analyses further demonstrated the differences in the responses of each cultivar to both M. sorghi and SCYLV. REVIGO TreeMaps showing the biological processes predominating in each DEG set are shown in Figs. 3 , S3 and S4. In the response of SP71-6163 to aviruliferous aphids (Figure S3), terms associated with ‘ent-kaurene oxidation to kaurenoic acid’ and ‘negative regulation of transcription by RNA polymerase II’ were enriched. IACSP95-5000 seemed to activate more defense-specific pathways in response to M. sorghi . In this cultivar, two processes with a clear association with plant resistance to aphids were highly represented: the metabolism of flavonoids and the regulation of Rac protein signal transduction (Figure S4). The representative genes for these processes are Cluster_17139, encoding a C-type lectin domain containing 16 A (CLEC16A) protein, and Cluster_45858, encoding afadin- and alpha-actinin-binding protein B, both of which were upregulated in response to M. sorghi . When the two cultivars were compared, processes associated with the ‘innate immune response’, ‘regulation of histone H3-K9 methylation’ and ‘signal peptide processing’ were enriched (Fig. 4 ). The genes Cluster_10338 and Cluster_5506, annotated as phytosulfokine receptor 2 and E3 ubiquitin-protein ligase BRE1-like 2, respectively, were representative of the ‘innate immune response’ process and were upregulated in IACSP95-5000 infested with aviruliferous aphids. Fig. 4 REVIGO TreeMap showing enriched Gene Ontology terms in differentially expressed genes between SP71-6163 and IACSP95-5000 under control, aviruliferous aphid, and viruliferous aphid conditions. Similar terms are grouped and colored accordingly Differences were also clear when the response of the two cultivars to viruliferous aphids was analyzed. In SP71-6163, the ‘methionine biosynthetic process’ and ‘methylation’ categories were enriched (Figure S3). In IACSP95-5000, processes associated with the biogenesis of ribosomes constituted a high proportion of enriched GO terms, along with others such as the biosynthesis of amylopectin (Figure S4). Ribosome biogenesis was apparently altered in IACSP95-5000 in response to SCYLV, with the downregulation of a 25S rRNA (cytosine-C(5))-methyltransferase gene (Cluster 21838), and amylopectin synthesis was also affected, with differential expression of soluble starch synthase (Cluster_1012). These two processes were also clearly represented when the two cultivars were compared, together with ‘photosynthetic acclimation’ and ‘vacuolar transmembrane transport’ (Fig. 4 ). In the comparison of IACSP95-5000 infested with aviruliferous and viruliferous aphids, several processes that were present in other comparisons also stood out. GO terms associated with ‘flavonoid transport from the endoplasmic reticulum to plant-type vacuole’, for example, were present in the comparisons between plants with viruliferous aphids and both the control and plants with aviruliferous aphids, with several DEGs identified in within-genotype comparisons also present in these comparisons. However, genes linked to these terms, such as Cluster_17139, were upregulated in response to M. sorghi alone and downregulated in response to SCYLV-viruliferous aphids. Notably, genes associated with the regulation of Rac protein signal transduction were upregulated in response to aviruliferous aphids but were not differentially expressed between the control plants and the plants infested with viruliferous aphids. Similarly, GO terms associated with the biogenesis of ribosomes and amylopectin biosynthesis were identified via comparisons of plants exposed to viruliferous aphids with both the controls and plants exposed to aviruliferous aphids. Gene coexpression network analyses After additional filtering steps, TPM-normalized data from 85,685 genes were used to construct a gene coexpression network via WGCNA. The pairwise Pearson correlation coefficients were increased to a soft threshold with β = 7, corresponding to an R 2 of 0.798 and a mean connectivity of 536 (Figure S5). Using the UPGMA approach, 47 functional modules were defined in this network, with sizes ranging from 125 to 14,816 genes and an average size of 2,112 genes (Fig. 5 and Table S8). Additionally, the genes with the highest connectivity in each module were identified as hubs. Three genes identified as hubs in their modules were also identified as DEGs. These genes were Cluster_21034 in the darkorange module, annotated as an L-type lectin domain-containing receptor kinase; Cluster_140592 in the ivory module, annotated as histone H4; and Cluster_39399 in the violet module, annotated as autophagy-related protein 16 − 1. Fig. 5 Dendrogram of gene coexpression modules identified by WGCNA. Each color below the dendrogram corresponds to a distinct coexpression module Some DEG sets were overrepresented in eight network modules, with some highly significant associations (Table S9). Notably, the three modules whose hub genes were also differentially expressed—darkorange, ivory, and violet—were among them. The most significant associations involved the modules darkorange, plum1 and violet, associated with comparisons including IACSP95-5000 infested with aviruliferous aphids, and magenta, associated with comparisons that included IACSP95-5000 infested with viruliferous aphids. These modules were enriched for various biological processes, as depicted in Figure S6. In the darkorange module, ‘regulation of DNA stability’ and ‘lipoxygenase pathway’ were the most prevalent categories. In the plum1 module, ‘regulation of glucose metabolic process’ and ‘flavonoid transport from endoplasmic reticulum to plant-type vacuole’ were predominant. In the violet module, ‘regulation of muscle cell differentiation’ and ‘protein urmylation’ were the most prevalent categories. In the magenta module, ‘shade avoidance’ and ‘copper ion transport’ were the most abundant. Other interesting processes enriched in other modules included ‘regulation of peroxidase activity’ and ‘regulation of ncRNA transcription’ in the ivory module and ‘regulation by virus of viral protein levels in host cell’ in the midnightblue module. Discussion In this study, M. sorghi was shown to be a vector of SCYLV in sugarcane. Until recently, this aphid species was considered restricted to Africa, but this view changed after the invasion of sorghum by the multilocus lineage (MLL)-F in the United States in 2013 [ 75 ]. Initially identified as M. sacchari [ 15 ], MLL-F was later identified by Nibouche et al. [ 16 ] as a lineage of M. sorghi. These authors also presented evidence that despite having a preference for sorghum, this species also infests sugarcane. Many previous studies that focused on Melanaphis spp. do not mention species identification methodologies and often reference M. sacchari , but others have supported the hypothesis that M. sorghi is responsible for recent aphid outbreaks in sorghum in the Americas [ 51 , 76 ]. Given the threat this aphid has posed in recent years, the evidence that it is capable of transmitting SCYLV is worrisome, especially given the potential detrimental effects of SCYLV on the host response to M. sorghi . The DGE analysis performed here indicated that SCYLV-susceptible SP71-6163 has an incipient response to both SCYLV and M. sorghi , with very few genes activated or repressed in response to this virus and its vector. Its response to aviruliferous aphids led to the upregulation of Cluster_3551, encoding a leucine repeat-rich (LRR) receptor-like kinase that triggers plant innate immunity [ 77 ]. However, the functions of most DEGs identified in comparisons involving only SP71-6163 were overall not consistent with what is commonly described for plant transcriptomic responses to sucking insects, which usually include secondary metabolic processes, jasmonic and salicylic acid biosynthesis, and signal transduction [ 78 ], as well as those related to viruses, such as RNA silencing and other pathways related to plant host defense and stress responses [ 79 ]. However, some of these processes were clearly and differentially represented in the responses of SCYLV-tolerant IACSP95-5000. In addition to the upregulation of the LRR kinase-encoding gene Cluster_3551, plants of this cultivar exposed to the aviruliferous M. sorghi presented upregulation of genes associated with the biosynthesis of flavonoids, a class of chemically diverse secondary metabolites that are highly relevant in the defense of plants against insects [ 80 ]. Genes involved in flavonoid biosynthesis have been previously shown to be upregulated in sorghum infested with M. sacchari [ 81 , 82 ]. Here, genes encoding a CLEC16A protein (Cluster_17139), which has domains associated with intracellular membrane trafficking and the accumulation of flavonoids in plants [ 83 ], and a flavonoid 3’-monooxygenase (Cluster_78445), which is involved in the biosynthesis of these compounds, were upregulated in response to M. sorghi in IACSP95-5000. Similarly, the signaling of Rac proteins, a class of Rho GTPases, may be enhanced in IACSP95-5000 through the upregulation of afadin- and alpha-actinin-binding proteins observed in plants exposed to M. sorghi . These proteins are also linked to the production of reactive oxygen species and thus to plant responses to biotic stresses [ 84 ]. Indeed, a Rac protein has been demonstrated to improve the defense responses of cotton plants against the aphid Myzus persicae [ 85 ]. IACSP95-5000 also responded very differently to infection by SCYLV. Notably, infection with this virus seemed to lead to the regulation of genes linked to the biogenesis of ribosomes and the biosynthesis of amylopectin. A representative upregulated gene associated with the biogenesis of ribosomes is an rRNA methyltransferase, which participates in rRNA methylation, a process that optimizes ribosomal function [ 86 ]. In general, RNA viruses are known to induce heterogeneous ribosome production [ 87 ], and a higher expression of ribosomal protein genes in virus-infected plants has been reported in studies analyzing plant responses to SCYLV and to a Badnavirus [ 26 , 88 ]. The synthesis of amylopectin may also be affected by the modulation of the expression of starch synthase, an enzyme that plays a key role in the synthesis of this polysaccharide [ 89 ] and has even stronger links with infection by SCYLV. Amylopectin is the major component of starch, composing ca. 80% of this polymeric carbohydrate in sugarcane [ 90 , 91 ]. The most notorious effects of infection by SCYLV in sugarcane are related to the metabolism and transport of carbohydrates, one of which is the increased content of starch in the leaves, especially in tolerant or resistant varieties [ 7 , 85 , 92 ]. Thus, the differential regulation of genes affecting the synthesis of the main constituents of starch in response to SCYLV could be associated with its accumulation during infection. One of the most notable results observed here was the fewer DEGs identified in both sugarcane cultivars exposed to viruliferous aphids than in those exposed to aviruliferous aphids; this is an indication that infection by SCYLV has a suppressive effect on a plant’s response to its vector, an occurrence that has been observed in other members of the Polerovirus genus, including PLRV and turnip yellows virus (TuYV) [ 93 , 94 ]. Krieger et al. [ 94 ] recently demonstrated that TuYV has a suppressive effect on the defense mechanisms of Arabidopsis thaliana against M. persicae to increase its transmission efficiency. A similar phenomenon may occur in the sugarcane- M. sorghi -SCYLV system, in which the virus seemingly suppresses the activation of pathways leading to the biosynthesis of compounds that would otherwise be upregulated in response to the aphid alone. Additionally, a gene coexpression network revealed broader biological processes associated with sugarcane responses to M. sorghi and SCYLV. The darkorange module had an overrepresentation of DEGs from comparisons involving IACSP-95–5000 infested with aviruliferous aphids, among which was the top hub of this module. This gene encodes an L-type lectin domain-containing receptor kinase, a class of protein that has been shown to act as an immune receptor in plants and activate downstream defense pathways [ 95 ]. The recognition of attack by M. sorghi by such a kinase could lead to the activation of defense-related processes such as the lipoxygenase pathway, which was enriched in the darkorange module. Lipoxygenases are a family of enzymes with diverse biological roles, including the response to biotic and abiotic stresses. Some lipoxygenases are differentially expressed in sorghum in response to M. sacchari feeding [ 96 ], so their involvement in the response of sugarcane to M. sorghi is biologically plausible. A similar scenario was observed for the violet module, which also had an overrepresentation of DEGs associated with IACSP-95–5000 infested with aviruliferous aphids, including the top hub of the module. This gene encodes an autophagy-related protein, a class of proteins that modulates cell death in plants under biotic stresses, including aphid feeding [ 97 ]. Consistent with this finding, the violet module was enriched with several biological processes linked with autophagy, such as cell killing and protein catabolism, which may be enhanced in IACSP95-5000 in response to M. sorghi . Crucially, the hubs of the violet and darkorange modules were not differentially expressed in response to viruliferous aphids, reinforcing the hypothesis that SCYLV disrupted the associated immune responses. The plum1 module, which also showed high overrepresentation of DEGs identified in comparisons involving IACSP95-5000 infested with aviruliferous aphids, is also worthy of further discussion. In addition to the terms associated with flavonoid transport, whose role in response to aphids has been discussed, this module was enriched with terms linked with the metabolism of glucose. In sorghum, M. sacchari feeding affects the content of saccharides and increases the content of glucose, which has also been correlated with increased damage caused by this aphid [ 98 , 99 ]. Finally, the midnightblue module, which was associated with comparisons involving IACSP95-5000 infested with viruliferous aphids, was enriched with ‘regulation by virus of viral protein levels in host cell’ terms, which can be linked to the plant response to SCYLV. These results revealed further potential effects of M. sorghi feeding and infection with SCYLV that were not captured in the DGE analysis alone, demonstrating the ability of gene coexpression network methodologies to expand the scope of transcriptomic analyses. The potential of SCYLV to affect the host response to M. sorghi highlights the need for further investigations on the incidence of SCYLV in both this aphid and in the crops it infests, which could exacerbate the direct damage the aphid inflicts. Research on the percentage of Melanaphis spp. aphids carrying SCYLV has never been carried out on any crop. Studies analyzing aphids vectoring other poleroviruses have revealed incidences of up to 100% [ 100 , 101 ]. SCYLV is often highly prevalent in commercial sugarcane fields [ 102 , 103 – 104 ] and could serve as an inoculum source for sorghum fields, where the incidence of this virus has thus far been shown to be relatively low [ 105 , 106 ]. Recent research has shown that the behavior and biology of M. sacchari feeding on different SCYLV-infected sugarcane cultivars differ [ 23 ]. Building on this, it would be valuable to evaluate M. sorghi performance on SCYLV-infected and virus-free plants to assess how viral infection alters their fitness and feeding efficiency. Future studies should include life-table analyses and electrical penetration graph assays, which will help clarify how potential changes in vector biology contribute to SCYLV epidemiology. Conclusions This study revealed that M. sorghi is capable of vectoring SCYLV, posing an additional threat to the crops currently impacted by this aphid. Moreover, these findings indicate that infection by SCYLV has a negative effect on plant defense responses to its vector, leading to shifts in the expression of genes involved in pathways modulated in response to feeding by M. sorghi . Contrasting responses were observed in a comparison between SCYLV-susceptible and SCYLV-tolerant sugarcane genotypes, indicating that susceptibility may result from a combination of ineffective responses to both SCYLV and M. sorghi . This highlights the need for further investigations on the impacts of SCYLV on its vectors and hosts and corresponding implications for virus epidemiology. While the DGE and coexpression network analysis presented here identified hub genes as potential key players in modulating SCYLV tolerance and aphid response, their causal roles remain to be confirmed. Virus-induced gene silencing or knockout of target genes in sugarcane, with subsequent assessment of aphid colonization, feeding behavior, and SCYLV accumulation, could determine whether down-regulation of these candidates compromises resistance. Conversely, their overexpression could indicate effects on susceptibility to SCYLV and aphid performance. These approaches will be critical to establish definitive the role of the identified genes in plant-vector-virus interactions."
+  },
+  "references_count": 106
+}

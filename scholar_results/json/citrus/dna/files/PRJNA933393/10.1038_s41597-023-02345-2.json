@@ -1,0 +1,1081 @@
+{
+  "metadata": {
+    "extraction_timestamp": "2025-09-27T13:17:23.267256",
+    "article_type": "research-article",
+    "language": "en"
+  },
+  "publication_info": {
+    "journal": "Scientific Data",
+    "issn": "2052-4463",
+    "publisher": "Nature Publishing Group UK",
+    "doi": "10.1038/s41597-023-02345-2",
+    "volume": "10",
+    "issue": "1",
+    "publication_dates": {
+      "pub": "2023-07-21",
+      "collection": "2023-12"
+    }
+  },
+  "title": "Effects of Candidatus Liberibacter asiaticus infection on metagenome of Diaphorina citri gut endosymbiont",
+  "authors": [
+    {
+      "surname": "Pan",
+      "given_names": "Qi",
+      "full_name": "Qi Pan",
+      "email": "panqicric@163.com",
+      "is_corresponding": true,
+      "affiliation_refs": [
+        "Aff1"
+      ]
+    },
+    {
+      "surname": "Yu",
+      "given_names": "Shi-Jiang",
+      "full_name": "Shi-Jiang Yu",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff1"
+      ]
+    },
+    {
+      "surname": "Lei",
+      "given_names": "Shuang",
+      "full_name": "Shuang Lei",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff1"
+      ]
+    },
+    {
+      "surname": "Li",
+      "given_names": "Si-Chen",
+      "full_name": "Si-Chen Li",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff1"
+      ]
+    },
+    {
+      "surname": "Ding",
+      "given_names": "Li-Li",
+      "full_name": "Li-Li Ding",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff1"
+      ]
+    },
+    {
+      "surname": "Liu",
+      "given_names": "Liu",
+      "full_name": "Liu Liu",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff1"
+      ]
+    },
+    {
+      "surname": "Cheng",
+      "given_names": "Lu-Yan",
+      "full_name": "Lu-Yan Cheng",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff1"
+      ]
+    },
+    {
+      "surname": "Luo",
+      "given_names": "Ren",
+      "full_name": "Ren Luo",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff2"
+      ]
+    },
+    {
+      "surname": "Lei",
+      "given_names": "Cui-Yun",
+      "full_name": "Cui-Yun Lei",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff3"
+      ]
+    },
+    {
+      "surname": "Lou",
+      "given_names": "Bing-Hai",
+      "full_name": "Bing-Hai Lou",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff3"
+      ]
+    },
+    {
+      "surname": "Cong",
+      "given_names": "Lin",
+      "full_name": "Lin Cong",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff1"
+      ]
+    },
+    {
+      "surname": "Liu",
+      "given_names": "Hao-Qiang",
+      "full_name": "Hao-Qiang Liu",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff1"
+      ]
+    },
+    {
+      "surname": "Wang",
+      "given_names": "Xue-Feng",
+      "full_name": "Xue-Feng Wang",
+      "email": "wangxuefeng@cric.cn",
+      "is_corresponding": true,
+      "affiliation_refs": [
+        "Aff1"
+      ]
+    },
+    {
+      "surname": "Ran",
+      "given_names": "Chun",
+      "full_name": "Chun Ran",
+      "email": "ranchun@cric.cn",
+      "is_corresponding": true,
+      "affiliation_refs": [
+        "Aff1"
+      ]
+    }
+  ],
+  "affiliations": {
+    "Aff1": {
+      "institution": "Citrus Research Institute, Southwest University/Chinese Academy of Agricultural Sciences, National Engineering Research Center for Citrus",
+      "address": {
+        "city": "Chongqing",
+        "country": "China"
+      }
+    },
+    "Aff2": {
+      "institution": "Jianli Agriculture Technology Promotion Center",
+      "address": {
+        "city": "Jingzhou",
+        "state": "Hubei",
+        "country": "China"
+      }
+    },
+    "Aff3": {
+      "institution": "Guangxi Key Laboratory of Citrus Biology, Guangxi Academy of Specialty Crops",
+      "address": {
+        "city": "Guilin",
+        "state": "Guangxi",
+        "country": "P.R. China"
+      }
+    }
+  },
+  "abstract": {
+    "full_text": "Abstract Asian citrus psyllid ( Diaphorina citri , D. citri ) is the important vector of “ Candidatus Liberibacter asiaticus” ( C Las), associated with Huanglongbing, the most devastating citrus disease worldwide. C Las can affect endosymbiont abundance of D. citri . Here, we generated the high-quality gut endosymbiont metagenomes of Diaphorina citri on the condition of C Las infected and uninfected. The dataset comprised 6616.74 M and 6586.04 M raw reads, on overage, from C Las uninfected and infected psyllid strains, respectively. Taxonomic analysis revealed that a total of 1046 species were annotated with 10 Archaea, 733 Bacteria, 234 Eukaryota, and 69 Viruses. 80 unique genera in C Las infected D. citri were identified. DIAMOND software was used for complement function research against various functional databases, including Nr, KEGG, eggNOG, and CAZy, which annotated 84543 protein-coding genes. These datasets provided an avenue for further study of the interaction mechanism between C Las and D. citri ."
+  },
+  "keywords": [],
+  "funding": [
+    {
+      "source": "National Key R&D Program of China 2021YFD1400800 and 2018YFD0201500"
+    }
+  ],
+  "content": {
+    "sections": [
+      {
+        "id": "Sec1",
+        "title": "Background & Summary",
+        "paragraphs": [
+          {
+            "id": "Par2",
+            "text": "Huanglongbing (HLB) is the most destructive citrus disease around the world. Asian citrus psyllid (ACP), Diaphorina citri Kuwayama, is the important carrier of Candidatus Liberibacter asiaticus ( C Las), the causal agent of HLB. ACP has been found in many countries such as the Arabian Peninsula, Indian Subcontinent, South East and South West Asia, the USA, Central and South America, and the Indian Ocean islands of Mauritius and R´eunion 1 , 2 . C Las can infect many organs and tissues of ACP including the alimentary canal, hemolymph, hemocytes, muscle tissue, fat tissue, bacteriome, neural tissue, epidermis, reproductive organs, and salivary glands 2 , which affects not only the ACP’s physiological function, but also its endosymbiont communities 3 , 4 . However, it is little known about the relation between the change of endosymbiont communities and the physiological function alteration of ACP after being infected by C Las. Fig. 1 Flow chart used to process psyllid gut samples to get metagenomes. Fig. 2 Data preprocessing statistic map. Adapter: reads with adapters; Low Quality: low-quality reads; PolyA: number of reads containing polyA (%); N: single-ended reads containing more than 10% of N bases; Duplication: total length of the removed repeat reads sequence."
+          },
+          {
+            "id": "",
+            "text": "Flow chart used to process psyllid gut samples to get metagenomes."
+          },
+          {
+            "id": "",
+            "text": "Data preprocessing statistic map. Adapter: reads with adapters; Low Quality: low-quality reads; PolyA: number of reads containing polyA (%); N: single-ended reads containing more than 10% of N bases; Duplication: total length of the removed repeat reads sequence."
+          },
+          {
+            "id": "Par3",
+            "text": "Analysis of the change of endosymbiont communities is the basis for understanding the interaction between C Las and ACP. Recent studies have shown that three predominant endosymbionts including Candidatus Carsonella ruddii, Candidatus Profftella, and Wolbachia were harbored in ACP 5 , 6 . These endosymbionts play different roles in participating in the ACP’s physiological activities. For instance, Carsonella has been considered to be a nutritional provider and Profftella has been verified to be a defender because of producing diaphorin 6 , 7 . Wolbachia titer has been demonstrated to have a positive correlation with C Las titer 8 . However, the key function of Wolbachia in ACP remains unclear. Data of endosymbiont communities in ACP have been reported based on 16 S rRNA sequencing 9 , 10 . Despite bacteria communities of genus level can be verified by conserved regions analysis in 16 S rRNA hypervariable regions, detailed composition on endosymbiont at species level comprised of bacteria, archaea, and Eukaryota and function characteristics are still needed. High-throughput metagenome sequencing technology can provide new views from a nearly complete composition of endosymbiont communities 11 ."
+          },
+          {
+            "id": "Par4",
+            "text": "Here, we characterized two endosymbiont metagenomes from the ACP strains before and after infection by C Las, which were named C Las-free and C Las-infected, respectively. Sample information was presented in Table 1 . Raw data among 6175.81–7204.40 M were produced via metagenomic sequencing, in total. After filtration of the contaminated reads, clean data of six samples were between 6168.97 M and 7193.66 M. Comparatively, approximate 17.41–18.85 M data of microbiota from ACP were obtained using 16 s amplicon sequencing, suggesting that our data is more complete than the previous results 10 . Based on the metagenomes assembling, the number of scaffolds was separately distributed into 185390–196132 with 36.81–37.49% GC content in C Las-free and C Las-infected. The Q20 values and Q30 values were all above 96% and 90% respectively, and the N50 values were all above 1000 bp (Table 2 ). Table 3 generalized the overview of the composition of gut endosymbiont communities between C Las-free and C Las-infected and Table 4 summarized the gene number with function annotated after alignment in different functional databases. Figure 1 summarized the process of experiment.The endosymbiont orders with biomarkers were differed between the two groups, where Proteobacteria and Wolbachia pipientis were the most abundant in taxonomic phylum and species, respectively (Figs. 3 , 4 ). KEGG orthology groups (KOs) relating to the category of metabolism were the most abundant in the intestinal microbiota of C Las-free and C Las-infected D. citri , such as biosynthesis and metabolism of amino acid, cofactors, vitamins, and glycan (Fig. 5 ). Five categories including the metabolism of other amino acids, cofactors, and vitamins were enriched in C Las-free D. citri samples and thirteen categories including immune and nervous systems were enriched in C Las-infected D. citri samples, indicating that two different gut endosymbionts of D. citri had a distinct contribution for host function compensation (Fig. 6 ). These KOs were unevenly found in the metagenomic of the taxa. For instance, KOs belonging to the category of metabolism were enriched in the bacteria of Firmicutes and Proteobacteria and the Eukaryota of Ascomycotab (Fig. 7 ). Table 1 Sample information in this study. Sample Biome Feature Material Geographical location GeoPosition Protocol C Las-Free Insect gut HLB-free Gut tissue Guilin of Guangxi province, China 110.328611, 25.011667, 5 m Metagenome C Las-Infected Insect gut HLB-infected Gut tissue Guilin of Guangxi province, China 110.325470, 25.270744, 5 m Metagenome Table 2 Statistics of metagenomic sequencing data. Sample C Las-Free-1 C Las-Free-2 C Las-Free-3 C Las-Infected-1 C Las-Infected-2 C Las-Infected-3 RawData (M) 6847.57 6478.32 6524.33 7204.4 6377.92 6175.81 CleanData (M) 6831.02 6469.84 6517.59 7193.66 6370.68 6168.97 Q20 (%) 96.97 96.59 96.75 96.88 96.22 96.28 Q30 (%) 92.52 91.47 91.81 92.34 90.84 90.98 GC (%) 36.96 36.84 36.81 37.49 37.22 37.28 Total length (bp) 1.86E + 08 1.88E + 08 1.89E + 08 1.93E + 08 1.86E + 08 190367106 Number of scaffolds 187172 185390 185617 196132 187433 187492 Average length (bp) 991.18 1011.93 1019.24 985.79 990.54 1015.33 N50 (bp) 1022 1054 1067 1009 1016 1057 N90 (bp) 568 572 573 564 566 571 Largest length (bp) 27372 89417 34284 130775 130777 130774 Effective (%) 99.76 99.87 99.9 99.85 99.89 99.89 Table 3 Statistics of domain coverage of gene. Taxonomy Gene number (%) C Las-Free-1 C Las-Free-2 C Las-Free-3 C Las-Infected-1 C Las-Infected-2 C Las-Infected-3 Archaea 28 (0.01%) 28 (0.01%) 28 (0.01%) 28 (0.01%) 28 (0.01%) 28 (0.01%) Bacteria 6106 (2.98%) 6130 (3.01%) 6107 (3.01%) 18694 (8.50%) 7133 (3.45%) 7123 (3.47%) Eukaryota 4849 (2.37%) 4846 (2.38%) 4842 (2.38%) 4852 (2.21%) 4850 (2.35%) 4852 (2.36%) Viruses 231 (0.11%) 231 (0.11%) 232 (0.11%) 364 (0.17%) 234 (0.11%) 234 (0.11%) Others 193715 (94.53%) 192292 (94.48%) 191986 (94.48%) 195945 (89.11%) 194527 (94.08%) 192923 (94.04%) Table 4 Statistics of annotation data. Databases Numbers of genes annotated Nr 24,751 KEGG 27,445 eggNOG 30,443 CAZy 1,504 CARD 210 AROs 190 Fig. 3 The composition of microbiota at the phylum level. Taxonomic assignments of the 10 most abundant taxa are presented. Fig. 4 The composition of microbiota at species level. Taxonomic assignments of the 10 most abundant taxa are presented. Fig. 5 Hierarchically clustered heat map analysis of the highly represented KOs category of KEGG level 2. Fig. 6 LEfSe analysis of the category of KEGG level 2 that differ between HLB-free and HLB-infected D. citri . G1: HLB-free D. citri , G2: HLB-infected D. citri . Fig. 7 Heatmap of the distribution of KEGG. The horizontal axis represents 6 different kinds of KEGG, and the different colors of the vertical axis represent different endosymbiont taxonomic information."
+          },
+          {
+            "id": "",
+            "text": "Sample information in this study."
+          },
+          {
+            "id": "",
+            "text": "Sample"
+          },
+          {
+            "id": "",
+            "text": "Biome"
+          },
+          {
+            "id": "",
+            "text": "Feature"
+          },
+          {
+            "id": "",
+            "text": "Material"
+          },
+          {
+            "id": "",
+            "text": "Geographical location"
+          },
+          {
+            "id": "",
+            "text": "GeoPosition"
+          },
+          {
+            "id": "",
+            "text": "Protocol"
+          },
+          {
+            "id": "",
+            "text": "C Las-Free"
+          },
+          {
+            "id": "",
+            "text": "Insect gut"
+          },
+          {
+            "id": "",
+            "text": "HLB-free"
+          },
+          {
+            "id": "",
+            "text": "Gut tissue"
+          },
+          {
+            "id": "",
+            "text": "Guilin of Guangxi province, China"
+          },
+          {
+            "id": "",
+            "text": "110.328611, 25.011667, 5 m"
+          },
+          {
+            "id": "",
+            "text": "Metagenome"
+          },
+          {
+            "id": "",
+            "text": "C Las-Infected"
+          },
+          {
+            "id": "",
+            "text": "Insect gut"
+          },
+          {
+            "id": "",
+            "text": "HLB-infected"
+          },
+          {
+            "id": "",
+            "text": "Gut tissue"
+          },
+          {
+            "id": "",
+            "text": "Guilin of Guangxi province, China"
+          },
+          {
+            "id": "",
+            "text": "110.325470, 25.270744, 5 m"
+          },
+          {
+            "id": "",
+            "text": "Metagenome"
+          },
+          {
+            "id": "",
+            "text": "Statistics of metagenomic sequencing data."
+          },
+          {
+            "id": "",
+            "text": "Sample"
+          },
+          {
+            "id": "",
+            "text": "C Las-Free-1"
+          },
+          {
+            "id": "",
+            "text": "C Las-Free-2"
+          },
+          {
+            "id": "",
+            "text": "C Las-Free-3"
+          },
+          {
+            "id": "",
+            "text": "C Las-Infected-1"
+          },
+          {
+            "id": "",
+            "text": "C Las-Infected-2"
+          },
+          {
+            "id": "",
+            "text": "C Las-Infected-3"
+          },
+          {
+            "id": "",
+            "text": "RawData (M)"
+          },
+          {
+            "id": "",
+            "text": "6847.57"
+          },
+          {
+            "id": "",
+            "text": "6478.32"
+          },
+          {
+            "id": "",
+            "text": "6524.33"
+          },
+          {
+            "id": "",
+            "text": "7204.4"
+          },
+          {
+            "id": "",
+            "text": "6377.92"
+          },
+          {
+            "id": "",
+            "text": "6175.81"
+          },
+          {
+            "id": "",
+            "text": "CleanData (M)"
+          },
+          {
+            "id": "",
+            "text": "6831.02"
+          },
+          {
+            "id": "",
+            "text": "6469.84"
+          },
+          {
+            "id": "",
+            "text": "6517.59"
+          },
+          {
+            "id": "",
+            "text": "7193.66"
+          },
+          {
+            "id": "",
+            "text": "6370.68"
+          },
+          {
+            "id": "",
+            "text": "6168.97"
+          },
+          {
+            "id": "",
+            "text": "Q20 (%)"
+          },
+          {
+            "id": "",
+            "text": "96.97"
+          },
+          {
+            "id": "",
+            "text": "96.59"
+          },
+          {
+            "id": "",
+            "text": "96.75"
+          },
+          {
+            "id": "",
+            "text": "96.88"
+          },
+          {
+            "id": "",
+            "text": "96.22"
+          },
+          {
+            "id": "",
+            "text": "96.28"
+          },
+          {
+            "id": "",
+            "text": "Q30 (%)"
+          },
+          {
+            "id": "",
+            "text": "92.52"
+          },
+          {
+            "id": "",
+            "text": "91.47"
+          },
+          {
+            "id": "",
+            "text": "91.81"
+          },
+          {
+            "id": "",
+            "text": "92.34"
+          },
+          {
+            "id": "",
+            "text": "90.84"
+          },
+          {
+            "id": "",
+            "text": "90.98"
+          },
+          {
+            "id": "",
+            "text": "GC (%)"
+          },
+          {
+            "id": "",
+            "text": "36.96"
+          },
+          {
+            "id": "",
+            "text": "36.84"
+          },
+          {
+            "id": "",
+            "text": "36.81"
+          },
+          {
+            "id": "",
+            "text": "37.49"
+          },
+          {
+            "id": "",
+            "text": "37.22"
+          },
+          {
+            "id": "",
+            "text": "37.28"
+          },
+          {
+            "id": "",
+            "text": "Total length (bp)"
+          },
+          {
+            "id": "",
+            "text": "1.86E + 08"
+          },
+          {
+            "id": "",
+            "text": "1.88E + 08"
+          },
+          {
+            "id": "",
+            "text": "1.89E + 08"
+          },
+          {
+            "id": "",
+            "text": "1.93E + 08"
+          },
+          {
+            "id": "",
+            "text": "1.86E + 08"
+          },
+          {
+            "id": "",
+            "text": "190367106"
+          },
+          {
+            "id": "",
+            "text": "Number of scaffolds"
+          },
+          {
+            "id": "",
+            "text": "187172"
+          },
+          {
+            "id": "",
+            "text": "185390"
+          },
+          {
+            "id": "",
+            "text": "185617"
+          },
+          {
+            "id": "",
+            "text": "196132"
+          },
+          {
+            "id": "",
+            "text": "187433"
+          },
+          {
+            "id": "",
+            "text": "187492"
+          },
+          {
+            "id": "",
+            "text": "Average length (bp)"
+          },
+          {
+            "id": "",
+            "text": "991.18"
+          },
+          {
+            "id": "",
+            "text": "1011.93"
+          },
+          {
+            "id": "",
+            "text": "1019.24"
+          },
+          {
+            "id": "",
+            "text": "985.79"
+          },
+          {
+            "id": "",
+            "text": "990.54"
+          },
+          {
+            "id": "",
+            "text": "1015.33"
+          },
+          {
+            "id": "",
+            "text": "N50 (bp)"
+          },
+          {
+            "id": "",
+            "text": "1022"
+          },
+          {
+            "id": "",
+            "text": "1054"
+          },
+          {
+            "id": "",
+            "text": "1067"
+          },
+          {
+            "id": "",
+            "text": "1009"
+          },
+          {
+            "id": "",
+            "text": "1016"
+          },
+          {
+            "id": "",
+            "text": "1057"
+          },
+          {
+            "id": "",
+            "text": "N90 (bp)"
+          },
+          {
+            "id": "",
+            "text": "568"
+          },
+          {
+            "id": "",
+            "text": "572"
+          },
+          {
+            "id": "",
+            "text": "573"
+          },
+          {
+            "id": "",
+            "text": "564"
+          },
+          {
+            "id": "",
+            "text": "566"
+          },
+          {
+            "id": "",
+            "text": "571"
+          },
+          {
+            "id": "",
+            "text": "Largest length (bp)"
+          },
+          {
+            "id": "",
+            "text": "27372"
+          },
+          {
+            "id": "",
+            "text": "89417"
+          },
+          {
+            "id": "",
+            "text": "34284"
+          },
+          {
+            "id": "",
+            "text": "130775"
+          },
+          {
+            "id": "",
+            "text": "130777"
+          },
+          {
+            "id": "",
+            "text": "130774"
+          },
+          {
+            "id": "",
+            "text": "Effective (%)"
+          },
+          {
+            "id": "",
+            "text": "99.76"
+          },
+          {
+            "id": "",
+            "text": "99.87"
+          },
+          {
+            "id": "",
+            "text": "99.9"
+          },
+          {
+            "id": "",
+            "text": "99.85"
+          },
+          {
+            "id": "",
+            "text": "99.89"
+          },
+          {
+            "id": "",
+            "text": "99.89"
+          },
+          {
+            "id": "",
+            "text": "Statistics of domain coverage of gene."
+          },
+          {
+            "id": "",
+            "text": "Taxonomy"
+          },
+          {
+            "id": "",
+            "text": "Gene number (%)"
+          },
+          {
+            "id": "",
+            "text": "C Las-Free-1"
+          },
+          {
+            "id": "",
+            "text": "C Las-Free-2"
+          },
+          {
+            "id": "",
+            "text": "C Las-Free-3"
+          },
+          {
+            "id": "",
+            "text": "C Las-Infected-1"
+          },
+          {
+            "id": "",
+            "text": "C Las-Infected-2"
+          },
+          {
+            "id": "",
+            "text": "C Las-Infected-3"
+          },
+          {
+            "id": "",
+            "text": "Archaea"
+          },
+          {
+            "id": "",
+            "text": "28 (0.01%)"
+          },
+          {
+            "id": "",
+            "text": "28 (0.01%)"
+          },
+          {
+            "id": "",
+            "text": "28 (0.01%)"
+          },
+          {
+            "id": "",
+            "text": "28 (0.01%)"
+          },
+          {
+            "id": "",
+            "text": "28 (0.01%)"
+          },
+          {
+            "id": "",
+            "text": "28 (0.01%)"
+          },
+          {
+            "id": "",
+            "text": "Bacteria"
+          },
+          {
+            "id": "",
+            "text": "6106 (2.98%)"
+          },
+          {
+            "id": "",
+            "text": "6130 (3.01%)"
+          },
+          {
+            "id": "",
+            "text": "6107 (3.01%)"
+          },
+          {
+            "id": "",
+            "text": "18694 (8.50%)"
+          },
+          {
+            "id": "",
+            "text": "7133 (3.45%)"
+          },
+          {
+            "id": "",
+            "text": "7123 (3.47%)"
+          },
+          {
+            "id": "",
+            "text": "Eukaryota"
+          },
+          {
+            "id": "",
+            "text": "4849 (2.37%)"
+          },
+          {
+            "id": "",
+            "text": "4846 (2.38%)"
+          },
+          {
+            "id": "",
+            "text": "4842 (2.38%)"
+          },
+          {
+            "id": "",
+            "text": "4852 (2.21%)"
+          },
+          {
+            "id": "",
+            "text": "4850 (2.35%)"
+          },
+          {
+            "id": "",
+            "text": "4852 (2.36%)"
+          },
+          {
+            "id": "",
+            "text": "Viruses"
+          },
+          {
+            "id": "",
+            "text": "231 (0.11%)"
+          },
+          {
+            "id": "",
+            "text": "231 (0.11%)"
+          },
+          {
+            "id": "",
+            "text": "232 (0.11%)"
+          },
+          {
+            "id": "",
+            "text": "364 (0.17%)"
+          },
+          {
+            "id": "",
+            "text": "234 (0.11%)"
+          },
+          {
+            "id": "",
+            "text": "234 (0.11%)"
+          },
+          {
+            "id": "",
+            "text": "Others"
+          },
+          {
+            "id": "",
+            "text": "193715 (94.53%)"
+          },
+          {
+            "id": "",
+            "text": "192292 (94.48%)"
+          },
+          {
+            "id": "",
+            "text": "191986 (94.48%)"
+          },
+          {
+            "id": "",
+            "text": "195945 (89.11%)"
+          },
+          {
+            "id": "",
+            "text": "194527 (94.08%)"
+          },
+          {
+            "id": "",
+            "text": "192923 (94.04%)"
+          },
+          {
+            "id": "",
+            "text": "Statistics of annotation data."
+          },
+          {
+            "id": "",
+            "text": "Databases"
+          },
+          {
+            "id": "",
+            "text": "Numbers of genes annotated"
+          },
+          {
+            "id": "",
+            "text": "Nr"
+          },
+          {
+            "id": "",
+            "text": "24,751"
+          },
+          {
+            "id": "",
+            "text": "KEGG"
+          },
+          {
+            "id": "",
+            "text": "27,445"
+          },
+          {
+            "id": "",
+            "text": "eggNOG"
+          },
+          {
+            "id": "",
+            "text": "30,443"
+          },
+          {
+            "id": "",
+            "text": "CAZy"
+          },
+          {
+            "id": "",
+            "text": "1,504"
+          },
+          {
+            "id": "",
+            "text": "CARD"
+          },
+          {
+            "id": "",
+            "text": "210"
+          },
+          {
+            "id": "",
+            "text": "AROs"
+          },
+          {
+            "id": "",
+            "text": "190"
+          },
+          {
+            "id": "",
+            "text": "The composition of microbiota at the phylum level. Taxonomic assignments of the 10 most abundant taxa are presented."
+          },
+          {
+            "id": "",
+            "text": "The composition of microbiota at species level. Taxonomic assignments of the 10 most abundant taxa are presented."
+          },
+          {
+            "id": "",
+            "text": "Hierarchically clustered heat map analysis of the highly represented KOs category of KEGG level 2."
+          },
+          {
+            "id": "",
+            "text": "LEfSe analysis of the category of KEGG level 2 that differ between HLB-free and HLB-infected D. citri . G1: HLB-free D. citri , G2: HLB-infected D. citri ."
+          },
+          {
+            "id": "",
+            "text": "Heatmap of the distribution of KEGG. The horizontal axis represents 6 different kinds of KEGG, and the different colors of the vertical axis represent different endosymbiont taxonomic information."
+          },
+          {
+            "id": "Par5",
+            "text": "In summary, these metagenomic data offer compelling evidence on the composition and function of intestinal endosymbionts from D. citri , which not only give further comprehension for gut-associated endosymbionts and host insect coevolution under distinguished ecological niches but also open a new avenue to pest management."
+          }
+        ]
+      },
+      {
+        "id": "Sec2",
+        "title": "Methods",
+        "paragraphs": [
+          {
+            "id": "Par6",
+            "text": "Adult D. citri newly emerged (five days old) was initially harvested from Citrus Tachibana uninfected C Las in 2020 at Guangxi province, China, and was successively reared on Murraya paniculata at Guangxi Special Crops Research Institute for more than 15 generations. All cages and experimental treatment were maintained on the conditions of 27 ± 1 °C, 60–70% RH, and at 14:10 h of photoperiod. It was confirmed by PCR detection that D. citri did not carry C Las."
+          },
+          {
+            "id": "Par7",
+            "text": "A field population of D. citri newly emerged (five days old) infected C Las was collected from Guilin City, China, in 2022. Ninety adult psyllids from Citrus Tachibana infected C Las were randomly collected for calculating the infection rate. DNA extraction of one adult psyllid followed by Yu et al . 12 . with slight modifications. Briefly, genome DNA was extracted using the QIAGEN DNeasy Kit (QIAGEN, Hilden, Germany) according to the manufacturer’s instructions. Subsequently, HLB pathogen-specific primer set OI1/OI2c (forward primer 50-GCGCGTATGCAATACGAGCGGCA-30 and reverse primer 50-GCCTCGCGACTTCGCAACCCAT-30) were performed to amplify the target fragment. Afterward, the C Las infection rate was evaluated by agarose gel electrophoresis. When the C Las-infected proportion reached over 80%, D. citri was considered to be the C Las-infected population 12 ."
+          },
+          {
+            "id": "Par8",
+            "text": "To eliminate the host plant microbial endosymbionts contamination, a 6 h starvation treatment was necessary. For the metagenome sequencing, one hundred and fifty newly emerged (five days old) C Las-free and C Las-infected D. citri respectively were surface sterilized with 70% ethanol for 60 s and rinsed three times with sterile water 13 , with three biological replicates. Then all samples were dissected to obtain the intestinal tissue, which was homogenized with 200 ml sterile water, and frozen at - 80 °C before DNA extraction. The QIAGEN DNeasy Kit was used for microbial genomic DNA extraction. The DNA quality checking and concentrations quantification were performed by Agilent Bioanalyzer 2100 system. The high-quality DNA was sent to Novogene Company (Beijing, China) for metagenomics sequence analyses."
+          },
+          {
+            "id": "Par9",
+            "text": "NEBNext ® Ultra TM DNA Library Prep Kit for Illumina (NEB, USA) was used to construct the library. The genomic DNA was randomly sheared into short fragments which were end-repaired, A-tailed, and further ligated with an Illumina adapter. Then fragments with adapters were PCR amplified, size selected, and purified to complete library establishment. The library quality was checked with Qubit 2.0 Fluorometer (Thermo Fisher Scientific, Massachusetts, USA). Library quantification and size distribution detected by real-time PCR and bioanalyzer. Quantified libraries were pooled and sequenced on Illumina PE150 platforms, according to effective library concentration and data amount required."
+          },
+          {
+            "id": "Par10",
+            "text": "Readfq (V8, https://github.com/cjfields/readfq ) was used for preprocessing raw data from the Illumina sequencing platform to obtain clean data for subsequent analysis 14 . Then MEGAHIT software (v1.0.4-beta) was used for assembly analysis of clean data, and scaftigs without N were obtained by breaking the resulted scaffolds from the N junction 15 , 16 . MetaGeneMark (V3.05, http://topaz.gatech.edu/GeneMark/ ) was used to perform ORF prediction for Scaftigs (> = 500 bp) of each sample 14 , 17 , 18 . For the ORF prediction results, CD-HIT software (V4.5.8, http://www.bioinformatics.org/cd-hit/ ) was used to eliminate redundancy and obtain the non-redundant initial gene catalogue 19 . Clean data of each sample were aligned with the initial gene catalog using Bowtie2 (Bowtie2.2.4, http://bowtie-bio.sourceforge.net/bowtie2/index.shtml ) to calculate the number of reads of the genes on each sample alignment. The abundance of each gene in each sample was calculated based on the number of reads aligned and the length of gene 20 ."
+          },
+          {
+            "id": "Par11",
+            "text": "DIAMOND 21 (V0.9.9, https://github.com/bbuchfink/diamond/ ) was used for the alignment of unigenes sequences with those of bacteria, fungi, archaea, and viruses extracted from NCBI’s NR database (Version 2018-01-02, https://www.ncbi.nlm.nih.gov/ ), and LCA algorithm was adopted to determine the species annotation information of the sequence. Out of the results of the LCA annotation and gene abundance table, the abundance of each sample at each taxonomy and the corresponding gene abundance tables were acquired 14 , 18 , 22 . Based on the abundance tables at each taxonomy level, Krona analysis 23 , relative abundance overview, and abundance clustering heatmap were performed, combined with PCA 24 (R ade4 package, Version 3.2.1) and NMDS 25 (R vegan package, Version 2.15.3) analysis of dimension reduction. LEfSe analysis was used to search for species differences between groups 26 ."
+          },
+          {
+            "id": "Par12",
+            "text": "DIAMOND software was used to align unigenes with those in the functional database, including the KEGG database (Version 2018-01-01, http://www.kegg.jp/kegg/ ) 27 , 28 , eggNOG database (Version 4.5, http://eggnogdb.embl.de/#/app/home ) 29 , and CAZy database (Version 201801, http://www.cazy.org/ ) 30 . According to the alignment results, the relative abundance at different functional levels was calculated. Based on the abundance table at each taxonomy level, annotated genes statistics, relative abundance overview, and abundance clustering heat map were carried out, combined with PCA and NMDS analysis of dimension reduction, metabolic pathway comparative analysis, as well as Metastatic and LEfSe analysis on inter-group functional differences."
+          }
+        ],
+        "subsections": [
+          {
+            "id": "Sec3",
+            "title": "Psyllid sampling, tissue collection and DNA isolation",
+            "paragraphs": [
+              {
+                "id": "Par6",
+                "text": "Adult D. citri newly emerged (five days old) was initially harvested from Citrus Tachibana uninfected C Las in 2020 at Guangxi province, China, and was successively reared on Murraya paniculata at Guangxi Special Crops Research Institute for more than 15 generations. All cages and experimental treatment were maintained on the conditions of 27 ± 1 °C, 60–70% RH, and at 14:10 h of photoperiod. It was confirmed by PCR detection that D. citri did not carry C Las."
+              },
+              {
+                "id": "Par7",
+                "text": "A field population of D. citri newly emerged (five days old) infected C Las was collected from Guilin City, China, in 2022. Ninety adult psyllids from Citrus Tachibana infected C Las were randomly collected for calculating the infection rate. DNA extraction of one adult psyllid followed by Yu et al . 12 . with slight modifications. Briefly, genome DNA was extracted using the QIAGEN DNeasy Kit (QIAGEN, Hilden, Germany) according to the manufacturer’s instructions. Subsequently, HLB pathogen-specific primer set OI1/OI2c (forward primer 50-GCGCGTATGCAATACGAGCGGCA-30 and reverse primer 50-GCCTCGCGACTTCGCAACCCAT-30) were performed to amplify the target fragment. Afterward, the C Las infection rate was evaluated by agarose gel electrophoresis. When the C Las-infected proportion reached over 80%, D. citri was considered to be the C Las-infected population 12 ."
+              },
+              {
+                "id": "Par8",
+                "text": "To eliminate the host plant microbial endosymbionts contamination, a 6 h starvation treatment was necessary. For the metagenome sequencing, one hundred and fifty newly emerged (five days old) C Las-free and C Las-infected D. citri respectively were surface sterilized with 70% ethanol for 60 s and rinsed three times with sterile water 13 , with three biological replicates. Then all samples were dissected to obtain the intestinal tissue, which was homogenized with 200 ml sterile water, and frozen at - 80 °C before DNA extraction. The QIAGEN DNeasy Kit was used for microbial genomic DNA extraction. The DNA quality checking and concentrations quantification were performed by Agilent Bioanalyzer 2100 system. The high-quality DNA was sent to Novogene Company (Beijing, China) for metagenomics sequence analyses."
+              }
+            ]
+          },
+          {
+            "id": "Sec4",
+            "title": "Metagenome sequence",
+            "paragraphs": [
+              {
+                "id": "Par9",
+                "text": "NEBNext ® Ultra TM DNA Library Prep Kit for Illumina (NEB, USA) was used to construct the library. The genomic DNA was randomly sheared into short fragments which were end-repaired, A-tailed, and further ligated with an Illumina adapter. Then fragments with adapters were PCR amplified, size selected, and purified to complete library establishment. The library quality was checked with Qubit 2.0 Fluorometer (Thermo Fisher Scientific, Massachusetts, USA). Library quantification and size distribution detected by real-time PCR and bioanalyzer. Quantified libraries were pooled and sequenced on Illumina PE150 platforms, according to effective library concentration and data amount required."
+              },
+              {
+                "id": "Par10",
+                "text": "Readfq (V8, https://github.com/cjfields/readfq ) was used for preprocessing raw data from the Illumina sequencing platform to obtain clean data for subsequent analysis 14 . Then MEGAHIT software (v1.0.4-beta) was used for assembly analysis of clean data, and scaftigs without N were obtained by breaking the resulted scaffolds from the N junction 15 , 16 . MetaGeneMark (V3.05, http://topaz.gatech.edu/GeneMark/ ) was used to perform ORF prediction for Scaftigs (> = 500 bp) of each sample 14 , 17 , 18 . For the ORF prediction results, CD-HIT software (V4.5.8, http://www.bioinformatics.org/cd-hit/ ) was used to eliminate redundancy and obtain the non-redundant initial gene catalogue 19 . Clean data of each sample were aligned with the initial gene catalog using Bowtie2 (Bowtie2.2.4, http://bowtie-bio.sourceforge.net/bowtie2/index.shtml ) to calculate the number of reads of the genes on each sample alignment. The abundance of each gene in each sample was calculated based on the number of reads aligned and the length of gene 20 ."
+              }
+            ]
+          },
+          {
+            "id": "Sec5",
+            "title": "Metagenome annotation",
+            "paragraphs": [
+              {
+                "id": "Par11",
+                "text": "DIAMOND 21 (V0.9.9, https://github.com/bbuchfink/diamond/ ) was used for the alignment of unigenes sequences with those of bacteria, fungi, archaea, and viruses extracted from NCBI’s NR database (Version 2018-01-02, https://www.ncbi.nlm.nih.gov/ ), and LCA algorithm was adopted to determine the species annotation information of the sequence. Out of the results of the LCA annotation and gene abundance table, the abundance of each sample at each taxonomy and the corresponding gene abundance tables were acquired 14 , 18 , 22 . Based on the abundance tables at each taxonomy level, Krona analysis 23 , relative abundance overview, and abundance clustering heatmap were performed, combined with PCA 24 (R ade4 package, Version 3.2.1) and NMDS 25 (R vegan package, Version 2.15.3) analysis of dimension reduction. LEfSe analysis was used to search for species differences between groups 26 ."
+              },
+              {
+                "id": "Par12",
+                "text": "DIAMOND software was used to align unigenes with those in the functional database, including the KEGG database (Version 2018-01-01, http://www.kegg.jp/kegg/ ) 27 , 28 , eggNOG database (Version 4.5, http://eggnogdb.embl.de/#/app/home ) 29 , and CAZy database (Version 201801, http://www.cazy.org/ ) 30 . According to the alignment results, the relative abundance at different functional levels was calculated. Based on the abundance table at each taxonomy level, annotated genes statistics, relative abundance overview, and abundance clustering heat map were carried out, combined with PCA and NMDS analysis of dimension reduction, metabolic pathway comparative analysis, as well as Metastatic and LEfSe analysis on inter-group functional differences."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Sec3",
+        "title": "Psyllid sampling, tissue collection and DNA isolation",
+        "paragraphs": [
+          {
+            "id": "Par6",
+            "text": "Adult D. citri newly emerged (five days old) was initially harvested from Citrus Tachibana uninfected C Las in 2020 at Guangxi province, China, and was successively reared on Murraya paniculata at Guangxi Special Crops Research Institute for more than 15 generations. All cages and experimental treatment were maintained on the conditions of 27 ± 1 °C, 60–70% RH, and at 14:10 h of photoperiod. It was confirmed by PCR detection that D. citri did not carry C Las."
+          },
+          {
+            "id": "Par7",
+            "text": "A field population of D. citri newly emerged (five days old) infected C Las was collected from Guilin City, China, in 2022. Ninety adult psyllids from Citrus Tachibana infected C Las were randomly collected for calculating the infection rate. DNA extraction of one adult psyllid followed by Yu et al . 12 . with slight modifications. Briefly, genome DNA was extracted using the QIAGEN DNeasy Kit (QIAGEN, Hilden, Germany) according to the manufacturer’s instructions. Subsequently, HLB pathogen-specific primer set OI1/OI2c (forward primer 50-GCGCGTATGCAATACGAGCGGCA-30 and reverse primer 50-GCCTCGCGACTTCGCAACCCAT-30) were performed to amplify the target fragment. Afterward, the C Las infection rate was evaluated by agarose gel electrophoresis. When the C Las-infected proportion reached over 80%, D. citri was considered to be the C Las-infected population 12 ."
+          },
+          {
+            "id": "Par8",
+            "text": "To eliminate the host plant microbial endosymbionts contamination, a 6 h starvation treatment was necessary. For the metagenome sequencing, one hundred and fifty newly emerged (five days old) C Las-free and C Las-infected D. citri respectively were surface sterilized with 70% ethanol for 60 s and rinsed three times with sterile water 13 , with three biological replicates. Then all samples were dissected to obtain the intestinal tissue, which was homogenized with 200 ml sterile water, and frozen at - 80 °C before DNA extraction. The QIAGEN DNeasy Kit was used for microbial genomic DNA extraction. The DNA quality checking and concentrations quantification were performed by Agilent Bioanalyzer 2100 system. The high-quality DNA was sent to Novogene Company (Beijing, China) for metagenomics sequence analyses."
+          }
+        ]
+      },
+      {
+        "id": "Sec4",
+        "title": "Metagenome sequence",
+        "paragraphs": [
+          {
+            "id": "Par9",
+            "text": "NEBNext ® Ultra TM DNA Library Prep Kit for Illumina (NEB, USA) was used to construct the library. The genomic DNA was randomly sheared into short fragments which were end-repaired, A-tailed, and further ligated with an Illumina adapter. Then fragments with adapters were PCR amplified, size selected, and purified to complete library establishment. The library quality was checked with Qubit 2.0 Fluorometer (Thermo Fisher Scientific, Massachusetts, USA). Library quantification and size distribution detected by real-time PCR and bioanalyzer. Quantified libraries were pooled and sequenced on Illumina PE150 platforms, according to effective library concentration and data amount required."
+          },
+          {
+            "id": "Par10",
+            "text": "Readfq (V8, https://github.com/cjfields/readfq ) was used for preprocessing raw data from the Illumina sequencing platform to obtain clean data for subsequent analysis 14 . Then MEGAHIT software (v1.0.4-beta) was used for assembly analysis of clean data, and scaftigs without N were obtained by breaking the resulted scaffolds from the N junction 15 , 16 . MetaGeneMark (V3.05, http://topaz.gatech.edu/GeneMark/ ) was used to perform ORF prediction for Scaftigs (> = 500 bp) of each sample 14 , 17 , 18 . For the ORF prediction results, CD-HIT software (V4.5.8, http://www.bioinformatics.org/cd-hit/ ) was used to eliminate redundancy and obtain the non-redundant initial gene catalogue 19 . Clean data of each sample were aligned with the initial gene catalog using Bowtie2 (Bowtie2.2.4, http://bowtie-bio.sourceforge.net/bowtie2/index.shtml ) to calculate the number of reads of the genes on each sample alignment. The abundance of each gene in each sample was calculated based on the number of reads aligned and the length of gene 20 ."
+          }
+        ]
+      },
+      {
+        "id": "Sec5",
+        "title": "Metagenome annotation",
+        "paragraphs": [
+          {
+            "id": "Par11",
+            "text": "DIAMOND 21 (V0.9.9, https://github.com/bbuchfink/diamond/ ) was used for the alignment of unigenes sequences with those of bacteria, fungi, archaea, and viruses extracted from NCBI’s NR database (Version 2018-01-02, https://www.ncbi.nlm.nih.gov/ ), and LCA algorithm was adopted to determine the species annotation information of the sequence. Out of the results of the LCA annotation and gene abundance table, the abundance of each sample at each taxonomy and the corresponding gene abundance tables were acquired 14 , 18 , 22 . Based on the abundance tables at each taxonomy level, Krona analysis 23 , relative abundance overview, and abundance clustering heatmap were performed, combined with PCA 24 (R ade4 package, Version 3.2.1) and NMDS 25 (R vegan package, Version 2.15.3) analysis of dimension reduction. LEfSe analysis was used to search for species differences between groups 26 ."
+          },
+          {
+            "id": "Par12",
+            "text": "DIAMOND software was used to align unigenes with those in the functional database, including the KEGG database (Version 2018-01-01, http://www.kegg.jp/kegg/ ) 27 , 28 , eggNOG database (Version 4.5, http://eggnogdb.embl.de/#/app/home ) 29 , and CAZy database (Version 201801, http://www.cazy.org/ ) 30 . According to the alignment results, the relative abundance at different functional levels was calculated. Based on the abundance table at each taxonomy level, annotated genes statistics, relative abundance overview, and abundance clustering heat map were carried out, combined with PCA and NMDS analysis of dimension reduction, metabolic pathway comparative analysis, as well as Metastatic and LEfSe analysis on inter-group functional differences."
+          }
+        ]
+      },
+      {
+        "id": "Sec6",
+        "title": "Data Records",
+        "paragraphs": [
+          {
+            "id": "Par13",
+            "text": "The raw metagenomic sequencing data (fastq format) were deposited in NCBI’s Sequence Read Archive (PRJNA933393) 31 , 32 , 33 , 34 , 35 – 36 ."
+          }
+        ]
+      },
+      {
+        "id": "Sec7",
+        "title": "Technical Validation",
+        "paragraphs": [
+          {
+            "id": "Par14",
+            "text": "Contaminants and trim reads of the metagenomic sequencing data were removed and the clean reads accounted for more than 99% (Fig. 2 ), illustrating that the data had incredible quality. To ensure unbiased data production, Randomization principles were carried out and abided by sample collection, extraction, and C Las infection rate detection. Using several pieces of software, we confirmed the technical validation of the taxonomic assignments, completeness, and function annotations."
+          }
+        ]
+      }
+    ],
+    "full_text": "Background & Summary Huanglongbing (HLB) is the most destructive citrus disease around the world. Asian citrus psyllid (ACP), Diaphorina citri Kuwayama, is the important carrier of Candidatus Liberibacter asiaticus ( C Las), the causal agent of HLB. ACP has been found in many countries such as the Arabian Peninsula, Indian Subcontinent, South East and South West Asia, the USA, Central and South America, and the Indian Ocean islands of Mauritius and R´eunion 1 , 2 . C Las can infect many organs and tissues of ACP including the alimentary canal, hemolymph, hemocytes, muscle tissue, fat tissue, bacteriome, neural tissue, epidermis, reproductive organs, and salivary glands 2 , which affects not only the ACP’s physiological function, but also its endosymbiont communities 3 , 4 . However, it is little known about the relation between the change of endosymbiont communities and the physiological function alteration of ACP after being infected by C Las. Fig. 1 Flow chart used to process psyllid gut samples to get metagenomes. Fig. 2 Data preprocessing statistic map. Adapter: reads with adapters; Low Quality: low-quality reads; PolyA: number of reads containing polyA (%); N: single-ended reads containing more than 10% of N bases; Duplication: total length of the removed repeat reads sequence. Analysis of the change of endosymbiont communities is the basis for understanding the interaction between C Las and ACP. Recent studies have shown that three predominant endosymbionts including Candidatus Carsonella ruddii, Candidatus Profftella, and Wolbachia were harbored in ACP 5 , 6 . These endosymbionts play different roles in participating in the ACP’s physiological activities. For instance, Carsonella has been considered to be a nutritional provider and Profftella has been verified to be a defender because of producing diaphorin 6 , 7 . Wolbachia titer has been demonstrated to have a positive correlation with C Las titer 8 . However, the key function of Wolbachia in ACP remains unclear. Data of endosymbiont communities in ACP have been reported based on 16 S rRNA sequencing 9 , 10 . Despite bacteria communities of genus level can be verified by conserved regions analysis in 16 S rRNA hypervariable regions, detailed composition on endosymbiont at species level comprised of bacteria, archaea, and Eukaryota and function characteristics are still needed. High-throughput metagenome sequencing technology can provide new views from a nearly complete composition of endosymbiont communities 11 . Here, we characterized two endosymbiont metagenomes from the ACP strains before and after infection by C Las, which were named C Las-free and C Las-infected, respectively. Sample information was presented in Table 1 . Raw data among 6175.81–7204.40 M were produced via metagenomic sequencing, in total. After filtration of the contaminated reads, clean data of six samples were between 6168.97 M and 7193.66 M. Comparatively, approximate 17.41–18.85 M data of microbiota from ACP were obtained using 16 s amplicon sequencing, suggesting that our data is more complete than the previous results 10 . Based on the metagenomes assembling, the number of scaffolds was separately distributed into 185390–196132 with 36.81–37.49% GC content in C Las-free and C Las-infected. The Q20 values and Q30 values were all above 96% and 90% respectively, and the N50 values were all above 1000 bp (Table 2 ). Table 3 generalized the overview of the composition of gut endosymbiont communities between C Las-free and C Las-infected and Table 4 summarized the gene number with function annotated after alignment in different functional databases. Figure 1 summarized the process of experiment.The endosymbiont orders with biomarkers were differed between the two groups, where Proteobacteria and Wolbachia pipientis were the most abundant in taxonomic phylum and species, respectively (Figs. 3 , 4 ). KEGG orthology groups (KOs) relating to the category of metabolism were the most abundant in the intestinal microbiota of C Las-free and C Las-infected D. citri , such as biosynthesis and metabolism of amino acid, cofactors, vitamins, and glycan (Fig. 5 ). Five categories including the metabolism of other amino acids, cofactors, and vitamins were enriched in C Las-free D. citri samples and thirteen categories including immune and nervous systems were enriched in C Las-infected D. citri samples, indicating that two different gut endosymbionts of D. citri had a distinct contribution for host function compensation (Fig. 6 ). These KOs were unevenly found in the metagenomic of the taxa. For instance, KOs belonging to the category of metabolism were enriched in the bacteria of Firmicutes and Proteobacteria and the Eukaryota of Ascomycotab (Fig. 7 ). Table 1 Sample information in this study. Sample Biome Feature Material Geographical location GeoPosition Protocol C Las-Free Insect gut HLB-free Gut tissue Guilin of Guangxi province, China 110.328611, 25.011667, 5 m Metagenome C Las-Infected Insect gut HLB-infected Gut tissue Guilin of Guangxi province, China 110.325470, 25.270744, 5 m Metagenome Table 2 Statistics of metagenomic sequencing data. Sample C Las-Free-1 C Las-Free-2 C Las-Free-3 C Las-Infected-1 C Las-Infected-2 C Las-Infected-3 RawData (M) 6847.57 6478.32 6524.33 7204.4 6377.92 6175.81 CleanData (M) 6831.02 6469.84 6517.59 7193.66 6370.68 6168.97 Q20 (%) 96.97 96.59 96.75 96.88 96.22 96.28 Q30 (%) 92.52 91.47 91.81 92.34 90.84 90.98 GC (%) 36.96 36.84 36.81 37.49 37.22 37.28 Total length (bp) 1.86E + 08 1.88E + 08 1.89E + 08 1.93E + 08 1.86E + 08 190367106 Number of scaffolds 187172 185390 185617 196132 187433 187492 Average length (bp) 991.18 1011.93 1019.24 985.79 990.54 1015.33 N50 (bp) 1022 1054 1067 1009 1016 1057 N90 (bp) 568 572 573 564 566 571 Largest length (bp) 27372 89417 34284 130775 130777 130774 Effective (%) 99.76 99.87 99.9 99.85 99.89 99.89 Table 3 Statistics of domain coverage of gene. Taxonomy Gene number (%) C Las-Free-1 C Las-Free-2 C Las-Free-3 C Las-Infected-1 C Las-Infected-2 C Las-Infected-3 Archaea 28 (0.01%) 28 (0.01%) 28 (0.01%) 28 (0.01%) 28 (0.01%) 28 (0.01%) Bacteria 6106 (2.98%) 6130 (3.01%) 6107 (3.01%) 18694 (8.50%) 7133 (3.45%) 7123 (3.47%) Eukaryota 4849 (2.37%) 4846 (2.38%) 4842 (2.38%) 4852 (2.21%) 4850 (2.35%) 4852 (2.36%) Viruses 231 (0.11%) 231 (0.11%) 232 (0.11%) 364 (0.17%) 234 (0.11%) 234 (0.11%) Others 193715 (94.53%) 192292 (94.48%) 191986 (94.48%) 195945 (89.11%) 194527 (94.08%) 192923 (94.04%) Table 4 Statistics of annotation data. Databases Numbers of genes annotated Nr 24,751 KEGG 27,445 eggNOG 30,443 CAZy 1,504 CARD 210 AROs 190 Fig. 3 The composition of microbiota at the phylum level. Taxonomic assignments of the 10 most abundant taxa are presented. Fig. 4 The composition of microbiota at species level. Taxonomic assignments of the 10 most abundant taxa are presented. Fig. 5 Hierarchically clustered heat map analysis of the highly represented KOs category of KEGG level 2. Fig. 6 LEfSe analysis of the category of KEGG level 2 that differ between HLB-free and HLB-infected D. citri . G1: HLB-free D. citri , G2: HLB-infected D. citri . Fig. 7 Heatmap of the distribution of KEGG. The horizontal axis represents 6 different kinds of KEGG, and the different colors of the vertical axis represent different endosymbiont taxonomic information. In summary, these metagenomic data offer compelling evidence on the composition and function of intestinal endosymbionts from D. citri , which not only give further comprehension for gut-associated endosymbionts and host insect coevolution under distinguished ecological niches but also open a new avenue to pest management. Methods Psyllid sampling, tissue collection and DNA isolation Adult D. citri newly emerged (five days old) was initially harvested from Citrus Tachibana uninfected C Las in 2020 at Guangxi province, China, and was successively reared on Murraya paniculata at Guangxi Special Crops Research Institute for more than 15 generations. All cages and experimental treatment were maintained on the conditions of 27 ± 1 °C, 60–70% RH, and at 14:10 h of photoperiod. It was confirmed by PCR detection that D. citri did not carry C Las. A field population of D. citri newly emerged (five days old) infected C Las was collected from Guilin City, China, in 2022. Ninety adult psyllids from Citrus Tachibana infected C Las were randomly collected for calculating the infection rate. DNA extraction of one adult psyllid followed by Yu et al . 12 . with slight modifications. Briefly, genome DNA was extracted using the QIAGEN DNeasy Kit (QIAGEN, Hilden, Germany) according to the manufacturer’s instructions. Subsequently, HLB pathogen-specific primer set OI1/OI2c (forward primer 50-GCGCGTATGCAATACGAGCGGCA-30 and reverse primer 50-GCCTCGCGACTTCGCAACCCAT-30) were performed to amplify the target fragment. Afterward, the C Las infection rate was evaluated by agarose gel electrophoresis. When the C Las-infected proportion reached over 80%, D. citri was considered to be the C Las-infected population 12 . To eliminate the host plant microbial endosymbionts contamination, a 6 h starvation treatment was necessary. For the metagenome sequencing, one hundred and fifty newly emerged (five days old) C Las-free and C Las-infected D. citri respectively were surface sterilized with 70% ethanol for 60 s and rinsed three times with sterile water 13 , with three biological replicates. Then all samples were dissected to obtain the intestinal tissue, which was homogenized with 200 ml sterile water, and frozen at - 80 °C before DNA extraction. The QIAGEN DNeasy Kit was used for microbial genomic DNA extraction. The DNA quality checking and concentrations quantification were performed by Agilent Bioanalyzer 2100 system. The high-quality DNA was sent to Novogene Company (Beijing, China) for metagenomics sequence analyses. Metagenome sequence NEBNext ® Ultra TM DNA Library Prep Kit for Illumina (NEB, USA) was used to construct the library. The genomic DNA was randomly sheared into short fragments which were end-repaired, A-tailed, and further ligated with an Illumina adapter. Then fragments with adapters were PCR amplified, size selected, and purified to complete library establishment. The library quality was checked with Qubit 2.0 Fluorometer (Thermo Fisher Scientific, Massachusetts, USA). Library quantification and size distribution detected by real-time PCR and bioanalyzer. Quantified libraries were pooled and sequenced on Illumina PE150 platforms, according to effective library concentration and data amount required. Readfq (V8, https://github.com/cjfields/readfq ) was used for preprocessing raw data from the Illumina sequencing platform to obtain clean data for subsequent analysis 14 . Then MEGAHIT software (v1.0.4-beta) was used for assembly analysis of clean data, and scaftigs without N were obtained by breaking the resulted scaffolds from the N junction 15 , 16 . MetaGeneMark (V3.05, http://topaz.gatech.edu/GeneMark/ ) was used to perform ORF prediction for Scaftigs (> = 500 bp) of each sample 14 , 17 , 18 . For the ORF prediction results, CD-HIT software (V4.5.8, http://www.bioinformatics.org/cd-hit/ ) was used to eliminate redundancy and obtain the non-redundant initial gene catalogue 19 . Clean data of each sample were aligned with the initial gene catalog using Bowtie2 (Bowtie2.2.4, http://bowtie-bio.sourceforge.net/bowtie2/index.shtml ) to calculate the number of reads of the genes on each sample alignment. The abundance of each gene in each sample was calculated based on the number of reads aligned and the length of gene 20 . Metagenome annotation DIAMOND 21 (V0.9.9, https://github.com/bbuchfink/diamond/ ) was used for the alignment of unigenes sequences with those of bacteria, fungi, archaea, and viruses extracted from NCBI’s NR database (Version 2018-01-02, https://www.ncbi.nlm.nih.gov/ ), and LCA algorithm was adopted to determine the species annotation information of the sequence. Out of the results of the LCA annotation and gene abundance table, the abundance of each sample at each taxonomy and the corresponding gene abundance tables were acquired 14 , 18 , 22 . Based on the abundance tables at each taxonomy level, Krona analysis 23 , relative abundance overview, and abundance clustering heatmap were performed, combined with PCA 24 (R ade4 package, Version 3.2.1) and NMDS 25 (R vegan package, Version 2.15.3) analysis of dimension reduction. LEfSe analysis was used to search for species differences between groups 26 . DIAMOND software was used to align unigenes with those in the functional database, including the KEGG database (Version 2018-01-01, http://www.kegg.jp/kegg/ ) 27 , 28 , eggNOG database (Version 4.5, http://eggnogdb.embl.de/#/app/home ) 29 , and CAZy database (Version 201801, http://www.cazy.org/ ) 30 . According to the alignment results, the relative abundance at different functional levels was calculated. Based on the abundance table at each taxonomy level, annotated genes statistics, relative abundance overview, and abundance clustering heat map were carried out, combined with PCA and NMDS analysis of dimension reduction, metabolic pathway comparative analysis, as well as Metastatic and LEfSe analysis on inter-group functional differences. Data Records The raw metagenomic sequencing data (fastq format) were deposited in NCBI’s Sequence Read Archive (PRJNA933393) 31 , 32 , 33 , 34 , 35 – 36 . Technical Validation Contaminants and trim reads of the metagenomic sequencing data were removed and the clean reads accounted for more than 99% (Fig. 2 ), illustrating that the data had incredible quality. To ensure unbiased data production, Randomization principles were carried out and abided by sample collection, extraction, and C Las infection rate detection. Using several pieces of software, we confirmed the technical validation of the taxonomic assignments, completeness, and function annotations."
+  },
+  "references_count": 36
+}

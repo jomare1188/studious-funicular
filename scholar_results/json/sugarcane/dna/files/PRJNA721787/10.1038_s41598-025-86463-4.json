@@ -1,0 +1,1479 @@
+{
+  "metadata": {
+    "extraction_timestamp": "2025-09-29T13:28:30.623451",
+    "article_type": "research-article",
+    "language": "en"
+  },
+  "publication_info": {
+    "journal": "Scientific Reports",
+    "issn": "2045-2322",
+    "publisher": "Nature Publishing Group UK",
+    "doi": "10.1038/s41598-025-86463-4",
+    "volume": "15",
+    "issue": "1",
+    "publication_dates": {
+      "pub": "2025-01-17",
+      "collection": "2025-12"
+    }
+  },
+  "title": "Evolutionary analysis of the DHHCs in Saccharinae",
+  "authors": [
+    {
+      "surname": "Wen",
+      "given_names": "Hao",
+      "full_name": "Hao Wen",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff1"
+      ]
+    },
+    {
+      "surname": "Liu",
+      "given_names": "Xinyu",
+      "full_name": "Xinyu Liu",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff1"
+      ]
+    },
+    {
+      "surname": "Zhao",
+      "given_names": "Xueting",
+      "full_name": "Xueting Zhao",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff3"
+      ]
+    },
+    {
+      "surname": "Zhao",
+      "given_names": "Tingting",
+      "full_name": "Tingting Zhao",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff2",
+        "Aff3"
+      ]
+    },
+    {
+      "surname": "Feng",
+      "given_names": "Cuilian",
+      "full_name": "Cuilian Feng",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff2",
+        "Aff3"
+      ]
+    },
+    {
+      "surname": "Chang",
+      "given_names": "Hailong",
+      "full_name": "Hailong Chang",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff4"
+      ]
+    },
+    {
+      "surname": "Wang",
+      "given_names": "Jungang",
+      "full_name": "Jungang Wang",
+      "email": "wangjungang@itbb.org.cn",
+      "is_corresponding": true,
+      "affiliation_refs": [
+        "Aff2",
+        "Aff3"
+      ]
+    },
+    {
+      "surname": "Lin",
+      "given_names": "Jishan",
+      "full_name": "Jishan Lin",
+      "email": "linjishan2006@163.com",
+      "is_corresponding": true,
+      "affiliation_refs": [
+        "Aff1",
+        "Aff2",
+        "Aff3"
+      ]
+    }
+  ],
+  "affiliations": {
+    "Aff1": {
+      "institution": "Fujian Agriculture and Forestry University",
+      "department": "Center for Genomics and Biotechnology",
+      "address": {
+        "city": "Fuzhou",
+        "state": "Fujian",
+        "country": "China"
+      }
+    },
+    "Aff2": {
+      "institution": "Chinese Academy of Tropical Agricultural Sciences",
+      "department": "National Key Laboratory for Tropical Crop Breeding, Institute of Tropical Bioscience and Biotechnology",
+      "address": {
+        "city": "Haikou",
+        "state": "Hainan",
+        "country": "China"
+      }
+    },
+    "Aff3": {
+      "institution": "Sanya Institute of Chinese Academy of Tropical Agricultural Sciences",
+      "address": {
+        "city": "Sanya",
+        "state": "Hainan",
+        "country": "China"
+      }
+    },
+    "Aff4": {
+      "institution": "Zhanjiang Research Center，Guangdong Academy of Sciences",
+      "department": "Institute of Nanfan & Seed Industry",
+      "address": {
+        "city": "Guangzhou",
+        "state": "Guangdong",
+        "country": "China"
+      }
+    }
+  },
+  "abstract": {
+    "full_text": "Abstract The DHHC domain genes are crucial for protein lipid modification, a key post-translational modification influencing membrane targeting, subcellular trafficking, and protein function. Despite their significance, the DHHC gene family in Saccharinae remains understudied. Here, we identified 32 (110 alleles), 28, 53, and 48 DHHC genes in Saccharum spontaneum Np-X, Erianthus rufipilus , Miscanthus sinensis , and Miscanthus lutarioriparius , respectively. Collinearity analysis uncovered the loss of two M. lutarioriparius genes, homologues of EruDHHC1C and EruDHHC3A . Phylogenetic and classification analyses categorized DHHC family members into six subgroups (A-F). Ka/Ks ratio analysis indicated that gene duplication in these species was primarily driven by whole-genome duplication (WGD) and dispersed duplication (DSD), with DHHC genes evolving under strong purifying selection. Gene expression and trait correlation analysis revealed a significant negative correlation between SspDHHC28A expression in S. spontaneum and sucrose content, suggesting a role in photosynthesis product transport during rapid growth. This study deepens our understanding of the DHHC gene family’s functional dynamics and evolutionary path in Saccharinae, laying a foundation for future research."
+  },
+  "keywords": [
+    {
+      "language": "en",
+      "keywords": [
+        "Saccharinae",
+        "DHHC",
+        "Gene duplications",
+        "Sucrose storage",
+        "Evolutionary"
+      ]
+    },
+    {
+      "language": "en",
+      "keywords": [
+        "Biological Sciences",
+        "Genetics"
+      ]
+    }
+  ],
+  "funding": [],
+  "content": {
+    "sections": [
+      {
+        "id": "Sec1",
+        "title": "Introduction",
+        "paragraphs": [
+          {
+            "id": "Par2",
+            "text": "S-Acylation, a lipid modification occurring on eukaryotic proteins 1 , predominantly involves the attachment of palmitate to cysteine residues, a process commonly referred to as S-palmitoylation. DHHC domain proteins, enzymes that append palmitoyl groups to proteins, play a critical role in anchoring these proteins to cell membranes. First identified in 1999, the DHHC domain is defined by a conserved sequence motif within its protein sequence 2 . The canonical DHHC domain is characterized by the following sequence motif: C-x2-C-x9-HC-x2-C-x2-C-x4-DHHC-x5-C-x4-N-x3-F where ‘x’ indicates a variable region of non-conserved residues 3 . However, numerous instances of DHHC proteins are known to lack all these conserved residues. Consequently, it is currently postulated that all proteins containing the DHHC domain may act as S-acyltransferases 4 ."
+          },
+          {
+            "id": "Par3",
+            "text": "S-Acylated proteins play diverse roles in plants, impacting Ca 2+ signaling, K + movement, stress signaling, association and partitioning of small and heterotrimeric G-proteins, tubulin function, and pathogenesis 5 . For instance, the overexpression of OsDHHC30 in rice plants enhanced salt and oxidative tolerance 6 ; overexpression of OsDHHC1 increased tiller numbers by 40% and grain yield by 10% 7 , 8 ; DHHC-type zinc finger protein OsDHHC09 S-acylates STRK1 at Cys5, Cys10, and Cys14, promoting salt and oxidative stress tolerance by enhancing rice H 2 O 2 scavenging capacity 9 ; and the At5g04270 gene regulates Arabidopsis branching, suggesting a new role of the DHHC-type zinc finger protein in the regulation of plant growth and development 10 ."
+          },
+          {
+            "id": "Par4",
+            "text": "The Saccharum , Miscanthus , and Erianthus are important components of the Saccharinae, which play a significant role in sugar supply, bioenergy production, and carbon emissions. Therefore, an increasing amount of scientific research has been conducted on them. Erianthus rufipilus diverged relatively recently from the Saccharum genus, with estimates of approximately 2.5 million years ago (Mya) from Saccharum spontaneum AP85-441, 1.9 Mya from Saccharum spontaneum Np-X, and 2.3 Mya from Saccharum officinarum LA-Purple 11 . This indicates a recent divergence of E. rufipilus from the common ancestor of sugarcane. In contrast, Miscanthus sinensis and Miscanthus lutarioriparius , as members of the Miscanthus genus, share an older common ancestor with the Saccharum genus, which diverged from the Sorghum lineage around 3.8 to 4.6 million years ago 12 . Additionally, both Miscanthus and Saccharum have undergone whole-genome duplication (WGD) events, suggesting a shared evolutionary history post-divergence 12 . S. spontaneum Np-X, as a species within the Saccharum genus, diverged from E. rufipilus more recently, around 1.9 Mya, placing it within the Saccharum genus on the evolutionary tree, while E. rufipilus is positioned externally to this genus 11 . These divergence events highlight the complex evolutionary history of these species as they branched off from their common ancestors at different geological times 13 ."
+          },
+          {
+            "id": "Par5",
+            "text": "Modern sugarcane ( Saccharum spp., Poaceae) is a vital crop of significant economic value, contributing to 80% of the world’s sugar and 40% of ethanol production 14 . To meet the future demands of the growing population, maintaining or increasing sugarcane yield is imperative. S. spontaneum Np-X is a crucial genetic resource for sugarcane breeding, providing numerous valuable genes for enhancing modern sugarcane varieties, including genes for lodging resistance, disease resistance 15 , 16 , and stress tolerance 17 . Miscanthus and its close relatives, including sugarcanes and energy canes, are promising candidates for economically viable and sustainable bioenergy crops 18 ."
+          },
+          {
+            "id": "Par6",
+            "text": "Eukaryotes have identified many proteins containing the DHHC domain, with 23 in Arabidopsis 10 , 30 in rice 6 , 19 , 26 in cotton, and 24 in oilseed rape 5 . However, the specific functions of DHHC-type zinc finger genes in Saccharinae have not been thoroughly investigated. Therefore, our study focuses on DHHC proteins to explore their evolutionary relationships within Saccharinae and elucidate their potential roles in enhancing sugarcane yield."
+          }
+        ]
+      },
+      {
+        "id": "Sec2",
+        "title": "Materials and methods",
+        "paragraphs": [
+          {
+            "id": "Par7",
+            "text": "The sequences of the DHHC proteins in Arabidopsis thaliana and Oryza sativa were acquired from the Arabidopsis Information Resource (TAIR) ( https://www.arabidopsis.org/ ) and the Rice Genome Annotation Project database ( http://rice.uga.edu ), respectively. The genomic data about S.spontaneum Np-X and E.rufipilus (also known as S.rufipilum ) were sourced from the Jisen Zhang laboratory website ( http://sugarcane.zhangjisenlab.cn/sgd/html/download.html ) 11 , 20 , and the genome sequences of M.sinensis 18 and M.lutarioriparius 21 were obtained from the Phytozome V13 database ( https://phytozome-next.jgi.doe.gov/ ) and a data-sharing platform, Figshare ( https://figshare.com/ )."
+          },
+          {
+            "id": "Par8",
+            "text": "To identify the nonredundant DHHC genes within Saccharinae, we employed hidden Markov model (HMM) profiles corresponding to the DHHC domain (PF01529) downloaded from the Pfam database ( https://pfam.xfam.org/ ). Using HMMER (v3.4, http://hmmer.org/ ) software 22 , searches were conducted against the proteomic sequences of the genomes with the default parameters, applying a stringent filter threshold of 0.01. Concurrently, sequence alignments were executed using the NCBI local BLAST tool (v2.16.0, https://blast.ncbi.nlm.nih.gov/Blast.cgi ) 23 , adopting an e-value threshold of 1e-5, and sequences were filtered to include only those exhibiting an identity of more than 40%. To ensure the reliability of our findings, we further corroborated the derived sequences through the NCBI Conserved Domain Search Service (CD Search) ( https://www.ncbi.nlm.nih.gov/cdd/ ), the Pfam database ( http://pfam.sanger.ac.uk/ ), and the SMART tool ( http://smart.embl-heidelberg.de/ ). These resources were instrumental in verifying the presence and completeness of the DHHC domain within our identified sequences. During the analysis, DHHC genes lacking the fundamental DHHC domain were meticulously screened. Additionally, genes misannotated due to aberrant length, either exceedingly long or short, were detected. Through this stringent protocol, we accurately determined the quantity of DHHC genes present within the aforementioned Saccharinae species. To facilitate subsequent analyses, for a polyploid, all DHHC genes were classified into genes and alleles based on their homology and collinearity."
+          },
+          {
+            "id": "Par9",
+            "text": "Using MCScanX software (v1.0.0, https://github.com/wyp1125/MCScanX ) 24 , we examined the genomes of the Saccharinae family for potential duplications among the intraspecific DHHC genes. In this phase, the BLAST tool 23 was used to compare the protein sequences of the Saccharinae species against themselves, with an E-value threshold set at 1e-10. The conclusive output of the duplication analysis, coupled with the positional information of the DHHC genes on the chromosomes, was then visualized using CIRCOS (v0.69, https://circos.ca/ ) software 25 ."
+          },
+          {
+            "id": "Par10",
+            "text": "Comparative collinearity maps of the four Saccharinae species were constructed to identify the immediate homologs of the DHHC gene to elucidate its evolutionary mechanism. Using the MCScan software (Python v3) 26 , we analyzed the homologous blocks within the genomes of the Saccharinae interspecific, with the parameter -minspan = 30 configured to delineate the minimum span requirement. The gene modules were subsequently aligned using the LAST tool (v.1257). These selected blocks were then visualized using the JCVI (v1.4.23, https://github.com/tanghaibao/jcvi ) modules 26 with Python3."
+          },
+          {
+            "id": "Par11",
+            "text": "To estimate the physicochemical parameters of each gene, including molecular weight (MW) and isoelectric point (pI), we employed the pI/Mw tool within the Peptides (v2.4.6) package. Concurrently, we meticulously documented the chromosomal positional information of these genes."
+          },
+          {
+            "id": "Par12",
+            "text": "To determine the structural characteristics of the DHHC proteins, we selected the proteins with the highest sequence scores from each group based on hmmsearch comparisons. These proteins were deemed to possess the most significant homology and were thus likely to share conserved structural features. One more gene was then randomly selected again in each of the four species. Subsequently, we used AlphaFold3 Server ( https://alphafoldserver.com/ ) 27 to generate three-dimensional structural models of these proteins. The resulting models were then visualized and analyzed using PyMOL (v3.1.1, https://www.pymol.org/ ) software 28 , which allowed us to present the predicted tertiary structures in a clear and accessible manner. software. Additionally, we annotated the core structural domains within these models, highlighting the regions of the proteins that are crucial for their function and stability."
+          },
+          {
+            "id": "Par13",
+            "text": "The selected sequences were subjected to multiple sequence alignment using the DNAMAN software (v10, https://www.lynnon.com/index.html )."
+          },
+          {
+            "id": "Par14",
+            "text": "Using the MUSCLE (v5.1, https://drive5.com/ ) 29 , we conducted a multiple sequence alignment (MSA) of the full-length protein sequences of the DHHC family. Following the alignment, we utilized the RAxML (v8.2.12, https://cme.h-its.org/exelixis/ ) software 30 to construct a phylogenetic tree using the maximum likelihood (ML) method. The resulting phylogenetic tree was then visualized and further edited using the iTOL platform ( https://itol.embl.de/ )."
+          },
+          {
+            "id": "Par15",
+            "text": "The conserved motifs within the DHHC protein family were explored with the aid of the motif elicitation (MEME) tool (v.5.5.7, https://meme-suite.org/meme/tools/meme ) 31 . In our analysis, the parameter for the maximum number of motifs to be detected was set to 10. The motif size distribution was left to ‘any’. All remaining parameters were left at their default values, ensuring that the analysis was conducted with the standard settings recommended by the MEME suite."
+          },
+          {
+            "id": "Par16",
+            "text": "Using the classification system established for Arabidopsis thaliana DHHC proteins 32 , we systematically categorized the identified DHHC proteins of Saccharinae."
+          },
+          {
+            "id": "Par17",
+            "text": "The DNA sequences 2000 bp upstream of the initiation codon “ATG” of the DHHC genes were defined as the promoter sequences. Subsequently, based on these inferred promoter sequences, we used the PlantCARE database ( https://bioinformatics.psb.ugent.be/webtools/plantcare/html/ ) 33 to predict the cis-regulatory elements that may govern the transcriptional regulation of these genes. The identification and quantification of these elements were conducted using R (v.4.4.2, https://www.r-project.org/ )."
+          },
+          {
+            "id": "Par18",
+            "text": "To ensure a rigorous analysis, we excluded unidentified elements and essential eukaryotic components such as the TATA-box and CAAT-box to concentrate on elements that possess specific regulatory functions."
+          },
+          {
+            "id": "Par19",
+            "text": "Gene duplications have long been recognized as a driving force in the evolution of genes, giving rise to novel functions 34 . The DupGen_finder software package includes a custom MCScanX algorithm 35 that further identifies paralogous DHHC gene pairs derived from whole-genome duplication (WGD), tandem duplication (TD), proximal duplication (PD), transposed duplication (TRD), and dispersed duplication (DSD) 36 , 37 . Briefly, Arabidopsis thaliana was selected as the outgroup to identify duplicated gene pairs 36 . Then, the DHHC of the four Saccharinae genomes was subjected to a BLASTP search against Arabidopsis thaliana using protein sequences (E < 1e − 10, top 5 matches, and m6 format output) for searches. The results were finally corrected for accuracy."
+          },
+          {
+            "id": "Par20",
+            "text": "For the identified pairs of duplicate genes, the calculation and statistical analysis of their Ka/Ks ratios were performed. This process involves the utilization of the Paml software tools ParaAT_mdf.pl and KaKs_Calculator (v2.0), employing the “YN” model 38 to compute the nonsynonymous (Ka) versus synonymous (Ks) substitution rates (Ka/Ks ratio). The Ka/Ks ratio serves as a pivotal metric for understanding the evolutionary pressures acting on genes; a ratio greater than 1 suggests positive selection, indicative of adaptive evolutionary changes; a ratio less than 1 implies purifying selection, suggesting the removal of deleterious mutations; and a ratio equal to 1 indicates neutral evolution."
+          },
+          {
+            "id": "Par21",
+            "text": "Again, the DHHC gene family of S. spontaneum Np-X was chosen as the focus of the study. Gene expression data were extracted from the full gene expression matrix in the database of the Jisen Zhang laboratory website ( http://sugarcane.zhangjisenlab.cn/sgd/html/download.html ). Expression heatmaps were created using R (v4.3.2) for presentation."
+          },
+          {
+            "id": "Par22",
+            "text": "Employing the classification schema proposed by Perlo et al. in 2022 39 , 40 , we obtain RNA-seq data for 24 distinct sugarcane cultivars, as documented within the project repository accessible at EMBL-EBI under accession number PRJEB44480 ( https://www.ebi.ac.uk/ena/browser/view/PRJEB44480 ). In our investigation, we specifically focused on the cultivars KQ228 and Q253, which are widely utilized in industry due to their early high sugar content and robust yield 39 . Additionally, we included NQ05 in our study, as it was found to cluster within the same branch as KQ228 and Q253 in our cluster analysis, suggesting a shared genetic or phenotypic profile. The selection of these cultivars was strategic, as it allowed us to explore the genetic underpinnings associated with their economically valuable traits. To quantify gene expression levels, we employed the Rsubread software package 40 ."
+          },
+          {
+            "id": "Par23",
+            "text": "In light of the striking homogeneity in the DHHC gene sequences among the four species of the Saccharinae subtribe, coupled with the intimate evolutionary kinship discerned between M. sinensis , M. lutarioriparius , S. spontaneum , and E. rufipilus , we focused our investigation on the DHHC gene family of S. spontaneum as our prime candidates for expression profiling and subsequent correlation analysis with agronomic traits. To elucidate the expression patterns of DHHC genes within our samples, we used the ClusterGVis package (v0.1.2, https://github.com/junjunlab/ClusterGVis ) for analysis. To elucidate the subtle interplay between physiological traits and the expression patterns of DHHC genes and to further our understanding of the genetic underpinnings of the agronomic quality of sugarcane, we sourced agronomic trait data for 24 sugarcane varieties from the supplementary appendices of a comprehensive analysis conducted by Perlo et al.in 2022 39 . This extensive dataset provided rich information on various traits that are critical to the cultivation and yield of sugarcane. With this wealth of agronomic data, we proceeded to conduct a correlation analysis with the expression profiles of DHHC genes."
+          }
+        ],
+        "subsections": [
+          {
+            "id": "Sec3",
+            "title": "Data resources",
+            "paragraphs": [
+              {
+                "id": "Par7",
+                "text": "The sequences of the DHHC proteins in Arabidopsis thaliana and Oryza sativa were acquired from the Arabidopsis Information Resource (TAIR) ( https://www.arabidopsis.org/ ) and the Rice Genome Annotation Project database ( http://rice.uga.edu ), respectively. The genomic data about S.spontaneum Np-X and E.rufipilus (also known as S.rufipilum ) were sourced from the Jisen Zhang laboratory website ( http://sugarcane.zhangjisenlab.cn/sgd/html/download.html ) 11 , 20 , and the genome sequences of M.sinensis 18 and M.lutarioriparius 21 were obtained from the Phytozome V13 database ( https://phytozome-next.jgi.doe.gov/ ) and a data-sharing platform, Figshare ( https://figshare.com/ )."
+              }
+            ]
+          },
+          {
+            "id": "Sec4",
+            "title": "Identification and chromosome distribution",
+            "paragraphs": [
+              {
+                "id": "Par8",
+                "text": "To identify the nonredundant DHHC genes within Saccharinae, we employed hidden Markov model (HMM) profiles corresponding to the DHHC domain (PF01529) downloaded from the Pfam database ( https://pfam.xfam.org/ ). Using HMMER (v3.4, http://hmmer.org/ ) software 22 , searches were conducted against the proteomic sequences of the genomes with the default parameters, applying a stringent filter threshold of 0.01. Concurrently, sequence alignments were executed using the NCBI local BLAST tool (v2.16.0, https://blast.ncbi.nlm.nih.gov/Blast.cgi ) 23 , adopting an e-value threshold of 1e-5, and sequences were filtered to include only those exhibiting an identity of more than 40%. To ensure the reliability of our findings, we further corroborated the derived sequences through the NCBI Conserved Domain Search Service (CD Search) ( https://www.ncbi.nlm.nih.gov/cdd/ ), the Pfam database ( http://pfam.sanger.ac.uk/ ), and the SMART tool ( http://smart.embl-heidelberg.de/ ). These resources were instrumental in verifying the presence and completeness of the DHHC domain within our identified sequences. During the analysis, DHHC genes lacking the fundamental DHHC domain were meticulously screened. Additionally, genes misannotated due to aberrant length, either exceedingly long or short, were detected. Through this stringent protocol, we accurately determined the quantity of DHHC genes present within the aforementioned Saccharinae species. To facilitate subsequent analyses, for a polyploid, all DHHC genes were classified into genes and alleles based on their homology and collinearity."
+              },
+              {
+                "id": "Par9",
+                "text": "Using MCScanX software (v1.0.0, https://github.com/wyp1125/MCScanX ) 24 , we examined the genomes of the Saccharinae family for potential duplications among the intraspecific DHHC genes. In this phase, the BLAST tool 23 was used to compare the protein sequences of the Saccharinae species against themselves, with an E-value threshold set at 1e-10. The conclusive output of the duplication analysis, coupled with the positional information of the DHHC genes on the chromosomes, was then visualized using CIRCOS (v0.69, https://circos.ca/ ) software 25 ."
+              }
+            ]
+          },
+          {
+            "id": "Sec5",
+            "title": "Collinearity analysis",
+            "paragraphs": [
+              {
+                "id": "Par10",
+                "text": "Comparative collinearity maps of the four Saccharinae species were constructed to identify the immediate homologs of the DHHC gene to elucidate its evolutionary mechanism. Using the MCScan software (Python v3) 26 , we analyzed the homologous blocks within the genomes of the Saccharinae interspecific, with the parameter -minspan = 30 configured to delineate the minimum span requirement. The gene modules were subsequently aligned using the LAST tool (v.1257). These selected blocks were then visualized using the JCVI (v1.4.23, https://github.com/tanghaibao/jcvi ) modules 26 with Python3."
+              }
+            ]
+          },
+          {
+            "id": "Sec6",
+            "title": "Molecular weight, isoelectric point analysis, and tertiary structure",
+            "paragraphs": [
+              {
+                "id": "Par11",
+                "text": "To estimate the physicochemical parameters of each gene, including molecular weight (MW) and isoelectric point (pI), we employed the pI/Mw tool within the Peptides (v2.4.6) package. Concurrently, we meticulously documented the chromosomal positional information of these genes."
+              },
+              {
+                "id": "Par12",
+                "text": "To determine the structural characteristics of the DHHC proteins, we selected the proteins with the highest sequence scores from each group based on hmmsearch comparisons. These proteins were deemed to possess the most significant homology and were thus likely to share conserved structural features. One more gene was then randomly selected again in each of the four species. Subsequently, we used AlphaFold3 Server ( https://alphafoldserver.com/ ) 27 to generate three-dimensional structural models of these proteins. The resulting models were then visualized and analyzed using PyMOL (v3.1.1, https://www.pymol.org/ ) software 28 , which allowed us to present the predicted tertiary structures in a clear and accessible manner. software. Additionally, we annotated the core structural domains within these models, highlighting the regions of the proteins that are crucial for their function and stability."
+              },
+              {
+                "id": "Par13",
+                "text": "The selected sequences were subjected to multiple sequence alignment using the DNAMAN software (v10, https://www.lynnon.com/index.html )."
+              }
+            ]
+          },
+          {
+            "id": "Sec7",
+            "title": "Phylogenetic, motif, and class analyses",
+            "paragraphs": [
+              {
+                "id": "Par14",
+                "text": "Using the MUSCLE (v5.1, https://drive5.com/ ) 29 , we conducted a multiple sequence alignment (MSA) of the full-length protein sequences of the DHHC family. Following the alignment, we utilized the RAxML (v8.2.12, https://cme.h-its.org/exelixis/ ) software 30 to construct a phylogenetic tree using the maximum likelihood (ML) method. The resulting phylogenetic tree was then visualized and further edited using the iTOL platform ( https://itol.embl.de/ )."
+              },
+              {
+                "id": "Par15",
+                "text": "The conserved motifs within the DHHC protein family were explored with the aid of the motif elicitation (MEME) tool (v.5.5.7, https://meme-suite.org/meme/tools/meme ) 31 . In our analysis, the parameter for the maximum number of motifs to be detected was set to 10. The motif size distribution was left to ‘any’. All remaining parameters were left at their default values, ensuring that the analysis was conducted with the standard settings recommended by the MEME suite."
+              },
+              {
+                "id": "Par16",
+                "text": "Using the classification system established for Arabidopsis thaliana DHHC proteins 32 , we systematically categorized the identified DHHC proteins of Saccharinae."
+              }
+            ]
+          },
+          {
+            "id": "Sec8",
+            "title": "Promoter analysis",
+            "paragraphs": [
+              {
+                "id": "Par17",
+                "text": "The DNA sequences 2000 bp upstream of the initiation codon “ATG” of the DHHC genes were defined as the promoter sequences. Subsequently, based on these inferred promoter sequences, we used the PlantCARE database ( https://bioinformatics.psb.ugent.be/webtools/plantcare/html/ ) 33 to predict the cis-regulatory elements that may govern the transcriptional regulation of these genes. The identification and quantification of these elements were conducted using R (v.4.4.2, https://www.r-project.org/ )."
+              },
+              {
+                "id": "Par18",
+                "text": "To ensure a rigorous analysis, we excluded unidentified elements and essential eukaryotic components such as the TATA-box and CAAT-box to concentrate on elements that possess specific regulatory functions."
+              }
+            ]
+          },
+          {
+            "id": "Sec9",
+            "title": "Gene duplication and Ka/Ks analysis",
+            "paragraphs": [
+              {
+                "id": "Par19",
+                "text": "Gene duplications have long been recognized as a driving force in the evolution of genes, giving rise to novel functions 34 . The DupGen_finder software package includes a custom MCScanX algorithm 35 that further identifies paralogous DHHC gene pairs derived from whole-genome duplication (WGD), tandem duplication (TD), proximal duplication (PD), transposed duplication (TRD), and dispersed duplication (DSD) 36 , 37 . Briefly, Arabidopsis thaliana was selected as the outgroup to identify duplicated gene pairs 36 . Then, the DHHC of the four Saccharinae genomes was subjected to a BLASTP search against Arabidopsis thaliana using protein sequences (E < 1e − 10, top 5 matches, and m6 format output) for searches. The results were finally corrected for accuracy."
+              },
+              {
+                "id": "Par20",
+                "text": "For the identified pairs of duplicate genes, the calculation and statistical analysis of their Ka/Ks ratios were performed. This process involves the utilization of the Paml software tools ParaAT_mdf.pl and KaKs_Calculator (v2.0), employing the “YN” model 38 to compute the nonsynonymous (Ka) versus synonymous (Ks) substitution rates (Ka/Ks ratio). The Ka/Ks ratio serves as a pivotal metric for understanding the evolutionary pressures acting on genes; a ratio greater than 1 suggests positive selection, indicative of adaptive evolutionary changes; a ratio less than 1 implies purifying selection, suggesting the removal of deleterious mutations; and a ratio equal to 1 indicates neutral evolution."
+              }
+            ]
+          },
+          {
+            "id": "Sec10",
+            "title": "Tissue-specific expression",
+            "paragraphs": [
+              {
+                "id": "Par21",
+                "text": "Again, the DHHC gene family of S. spontaneum Np-X was chosen as the focus of the study. Gene expression data were extracted from the full gene expression matrix in the database of the Jisen Zhang laboratory website ( http://sugarcane.zhangjisenlab.cn/sgd/html/download.html ). Expression heatmaps were created using R (v4.3.2) for presentation."
+              }
+            ]
+          },
+          {
+            "id": "Sec11",
+            "title": "Sugar correlation analysis",
+            "paragraphs": [
+              {
+                "id": "Par22",
+                "text": "Employing the classification schema proposed by Perlo et al. in 2022 39 , 40 , we obtain RNA-seq data for 24 distinct sugarcane cultivars, as documented within the project repository accessible at EMBL-EBI under accession number PRJEB44480 ( https://www.ebi.ac.uk/ena/browser/view/PRJEB44480 ). In our investigation, we specifically focused on the cultivars KQ228 and Q253, which are widely utilized in industry due to their early high sugar content and robust yield 39 . Additionally, we included NQ05 in our study, as it was found to cluster within the same branch as KQ228 and Q253 in our cluster analysis, suggesting a shared genetic or phenotypic profile. The selection of these cultivars was strategic, as it allowed us to explore the genetic underpinnings associated with their economically valuable traits. To quantify gene expression levels, we employed the Rsubread software package 40 ."
+              },
+              {
+                "id": "Par23",
+                "text": "In light of the striking homogeneity in the DHHC gene sequences among the four species of the Saccharinae subtribe, coupled with the intimate evolutionary kinship discerned between M. sinensis , M. lutarioriparius , S. spontaneum , and E. rufipilus , we focused our investigation on the DHHC gene family of S. spontaneum as our prime candidates for expression profiling and subsequent correlation analysis with agronomic traits. To elucidate the expression patterns of DHHC genes within our samples, we used the ClusterGVis package (v0.1.2, https://github.com/junjunlab/ClusterGVis ) for analysis. To elucidate the subtle interplay between physiological traits and the expression patterns of DHHC genes and to further our understanding of the genetic underpinnings of the agronomic quality of sugarcane, we sourced agronomic trait data for 24 sugarcane varieties from the supplementary appendices of a comprehensive analysis conducted by Perlo et al.in 2022 39 . This extensive dataset provided rich information on various traits that are critical to the cultivation and yield of sugarcane. With this wealth of agronomic data, we proceeded to conduct a correlation analysis with the expression profiles of DHHC genes."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Sec3",
+        "title": "Data resources",
+        "paragraphs": [
+          {
+            "id": "Par7",
+            "text": "The sequences of the DHHC proteins in Arabidopsis thaliana and Oryza sativa were acquired from the Arabidopsis Information Resource (TAIR) ( https://www.arabidopsis.org/ ) and the Rice Genome Annotation Project database ( http://rice.uga.edu ), respectively. The genomic data about S.spontaneum Np-X and E.rufipilus (also known as S.rufipilum ) were sourced from the Jisen Zhang laboratory website ( http://sugarcane.zhangjisenlab.cn/sgd/html/download.html ) 11 , 20 , and the genome sequences of M.sinensis 18 and M.lutarioriparius 21 were obtained from the Phytozome V13 database ( https://phytozome-next.jgi.doe.gov/ ) and a data-sharing platform, Figshare ( https://figshare.com/ )."
+          }
+        ]
+      },
+      {
+        "id": "Sec4",
+        "title": "Identification and chromosome distribution",
+        "paragraphs": [
+          {
+            "id": "Par8",
+            "text": "To identify the nonredundant DHHC genes within Saccharinae, we employed hidden Markov model (HMM) profiles corresponding to the DHHC domain (PF01529) downloaded from the Pfam database ( https://pfam.xfam.org/ ). Using HMMER (v3.4, http://hmmer.org/ ) software 22 , searches were conducted against the proteomic sequences of the genomes with the default parameters, applying a stringent filter threshold of 0.01. Concurrently, sequence alignments were executed using the NCBI local BLAST tool (v2.16.0, https://blast.ncbi.nlm.nih.gov/Blast.cgi ) 23 , adopting an e-value threshold of 1e-5, and sequences were filtered to include only those exhibiting an identity of more than 40%. To ensure the reliability of our findings, we further corroborated the derived sequences through the NCBI Conserved Domain Search Service (CD Search) ( https://www.ncbi.nlm.nih.gov/cdd/ ), the Pfam database ( http://pfam.sanger.ac.uk/ ), and the SMART tool ( http://smart.embl-heidelberg.de/ ). These resources were instrumental in verifying the presence and completeness of the DHHC domain within our identified sequences. During the analysis, DHHC genes lacking the fundamental DHHC domain were meticulously screened. Additionally, genes misannotated due to aberrant length, either exceedingly long or short, were detected. Through this stringent protocol, we accurately determined the quantity of DHHC genes present within the aforementioned Saccharinae species. To facilitate subsequent analyses, for a polyploid, all DHHC genes were classified into genes and alleles based on their homology and collinearity."
+          },
+          {
+            "id": "Par9",
+            "text": "Using MCScanX software (v1.0.0, https://github.com/wyp1125/MCScanX ) 24 , we examined the genomes of the Saccharinae family for potential duplications among the intraspecific DHHC genes. In this phase, the BLAST tool 23 was used to compare the protein sequences of the Saccharinae species against themselves, with an E-value threshold set at 1e-10. The conclusive output of the duplication analysis, coupled with the positional information of the DHHC genes on the chromosomes, was then visualized using CIRCOS (v0.69, https://circos.ca/ ) software 25 ."
+          }
+        ]
+      },
+      {
+        "id": "Sec5",
+        "title": "Collinearity analysis",
+        "paragraphs": [
+          {
+            "id": "Par10",
+            "text": "Comparative collinearity maps of the four Saccharinae species were constructed to identify the immediate homologs of the DHHC gene to elucidate its evolutionary mechanism. Using the MCScan software (Python v3) 26 , we analyzed the homologous blocks within the genomes of the Saccharinae interspecific, with the parameter -minspan = 30 configured to delineate the minimum span requirement. The gene modules were subsequently aligned using the LAST tool (v.1257). These selected blocks were then visualized using the JCVI (v1.4.23, https://github.com/tanghaibao/jcvi ) modules 26 with Python3."
+          }
+        ]
+      },
+      {
+        "id": "Sec6",
+        "title": "Molecular weight, isoelectric point analysis, and tertiary structure",
+        "paragraphs": [
+          {
+            "id": "Par11",
+            "text": "To estimate the physicochemical parameters of each gene, including molecular weight (MW) and isoelectric point (pI), we employed the pI/Mw tool within the Peptides (v2.4.6) package. Concurrently, we meticulously documented the chromosomal positional information of these genes."
+          },
+          {
+            "id": "Par12",
+            "text": "To determine the structural characteristics of the DHHC proteins, we selected the proteins with the highest sequence scores from each group based on hmmsearch comparisons. These proteins were deemed to possess the most significant homology and were thus likely to share conserved structural features. One more gene was then randomly selected again in each of the four species. Subsequently, we used AlphaFold3 Server ( https://alphafoldserver.com/ ) 27 to generate three-dimensional structural models of these proteins. The resulting models were then visualized and analyzed using PyMOL (v3.1.1, https://www.pymol.org/ ) software 28 , which allowed us to present the predicted tertiary structures in a clear and accessible manner. software. Additionally, we annotated the core structural domains within these models, highlighting the regions of the proteins that are crucial for their function and stability."
+          },
+          {
+            "id": "Par13",
+            "text": "The selected sequences were subjected to multiple sequence alignment using the DNAMAN software (v10, https://www.lynnon.com/index.html )."
+          }
+        ]
+      },
+      {
+        "id": "Sec7",
+        "title": "Phylogenetic, motif, and class analyses",
+        "paragraphs": [
+          {
+            "id": "Par14",
+            "text": "Using the MUSCLE (v5.1, https://drive5.com/ ) 29 , we conducted a multiple sequence alignment (MSA) of the full-length protein sequences of the DHHC family. Following the alignment, we utilized the RAxML (v8.2.12, https://cme.h-its.org/exelixis/ ) software 30 to construct a phylogenetic tree using the maximum likelihood (ML) method. The resulting phylogenetic tree was then visualized and further edited using the iTOL platform ( https://itol.embl.de/ )."
+          },
+          {
+            "id": "Par15",
+            "text": "The conserved motifs within the DHHC protein family were explored with the aid of the motif elicitation (MEME) tool (v.5.5.7, https://meme-suite.org/meme/tools/meme ) 31 . In our analysis, the parameter for the maximum number of motifs to be detected was set to 10. The motif size distribution was left to ‘any’. All remaining parameters were left at their default values, ensuring that the analysis was conducted with the standard settings recommended by the MEME suite."
+          },
+          {
+            "id": "Par16",
+            "text": "Using the classification system established for Arabidopsis thaliana DHHC proteins 32 , we systematically categorized the identified DHHC proteins of Saccharinae."
+          }
+        ]
+      },
+      {
+        "id": "Sec8",
+        "title": "Promoter analysis",
+        "paragraphs": [
+          {
+            "id": "Par17",
+            "text": "The DNA sequences 2000 bp upstream of the initiation codon “ATG” of the DHHC genes were defined as the promoter sequences. Subsequently, based on these inferred promoter sequences, we used the PlantCARE database ( https://bioinformatics.psb.ugent.be/webtools/plantcare/html/ ) 33 to predict the cis-regulatory elements that may govern the transcriptional regulation of these genes. The identification and quantification of these elements were conducted using R (v.4.4.2, https://www.r-project.org/ )."
+          },
+          {
+            "id": "Par18",
+            "text": "To ensure a rigorous analysis, we excluded unidentified elements and essential eukaryotic components such as the TATA-box and CAAT-box to concentrate on elements that possess specific regulatory functions."
+          }
+        ]
+      },
+      {
+        "id": "Sec9",
+        "title": "Gene duplication and Ka/Ks analysis",
+        "paragraphs": [
+          {
+            "id": "Par19",
+            "text": "Gene duplications have long been recognized as a driving force in the evolution of genes, giving rise to novel functions 34 . The DupGen_finder software package includes a custom MCScanX algorithm 35 that further identifies paralogous DHHC gene pairs derived from whole-genome duplication (WGD), tandem duplication (TD), proximal duplication (PD), transposed duplication (TRD), and dispersed duplication (DSD) 36 , 37 . Briefly, Arabidopsis thaliana was selected as the outgroup to identify duplicated gene pairs 36 . Then, the DHHC of the four Saccharinae genomes was subjected to a BLASTP search against Arabidopsis thaliana using protein sequences (E < 1e − 10, top 5 matches, and m6 format output) for searches. The results were finally corrected for accuracy."
+          },
+          {
+            "id": "Par20",
+            "text": "For the identified pairs of duplicate genes, the calculation and statistical analysis of their Ka/Ks ratios were performed. This process involves the utilization of the Paml software tools ParaAT_mdf.pl and KaKs_Calculator (v2.0), employing the “YN” model 38 to compute the nonsynonymous (Ka) versus synonymous (Ks) substitution rates (Ka/Ks ratio). The Ka/Ks ratio serves as a pivotal metric for understanding the evolutionary pressures acting on genes; a ratio greater than 1 suggests positive selection, indicative of adaptive evolutionary changes; a ratio less than 1 implies purifying selection, suggesting the removal of deleterious mutations; and a ratio equal to 1 indicates neutral evolution."
+          }
+        ]
+      },
+      {
+        "id": "Sec10",
+        "title": "Tissue-specific expression",
+        "paragraphs": [
+          {
+            "id": "Par21",
+            "text": "Again, the DHHC gene family of S. spontaneum Np-X was chosen as the focus of the study. Gene expression data were extracted from the full gene expression matrix in the database of the Jisen Zhang laboratory website ( http://sugarcane.zhangjisenlab.cn/sgd/html/download.html ). Expression heatmaps were created using R (v4.3.2) for presentation."
+          }
+        ]
+      },
+      {
+        "id": "Sec11",
+        "title": "Sugar correlation analysis",
+        "paragraphs": [
+          {
+            "id": "Par22",
+            "text": "Employing the classification schema proposed by Perlo et al. in 2022 39 , 40 , we obtain RNA-seq data for 24 distinct sugarcane cultivars, as documented within the project repository accessible at EMBL-EBI under accession number PRJEB44480 ( https://www.ebi.ac.uk/ena/browser/view/PRJEB44480 ). In our investigation, we specifically focused on the cultivars KQ228 and Q253, which are widely utilized in industry due to their early high sugar content and robust yield 39 . Additionally, we included NQ05 in our study, as it was found to cluster within the same branch as KQ228 and Q253 in our cluster analysis, suggesting a shared genetic or phenotypic profile. The selection of these cultivars was strategic, as it allowed us to explore the genetic underpinnings associated with their economically valuable traits. To quantify gene expression levels, we employed the Rsubread software package 40 ."
+          },
+          {
+            "id": "Par23",
+            "text": "In light of the striking homogeneity in the DHHC gene sequences among the four species of the Saccharinae subtribe, coupled with the intimate evolutionary kinship discerned between M. sinensis , M. lutarioriparius , S. spontaneum , and E. rufipilus , we focused our investigation on the DHHC gene family of S. spontaneum as our prime candidates for expression profiling and subsequent correlation analysis with agronomic traits. To elucidate the expression patterns of DHHC genes within our samples, we used the ClusterGVis package (v0.1.2, https://github.com/junjunlab/ClusterGVis ) for analysis. To elucidate the subtle interplay between physiological traits and the expression patterns of DHHC genes and to further our understanding of the genetic underpinnings of the agronomic quality of sugarcane, we sourced agronomic trait data for 24 sugarcane varieties from the supplementary appendices of a comprehensive analysis conducted by Perlo et al.in 2022 39 . This extensive dataset provided rich information on various traits that are critical to the cultivation and yield of sugarcane. With this wealth of agronomic data, we proceeded to conduct a correlation analysis with the expression profiles of DHHC genes."
+          }
+        ]
+      },
+      {
+        "id": "Sec12",
+        "title": "Results",
+        "paragraphs": [
+          {
+            "id": "Par24",
+            "text": "Through a comprehensive genome-wide analysis of the four Saccharinae species, we identified a total of 251 candidate genes within the DHHC gene family. This set comprised 111 genes from S. spontaneum Np-X, 29 from E. rufipilus , 55 from M. sinensis , and 56 from M. lutarioriparius . To ensure the accuracy of our analysis, we refined structural domain annotations to exclude incorrectly predicted and redundant sequences. Among the identified genes, 161 DHHC proteins with complete domains were found, with 32 genes (representing 110 alleles) from S. spontaneum Np-X (Supplementary Table S1 ), 28 from E. rufipilus , 53 from M. sinensis , and 48 from M. lutarioriparius (Table 1 and Table S2 ). The number of DHHC genes discovered in the four Saccharinae species is comparable to the 24 genes in Arabidopsis 32 and the 30 genes reported in Oryza sativa 19 ."
+          },
+          {
+            "id": "Par25",
+            "text": "To explore the genomic distribution of DHHC genes, we conducted a chromosomal localization analysis in the four Saccharinae species ( S. spontaneum Np-X, E. rufipilus , M. sinensis , and M. lutarioriparius ). The positional analysis revealed a random distribution of DHHC genes across both homologous and nonhomologous chromosomes (Supplementary Fig. S1 ). The presence of a diploid genome within the Saccharum complex offers valuable insights for understanding the evolutionary intricacies within the highly polyploid Saccharum genus 11 . Initial observations in E. rufipilus indicated the distribution of DHHC genes across chromosomes as follows: four genes on chromosomes 1 to 4, three on chromosomes 6 and 7, two on chromosomes 5 and 9, and one gene each on chromosomes 8 and 10. The limited number of orthologous gene pairs among these species suggests that gene rearrangements are prevalent during evolution. Chromosomal rearrangements, including insertions, deletions, and inversions, can disrupt the collinearity of orthologous genes and alter their chromosomal positions. Structural changes at the chromosomal level, such as fusion and fission, also contribute to the repositioning of orthologous genes 41 ."
+          },
+          {
+            "id": "Par26",
+            "text": "Table 1 Genomic information and identified DHHC gene numbers in Saccharinae species. Scientific Name Chromosome Number Genome Size (Gb) All genes DHHC Gens DHHC Allele S. spontaneum Np-X 1n = 4x = 40 2.761 122,441 32 110 E. rufipilus 2n = 2x = 20 0.858 32,770 28 \\ M.sinensis 2n = 2x = 38 2.079 67,789 53 \\ M.lutarioriparius 2n = 2x = 38 2.074 68,328 48 \\"
+          },
+          {
+            "id": "",
+            "text": "Genomic information and identified DHHC gene numbers in Saccharinae species."
+          },
+          {
+            "id": "",
+            "text": "Scientific"
+          },
+          {
+            "id": "",
+            "text": "Name"
+          },
+          {
+            "id": "",
+            "text": "Chromosome Number"
+          },
+          {
+            "id": "",
+            "text": "Genome Size (Gb)"
+          },
+          {
+            "id": "",
+            "text": "All genes"
+          },
+          {
+            "id": "",
+            "text": "DHHC Gens"
+          },
+          {
+            "id": "",
+            "text": "DHHC Allele"
+          },
+          {
+            "id": "",
+            "text": "S. spontaneum"
+          },
+          {
+            "id": "",
+            "text": "Np-X"
+          },
+          {
+            "id": "",
+            "text": "1n = 4x = 40"
+          },
+          {
+            "id": "",
+            "text": "2.761"
+          },
+          {
+            "id": "",
+            "text": "122,441"
+          },
+          {
+            "id": "",
+            "text": "32"
+          },
+          {
+            "id": "",
+            "text": "110"
+          },
+          {
+            "id": "",
+            "text": "E. rufipilus"
+          },
+          {
+            "id": "",
+            "text": "2n = 2x = 20"
+          },
+          {
+            "id": "",
+            "text": "0.858"
+          },
+          {
+            "id": "",
+            "text": "32,770"
+          },
+          {
+            "id": "",
+            "text": "28"
+          },
+          {
+            "id": "",
+            "text": "\\"
+          },
+          {
+            "id": "",
+            "text": "M.sinensis"
+          },
+          {
+            "id": "",
+            "text": "2n = 2x = 38"
+          },
+          {
+            "id": "",
+            "text": "2.079"
+          },
+          {
+            "id": "",
+            "text": "67,789"
+          },
+          {
+            "id": "",
+            "text": "53"
+          },
+          {
+            "id": "",
+            "text": "\\"
+          },
+          {
+            "id": "",
+            "text": "M.lutarioriparius"
+          },
+          {
+            "id": "",
+            "text": "2n = 2x = 38"
+          },
+          {
+            "id": "",
+            "text": "2.074"
+          },
+          {
+            "id": "",
+            "text": "68,328"
+          },
+          {
+            "id": "",
+            "text": "48"
+          },
+          {
+            "id": "",
+            "text": "\\"
+          },
+          {
+            "id": "Par27",
+            "text": "To elucidate the evolutionary relationships among DHHC genes, a comprehensive analysis of collinearity was conducted on DHHC genes sourced from four distinct Saccharinae species. The investigation unveiled notable chromosomal fusion or fission events across these species, indicating intricate evolutionary dynamics. Particularly, E. rufipilus exhibited frequent duplications of a single chromosome into two or four copies, which served as the foundation for the observed chromosomal structures in S. spontaneum , M. sinensis , and M. lutarioriparius (Supplementary Fig. S2 ). Additionally, a significant level of concordance and collinearity was observed among DHHC genes situated on chromosomes originating from E. rufipilus duplications in S. spontaneum Np-X, M. sinensis , and M. lutarioriparius (Supplementary Fig. S2 ). This alignment not only emphasizes the evolutionary connections among the four Saccharinae species but also underscores the robust conservation of DHHC genes within this group. The investigation identified a total of 190 homologous gene pairs derived from DHHC genes of the four Saccharinae species, with 101 collinear gene pairs between E. rufipilus and S. spontaneum Np-X, 48 between E. rufipilus and M. sinensis , and 41 between E. rufipilus and M. lutarioriparius (Supplementary Fig. S2 and Table S3). These findings highlight the strong interplay among DHHC genes."
+          },
+          {
+            "id": "Par28",
+            "text": "The evolutionary trajectory is characterized by the inevitable occurrence of gene deletion or duplication. In this study, observations revealed instances of both deletions and duplications in DHHC genes. The genes EruDHHC1C and EruDHHC3A , situated on chromosomes 1 and 3 in E. rufipilus , were absent from chromosomes 1 and 2, as well as from chromosomes 5 and 6, in M. lutarioriparius . Specifically, M. lutarioriparius lacks homologous genes corresponding to EruDHHC1C on chromosomes 1 and 2 and EruDHHC3A on chromosomes 5 and 6 (Fig. 1 )."
+          },
+          {
+            "id": "Par29",
+            "text": "Fig. 1 Collinearity between chromosomes 1 and 3 of E. rufipilus and S. spontaneum , M. sinensis , and M. lutarioriparius and the labeling of missing genes."
+          },
+          {
+            "id": "",
+            "text": "Collinearity between chromosomes 1 and 3 of E. rufipilus and S. spontaneum , M. sinensis , and M. lutarioriparius and the labeling of missing genes."
+          },
+          {
+            "id": "Par30",
+            "text": "To gain insights into the structural and functional properties of DHHC proteins, we conducted an analysis encompassing gene length, protein sequence length, protein molecular weight (MW), and isoelectric point (pI) (Supplementary Table S2 ). Variations in protein length were observed among DHHC proteins across different species. For instance, in S. spontaneum Np-X, SspDHHC1B had the smallest protein sequence with 237 amino acids (aa), while SspDHHC20C had the largest sequence with 814 aa. This variability in protein length was also evident in E. rufipilus , M. sinensis , and M. lutarioriparius . Notably, EruDHHC4B was the shortest DHHC protein with 275 aa, and EruDHHC3C was the longest with 711 aa in E. rufipilus . In M. sinensis , MisDHHC17A had the shortest sequence with 248 aa, while MisDHHC6C and MisDHHC4C were the longest with 710 aa. In M. lutarioriparius , MluDHHC8B was the shortest with 208 aa, and MluDHHC12C was the longest with 814 aa, the longest sequences of amino acids are found in Class C (Supplementary Table S2 )."
+          },
+          {
+            "id": "Par31",
+            "text": "Fig. 2 Three-dimensional structural model of the DHHC protein. The structural images were generated by PyMOL software. ( a ) The purple region in the 3D structural schematic is a typical DHHC structural domain: C-x2-C-x9-HC-x2-C-x2-C-x4-DHHC-x5-C-x4-N-x3-F. ( b ) Multiple sequence comparison of DHHC proteins; The red dashed boxes indicate conserved core structural domains."
+          },
+          {
+            "id": "",
+            "text": "Three-dimensional structural model of the DHHC protein. The structural images were generated by PyMOL software. ( a ) The purple region in the 3D structural schematic is a typical DHHC structural domain: C-x2-C-x9-HC-x2-C-x2-C-x4-DHHC-x5-C-x4-N-x3-F. ( b ) Multiple sequence comparison of DHHC proteins; The red dashed boxes indicate conserved core structural domains."
+          },
+          {
+            "id": "Par32",
+            "text": "The molecular weight (MW) and theoretical isoelectric point (pI) of DHHC proteins were calculated. For S. spontaneum , the molecular weights ranged from 26.04 to 86.81 kilodaltons (kDa), with isoelectric points varying from 6.35 to 10.11. In E. rufipilus , the MW ranged from 30.15 to 76.80 kDa, with pI values between 6.51 and 10.05. M. sinensis proteins exhibited MW values between 28.58 and 76.68 kDa, and pI values ranged from 6.25 to 10.85. Similarly, M. lutarioriparius had a MW range of 23.06 to 87.32 kDa and a pI range of 6.40 to 10.05 (Supplementary Table S2 )."
+          },
+          {
+            "id": "Par33",
+            "text": "Significant structural similarities between the DHHC proteins of the four species can be seen in three-dimensional (3D) structure. These findings underscore the inherent structural conservation within the DHHC family across a quartet of species (Fig. 2 a). Initial investigations revealed that genes selected ( EruDHHC7B , MisDHHC9B , MluDHHC10B , and SspDHHC22B ) through the highest sequence scores have strong uniformity and collinearity (Fig. 1 ), so these genes should have originated from the evolutionary processes (or duplications) of genes identified in E. rufipilus , which infers that they are copies of the same gene. This discovery was further validated through multiple sequence alignments (Fig. 2 b). It was likewise found that randomly selected genes ( EruDHHC3B , MisDHHC5B , MluDHHC6B , and SspDHHC6B ) also showed great similarity to the high-scoring genes, even in the presence of a large number of SNPs and partial INDEL (Fig. 2 b and Supplementary Fig. S3). A central DHHC motif (amino acids 124–127) and nine conserved cysteine residues (amino acids 99, 102, 112, 113, 116, 119, 133, 138 and 142 in the alignment) were prominently visible, highlighting their distinctive features (Fig. 2 b). Examination of the sequence revealed specific amino acid modifications indicating the presence of single nucleotide polymorphism (SNP) and insertion-deletion (INDEL) variations within these genes (Fig. 2 b and Supplementary Fig. S3). Analysis of the protein’s three-dimensional structure indicated that despite these SNP and indel variations, they did not significantly impact the protein’s three-dimensional architecture (Fig. 2 a). The findings suggest that certain SNP mutations resulting in nonsynonymous changes within DHHC genes, as well as insertions or deletions leading to variations in protein sequences during the speciation of plants, do not significantly impact the overall tertiary structure of the DHHC proteins."
+          },
+          {
+            "id": "Par34",
+            "text": "Phylogenetic analysis unveiled that the classification of DHHC genes was in accordance with previous studies conducted in Arabidopsis and rice 19 , 32 . Based on the taxonomic criteria of Arabidopsis , DHHC family members of the four Saccharinae species were classified into six subgroups along with Arabidopsis , Oryza sativa to construct the maximum likelihood (ML) phylogenetic tree (Supplementary Fig. S4). Class A comprised 92 members, including SspDHHC11A , EruDHHC2A , MisDHHC4A , and MluDHHC4A ; Class B comprised 44 members, such as SspDHHC12B , EruDHHC3B , MisDHHC6B , and MluDHHC5B ; Class C consisted of 61 members, including SspDHHC8C , EruDHHC2C , MisDHHC7C , and MluDHHC4C ; Class D comprised 8 members, such as SspDHHC2D , EruDHHC1D , MisDHHC1D , and MluDHHC1D ; Class E included 7 members, such as SspDHHC1E , EruDHHC1E , MisDHHC1E , and MluDHHC1E ; and Class F encompassed 27 members, including SspDHHC9F , EruDHHC1F , MisDHHC1F , and MluDHHC3F (Fig. 3 , Table S2 ). The classification of DHHC genes revealed a higher number of members in the A, B, and C subfamilies compared to other clades, mirroring the pattern observed in Arabidopsis . When comparing the number of DHHC genes across the four Saccharinae species, with E. rufipilus as the reference species, the number of DHHC genes in the other three species exhibited a nearly multiplicative relationship to it, particularly pronounced in the subgroups (Supplementary Table S4)."
+          },
+          {
+            "id": "Par35",
+            "text": "Fig. 3 A maximum likelihood (ML) phylogenetic tree of four species was constructed based on the full-length sequence in RAxML, with branching support values added at the branches. The tree was divided into six classic outer rings with different colors: green, yellow, light purple, deep purple, pink, and blue-gray for the DHHC proteins. Circles, crosses, diamonds and squares denote S. spontaneum , E. rufipilus , M. sinensis , and M. lutarioriparius , respectively."
+          },
+          {
+            "id": "",
+            "text": "A maximum likelihood (ML) phylogenetic tree of four species was constructed based on the full-length sequence in RAxML, with branching support values added at the branches. The tree was divided into six classic outer rings with different colors: green, yellow, light purple, deep purple, pink, and blue-gray for the DHHC proteins. Circles, crosses, diamonds and squares denote S. spontaneum , E. rufipilus , M. sinensis , and M. lutarioriparius , respectively."
+          },
+          {
+            "id": "Par36",
+            "text": "Through the analysis of 161 DHHC genes across the four Saccharinae species, 10 distinct motifs were identified. Each DHHC gene was found to harbor at least two motifs (Supplementary Fig. S5). While the overall motif arrangement remained consistent and structured across different classes, there were instances where individual genes displayed additional or missing motifs. This motif organization pattern unveiled both similarities and variations within specific groups of DHHC genes."
+          },
+          {
+            "id": "Par37",
+            "text": "Within these subfamilies, a high level of consistency was observed in terms of gene sequence length and motif distribution. Specific motifs unique to each subfamily were identified, potentially contributing to the functional divergence of each subgroup. Each DHHC protein featured a core motif, denoted as Motif 1, characterized by the conserved sequence HC-x2-C-x2-C-x4-DHHC-x5-C-x4-N (Supplementary Table S5). This conserved sequence played a crucial role in maintaining the structural integrity of the protein, essential for its biological function. Additionally, additional motifs were distributed throughout the gene, varying based on the distinct subfamilies. The structural arrangement within each subfamily exhibited a notable standardization (Supplementary Fig. S5)."
+          },
+          {
+            "id": "Par38",
+            "text": "To elucidate the cis-regulatory elements governing DHHC genes within the Saccharinae family, an examination of the 2000 bp upstream promoter regions was conducted. The primary objective of this study was to unveil the intricate array of cis-regulatory elements that influence gene expression in response to diverse environmental and physiological cues."
+          },
+          {
+            "id": "Par39",
+            "text": "Fig. 4 Analysis of cis-regulatory elements in DHHC promoters. Dark blue squares indicate a high number of cis-acting regulatory elements, light blue squares indicate a low number of cis-regulatory elements, and white squares indicate no cis-regulatory elements."
+          },
+          {
+            "id": "",
+            "text": "Analysis of cis-regulatory elements in DHHC promoters. Dark blue squares indicate a high number of cis-acting regulatory elements, light blue squares indicate a low number of cis-regulatory elements, and white squares indicate no cis-regulatory elements."
+          },
+          {
+            "id": "Par40",
+            "text": "A diverse range of regulatory elements responsive to hormonal signals such as abscisic acid (ABA), gibberellins (GAs), and methyl jasmonate (MeJA) were identified in the DHHC promoter regions of the four Saccharinae species (Fig. 4 , Table S6). These elements included, but were not limited to, the G-box, ABA-responsive element (ABER), TGA-element, O2-site, and CGTCA-motif, each playing a crucial role in sophisticated regulatory networks. Additionally, the investigation unveiled numerous elements responsive to a spectrum of light signals, including sp1, the 3-AF1 binding site, ACE, the AE-box, AT1-motif, ATC-motif, ATCT-motif, chs-CMA1a, Box-4, and others, presenting a complex scenario of light-mediated gene regulation. The narrative of stress responsiveness was enriched with the identification of elements such as the low-temperature responsive element (LTRE), the stress-responsive element (STRE), MYC, MYB, TC-rich repeats, and the W-box, each assessing the resilience and adaptability of these species under stress. Among the identified cis-regulatory elements, G-boxes were notably abundant, with occurrences of 158, 134, 234, and 215 in the four Saccharinae species, respectively (Supplementary Fig. S6)."
+          },
+          {
+            "id": "Par41",
+            "text": "To elucidate the evolutionary processes governing gene duplication and function, an extensive investigation of the DHHC gene family in four Saccharinae species was undertaken. The study focused on identifying gene duplication events, which were categorized into distinct modes: transposed duplication (TRD), proximal duplication (PD), tandem duplication (TD), dispersed duplication (DSD), and whole-genome duplication (WGD)."
+          },
+          {
+            "id": "Par42",
+            "text": "The analysis revealed 215 pairs of duplicated genes across the four species, with DSD being the most prevalent pattern, accounting for 114 pairs (Supplementary Fig. S7, Table S7). E. rufipilus exhibited three types of duplication events: DSD, PD, and TD (Fig. 5 b). In S. spontaneum and M. sinensis , four duplication events were identified: DSD, PD, TD, and WGD (Fig. 5 a and c). In contrast, M. lutarioriparius displayed five duplication events: DSD, PD, TD, TRD, and WGD (Fig. 5 d)."
+          },
+          {
+            "id": "Par43",
+            "text": "Among the four Saccharinae species, WGD emerged as the second most prevalent mode, with 68 gene pairs out of 217, although WGD did not occur in E. rufipilus (Supplementary Table S8). These findings underscore the significant impact of WGD on the expression patterns of the DHHC gene family. Notably, despite being diploid, M. sinensis and M. lutarioriparius experienced chromosome duplication events involving DHHC family members, unlike E. rufipilus."
+          },
+          {
+            "id": "Par44",
+            "text": "The Ka/Ks values, commonly used to evaluate gene selection pressure and evolutionary history, provided valuable insights. Notably, 97.21% (209 gene pairs) of the homologous DHHC gene pairs in the four Saccharinae species exhibited Ka/Ks ratios lower than 1, indicating strong purifying selection. However, in S. spontaneum and M. lutarioriparius , a small percentage (2.79%, 6 gene pairs) displayed higher Ka/Ks ratios, suggesting a complex evolutionary history for this gene family (Supplementary Table S8)."
+          },
+          {
+            "id": "Par45",
+            "text": "Across the four species where dispersed duplication (DSD) was predominant, the average Ka/Ks ratios of DSD-generated gene pairs were less than 1(Fig. 5 a-d), indicating the pervasive influence of purifying selection. The analysis revealed that nonsynonymous mutations following gene duplications via DSD were often eliminated through selection to maintain the original gene function. Furthermore, the comparison of mean Ka/Ks values for different types of duplicated gene pairs in M. sinensis highlighted that TD gene pairs evolved at a faster rate than other gene pairs. E. rufipilus exhibited the lowest Ka/Ks ratio and stringent conservation of gene function (Fig. 5 b), while S. spontaneum showed a higher number of gene pairs from various duplication events with Ka/Ks ratios above 1 (Fig. 5 a), indicating purifying selection with relatively less intense pressure, possibly due to its polyploid nature. This observation suggests a high level of conservation in the evolution of DHHC genes."
+          },
+          {
+            "id": "Par46",
+            "text": "Fig. 5 Statistics of Ka/Ks values for four species of Saccharinae. The x-axis represents the duplication type. WGD: whole-genome duplicates; TD: tandem duplicates; PD: proximal duplicates; TRD: transposed duplicates; DSD: dispersed duplicates, y-axis is the Ka/Ks ratio. ( a ) Ka/Ks box plot of S. spontaneum . ( b ) Ka/Ks box plot of E. rufipilus . ( c ) Ka/Ks box plot of M. sinensis . d . Ka/Ks box plot of M. lutarioriparius ."
+          },
+          {
+            "id": "",
+            "text": "Statistics of Ka/Ks values for four species of Saccharinae. The x-axis represents the duplication type. WGD: whole-genome duplicates; TD: tandem duplicates; PD: proximal duplicates; TRD: transposed duplicates; DSD: dispersed duplicates, y-axis is the Ka/Ks ratio. ( a ) Ka/Ks box plot of S. spontaneum . ( b ) Ka/Ks box plot of E. rufipilus . ( c ) Ka/Ks box plot of M. sinensis . d . Ka/Ks box plot of M. lutarioriparius ."
+          },
+          {
+            "id": "Par47",
+            "text": "To explore the specific expression patterns of DHHC genes in different tissues, our focus was on the DHHC gene family of S. spontaneum Np-X. We focused on expression in different tissues at different stages of maturity and in different parts of the same tissue. The expression levels of these genes were lower in leaves compared to stalks in mature sugarcane. Additionally, a general decrease in expression was observed as the stalks matured (Fig. 6 a). Specifically, as stalks mature and sucrose storage increases, the expression of DHHC genes decreases, indicating a negative correlation between DHHC gene expression and sucrose yield or storage. In the expanding leaves, the petiole part (white in color) exhibited relatively high expression, which decreased significantly with leaf elongation, consistent with the overall expression trend. However, certain genes displayed specific expression patterns, such as SspDHHC1B , SspDHHC28A , SspDHHC13B , and SspDHHC2C , whose expression initially increased but then decreased subsequently (Fig. 6 b)."
+          },
+          {
+            "id": "Par48",
+            "text": "Fig. 6 Heatmap normalised to DHHC gene expression in S. spontaneum . ( a ) A heatmap of expression among tissues at different growth periods is presented. The number of stem nodes, from top to bottom, is indicated by the letters “Stem3, 6, 9.” These letters correspond to the stalks, which are arranged from young to old. roll leaf indicates a young leaf and a mature leaf indicates a spreading mature leaf. ( b ) A heatmap of the various regions of the leaf blade (base, middle, tip) is presented."
+          },
+          {
+            "id": "",
+            "text": "Heatmap normalised to DHHC gene expression in S. spontaneum . ( a ) A heatmap of expression among tissues at different growth periods is presented. The number of stem nodes, from top to bottom, is indicated by the letters “Stem3, 6, 9.” These letters correspond to the stalks, which are arranged from young to old. roll leaf indicates a young leaf and a mature leaf indicates a spreading mature leaf. ( b ) A heatmap of the various regions of the leaf blade (base, middle, tip) is presented."
+          },
+          {
+            "id": "Par49",
+            "text": "To explore the functional diversity of DHHC genes, we classified the expression patterns of DHHC genes in S. spontaneum Np-X into three distinct clusters (Fig. 7 a). Specifically, cluster 1 consisted of 11 DHHC members, cluster 3 included 10 members, and cluster 2 encompassed 7 members (Supplementary Table S9). Notably, despite the identified patterns, the three selected sugarcane cultivars (NQ05, KQ228, and Q253) exhibited highly consistent expression profiles, indicating a conserved expression pattern of DHHC genes across different sugarcane cultivars, regardless of temporal or tissue variations. Furthermore, within the same species, DHHC genes displayed diverse expression patterns, suggesting the presence of multifaceted functional roles within the DHHC gene family (Fig. 7 a)."
+          },
+          {
+            "id": "Par50",
+            "text": "In investigating the correlation between DHHC genes and agronomic traits in sugarcane, an in-depth analysis of phenotypic data from 24 distinct sugarcane varieties, as reported by Perlo et al. in 2022 40 , was conducted. Particularly, the expression profiles of the gene SspDHHC28A , categorized within C2 and documented at the fifth stem node during the 37th week (w37n5d), exhibited noticeable negative correlations with various agronomic traits related to sucrose content (Supplementary Fig. S8). The associations with CCS (Sept) and Delta CCS indices were notably significant (Fig. 7 b)."
+          },
+          {
+            "id": "Par51",
+            "text": "Fig. 7 ( a ) Heatmap of DHHC gene expression and expression trends in the genomes of four Saccharinae species. w19n and w37n are the 19th and 37th weeks of sampling, respectively; 5, 8, and Ex5 are the tissues sampled when the 5th stem node, 8th stem node, and 5th stem node were first labeled mature stem nodes, respectively. ( b ) The X-axis is the expression of the gene and the Y-axis is the phenotypic value of the agronomic trait. The correlations between DHHC genes and agronomic traits were significant for the green markers and highly significant for the red markers according to the P value. CCS: commercial cane sugar, CCS Sept: late sugar content. Delta_CCS_June_March: Yield changes in sugar content of sugarcane from March to June."
+          },
+          {
+            "id": "",
+            "text": "( a ) Heatmap of DHHC gene expression and expression trends in the genomes of four Saccharinae species. w19n and w37n are the 19th and 37th weeks of sampling, respectively; 5, 8, and Ex5 are the tissues sampled when the 5th stem node, 8th stem node, and 5th stem node were first labeled mature stem nodes, respectively. ( b ) The X-axis is the expression of the gene and the Y-axis is the phenotypic value of the agronomic trait. The correlations between DHHC genes and agronomic traits were significant for the green markers and highly significant for the red markers according to the P value. CCS: commercial cane sugar, CCS Sept: late sugar content. Delta_CCS_June_March: Yield changes in sugar content of sugarcane from March to June."
+          }
+        ],
+        "subsections": [
+          {
+            "id": "Sec13",
+            "title": "Identification and positional of the DHHC gene family",
+            "paragraphs": [
+              {
+                "id": "Par24",
+                "text": "Through a comprehensive genome-wide analysis of the four Saccharinae species, we identified a total of 251 candidate genes within the DHHC gene family. This set comprised 111 genes from S. spontaneum Np-X, 29 from E. rufipilus , 55 from M. sinensis , and 56 from M. lutarioriparius . To ensure the accuracy of our analysis, we refined structural domain annotations to exclude incorrectly predicted and redundant sequences. Among the identified genes, 161 DHHC proteins with complete domains were found, with 32 genes (representing 110 alleles) from S. spontaneum Np-X (Supplementary Table S1 ), 28 from E. rufipilus , 53 from M. sinensis , and 48 from M. lutarioriparius (Table 1 and Table S2 ). The number of DHHC genes discovered in the four Saccharinae species is comparable to the 24 genes in Arabidopsis 32 and the 30 genes reported in Oryza sativa 19 ."
+              },
+              {
+                "id": "Par25",
+                "text": "To explore the genomic distribution of DHHC genes, we conducted a chromosomal localization analysis in the four Saccharinae species ( S. spontaneum Np-X, E. rufipilus , M. sinensis , and M. lutarioriparius ). The positional analysis revealed a random distribution of DHHC genes across both homologous and nonhomologous chromosomes (Supplementary Fig. S1 ). The presence of a diploid genome within the Saccharum complex offers valuable insights for understanding the evolutionary intricacies within the highly polyploid Saccharum genus 11 . Initial observations in E. rufipilus indicated the distribution of DHHC genes across chromosomes as follows: four genes on chromosomes 1 to 4, three on chromosomes 6 and 7, two on chromosomes 5 and 9, and one gene each on chromosomes 8 and 10. The limited number of orthologous gene pairs among these species suggests that gene rearrangements are prevalent during evolution. Chromosomal rearrangements, including insertions, deletions, and inversions, can disrupt the collinearity of orthologous genes and alter their chromosomal positions. Structural changes at the chromosomal level, such as fusion and fission, also contribute to the repositioning of orthologous genes 41 ."
+              },
+              {
+                "id": "Par26",
+                "text": "Table 1 Genomic information and identified DHHC gene numbers in Saccharinae species. Scientific Name Chromosome Number Genome Size (Gb) All genes DHHC Gens DHHC Allele S. spontaneum Np-X 1n = 4x = 40 2.761 122,441 32 110 E. rufipilus 2n = 2x = 20 0.858 32,770 28 \\ M.sinensis 2n = 2x = 38 2.079 67,789 53 \\ M.lutarioriparius 2n = 2x = 38 2.074 68,328 48 \\"
+              },
+              {
+                "id": "",
+                "text": "Genomic information and identified DHHC gene numbers in Saccharinae species."
+              },
+              {
+                "id": "",
+                "text": "Scientific"
+              },
+              {
+                "id": "",
+                "text": "Name"
+              },
+              {
+                "id": "",
+                "text": "Chromosome Number"
+              },
+              {
+                "id": "",
+                "text": "Genome Size (Gb)"
+              },
+              {
+                "id": "",
+                "text": "All genes"
+              },
+              {
+                "id": "",
+                "text": "DHHC Gens"
+              },
+              {
+                "id": "",
+                "text": "DHHC Allele"
+              },
+              {
+                "id": "",
+                "text": "S. spontaneum"
+              },
+              {
+                "id": "",
+                "text": "Np-X"
+              },
+              {
+                "id": "",
+                "text": "1n = 4x = 40"
+              },
+              {
+                "id": "",
+                "text": "2.761"
+              },
+              {
+                "id": "",
+                "text": "122,441"
+              },
+              {
+                "id": "",
+                "text": "32"
+              },
+              {
+                "id": "",
+                "text": "110"
+              },
+              {
+                "id": "",
+                "text": "E. rufipilus"
+              },
+              {
+                "id": "",
+                "text": "2n = 2x = 20"
+              },
+              {
+                "id": "",
+                "text": "0.858"
+              },
+              {
+                "id": "",
+                "text": "32,770"
+              },
+              {
+                "id": "",
+                "text": "28"
+              },
+              {
+                "id": "",
+                "text": "\\"
+              },
+              {
+                "id": "",
+                "text": "M.sinensis"
+              },
+              {
+                "id": "",
+                "text": "2n = 2x = 38"
+              },
+              {
+                "id": "",
+                "text": "2.079"
+              },
+              {
+                "id": "",
+                "text": "67,789"
+              },
+              {
+                "id": "",
+                "text": "53"
+              },
+              {
+                "id": "",
+                "text": "\\"
+              },
+              {
+                "id": "",
+                "text": "M.lutarioriparius"
+              },
+              {
+                "id": "",
+                "text": "2n = 2x = 38"
+              },
+              {
+                "id": "",
+                "text": "2.074"
+              },
+              {
+                "id": "",
+                "text": "68,328"
+              },
+              {
+                "id": "",
+                "text": "48"
+              },
+              {
+                "id": "",
+                "text": "\\"
+              }
+            ]
+          },
+          {
+            "id": "Sec14",
+            "title": "Collinearity relationships",
+            "paragraphs": [
+              {
+                "id": "Par27",
+                "text": "To elucidate the evolutionary relationships among DHHC genes, a comprehensive analysis of collinearity was conducted on DHHC genes sourced from four distinct Saccharinae species. The investigation unveiled notable chromosomal fusion or fission events across these species, indicating intricate evolutionary dynamics. Particularly, E. rufipilus exhibited frequent duplications of a single chromosome into two or four copies, which served as the foundation for the observed chromosomal structures in S. spontaneum , M. sinensis , and M. lutarioriparius (Supplementary Fig. S2 ). Additionally, a significant level of concordance and collinearity was observed among DHHC genes situated on chromosomes originating from E. rufipilus duplications in S. spontaneum Np-X, M. sinensis , and M. lutarioriparius (Supplementary Fig. S2 ). This alignment not only emphasizes the evolutionary connections among the four Saccharinae species but also underscores the robust conservation of DHHC genes within this group. The investigation identified a total of 190 homologous gene pairs derived from DHHC genes of the four Saccharinae species, with 101 collinear gene pairs between E. rufipilus and S. spontaneum Np-X, 48 between E. rufipilus and M. sinensis , and 41 between E. rufipilus and M. lutarioriparius (Supplementary Fig. S2 and Table S3). These findings highlight the strong interplay among DHHC genes."
+              },
+              {
+                "id": "Par28",
+                "text": "The evolutionary trajectory is characterized by the inevitable occurrence of gene deletion or duplication. In this study, observations revealed instances of both deletions and duplications in DHHC genes. The genes EruDHHC1C and EruDHHC3A , situated on chromosomes 1 and 3 in E. rufipilus , were absent from chromosomes 1 and 2, as well as from chromosomes 5 and 6, in M. lutarioriparius . Specifically, M. lutarioriparius lacks homologous genes corresponding to EruDHHC1C on chromosomes 1 and 2 and EruDHHC3A on chromosomes 5 and 6 (Fig. 1 )."
+              },
+              {
+                "id": "Par29",
+                "text": "Fig. 1 Collinearity between chromosomes 1 and 3 of E. rufipilus and S. spontaneum , M. sinensis , and M. lutarioriparius and the labeling of missing genes."
+              },
+              {
+                "id": "",
+                "text": "Collinearity between chromosomes 1 and 3 of E. rufipilus and S. spontaneum , M. sinensis , and M. lutarioriparius and the labeling of missing genes."
+              }
+            ]
+          },
+          {
+            "id": "Sec15",
+            "title": "Molecular weight, isoelectric point, and tertiary structure",
+            "paragraphs": [
+              {
+                "id": "Par30",
+                "text": "To gain insights into the structural and functional properties of DHHC proteins, we conducted an analysis encompassing gene length, protein sequence length, protein molecular weight (MW), and isoelectric point (pI) (Supplementary Table S2 ). Variations in protein length were observed among DHHC proteins across different species. For instance, in S. spontaneum Np-X, SspDHHC1B had the smallest protein sequence with 237 amino acids (aa), while SspDHHC20C had the largest sequence with 814 aa. This variability in protein length was also evident in E. rufipilus , M. sinensis , and M. lutarioriparius . Notably, EruDHHC4B was the shortest DHHC protein with 275 aa, and EruDHHC3C was the longest with 711 aa in E. rufipilus . In M. sinensis , MisDHHC17A had the shortest sequence with 248 aa, while MisDHHC6C and MisDHHC4C were the longest with 710 aa. In M. lutarioriparius , MluDHHC8B was the shortest with 208 aa, and MluDHHC12C was the longest with 814 aa, the longest sequences of amino acids are found in Class C (Supplementary Table S2 )."
+              },
+              {
+                "id": "Par31",
+                "text": "Fig. 2 Three-dimensional structural model of the DHHC protein. The structural images were generated by PyMOL software. ( a ) The purple region in the 3D structural schematic is a typical DHHC structural domain: C-x2-C-x9-HC-x2-C-x2-C-x4-DHHC-x5-C-x4-N-x3-F. ( b ) Multiple sequence comparison of DHHC proteins; The red dashed boxes indicate conserved core structural domains."
+              },
+              {
+                "id": "",
+                "text": "Three-dimensional structural model of the DHHC protein. The structural images were generated by PyMOL software. ( a ) The purple region in the 3D structural schematic is a typical DHHC structural domain: C-x2-C-x9-HC-x2-C-x2-C-x4-DHHC-x5-C-x4-N-x3-F. ( b ) Multiple sequence comparison of DHHC proteins; The red dashed boxes indicate conserved core structural domains."
+              },
+              {
+                "id": "Par32",
+                "text": "The molecular weight (MW) and theoretical isoelectric point (pI) of DHHC proteins were calculated. For S. spontaneum , the molecular weights ranged from 26.04 to 86.81 kilodaltons (kDa), with isoelectric points varying from 6.35 to 10.11. In E. rufipilus , the MW ranged from 30.15 to 76.80 kDa, with pI values between 6.51 and 10.05. M. sinensis proteins exhibited MW values between 28.58 and 76.68 kDa, and pI values ranged from 6.25 to 10.85. Similarly, M. lutarioriparius had a MW range of 23.06 to 87.32 kDa and a pI range of 6.40 to 10.05 (Supplementary Table S2 )."
+              },
+              {
+                "id": "Par33",
+                "text": "Significant structural similarities between the DHHC proteins of the four species can be seen in three-dimensional (3D) structure. These findings underscore the inherent structural conservation within the DHHC family across a quartet of species (Fig. 2 a). Initial investigations revealed that genes selected ( EruDHHC7B , MisDHHC9B , MluDHHC10B , and SspDHHC22B ) through the highest sequence scores have strong uniformity and collinearity (Fig. 1 ), so these genes should have originated from the evolutionary processes (or duplications) of genes identified in E. rufipilus , which infers that they are copies of the same gene. This discovery was further validated through multiple sequence alignments (Fig. 2 b). It was likewise found that randomly selected genes ( EruDHHC3B , MisDHHC5B , MluDHHC6B , and SspDHHC6B ) also showed great similarity to the high-scoring genes, even in the presence of a large number of SNPs and partial INDEL (Fig. 2 b and Supplementary Fig. S3). A central DHHC motif (amino acids 124–127) and nine conserved cysteine residues (amino acids 99, 102, 112, 113, 116, 119, 133, 138 and 142 in the alignment) were prominently visible, highlighting their distinctive features (Fig. 2 b). Examination of the sequence revealed specific amino acid modifications indicating the presence of single nucleotide polymorphism (SNP) and insertion-deletion (INDEL) variations within these genes (Fig. 2 b and Supplementary Fig. S3). Analysis of the protein’s three-dimensional structure indicated that despite these SNP and indel variations, they did not significantly impact the protein’s three-dimensional architecture (Fig. 2 a). The findings suggest that certain SNP mutations resulting in nonsynonymous changes within DHHC genes, as well as insertions or deletions leading to variations in protein sequences during the speciation of plants, do not significantly impact the overall tertiary structure of the DHHC proteins."
+              }
+            ]
+          },
+          {
+            "id": "Sec16",
+            "title": "Class and phylogenetic analysis",
+            "paragraphs": [
+              {
+                "id": "Par34",
+                "text": "Phylogenetic analysis unveiled that the classification of DHHC genes was in accordance with previous studies conducted in Arabidopsis and rice 19 , 32 . Based on the taxonomic criteria of Arabidopsis , DHHC family members of the four Saccharinae species were classified into six subgroups along with Arabidopsis , Oryza sativa to construct the maximum likelihood (ML) phylogenetic tree (Supplementary Fig. S4). Class A comprised 92 members, including SspDHHC11A , EruDHHC2A , MisDHHC4A , and MluDHHC4A ; Class B comprised 44 members, such as SspDHHC12B , EruDHHC3B , MisDHHC6B , and MluDHHC5B ; Class C consisted of 61 members, including SspDHHC8C , EruDHHC2C , MisDHHC7C , and MluDHHC4C ; Class D comprised 8 members, such as SspDHHC2D , EruDHHC1D , MisDHHC1D , and MluDHHC1D ; Class E included 7 members, such as SspDHHC1E , EruDHHC1E , MisDHHC1E , and MluDHHC1E ; and Class F encompassed 27 members, including SspDHHC9F , EruDHHC1F , MisDHHC1F , and MluDHHC3F (Fig. 3 , Table S2 ). The classification of DHHC genes revealed a higher number of members in the A, B, and C subfamilies compared to other clades, mirroring the pattern observed in Arabidopsis . When comparing the number of DHHC genes across the four Saccharinae species, with E. rufipilus as the reference species, the number of DHHC genes in the other three species exhibited a nearly multiplicative relationship to it, particularly pronounced in the subgroups (Supplementary Table S4)."
+              },
+              {
+                "id": "Par35",
+                "text": "Fig. 3 A maximum likelihood (ML) phylogenetic tree of four species was constructed based on the full-length sequence in RAxML, with branching support values added at the branches. The tree was divided into six classic outer rings with different colors: green, yellow, light purple, deep purple, pink, and blue-gray for the DHHC proteins. Circles, crosses, diamonds and squares denote S. spontaneum , E. rufipilus , M. sinensis , and M. lutarioriparius , respectively."
+              },
+              {
+                "id": "",
+                "text": "A maximum likelihood (ML) phylogenetic tree of four species was constructed based on the full-length sequence in RAxML, with branching support values added at the branches. The tree was divided into six classic outer rings with different colors: green, yellow, light purple, deep purple, pink, and blue-gray for the DHHC proteins. Circles, crosses, diamonds and squares denote S. spontaneum , E. rufipilus , M. sinensis , and M. lutarioriparius , respectively."
+              },
+              {
+                "id": "Par36",
+                "text": "Through the analysis of 161 DHHC genes across the four Saccharinae species, 10 distinct motifs were identified. Each DHHC gene was found to harbor at least two motifs (Supplementary Fig. S5). While the overall motif arrangement remained consistent and structured across different classes, there were instances where individual genes displayed additional or missing motifs. This motif organization pattern unveiled both similarities and variations within specific groups of DHHC genes."
+              },
+              {
+                "id": "Par37",
+                "text": "Within these subfamilies, a high level of consistency was observed in terms of gene sequence length and motif distribution. Specific motifs unique to each subfamily were identified, potentially contributing to the functional divergence of each subgroup. Each DHHC protein featured a core motif, denoted as Motif 1, characterized by the conserved sequence HC-x2-C-x2-C-x4-DHHC-x5-C-x4-N (Supplementary Table S5). This conserved sequence played a crucial role in maintaining the structural integrity of the protein, essential for its biological function. Additionally, additional motifs were distributed throughout the gene, varying based on the distinct subfamilies. The structural arrangement within each subfamily exhibited a notable standardization (Supplementary Fig. S5)."
+              }
+            ]
+          },
+          {
+            "id": "Sec17",
+            "title": "Analysis of cis-regulatory elements in promoter regions",
+            "paragraphs": [
+              {
+                "id": "Par38",
+                "text": "To elucidate the cis-regulatory elements governing DHHC genes within the Saccharinae family, an examination of the 2000 bp upstream promoter regions was conducted. The primary objective of this study was to unveil the intricate array of cis-regulatory elements that influence gene expression in response to diverse environmental and physiological cues."
+              },
+              {
+                "id": "Par39",
+                "text": "Fig. 4 Analysis of cis-regulatory elements in DHHC promoters. Dark blue squares indicate a high number of cis-acting regulatory elements, light blue squares indicate a low number of cis-regulatory elements, and white squares indicate no cis-regulatory elements."
+              },
+              {
+                "id": "",
+                "text": "Analysis of cis-regulatory elements in DHHC promoters. Dark blue squares indicate a high number of cis-acting regulatory elements, light blue squares indicate a low number of cis-regulatory elements, and white squares indicate no cis-regulatory elements."
+              },
+              {
+                "id": "Par40",
+                "text": "A diverse range of regulatory elements responsive to hormonal signals such as abscisic acid (ABA), gibberellins (GAs), and methyl jasmonate (MeJA) were identified in the DHHC promoter regions of the four Saccharinae species (Fig. 4 , Table S6). These elements included, but were not limited to, the G-box, ABA-responsive element (ABER), TGA-element, O2-site, and CGTCA-motif, each playing a crucial role in sophisticated regulatory networks. Additionally, the investigation unveiled numerous elements responsive to a spectrum of light signals, including sp1, the 3-AF1 binding site, ACE, the AE-box, AT1-motif, ATC-motif, ATCT-motif, chs-CMA1a, Box-4, and others, presenting a complex scenario of light-mediated gene regulation. The narrative of stress responsiveness was enriched with the identification of elements such as the low-temperature responsive element (LTRE), the stress-responsive element (STRE), MYC, MYB, TC-rich repeats, and the W-box, each assessing the resilience and adaptability of these species under stress. Among the identified cis-regulatory elements, G-boxes were notably abundant, with occurrences of 158, 134, 234, and 215 in the four Saccharinae species, respectively (Supplementary Fig. S6)."
+              }
+            ]
+          },
+          {
+            "id": "Sec18",
+            "title": "Gene duplication and Ka/Ks analysis",
+            "paragraphs": [
+              {
+                "id": "Par41",
+                "text": "To elucidate the evolutionary processes governing gene duplication and function, an extensive investigation of the DHHC gene family in four Saccharinae species was undertaken. The study focused on identifying gene duplication events, which were categorized into distinct modes: transposed duplication (TRD), proximal duplication (PD), tandem duplication (TD), dispersed duplication (DSD), and whole-genome duplication (WGD)."
+              },
+              {
+                "id": "Par42",
+                "text": "The analysis revealed 215 pairs of duplicated genes across the four species, with DSD being the most prevalent pattern, accounting for 114 pairs (Supplementary Fig. S7, Table S7). E. rufipilus exhibited three types of duplication events: DSD, PD, and TD (Fig. 5 b). In S. spontaneum and M. sinensis , four duplication events were identified: DSD, PD, TD, and WGD (Fig. 5 a and c). In contrast, M. lutarioriparius displayed five duplication events: DSD, PD, TD, TRD, and WGD (Fig. 5 d)."
+              },
+              {
+                "id": "Par43",
+                "text": "Among the four Saccharinae species, WGD emerged as the second most prevalent mode, with 68 gene pairs out of 217, although WGD did not occur in E. rufipilus (Supplementary Table S8). These findings underscore the significant impact of WGD on the expression patterns of the DHHC gene family. Notably, despite being diploid, M. sinensis and M. lutarioriparius experienced chromosome duplication events involving DHHC family members, unlike E. rufipilus."
+              },
+              {
+                "id": "Par44",
+                "text": "The Ka/Ks values, commonly used to evaluate gene selection pressure and evolutionary history, provided valuable insights. Notably, 97.21% (209 gene pairs) of the homologous DHHC gene pairs in the four Saccharinae species exhibited Ka/Ks ratios lower than 1, indicating strong purifying selection. However, in S. spontaneum and M. lutarioriparius , a small percentage (2.79%, 6 gene pairs) displayed higher Ka/Ks ratios, suggesting a complex evolutionary history for this gene family (Supplementary Table S8)."
+              },
+              {
+                "id": "Par45",
+                "text": "Across the four species where dispersed duplication (DSD) was predominant, the average Ka/Ks ratios of DSD-generated gene pairs were less than 1(Fig. 5 a-d), indicating the pervasive influence of purifying selection. The analysis revealed that nonsynonymous mutations following gene duplications via DSD were often eliminated through selection to maintain the original gene function. Furthermore, the comparison of mean Ka/Ks values for different types of duplicated gene pairs in M. sinensis highlighted that TD gene pairs evolved at a faster rate than other gene pairs. E. rufipilus exhibited the lowest Ka/Ks ratio and stringent conservation of gene function (Fig. 5 b), while S. spontaneum showed a higher number of gene pairs from various duplication events with Ka/Ks ratios above 1 (Fig. 5 a), indicating purifying selection with relatively less intense pressure, possibly due to its polyploid nature. This observation suggests a high level of conservation in the evolution of DHHC genes."
+              },
+              {
+                "id": "Par46",
+                "text": "Fig. 5 Statistics of Ka/Ks values for four species of Saccharinae. The x-axis represents the duplication type. WGD: whole-genome duplicates; TD: tandem duplicates; PD: proximal duplicates; TRD: transposed duplicates; DSD: dispersed duplicates, y-axis is the Ka/Ks ratio. ( a ) Ka/Ks box plot of S. spontaneum . ( b ) Ka/Ks box plot of E. rufipilus . ( c ) Ka/Ks box plot of M. sinensis . d . Ka/Ks box plot of M. lutarioriparius ."
+              },
+              {
+                "id": "",
+                "text": "Statistics of Ka/Ks values for four species of Saccharinae. The x-axis represents the duplication type. WGD: whole-genome duplicates; TD: tandem duplicates; PD: proximal duplicates; TRD: transposed duplicates; DSD: dispersed duplicates, y-axis is the Ka/Ks ratio. ( a ) Ka/Ks box plot of S. spontaneum . ( b ) Ka/Ks box plot of E. rufipilus . ( c ) Ka/Ks box plot of M. sinensis . d . Ka/Ks box plot of M. lutarioriparius ."
+              }
+            ]
+          },
+          {
+            "id": "Sec19",
+            "title": "Tissue-specific expression",
+            "paragraphs": [
+              {
+                "id": "Par47",
+                "text": "To explore the specific expression patterns of DHHC genes in different tissues, our focus was on the DHHC gene family of S. spontaneum Np-X. We focused on expression in different tissues at different stages of maturity and in different parts of the same tissue. The expression levels of these genes were lower in leaves compared to stalks in mature sugarcane. Additionally, a general decrease in expression was observed as the stalks matured (Fig. 6 a). Specifically, as stalks mature and sucrose storage increases, the expression of DHHC genes decreases, indicating a negative correlation between DHHC gene expression and sucrose yield or storage. In the expanding leaves, the petiole part (white in color) exhibited relatively high expression, which decreased significantly with leaf elongation, consistent with the overall expression trend. However, certain genes displayed specific expression patterns, such as SspDHHC1B , SspDHHC28A , SspDHHC13B , and SspDHHC2C , whose expression initially increased but then decreased subsequently (Fig. 6 b)."
+              },
+              {
+                "id": "Par48",
+                "text": "Fig. 6 Heatmap normalised to DHHC gene expression in S. spontaneum . ( a ) A heatmap of expression among tissues at different growth periods is presented. The number of stem nodes, from top to bottom, is indicated by the letters “Stem3, 6, 9.” These letters correspond to the stalks, which are arranged from young to old. roll leaf indicates a young leaf and a mature leaf indicates a spreading mature leaf. ( b ) A heatmap of the various regions of the leaf blade (base, middle, tip) is presented."
+              },
+              {
+                "id": "",
+                "text": "Heatmap normalised to DHHC gene expression in S. spontaneum . ( a ) A heatmap of expression among tissues at different growth periods is presented. The number of stem nodes, from top to bottom, is indicated by the letters “Stem3, 6, 9.” These letters correspond to the stalks, which are arranged from young to old. roll leaf indicates a young leaf and a mature leaf indicates a spreading mature leaf. ( b ) A heatmap of the various regions of the leaf blade (base, middle, tip) is presented."
+              }
+            ]
+          },
+          {
+            "id": "Sec20",
+            "title": "Sugar correlation analysis",
+            "paragraphs": [
+              {
+                "id": "Par49",
+                "text": "To explore the functional diversity of DHHC genes, we classified the expression patterns of DHHC genes in S. spontaneum Np-X into three distinct clusters (Fig. 7 a). Specifically, cluster 1 consisted of 11 DHHC members, cluster 3 included 10 members, and cluster 2 encompassed 7 members (Supplementary Table S9). Notably, despite the identified patterns, the three selected sugarcane cultivars (NQ05, KQ228, and Q253) exhibited highly consistent expression profiles, indicating a conserved expression pattern of DHHC genes across different sugarcane cultivars, regardless of temporal or tissue variations. Furthermore, within the same species, DHHC genes displayed diverse expression patterns, suggesting the presence of multifaceted functional roles within the DHHC gene family (Fig. 7 a)."
+              },
+              {
+                "id": "Par50",
+                "text": "In investigating the correlation between DHHC genes and agronomic traits in sugarcane, an in-depth analysis of phenotypic data from 24 distinct sugarcane varieties, as reported by Perlo et al. in 2022 40 , was conducted. Particularly, the expression profiles of the gene SspDHHC28A , categorized within C2 and documented at the fifth stem node during the 37th week (w37n5d), exhibited noticeable negative correlations with various agronomic traits related to sucrose content (Supplementary Fig. S8). The associations with CCS (Sept) and Delta CCS indices were notably significant (Fig. 7 b)."
+              },
+              {
+                "id": "Par51",
+                "text": "Fig. 7 ( a ) Heatmap of DHHC gene expression and expression trends in the genomes of four Saccharinae species. w19n and w37n are the 19th and 37th weeks of sampling, respectively; 5, 8, and Ex5 are the tissues sampled when the 5th stem node, 8th stem node, and 5th stem node were first labeled mature stem nodes, respectively. ( b ) The X-axis is the expression of the gene and the Y-axis is the phenotypic value of the agronomic trait. The correlations between DHHC genes and agronomic traits were significant for the green markers and highly significant for the red markers according to the P value. CCS: commercial cane sugar, CCS Sept: late sugar content. Delta_CCS_June_March: Yield changes in sugar content of sugarcane from March to June."
+              },
+              {
+                "id": "",
+                "text": "( a ) Heatmap of DHHC gene expression and expression trends in the genomes of four Saccharinae species. w19n and w37n are the 19th and 37th weeks of sampling, respectively; 5, 8, and Ex5 are the tissues sampled when the 5th stem node, 8th stem node, and 5th stem node were first labeled mature stem nodes, respectively. ( b ) The X-axis is the expression of the gene and the Y-axis is the phenotypic value of the agronomic trait. The correlations between DHHC genes and agronomic traits were significant for the green markers and highly significant for the red markers according to the P value. CCS: commercial cane sugar, CCS Sept: late sugar content. Delta_CCS_June_March: Yield changes in sugar content of sugarcane from March to June."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Sec13",
+        "title": "Identification and positional of the DHHC gene family",
+        "paragraphs": [
+          {
+            "id": "Par24",
+            "text": "Through a comprehensive genome-wide analysis of the four Saccharinae species, we identified a total of 251 candidate genes within the DHHC gene family. This set comprised 111 genes from S. spontaneum Np-X, 29 from E. rufipilus , 55 from M. sinensis , and 56 from M. lutarioriparius . To ensure the accuracy of our analysis, we refined structural domain annotations to exclude incorrectly predicted and redundant sequences. Among the identified genes, 161 DHHC proteins with complete domains were found, with 32 genes (representing 110 alleles) from S. spontaneum Np-X (Supplementary Table S1 ), 28 from E. rufipilus , 53 from M. sinensis , and 48 from M. lutarioriparius (Table 1 and Table S2 ). The number of DHHC genes discovered in the four Saccharinae species is comparable to the 24 genes in Arabidopsis 32 and the 30 genes reported in Oryza sativa 19 ."
+          },
+          {
+            "id": "Par25",
+            "text": "To explore the genomic distribution of DHHC genes, we conducted a chromosomal localization analysis in the four Saccharinae species ( S. spontaneum Np-X, E. rufipilus , M. sinensis , and M. lutarioriparius ). The positional analysis revealed a random distribution of DHHC genes across both homologous and nonhomologous chromosomes (Supplementary Fig. S1 ). The presence of a diploid genome within the Saccharum complex offers valuable insights for understanding the evolutionary intricacies within the highly polyploid Saccharum genus 11 . Initial observations in E. rufipilus indicated the distribution of DHHC genes across chromosomes as follows: four genes on chromosomes 1 to 4, three on chromosomes 6 and 7, two on chromosomes 5 and 9, and one gene each on chromosomes 8 and 10. The limited number of orthologous gene pairs among these species suggests that gene rearrangements are prevalent during evolution. Chromosomal rearrangements, including insertions, deletions, and inversions, can disrupt the collinearity of orthologous genes and alter their chromosomal positions. Structural changes at the chromosomal level, such as fusion and fission, also contribute to the repositioning of orthologous genes 41 ."
+          },
+          {
+            "id": "Par26",
+            "text": "Table 1 Genomic information and identified DHHC gene numbers in Saccharinae species. Scientific Name Chromosome Number Genome Size (Gb) All genes DHHC Gens DHHC Allele S. spontaneum Np-X 1n = 4x = 40 2.761 122,441 32 110 E. rufipilus 2n = 2x = 20 0.858 32,770 28 \\ M.sinensis 2n = 2x = 38 2.079 67,789 53 \\ M.lutarioriparius 2n = 2x = 38 2.074 68,328 48 \\"
+          },
+          {
+            "id": "",
+            "text": "Genomic information and identified DHHC gene numbers in Saccharinae species."
+          },
+          {
+            "id": "",
+            "text": "Scientific"
+          },
+          {
+            "id": "",
+            "text": "Name"
+          },
+          {
+            "id": "",
+            "text": "Chromosome Number"
+          },
+          {
+            "id": "",
+            "text": "Genome Size (Gb)"
+          },
+          {
+            "id": "",
+            "text": "All genes"
+          },
+          {
+            "id": "",
+            "text": "DHHC Gens"
+          },
+          {
+            "id": "",
+            "text": "DHHC Allele"
+          },
+          {
+            "id": "",
+            "text": "S. spontaneum"
+          },
+          {
+            "id": "",
+            "text": "Np-X"
+          },
+          {
+            "id": "",
+            "text": "1n = 4x = 40"
+          },
+          {
+            "id": "",
+            "text": "2.761"
+          },
+          {
+            "id": "",
+            "text": "122,441"
+          },
+          {
+            "id": "",
+            "text": "32"
+          },
+          {
+            "id": "",
+            "text": "110"
+          },
+          {
+            "id": "",
+            "text": "E. rufipilus"
+          },
+          {
+            "id": "",
+            "text": "2n = 2x = 20"
+          },
+          {
+            "id": "",
+            "text": "0.858"
+          },
+          {
+            "id": "",
+            "text": "32,770"
+          },
+          {
+            "id": "",
+            "text": "28"
+          },
+          {
+            "id": "",
+            "text": "\\"
+          },
+          {
+            "id": "",
+            "text": "M.sinensis"
+          },
+          {
+            "id": "",
+            "text": "2n = 2x = 38"
+          },
+          {
+            "id": "",
+            "text": "2.079"
+          },
+          {
+            "id": "",
+            "text": "67,789"
+          },
+          {
+            "id": "",
+            "text": "53"
+          },
+          {
+            "id": "",
+            "text": "\\"
+          },
+          {
+            "id": "",
+            "text": "M.lutarioriparius"
+          },
+          {
+            "id": "",
+            "text": "2n = 2x = 38"
+          },
+          {
+            "id": "",
+            "text": "2.074"
+          },
+          {
+            "id": "",
+            "text": "68,328"
+          },
+          {
+            "id": "",
+            "text": "48"
+          },
+          {
+            "id": "",
+            "text": "\\"
+          }
+        ]
+      },
+      {
+        "id": "Sec14",
+        "title": "Collinearity relationships",
+        "paragraphs": [
+          {
+            "id": "Par27",
+            "text": "To elucidate the evolutionary relationships among DHHC genes, a comprehensive analysis of collinearity was conducted on DHHC genes sourced from four distinct Saccharinae species. The investigation unveiled notable chromosomal fusion or fission events across these species, indicating intricate evolutionary dynamics. Particularly, E. rufipilus exhibited frequent duplications of a single chromosome into two or four copies, which served as the foundation for the observed chromosomal structures in S. spontaneum , M. sinensis , and M. lutarioriparius (Supplementary Fig. S2 ). Additionally, a significant level of concordance and collinearity was observed among DHHC genes situated on chromosomes originating from E. rufipilus duplications in S. spontaneum Np-X, M. sinensis , and M. lutarioriparius (Supplementary Fig. S2 ). This alignment not only emphasizes the evolutionary connections among the four Saccharinae species but also underscores the robust conservation of DHHC genes within this group. The investigation identified a total of 190 homologous gene pairs derived from DHHC genes of the four Saccharinae species, with 101 collinear gene pairs between E. rufipilus and S. spontaneum Np-X, 48 between E. rufipilus and M. sinensis , and 41 between E. rufipilus and M. lutarioriparius (Supplementary Fig. S2 and Table S3). These findings highlight the strong interplay among DHHC genes."
+          },
+          {
+            "id": "Par28",
+            "text": "The evolutionary trajectory is characterized by the inevitable occurrence of gene deletion or duplication. In this study, observations revealed instances of both deletions and duplications in DHHC genes. The genes EruDHHC1C and EruDHHC3A , situated on chromosomes 1 and 3 in E. rufipilus , were absent from chromosomes 1 and 2, as well as from chromosomes 5 and 6, in M. lutarioriparius . Specifically, M. lutarioriparius lacks homologous genes corresponding to EruDHHC1C on chromosomes 1 and 2 and EruDHHC3A on chromosomes 5 and 6 (Fig. 1 )."
+          },
+          {
+            "id": "Par29",
+            "text": "Fig. 1 Collinearity between chromosomes 1 and 3 of E. rufipilus and S. spontaneum , M. sinensis , and M. lutarioriparius and the labeling of missing genes."
+          },
+          {
+            "id": "",
+            "text": "Collinearity between chromosomes 1 and 3 of E. rufipilus and S. spontaneum , M. sinensis , and M. lutarioriparius and the labeling of missing genes."
+          }
+        ]
+      },
+      {
+        "id": "Sec15",
+        "title": "Molecular weight, isoelectric point, and tertiary structure",
+        "paragraphs": [
+          {
+            "id": "Par30",
+            "text": "To gain insights into the structural and functional properties of DHHC proteins, we conducted an analysis encompassing gene length, protein sequence length, protein molecular weight (MW), and isoelectric point (pI) (Supplementary Table S2 ). Variations in protein length were observed among DHHC proteins across different species. For instance, in S. spontaneum Np-X, SspDHHC1B had the smallest protein sequence with 237 amino acids (aa), while SspDHHC20C had the largest sequence with 814 aa. This variability in protein length was also evident in E. rufipilus , M. sinensis , and M. lutarioriparius . Notably, EruDHHC4B was the shortest DHHC protein with 275 aa, and EruDHHC3C was the longest with 711 aa in E. rufipilus . In M. sinensis , MisDHHC17A had the shortest sequence with 248 aa, while MisDHHC6C and MisDHHC4C were the longest with 710 aa. In M. lutarioriparius , MluDHHC8B was the shortest with 208 aa, and MluDHHC12C was the longest with 814 aa, the longest sequences of amino acids are found in Class C (Supplementary Table S2 )."
+          },
+          {
+            "id": "Par31",
+            "text": "Fig. 2 Three-dimensional structural model of the DHHC protein. The structural images were generated by PyMOL software. ( a ) The purple region in the 3D structural schematic is a typical DHHC structural domain: C-x2-C-x9-HC-x2-C-x2-C-x4-DHHC-x5-C-x4-N-x3-F. ( b ) Multiple sequence comparison of DHHC proteins; The red dashed boxes indicate conserved core structural domains."
+          },
+          {
+            "id": "",
+            "text": "Three-dimensional structural model of the DHHC protein. The structural images were generated by PyMOL software. ( a ) The purple region in the 3D structural schematic is a typical DHHC structural domain: C-x2-C-x9-HC-x2-C-x2-C-x4-DHHC-x5-C-x4-N-x3-F. ( b ) Multiple sequence comparison of DHHC proteins; The red dashed boxes indicate conserved core structural domains."
+          },
+          {
+            "id": "Par32",
+            "text": "The molecular weight (MW) and theoretical isoelectric point (pI) of DHHC proteins were calculated. For S. spontaneum , the molecular weights ranged from 26.04 to 86.81 kilodaltons (kDa), with isoelectric points varying from 6.35 to 10.11. In E. rufipilus , the MW ranged from 30.15 to 76.80 kDa, with pI values between 6.51 and 10.05. M. sinensis proteins exhibited MW values between 28.58 and 76.68 kDa, and pI values ranged from 6.25 to 10.85. Similarly, M. lutarioriparius had a MW range of 23.06 to 87.32 kDa and a pI range of 6.40 to 10.05 (Supplementary Table S2 )."
+          },
+          {
+            "id": "Par33",
+            "text": "Significant structural similarities between the DHHC proteins of the four species can be seen in three-dimensional (3D) structure. These findings underscore the inherent structural conservation within the DHHC family across a quartet of species (Fig. 2 a). Initial investigations revealed that genes selected ( EruDHHC7B , MisDHHC9B , MluDHHC10B , and SspDHHC22B ) through the highest sequence scores have strong uniformity and collinearity (Fig. 1 ), so these genes should have originated from the evolutionary processes (or duplications) of genes identified in E. rufipilus , which infers that they are copies of the same gene. This discovery was further validated through multiple sequence alignments (Fig. 2 b). It was likewise found that randomly selected genes ( EruDHHC3B , MisDHHC5B , MluDHHC6B , and SspDHHC6B ) also showed great similarity to the high-scoring genes, even in the presence of a large number of SNPs and partial INDEL (Fig. 2 b and Supplementary Fig. S3). A central DHHC motif (amino acids 124–127) and nine conserved cysteine residues (amino acids 99, 102, 112, 113, 116, 119, 133, 138 and 142 in the alignment) were prominently visible, highlighting their distinctive features (Fig. 2 b). Examination of the sequence revealed specific amino acid modifications indicating the presence of single nucleotide polymorphism (SNP) and insertion-deletion (INDEL) variations within these genes (Fig. 2 b and Supplementary Fig. S3). Analysis of the protein’s three-dimensional structure indicated that despite these SNP and indel variations, they did not significantly impact the protein’s three-dimensional architecture (Fig. 2 a). The findings suggest that certain SNP mutations resulting in nonsynonymous changes within DHHC genes, as well as insertions or deletions leading to variations in protein sequences during the speciation of plants, do not significantly impact the overall tertiary structure of the DHHC proteins."
+          }
+        ]
+      },
+      {
+        "id": "Sec16",
+        "title": "Class and phylogenetic analysis",
+        "paragraphs": [
+          {
+            "id": "Par34",
+            "text": "Phylogenetic analysis unveiled that the classification of DHHC genes was in accordance with previous studies conducted in Arabidopsis and rice 19 , 32 . Based on the taxonomic criteria of Arabidopsis , DHHC family members of the four Saccharinae species were classified into six subgroups along with Arabidopsis , Oryza sativa to construct the maximum likelihood (ML) phylogenetic tree (Supplementary Fig. S4). Class A comprised 92 members, including SspDHHC11A , EruDHHC2A , MisDHHC4A , and MluDHHC4A ; Class B comprised 44 members, such as SspDHHC12B , EruDHHC3B , MisDHHC6B , and MluDHHC5B ; Class C consisted of 61 members, including SspDHHC8C , EruDHHC2C , MisDHHC7C , and MluDHHC4C ; Class D comprised 8 members, such as SspDHHC2D , EruDHHC1D , MisDHHC1D , and MluDHHC1D ; Class E included 7 members, such as SspDHHC1E , EruDHHC1E , MisDHHC1E , and MluDHHC1E ; and Class F encompassed 27 members, including SspDHHC9F , EruDHHC1F , MisDHHC1F , and MluDHHC3F (Fig. 3 , Table S2 ). The classification of DHHC genes revealed a higher number of members in the A, B, and C subfamilies compared to other clades, mirroring the pattern observed in Arabidopsis . When comparing the number of DHHC genes across the four Saccharinae species, with E. rufipilus as the reference species, the number of DHHC genes in the other three species exhibited a nearly multiplicative relationship to it, particularly pronounced in the subgroups (Supplementary Table S4)."
+          },
+          {
+            "id": "Par35",
+            "text": "Fig. 3 A maximum likelihood (ML) phylogenetic tree of four species was constructed based on the full-length sequence in RAxML, with branching support values added at the branches. The tree was divided into six classic outer rings with different colors: green, yellow, light purple, deep purple, pink, and blue-gray for the DHHC proteins. Circles, crosses, diamonds and squares denote S. spontaneum , E. rufipilus , M. sinensis , and M. lutarioriparius , respectively."
+          },
+          {
+            "id": "",
+            "text": "A maximum likelihood (ML) phylogenetic tree of four species was constructed based on the full-length sequence in RAxML, with branching support values added at the branches. The tree was divided into six classic outer rings with different colors: green, yellow, light purple, deep purple, pink, and blue-gray for the DHHC proteins. Circles, crosses, diamonds and squares denote S. spontaneum , E. rufipilus , M. sinensis , and M. lutarioriparius , respectively."
+          },
+          {
+            "id": "Par36",
+            "text": "Through the analysis of 161 DHHC genes across the four Saccharinae species, 10 distinct motifs were identified. Each DHHC gene was found to harbor at least two motifs (Supplementary Fig. S5). While the overall motif arrangement remained consistent and structured across different classes, there were instances where individual genes displayed additional or missing motifs. This motif organization pattern unveiled both similarities and variations within specific groups of DHHC genes."
+          },
+          {
+            "id": "Par37",
+            "text": "Within these subfamilies, a high level of consistency was observed in terms of gene sequence length and motif distribution. Specific motifs unique to each subfamily were identified, potentially contributing to the functional divergence of each subgroup. Each DHHC protein featured a core motif, denoted as Motif 1, characterized by the conserved sequence HC-x2-C-x2-C-x4-DHHC-x5-C-x4-N (Supplementary Table S5). This conserved sequence played a crucial role in maintaining the structural integrity of the protein, essential for its biological function. Additionally, additional motifs were distributed throughout the gene, varying based on the distinct subfamilies. The structural arrangement within each subfamily exhibited a notable standardization (Supplementary Fig. S5)."
+          }
+        ]
+      },
+      {
+        "id": "Sec17",
+        "title": "Analysis of cis-regulatory elements in promoter regions",
+        "paragraphs": [
+          {
+            "id": "Par38",
+            "text": "To elucidate the cis-regulatory elements governing DHHC genes within the Saccharinae family, an examination of the 2000 bp upstream promoter regions was conducted. The primary objective of this study was to unveil the intricate array of cis-regulatory elements that influence gene expression in response to diverse environmental and physiological cues."
+          },
+          {
+            "id": "Par39",
+            "text": "Fig. 4 Analysis of cis-regulatory elements in DHHC promoters. Dark blue squares indicate a high number of cis-acting regulatory elements, light blue squares indicate a low number of cis-regulatory elements, and white squares indicate no cis-regulatory elements."
+          },
+          {
+            "id": "",
+            "text": "Analysis of cis-regulatory elements in DHHC promoters. Dark blue squares indicate a high number of cis-acting regulatory elements, light blue squares indicate a low number of cis-regulatory elements, and white squares indicate no cis-regulatory elements."
+          },
+          {
+            "id": "Par40",
+            "text": "A diverse range of regulatory elements responsive to hormonal signals such as abscisic acid (ABA), gibberellins (GAs), and methyl jasmonate (MeJA) were identified in the DHHC promoter regions of the four Saccharinae species (Fig. 4 , Table S6). These elements included, but were not limited to, the G-box, ABA-responsive element (ABER), TGA-element, O2-site, and CGTCA-motif, each playing a crucial role in sophisticated regulatory networks. Additionally, the investigation unveiled numerous elements responsive to a spectrum of light signals, including sp1, the 3-AF1 binding site, ACE, the AE-box, AT1-motif, ATC-motif, ATCT-motif, chs-CMA1a, Box-4, and others, presenting a complex scenario of light-mediated gene regulation. The narrative of stress responsiveness was enriched with the identification of elements such as the low-temperature responsive element (LTRE), the stress-responsive element (STRE), MYC, MYB, TC-rich repeats, and the W-box, each assessing the resilience and adaptability of these species under stress. Among the identified cis-regulatory elements, G-boxes were notably abundant, with occurrences of 158, 134, 234, and 215 in the four Saccharinae species, respectively (Supplementary Fig. S6)."
+          }
+        ]
+      },
+      {
+        "id": "Sec18",
+        "title": "Gene duplication and Ka/Ks analysis",
+        "paragraphs": [
+          {
+            "id": "Par41",
+            "text": "To elucidate the evolutionary processes governing gene duplication and function, an extensive investigation of the DHHC gene family in four Saccharinae species was undertaken. The study focused on identifying gene duplication events, which were categorized into distinct modes: transposed duplication (TRD), proximal duplication (PD), tandem duplication (TD), dispersed duplication (DSD), and whole-genome duplication (WGD)."
+          },
+          {
+            "id": "Par42",
+            "text": "The analysis revealed 215 pairs of duplicated genes across the four species, with DSD being the most prevalent pattern, accounting for 114 pairs (Supplementary Fig. S7, Table S7). E. rufipilus exhibited three types of duplication events: DSD, PD, and TD (Fig. 5 b). In S. spontaneum and M. sinensis , four duplication events were identified: DSD, PD, TD, and WGD (Fig. 5 a and c). In contrast, M. lutarioriparius displayed five duplication events: DSD, PD, TD, TRD, and WGD (Fig. 5 d)."
+          },
+          {
+            "id": "Par43",
+            "text": "Among the four Saccharinae species, WGD emerged as the second most prevalent mode, with 68 gene pairs out of 217, although WGD did not occur in E. rufipilus (Supplementary Table S8). These findings underscore the significant impact of WGD on the expression patterns of the DHHC gene family. Notably, despite being diploid, M. sinensis and M. lutarioriparius experienced chromosome duplication events involving DHHC family members, unlike E. rufipilus."
+          },
+          {
+            "id": "Par44",
+            "text": "The Ka/Ks values, commonly used to evaluate gene selection pressure and evolutionary history, provided valuable insights. Notably, 97.21% (209 gene pairs) of the homologous DHHC gene pairs in the four Saccharinae species exhibited Ka/Ks ratios lower than 1, indicating strong purifying selection. However, in S. spontaneum and M. lutarioriparius , a small percentage (2.79%, 6 gene pairs) displayed higher Ka/Ks ratios, suggesting a complex evolutionary history for this gene family (Supplementary Table S8)."
+          },
+          {
+            "id": "Par45",
+            "text": "Across the four species where dispersed duplication (DSD) was predominant, the average Ka/Ks ratios of DSD-generated gene pairs were less than 1(Fig. 5 a-d), indicating the pervasive influence of purifying selection. The analysis revealed that nonsynonymous mutations following gene duplications via DSD were often eliminated through selection to maintain the original gene function. Furthermore, the comparison of mean Ka/Ks values for different types of duplicated gene pairs in M. sinensis highlighted that TD gene pairs evolved at a faster rate than other gene pairs. E. rufipilus exhibited the lowest Ka/Ks ratio and stringent conservation of gene function (Fig. 5 b), while S. spontaneum showed a higher number of gene pairs from various duplication events with Ka/Ks ratios above 1 (Fig. 5 a), indicating purifying selection with relatively less intense pressure, possibly due to its polyploid nature. This observation suggests a high level of conservation in the evolution of DHHC genes."
+          },
+          {
+            "id": "Par46",
+            "text": "Fig. 5 Statistics of Ka/Ks values for four species of Saccharinae. The x-axis represents the duplication type. WGD: whole-genome duplicates; TD: tandem duplicates; PD: proximal duplicates; TRD: transposed duplicates; DSD: dispersed duplicates, y-axis is the Ka/Ks ratio. ( a ) Ka/Ks box plot of S. spontaneum . ( b ) Ka/Ks box plot of E. rufipilus . ( c ) Ka/Ks box plot of M. sinensis . d . Ka/Ks box plot of M. lutarioriparius ."
+          },
+          {
+            "id": "",
+            "text": "Statistics of Ka/Ks values for four species of Saccharinae. The x-axis represents the duplication type. WGD: whole-genome duplicates; TD: tandem duplicates; PD: proximal duplicates; TRD: transposed duplicates; DSD: dispersed duplicates, y-axis is the Ka/Ks ratio. ( a ) Ka/Ks box plot of S. spontaneum . ( b ) Ka/Ks box plot of E. rufipilus . ( c ) Ka/Ks box plot of M. sinensis . d . Ka/Ks box plot of M. lutarioriparius ."
+          }
+        ]
+      },
+      {
+        "id": "Sec19",
+        "title": "Tissue-specific expression",
+        "paragraphs": [
+          {
+            "id": "Par47",
+            "text": "To explore the specific expression patterns of DHHC genes in different tissues, our focus was on the DHHC gene family of S. spontaneum Np-X. We focused on expression in different tissues at different stages of maturity and in different parts of the same tissue. The expression levels of these genes were lower in leaves compared to stalks in mature sugarcane. Additionally, a general decrease in expression was observed as the stalks matured (Fig. 6 a). Specifically, as stalks mature and sucrose storage increases, the expression of DHHC genes decreases, indicating a negative correlation between DHHC gene expression and sucrose yield or storage. In the expanding leaves, the petiole part (white in color) exhibited relatively high expression, which decreased significantly with leaf elongation, consistent with the overall expression trend. However, certain genes displayed specific expression patterns, such as SspDHHC1B , SspDHHC28A , SspDHHC13B , and SspDHHC2C , whose expression initially increased but then decreased subsequently (Fig. 6 b)."
+          },
+          {
+            "id": "Par48",
+            "text": "Fig. 6 Heatmap normalised to DHHC gene expression in S. spontaneum . ( a ) A heatmap of expression among tissues at different growth periods is presented. The number of stem nodes, from top to bottom, is indicated by the letters “Stem3, 6, 9.” These letters correspond to the stalks, which are arranged from young to old. roll leaf indicates a young leaf and a mature leaf indicates a spreading mature leaf. ( b ) A heatmap of the various regions of the leaf blade (base, middle, tip) is presented."
+          },
+          {
+            "id": "",
+            "text": "Heatmap normalised to DHHC gene expression in S. spontaneum . ( a ) A heatmap of expression among tissues at different growth periods is presented. The number of stem nodes, from top to bottom, is indicated by the letters “Stem3, 6, 9.” These letters correspond to the stalks, which are arranged from young to old. roll leaf indicates a young leaf and a mature leaf indicates a spreading mature leaf. ( b ) A heatmap of the various regions of the leaf blade (base, middle, tip) is presented."
+          }
+        ]
+      },
+      {
+        "id": "Sec20",
+        "title": "Sugar correlation analysis",
+        "paragraphs": [
+          {
+            "id": "Par49",
+            "text": "To explore the functional diversity of DHHC genes, we classified the expression patterns of DHHC genes in S. spontaneum Np-X into three distinct clusters (Fig. 7 a). Specifically, cluster 1 consisted of 11 DHHC members, cluster 3 included 10 members, and cluster 2 encompassed 7 members (Supplementary Table S9). Notably, despite the identified patterns, the three selected sugarcane cultivars (NQ05, KQ228, and Q253) exhibited highly consistent expression profiles, indicating a conserved expression pattern of DHHC genes across different sugarcane cultivars, regardless of temporal or tissue variations. Furthermore, within the same species, DHHC genes displayed diverse expression patterns, suggesting the presence of multifaceted functional roles within the DHHC gene family (Fig. 7 a)."
+          },
+          {
+            "id": "Par50",
+            "text": "In investigating the correlation between DHHC genes and agronomic traits in sugarcane, an in-depth analysis of phenotypic data from 24 distinct sugarcane varieties, as reported by Perlo et al. in 2022 40 , was conducted. Particularly, the expression profiles of the gene SspDHHC28A , categorized within C2 and documented at the fifth stem node during the 37th week (w37n5d), exhibited noticeable negative correlations with various agronomic traits related to sucrose content (Supplementary Fig. S8). The associations with CCS (Sept) and Delta CCS indices were notably significant (Fig. 7 b)."
+          },
+          {
+            "id": "Par51",
+            "text": "Fig. 7 ( a ) Heatmap of DHHC gene expression and expression trends in the genomes of four Saccharinae species. w19n and w37n are the 19th and 37th weeks of sampling, respectively; 5, 8, and Ex5 are the tissues sampled when the 5th stem node, 8th stem node, and 5th stem node were first labeled mature stem nodes, respectively. ( b ) The X-axis is the expression of the gene and the Y-axis is the phenotypic value of the agronomic trait. The correlations between DHHC genes and agronomic traits were significant for the green markers and highly significant for the red markers according to the P value. CCS: commercial cane sugar, CCS Sept: late sugar content. Delta_CCS_June_March: Yield changes in sugar content of sugarcane from March to June."
+          },
+          {
+            "id": "",
+            "text": "( a ) Heatmap of DHHC gene expression and expression trends in the genomes of four Saccharinae species. w19n and w37n are the 19th and 37th weeks of sampling, respectively; 5, 8, and Ex5 are the tissues sampled when the 5th stem node, 8th stem node, and 5th stem node were first labeled mature stem nodes, respectively. ( b ) The X-axis is the expression of the gene and the Y-axis is the phenotypic value of the agronomic trait. The correlations between DHHC genes and agronomic traits were significant for the green markers and highly significant for the red markers according to the P value. CCS: commercial cane sugar, CCS Sept: late sugar content. Delta_CCS_June_March: Yield changes in sugar content of sugarcane from March to June."
+          }
+        ]
+      },
+      {
+        "id": "Sec21",
+        "title": "Discussion",
+        "paragraphs": [
+          {
+            "id": "Par52",
+            "text": "The comprehensive collinearity analysis of DHHC genes across four Saccharinae species provided insights into the evolutionary relationships among these species and the conservation of DHHC genes throughout their evolutionary history. The analysis validated the occurrence of significant chromosomal fusion or fission events within these species. Chromosomal rearrangements are common in evolutionary processes, serving as mechanisms for species to adapt to environmental challenges and compete for survival 42 . These rearrangements can lead to the generation of novel genome combinations and genetic diversity, thereby facilitating species divergence 43 . The remarkable congruence and collinearity of DHHC genes on chromosomes originating from E. rufipilus with those of the other three species underscore the crucial role of these genes in the evolutionary trajectory of Saccharinae species. The high level of gene conservation suggests that DHHC genes likely played essential biological roles during the evolution of these species, with these roles preserved across evolutionary timescales. The retention of these gene pairs indicates that the function and expression of these genes are integral to physiological and developmental processes during species diversification. In contrast to other species, M. lutarioriparius exhibited a genuine gene deletion, with two homologous genes corresponding to E. rufipilus being absent on chromosomes 1 and 3 of E. rufipilus . Despite the partial deletion of DHHC genes, M. lutarioriparius maintained genomic integrity and functional continuity, possibly through a genomic compensation strategy. This highlights the robust genetic resilience and adaptive potential of Saccharinae species."
+          },
+          {
+            "id": "Par53",
+            "text": "Comparative structural and sequence analyses of homologous DHHC proteins from four Saccharinae species demonstrated structural consistency of the DHHC proteins, which is consistent with the strict conservation of the three-dimensional structure of DHHC reported in Science 2018 44 , revealing the evolutionary conservation and functional significance of this protein family. The striking structural similarity among species underscores the evolutionary conservation of the DHHC family at the structural level. This conservation likely reflects the essential role played by DHHC proteins in cellular mechanisms, necessitating the preservation of their structural integrity across different species. The central DHHC motif (amino acids 124–127) and the nine invariant Cys residues are particularly notable for their conservation, critical for enzyme function and highlighting their importance in the protein’s active site and overall structure."
+          },
+          {
+            "id": "Par54",
+            "text": "Sequence alignment and three-dimensional (3D) structure unveiled a high degree of structure identity, with the presence of a conserved structural domain further supporting the concept of evolutionary conservation. Despite the high level of similarity, the existence of amino acid variants, primarily located outside the core domains, indicates a degree of evolutionary flexibility. These variants do not appear to impact the core function of the DHHC protein, suggesting that these regions may tolerate some genetic diversity without compromising the essential roles of the protein. Certain SNP-induced nonsynonymous mutations and insertions or deletions within DHHC genes, resulting in increased or decreased protein sequences, do not alter the overall tertiary structure of the proteins, exemplifies the evolutionary principle of selective pressures acting to maintain core functions while allowing for sequence variability in non-critical regions 45 . This phenomenon suggests that the DHHC gene family may have undergone evolutionary adaptations to ensure the preservation of essential functions, possibly through compensatory structural adjustments or the retention of key functional domains, despite sequence losses or mutations in regions less critical for protein activity. This also indicates that DHHC proteins exhibit remarkable conserved not only within species but also across different species."
+          },
+          {
+            "id": "Par55",
+            "text": "In cis-regulatory element analyses, we found that the upstream region of the DHHC gene contains a large number of G-box elements. The G-box plays a crucial role in the regulation of gene expression, serving as a binding site for various transcription factors that respond to environmental signals and regulate plant growth and development. They indirectly affect the carbon fixation capacity of plants by influencing the synthesis of chlorophyll 46 . Consequently, these genes may play an important role in the processes of carbon cycling, carbon transport, and energy conversion."
+          },
+          {
+            "id": "Par56",
+            "text": "Gene duplications play a significant role in the proliferation of plant genes. Duplicated genes typically evolve to acquire new functions or partition existing functions, enhancing plant adaptability 35 , 47 , 48 . The substantial contribution of WGD to the expansion of the DHHC enzyme-encoding gene family in plants underscores the importance of polyploidy events in the evolution and diversification of gene families. This process serves as a major driver of genetic and phenotypic diversity in plants 49 and has been implicated in the evolution of numerous plant species, including those of agricultural significance. The additional contribution of DSDs to the enlargement of the DHHC gene family highlights the influence of smaller-scale duplication events in shaping gene family architecture. Notably, members of the DHHC family in E. rufipilus do not exhibit whole-genome duplication during gene duplication, suggesting its divergence as an early species and lack of exposure to anthropogenic selection pressures leading to WGD."
+          },
+          {
+            "id": "Par57",
+            "text": "The differential impacts of various duplication events on the expansion of different gene families, such as AP2/ERF, WRKY, SWEET, F-box, and R2R3-MYB families 36 , 50 , 51 – 52 , indicate highly specific mechanisms of gene family evolution. The prevalence of TD events in the expansion of AP2/ERF and WRKY families contrasts with the role of WGD in the expansion of SWEET, F-box, and R2R3-MYB families. These results suggest that the evolutionary history and functional constraints of each gene family influence the types of duplication events conducive to their expansion. In this study, WGD and DSD significantly contributed to the amplification of the DHHC enzyme-encoding gene family, highlighting the intricate interplay between different types of gene duplication events and their impact on gene family evolution in plants."
+          },
+          {
+            "id": "Par58",
+            "text": "The analysis of tissue-specific expression patterns revealed that the expression of DHHC genes was more pronounced in stems compared to leaves and decreased as stems matured. As stem maturity progresses and growth rate slows, there may be a reduced demand for specific proteins supporting growth, leading mature stems to prioritize structural reinforcement over further expansion 53 . In leaves, expression levels were lower in both curled (young) and mature leaves, which may also be influenced by intermediate leaf tissue. However, in leaf segmentation, expression levels were relatively high in petioles and gradually decreased as leaves matured and elongated. These findings imply that DHHC genes may regulate proteins involved in stem development, stability, or signaling, with these proteins potentially playing a crucial role in stem growth and development, particularly during early growth stages requiring significant synthesis to meet growth demands. Similarly, the petiole acts as a vital conduit linking the leaf blade to the stem for transporting substances produced through photosynthesis. The elevated expression of DHHC genes in the petiole may indicate the need for specialized functions of encoded proteins crucial for rapid growth and development processes. Analogous to stems, as leaf blades near maturity and growth rate decelerates, the demand for these proteins diminishes, resulting in lower expression levels. These findings also suggest that DHHC genes potentially influence carbon flux and allocation and sucrose storage."
+          },
+          {
+            "id": "Par59",
+            "text": "The comprehensive analysis of DHHC gene expression patterns in S. spontaneum and their potential associations with agronomic traits in sugarcane underscores the significant role these genes may play in plant growth, development, and productivity. The discovery of conserved expression profiles of DHHC genes across different sugarcane varieties (NQ05, KQ228, and Q253) further emphasizes the fundamental role these genes likely play in plant physiology and development. Such conservation suggests that regardless of plant variety, DHHC genes maintain similar biological functions crucial for plant growth and response to environmental stimuli."
+          },
+          {
+            "id": "Par60",
+            "text": "A notable negative correlation between the SspDHHC28A gene from the C2 cluster and key agronomic traits at a critical developmental stage (week 37) in sugarcane suggests that this gene may influence carbon allocation and sucrose storage. This developmental stage, corresponding to the maturation phase of sugarcane, is pivotal for determining the final yield and quality of the crop. The correlation between SspDHHC28A expression and the CCS and Delta CCS indices, indicative of sugar content and purity, implies that this gene may play a crucial role in regulating sucrose accumulation within the plant. In sugarcane, fiber and sugar contents are primarily stage-dependent, with changes in carbon allocation into protein and fiber during the early stage in immature tissue and to sucrose storage in mature culm 53 , 54 . The finding that DHHC genes, particularly SspDHHC28A , may influence critical agronomic traits like carbon allocation and sucrose storage presents new opportunities for the genetic enhancement of sugarcane. Targeting these genes through genetic engineering or selective breeding programs could enhance sugarcane varieties for increased yield, sugar content, and overall crop quality, potentially impacting the agricultural industry, biofuel production, and global food security."
+          },
+          {
+            "id": "Par61",
+            "text": "In conclusion, our investigation identified members of the DHHC gene family in four Saccharinae species. DHHC genes exhibit a high level of conservation among species, encompassing both sequence and quantitative aspects. Orthologs of EruDHHC1C and EruDHHC3A were absent in M. lutarioriparius . The G-box, known to regulate growth and development, was identified as the predominant cis-acting regulatory element in DHHC genes, affecting chlorophyll synthesis and indirectly carbon fixation in plants. Whole-genome duplication (WGD) and dispersed duplication (DSD) were recognized as the primary drivers behind the expansion of the DHHC gene family, with Ka/Ks values indicating strong purifying selection acting on the DHHC gene family. The pronounced tissue-specific expression of DHHC genes suggests the potential role of the encoded protein in facilitating the transportation of substances generated through photosynthesis, particularly carbon, which is likely crucial during periods of rapid growth and development. The expression of SspDHHC28A showed a correlation with sucrose content, indicating that it may be involved in carbon partitioning and affect sucrose accumulation. These findings fill a gap in the study of DHHC genes in the Saccharinae genus, unveiling a glimpse of DHHC genes in the Saccharinae genus, and laying the foundation for further research on the functional and evolutionary aspects of the DHHC gene family in plants."
+          }
+        ]
+      }
+    ],
+    "full_text": "Introduction S-Acylation, a lipid modification occurring on eukaryotic proteins 1 , predominantly involves the attachment of palmitate to cysteine residues, a process commonly referred to as S-palmitoylation. DHHC domain proteins, enzymes that append palmitoyl groups to proteins, play a critical role in anchoring these proteins to cell membranes. First identified in 1999, the DHHC domain is defined by a conserved sequence motif within its protein sequence 2 . The canonical DHHC domain is characterized by the following sequence motif: C-x2-C-x9-HC-x2-C-x2-C-x4-DHHC-x5-C-x4-N-x3-F where ‘x’ indicates a variable region of non-conserved residues 3 . However, numerous instances of DHHC proteins are known to lack all these conserved residues. Consequently, it is currently postulated that all proteins containing the DHHC domain may act as S-acyltransferases 4 . S-Acylated proteins play diverse roles in plants, impacting Ca 2+ signaling, K + movement, stress signaling, association and partitioning of small and heterotrimeric G-proteins, tubulin function, and pathogenesis 5 . For instance, the overexpression of OsDHHC30 in rice plants enhanced salt and oxidative tolerance 6 ; overexpression of OsDHHC1 increased tiller numbers by 40% and grain yield by 10% 7 , 8 ; DHHC-type zinc finger protein OsDHHC09 S-acylates STRK1 at Cys5, Cys10, and Cys14, promoting salt and oxidative stress tolerance by enhancing rice H 2 O 2 scavenging capacity 9 ; and the At5g04270 gene regulates Arabidopsis branching, suggesting a new role of the DHHC-type zinc finger protein in the regulation of plant growth and development 10 . The Saccharum , Miscanthus , and Erianthus are important components of the Saccharinae, which play a significant role in sugar supply, bioenergy production, and carbon emissions. Therefore, an increasing amount of scientific research has been conducted on them. Erianthus rufipilus diverged relatively recently from the Saccharum genus, with estimates of approximately 2.5 million years ago (Mya) from Saccharum spontaneum AP85-441, 1.9 Mya from Saccharum spontaneum Np-X, and 2.3 Mya from Saccharum officinarum LA-Purple 11 . This indicates a recent divergence of E. rufipilus from the common ancestor of sugarcane. In contrast, Miscanthus sinensis and Miscanthus lutarioriparius , as members of the Miscanthus genus, share an older common ancestor with the Saccharum genus, which diverged from the Sorghum lineage around 3.8 to 4.6 million years ago 12 . Additionally, both Miscanthus and Saccharum have undergone whole-genome duplication (WGD) events, suggesting a shared evolutionary history post-divergence 12 . S. spontaneum Np-X, as a species within the Saccharum genus, diverged from E. rufipilus more recently, around 1.9 Mya, placing it within the Saccharum genus on the evolutionary tree, while E. rufipilus is positioned externally to this genus 11 . These divergence events highlight the complex evolutionary history of these species as they branched off from their common ancestors at different geological times 13 . Modern sugarcane ( Saccharum spp., Poaceae) is a vital crop of significant economic value, contributing to 80% of the world’s sugar and 40% of ethanol production 14 . To meet the future demands of the growing population, maintaining or increasing sugarcane yield is imperative. S. spontaneum Np-X is a crucial genetic resource for sugarcane breeding, providing numerous valuable genes for enhancing modern sugarcane varieties, including genes for lodging resistance, disease resistance 15 , 16 , and stress tolerance 17 . Miscanthus and its close relatives, including sugarcanes and energy canes, are promising candidates for economically viable and sustainable bioenergy crops 18 . Eukaryotes have identified many proteins containing the DHHC domain, with 23 in Arabidopsis 10 , 30 in rice 6 , 19 , 26 in cotton, and 24 in oilseed rape 5 . However, the specific functions of DHHC-type zinc finger genes in Saccharinae have not been thoroughly investigated. Therefore, our study focuses on DHHC proteins to explore their evolutionary relationships within Saccharinae and elucidate their potential roles in enhancing sugarcane yield. Materials and methods Data resources The sequences of the DHHC proteins in Arabidopsis thaliana and Oryza sativa were acquired from the Arabidopsis Information Resource (TAIR) ( https://www.arabidopsis.org/ ) and the Rice Genome Annotation Project database ( http://rice.uga.edu ), respectively. The genomic data about S.spontaneum Np-X and E.rufipilus (also known as S.rufipilum ) were sourced from the Jisen Zhang laboratory website ( http://sugarcane.zhangjisenlab.cn/sgd/html/download.html ) 11 , 20 , and the genome sequences of M.sinensis 18 and M.lutarioriparius 21 were obtained from the Phytozome V13 database ( https://phytozome-next.jgi.doe.gov/ ) and a data-sharing platform, Figshare ( https://figshare.com/ ). Identification and chromosome distribution To identify the nonredundant DHHC genes within Saccharinae, we employed hidden Markov model (HMM) profiles corresponding to the DHHC domain (PF01529) downloaded from the Pfam database ( https://pfam.xfam.org/ ). Using HMMER (v3.4, http://hmmer.org/ ) software 22 , searches were conducted against the proteomic sequences of the genomes with the default parameters, applying a stringent filter threshold of 0.01. Concurrently, sequence alignments were executed using the NCBI local BLAST tool (v2.16.0, https://blast.ncbi.nlm.nih.gov/Blast.cgi ) 23 , adopting an e-value threshold of 1e-5, and sequences were filtered to include only those exhibiting an identity of more than 40%. To ensure the reliability of our findings, we further corroborated the derived sequences through the NCBI Conserved Domain Search Service (CD Search) ( https://www.ncbi.nlm.nih.gov/cdd/ ), the Pfam database ( http://pfam.sanger.ac.uk/ ), and the SMART tool ( http://smart.embl-heidelberg.de/ ). These resources were instrumental in verifying the presence and completeness of the DHHC domain within our identified sequences. During the analysis, DHHC genes lacking the fundamental DHHC domain were meticulously screened. Additionally, genes misannotated due to aberrant length, either exceedingly long or short, were detected. Through this stringent protocol, we accurately determined the quantity of DHHC genes present within the aforementioned Saccharinae species. To facilitate subsequent analyses, for a polyploid, all DHHC genes were classified into genes and alleles based on their homology and collinearity. Using MCScanX software (v1.0.0, https://github.com/wyp1125/MCScanX ) 24 , we examined the genomes of the Saccharinae family for potential duplications among the intraspecific DHHC genes. In this phase, the BLAST tool 23 was used to compare the protein sequences of the Saccharinae species against themselves, with an E-value threshold set at 1e-10. The conclusive output of the duplication analysis, coupled with the positional information of the DHHC genes on the chromosomes, was then visualized using CIRCOS (v0.69, https://circos.ca/ ) software 25 . Collinearity analysis Comparative collinearity maps of the four Saccharinae species were constructed to identify the immediate homologs of the DHHC gene to elucidate its evolutionary mechanism. Using the MCScan software (Python v3) 26 , we analyzed the homologous blocks within the genomes of the Saccharinae interspecific, with the parameter -minspan = 30 configured to delineate the minimum span requirement. The gene modules were subsequently aligned using the LAST tool (v.1257). These selected blocks were then visualized using the JCVI (v1.4.23, https://github.com/tanghaibao/jcvi ) modules 26 with Python3. Molecular weight, isoelectric point analysis, and tertiary structure To estimate the physicochemical parameters of each gene, including molecular weight (MW) and isoelectric point (pI), we employed the pI/Mw tool within the Peptides (v2.4.6) package. Concurrently, we meticulously documented the chromosomal positional information of these genes. To determine the structural characteristics of the DHHC proteins, we selected the proteins with the highest sequence scores from each group based on hmmsearch comparisons. These proteins were deemed to possess the most significant homology and were thus likely to share conserved structural features. One more gene was then randomly selected again in each of the four species. Subsequently, we used AlphaFold3 Server ( https://alphafoldserver.com/ ) 27 to generate three-dimensional structural models of these proteins. The resulting models were then visualized and analyzed using PyMOL (v3.1.1, https://www.pymol.org/ ) software 28 , which allowed us to present the predicted tertiary structures in a clear and accessible manner. software. Additionally, we annotated the core structural domains within these models, highlighting the regions of the proteins that are crucial for their function and stability. The selected sequences were subjected to multiple sequence alignment using the DNAMAN software (v10, https://www.lynnon.com/index.html ). Phylogenetic, motif, and class analyses Using the MUSCLE (v5.1, https://drive5.com/ ) 29 , we conducted a multiple sequence alignment (MSA) of the full-length protein sequences of the DHHC family. Following the alignment, we utilized the RAxML (v8.2.12, https://cme.h-its.org/exelixis/ ) software 30 to construct a phylogenetic tree using the maximum likelihood (ML) method. The resulting phylogenetic tree was then visualized and further edited using the iTOL platform ( https://itol.embl.de/ ). The conserved motifs within the DHHC protein family were explored with the aid of the motif elicitation (MEME) tool (v.5.5.7, https://meme-suite.org/meme/tools/meme ) 31 . In our analysis, the parameter for the maximum number of motifs to be detected was set to 10. The motif size distribution was left to ‘any’. All remaining parameters were left at their default values, ensuring that the analysis was conducted with the standard settings recommended by the MEME suite. Using the classification system established for Arabidopsis thaliana DHHC proteins 32 , we systematically categorized the identified DHHC proteins of Saccharinae. Promoter analysis The DNA sequences 2000 bp upstream of the initiation codon “ATG” of the DHHC genes were defined as the promoter sequences. Subsequently, based on these inferred promoter sequences, we used the PlantCARE database ( https://bioinformatics.psb.ugent.be/webtools/plantcare/html/ ) 33 to predict the cis-regulatory elements that may govern the transcriptional regulation of these genes. The identification and quantification of these elements were conducted using R (v.4.4.2, https://www.r-project.org/ ). To ensure a rigorous analysis, we excluded unidentified elements and essential eukaryotic components such as the TATA-box and CAAT-box to concentrate on elements that possess specific regulatory functions. Gene duplication and Ka/Ks analysis Gene duplications have long been recognized as a driving force in the evolution of genes, giving rise to novel functions 34 . The DupGen_finder software package includes a custom MCScanX algorithm 35 that further identifies paralogous DHHC gene pairs derived from whole-genome duplication (WGD), tandem duplication (TD), proximal duplication (PD), transposed duplication (TRD), and dispersed duplication (DSD) 36 , 37 . Briefly, Arabidopsis thaliana was selected as the outgroup to identify duplicated gene pairs 36 . Then, the DHHC of the four Saccharinae genomes was subjected to a BLASTP search against Arabidopsis thaliana using protein sequences (E < 1e − 10, top 5 matches, and m6 format output) for searches. The results were finally corrected for accuracy. For the identified pairs of duplicate genes, the calculation and statistical analysis of their Ka/Ks ratios were performed. This process involves the utilization of the Paml software tools ParaAT_mdf.pl and KaKs_Calculator (v2.0), employing the “YN” model 38 to compute the nonsynonymous (Ka) versus synonymous (Ks) substitution rates (Ka/Ks ratio). The Ka/Ks ratio serves as a pivotal metric for understanding the evolutionary pressures acting on genes; a ratio greater than 1 suggests positive selection, indicative of adaptive evolutionary changes; a ratio less than 1 implies purifying selection, suggesting the removal of deleterious mutations; and a ratio equal to 1 indicates neutral evolution. Tissue-specific expression Again, the DHHC gene family of S. spontaneum Np-X was chosen as the focus of the study. Gene expression data were extracted from the full gene expression matrix in the database of the Jisen Zhang laboratory website ( http://sugarcane.zhangjisenlab.cn/sgd/html/download.html ). Expression heatmaps were created using R (v4.3.2) for presentation. Sugar correlation analysis Employing the classification schema proposed by Perlo et al. in 2022 39 , 40 , we obtain RNA-seq data for 24 distinct sugarcane cultivars, as documented within the project repository accessible at EMBL-EBI under accession number PRJEB44480 ( https://www.ebi.ac.uk/ena/browser/view/PRJEB44480 ). In our investigation, we specifically focused on the cultivars KQ228 and Q253, which are widely utilized in industry due to their early high sugar content and robust yield 39 . Additionally, we included NQ05 in our study, as it was found to cluster within the same branch as KQ228 and Q253 in our cluster analysis, suggesting a shared genetic or phenotypic profile. The selection of these cultivars was strategic, as it allowed us to explore the genetic underpinnings associated with their economically valuable traits. To quantify gene expression levels, we employed the Rsubread software package 40 . In light of the striking homogeneity in the DHHC gene sequences among the four species of the Saccharinae subtribe, coupled with the intimate evolutionary kinship discerned between M. sinensis , M. lutarioriparius , S. spontaneum , and E. rufipilus , we focused our investigation on the DHHC gene family of S. spontaneum as our prime candidates for expression profiling and subsequent correlation analysis with agronomic traits. To elucidate the expression patterns of DHHC genes within our samples, we used the ClusterGVis package (v0.1.2, https://github.com/junjunlab/ClusterGVis ) for analysis. To elucidate the subtle interplay between physiological traits and the expression patterns of DHHC genes and to further our understanding of the genetic underpinnings of the agronomic quality of sugarcane, we sourced agronomic trait data for 24 sugarcane varieties from the supplementary appendices of a comprehensive analysis conducted by Perlo et al.in 2022 39 . This extensive dataset provided rich information on various traits that are critical to the cultivation and yield of sugarcane. With this wealth of agronomic data, we proceeded to conduct a correlation analysis with the expression profiles of DHHC genes. Results Identification and positional of the DHHC gene family Through a comprehensive genome-wide analysis of the four Saccharinae species, we identified a total of 251 candidate genes within the DHHC gene family. This set comprised 111 genes from S. spontaneum Np-X, 29 from E. rufipilus , 55 from M. sinensis , and 56 from M. lutarioriparius . To ensure the accuracy of our analysis, we refined structural domain annotations to exclude incorrectly predicted and redundant sequences. Among the identified genes, 161 DHHC proteins with complete domains were found, with 32 genes (representing 110 alleles) from S. spontaneum Np-X (Supplementary Table S1 ), 28 from E. rufipilus , 53 from M. sinensis , and 48 from M. lutarioriparius (Table 1 and Table S2 ). The number of DHHC genes discovered in the four Saccharinae species is comparable to the 24 genes in Arabidopsis 32 and the 30 genes reported in Oryza sativa 19 . To explore the genomic distribution of DHHC genes, we conducted a chromosomal localization analysis in the four Saccharinae species ( S. spontaneum Np-X, E. rufipilus , M. sinensis , and M. lutarioriparius ). The positional analysis revealed a random distribution of DHHC genes across both homologous and nonhomologous chromosomes (Supplementary Fig. S1 ). The presence of a diploid genome within the Saccharum complex offers valuable insights for understanding the evolutionary intricacies within the highly polyploid Saccharum genus 11 . Initial observations in E. rufipilus indicated the distribution of DHHC genes across chromosomes as follows: four genes on chromosomes 1 to 4, three on chromosomes 6 and 7, two on chromosomes 5 and 9, and one gene each on chromosomes 8 and 10. The limited number of orthologous gene pairs among these species suggests that gene rearrangements are prevalent during evolution. Chromosomal rearrangements, including insertions, deletions, and inversions, can disrupt the collinearity of orthologous genes and alter their chromosomal positions. Structural changes at the chromosomal level, such as fusion and fission, also contribute to the repositioning of orthologous genes 41 . Table 1 Genomic information and identified DHHC gene numbers in Saccharinae species. Scientific Name Chromosome Number Genome Size (Gb) All genes DHHC Gens DHHC Allele S. spontaneum Np-X 1n = 4x = 40 2.761 122,441 32 110 E. rufipilus 2n = 2x = 20 0.858 32,770 28 \\ M.sinensis 2n = 2x = 38 2.079 67,789 53 \\ M.lutarioriparius 2n = 2x = 38 2.074 68,328 48 \\ Collinearity relationships To elucidate the evolutionary relationships among DHHC genes, a comprehensive analysis of collinearity was conducted on DHHC genes sourced from four distinct Saccharinae species. The investigation unveiled notable chromosomal fusion or fission events across these species, indicating intricate evolutionary dynamics. Particularly, E. rufipilus exhibited frequent duplications of a single chromosome into two or four copies, which served as the foundation for the observed chromosomal structures in S. spontaneum , M. sinensis , and M. lutarioriparius (Supplementary Fig. S2 ). Additionally, a significant level of concordance and collinearity was observed among DHHC genes situated on chromosomes originating from E. rufipilus duplications in S. spontaneum Np-X, M. sinensis , and M. lutarioriparius (Supplementary Fig. S2 ). This alignment not only emphasizes the evolutionary connections among the four Saccharinae species but also underscores the robust conservation of DHHC genes within this group. The investigation identified a total of 190 homologous gene pairs derived from DHHC genes of the four Saccharinae species, with 101 collinear gene pairs between E. rufipilus and S. spontaneum Np-X, 48 between E. rufipilus and M. sinensis , and 41 between E. rufipilus and M. lutarioriparius (Supplementary Fig. S2 and Table S3). These findings highlight the strong interplay among DHHC genes. The evolutionary trajectory is characterized by the inevitable occurrence of gene deletion or duplication. In this study, observations revealed instances of both deletions and duplications in DHHC genes. The genes EruDHHC1C and EruDHHC3A , situated on chromosomes 1 and 3 in E. rufipilus , were absent from chromosomes 1 and 2, as well as from chromosomes 5 and 6, in M. lutarioriparius . Specifically, M. lutarioriparius lacks homologous genes corresponding to EruDHHC1C on chromosomes 1 and 2 and EruDHHC3A on chromosomes 5 and 6 (Fig. 1 ). Fig. 1 Collinearity between chromosomes 1 and 3 of E. rufipilus and S. spontaneum , M. sinensis , and M. lutarioriparius and the labeling of missing genes. Molecular weight, isoelectric point, and tertiary structure To gain insights into the structural and functional properties of DHHC proteins, we conducted an analysis encompassing gene length, protein sequence length, protein molecular weight (MW), and isoelectric point (pI) (Supplementary Table S2 ). Variations in protein length were observed among DHHC proteins across different species. For instance, in S. spontaneum Np-X, SspDHHC1B had the smallest protein sequence with 237 amino acids (aa), while SspDHHC20C had the largest sequence with 814 aa. This variability in protein length was also evident in E. rufipilus , M. sinensis , and M. lutarioriparius . Notably, EruDHHC4B was the shortest DHHC protein with 275 aa, and EruDHHC3C was the longest with 711 aa in E. rufipilus . In M. sinensis , MisDHHC17A had the shortest sequence with 248 aa, while MisDHHC6C and MisDHHC4C were the longest with 710 aa. In M. lutarioriparius , MluDHHC8B was the shortest with 208 aa, and MluDHHC12C was the longest with 814 aa, the longest sequences of amino acids are found in Class C (Supplementary Table S2 ). Fig. 2 Three-dimensional structural model of the DHHC protein. The structural images were generated by PyMOL software. ( a ) The purple region in the 3D structural schematic is a typical DHHC structural domain: C-x2-C-x9-HC-x2-C-x2-C-x4-DHHC-x5-C-x4-N-x3-F. ( b ) Multiple sequence comparison of DHHC proteins; The red dashed boxes indicate conserved core structural domains. The molecular weight (MW) and theoretical isoelectric point (pI) of DHHC proteins were calculated. For S. spontaneum , the molecular weights ranged from 26.04 to 86.81 kilodaltons (kDa), with isoelectric points varying from 6.35 to 10.11. In E. rufipilus , the MW ranged from 30.15 to 76.80 kDa, with pI values between 6.51 and 10.05. M. sinensis proteins exhibited MW values between 28.58 and 76.68 kDa, and pI values ranged from 6.25 to 10.85. Similarly, M. lutarioriparius had a MW range of 23.06 to 87.32 kDa and a pI range of 6.40 to 10.05 (Supplementary Table S2 ). Significant structural similarities between the DHHC proteins of the four species can be seen in three-dimensional (3D) structure. These findings underscore the inherent structural conservation within the DHHC family across a quartet of species (Fig. 2 a). Initial investigations revealed that genes selected ( EruDHHC7B , MisDHHC9B , MluDHHC10B , and SspDHHC22B ) through the highest sequence scores have strong uniformity and collinearity (Fig. 1 ), so these genes should have originated from the evolutionary processes (or duplications) of genes identified in E. rufipilus , which infers that they are copies of the same gene. This discovery was further validated through multiple sequence alignments (Fig. 2 b). It was likewise found that randomly selected genes ( EruDHHC3B , MisDHHC5B , MluDHHC6B , and SspDHHC6B ) also showed great similarity to the high-scoring genes, even in the presence of a large number of SNPs and partial INDEL (Fig. 2 b and Supplementary Fig. S3). A central DHHC motif (amino acids 124–127) and nine conserved cysteine residues (amino acids 99, 102, 112, 113, 116, 119, 133, 138 and 142 in the alignment) were prominently visible, highlighting their distinctive features (Fig. 2 b). Examination of the sequence revealed specific amino acid modifications indicating the presence of single nucleotide polymorphism (SNP) and insertion-deletion (INDEL) variations within these genes (Fig. 2 b and Supplementary Fig. S3). Analysis of the protein’s three-dimensional structure indicated that despite these SNP and indel variations, they did not significantly impact the protein’s three-dimensional architecture (Fig. 2 a). The findings suggest that certain SNP mutations resulting in nonsynonymous changes within DHHC genes, as well as insertions or deletions leading to variations in protein sequences during the speciation of plants, do not significantly impact the overall tertiary structure of the DHHC proteins. Class and phylogenetic analysis Phylogenetic analysis unveiled that the classification of DHHC genes was in accordance with previous studies conducted in Arabidopsis and rice 19 , 32 . Based on the taxonomic criteria of Arabidopsis , DHHC family members of the four Saccharinae species were classified into six subgroups along with Arabidopsis , Oryza sativa to construct the maximum likelihood (ML) phylogenetic tree (Supplementary Fig. S4). Class A comprised 92 members, including SspDHHC11A , EruDHHC2A , MisDHHC4A , and MluDHHC4A ; Class B comprised 44 members, such as SspDHHC12B , EruDHHC3B , MisDHHC6B , and MluDHHC5B ; Class C consisted of 61 members, including SspDHHC8C , EruDHHC2C , MisDHHC7C , and MluDHHC4C ; Class D comprised 8 members, such as SspDHHC2D , EruDHHC1D , MisDHHC1D , and MluDHHC1D ; Class E included 7 members, such as SspDHHC1E , EruDHHC1E , MisDHHC1E , and MluDHHC1E ; and Class F encompassed 27 members, including SspDHHC9F , EruDHHC1F , MisDHHC1F , and MluDHHC3F (Fig. 3 , Table S2 ). The classification of DHHC genes revealed a higher number of members in the A, B, and C subfamilies compared to other clades, mirroring the pattern observed in Arabidopsis . When comparing the number of DHHC genes across the four Saccharinae species, with E. rufipilus as the reference species, the number of DHHC genes in the other three species exhibited a nearly multiplicative relationship to it, particularly pronounced in the subgroups (Supplementary Table S4). Fig. 3 A maximum likelihood (ML) phylogenetic tree of four species was constructed based on the full-length sequence in RAxML, with branching support values added at the branches. The tree was divided into six classic outer rings with different colors: green, yellow, light purple, deep purple, pink, and blue-gray for the DHHC proteins. Circles, crosses, diamonds and squares denote S. spontaneum , E. rufipilus , M. sinensis , and M. lutarioriparius , respectively. Through the analysis of 161 DHHC genes across the four Saccharinae species, 10 distinct motifs were identified. Each DHHC gene was found to harbor at least two motifs (Supplementary Fig. S5). While the overall motif arrangement remained consistent and structured across different classes, there were instances where individual genes displayed additional or missing motifs. This motif organization pattern unveiled both similarities and variations within specific groups of DHHC genes. Within these subfamilies, a high level of consistency was observed in terms of gene sequence length and motif distribution. Specific motifs unique to each subfamily were identified, potentially contributing to the functional divergence of each subgroup. Each DHHC protein featured a core motif, denoted as Motif 1, characterized by the conserved sequence HC-x2-C-x2-C-x4-DHHC-x5-C-x4-N (Supplementary Table S5). This conserved sequence played a crucial role in maintaining the structural integrity of the protein, essential for its biological function. Additionally, additional motifs were distributed throughout the gene, varying based on the distinct subfamilies. The structural arrangement within each subfamily exhibited a notable standardization (Supplementary Fig. S5). Analysis of cis-regulatory elements in promoter regions To elucidate the cis-regulatory elements governing DHHC genes within the Saccharinae family, an examination of the 2000 bp upstream promoter regions was conducted. The primary objective of this study was to unveil the intricate array of cis-regulatory elements that influence gene expression in response to diverse environmental and physiological cues. Fig. 4 Analysis of cis-regulatory elements in DHHC promoters. Dark blue squares indicate a high number of cis-acting regulatory elements, light blue squares indicate a low number of cis-regulatory elements, and white squares indicate no cis-regulatory elements. A diverse range of regulatory elements responsive to hormonal signals such as abscisic acid (ABA), gibberellins (GAs), and methyl jasmonate (MeJA) were identified in the DHHC promoter regions of the four Saccharinae species (Fig. 4 , Table S6). These elements included, but were not limited to, the G-box, ABA-responsive element (ABER), TGA-element, O2-site, and CGTCA-motif, each playing a crucial role in sophisticated regulatory networks. Additionally, the investigation unveiled numerous elements responsive to a spectrum of light signals, including sp1, the 3-AF1 binding site, ACE, the AE-box, AT1-motif, ATC-motif, ATCT-motif, chs-CMA1a, Box-4, and others, presenting a complex scenario of light-mediated gene regulation. The narrative of stress responsiveness was enriched with the identification of elements such as the low-temperature responsive element (LTRE), the stress-responsive element (STRE), MYC, MYB, TC-rich repeats, and the W-box, each assessing the resilience and adaptability of these species under stress. Among the identified cis-regulatory elements, G-boxes were notably abundant, with occurrences of 158, 134, 234, and 215 in the four Saccharinae species, respectively (Supplementary Fig. S6). Gene duplication and Ka/Ks analysis To elucidate the evolutionary processes governing gene duplication and function, an extensive investigation of the DHHC gene family in four Saccharinae species was undertaken. The study focused on identifying gene duplication events, which were categorized into distinct modes: transposed duplication (TRD), proximal duplication (PD), tandem duplication (TD), dispersed duplication (DSD), and whole-genome duplication (WGD). The analysis revealed 215 pairs of duplicated genes across the four species, with DSD being the most prevalent pattern, accounting for 114 pairs (Supplementary Fig. S7, Table S7). E. rufipilus exhibited three types of duplication events: DSD, PD, and TD (Fig. 5 b). In S. spontaneum and M. sinensis , four duplication events were identified: DSD, PD, TD, and WGD (Fig. 5 a and c). In contrast, M. lutarioriparius displayed five duplication events: DSD, PD, TD, TRD, and WGD (Fig. 5 d). Among the four Saccharinae species, WGD emerged as the second most prevalent mode, with 68 gene pairs out of 217, although WGD did not occur in E. rufipilus (Supplementary Table S8). These findings underscore the significant impact of WGD on the expression patterns of the DHHC gene family. Notably, despite being diploid, M. sinensis and M. lutarioriparius experienced chromosome duplication events involving DHHC family members, unlike E. rufipilus. The Ka/Ks values, commonly used to evaluate gene selection pressure and evolutionary history, provided valuable insights. Notably, 97.21% (209 gene pairs) of the homologous DHHC gene pairs in the four Saccharinae species exhibited Ka/Ks ratios lower than 1, indicating strong purifying selection. However, in S. spontaneum and M. lutarioriparius , a small percentage (2.79%, 6 gene pairs) displayed higher Ka/Ks ratios, suggesting a complex evolutionary history for this gene family (Supplementary Table S8). Across the four species where dispersed duplication (DSD) was predominant, the average Ka/Ks ratios of DSD-generated gene pairs were less than 1(Fig. 5 a-d), indicating the pervasive influence of purifying selection. The analysis revealed that nonsynonymous mutations following gene duplications via DSD were often eliminated through selection to maintain the original gene function. Furthermore, the comparison of mean Ka/Ks values for different types of duplicated gene pairs in M. sinensis highlighted that TD gene pairs evolved at a faster rate than other gene pairs. E. rufipilus exhibited the lowest Ka/Ks ratio and stringent conservation of gene function (Fig. 5 b), while S. spontaneum showed a higher number of gene pairs from various duplication events with Ka/Ks ratios above 1 (Fig. 5 a), indicating purifying selection with relatively less intense pressure, possibly due to its polyploid nature. This observation suggests a high level of conservation in the evolution of DHHC genes. Fig. 5 Statistics of Ka/Ks values for four species of Saccharinae. The x-axis represents the duplication type. WGD: whole-genome duplicates; TD: tandem duplicates; PD: proximal duplicates; TRD: transposed duplicates; DSD: dispersed duplicates, y-axis is the Ka/Ks ratio. ( a ) Ka/Ks box plot of S. spontaneum . ( b ) Ka/Ks box plot of E. rufipilus . ( c ) Ka/Ks box plot of M. sinensis . d . Ka/Ks box plot of M. lutarioriparius . Tissue-specific expression To explore the specific expression patterns of DHHC genes in different tissues, our focus was on the DHHC gene family of S. spontaneum Np-X. We focused on expression in different tissues at different stages of maturity and in different parts of the same tissue. The expression levels of these genes were lower in leaves compared to stalks in mature sugarcane. Additionally, a general decrease in expression was observed as the stalks matured (Fig. 6 a). Specifically, as stalks mature and sucrose storage increases, the expression of DHHC genes decreases, indicating a negative correlation between DHHC gene expression and sucrose yield or storage. In the expanding leaves, the petiole part (white in color) exhibited relatively high expression, which decreased significantly with leaf elongation, consistent with the overall expression trend. However, certain genes displayed specific expression patterns, such as SspDHHC1B , SspDHHC28A , SspDHHC13B , and SspDHHC2C , whose expression initially increased but then decreased subsequently (Fig. 6 b). Fig. 6 Heatmap normalised to DHHC gene expression in S. spontaneum . ( a ) A heatmap of expression among tissues at different growth periods is presented. The number of stem nodes, from top to bottom, is indicated by the letters “Stem3, 6, 9.” These letters correspond to the stalks, which are arranged from young to old. roll leaf indicates a young leaf and a mature leaf indicates a spreading mature leaf. ( b ) A heatmap of the various regions of the leaf blade (base, middle, tip) is presented. Sugar correlation analysis To explore the functional diversity of DHHC genes, we classified the expression patterns of DHHC genes in S. spontaneum Np-X into three distinct clusters (Fig. 7 a). Specifically, cluster 1 consisted of 11 DHHC members, cluster 3 included 10 members, and cluster 2 encompassed 7 members (Supplementary Table S9). Notably, despite the identified patterns, the three selected sugarcane cultivars (NQ05, KQ228, and Q253) exhibited highly consistent expression profiles, indicating a conserved expression pattern of DHHC genes across different sugarcane cultivars, regardless of temporal or tissue variations. Furthermore, within the same species, DHHC genes displayed diverse expression patterns, suggesting the presence of multifaceted functional roles within the DHHC gene family (Fig. 7 a). In investigating the correlation between DHHC genes and agronomic traits in sugarcane, an in-depth analysis of phenotypic data from 24 distinct sugarcane varieties, as reported by Perlo et al. in 2022 40 , was conducted. Particularly, the expression profiles of the gene SspDHHC28A , categorized within C2 and documented at the fifth stem node during the 37th week (w37n5d), exhibited noticeable negative correlations with various agronomic traits related to sucrose content (Supplementary Fig. S8). The associations with CCS (Sept) and Delta CCS indices were notably significant (Fig. 7 b). Fig. 7 ( a ) Heatmap of DHHC gene expression and expression trends in the genomes of four Saccharinae species. w19n and w37n are the 19th and 37th weeks of sampling, respectively; 5, 8, and Ex5 are the tissues sampled when the 5th stem node, 8th stem node, and 5th stem node were first labeled mature stem nodes, respectively. ( b ) The X-axis is the expression of the gene and the Y-axis is the phenotypic value of the agronomic trait. The correlations between DHHC genes and agronomic traits were significant for the green markers and highly significant for the red markers according to the P value. CCS: commercial cane sugar, CCS Sept: late sugar content. Delta_CCS_June_March: Yield changes in sugar content of sugarcane from March to June. Discussion The comprehensive collinearity analysis of DHHC genes across four Saccharinae species provided insights into the evolutionary relationships among these species and the conservation of DHHC genes throughout their evolutionary history. The analysis validated the occurrence of significant chromosomal fusion or fission events within these species. Chromosomal rearrangements are common in evolutionary processes, serving as mechanisms for species to adapt to environmental challenges and compete for survival 42 . These rearrangements can lead to the generation of novel genome combinations and genetic diversity, thereby facilitating species divergence 43 . The remarkable congruence and collinearity of DHHC genes on chromosomes originating from E. rufipilus with those of the other three species underscore the crucial role of these genes in the evolutionary trajectory of Saccharinae species. The high level of gene conservation suggests that DHHC genes likely played essential biological roles during the evolution of these species, with these roles preserved across evolutionary timescales. The retention of these gene pairs indicates that the function and expression of these genes are integral to physiological and developmental processes during species diversification. In contrast to other species, M. lutarioriparius exhibited a genuine gene deletion, with two homologous genes corresponding to E. rufipilus being absent on chromosomes 1 and 3 of E. rufipilus . Despite the partial deletion of DHHC genes, M. lutarioriparius maintained genomic integrity and functional continuity, possibly through a genomic compensation strategy. This highlights the robust genetic resilience and adaptive potential of Saccharinae species. Comparative structural and sequence analyses of homologous DHHC proteins from four Saccharinae species demonstrated structural consistency of the DHHC proteins, which is consistent with the strict conservation of the three-dimensional structure of DHHC reported in Science 2018 44 , revealing the evolutionary conservation and functional significance of this protein family. The striking structural similarity among species underscores the evolutionary conservation of the DHHC family at the structural level. This conservation likely reflects the essential role played by DHHC proteins in cellular mechanisms, necessitating the preservation of their structural integrity across different species. The central DHHC motif (amino acids 124–127) and the nine invariant Cys residues are particularly notable for their conservation, critical for enzyme function and highlighting their importance in the protein’s active site and overall structure. Sequence alignment and three-dimensional (3D) structure unveiled a high degree of structure identity, with the presence of a conserved structural domain further supporting the concept of evolutionary conservation. Despite the high level of similarity, the existence of amino acid variants, primarily located outside the core domains, indicates a degree of evolutionary flexibility. These variants do not appear to impact the core function of the DHHC protein, suggesting that these regions may tolerate some genetic diversity without compromising the essential roles of the protein. Certain SNP-induced nonsynonymous mutations and insertions or deletions within DHHC genes, resulting in increased or decreased protein sequences, do not alter the overall tertiary structure of the proteins, exemplifies the evolutionary principle of selective pressures acting to maintain core functions while allowing for sequence variability in non-critical regions 45 . This phenomenon suggests that the DHHC gene family may have undergone evolutionary adaptations to ensure the preservation of essential functions, possibly through compensatory structural adjustments or the retention of key functional domains, despite sequence losses or mutations in regions less critical for protein activity. This also indicates that DHHC proteins exhibit remarkable conserved not only within species but also across different species. In cis-regulatory element analyses, we found that the upstream region of the DHHC gene contains a large number of G-box elements. The G-box plays a crucial role in the regulation of gene expression, serving as a binding site for various transcription factors that respond to environmental signals and regulate plant growth and development. They indirectly affect the carbon fixation capacity of plants by influencing the synthesis of chlorophyll 46 . Consequently, these genes may play an important role in the processes of carbon cycling, carbon transport, and energy conversion. Gene duplications play a significant role in the proliferation of plant genes. Duplicated genes typically evolve to acquire new functions or partition existing functions, enhancing plant adaptability 35 , 47 , 48 . The substantial contribution of WGD to the expansion of the DHHC enzyme-encoding gene family in plants underscores the importance of polyploidy events in the evolution and diversification of gene families. This process serves as a major driver of genetic and phenotypic diversity in plants 49 and has been implicated in the evolution of numerous plant species, including those of agricultural significance. The additional contribution of DSDs to the enlargement of the DHHC gene family highlights the influence of smaller-scale duplication events in shaping gene family architecture. Notably, members of the DHHC family in E. rufipilus do not exhibit whole-genome duplication during gene duplication, suggesting its divergence as an early species and lack of exposure to anthropogenic selection pressures leading to WGD. The differential impacts of various duplication events on the expansion of different gene families, such as AP2/ERF, WRKY, SWEET, F-box, and R2R3-MYB families 36 , 50 , 51 – 52 , indicate highly specific mechanisms of gene family evolution. The prevalence of TD events in the expansion of AP2/ERF and WRKY families contrasts with the role of WGD in the expansion of SWEET, F-box, and R2R3-MYB families. These results suggest that the evolutionary history and functional constraints of each gene family influence the types of duplication events conducive to their expansion. In this study, WGD and DSD significantly contributed to the amplification of the DHHC enzyme-encoding gene family, highlighting the intricate interplay between different types of gene duplication events and their impact on gene family evolution in plants. The analysis of tissue-specific expression patterns revealed that the expression of DHHC genes was more pronounced in stems compared to leaves and decreased as stems matured. As stem maturity progresses and growth rate slows, there may be a reduced demand for specific proteins supporting growth, leading mature stems to prioritize structural reinforcement over further expansion 53 . In leaves, expression levels were lower in both curled (young) and mature leaves, which may also be influenced by intermediate leaf tissue. However, in leaf segmentation, expression levels were relatively high in petioles and gradually decreased as leaves matured and elongated. These findings imply that DHHC genes may regulate proteins involved in stem development, stability, or signaling, with these proteins potentially playing a crucial role in stem growth and development, particularly during early growth stages requiring significant synthesis to meet growth demands. Similarly, the petiole acts as a vital conduit linking the leaf blade to the stem for transporting substances produced through photosynthesis. The elevated expression of DHHC genes in the petiole may indicate the need for specialized functions of encoded proteins crucial for rapid growth and development processes. Analogous to stems, as leaf blades near maturity and growth rate decelerates, the demand for these proteins diminishes, resulting in lower expression levels. These findings also suggest that DHHC genes potentially influence carbon flux and allocation and sucrose storage. The comprehensive analysis of DHHC gene expression patterns in S. spontaneum and their potential associations with agronomic traits in sugarcane underscores the significant role these genes may play in plant growth, development, and productivity. The discovery of conserved expression profiles of DHHC genes across different sugarcane varieties (NQ05, KQ228, and Q253) further emphasizes the fundamental role these genes likely play in plant physiology and development. Such conservation suggests that regardless of plant variety, DHHC genes maintain similar biological functions crucial for plant growth and response to environmental stimuli. A notable negative correlation between the SspDHHC28A gene from the C2 cluster and key agronomic traits at a critical developmental stage (week 37) in sugarcane suggests that this gene may influence carbon allocation and sucrose storage. This developmental stage, corresponding to the maturation phase of sugarcane, is pivotal for determining the final yield and quality of the crop. The correlation between SspDHHC28A expression and the CCS and Delta CCS indices, indicative of sugar content and purity, implies that this gene may play a crucial role in regulating sucrose accumulation within the plant. In sugarcane, fiber and sugar contents are primarily stage-dependent, with changes in carbon allocation into protein and fiber during the early stage in immature tissue and to sucrose storage in mature culm 53 , 54 . The finding that DHHC genes, particularly SspDHHC28A , may influence critical agronomic traits like carbon allocation and sucrose storage presents new opportunities for the genetic enhancement of sugarcane. Targeting these genes through genetic engineering or selective breeding programs could enhance sugarcane varieties for increased yield, sugar content, and overall crop quality, potentially impacting the agricultural industry, biofuel production, and global food security. In conclusion, our investigation identified members of the DHHC gene family in four Saccharinae species. DHHC genes exhibit a high level of conservation among species, encompassing both sequence and quantitative aspects. Orthologs of EruDHHC1C and EruDHHC3A were absent in M. lutarioriparius . The G-box, known to regulate growth and development, was identified as the predominant cis-acting regulatory element in DHHC genes, affecting chlorophyll synthesis and indirectly carbon fixation in plants. Whole-genome duplication (WGD) and dispersed duplication (DSD) were recognized as the primary drivers behind the expansion of the DHHC gene family, with Ka/Ks values indicating strong purifying selection acting on the DHHC gene family. The pronounced tissue-specific expression of DHHC genes suggests the potential role of the encoded protein in facilitating the transportation of substances generated through photosynthesis, particularly carbon, which is likely crucial during periods of rapid growth and development. The expression of SspDHHC28A showed a correlation with sucrose content, indicating that it may be involved in carbon partitioning and affect sucrose accumulation. These findings fill a gap in the study of DHHC genes in the Saccharinae genus, unveiling a glimpse of DHHC genes in the Saccharinae genus, and laying the foundation for further research on the functional and evolutionary aspects of the DHHC gene family in plants."
+  },
+  "references_count": 54
+}

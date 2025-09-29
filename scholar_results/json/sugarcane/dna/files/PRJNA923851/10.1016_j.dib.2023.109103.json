@@ -1,0 +1,125 @@
+{
+  "metadata": {
+    "extraction_timestamp": "2025-09-29T13:55:35.236776",
+    "language": "en"
+  },
+  "publication_info": {
+    "journal": "Data in Brief",
+    "issn": "23523409",
+    "publisher": "The Author(s). Published by Elsevier Inc.",
+    "doi": "10.1016/j.dib.2023.109103",
+    "volume": "48",
+    "cover_date": "2023-06-30"
+  },
+  "title": "Root endophytic microbiome dataset of sugarcane (Saccharum officinarum L.) cultivated in the Central Highlands, Vietnam, established by the 16S rRNA metagenomics",
+  "authors": [
+    {
+      "given_names": "Thi Huyen",
+      "surname": "Nguyen",
+      "full_name": "Thi Huyen Nguyen",
+      "is_corresponding": false
+    },
+    {
+      "given_names": "Dinh Minh",
+      "surname": "Tran",
+      "full_name": "Dinh Minh Tran",
+      "is_corresponding": true
+    }
+  ],
+  "affiliations": {
+    "aff0001": "Institute of Biotechnology and Environment, Tay Nguyen University, Buon Ma Thuot, Dak Lak 630000, Vietnam"
+  },
+  "abstract": {
+    "full_text": "Sugarcane ( Saccharum officinarum L.) is one of the main annual crops grown in the Central Highlands of Vietnam. By understanding the taxonomic and functional profiles of root endophytic microbiome, we can develop a new cultivation technique for the sustainable production of this plant. In this work, a representative sample was obtained by mixing the roots collected from five different sugarcane fields in Dak Lak Province, the Central Highlands, in 2021. The genomic DNA of the endophytic bacteria was extracted using the DNeasy Powersoil kit, and the V1–V9 regions of the 16S rRNA genes were amplified by PCR. Libraries of 16S rRNA gene amplicons were prepared using the Swift amplicon 16S plus ITS panel kit. Finally, the Illumina MiSeq platform was used to sequence the 16S rRNA gene amplicons library. The raw data of the endophytic microbiome were uploaded to the National Center for Biotechnology Information (NCBI) with Bioproject PRJNA923851 and can be retrieved at https://www.ncbi.nlm.nih.gov/Traces/study/?acc=%20PRJNA923851 . The obtained data provide basic information on the root endophytic microbiome of sugarcane cultivated in the Central Highlands of Vietnam. The data can also be useful for further developing a new technique for sustainable sugarcane production based on indigenous microorganisms. This work is the first report on the endophytic microbiome of sugarcane cultivated in this region."
+  },
+  "keywords": [
+    "Sugarcane root endophytic microbiome dataset",
+    "the 16S rRNA metagenomics",
+    "Proteobacteria",
+    "biosynthesis"
+  ],
+  "content": {
+    "sections": [
+      {
+        "title": "Value of the Data",
+        "paragraphs": [
+          "• Data provide information on the root endophytic microbiome of sugarcane cultivated in the Central Highlands of Vietnam. • Data can be valuable for comparing endophytic microbiome profiles of sugarcane cultivated in this and other regions. • Data can be useful for further developing a new technique for sustainable sugarcane production using indigenous microorganisms."
+        ]
+      },
+      {
+        "title": "Objective",
+        "paragraphs": [
+          "Sugarcane is one of the main annual crops cultivated in the Central Highlands, Vietnam, other than perennial industrial crops, such as coffee, black pepper, and rubber. In 2021, it was reported that the planted area of sugarcane was 166,000 hectares in Vietnam, and production was 10,741 tons, in which the Central Highlands region took about 36% of both the planted area and production [1] . To develop new cultivation techniques for sustainable production of the main crops in this region, rhizospheric and endophytic microbiome data of some perennial industrial crops, coffee and black pepper, have been demonstrated [2–4] . However, an endophytic microbiome dataset of the sugarcane is unknown. This work aimed to establish a dataset on taxonomic and functional profiles of root endophytic prokaryotes of the sugarcane cultivated in the Central Highlands, Vietnam, using 16S rRNA metagenomics. The obtained data enhanced our understanding of the endophytic microbiome in the sugarcane and can be valuable for further research goals."
+        ]
+      },
+      {
+        "title": "Data Description",
+        "paragraphs": [],
+        "subsections": [
+          {
+            "title": "Taxonomic analysis of endophytic microbiome in the sugarcane root",
+            "paragraphs": [
+              "In this work, following quality filtering of 158,774 raw reads, 158,268 reads were used for data analysis. Taxonomic analysis showed that only two phyla were identified from the root sample. Among them, the phylum Proteobacteria (81.7%) was found to be the most abundant, while Firmicutes was 18.3%. There were three classes identified from the two phyla. Gammaproteobacteria accounted for 59.6% of the classes, Alphaproteobacteria took 22.1%, and Bacilli were 18.3%. Five bacterial orders were detected from the classes, including Bacillales, Thermoactinomycetales, Rhizobiales, Enterobacterales, and Xanthomonadales. Among them, Enterobacterales was shown to be the most predominant (57.7%), followed by Rhizobiales (22.1%). Moreover, six families were detected: Bacillaceae, Thermoactinomycetaceae, Rhizobiaceae, Enterobacteriaceae, Erwiniaceae, and Rhodanobacteraceae. Of the families, Erwiniaceae (25.9%) was the most abundant, followed by Rhizobiaceae (22.1%). Finally, seven out of nine genera were assigned, in which genus Erwinia was the most predominant, with 25.9% ( Fig. 1 ). The raw data of this work were deposited in the NCBI and can be downloaded at https://trace.ncbi.nlm.nih.gov/Traces/index.html?view=run_browser&page_size=10&acc=SRR23100722&display=download ."
+            ]
+          },
+          {
+            "title": "Functional analysis of endophytic microbiome in the sugarcane root",
+            "paragraphs": [
+              "Fig. 2 shows that the primary function of the endophytic microbiome of the sugarcane roots was biosynthesis with 75.95%, followed by the generation of precursor metabolites and energy (13.18%), and degradation/utilization/assimilation (8.03%). Among the functions involved in amino acid biosynthesis (19.09%) was the most abundant, followed by nucleoside and nucleotide biosynthesis (17.69%); cofactor, prosthetic group, electron carrier, and vitamin biosynthesis (12.27%); fatty acid and lipid biosynthesis (7.98%); carbohydrate biosynthesis (7.54%); cell structure biosynthesis (5.05%); and secondary metabolite biosynthesis (3.59%)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Experimental Design, Materials and Methods",
+        "paragraphs": [],
+        "subsections": [
+          {
+            "title": "Sugarcane roots sampling and treatment",
+            "paragraphs": [
+              "Five root samples (approximately 50 g each, 5–30 cm in depth) of sugarcane were collected from five different fields in Hoa Phu Commune, Buon Ma Thuot City, Dak Lak Province, on October 30, 2021. The roots were collected from 5 different sites at each field and combined into one sample. Finally, the five root samples were mixed well and combined into one representative sample. The sample was delivered to the laboratory on ice (4°C) within 2 h. The roots were washed with tap water in the laboratory to remove the soil. Next, the roots were treated with tween 80 for 10 min and then washed with sterilized water. Afterward, the roots' surface was sterilized with 2% sodium hypochlorite solution for 10 min and 70% ethanol for 1 min. The roots were washed six times with sterilized distilled water. Finally, the sample was frozen quickly in liquid nitrogen and stored at −80°C [2 , 4] ."
+            ]
+          },
+          {
+            "title": "Genomic DNA extraction",
+            "paragraphs": [
+              "Metagenomic DNA was extracted from 250 mg of the root sample using the DNeasy PowerSoil Pro kit (Qiagen, Germany), following the manufacturer's instructions."
+            ]
+          },
+          {
+            "title": "Library preparation and sequencing",
+            "paragraphs": [
+              "The V1–V9 regions of the 16S rRNA genes were amplified, and the Swift amplicon 16S plus internal transcribed spacer panel kit (Swift Biosciences, USA) was used to prepare libraries of the amplicons. The Illumina MiSeq platform (2 × 150 bp paired ends) was used to sequence the amplicons from the library [5] ."
+            ]
+          },
+          {
+            "title": "Bioinformatics analysis",
+            "paragraphs": [
+              "Bcl2fastq was used to demultiplex raw basecall files. Trimmomatic (version 0.39) and Cutadapt (version 2.10) were used to remove adapters, primers, and low-quality sequences (average score of <20 and read length of <100 bp). The q2-dada2 plugin and QIIME2 pipeline (version 2020.8) were used for clustering and dereplicating reads into amplicon sequence variants. QIIME2 aligned with the SILVA SSURef reference database (version 138) was used for taxonomic analysis. Finally, PICRUSt2 (version 2.3.0-b) and MetaCyc databases were used to predict the functional profiles of endophytic prokaryotes based on the metagenomic sequences [5] ."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Ethics Statements",
+        "paragraphs": [
+          "This study did not include experiments on humans or animals."
+        ]
+      },
+      {
+        "title": "CRediT authorship contribution statement",
+        "paragraphs": [
+          "Thi Huyen Nguyen: Investigation, Formal analysis. Dinh Minh Tran: Conceptualization, Methodology, Investigation, Formal analysis, Software, Data curation, Validation, Visualization, Writing – original draft, Writing – review & editing."
+        ]
+      }
+    ],
+    "full_text": "Specifications Table Subject Microbiology: Microbiome Specific subject area Metagenomics, Molecular biology, Bioinformatics Type of data Figures, Fastq files How the data were acquired Metagenomic sequencing of the 16S rRNA genes using the Illumina MiSeq platform Data format Raw and Analyzed Description of data collection 1. Collection of sugarcane roots 2. Microbial metagenomic DNA extraction 3. Metagenomic sequencing 4. Bioinformatics analysis Data source location • Ward/City/Province: Hoa Phu/Buon Ma Thuot/Dak Lak • Region: The Central Highlands • Country: Vietnam • Latitude and longitude coordinates for collected samples: 12°37′22′′N, 107°56′49′′E; 12°37′24′′N, 107°56′46′′E; 12°37′25′′N, 107°56′49′′E; 12°37′23′′N, 107°56′38′′E; 12°37′23′′N, 107°56′50′′E Data accessibility Repository name: the National Center for Biotechnology Information Data identification number: PRJNA923851 Direct URL to data: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=%20PRJNA923851 Value of the Data • Data provide information on the root endophytic microbiome of sugarcane cultivated in the Central Highlands of Vietnam. • Data can be valuable for comparing endophytic microbiome profiles of sugarcane cultivated in this and other regions. • Data can be useful for further developing a new technique for sustainable sugarcane production using indigenous microorganisms. 1 Objective Sugarcane is one of the main annual crops cultivated in the Central Highlands, Vietnam, other than perennial industrial crops, such as coffee, black pepper, and rubber. In 2021, it was reported that the planted area of sugarcane was 166,000 hectares in Vietnam, and production was 10,741 tons, in which the Central Highlands region took about 36% of both the planted area and production [1] . To develop new cultivation techniques for sustainable production of the main crops in this region, rhizospheric and endophytic microbiome data of some perennial industrial crops, coffee and black pepper, have been demonstrated [2–4] . However, an endophytic microbiome dataset of the sugarcane is unknown. This work aimed to establish a dataset on taxonomic and functional profiles of root endophytic prokaryotes of the sugarcane cultivated in the Central Highlands, Vietnam, using 16S rRNA metagenomics. The obtained data enhanced our understanding of the endophytic microbiome in the sugarcane and can be valuable for further research goals. 2 Data Description 2.1 Taxonomic analysis of endophytic microbiome in the sugarcane root In this work, following quality filtering of 158,774 raw reads, 158,268 reads were used for data analysis. Taxonomic analysis showed that only two phyla were identified from the root sample. Among them, the phylum Proteobacteria (81.7%) was found to be the most abundant, while Firmicutes was 18.3%. There were three classes identified from the two phyla. Gammaproteobacteria accounted for 59.6% of the classes, Alphaproteobacteria took 22.1%, and Bacilli were 18.3%. Five bacterial orders were detected from the classes, including Bacillales, Thermoactinomycetales, Rhizobiales, Enterobacterales, and Xanthomonadales. Among them, Enterobacterales was shown to be the most predominant (57.7%), followed by Rhizobiales (22.1%). Moreover, six families were detected: Bacillaceae, Thermoactinomycetaceae, Rhizobiaceae, Enterobacteriaceae, Erwiniaceae, and Rhodanobacteraceae. Of the families, Erwiniaceae (25.9%) was the most abundant, followed by Rhizobiaceae (22.1%). Finally, seven out of nine genera were assigned, in which genus Erwinia was the most predominant, with 25.9% ( Fig. 1 ). The raw data of this work were deposited in the NCBI and can be downloaded at https://trace.ncbi.nlm.nih.gov/Traces/index.html?view=run_browser&page_size=10&acc=SRR23100722&display=download . 2.2 Functional analysis of endophytic microbiome in the sugarcane root Fig. 2 shows that the primary function of the endophytic microbiome of the sugarcane roots was biosynthesis with 75.95%, followed by the generation of precursor metabolites and energy (13.18%), and degradation/utilization/assimilation (8.03%). Among the functions involved in amino acid biosynthesis (19.09%) was the most abundant, followed by nucleoside and nucleotide biosynthesis (17.69%); cofactor, prosthetic group, electron carrier, and vitamin biosynthesis (12.27%); fatty acid and lipid biosynthesis (7.98%); carbohydrate biosynthesis (7.54%); cell structure biosynthesis (5.05%); and secondary metabolite biosynthesis (3.59%). 3 Experimental Design, Materials and Methods 3.1 Sugarcane roots sampling and treatment Five root samples (approximately 50 g each, 5–30 cm in depth) of sugarcane were collected from five different fields in Hoa Phu Commune, Buon Ma Thuot City, Dak Lak Province, on October 30, 2021. The roots were collected from 5 different sites at each field and combined into one sample. Finally, the five root samples were mixed well and combined into one representative sample. The sample was delivered to the laboratory on ice (4°C) within 2 h. The roots were washed with tap water in the laboratory to remove the soil. Next, the roots were treated with tween 80 for 10 min and then washed with sterilized water. Afterward, the roots' surface was sterilized with 2% sodium hypochlorite solution for 10 min and 70% ethanol for 1 min. The roots were washed six times with sterilized distilled water. Finally, the sample was frozen quickly in liquid nitrogen and stored at −80°C [2 , 4] . 3.2 Genomic DNA extraction Metagenomic DNA was extracted from 250 mg of the root sample using the DNeasy PowerSoil Pro kit (Qiagen, Germany), following the manufacturer's instructions. 3.3 Library preparation and sequencing The V1–V9 regions of the 16S rRNA genes were amplified, and the Swift amplicon 16S plus internal transcribed spacer panel kit (Swift Biosciences, USA) was used to prepare libraries of the amplicons. The Illumina MiSeq platform (2 × 150 bp paired ends) was used to sequence the amplicons from the library [5] . 3.4 Bioinformatics analysis Bcl2fastq was used to demultiplex raw basecall files. Trimmomatic (version 0.39) and Cutadapt (version 2.10) were used to remove adapters, primers, and low-quality sequences (average score of <20 and read length of <100 bp). The q2-dada2 plugin and QIIME2 pipeline (version 2020.8) were used for clustering and dereplicating reads into amplicon sequence variants. QIIME2 aligned with the SILVA SSURef reference database (version 138) was used for taxonomic analysis. Finally, PICRUSt2 (version 2.3.0-b) and MetaCyc databases were used to predict the functional profiles of endophytic prokaryotes based on the metagenomic sequences [5] . Ethics Statements This study did not include experiments on humans or animals. CRediT authorship contribution statement Thi Huyen Nguyen: Investigation, Formal analysis. Dinh Minh Tran: Conceptualization, Methodology, Investigation, Formal analysis, Software, Data curation, Validation, Visualization, Writing – original draft, Writing – review & editing. Declaration of Competing Interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgments The Vietnam National Foundation for Science and Technology Development (NAFOSTED) funded this research under grant number 106.04-2019.337 . In addition, we are grateful to the anonymous reviewers who gave helpful comments on this manuscript."
+  },
+  "references": [
+    "General statistics office, Statistical Yearbook of Vietnam. Statistical Publishing House, Ha Noi. (2021) 511–513.",
+    "D.M. Tran, Taxonomic and functional profiles of Coffea canephora endophytic microbiome in the central Highlands region, Vietnam, revealed by analysis of 16S rRNA metagenomics sequence data. Data Brief. 43 (2022) 108372. doi.10.1016/j.dib.2022.108372.",
+    "D.M. Tran, Rhizosphere microbiome dataset of Robusta coffee (Coffea canephora L.) grown in the central Highlands, Vietnam, based on 16S rRNA metagenomics analysis. Data Brief. 42 (2022) 108106. doi.org/10.1016/j.dib.2022.108106.",
+    "D.M. Tran, T.H. Nguyen, T.O. Huynh, T.O. Do, Q.V. Nguyen, A.D. Nguyen, Analysis of endophytic microbiome dataset from roots of black pepper (Piper nigrum L.) cultivated in the Central Highlands region, Vietnam using 16S rRNA gene metagenomic next-generation sequencing. Data Brief. 42 (2022) 108108. doi.org/10.1016/j.dib.2022.108108.",
+    "T.X. Do, V.P. Huynh, L.A. Le, A.T. Nguyen-Pham, M.D. Bui-Thi, A.T. Chau-Thi, S.N. Tran, V.T. Nguyen, T.D. Ho-Huynh, Microbial diversity analysis using 16S rRNA gene amplicon sequencing of rhizosphere soils from double-cropping rice and rice-shrimp farming systems in soc Trang, Vietnam. Microbiol Resour Announc. 10(44) (2021) e00595-21. doi.org/10.1128/MRA.00595-21."
+  ]
+}

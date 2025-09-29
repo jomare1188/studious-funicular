@@ -1,0 +1,623 @@
+{
+  "metadata": {
+    "extraction_timestamp": "2025-09-27T13:14:28.312679",
+    "article_type": "research-article",
+    "language": "en"
+  },
+  "publication_info": {
+    "journal": "Nature",
+    "issn": "0028-0836",
+    "publisher": "Nature Publishing Group UK",
+    "doi": "10.1038/nature25447",
+    "volume": "554",
+    "issue": "7692",
+    "publication_dates": {
+      "pub": "2018-02-15"
+    }
+  },
+  "title": "Genomics of the origin and evolution of Citrus",
+  "authors": [
+    {
+      "surname": "Wu",
+      "given_names": "Guohong Albert",
+      "full_name": "Guohong Albert Wu",
+      "email": "gwu@lbl.gov",
+      "is_corresponding": true,
+      "affiliation_refs": [
+        "Aff1"
+      ]
+    },
+    {
+      "surname": "Terol",
+      "given_names": "Javier",
+      "full_name": "Javier Terol",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff2"
+      ]
+    },
+    {
+      "surname": "Ibanez",
+      "given_names": "Victoria",
+      "full_name": "Victoria Ibanez",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff2"
+      ]
+    },
+    {
+      "surname": "López-García",
+      "given_names": "Antonio",
+      "full_name": "Antonio López-García",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff2"
+      ]
+    },
+    {
+      "surname": "Pérez-Román",
+      "given_names": "Estela",
+      "full_name": "Estela Pérez-Román",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff2"
+      ]
+    },
+    {
+      "surname": "Borredá",
+      "given_names": "Carles",
+      "full_name": "Carles Borredá",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff2"
+      ]
+    },
+    {
+      "surname": "Domingo",
+      "given_names": "Concha",
+      "full_name": "Concha Domingo",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff2"
+      ]
+    },
+    {
+      "surname": "Tadeo",
+      "given_names": "Francisco R.",
+      "full_name": "Francisco R. Tadeo",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff2"
+      ]
+    },
+    {
+      "surname": "Carbonell-Caballero",
+      "given_names": "Jose",
+      "full_name": "Jose Carbonell-Caballero",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff3"
+      ]
+    },
+    {
+      "surname": "Alonso",
+      "given_names": "Roberto",
+      "full_name": "Roberto Alonso",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff3"
+      ]
+    },
+    {
+      "surname": "Curk",
+      "given_names": "Franck",
+      "full_name": "Franck Curk",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff4"
+      ]
+    },
+    {
+      "surname": "Du",
+      "given_names": "Dongliang",
+      "full_name": "Dongliang Du",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff5"
+      ]
+    },
+    {
+      "surname": "Ollitrault",
+      "given_names": "Patrick",
+      "full_name": "Patrick Ollitrault",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff6"
+      ]
+    },
+    {
+      "surname": "Roose",
+      "given_names": "Mikeal L.",
+      "full_name": "Mikeal L. Roose",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff7"
+      ]
+    },
+    {
+      "surname": "Dopazo",
+      "given_names": "Joaquin",
+      "full_name": "Joaquin Dopazo",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff3",
+        "Aff8"
+      ]
+    },
+    {
+      "surname": "Gmitter",
+      "given_names": "Frederick G.",
+      "full_name": "Frederick G. Gmitter",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff5"
+      ]
+    },
+    {
+      "surname": "Rokhsar",
+      "given_names": "Daniel S.",
+      "full_name": "Daniel S. Rokhsar",
+      "email": "dsrokhsar@gmail.com",
+      "is_corresponding": true,
+      "affiliation_refs": [
+        "Aff1",
+        "Aff9",
+        "Aff10"
+      ]
+    },
+    {
+      "surname": "Talon",
+      "given_names": "Manuel",
+      "full_name": "Manuel Talon",
+      "email": "talon_man@gva.es",
+      "is_corresponding": true,
+      "affiliation_refs": [
+        "Aff2"
+      ]
+    }
+  ],
+  "affiliations": {
+    "Aff1": {
+      "institution": "US Department of Energy Joint Genome Institute",
+      "address": {
+        "city": "Walnut Creek",
+        "state": "California",
+        "country": "USA"
+      }
+    },
+    "Aff2": {
+      "institution": "Centro de Genómica, Instituto Valenciano de Investigaciones Agrarias (IVIA), Moncada",
+      "address": {
+        "city": "Valencia",
+        "country": "Spain"
+      }
+    },
+    "Aff3": {
+      "institution": "Centro de Investigación Príncipe Felipe (CIPF)",
+      "department": "Computational Genomics Department",
+      "address": {
+        "city": "Valencia",
+        "country": "Spain"
+      }
+    },
+    "Aff4": {
+      "institution": "AGAP Research Unit, Institut National de la Recherche Agronomique (INRA)",
+      "address": {
+        "city": "San Giuliano",
+        "country": "France"
+      }
+    },
+    "Aff5": {
+      "institution": "Citrus Research and Education Center (CREC), Institute of Food and Agricultural Sciences (IFAS), University of Florida",
+      "address": {
+        "city": "Lake Alfred",
+        "state": "Florida",
+        "country": "USA"
+      }
+    },
+    "Aff6": {
+      "institution": "AGAP Research Unit, Centre de Coopération Internationale en Recherche Agronomique pour le Développement (CIRAD), Petit-Bourg",
+      "address": {
+        "city": "Guadeloupe",
+        "country": "France"
+      }
+    },
+    "Aff7": {
+      "institution": "University of California, Riverside",
+      "department": "Department of Botany and Plant Sciences",
+      "address": {
+        "city": "Riverside",
+        "state": "California",
+        "country": "USA"
+      }
+    },
+    "Aff8": {
+      "institution": "Functional Genomics Node, Spanish National Institute of Bioinformatics (ELIXIR-es) at CIPF",
+      "address": {
+        "city": "Valencia",
+        "country": "Spain"
+      }
+    },
+    "Aff9": {
+      "institution": "University of California, Berkeley",
+      "department": "Department of Molecular and Cell Biology and Center for Integrative Genomics",
+      "address": {
+        "city": "Berkeley",
+        "state": "California",
+        "country": "USA"
+      }
+    },
+    "Aff10": {
+      "institution": "Molecular Genetics Unit, Okinawa Institute of Science and Technology Graduate University, Onna",
+      "address": {
+        "city": "Okinawa",
+        "country": "Japan"
+      }
+    }
+  },
+  "abstract": {
+    "full_text": "Abstract The genus Citrus , comprising some of the most widely cultivated fruit crops worldwide, includes an uncertain number of species. Here we describe ten natural citrus species, using genomic, phylogenetic and biogeographic analyses of 60 accessions representing diverse citrus germ plasms, and propose that citrus diversified during the late Miocene epoch through a rapid southeast Asian radiation that correlates with a marked weakening of the monsoons. A second radiation enabled by migration across the Wallace line gave rise to the Australian limes in the early Pliocene epoch. Further identification and analyses of hybrids and admixed genomes provides insights into the genealogy of major commercial cultivars of citrus. Among mandarins and sweet orange, we find an extensive network of relatedness that illuminates the domestication of these groups. Widespread pummelo admixture among these mandarins and its correlation with fruit size and acidity suggests a plausible role of pummelo introgression in the selection of palatable mandarins. This work provides a new evolutionary framework for the genus Citrus ."
+  },
+  "keywords": [
+    {
+      "language": "en",
+      "keywords": [
+        "Biological Sciences",
+        "Genetics",
+        "Genetics",
+        "Genetics"
+      ]
+    }
+  ],
+  "funding": [],
+  "content": {
+    "sections": [
+      {
+        "id": "Sec1",
+        "title": "Main",
+        "paragraphs": [
+          {
+            "id": "Par4",
+            "text": "The genus Citrus and related genera ( Fortunella , Poncirus , Eremocitrus and Microcitrus ) belong to the angiosperm subfamily Aurantioideae of the Rutaceae family, which is widely distributed across the monsoon region from west Pakistan to north-central China and south through the East Indian Archipelago to New Guinea and the Bismarck Archipelago, northeastern Australia, New Caledonia, Melanesia and the western Polynesian islands 1 . Native habitats of citrus and related genera roughly extend throughout this broad area ( Extended Data Fig. 1a and Supplementary Table 1 ), although the geographical origin, timing and dispersal of citrus species across southeast Asia remain unclear. A major obstacle to resolving these uncertainties is our poor understanding of the genealogy of complex admixture in cultivated citrus, as has recently been shown 2 . Some citrus are clonally propagated apomictically 3 through nucellar embryony, that is, the development of non-sexual embryos originating in the maternal nucellar tissue of the ovule, and this natural process may have been co-opted during domestication; grafting is a relatively recent phenomenon 4 . Both modes of clonal propagation have led to the domestication of fixed (desirable) genotypes, including interspecific hybrids, such as oranges, limes, lemons, grapefruits and other types."
+          },
+          {
+            "id": "Par5",
+            "text": "Under this scenario, it is not surprising that the current chaotic citrus taxonomy—based on long-standing, conflicting proposals 5 , 6 —requires a solid reformulation consistent with a full understanding of the hybrid and/or admixture nature of cultivated citrus species. Here we analyse genome sequences of diverse citrus to characterize the diversity and evolution of citrus at the species level and identify citrus admixtures and interspecific hybrids. We further examine the network of relatedness among mandarins and sweet orange, as well as the pattern of the introgression of pummelos among mandarins for clues to the early stages of citrus domestication."
+          }
+        ]
+      },
+      {
+        "id": "Sec2",
+        "title": "Diversity and evolution of the genus ",
+        "paragraphs": [
+          {
+            "id": "Par6",
+            "text": "To investigate the genetic diversity and evolutionary history of citrus, we analysed the genomes of 58 citrus accessions and two outgroup genera ( Poncirus and Severinia ) that were sequenced to high coverage, including recently published sequences 2 , 3 , 7 as well as 30 new genome sequences described here. For our purpose, we do not include accessions related by somatic mutations. These sequences represent a diverse sampling of citrus species, their admixtures and hybrids ( Supplementary Tables 2, 3 and Supplementary Notes 1, 2 ). Our collection includes accessions from eight previously unsequenced and/or unexamined citrus species, such as pure mandarins ( Citrus reticulata ), citron ( Citrus medica ), Citrus micrantha (a wild species from within the subgenus Papeda ), Nagami kumquat ( Fortunella margarita , also known as Citrus japonica var. margarita ), and Citrus ichangensis (also known as Citrus cavaleriei ; this species is also considered a Papeda ), as well as three Australian citrus species ( Supplementary Notes 3, 4 ). For each species, we have sequenced one or more pure accessions without interspecific admixture."
+          },
+          {
+            "id": "Par7",
+            "text": "Local segmental ancestry of each accession can be delineated for both admixed and hybrid genotypes, based on genome-wide ancestry-informative single-nucleotide polymorphisms ( Supplementary Note 5 ). Comparative genome analysis further identified shared haplotypes among the accessions ( Supplementary Notes 6, 7 ). In particular, we demonstrate the F1 interspecific hybrid nature of Rangpur lime and red rough lemon (two different mandarin–citron hybrids), Mexican lime (a micrantha–citron hybrid) and calamondin (a kumquat–mandarin hybrid), and confirm, using whole-genome sequence data, the origins of grapefruit (a pummelo–sweet orange hybrid), lemon (a sour orange–citron hybrid) and eremorange (a sweet orange and Eremocitrus glauca (also known as Citrus glauca ) hybrid). We also verified the parentage of Cocktail grapefruit, with low-acid pummelo as the seed parent and King and Dancy mandarins as the two grandparents on the paternal side. The origin of the Ambersweet orange is similarly confirmed to be a mandarin–sweet orange hybrid with Clementine as a grandparent. We have previously shown that sour orange (cv. Seville) ( Citrus aurantium ) is a pummelo–mandarin hybrid, and have analysed the more complex origin of sweet orange ( Citrus sinensis ) 2 . Re-analysing sequences from ten cultivars of sweet orange 3 shows that they are all derived from the same genome by somatic mutations, and were thus not included in our study."
+          },
+          {
+            "id": "Par8",
+            "text": "We identified ten progenitor citrus species ( Supplementary Note 4.1 ) by combining diversity analysis ( Extended Data Table 1 ), multidimensional scaling and chloroplast genome phylogeny ( Extended Data Fig. 1b ). The first two principal coordinates in the multidimensional scaling ( Fig. 1a ) separate three ancestral (sometimes called ‘fundamental’) Citrus species associated with commercially important types 8 , 9 —citrons ( C. medica ), mandarins ( C. reticulata ) and pummelos ( Citrus maxima )—and display lemons, limes, oranges and grapefruits as hybrids involving these three species. The nucleotide diversity distributions ( Fig. 1b ) show distinct scales for interspecific divergence and intraspecific variation, and reflect the genetic origin of each accession. Hybrid accessions (sour orange, calamondin, lemon and non-Australian limes) with ancestry from two or more citrus species are readily identified on the basis of their higher segmental heterozygosity (1.5–2.4%) relative to intraspecific diversity (0.1–0.6%). Other citrus accessions show bimodal distributions in heterozygosity (sweet orange, grapefruits and some highly heterozygous mandarins) due to interspecific admixture, a process that generally involves complex backcrosses. Among the pure genotypes without interspecific admixture, citrons show significantly lower intraspecific diversity (around 0.1%) than the other species (0.3–0.6%). The reduced heterozygosity of citrons, a mono-embryonic species, is probably due to the cleistogamy of its flowers 10 , a mechanism that promotes pollination and self-fertilization in unopened flower buds, which in turn reduces heterozygosity. Figure 1 Genetic structure, heterozygosity and phylogeny of Citrus species. a , Principal coordinate analysis of 58 citrus accessions based on pairwise nuclear genome distances and metric multidimensional scaling. The first two axes separate the three main citrus groups (citrons, pummelos and mandarins) with interspecific hybrids (oranges, grapefruit, lemon and limes) situated at intermediate positions relative to their parental genotypes. b , Violin plots of the heterozygosity distribution in 58 citrus accessions, representing 10 taxonomic groups as well as 2 related genera, Poncirus ( Poncirus trifoliata , also known as Citrus trifoliata ) and Chinese box orange ( Severinia ). White dot, median; bar limits, upper and lower quartiles; whiskers, 1.5× interquartile range. The bimodal separation of intraspecies (light blue) and interspecies (light pink) genetic diversity is manifested among the admixed mandarins and across different genotypes including interspecific hybrids. Three-letter codes are listed in parenthesis with additional descriptions in Supplementary Table 2 . c , Chronogram of citrus speciation. Two distinct and temporally well-separated phases of species radiation are apparent, with the southeast Asian citrus radiation followed by the Australian citrus diversification. Age calibration is based on the citrus fossil C . linczangensis 16 from the Late Miocene (denoted by a filled red circle). The 95% confidence intervals are derived from 200 bootstraps. Bayesian posterior probability is 1.0 for all nodes. d , Proposed origin of citrus and ancient dispersal routes. Arrows suggest plausible migration directions of the ancestral citrus species from the centre of origin—the triangle formed by northeastern India, northern Myanmar and northwestern Yunnan. The proposal is compatible with citrus biogeography, phylogenetic relationships, the inferred timing of diversification and the paleogeography of the region, especially the geological history of Wallacea and Japan. The red star marks the fossil location of C. linczangensis . Citrus fruit images in c and d are not drawn to scale. PowerPoint slide"
+          },
+          {
+            "id": "",
+            "text": "a , Principal coordinate analysis of 58 citrus accessions based on pairwise nuclear genome distances and metric multidimensional scaling. The first two axes separate the three main citrus groups (citrons, pummelos and mandarins) with interspecific hybrids (oranges, grapefruit, lemon and limes) situated at intermediate positions relative to their parental genotypes. b , Violin plots of the heterozygosity distribution in 58 citrus accessions, representing 10 taxonomic groups as well as 2 related genera, Poncirus ( Poncirus trifoliata , also known as Citrus trifoliata ) and Chinese box orange ( Severinia ). White dot, median; bar limits, upper and lower quartiles; whiskers, 1.5× interquartile range. The bimodal separation of intraspecies (light blue) and interspecies (light pink) genetic diversity is manifested among the admixed mandarins and across different genotypes including interspecific hybrids. Three-letter codes are listed in parenthesis with additional descriptions in Supplementary Table 2 . c , Chronogram of citrus speciation. Two distinct and temporally well-separated phases of species radiation are apparent, with the southeast Asian citrus radiation followed by the Australian citrus diversification. Age calibration is based on the citrus fossil C . linczangensis 16 from the Late Miocene (denoted by a filled red circle). The 95% confidence intervals are derived from 200 bootstraps. Bayesian posterior probability is 1.0 for all nodes. d , Proposed origin of citrus and ancient dispersal routes. Arrows suggest plausible migration directions of the ancestral citrus species from the centre of origin—the triangle formed by northeastern India, northern Myanmar and northwestern Yunnan. The proposal is compatible with citrus biogeography, phylogenetic relationships, the inferred timing of diversification and the paleogeography of the region, especially the geological history of Wallacea and Japan. The red star marks the fossil location of C. linczangensis . Citrus fruit images in c and d are not drawn to scale."
+          },
+          {
+            "id": "",
+            "text": "PowerPoint slide"
+          },
+          {
+            "id": "Par9",
+            "text": "The identification of a set of pure citrus species provides new insights into the phylogeny of citrus, their origins, evolution and dispersal. Citrus phylogeny is controversial 1 , 5 , 6 , 11 , 12 , in part owing to the difficulty of identifying pure or wild progenitor species, because of substantial interspecific hybridization that has resulted in several clonally propagated and cultivated accessions. Some authors assign separate binomial species designations to clonally propagated genotypes 1 , 6 . Our nuclear genome-based phylogeny, which is derived from 362,748 single-nucleotide polymorphisms in non-genic and non-pericentromeric genomic regions, reveals that citrus species are a monophyletic group and establishes well-defined relationships among its lineages ( Fig. 1c and Supplementary Note 8 ). Notably, the nuclear genome-derived phylogeny differs in detail from the chloroplast-derived phylogeny ( Extended Data Fig. 1 ). This is not unexpected, as chloroplast DNA is a single, non-recombining unit and is unlikely to show perfect lineage sorting during rapid radiation ( Supplementary Note 8.3 )."
+          },
+          {
+            "id": "Par10",
+            "text": "The origin of citrus has generally been considered to be in southeast Asia 1 , a biodiversity hotspot 13 with a climate that has been influenced by both east and south Asian monsoons 14 ( Supplementary Note 9 ). Specific regions include the Yunnan province of southwest China 15 , Myanmar and northeastern India in the Himalayan foothills 1 . A fossil specimen from the late Miocene epoch of Lincang in Yunnan, Citrus linczangensis 16 , has traits that are characteristic of current major citrus groups, and provides definite evidence for the existence of a common Citrus ancestor within the Yunnan province approximately 8 million years ago (Ma)."
+          },
+          {
+            "id": "Par11",
+            "text": "Our analysis establishes a relatively rapid Asian radiation of citrus species in the late Miocene (6–8 Ma; Fig. 1c, d ), a period coincident with an extensive weakening of monsoons and a pronounced climate transition from wet to drier conditions 17 . In southeast Asia, this marked climate alteration caused major changes in biota, including the migration of mammals 18 and rapid radiation of various plant lineages 19 , 20 . Australian citrus species form a distinct clade that was proposed to be nested with citrons 12 , although distinct generic names ( Eremocitrus and Microcitrus ) were assigned in botanical classifications by Swingle 1 , 5 . Both molecular dating analysis 21 and our whole-genome phylogenetic analysis do not support an Australian origin for citrus 22 . Rather, citrus species spread from southeast Asia to Australasia, probably via transoceanic dispersals. Our genomic analysis indicates that the Australian radiation occurred during the early Pliocene epoch, around 4 Ma. This is contemporaneous with other west-to-east angiosperm migrations from southeast Asia 23 , 24 , presumably taking advantage of the elevation of Malesia and Wallacea in the late Miocene and Pliocene 25 , 26 ( Supplementary Note 9 )."
+          },
+          {
+            "id": "Par12",
+            "text": "The nuclear and chloroplast genome phylogenies indicate that there are three Australian species in our collection. One of the two Australian finger limes shows clear signs of admixture with round limes ( Supplementary Note 5.4 ). The closest relative to Australian citrus is Fortunella , a species that has been reported to grow in the wild in southern China 27 . Australian citrus species are diverse, and found natively in both dry and rainforest environments in northeast Australia, depending on the species 28 . Our phylogeny shows that the progenitor citrus probably migrated across the Wallace line, a natural barrier for species dispersal from southeast Asia to Australasia, and later adapted to these diverse climates."
+          },
+          {
+            "id": "Par13",
+            "text": "The results also show that the Tachibana mandarin, naturally found in Taiwan, the Ryukyu archipelago and Japan 29 , split from mainland Asian mandarins ( Fig. 1c, d ) during the early Pleistocene (around 2 Ma), a geological epoch with strong glacial maxima 30 . Tachibana, as did other flora and fauna in the region, very probably arrived in these islands from the adjacent mainland 31 during the drop in the sea level of the South China Sea and the emergence of land bridges 32 , 33 , a process promoted by the expansion of ice sheets that repetitively occurred during glacial maxima ( Supplementary Note 9 )."
+          },
+          {
+            "id": "Par14",
+            "text": "Although Tachibana 5 , 6 has been assigned its own species ( Citrus tachibana ), sequence analysis reveals that it has a close affinity to C. reticulata 34 , 35 and does not support its taxonomic position as a separate species ( Supplementary Note 4.1 ). However, both chloroplast genome phylogeny ( Extended Data Fig. 1b ) and nuclear genome clustering ( Fig. 1a ) clearly distinguish Tachibana from the mainland Asian mandarins. This suggests that Tachibana should be designated a subspecies of C. reticulata . By contrast, the wild Mangshan ‘mandarin’ ( Citrus mangshanensis ) 7 represents a distinct species, with comparable distances to C. reticulata , pummelo and citron 2 ( Extended Data Table 1 )."
+          }
+        ]
+      },
+      {
+        "id": "Sec3",
+        "title": "Pattern of pummelo admixture in the mandarins",
+        "paragraphs": [
+          {
+            "id": "Par15",
+            "text": "Using 588,583 ancestry-informative single-nucleotide polymorphisms derived from three species, C. medica , C. maxima and C. reticulata , we delineate the segmental ancestry of 46 citrus accessions ( Extended Data Fig. 2 and Supplementary Note 5 ). Pummelo admixture is found in all but 5 of the 28 sequenced mandarins, and the amount and pattern of pummelo admixture, as identified by phased pummelo haplotypes ( Fig. 2a and Supplementary Note 6 ), suggests the classification of the mandarins into three types. Figure 2 Admixture proportion and citrus genealogy. a , Allelic proportion of five progenitor citrus species in 50 accessions. CI, C. medica ; FO, Fortunella ; MA, C. reticulata ; MC, C. micrantha ; PU, C. maxima ; UNK, unknown. The pummelos and citrons represent pure citrus species, whereas in the heterogeneous set of mandarins, the degree of pummelo introgression subdivides the group into pure (type-1) and admixed (type-2 and -3) mandarins. Three-letter code as in Fig. 1 , see Supplementary Table 2 for details. b , Genealogy of major citrus genotypes. The five progenitor species are shown at the top. Blue lines represent simple crosses between two parental genotypes, whereas red lines represent more complex processes involving multiple individuals, generations and/or backcrosses. Whereas type-1 mandarins are pure species, type-2 (early-admixture) mandarins contain a small amount of pummelo admixture that can be traced back to a common pummelo ancestor (with P1 or P2 haplotypes). Later, additional pummelo introgressions into type-2 mandarins gave rise to both type-3 (late-admixture) mandarins and sweet orange. Further breeding between sweet orange and mandarins or within late-admixture mandarins produced additional modern mandarins. Fruit images are not to scale and represent the most popular citrus types. See Supplementary Note 1.1 for nomenclature usage. PowerPoint slide"
+          },
+          {
+            "id": "",
+            "text": "a , Allelic proportion of five progenitor citrus species in 50 accessions. CI, C. medica ; FO, Fortunella ; MA, C. reticulata ; MC, C. micrantha ; PU, C. maxima ; UNK, unknown. The pummelos and citrons represent pure citrus species, whereas in the heterogeneous set of mandarins, the degree of pummelo introgression subdivides the group into pure (type-1) and admixed (type-2 and -3) mandarins. Three-letter code as in Fig. 1 , see Supplementary Table 2 for details. b , Genealogy of major citrus genotypes. The five progenitor species are shown at the top. Blue lines represent simple crosses between two parental genotypes, whereas red lines represent more complex processes involving multiple individuals, generations and/or backcrosses. Whereas type-1 mandarins are pure species, type-2 (early-admixture) mandarins contain a small amount of pummelo admixture that can be traced back to a common pummelo ancestor (with P1 or P2 haplotypes). Later, additional pummelo introgressions into type-2 mandarins gave rise to both type-3 (late-admixture) mandarins and sweet orange. Further breeding between sweet orange and mandarins or within late-admixture mandarins produced additional modern mandarins. Fruit images are not to scale and represent the most popular citrus types. See Supplementary Note 1.1 for nomenclature usage."
+          },
+          {
+            "id": "",
+            "text": "PowerPoint slide"
+          },
+          {
+            "id": "Par16",
+            "text": "Type-1 mandarins represent pure C. reticulata with no evidence of interspecific admixture and include Tachibana, three unnamed Chinese mandarins (M01, M02, M04) 3 and the ancient Chinese cultivar Sun Chu Sha Kat reported here, a small tart mandarin commonly grown in China and Japan, and also found in Assam. This cultivar is likely described in Han Yen-Chih’s ad 1178 monograph ‘Chü Lu’ 36 , which includes references to citrus cultivated during the reign of Emperor Ta Yu (2205–2197 bc ). Sixteen of the twenty-eight mandarins belong to type-2 mandarins, which have a small amount of pummelo admixture (1–10% of the length of the genetic map; Fig. 2a ), usually in the form of a few short segments distributed across the genome. Although the lengths and locations of these admixed segments may be distinct in different mandarins, they share one or two common pummelo haplotypes (designated as P1 and P2) ( Extended Data Fig. 3 ). By contrast, the seven remaining mandarins (type-3) contain higher proportions of pummelo alleles (12–38%; Fig. 2a ) in longer segments. Although the P1 and P2 pummelo haplotypes are also detectable among type-3 mandarins, other more extensive pummelo haplotypes dominate the pummelo admixture in type-3 mandarins ( Fig. 2b and Extended Data Table 2 )."
+          },
+          {
+            "id": "Par17",
+            "text": "These observations suggest that the initial pummelo introgression into the mandarin gene pool may have involved as few as one pummelo tree (carrying both P1 and P2 haplotypes), the contribution of which was diluted by repeated backcrosses with mandarins ( Supplementary Note 6.3 ). The introgressed pummelo haplotypes became widespread and gave rise to type-2 (early-admixture) mandarins ( Fig. 2b ). We propose that later, additional pummelo introgressions gave rise to type-3 (late-admixture) mandarins and sweet orange, and that some modern type-3 mandarins were derived from hybridizations among existing mandarins and sweet orange. This late-admixture model for type-3 mandarins is consistent with the historical records for Clementine and Kiyomi (both mandarin–sweet orange hybrids), and for W. Murcott, Wilking and Fallglo (hybrids involving other type-3 mandarins), whereas definitive records for the remaining two late-admixture mandarins (King and Satsuma) are not available."
+          }
+        ]
+      },
+      {
+        "id": "Sec4",
+        "title": "Domestication of mandarins and sweet orange",
+        "paragraphs": [
+          {
+            "id": "Par18",
+            "text": "Citrus domestication probably began with the identification and asexual propagation of selected, possibly hybrid or admixed individuals, rather than recurrent selection from a breeding population as for annual crops 37 , 38 . Additional diversity was obtained by capturing somatic mutations that occur within a relatively few basic genotypes. Therefore, conventional approaches to identifying selective pressures under recurrent breeding 39 cannot be applied. We can, however, use genome sequences to infer some features of the early stages of citrus domestication. Here we focus on mandarins, a class of citrus comprising small and easily peeled fruits that are of high commercial value."
+          },
+          {
+            "id": "Par19",
+            "text": "All 28 mandarin accessions, except for Tachibana, exhibit an extensive network of relatedness (with a coefficient of relatedness, r > 1/8), and all but four mandarins (three of the four are pure or type-1 mandarins) show second degree or higher relatedness ( r > 1/4) to at least one (mean = 7) other mandarin ( Fig. 3a and Supplementary Note 7 ). By contrast, sequenced pummelos and citrons appear to be independent selections from relatively large populations. In the absence of historical records for most mandarins, the actual kinships are difficult to infer, owing to extensive haplotype sharing among the ancestors, although some parent–child pairs can be identified. In addition to confirming, using the whole-genome sequence, the parentage of Wilking (King–Willowleaf), Kiyomi (Satsuma–sweet orange) and Fallglo (one grandparent is Clementine), we find parent–child relationships between two pairs of mandarins (Ponkan is a parent of Dancy; Huanglingmiao (a somatic mutant of Kishu) is a parent of Satsuma) 34 , in addition to the previously established parent–child pair of Willowleaf and Clementine mandarins 2 . Additional parent–child pairs involving the recently sequenced Chinese mandarins 3 are also identified ( Supplementary Note 7.3 ). A few cultivar types in this network (Satsuma, Dancy, Clementine, Kiyomi, Fallgo and the Chinese cultivar BTJ mandarins) have marked signs of inbreeding, indicated by runs of homozygosity ( Extended Data Fig. 4a ) as a result of shared haplotypes between their parents. The high degree of relatedness among mandarins implies extensive sharing of C. reticulata haplotypes. Figure 3 Citrus relatedness network and haplotype sharing with sweet orange. a , Genetic relatedness among 48 citrus accessions derived from four progenitor species including citrons, pummelos, pure mandarins and micrantha. Solid lines connect pairs with coefficient of relatedness r > 0.45, with parent–child pairs denoted by arrows pointing from parent to child. Dashed and dotted lines correspond to 0.35 < r <0.45 and 0.25 < r <0.35, respectively. Mandarins are distinguished from other taxonomic groups by an extensive relatedness network, indicating shared haplotypes in the ancestral gene pool. Three-letter code as in Fig. 1 , see Supplementary Table 2 for details. b , Shown in decreasing order are the values of coefficient of relatedness between sweet orange and other accessions, with C. maxima ( r P ) and C. reticulata ( r M ) components in green and light salmon, respectively.There is significant haplotype sharing between sweet orange and all mandarins, except for three of the type-1 mandarins. Five accessions (Clementine and Kiyomi mandarins, eremorange, Marsh grapefruit, and Ambersweet orange) have sweet orange as the male parent. PowerPoint slide"
+          },
+          {
+            "id": "",
+            "text": "a , Genetic relatedness among 48 citrus accessions derived from four progenitor species including citrons, pummelos, pure mandarins and micrantha. Solid lines connect pairs with coefficient of relatedness r > 0.45, with parent–child pairs denoted by arrows pointing from parent to child. Dashed and dotted lines correspond to 0.35 < r <0.45 and 0.25 < r <0.35, respectively. Mandarins are distinguished from other taxonomic groups by an extensive relatedness network, indicating shared haplotypes in the ancestral gene pool. Three-letter code as in Fig. 1 , see Supplementary Table 2 for details. b , Shown in decreasing order are the values of coefficient of relatedness between sweet orange and other accessions, with C. maxima ( r P ) and C. reticulata ( r M ) components in green and light salmon, respectively.There is significant haplotype sharing between sweet orange and all mandarins, except for three of the type-1 mandarins. Five accessions (Clementine and Kiyomi mandarins, eremorange, Marsh grapefruit, and Ambersweet orange) have sweet orange as the male parent."
+          },
+          {
+            "id": "",
+            "text": "PowerPoint slide"
+          },
+          {
+            "id": "Par20",
+            "text": "Sweet orange also shows extensive haplotype sharing at the level of r > 0.1 with 25 of the 28 sequenced mandarins (except for three pure or type-1 mandarins; Fig. 3b and Extended Data Fig. 4b ). Two late-admixture mandarins (Clementine and Kiyomi) are direct offspring of sweet orange. Among the early-admixture (type-2) mandarins, Ponkan shows the highest affinity to sweet orange 2 with r ≈ 0.36. Even the pure mandarin, Sun Chu Sha Kat has r ≈ 0.23, equivalent to second degree relatedness to sweet orange. We can rule out the scenario that sweet orange is the common ancestor of the mandarins, because of a lack of pummelo haplotypes (derived from sweet orange) among the mandarins. Rather, the extensive C. reticulata haplotype sharing between sweet orange and mandarins suggests that the mandarin parent of sweet orange was part of an expansive network of relatedness among mandarins."
+          },
+          {
+            "id": "Par21",
+            "text": "Because our collection of mandarins represents a diverse set of both ancient and modern varieties, including economically important accessions with mostly unknown parentage, the presence of an extensive relatedness network was not anticipated a priori. The shared C. reticulata haplotypes are suggestive of and consistent with signatures of the human selection process, during which mandarins with desirable traits were necessarily maintained through clonal propagation (nucellar polyembryony or grafting). Although one cannot preclude the possibility that the relatedness network was initiated before domestication from a small number of founder trees, human selection of accessions resulting from natural hybridization probably had a key role in the process of domestication that eventually led to the extensive relatedness network observed today. For example, modern mandarins, such as Clementine and W. Murcott, are known to be selections from chance seedlings found in Algeria 40 and Morocco 2 , at the onset and middle of the last century, respectively."
+          },
+          {
+            "id": "Par22",
+            "text": "Pummelo admixture is correlated with fruit size and acidity, suggesting a role for pummelo introgression in citrus domestication. As both fruit size and acidity profile for the most recently sequenced accessions 3 are not described, we used 37 citrus accessions in this analysis. We find that the fruit sizes of mandarins, oranges, grapefruit and pummelos show a strong positive correlation (Pearson correlation coefficient r = 0.88) with pummelo admixture proportion ( Extended Data Fig. 5a, b and Supplementary Note 10.1 ). In addition to fruit size, a pivotal driver of fruit domestication is palatability, a characteristic that in citrus requires low to moderate levels of acidity. In mandarins, palatability appears to be linked to pummelo introgression at a major locus at the start of chromosome 8 (0.3–2.2 Mb), where all nine known palatable mandarins, but none of the four known acidic mandarins, show pummelo admixture in at least part of the genomic region ( Extended Data Fig. 3 ). This locus is also found to be significant in a genome scan for palatability association ( Extended Data Fig. 5c, d and Extended Data Table 3 ) and contains several potentially relevant genes ( Supplementary Note 10.2 ). Among these genes is a gene encoding the mitochondrial NAD + -dependent isocitrate dehydrogenase ( IDH ) which regulates citric-acid synthesis 41 ( Extended Data Table 4 )."
+          },
+          {
+            "id": "Par23",
+            "text": "Our study finds that domesticated citrus fruit crops, such as mandarins and sweet orange, experienced a complex history of admixture, conceptually similar to those well-recognized in annual crops, such as rice 42 and maize 43 , and in other fruit trees, such as apple 44 and grape 45 , for which the current genomic diversity is linked to widespread ancient introgression. Other cultivated citrus groups, the interspecific F1 hybrids in particular, originated from hybridizations of two pure parental species. Several of these involve C. medica (citron), including limes and lemons 10 . A unique and critical characteristic of the three pivotal species ( C. maxima , C. reticulata and C. medica ) that gave rise to most cultivated citrus fruits is the occurrence of a complex floral anatomy ( Extended Data Fig. 6 ), thus leading to the development of more complex fruit. Other species were also involved in hybridizations, including Fortunella and C. micrantha . Distinct from the mandarin lineages, these hybrids are characterized by their acidic fruit, and their selection must have been made on the basis of other characteristics, such as a sweet edible peel and aroma 2 , respectively."
+          }
+        ]
+      },
+      {
+        "id": "Sec5",
+        "title": "Conclusion",
+        "paragraphs": [
+          {
+            "id": "Par24",
+            "text": "On the basis of genomic, phylogenetic and biogeographic analyses of 60 diverse citrus and related accessions, we propose that the centre of origin of citrus species was the southeast foothills of the Himalayas, in a region that includes the eastern area of Assam, northern Myanmar and western Yunnan. Our analyses suggest that the ancestral citrus species underwent a sudden speciation event during the late Miocene. This radiation coincided with a pronounced transition from wet monsoon conditions to a drier climate, as observed in nearby areas in many other plant and animal lineages. The Australian citrus species and Tachibana, a native Japanese mandarin, split later from mainland citrus during the early Pliocene and Pleistocene, respectively. By distinguishing between pure species, hybrids and admixtures, we could trace the genealogy and genetic origin of the major citrus commercial cultivars. Both the extensive relatedness network among mandarins and sweet orange, and the association of pummelo admixture with desirable fruit traits suggest a complex domestication process."
+          },
+          {
+            "id": "Par25",
+            "text": "Our work challenges previous proposals for citrus taxonomy. For example, we find that several named genera ( Fortunella , Eremocitrus and Microcitrus ) are in fact nested within the citrus clade. These and other distinct clades that we have identified are therefore more appropriately considered species within the genus Citrus , on a par with those that formerly were referred to as the three ‘true’ or ‘biological’ species ( C. reticulata , C. maxima and C. medica ). Additionally, the related genus, Poncirus , a subject of continuous controversy since it was originally proposed to be within the genus Citrus 12 , 46 , is clearly a distinct clade that is separate from Citrus based on sequence divergence and whole-genome phylogeny."
+          },
+          {
+            "id": "Par26",
+            "text": "In summary, this work presents insights into the origin, evolution and domestication of citrus, and the genealogy of the most important wild and cultivated varieties. Taken together, these findings draw a new evolutionary framework for these fruit crops, a scenario that challenges current taxonomic and phylogenetic thoughts, and points towards a reformulation of the genus Citrus ."
+          }
+        ]
+      },
+      {
+        "id": "Sec6",
+        "title": "Methods",
+        "paragraphs": [
+          {
+            "id": "Par27",
+            "text": "Whole-genome sequences from a total of 60 accessions were analysed: 58 citrus accessions with different geographical origins and two representative outgroup genera. Twelve of these genomes, including five mandarins, four pummelos, two oranges and a wild Mangshan mandarin ( C. mangshanensis ) were reanalysed from previous works 2 , 7 . We also reanalysed 19 genomes from Chinese collections, including 15 unnamed mandarins, 2 Chinese sour oranges, Ambersweet orange and Cocktail grapefruit (a hybrid resembling grapefruit) that have been previously reported 3 ."
+          },
+          {
+            "id": "Par28",
+            "text": "The 30 accessions that were newly sequenced came from citrus germ-plasm banks and collections at IVIA, Valencia, Spain; SRA, Corse, France; UCR, Riverside and FDACS/DPI, Florida and included nine mandarins, two limes, one rough lemon, one grapefruit, one lemon, four citrons, one Australian desert lime, one eremorange, two Australian finger limes, two Australian round limes, one kumquat, one calamondin, one micrantha, one Ichang papeda, one trifoliate orange and one Chinese box orange ( Supplementary Note 1 )."
+          },
+          {
+            "id": "Par29",
+            "text": "DNA libraries were constructed using standard protocols with some modifications. Library insert sizes range from 325 to 500 bp. Sequencing was performed on HiSeq2000/2500 instruments using 100-bp paired-end reads. Primary analysis of the data included quality control on the Illumina RTA sequence analysis pipeline ( Supplementary Note 2 )."
+          },
+          {
+            "id": "Par30",
+            "text": "Illumina paired-end reads were aligned to the haploid Clementine reference sequence 2 and the sweet orange chloroplast genome assembly 47 using bwa-mem 48 . PCR duplicates were removed using Picard. Raw variants were called using GATK HaplotypeCaller 49 with subsequent filtering based on read map quality score, base quality score, read depth and so on ( Supplementary Note 3.1 )."
+          },
+          {
+            "id": "Par31",
+            "text": "Interspecific admixtures versus pure citrus species were distinguished based on sliding window analysis of heterozygosity and pairwise genetic distance D ( Supplementary Note 4 ). Genome-wide ancestry informative markers for the progenitor species were derived using pure accessions. Admixture analysis was carried out in sliding windows using ancestry informative markers ( Supplementary Notes 5 )."
+          },
+          {
+            "id": "Par32",
+            "text": "Interspecific phasing was used to extract admixed haplotypes. Identical-by-descent sharing was calculated for each of the non-overlapping sliding windows across the genome and used to estimate coefficient of relatedness among citrus accessions ( Supplementary Notes 6, 7 )."
+          },
+          {
+            "id": "Par33",
+            "text": "We used Chinese box orange (genus Severinia ) as an outgroup. Time calibration is based on the C. linczangensis 16 fossil from Lincang, Yunnan, China. MrBayes 50 was used for whole genome Bayesian phylogenetic inference, and corroborated with a PhyML 51 reconstructed maximum likelihood tree. A penalized likelihood method 52 as implemented in APE 53 was used to construct the chronogram ( Supplementary Note 8 )."
+          },
+          {
+            "id": "Par34",
+            "text": "We used a mixed linear model as implemented in gemma 54 for a case–control study of citrus acidity and palatability with 37 citrus accessions. A conservative Bonferroni correction was used to select significant genomic loci, with subsequent manual examination of each candidate variant in all accessions to identify most discriminatory loci for fruit palatability ( Supplementary Note 10 )."
+          },
+          {
+            "id": "Par35",
+            "text": "Whole-genome shotgun-sequencing data generated in this study have been deposited at NCBI under BioProject PRJNA414519 . Prior resequencing data analysed here can be accessed under BioProject accession numbers PRJNA320985 (mandarins) and PRJNA321100 (oranges), and also under the NCBI Sequence Read Archive accession codes SRX372786 (sour orange), SRX372703 (sweet orange), SRX372702 (low-acid pummelo), SRX372688 (Chandler pummelo), SRX372685 (Willowleaf mandarin), SRX372687 (W. Murcott mandarin), SRX372665 (Ponkan mandarin) and SRX371962 (Clementine mandarin). The Clementine reference sequence used here is available at https://phytozome.jgi.doe.gov/ ."
+          }
+        ],
+        "subsections": [
+          {
+            "id": "Sec7",
+            "title": "Sample collection and sequencing",
+            "paragraphs": [
+              {
+                "id": "Par27",
+                "text": "Whole-genome sequences from a total of 60 accessions were analysed: 58 citrus accessions with different geographical origins and two representative outgroup genera. Twelve of these genomes, including five mandarins, four pummelos, two oranges and a wild Mangshan mandarin ( C. mangshanensis ) were reanalysed from previous works 2 , 7 . We also reanalysed 19 genomes from Chinese collections, including 15 unnamed mandarins, 2 Chinese sour oranges, Ambersweet orange and Cocktail grapefruit (a hybrid resembling grapefruit) that have been previously reported 3 ."
+              },
+              {
+                "id": "Par28",
+                "text": "The 30 accessions that were newly sequenced came from citrus germ-plasm banks and collections at IVIA, Valencia, Spain; SRA, Corse, France; UCR, Riverside and FDACS/DPI, Florida and included nine mandarins, two limes, one rough lemon, one grapefruit, one lemon, four citrons, one Australian desert lime, one eremorange, two Australian finger limes, two Australian round limes, one kumquat, one calamondin, one micrantha, one Ichang papeda, one trifoliate orange and one Chinese box orange ( Supplementary Note 1 )."
+              },
+              {
+                "id": "Par29",
+                "text": "DNA libraries were constructed using standard protocols with some modifications. Library insert sizes range from 325 to 500 bp. Sequencing was performed on HiSeq2000/2500 instruments using 100-bp paired-end reads. Primary analysis of the data included quality control on the Illumina RTA sequence analysis pipeline ( Supplementary Note 2 )."
+              }
+            ]
+          },
+          {
+            "id": "Sec8",
+            "title": "Variant calls and ",
+            "paragraphs": [
+              {
+                "id": "Par30",
+                "text": "Illumina paired-end reads were aligned to the haploid Clementine reference sequence 2 and the sweet orange chloroplast genome assembly 47 using bwa-mem 48 . PCR duplicates were removed using Picard. Raw variants were called using GATK HaplotypeCaller 49 with subsequent filtering based on read map quality score, base quality score, read depth and so on ( Supplementary Note 3.1 )."
+              },
+              {
+                "id": "Par31",
+                "text": "Interspecific admixtures versus pure citrus species were distinguished based on sliding window analysis of heterozygosity and pairwise genetic distance D ( Supplementary Note 4 ). Genome-wide ancestry informative markers for the progenitor species were derived using pure accessions. Admixture analysis was carried out in sliding windows using ancestry informative markers ( Supplementary Notes 5 )."
+              }
+            ]
+          },
+          {
+            "id": "Sec9",
+            "title": null,
+            "paragraphs": [
+              {
+                "id": "Par32",
+                "text": "Interspecific phasing was used to extract admixed haplotypes. Identical-by-descent sharing was calculated for each of the non-overlapping sliding windows across the genome and used to estimate coefficient of relatedness among citrus accessions ( Supplementary Notes 6, 7 )."
+              }
+            ]
+          },
+          {
+            "id": "Sec10",
+            "title": "Phylogeny and speciation dating",
+            "paragraphs": [
+              {
+                "id": "Par33",
+                "text": "We used Chinese box orange (genus Severinia ) as an outgroup. Time calibration is based on the C. linczangensis 16 fossil from Lincang, Yunnan, China. MrBayes 50 was used for whole genome Bayesian phylogenetic inference, and corroborated with a PhyML 51 reconstructed maximum likelihood tree. A penalized likelihood method 52 as implemented in APE 53 was used to construct the chronogram ( Supplementary Note 8 )."
+              }
+            ]
+          },
+          {
+            "id": "Sec11",
+            "title": "Genome scan of palatability association",
+            "paragraphs": [
+              {
+                "id": "Par34",
+                "text": "We used a mixed linear model as implemented in gemma 54 for a case–control study of citrus acidity and palatability with 37 citrus accessions. A conservative Bonferroni correction was used to select significant genomic loci, with subsequent manual examination of each candidate variant in all accessions to identify most discriminatory loci for fruit palatability ( Supplementary Note 10 )."
+              }
+            ]
+          },
+          {
+            "id": "Sec12",
+            "title": "Data availability",
+            "paragraphs": [
+              {
+                "id": "Par35",
+                "text": "Whole-genome shotgun-sequencing data generated in this study have been deposited at NCBI under BioProject PRJNA414519 . Prior resequencing data analysed here can be accessed under BioProject accession numbers PRJNA320985 (mandarins) and PRJNA321100 (oranges), and also under the NCBI Sequence Read Archive accession codes SRX372786 (sour orange), SRX372703 (sweet orange), SRX372702 (low-acid pummelo), SRX372688 (Chandler pummelo), SRX372685 (Willowleaf mandarin), SRX372687 (W. Murcott mandarin), SRX372665 (Ponkan mandarin) and SRX371962 (Clementine mandarin). The Clementine reference sequence used here is available at https://phytozome.jgi.doe.gov/ ."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Sec7",
+        "title": "Sample collection and sequencing",
+        "paragraphs": [
+          {
+            "id": "Par27",
+            "text": "Whole-genome sequences from a total of 60 accessions were analysed: 58 citrus accessions with different geographical origins and two representative outgroup genera. Twelve of these genomes, including five mandarins, four pummelos, two oranges and a wild Mangshan mandarin ( C. mangshanensis ) were reanalysed from previous works 2 , 7 . We also reanalysed 19 genomes from Chinese collections, including 15 unnamed mandarins, 2 Chinese sour oranges, Ambersweet orange and Cocktail grapefruit (a hybrid resembling grapefruit) that have been previously reported 3 ."
+          },
+          {
+            "id": "Par28",
+            "text": "The 30 accessions that were newly sequenced came from citrus germ-plasm banks and collections at IVIA, Valencia, Spain; SRA, Corse, France; UCR, Riverside and FDACS/DPI, Florida and included nine mandarins, two limes, one rough lemon, one grapefruit, one lemon, four citrons, one Australian desert lime, one eremorange, two Australian finger limes, two Australian round limes, one kumquat, one calamondin, one micrantha, one Ichang papeda, one trifoliate orange and one Chinese box orange ( Supplementary Note 1 )."
+          },
+          {
+            "id": "Par29",
+            "text": "DNA libraries were constructed using standard protocols with some modifications. Library insert sizes range from 325 to 500 bp. Sequencing was performed on HiSeq2000/2500 instruments using 100-bp paired-end reads. Primary analysis of the data included quality control on the Illumina RTA sequence analysis pipeline ( Supplementary Note 2 )."
+          }
+        ]
+      },
+      {
+        "id": "Sec8",
+        "title": "Variant calls and ",
+        "paragraphs": [
+          {
+            "id": "Par30",
+            "text": "Illumina paired-end reads were aligned to the haploid Clementine reference sequence 2 and the sweet orange chloroplast genome assembly 47 using bwa-mem 48 . PCR duplicates were removed using Picard. Raw variants were called using GATK HaplotypeCaller 49 with subsequent filtering based on read map quality score, base quality score, read depth and so on ( Supplementary Note 3.1 )."
+          },
+          {
+            "id": "Par31",
+            "text": "Interspecific admixtures versus pure citrus species were distinguished based on sliding window analysis of heterozygosity and pairwise genetic distance D ( Supplementary Note 4 ). Genome-wide ancestry informative markers for the progenitor species were derived using pure accessions. Admixture analysis was carried out in sliding windows using ancestry informative markers ( Supplementary Notes 5 )."
+          }
+        ]
+      },
+      {
+        "id": "Sec9",
+        "title": null,
+        "paragraphs": [
+          {
+            "id": "Par32",
+            "text": "Interspecific phasing was used to extract admixed haplotypes. Identical-by-descent sharing was calculated for each of the non-overlapping sliding windows across the genome and used to estimate coefficient of relatedness among citrus accessions ( Supplementary Notes 6, 7 )."
+          }
+        ]
+      },
+      {
+        "id": "Sec10",
+        "title": "Phylogeny and speciation dating",
+        "paragraphs": [
+          {
+            "id": "Par33",
+            "text": "We used Chinese box orange (genus Severinia ) as an outgroup. Time calibration is based on the C. linczangensis 16 fossil from Lincang, Yunnan, China. MrBayes 50 was used for whole genome Bayesian phylogenetic inference, and corroborated with a PhyML 51 reconstructed maximum likelihood tree. A penalized likelihood method 52 as implemented in APE 53 was used to construct the chronogram ( Supplementary Note 8 )."
+          }
+        ]
+      },
+      {
+        "id": "Sec11",
+        "title": "Genome scan of palatability association",
+        "paragraphs": [
+          {
+            "id": "Par34",
+            "text": "We used a mixed linear model as implemented in gemma 54 for a case–control study of citrus acidity and palatability with 37 citrus accessions. A conservative Bonferroni correction was used to select significant genomic loci, with subsequent manual examination of each candidate variant in all accessions to identify most discriminatory loci for fruit palatability ( Supplementary Note 10 )."
+          }
+        ]
+      },
+      {
+        "id": "Sec12",
+        "title": "Data availability",
+        "paragraphs": [
+          {
+            "id": "Par35",
+            "text": "Whole-genome shotgun-sequencing data generated in this study have been deposited at NCBI under BioProject PRJNA414519 . Prior resequencing data analysed here can be accessed under BioProject accession numbers PRJNA320985 (mandarins) and PRJNA321100 (oranges), and also under the NCBI Sequence Read Archive accession codes SRX372786 (sour orange), SRX372703 (sweet orange), SRX372702 (low-acid pummelo), SRX372688 (Chandler pummelo), SRX372685 (Willowleaf mandarin), SRX372687 (W. Murcott mandarin), SRX372665 (Ponkan mandarin) and SRX371962 (Clementine mandarin). The Clementine reference sequence used here is available at https://phytozome.jgi.doe.gov/ ."
+          }
+        ]
+      }
+    ],
+    "full_text": "Main The genus Citrus and related genera ( Fortunella , Poncirus , Eremocitrus and Microcitrus ) belong to the angiosperm subfamily Aurantioideae of the Rutaceae family, which is widely distributed across the monsoon region from west Pakistan to north-central China and south through the East Indian Archipelago to New Guinea and the Bismarck Archipelago, northeastern Australia, New Caledonia, Melanesia and the western Polynesian islands 1 . Native habitats of citrus and related genera roughly extend throughout this broad area ( Extended Data Fig. 1a and Supplementary Table 1 ), although the geographical origin, timing and dispersal of citrus species across southeast Asia remain unclear. A major obstacle to resolving these uncertainties is our poor understanding of the genealogy of complex admixture in cultivated citrus, as has recently been shown 2 . Some citrus are clonally propagated apomictically 3 through nucellar embryony, that is, the development of non-sexual embryos originating in the maternal nucellar tissue of the ovule, and this natural process may have been co-opted during domestication; grafting is a relatively recent phenomenon 4 . Both modes of clonal propagation have led to the domestication of fixed (desirable) genotypes, including interspecific hybrids, such as oranges, limes, lemons, grapefruits and other types. Under this scenario, it is not surprising that the current chaotic citrus taxonomy—based on long-standing, conflicting proposals 5 , 6 —requires a solid reformulation consistent with a full understanding of the hybrid and/or admixture nature of cultivated citrus species. Here we analyse genome sequences of diverse citrus to characterize the diversity and evolution of citrus at the species level and identify citrus admixtures and interspecific hybrids. We further examine the network of relatedness among mandarins and sweet orange, as well as the pattern of the introgression of pummelos among mandarins for clues to the early stages of citrus domestication. Diversity and evolution of the genus Citrus To investigate the genetic diversity and evolutionary history of citrus, we analysed the genomes of 58 citrus accessions and two outgroup genera ( Poncirus and Severinia ) that were sequenced to high coverage, including recently published sequences 2 , 3 , 7 as well as 30 new genome sequences described here. For our purpose, we do not include accessions related by somatic mutations. These sequences represent a diverse sampling of citrus species, their admixtures and hybrids ( Supplementary Tables 2, 3 and Supplementary Notes 1, 2 ). Our collection includes accessions from eight previously unsequenced and/or unexamined citrus species, such as pure mandarins ( Citrus reticulata ), citron ( Citrus medica ), Citrus micrantha (a wild species from within the subgenus Papeda ), Nagami kumquat ( Fortunella margarita , also known as Citrus japonica var. margarita ), and Citrus ichangensis (also known as Citrus cavaleriei ; this species is also considered a Papeda ), as well as three Australian citrus species ( Supplementary Notes 3, 4 ). For each species, we have sequenced one or more pure accessions without interspecific admixture. Local segmental ancestry of each accession can be delineated for both admixed and hybrid genotypes, based on genome-wide ancestry-informative single-nucleotide polymorphisms ( Supplementary Note 5 ). Comparative genome analysis further identified shared haplotypes among the accessions ( Supplementary Notes 6, 7 ). In particular, we demonstrate the F1 interspecific hybrid nature of Rangpur lime and red rough lemon (two different mandarin–citron hybrids), Mexican lime (a micrantha–citron hybrid) and calamondin (a kumquat–mandarin hybrid), and confirm, using whole-genome sequence data, the origins of grapefruit (a pummelo–sweet orange hybrid), lemon (a sour orange–citron hybrid) and eremorange (a sweet orange and Eremocitrus glauca (also known as Citrus glauca ) hybrid). We also verified the parentage of Cocktail grapefruit, with low-acid pummelo as the seed parent and King and Dancy mandarins as the two grandparents on the paternal side. The origin of the Ambersweet orange is similarly confirmed to be a mandarin–sweet orange hybrid with Clementine as a grandparent. We have previously shown that sour orange (cv. Seville) ( Citrus aurantium ) is a pummelo–mandarin hybrid, and have analysed the more complex origin of sweet orange ( Citrus sinensis ) 2 . Re-analysing sequences from ten cultivars of sweet orange 3 shows that they are all derived from the same genome by somatic mutations, and were thus not included in our study. We identified ten progenitor citrus species ( Supplementary Note 4.1 ) by combining diversity analysis ( Extended Data Table 1 ), multidimensional scaling and chloroplast genome phylogeny ( Extended Data Fig. 1b ). The first two principal coordinates in the multidimensional scaling ( Fig. 1a ) separate three ancestral (sometimes called ‘fundamental’) Citrus species associated with commercially important types 8 , 9 —citrons ( C. medica ), mandarins ( C. reticulata ) and pummelos ( Citrus maxima )—and display lemons, limes, oranges and grapefruits as hybrids involving these three species. The nucleotide diversity distributions ( Fig. 1b ) show distinct scales for interspecific divergence and intraspecific variation, and reflect the genetic origin of each accession. Hybrid accessions (sour orange, calamondin, lemon and non-Australian limes) with ancestry from two or more citrus species are readily identified on the basis of their higher segmental heterozygosity (1.5–2.4%) relative to intraspecific diversity (0.1–0.6%). Other citrus accessions show bimodal distributions in heterozygosity (sweet orange, grapefruits and some highly heterozygous mandarins) due to interspecific admixture, a process that generally involves complex backcrosses. Among the pure genotypes without interspecific admixture, citrons show significantly lower intraspecific diversity (around 0.1%) than the other species (0.3–0.6%). The reduced heterozygosity of citrons, a mono-embryonic species, is probably due to the cleistogamy of its flowers 10 , a mechanism that promotes pollination and self-fertilization in unopened flower buds, which in turn reduces heterozygosity. Figure 1 Genetic structure, heterozygosity and phylogeny of Citrus species. a , Principal coordinate analysis of 58 citrus accessions based on pairwise nuclear genome distances and metric multidimensional scaling. The first two axes separate the three main citrus groups (citrons, pummelos and mandarins) with interspecific hybrids (oranges, grapefruit, lemon and limes) situated at intermediate positions relative to their parental genotypes. b , Violin plots of the heterozygosity distribution in 58 citrus accessions, representing 10 taxonomic groups as well as 2 related genera, Poncirus ( Poncirus trifoliata , also known as Citrus trifoliata ) and Chinese box orange ( Severinia ). White dot, median; bar limits, upper and lower quartiles; whiskers, 1.5× interquartile range. The bimodal separation of intraspecies (light blue) and interspecies (light pink) genetic diversity is manifested among the admixed mandarins and across different genotypes including interspecific hybrids. Three-letter codes are listed in parenthesis with additional descriptions in Supplementary Table 2 . c , Chronogram of citrus speciation. Two distinct and temporally well-separated phases of species radiation are apparent, with the southeast Asian citrus radiation followed by the Australian citrus diversification. Age calibration is based on the citrus fossil C . linczangensis 16 from the Late Miocene (denoted by a filled red circle). The 95% confidence intervals are derived from 200 bootstraps. Bayesian posterior probability is 1.0 for all nodes. d , Proposed origin of citrus and ancient dispersal routes. Arrows suggest plausible migration directions of the ancestral citrus species from the centre of origin—the triangle formed by northeastern India, northern Myanmar and northwestern Yunnan. The proposal is compatible with citrus biogeography, phylogenetic relationships, the inferred timing of diversification and the paleogeography of the region, especially the geological history of Wallacea and Japan. The red star marks the fossil location of C. linczangensis . Citrus fruit images in c and d are not drawn to scale. PowerPoint slide The identification of a set of pure citrus species provides new insights into the phylogeny of citrus, their origins, evolution and dispersal. Citrus phylogeny is controversial 1 , 5 , 6 , 11 , 12 , in part owing to the difficulty of identifying pure or wild progenitor species, because of substantial interspecific hybridization that has resulted in several clonally propagated and cultivated accessions. Some authors assign separate binomial species designations to clonally propagated genotypes 1 , 6 . Our nuclear genome-based phylogeny, which is derived from 362,748 single-nucleotide polymorphisms in non-genic and non-pericentromeric genomic regions, reveals that citrus species are a monophyletic group and establishes well-defined relationships among its lineages ( Fig. 1c and Supplementary Note 8 ). Notably, the nuclear genome-derived phylogeny differs in detail from the chloroplast-derived phylogeny ( Extended Data Fig. 1 ). This is not unexpected, as chloroplast DNA is a single, non-recombining unit and is unlikely to show perfect lineage sorting during rapid radiation ( Supplementary Note 8.3 ). The origin of citrus has generally been considered to be in southeast Asia 1 , a biodiversity hotspot 13 with a climate that has been influenced by both east and south Asian monsoons 14 ( Supplementary Note 9 ). Specific regions include the Yunnan province of southwest China 15 , Myanmar and northeastern India in the Himalayan foothills 1 . A fossil specimen from the late Miocene epoch of Lincang in Yunnan, Citrus linczangensis 16 , has traits that are characteristic of current major citrus groups, and provides definite evidence for the existence of a common Citrus ancestor within the Yunnan province approximately 8 million years ago (Ma). Our analysis establishes a relatively rapid Asian radiation of citrus species in the late Miocene (6–8 Ma; Fig. 1c, d ), a period coincident with an extensive weakening of monsoons and a pronounced climate transition from wet to drier conditions 17 . In southeast Asia, this marked climate alteration caused major changes in biota, including the migration of mammals 18 and rapid radiation of various plant lineages 19 , 20 . Australian citrus species form a distinct clade that was proposed to be nested with citrons 12 , although distinct generic names ( Eremocitrus and Microcitrus ) were assigned in botanical classifications by Swingle 1 , 5 . Both molecular dating analysis 21 and our whole-genome phylogenetic analysis do not support an Australian origin for citrus 22 . Rather, citrus species spread from southeast Asia to Australasia, probably via transoceanic dispersals. Our genomic analysis indicates that the Australian radiation occurred during the early Pliocene epoch, around 4 Ma. This is contemporaneous with other west-to-east angiosperm migrations from southeast Asia 23 , 24 , presumably taking advantage of the elevation of Malesia and Wallacea in the late Miocene and Pliocene 25 , 26 ( Supplementary Note 9 ). The nuclear and chloroplast genome phylogenies indicate that there are three Australian species in our collection. One of the two Australian finger limes shows clear signs of admixture with round limes ( Supplementary Note 5.4 ). The closest relative to Australian citrus is Fortunella , a species that has been reported to grow in the wild in southern China 27 . Australian citrus species are diverse, and found natively in both dry and rainforest environments in northeast Australia, depending on the species 28 . Our phylogeny shows that the progenitor citrus probably migrated across the Wallace line, a natural barrier for species dispersal from southeast Asia to Australasia, and later adapted to these diverse climates. The results also show that the Tachibana mandarin, naturally found in Taiwan, the Ryukyu archipelago and Japan 29 , split from mainland Asian mandarins ( Fig. 1c, d ) during the early Pleistocene (around 2 Ma), a geological epoch with strong glacial maxima 30 . Tachibana, as did other flora and fauna in the region, very probably arrived in these islands from the adjacent mainland 31 during the drop in the sea level of the South China Sea and the emergence of land bridges 32 , 33 , a process promoted by the expansion of ice sheets that repetitively occurred during glacial maxima ( Supplementary Note 9 ). Although Tachibana 5 , 6 has been assigned its own species ( Citrus tachibana ), sequence analysis reveals that it has a close affinity to C. reticulata 34 , 35 and does not support its taxonomic position as a separate species ( Supplementary Note 4.1 ). However, both chloroplast genome phylogeny ( Extended Data Fig. 1b ) and nuclear genome clustering ( Fig. 1a ) clearly distinguish Tachibana from the mainland Asian mandarins. This suggests that Tachibana should be designated a subspecies of C. reticulata . By contrast, the wild Mangshan ‘mandarin’ ( Citrus mangshanensis ) 7 represents a distinct species, with comparable distances to C. reticulata , pummelo and citron 2 ( Extended Data Table 1 ). Pattern of pummelo admixture in the mandarins Using 588,583 ancestry-informative single-nucleotide polymorphisms derived from three species, C. medica , C. maxima and C. reticulata , we delineate the segmental ancestry of 46 citrus accessions ( Extended Data Fig. 2 and Supplementary Note 5 ). Pummelo admixture is found in all but 5 of the 28 sequenced mandarins, and the amount and pattern of pummelo admixture, as identified by phased pummelo haplotypes ( Fig. 2a and Supplementary Note 6 ), suggests the classification of the mandarins into three types. Figure 2 Admixture proportion and citrus genealogy. a , Allelic proportion of five progenitor citrus species in 50 accessions. CI, C. medica ; FO, Fortunella ; MA, C. reticulata ; MC, C. micrantha ; PU, C. maxima ; UNK, unknown. The pummelos and citrons represent pure citrus species, whereas in the heterogeneous set of mandarins, the degree of pummelo introgression subdivides the group into pure (type-1) and admixed (type-2 and -3) mandarins. Three-letter code as in Fig. 1 , see Supplementary Table 2 for details. b , Genealogy of major citrus genotypes. The five progenitor species are shown at the top. Blue lines represent simple crosses between two parental genotypes, whereas red lines represent more complex processes involving multiple individuals, generations and/or backcrosses. Whereas type-1 mandarins are pure species, type-2 (early-admixture) mandarins contain a small amount of pummelo admixture that can be traced back to a common pummelo ancestor (with P1 or P2 haplotypes). Later, additional pummelo introgressions into type-2 mandarins gave rise to both type-3 (late-admixture) mandarins and sweet orange. Further breeding between sweet orange and mandarins or within late-admixture mandarins produced additional modern mandarins. Fruit images are not to scale and represent the most popular citrus types. See Supplementary Note 1.1 for nomenclature usage. PowerPoint slide Type-1 mandarins represent pure C. reticulata with no evidence of interspecific admixture and include Tachibana, three unnamed Chinese mandarins (M01, M02, M04) 3 and the ancient Chinese cultivar Sun Chu Sha Kat reported here, a small tart mandarin commonly grown in China and Japan, and also found in Assam. This cultivar is likely described in Han Yen-Chih’s ad 1178 monograph ‘Chü Lu’ 36 , which includes references to citrus cultivated during the reign of Emperor Ta Yu (2205–2197 bc ). Sixteen of the twenty-eight mandarins belong to type-2 mandarins, which have a small amount of pummelo admixture (1–10% of the length of the genetic map; Fig. 2a ), usually in the form of a few short segments distributed across the genome. Although the lengths and locations of these admixed segments may be distinct in different mandarins, they share one or two common pummelo haplotypes (designated as P1 and P2) ( Extended Data Fig. 3 ). By contrast, the seven remaining mandarins (type-3) contain higher proportions of pummelo alleles (12–38%; Fig. 2a ) in longer segments. Although the P1 and P2 pummelo haplotypes are also detectable among type-3 mandarins, other more extensive pummelo haplotypes dominate the pummelo admixture in type-3 mandarins ( Fig. 2b and Extended Data Table 2 ). These observations suggest that the initial pummelo introgression into the mandarin gene pool may have involved as few as one pummelo tree (carrying both P1 and P2 haplotypes), the contribution of which was diluted by repeated backcrosses with mandarins ( Supplementary Note 6.3 ). The introgressed pummelo haplotypes became widespread and gave rise to type-2 (early-admixture) mandarins ( Fig. 2b ). We propose that later, additional pummelo introgressions gave rise to type-3 (late-admixture) mandarins and sweet orange, and that some modern type-3 mandarins were derived from hybridizations among existing mandarins and sweet orange. This late-admixture model for type-3 mandarins is consistent with the historical records for Clementine and Kiyomi (both mandarin–sweet orange hybrids), and for W. Murcott, Wilking and Fallglo (hybrids involving other type-3 mandarins), whereas definitive records for the remaining two late-admixture mandarins (King and Satsuma) are not available. Domestication of mandarins and sweet orange Citrus domestication probably began with the identification and asexual propagation of selected, possibly hybrid or admixed individuals, rather than recurrent selection from a breeding population as for annual crops 37 , 38 . Additional diversity was obtained by capturing somatic mutations that occur within a relatively few basic genotypes. Therefore, conventional approaches to identifying selective pressures under recurrent breeding 39 cannot be applied. We can, however, use genome sequences to infer some features of the early stages of citrus domestication. Here we focus on mandarins, a class of citrus comprising small and easily peeled fruits that are of high commercial value. All 28 mandarin accessions, except for Tachibana, exhibit an extensive network of relatedness (with a coefficient of relatedness, r > 1/8), and all but four mandarins (three of the four are pure or type-1 mandarins) show second degree or higher relatedness ( r > 1/4) to at least one (mean = 7) other mandarin ( Fig. 3a and Supplementary Note 7 ). By contrast, sequenced pummelos and citrons appear to be independent selections from relatively large populations. In the absence of historical records for most mandarins, the actual kinships are difficult to infer, owing to extensive haplotype sharing among the ancestors, although some parent–child pairs can be identified. In addition to confirming, using the whole-genome sequence, the parentage of Wilking (King–Willowleaf), Kiyomi (Satsuma–sweet orange) and Fallglo (one grandparent is Clementine), we find parent–child relationships between two pairs of mandarins (Ponkan is a parent of Dancy; Huanglingmiao (a somatic mutant of Kishu) is a parent of Satsuma) 34 , in addition to the previously established parent–child pair of Willowleaf and Clementine mandarins 2 . Additional parent–child pairs involving the recently sequenced Chinese mandarins 3 are also identified ( Supplementary Note 7.3 ). A few cultivar types in this network (Satsuma, Dancy, Clementine, Kiyomi, Fallgo and the Chinese cultivar BTJ mandarins) have marked signs of inbreeding, indicated by runs of homozygosity ( Extended Data Fig. 4a ) as a result of shared haplotypes between their parents. The high degree of relatedness among mandarins implies extensive sharing of C. reticulata haplotypes. Figure 3 Citrus relatedness network and haplotype sharing with sweet orange. a , Genetic relatedness among 48 citrus accessions derived from four progenitor species including citrons, pummelos, pure mandarins and micrantha. Solid lines connect pairs with coefficient of relatedness r > 0.45, with parent–child pairs denoted by arrows pointing from parent to child. Dashed and dotted lines correspond to 0.35 < r <0.45 and 0.25 < r <0.35, respectively. Mandarins are distinguished from other taxonomic groups by an extensive relatedness network, indicating shared haplotypes in the ancestral gene pool. Three-letter code as in Fig. 1 , see Supplementary Table 2 for details. b , Shown in decreasing order are the values of coefficient of relatedness between sweet orange and other accessions, with C. maxima ( r P ) and C. reticulata ( r M ) components in green and light salmon, respectively.There is significant haplotype sharing between sweet orange and all mandarins, except for three of the type-1 mandarins. Five accessions (Clementine and Kiyomi mandarins, eremorange, Marsh grapefruit, and Ambersweet orange) have sweet orange as the male parent. PowerPoint slide Sweet orange also shows extensive haplotype sharing at the level of r > 0.1 with 25 of the 28 sequenced mandarins (except for three pure or type-1 mandarins; Fig. 3b and Extended Data Fig. 4b ). Two late-admixture mandarins (Clementine and Kiyomi) are direct offspring of sweet orange. Among the early-admixture (type-2) mandarins, Ponkan shows the highest affinity to sweet orange 2 with r ≈ 0.36. Even the pure mandarin, Sun Chu Sha Kat has r ≈ 0.23, equivalent to second degree relatedness to sweet orange. We can rule out the scenario that sweet orange is the common ancestor of the mandarins, because of a lack of pummelo haplotypes (derived from sweet orange) among the mandarins. Rather, the extensive C. reticulata haplotype sharing between sweet orange and mandarins suggests that the mandarin parent of sweet orange was part of an expansive network of relatedness among mandarins. Because our collection of mandarins represents a diverse set of both ancient and modern varieties, including economically important accessions with mostly unknown parentage, the presence of an extensive relatedness network was not anticipated a priori. The shared C. reticulata haplotypes are suggestive of and consistent with signatures of the human selection process, during which mandarins with desirable traits were necessarily maintained through clonal propagation (nucellar polyembryony or grafting). Although one cannot preclude the possibility that the relatedness network was initiated before domestication from a small number of founder trees, human selection of accessions resulting from natural hybridization probably had a key role in the process of domestication that eventually led to the extensive relatedness network observed today. For example, modern mandarins, such as Clementine and W. Murcott, are known to be selections from chance seedlings found in Algeria 40 and Morocco 2 , at the onset and middle of the last century, respectively. Pummelo admixture is correlated with fruit size and acidity, suggesting a role for pummelo introgression in citrus domestication. As both fruit size and acidity profile for the most recently sequenced accessions 3 are not described, we used 37 citrus accessions in this analysis. We find that the fruit sizes of mandarins, oranges, grapefruit and pummelos show a strong positive correlation (Pearson correlation coefficient r = 0.88) with pummelo admixture proportion ( Extended Data Fig. 5a, b and Supplementary Note 10.1 ). In addition to fruit size, a pivotal driver of fruit domestication is palatability, a characteristic that in citrus requires low to moderate levels of acidity. In mandarins, palatability appears to be linked to pummelo introgression at a major locus at the start of chromosome 8 (0.3–2.2 Mb), where all nine known palatable mandarins, but none of the four known acidic mandarins, show pummelo admixture in at least part of the genomic region ( Extended Data Fig. 3 ). This locus is also found to be significant in a genome scan for palatability association ( Extended Data Fig. 5c, d and Extended Data Table 3 ) and contains several potentially relevant genes ( Supplementary Note 10.2 ). Among these genes is a gene encoding the mitochondrial NAD + -dependent isocitrate dehydrogenase ( IDH ) which regulates citric-acid synthesis 41 ( Extended Data Table 4 ). Our study finds that domesticated citrus fruit crops, such as mandarins and sweet orange, experienced a complex history of admixture, conceptually similar to those well-recognized in annual crops, such as rice 42 and maize 43 , and in other fruit trees, such as apple 44 and grape 45 , for which the current genomic diversity is linked to widespread ancient introgression. Other cultivated citrus groups, the interspecific F1 hybrids in particular, originated from hybridizations of two pure parental species. Several of these involve C. medica (citron), including limes and lemons 10 . A unique and critical characteristic of the three pivotal species ( C. maxima , C. reticulata and C. medica ) that gave rise to most cultivated citrus fruits is the occurrence of a complex floral anatomy ( Extended Data Fig. 6 ), thus leading to the development of more complex fruit. Other species were also involved in hybridizations, including Fortunella and C. micrantha . Distinct from the mandarin lineages, these hybrids are characterized by their acidic fruit, and their selection must have been made on the basis of other characteristics, such as a sweet edible peel and aroma 2 , respectively. Conclusion On the basis of genomic, phylogenetic and biogeographic analyses of 60 diverse citrus and related accessions, we propose that the centre of origin of citrus species was the southeast foothills of the Himalayas, in a region that includes the eastern area of Assam, northern Myanmar and western Yunnan. Our analyses suggest that the ancestral citrus species underwent a sudden speciation event during the late Miocene. This radiation coincided with a pronounced transition from wet monsoon conditions to a drier climate, as observed in nearby areas in many other plant and animal lineages. The Australian citrus species and Tachibana, a native Japanese mandarin, split later from mainland citrus during the early Pliocene and Pleistocene, respectively. By distinguishing between pure species, hybrids and admixtures, we could trace the genealogy and genetic origin of the major citrus commercial cultivars. Both the extensive relatedness network among mandarins and sweet orange, and the association of pummelo admixture with desirable fruit traits suggest a complex domestication process. Our work challenges previous proposals for citrus taxonomy. For example, we find that several named genera ( Fortunella , Eremocitrus and Microcitrus ) are in fact nested within the citrus clade. These and other distinct clades that we have identified are therefore more appropriately considered species within the genus Citrus , on a par with those that formerly were referred to as the three ‘true’ or ‘biological’ species ( C. reticulata , C. maxima and C. medica ). Additionally, the related genus, Poncirus , a subject of continuous controversy since it was originally proposed to be within the genus Citrus 12 , 46 , is clearly a distinct clade that is separate from Citrus based on sequence divergence and whole-genome phylogeny. In summary, this work presents insights into the origin, evolution and domestication of citrus, and the genealogy of the most important wild and cultivated varieties. Taken together, these findings draw a new evolutionary framework for these fruit crops, a scenario that challenges current taxonomic and phylogenetic thoughts, and points towards a reformulation of the genus Citrus . Methods Sample collection and sequencing Whole-genome sequences from a total of 60 accessions were analysed: 58 citrus accessions with different geographical origins and two representative outgroup genera. Twelve of these genomes, including five mandarins, four pummelos, two oranges and a wild Mangshan mandarin ( C. mangshanensis ) were reanalysed from previous works 2 , 7 . We also reanalysed 19 genomes from Chinese collections, including 15 unnamed mandarins, 2 Chinese sour oranges, Ambersweet orange and Cocktail grapefruit (a hybrid resembling grapefruit) that have been previously reported 3 . The 30 accessions that were newly sequenced came from citrus germ-plasm banks and collections at IVIA, Valencia, Spain; SRA, Corse, France; UCR, Riverside and FDACS/DPI, Florida and included nine mandarins, two limes, one rough lemon, one grapefruit, one lemon, four citrons, one Australian desert lime, one eremorange, two Australian finger limes, two Australian round limes, one kumquat, one calamondin, one micrantha, one Ichang papeda, one trifoliate orange and one Chinese box orange ( Supplementary Note 1 ). DNA libraries were constructed using standard protocols with some modifications. Library insert sizes range from 325 to 500 bp. Sequencing was performed on HiSeq2000/2500 instruments using 100-bp paired-end reads. Primary analysis of the data included quality control on the Illumina RTA sequence analysis pipeline ( Supplementary Note 2 ). Variant calls and Citrus species diversity Illumina paired-end reads were aligned to the haploid Clementine reference sequence 2 and the sweet orange chloroplast genome assembly 47 using bwa-mem 48 . PCR duplicates were removed using Picard. Raw variants were called using GATK HaplotypeCaller 49 with subsequent filtering based on read map quality score, base quality score, read depth and so on ( Supplementary Note 3.1 ). Interspecific admixtures versus pure citrus species were distinguished based on sliding window analysis of heterozygosity and pairwise genetic distance D ( Supplementary Note 4 ). Genome-wide ancestry informative markers for the progenitor species were derived using pure accessions. Admixture analysis was carried out in sliding windows using ancestry informative markers ( Supplementary Notes 5 ). Citrus relatedness and haplotype sharing Interspecific phasing was used to extract admixed haplotypes. Identical-by-descent sharing was calculated for each of the non-overlapping sliding windows across the genome and used to estimate coefficient of relatedness among citrus accessions ( Supplementary Notes 6, 7 ). Phylogeny and speciation dating We used Chinese box orange (genus Severinia ) as an outgroup. Time calibration is based on the C. linczangensis 16 fossil from Lincang, Yunnan, China. MrBayes 50 was used for whole genome Bayesian phylogenetic inference, and corroborated with a PhyML 51 reconstructed maximum likelihood tree. A penalized likelihood method 52 as implemented in APE 53 was used to construct the chronogram ( Supplementary Note 8 ). Genome scan of palatability association We used a mixed linear model as implemented in gemma 54 for a case–control study of citrus acidity and palatability with 37 citrus accessions. A conservative Bonferroni correction was used to select significant genomic loci, with subsequent manual examination of each candidate variant in all accessions to identify most discriminatory loci for fruit palatability ( Supplementary Note 10 ). Data availability Whole-genome shotgun-sequencing data generated in this study have been deposited at NCBI under BioProject PRJNA414519 . Prior resequencing data analysed here can be accessed under BioProject accession numbers PRJNA320985 (mandarins) and PRJNA321100 (oranges), and also under the NCBI Sequence Read Archive accession codes SRX372786 (sour orange), SRX372703 (sweet orange), SRX372702 (low-acid pummelo), SRX372688 (Chandler pummelo), SRX372685 (Willowleaf mandarin), SRX372687 (W. Murcott mandarin), SRX372665 (Ponkan mandarin) and SRX371962 (Clementine mandarin). The Clementine reference sequence used here is available at https://phytozome.jgi.doe.gov/ ."
+  },
+  "references_count": 55
+}

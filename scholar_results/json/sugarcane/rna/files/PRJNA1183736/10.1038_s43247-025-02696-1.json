@@ -1,0 +1,346 @@
+{
+  "metadata": {
+    "extraction_timestamp": "2025-09-28T13:23:22.772757",
+    "article_type": "research-article",
+    "language": "en"
+  },
+  "publication_info": {
+    "journal": "Communications Earth & Environment",
+    "issn": "2662-4435",
+    "publisher": "Nature Publishing Group UK",
+    "doi": "10.1038/s43247-025-02696-1",
+    "volume": "6",
+    "issue": "1",
+    "publication_dates": {
+      "pub": "2025-08-23",
+      "collection": "2025-12"
+    }
+  },
+  "title": "Linking leaf hyperspectral reflectance to gene expression",
+  "authors": [
+    {
+      "surname": "Chen",
+      "given_names": "Yanni",
+      "full_name": "Yanni Chen",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff1"
+      ]
+    },
+    {
+      "surname": "Monks",
+      "given_names": "Logan",
+      "full_name": "Logan Monks",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff1"
+      ]
+    },
+    {
+      "surname": "Rubio",
+      "given_names": "Vanessa E.",
+      "full_name": "Vanessa E. Rubio",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff1",
+        "Aff2"
+      ]
+    },
+    {
+      "surname": "Cox",
+      "given_names": "Alexander J.",
+      "full_name": "Alexander J. Cox",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff1"
+      ]
+    },
+    {
+      "surname": "Swenson",
+      "given_names": "Nathan G.",
+      "full_name": "Nathan G. Swenson",
+      "email": "nswenson@nd.edu",
+      "is_corresponding": true,
+      "affiliation_refs": [
+        "Aff1",
+        "Aff3"
+      ]
+    }
+  ],
+  "affiliations": {
+    "Aff1": {
+      "institution": "Notre Dame",
+      "department": "Department of Biological Sciences, University of Notre Dame",
+      "address": {
+        "city": "Indiana",
+        "country": "USA"
+      }
+    },
+    "Aff2": {
+      "institution": "Millbrook",
+      "department": "Cary Institute of Ecosystem Studies",
+      "address": {
+        "city": "New York",
+        "country": "USA"
+      }
+    },
+    "Aff3": {
+      "institution": "University of Notre Dame",
+      "department": "University of Notre Dame Environmental Research Center",
+      "address": {
+        "city": "Indiana",
+        "country": "USA"
+      }
+    }
+  },
+  "abstract": {
+    "full_text": "Abstract Forest diversity and dynamics are governed by the interactions between organismal function and the abiotic and biotic environment. Functional traits have been widely employed in forest ecology to estimate key functional tradeoffs related to tree performance in a given environment. Hyperspectral reflectance data are utilized in ecology to predict functional trait values at the individual tree or pixel scale on broad spatial extents, but the diversity of functions captured by these traits is limited. Here, we demonstrate a novel integration of reflectance and to gene expression data for processes of interest to ecologists. We show linkages between the expression of ecologically important genes and reflectance data and the potential to transform the depth at which ecologists can rapidly estimate functional diversity."
+  },
+  "keywords": [
+    {
+      "language": "en",
+      "keywords": [
+        "Forest Ecology",
+        "Functional Genomics",
+        "Plant Ecology",
+        "Tree Biology",
+        "Transcriptomics",
+        "Ecophysiology"
+      ]
+    },
+    {
+      "language": "en",
+      "keywords": [
+        "Biological Sciences",
+        "Ecology",
+        "Genetics"
+      ]
+    }
+  ],
+  "funding": [
+    {
+      "source": "National Aeronautics and Space Administration (NASA)",
+      "award_id": "80NSSC22k1625"
+    }
+  ],
+  "content": {
+    "sections": [
+      {
+        "id": "Sec1",
+        "title": "Introduction",
+        "paragraphs": [
+          {
+            "id": "Par3",
+            "text": "Forests store ~80% of the biomass and biodiversity on the planet and account for ~75% of gross primary productivity on the terrestrial surface 1 , 2 . The structure, composition and health of these ecosystems are the net result of the successes and failures of individuals and species in a rapidly changing environmental context. Trees interface with their environment via their functional biology, often quantified via functional traits. Functional traits are relatively easy to measure traits representing where species fall along major tradeoff axes related to plant form and function. For example, the leaf traits related to the leaf economics spectra are indicative of a fundamental tradeoff between leaf lifespan and photosynthetic rate on a mass basis 3 . A key to the success and widespread adoption of the functional trait approach to ecology is that they offer a pragmatic approach for understanding how individuals to ecosystems interface with a changing world."
+          },
+          {
+            "id": "Par4",
+            "text": "Despite the widespread use of functional trait-based approaches in plant ecology, they have been, traditionally, limited in two ways 4 . First, while functional traits are relatively easy to measure, quantifying trait data across thousands to hundreds of thousands of individual trees and/or broad spatial extents is challenging. Thus, researchers often have to represent the trait value of all conspecifics within or across populations using a species-level mean trait value. In many cases these species-level mean trait values are quantified using a few sampled individuals from a forest plot (e.g. 0.1–0.5 km 2 ) 4 , 5 , but mean values from global databases are also frequently employed to mapping function on regional to global scales 6 , 7 . Second, while the core set of functional traits typically measured in plant ecology does provide insights into key tradeoffs, they do not capture the breadth of the functional diversity within plants. For example, the core set of traits most measured in forest ecology conveys little information about plant defense and they provide no information about the dynamic functional response of a plant to a changing environment. That is, a species-level mean functional trait value from a forest plot does not measure the breadth of key plant functions and it is a static estimate of function applied to understand a dynamic environmental context 4 ."
+          },
+          {
+            "id": "Par5",
+            "text": "Advances in remote sensing leveraging imaging spectroscopy are quickly removing the first limitation by providing maps of functional traits at broad spatial extents and fine spatial resolutions 8 , 9 . For example, models of leaf traits based upon their reflectance have been applied to hyperspectral imagery for thousands of acres to entire countries to provide detailed predicted maps of leaf traits that are revolutionizing forest ecology 9 . Functional genomics holds the potential to overcome the second limitation 10 . For example, gene expression data provide broad and deep assays of plant functional diversity within and across individuals and species 11 , 12 , 13 , 14 – 15 . However, the integration of functional genomics into forest ecology has lagged that of hyperspectral biology partly due to the cost of data acquisition and the associated challenge of quantifying gene expression on large numbers of individuals."
+          },
+          {
+            "id": "Par6",
+            "text": "Here, we provide evidence that the hyperspectral reflectance of tree leaf tissue is strongly related to the expression of thousands of expressed genes in two ecologically dominant and economically important maple ( Acer ) tree species from North America. The specific research questions we ask are: ( i ) are hyperspectral reflectance data linked to levels of gene expression across all genes expressed in leaf tissue in a natural forest stand?; ( ii ) are these linkages found across all wavelengths and both species?; and ( iii ) is leaf gene expression in some functions easier to predict than others upon the basis of hyperspectral reflectance data? The findings demonstrate the potential for spectral reflectance data to provide rapid and deep functional genomic assays on broad spatial extents that could transform forest ecology."
+          }
+        ]
+      },
+      {
+        "id": "Sec2",
+        "title": "Results and discussion",
+        "paragraphs": [
+          {
+            "id": "Par7",
+            "text": "Transcriptomics and the analyses of gene expression data have been shown to be uncover key functional drivers of forest composition and dynamics that are not easily assayed via functional traits 12 , 13 , 15 . However, quantifying gene expression at the individual-level on broad spatial extents is cost prohibitive. Hyperspectral reflectance data have been leveraged to estimate functional trait data on broad extents, and we posited that a similar approach could be utilized with gene expression data. Here, we investigated the degree to which gene expression is linked to the spectral reflectance of leaf tissue as a means of expanding the depth and breadth of plant function that can be inferred from hyperspectral imaging data. To this end, we used a regularized canonical correlation approach 16 using leaf tissue from naturally occurring individuals from two of the most ecologically and economically important tree species in eastern North America - sugar maple ( Acer saccharum [Sapindacae])( n = 14 ) and red maple ( A. rubrum )( n = 12 ). The analyses found evidence of strong correlations between the measured range of spectral reflectance (400–2400 nm) and the expression of genes related to key ecological functions (Fig. 1 ). The results demonstrate that the strongest correlations between gene expression levels and wavelengths were generally found in the shortwave infrared radiation (SWIR) and near infrared (NIR) wavelengths (rows in Fig. 1 ) and this was found in both species studied. This contrasted with the visible (VIS) wavelengths that, generally, had weak correlations with gene expression. Lastly, while approximately one-half to two-thirds of the genes (columns in Fig. 1 ) had strong correlations with wavelengths, there are clearly a number of genes that had no relationship between any wavelength and their expression levels. Fig. 1 Regularized canonical correlations of hyperspectral reflectance and gene expression. a A. saccharum (row = 2001, column = 590) and ( b ) A. rubrum (row = 2001, column = 1219). The rows of the heatmaps are spectral reflectance (i.e. wavelengths), which are categorized into the wave band range: VIS (400–700 nm), NIR (700–1100 nm), SWIR (1400–2400 nm). The columns of the heatmaps functional gene expression extracted from functional annotated transcript-level gene expression. Thus, each column is a transcript. The columns have been ordered using hierarchical clustering to facilitate visualization."
+          },
+          {
+            "id": "",
+            "text": "a A. saccharum (row = 2001, column = 590) and ( b ) A. rubrum (row = 2001, column = 1219). The rows of the heatmaps are spectral reflectance (i.e. wavelengths), which are categorized into the wave band range: VIS (400–700 nm), NIR (700–1100 nm), SWIR (1400–2400 nm). The columns of the heatmaps functional gene expression extracted from functional annotated transcript-level gene expression. Thus, each column is a transcript. The columns have been ordered using hierarchical clustering to facilitate visualization."
+          },
+          {
+            "id": "Par8",
+            "text": "These results have several important implications. First, they clearly demonstrate that gene expression can be predicted upon the basis of hyperspectral reflectance. Thus, the aspects of leaf structure and chemistry that produce a reflectance signature have a strong enough relationship with many genes that expression levels can be indirectly predicted. Second, they demonstrate that the SWIR wavelengths are very important for predicting leaf gene expression in these species, and likely others, indicating that deployed space- or airborne-sensors that do not include these wavelengths will have a reduced capacity to predict gene expression."
+          },
+          {
+            "id": "Par9",
+            "text": "Next, while the analyses shown in Fig. 1 allowed us to investigate a broad range of expressed genes in the leaf tissue, but we were particularly interested in genes that were annotated with functions that are ecologically important and potentially challenging to assess using commonly measured functional traits. Among those functions that are of most interesting to forest ecologists are genes related to water relations or drought, photosynthesis and plant-pest or plant-pathogen interactions. To begin, we identified genes annotated to these functions that have strong canonical correlations (>0.7) in the NIR and SWIR wavelength ranges (Fig. 2 ). For the genes related to water use (i.e. genes annotated to plant-water relations, abscisic acid (ABA) response, and drought) investigated, we show that the expression of these genes was frequently related to reflectance in the NIR range and that some, but not all, genes were related to reflectance in the SWIR. Thus, we were able to leverage data from the NIR and SWIR ranges to predict the differences between individual trees in their gene expression levels for these key water-related functions. This opens the possibility for the monitoring of forest response to water availability at broad spatial extents at the individual tree or pixel scale using airborne or spaceborne hyperspectral sensors that include the SWIR wavelengths. In other words, forest drought may be monitored at scale from at the transcriptomic-level. Fig. 2 Expression-reflectance annotations. Expressed genes with strong correlations (>0.7) along the reflectance spectrum (x-axis) where the color of the lines represents annotated functional gene categories ( a ) A. saccharum (left column) and ( b ) A. rubrum (right column). The red lines are ABA-related genes, the green lines are photosynthesis-related genes and the blue lines are water-related genes."
+          },
+          {
+            "id": "",
+            "text": "Expressed genes with strong correlations (>0.7) along the reflectance spectrum (x-axis) where the color of the lines represents annotated functional gene categories ( a ) A. saccharum (left column) and ( b ) A. rubrum (right column). The red lines are ABA-related genes, the green lines are photosynthesis-related genes and the blue lines are water-related genes."
+          },
+          {
+            "id": "Par10",
+            "text": "Importantly, genes identified in the same functional group and even in the same biological pathway may be differentially correlated with reflectance spectra owing to differences in the up and down regulation of genes. Further, while some wavelengths may have strong (>0.7) canonical correlations with the expression of a gene, there are typically multiple additional wavelengths with moderate canonical correlations with expression. These moderate to strong canonical correlations from multiple wavelengths indicates that robust predictive models of gene expression from reflectance data can be generated using a larger dataset. Predictions of functional trait values from spectral data leverage trait-reflectance relationships from a broad range of wavelengths 11 . This finding demonstrates the capacity for leaf spectral reflectance data to predict the expression of functionally important genes."
+          },
+          {
+            "id": "Par11",
+            "text": "The pathogen, photosynthetic and pigment related genes were analyzed next. They had moderately strong (0.5–0.7) canonical correlations between their expression and reflectance (Figs. 2 and 3 ). Interestingly, the genes annotated to photosynthesis and pigments were best predicted via the NIR and SWIR wavelengths. This may appear counterintuitive, but there are two reasons for these results that we consider most plausible. First, photosynthesis is an integrative physiological process that does not only include the photosystems and their associated pigment. Thus, other aspects of leaf composition that may be correlated with photosynthesis may be best predicted by the NIR and SWIR (e.g. water content, leaf biochemistry and leaf anatomy). Secondly, while investigations that directly measure chlorophyll content have indicated the visible (VIS) wavelengths are the best indicators of these traits 17 , 18 , the present study is investigating genes annotated as being associated with pigments, generally. That is, they are an indirect indicator of the preparation, production and accumulation of plant pigments generally and some, but not all, are linked to the photosynthetic process. In addition, if other aspects of photosynthesis are best indicated by NIR and SWIR wavelengths, the analytical approach used will place less emphasis on the VIS wavelengths. Fig. 3 The magnitude of loadings in different the wavelength ranges. a A. saccharum and ( c ) A. rubrum . The portion of strong canonical correlations (>0.5) in different wavelength ranges ( b ) A. saccharum and ( d ) A. rubrum . The dark blue color represents the VIS range, the red color represents the NIR range, and the dark blue represents the SWIR range."
+          },
+          {
+            "id": "",
+            "text": "a A. saccharum and ( c ) A. rubrum . The portion of strong canonical correlations (>0.5) in different wavelength ranges ( b ) A. saccharum and ( d ) A. rubrum . The dark blue color represents the VIS range, the red color represents the NIR range, and the dark blue represents the SWIR range."
+          },
+          {
+            "id": "Par12",
+            "text": "In sum, the three broad wavelength ranges (i.e. VIS, NIR and SWIR) varied in the degree to which they correlated with gene expression (Fig. 3 ). In both A. saccharum and A. rubrum , the highest magnitude loadings for reflectance in the regularized canonical correlation analysis were associated with the NIR wavelengths (Fig. 3 ). Specifically, NIR wavelengths can contribute to predictions of gene expression related to ABA, pathogens, photosynthesis, pigments and plant-water relations. Loadings from the SWIR range made both moderate and high contribution (Fig. 3 ). The SWIR wavelengths contributed to correlations of every category of gene function we annotated in our study including drought-specific genes (Fig. 3 ). The increased ability of SWIR, relative to NIR, to correlate with the expression of drought-specific genes is supported by previous studies that have noted the importance of both NIR and SWIR wavelengths for assessing the drought status of vegetation 19 , 20 . In summary, we find that NIR wavelengths tended to have relatively more linkages to the expression of genes, but the SWIR wavelengths have relatively stronger associations with some groups of genes and are likely critical additional information for producing robust predictions of gene expression that leverage both the NIR and SWIR wavelengths."
+          },
+          {
+            "id": "Par13",
+            "text": "Here, we have shown that leaf-level gene expression data can be predicted upon the basis of leaf-level hyperspectral reflectance data. Establishing leaf-level relationships between trait and hyperspectral data is an essential step for ground-truthing and large-scale prediction of plant traits which rely upon airborne imagery data 9 , 21 , 22 , 23 – 24 . It is also critical for high-throughput phenotyping of crops in field and greenhouse settings 25 , 26 , 27 – 28 . Thus, as with continuous trait data, successfully linking gene expression data to reflectance data is an essential step for downstream applications."
+          },
+          {
+            "id": "Par14",
+            "text": "Given that we know that gene expression can now be linked to reflectance at the leaf-level, a logical next step will be to generate maps of gene expression where imagery data are available. Moving from leaf-level data to crown-level prediction comes with additional challenges. Some of these include image quality, image filtering and multiple leaves and/or species per pixel. These have been known challenges for all functional trait mapping via hyperspectral imagery campaigns for more than a decade, which has spurred methodological approaches to mitigate their impact to produce robust maps of traits 22 , 23 – 24 . We believe the most proximate step towards maps of gene expression will be to follow the approach published by Wang et al 24 . that predicted leaf functional trait data using ground surveys and 1x1m resolution airborne imagery. Specifically, a field-based inventory that simultaneously builds expression-reflectance relationships that can be applied to estimate the expression of entire crowns for many individuals. These crown-level expression values would then be linked to contemporaneous airborne imagery, which has been normalized and filtered, to build statistical models that can be applied across the entire area imaged. That is, the same successful approaches used for mapping traits can be applied to expression data. Future applications using aircraft flown at higher altitudes (e.g. 17) or imagery acquired from spaceborne sensors will need to generate averaged expression values across the vegetation within known pixels to generate models using those data, but, again, this is feasible using expression data as it is with functional trait data. In sum, while mapping expression on broad spatial extents is beyond the scope of the present work, we have shown that the essential leaf-level relationships occur and existing methodological approaches used to map functional traits at scale can be applied using leaf-level expression and reflectance data when there is contemporaneously acquired imagery."
+          },
+          {
+            "id": "Par15",
+            "text": "Our findings indicates that ecologists may be able to dramatically expand their capacity to generate functionally deep assays of function across broad spatial extents. Beyond the leaf-to-crown considerations mentioned above, there are some additional considerations going forward. First, roughly one-half to one-third of the genes in this study were correlated with spectral reflectance. Thus, this approach will not offer the ability to predict the expression of all genes or functions of interest to an ecologist. Second, predictive approaches like those used in the functional trait literature (e.g. partial least square regressions) 21 are improved by large numbers of samples and, ideally, from individuals experiencing a broad range of environments. Lastly, we have focused only on the genes that can be reliably annotated or identified via gene ontologies. However, as we noted above, gene ontologies are not direct measures of actual traits or rates and this can lead to results that may appear counterintuitive at face value particularly with respect to complex physiological processes. In addition, gene ontology-based approaches result in a large number of genes that are not analyzed, but are likely to have important functions. Despite these challenges, the potential for predicting the expression of hundreds to thousands of ecologically important genes from spectral reflectance is immense."
+          }
+        ],
+        "subsections": [
+          {
+            "id": "Sec3",
+            "title": "Conclusions",
+            "paragraphs": [
+              {
+                "id": "Par15",
+                "text": "Our findings indicates that ecologists may be able to dramatically expand their capacity to generate functionally deep assays of function across broad spatial extents. Beyond the leaf-to-crown considerations mentioned above, there are some additional considerations going forward. First, roughly one-half to one-third of the genes in this study were correlated with spectral reflectance. Thus, this approach will not offer the ability to predict the expression of all genes or functions of interest to an ecologist. Second, predictive approaches like those used in the functional trait literature (e.g. partial least square regressions) 21 are improved by large numbers of samples and, ideally, from individuals experiencing a broad range of environments. Lastly, we have focused only on the genes that can be reliably annotated or identified via gene ontologies. However, as we noted above, gene ontologies are not direct measures of actual traits or rates and this can lead to results that may appear counterintuitive at face value particularly with respect to complex physiological processes. In addition, gene ontology-based approaches result in a large number of genes that are not analyzed, but are likely to have important functions. Despite these challenges, the potential for predicting the expression of hundreds to thousands of ecologically important genes from spectral reflectance is immense."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Sec3",
+        "title": "Conclusions",
+        "paragraphs": [
+          {
+            "id": "Par15",
+            "text": "Our findings indicates that ecologists may be able to dramatically expand their capacity to generate functionally deep assays of function across broad spatial extents. Beyond the leaf-to-crown considerations mentioned above, there are some additional considerations going forward. First, roughly one-half to one-third of the genes in this study were correlated with spectral reflectance. Thus, this approach will not offer the ability to predict the expression of all genes or functions of interest to an ecologist. Second, predictive approaches like those used in the functional trait literature (e.g. partial least square regressions) 21 are improved by large numbers of samples and, ideally, from individuals experiencing a broad range of environments. Lastly, we have focused only on the genes that can be reliably annotated or identified via gene ontologies. However, as we noted above, gene ontologies are not direct measures of actual traits or rates and this can lead to results that may appear counterintuitive at face value particularly with respect to complex physiological processes. In addition, gene ontology-based approaches result in a large number of genes that are not analyzed, but are likely to have important functions. Despite these challenges, the potential for predicting the expression of hundreds to thousands of ecologically important genes from spectral reflectance is immense."
+          }
+        ]
+      },
+      {
+        "id": "Sec4",
+        "title": "Materials and methods",
+        "paragraphs": [
+          {
+            "id": "Par16",
+            "text": "Sun-exposed canopy leaves were collected from 14 sugar maple ( Acer saccharum [Sapindaceae]) and 12 red maple ( A. rubrum ) trees at the University of Notre Dame Environmental Research Center located on the border of Wisconsin and the upper peninsula of Michigan. The leaves were collected prior to 11am over a three-day period during June 2023. A sample of fully-expanded leaves with no or minimal damage was flash frozen in liquid nitrogen immediately in the field to preserve RNA. Adjacent leaves similar in condition on the same branch were collected for spectral reflectance measurements. Spectral reflectance was measured on the adaxial leaf surface using an ASD FieldSpec 4 Hi-Res spectroradiometer and an attached ASD integrating sphere (Malvern Panalytical Ltd., Malvern, U.K.). In accordance with the protocol provided in the ASD integrating sphere manual, we collected measurements of the reference standard between sample leaf reflectance measurements as well as measurements of stray light. During measurements, care was taken to avoid the midrib and other major venation. Measurements were taken from one healthy leaf per individual comparable to the leaf tissue frozen from the same branch. Five repeated spectral measurements were taken of the leaf and averaged for downstream analyses. Due to noise inherent in reflectance measurements at extreme wavelengths, the final data set was trimmed to only include reflectance values between 400 and 2400 nm."
+          },
+          {
+            "id": "Par17",
+            "text": "The frozen leaf tissue was stored in 10 ml cryovials in a −80 °C freezer prior to RNA extraction. In the lab, tissue was hand ground into small pellets and transferred into a 2 ml tube with 2.8 mm ceramic beads to further grind the tissue power via a Qiagen TissueLysser II (Qiagen, Hilden, Germany). The totalRNA of each leaf sample was extracted using Qiagen RNeasy Plant Mini Kits via a Qiagen QIACube Connect using the standard kit protocols. The totalRNA samples were sent to Novogene (Davis, California) for sequencing using an Illumina NovaSeq X platform. The mRNA sequencing read data are paired-end 150 bp with ~4 GB per sample."
+          },
+          {
+            "id": "Par18",
+            "text": "Sequencing reads were trimmed with fastp 29 , and measured quality before and after data trimming using fastqc 30 and multiqc 31 . We mapped trimmed reads to a published chromosome-scale A. saccharum genome 32 using hisat2 33 and summarized reads coverage with samtools 34 and stringtie 35 . We also leveraged the existing annotation associated with the published A. saccharum genome and annotated unknown genes with blastx 36 , blastp 36 , hmmscan 37 . All gene and transcript annotations were wrapped together with Trinotate 38 . Gene expression levels of each sample were summarized using transcript-level expression. It is important to note that we analyzed gene-level expression via summarized transcript-level expression, which may lead to “cancelation effects” in the RNAseq data."
+          },
+          {
+            "id": "Par19",
+            "text": "Gene expression data for all samples were summarized into a single data matrix per species. In this analysis, we only analyzed genes with annotations that contained the words: ABA, drought, pathogen, photosynthesis, pigment or water for A. saccharum ( n = 590 ) and A. rubrum ( n = 1219 ). We focused on these general terms as they are linked to functions and processes of interest to forest ecologists. We note that other annotated or unannotated genes are ecologically important and could or should be analyzed by ecologists when they fully employ the approach presented in this report. Spectral reflectance measurements of all samples were summarized as a data matrix. To quantify the maximum correlation between the two groups of variables, we implemented a regularized canonical correlation analysis via the mixOmics package 16 in R 39 . We optimized the regulatory parameters using a parallel version of the tune.rcc() function. Next, we calculated the loadings of each variable in each analysis under the optimal lambda value calculated. Last, we calculated and plotted the canonical correlation of each variable."
+          },
+          {
+            "id": "Par20",
+            "text": "Further information on research design is available in the Nature Portfolio Reporting Summary linked to this article."
+          }
+        ],
+        "subsections": [
+          {
+            "id": "Sec5",
+            "title": "Field data collection",
+            "paragraphs": [
+              {
+                "id": "Par16",
+                "text": "Sun-exposed canopy leaves were collected from 14 sugar maple ( Acer saccharum [Sapindaceae]) and 12 red maple ( A. rubrum ) trees at the University of Notre Dame Environmental Research Center located on the border of Wisconsin and the upper peninsula of Michigan. The leaves were collected prior to 11am over a three-day period during June 2023. A sample of fully-expanded leaves with no or minimal damage was flash frozen in liquid nitrogen immediately in the field to preserve RNA. Adjacent leaves similar in condition on the same branch were collected for spectral reflectance measurements. Spectral reflectance was measured on the adaxial leaf surface using an ASD FieldSpec 4 Hi-Res spectroradiometer and an attached ASD integrating sphere (Malvern Panalytical Ltd., Malvern, U.K.). In accordance with the protocol provided in the ASD integrating sphere manual, we collected measurements of the reference standard between sample leaf reflectance measurements as well as measurements of stray light. During measurements, care was taken to avoid the midrib and other major venation. Measurements were taken from one healthy leaf per individual comparable to the leaf tissue frozen from the same branch. Five repeated spectral measurements were taken of the leaf and averaged for downstream analyses. Due to noise inherent in reflectance measurements at extreme wavelengths, the final data set was trimmed to only include reflectance values between 400 and 2400 nm."
+              }
+            ]
+          },
+          {
+            "id": "Sec6",
+            "title": "RNA extraction, sequencing and bioinformatic analysis",
+            "paragraphs": [
+              {
+                "id": "Par17",
+                "text": "The frozen leaf tissue was stored in 10 ml cryovials in a −80 °C freezer prior to RNA extraction. In the lab, tissue was hand ground into small pellets and transferred into a 2 ml tube with 2.8 mm ceramic beads to further grind the tissue power via a Qiagen TissueLysser II (Qiagen, Hilden, Germany). The totalRNA of each leaf sample was extracted using Qiagen RNeasy Plant Mini Kits via a Qiagen QIACube Connect using the standard kit protocols. The totalRNA samples were sent to Novogene (Davis, California) for sequencing using an Illumina NovaSeq X platform. The mRNA sequencing read data are paired-end 150 bp with ~4 GB per sample."
+              },
+              {
+                "id": "Par18",
+                "text": "Sequencing reads were trimmed with fastp 29 , and measured quality before and after data trimming using fastqc 30 and multiqc 31 . We mapped trimmed reads to a published chromosome-scale A. saccharum genome 32 using hisat2 33 and summarized reads coverage with samtools 34 and stringtie 35 . We also leveraged the existing annotation associated with the published A. saccharum genome and annotated unknown genes with blastx 36 , blastp 36 , hmmscan 37 . All gene and transcript annotations were wrapped together with Trinotate 38 . Gene expression levels of each sample were summarized using transcript-level expression. It is important to note that we analyzed gene-level expression via summarized transcript-level expression, which may lead to “cancelation effects” in the RNAseq data."
+              }
+            ]
+          },
+          {
+            "id": "Sec7",
+            "title": "Data integration",
+            "paragraphs": [
+              {
+                "id": "Par19",
+                "text": "Gene expression data for all samples were summarized into a single data matrix per species. In this analysis, we only analyzed genes with annotations that contained the words: ABA, drought, pathogen, photosynthesis, pigment or water for A. saccharum ( n = 590 ) and A. rubrum ( n = 1219 ). We focused on these general terms as they are linked to functions and processes of interest to forest ecologists. We note that other annotated or unannotated genes are ecologically important and could or should be analyzed by ecologists when they fully employ the approach presented in this report. Spectral reflectance measurements of all samples were summarized as a data matrix. To quantify the maximum correlation between the two groups of variables, we implemented a regularized canonical correlation analysis via the mixOmics package 16 in R 39 . We optimized the regulatory parameters using a parallel version of the tune.rcc() function. Next, we calculated the loadings of each variable in each analysis under the optimal lambda value calculated. Last, we calculated and plotted the canonical correlation of each variable."
+              }
+            ]
+          },
+          {
+            "id": "Sec8",
+            "title": "Reporting summary",
+            "paragraphs": [
+              {
+                "id": "Par20",
+                "text": "Further information on research design is available in the Nature Portfolio Reporting Summary linked to this article."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Sec5",
+        "title": "Field data collection",
+        "paragraphs": [
+          {
+            "id": "Par16",
+            "text": "Sun-exposed canopy leaves were collected from 14 sugar maple ( Acer saccharum [Sapindaceae]) and 12 red maple ( A. rubrum ) trees at the University of Notre Dame Environmental Research Center located on the border of Wisconsin and the upper peninsula of Michigan. The leaves were collected prior to 11am over a three-day period during June 2023. A sample of fully-expanded leaves with no or minimal damage was flash frozen in liquid nitrogen immediately in the field to preserve RNA. Adjacent leaves similar in condition on the same branch were collected for spectral reflectance measurements. Spectral reflectance was measured on the adaxial leaf surface using an ASD FieldSpec 4 Hi-Res spectroradiometer and an attached ASD integrating sphere (Malvern Panalytical Ltd., Malvern, U.K.). In accordance with the protocol provided in the ASD integrating sphere manual, we collected measurements of the reference standard between sample leaf reflectance measurements as well as measurements of stray light. During measurements, care was taken to avoid the midrib and other major venation. Measurements were taken from one healthy leaf per individual comparable to the leaf tissue frozen from the same branch. Five repeated spectral measurements were taken of the leaf and averaged for downstream analyses. Due to noise inherent in reflectance measurements at extreme wavelengths, the final data set was trimmed to only include reflectance values between 400 and 2400 nm."
+          }
+        ]
+      },
+      {
+        "id": "Sec6",
+        "title": "RNA extraction, sequencing and bioinformatic analysis",
+        "paragraphs": [
+          {
+            "id": "Par17",
+            "text": "The frozen leaf tissue was stored in 10 ml cryovials in a −80 °C freezer prior to RNA extraction. In the lab, tissue was hand ground into small pellets and transferred into a 2 ml tube with 2.8 mm ceramic beads to further grind the tissue power via a Qiagen TissueLysser II (Qiagen, Hilden, Germany). The totalRNA of each leaf sample was extracted using Qiagen RNeasy Plant Mini Kits via a Qiagen QIACube Connect using the standard kit protocols. The totalRNA samples were sent to Novogene (Davis, California) for sequencing using an Illumina NovaSeq X platform. The mRNA sequencing read data are paired-end 150 bp with ~4 GB per sample."
+          },
+          {
+            "id": "Par18",
+            "text": "Sequencing reads were trimmed with fastp 29 , and measured quality before and after data trimming using fastqc 30 and multiqc 31 . We mapped trimmed reads to a published chromosome-scale A. saccharum genome 32 using hisat2 33 and summarized reads coverage with samtools 34 and stringtie 35 . We also leveraged the existing annotation associated with the published A. saccharum genome and annotated unknown genes with blastx 36 , blastp 36 , hmmscan 37 . All gene and transcript annotations were wrapped together with Trinotate 38 . Gene expression levels of each sample were summarized using transcript-level expression. It is important to note that we analyzed gene-level expression via summarized transcript-level expression, which may lead to “cancelation effects” in the RNAseq data."
+          }
+        ]
+      },
+      {
+        "id": "Sec7",
+        "title": "Data integration",
+        "paragraphs": [
+          {
+            "id": "Par19",
+            "text": "Gene expression data for all samples were summarized into a single data matrix per species. In this analysis, we only analyzed genes with annotations that contained the words: ABA, drought, pathogen, photosynthesis, pigment or water for A. saccharum ( n = 590 ) and A. rubrum ( n = 1219 ). We focused on these general terms as they are linked to functions and processes of interest to forest ecologists. We note that other annotated or unannotated genes are ecologically important and could or should be analyzed by ecologists when they fully employ the approach presented in this report. Spectral reflectance measurements of all samples were summarized as a data matrix. To quantify the maximum correlation between the two groups of variables, we implemented a regularized canonical correlation analysis via the mixOmics package 16 in R 39 . We optimized the regulatory parameters using a parallel version of the tune.rcc() function. Next, we calculated the loadings of each variable in each analysis under the optimal lambda value calculated. Last, we calculated and plotted the canonical correlation of each variable."
+          }
+        ]
+      },
+      {
+        "id": "Sec8",
+        "title": "Reporting summary",
+        "paragraphs": [
+          {
+            "id": "Par20",
+            "text": "Further information on research design is available in the Nature Portfolio Reporting Summary linked to this article."
+          }
+        ]
+      }
+    ],
+    "full_text": "Introduction Forests store ~80% of the biomass and biodiversity on the planet and account for ~75% of gross primary productivity on the terrestrial surface 1 , 2 . The structure, composition and health of these ecosystems are the net result of the successes and failures of individuals and species in a rapidly changing environmental context. Trees interface with their environment via their functional biology, often quantified via functional traits. Functional traits are relatively easy to measure traits representing where species fall along major tradeoff axes related to plant form and function. For example, the leaf traits related to the leaf economics spectra are indicative of a fundamental tradeoff between leaf lifespan and photosynthetic rate on a mass basis 3 . A key to the success and widespread adoption of the functional trait approach to ecology is that they offer a pragmatic approach for understanding how individuals to ecosystems interface with a changing world. Despite the widespread use of functional trait-based approaches in plant ecology, they have been, traditionally, limited in two ways 4 . First, while functional traits are relatively easy to measure, quantifying trait data across thousands to hundreds of thousands of individual trees and/or broad spatial extents is challenging. Thus, researchers often have to represent the trait value of all conspecifics within or across populations using a species-level mean trait value. In many cases these species-level mean trait values are quantified using a few sampled individuals from a forest plot (e.g. 0.1–0.5 km 2 ) 4 , 5 , but mean values from global databases are also frequently employed to mapping function on regional to global scales 6 , 7 . Second, while the core set of functional traits typically measured in plant ecology does provide insights into key tradeoffs, they do not capture the breadth of the functional diversity within plants. For example, the core set of traits most measured in forest ecology conveys little information about plant defense and they provide no information about the dynamic functional response of a plant to a changing environment. That is, a species-level mean functional trait value from a forest plot does not measure the breadth of key plant functions and it is a static estimate of function applied to understand a dynamic environmental context 4 . Advances in remote sensing leveraging imaging spectroscopy are quickly removing the first limitation by providing maps of functional traits at broad spatial extents and fine spatial resolutions 8 , 9 . For example, models of leaf traits based upon their reflectance have been applied to hyperspectral imagery for thousands of acres to entire countries to provide detailed predicted maps of leaf traits that are revolutionizing forest ecology 9 . Functional genomics holds the potential to overcome the second limitation 10 . For example, gene expression data provide broad and deep assays of plant functional diversity within and across individuals and species 11 , 12 , 13 , 14 – 15 . However, the integration of functional genomics into forest ecology has lagged that of hyperspectral biology partly due to the cost of data acquisition and the associated challenge of quantifying gene expression on large numbers of individuals. Here, we provide evidence that the hyperspectral reflectance of tree leaf tissue is strongly related to the expression of thousands of expressed genes in two ecologically dominant and economically important maple ( Acer ) tree species from North America. The specific research questions we ask are: ( i ) are hyperspectral reflectance data linked to levels of gene expression across all genes expressed in leaf tissue in a natural forest stand?; ( ii ) are these linkages found across all wavelengths and both species?; and ( iii ) is leaf gene expression in some functions easier to predict than others upon the basis of hyperspectral reflectance data? The findings demonstrate the potential for spectral reflectance data to provide rapid and deep functional genomic assays on broad spatial extents that could transform forest ecology. Results and discussion Transcriptomics and the analyses of gene expression data have been shown to be uncover key functional drivers of forest composition and dynamics that are not easily assayed via functional traits 12 , 13 , 15 . However, quantifying gene expression at the individual-level on broad spatial extents is cost prohibitive. Hyperspectral reflectance data have been leveraged to estimate functional trait data on broad extents, and we posited that a similar approach could be utilized with gene expression data. Here, we investigated the degree to which gene expression is linked to the spectral reflectance of leaf tissue as a means of expanding the depth and breadth of plant function that can be inferred from hyperspectral imaging data. To this end, we used a regularized canonical correlation approach 16 using leaf tissue from naturally occurring individuals from two of the most ecologically and economically important tree species in eastern North America - sugar maple ( Acer saccharum [Sapindacae])( n = 14 ) and red maple ( A. rubrum )( n = 12 ). The analyses found evidence of strong correlations between the measured range of spectral reflectance (400–2400 nm) and the expression of genes related to key ecological functions (Fig. 1 ). The results demonstrate that the strongest correlations between gene expression levels and wavelengths were generally found in the shortwave infrared radiation (SWIR) and near infrared (NIR) wavelengths (rows in Fig. 1 ) and this was found in both species studied. This contrasted with the visible (VIS) wavelengths that, generally, had weak correlations with gene expression. Lastly, while approximately one-half to two-thirds of the genes (columns in Fig. 1 ) had strong correlations with wavelengths, there are clearly a number of genes that had no relationship between any wavelength and their expression levels. Fig. 1 Regularized canonical correlations of hyperspectral reflectance and gene expression. a A. saccharum (row = 2001, column = 590) and ( b ) A. rubrum (row = 2001, column = 1219). The rows of the heatmaps are spectral reflectance (i.e. wavelengths), which are categorized into the wave band range: VIS (400–700 nm), NIR (700–1100 nm), SWIR (1400–2400 nm). The columns of the heatmaps functional gene expression extracted from functional annotated transcript-level gene expression. Thus, each column is a transcript. The columns have been ordered using hierarchical clustering to facilitate visualization. These results have several important implications. First, they clearly demonstrate that gene expression can be predicted upon the basis of hyperspectral reflectance. Thus, the aspects of leaf structure and chemistry that produce a reflectance signature have a strong enough relationship with many genes that expression levels can be indirectly predicted. Second, they demonstrate that the SWIR wavelengths are very important for predicting leaf gene expression in these species, and likely others, indicating that deployed space- or airborne-sensors that do not include these wavelengths will have a reduced capacity to predict gene expression. Next, while the analyses shown in Fig. 1 allowed us to investigate a broad range of expressed genes in the leaf tissue, but we were particularly interested in genes that were annotated with functions that are ecologically important and potentially challenging to assess using commonly measured functional traits. Among those functions that are of most interesting to forest ecologists are genes related to water relations or drought, photosynthesis and plant-pest or plant-pathogen interactions. To begin, we identified genes annotated to these functions that have strong canonical correlations (>0.7) in the NIR and SWIR wavelength ranges (Fig. 2 ). For the genes related to water use (i.e. genes annotated to plant-water relations, abscisic acid (ABA) response, and drought) investigated, we show that the expression of these genes was frequently related to reflectance in the NIR range and that some, but not all, genes were related to reflectance in the SWIR. Thus, we were able to leverage data from the NIR and SWIR ranges to predict the differences between individual trees in their gene expression levels for these key water-related functions. This opens the possibility for the monitoring of forest response to water availability at broad spatial extents at the individual tree or pixel scale using airborne or spaceborne hyperspectral sensors that include the SWIR wavelengths. In other words, forest drought may be monitored at scale from at the transcriptomic-level. Fig. 2 Expression-reflectance annotations. Expressed genes with strong correlations (>0.7) along the reflectance spectrum (x-axis) where the color of the lines represents annotated functional gene categories ( a ) A. saccharum (left column) and ( b ) A. rubrum (right column). The red lines are ABA-related genes, the green lines are photosynthesis-related genes and the blue lines are water-related genes. Importantly, genes identified in the same functional group and even in the same biological pathway may be differentially correlated with reflectance spectra owing to differences in the up and down regulation of genes. Further, while some wavelengths may have strong (>0.7) canonical correlations with the expression of a gene, there are typically multiple additional wavelengths with moderate canonical correlations with expression. These moderate to strong canonical correlations from multiple wavelengths indicates that robust predictive models of gene expression from reflectance data can be generated using a larger dataset. Predictions of functional trait values from spectral data leverage trait-reflectance relationships from a broad range of wavelengths 11 . This finding demonstrates the capacity for leaf spectral reflectance data to predict the expression of functionally important genes. The pathogen, photosynthetic and pigment related genes were analyzed next. They had moderately strong (0.5–0.7) canonical correlations between their expression and reflectance (Figs. 2 and 3 ). Interestingly, the genes annotated to photosynthesis and pigments were best predicted via the NIR and SWIR wavelengths. This may appear counterintuitive, but there are two reasons for these results that we consider most plausible. First, photosynthesis is an integrative physiological process that does not only include the photosystems and their associated pigment. Thus, other aspects of leaf composition that may be correlated with photosynthesis may be best predicted by the NIR and SWIR (e.g. water content, leaf biochemistry and leaf anatomy). Secondly, while investigations that directly measure chlorophyll content have indicated the visible (VIS) wavelengths are the best indicators of these traits 17 , 18 , the present study is investigating genes annotated as being associated with pigments, generally. That is, they are an indirect indicator of the preparation, production and accumulation of plant pigments generally and some, but not all, are linked to the photosynthetic process. In addition, if other aspects of photosynthesis are best indicated by NIR and SWIR wavelengths, the analytical approach used will place less emphasis on the VIS wavelengths. Fig. 3 The magnitude of loadings in different the wavelength ranges. a A. saccharum and ( c ) A. rubrum . The portion of strong canonical correlations (>0.5) in different wavelength ranges ( b ) A. saccharum and ( d ) A. rubrum . The dark blue color represents the VIS range, the red color represents the NIR range, and the dark blue represents the SWIR range. In sum, the three broad wavelength ranges (i.e. VIS, NIR and SWIR) varied in the degree to which they correlated with gene expression (Fig. 3 ). In both A. saccharum and A. rubrum , the highest magnitude loadings for reflectance in the regularized canonical correlation analysis were associated with the NIR wavelengths (Fig. 3 ). Specifically, NIR wavelengths can contribute to predictions of gene expression related to ABA, pathogens, photosynthesis, pigments and plant-water relations. Loadings from the SWIR range made both moderate and high contribution (Fig. 3 ). The SWIR wavelengths contributed to correlations of every category of gene function we annotated in our study including drought-specific genes (Fig. 3 ). The increased ability of SWIR, relative to NIR, to correlate with the expression of drought-specific genes is supported by previous studies that have noted the importance of both NIR and SWIR wavelengths for assessing the drought status of vegetation 19 , 20 . In summary, we find that NIR wavelengths tended to have relatively more linkages to the expression of genes, but the SWIR wavelengths have relatively stronger associations with some groups of genes and are likely critical additional information for producing robust predictions of gene expression that leverage both the NIR and SWIR wavelengths. Here, we have shown that leaf-level gene expression data can be predicted upon the basis of leaf-level hyperspectral reflectance data. Establishing leaf-level relationships between trait and hyperspectral data is an essential step for ground-truthing and large-scale prediction of plant traits which rely upon airborne imagery data 9 , 21 , 22 , 23 – 24 . It is also critical for high-throughput phenotyping of crops in field and greenhouse settings 25 , 26 , 27 – 28 . Thus, as with continuous trait data, successfully linking gene expression data to reflectance data is an essential step for downstream applications. Given that we know that gene expression can now be linked to reflectance at the leaf-level, a logical next step will be to generate maps of gene expression where imagery data are available. Moving from leaf-level data to crown-level prediction comes with additional challenges. Some of these include image quality, image filtering and multiple leaves and/or species per pixel. These have been known challenges for all functional trait mapping via hyperspectral imagery campaigns for more than a decade, which has spurred methodological approaches to mitigate their impact to produce robust maps of traits 22 , 23 – 24 . We believe the most proximate step towards maps of gene expression will be to follow the approach published by Wang et al 24 . that predicted leaf functional trait data using ground surveys and 1x1m resolution airborne imagery. Specifically, a field-based inventory that simultaneously builds expression-reflectance relationships that can be applied to estimate the expression of entire crowns for many individuals. These crown-level expression values would then be linked to contemporaneous airborne imagery, which has been normalized and filtered, to build statistical models that can be applied across the entire area imaged. That is, the same successful approaches used for mapping traits can be applied to expression data. Future applications using aircraft flown at higher altitudes (e.g. 17) or imagery acquired from spaceborne sensors will need to generate averaged expression values across the vegetation within known pixels to generate models using those data, but, again, this is feasible using expression data as it is with functional trait data. In sum, while mapping expression on broad spatial extents is beyond the scope of the present work, we have shown that the essential leaf-level relationships occur and existing methodological approaches used to map functional traits at scale can be applied using leaf-level expression and reflectance data when there is contemporaneously acquired imagery. Conclusions Our findings indicates that ecologists may be able to dramatically expand their capacity to generate functionally deep assays of function across broad spatial extents. Beyond the leaf-to-crown considerations mentioned above, there are some additional considerations going forward. First, roughly one-half to one-third of the genes in this study were correlated with spectral reflectance. Thus, this approach will not offer the ability to predict the expression of all genes or functions of interest to an ecologist. Second, predictive approaches like those used in the functional trait literature (e.g. partial least square regressions) 21 are improved by large numbers of samples and, ideally, from individuals experiencing a broad range of environments. Lastly, we have focused only on the genes that can be reliably annotated or identified via gene ontologies. However, as we noted above, gene ontologies are not direct measures of actual traits or rates and this can lead to results that may appear counterintuitive at face value particularly with respect to complex physiological processes. In addition, gene ontology-based approaches result in a large number of genes that are not analyzed, but are likely to have important functions. Despite these challenges, the potential for predicting the expression of hundreds to thousands of ecologically important genes from spectral reflectance is immense. Materials and methods Field data collection Sun-exposed canopy leaves were collected from 14 sugar maple ( Acer saccharum [Sapindaceae]) and 12 red maple ( A. rubrum ) trees at the University of Notre Dame Environmental Research Center located on the border of Wisconsin and the upper peninsula of Michigan. The leaves were collected prior to 11am over a three-day period during June 2023. A sample of fully-expanded leaves with no or minimal damage was flash frozen in liquid nitrogen immediately in the field to preserve RNA. Adjacent leaves similar in condition on the same branch were collected for spectral reflectance measurements. Spectral reflectance was measured on the adaxial leaf surface using an ASD FieldSpec 4 Hi-Res spectroradiometer and an attached ASD integrating sphere (Malvern Panalytical Ltd., Malvern, U.K.). In accordance with the protocol provided in the ASD integrating sphere manual, we collected measurements of the reference standard between sample leaf reflectance measurements as well as measurements of stray light. During measurements, care was taken to avoid the midrib and other major venation. Measurements were taken from one healthy leaf per individual comparable to the leaf tissue frozen from the same branch. Five repeated spectral measurements were taken of the leaf and averaged for downstream analyses. Due to noise inherent in reflectance measurements at extreme wavelengths, the final data set was trimmed to only include reflectance values between 400 and 2400 nm. RNA extraction, sequencing and bioinformatic analysis The frozen leaf tissue was stored in 10 ml cryovials in a −80 °C freezer prior to RNA extraction. In the lab, tissue was hand ground into small pellets and transferred into a 2 ml tube with 2.8 mm ceramic beads to further grind the tissue power via a Qiagen TissueLysser II (Qiagen, Hilden, Germany). The totalRNA of each leaf sample was extracted using Qiagen RNeasy Plant Mini Kits via a Qiagen QIACube Connect using the standard kit protocols. The totalRNA samples were sent to Novogene (Davis, California) for sequencing using an Illumina NovaSeq X platform. The mRNA sequencing read data are paired-end 150 bp with ~4 GB per sample. Sequencing reads were trimmed with fastp 29 , and measured quality before and after data trimming using fastqc 30 and multiqc 31 . We mapped trimmed reads to a published chromosome-scale A. saccharum genome 32 using hisat2 33 and summarized reads coverage with samtools 34 and stringtie 35 . We also leveraged the existing annotation associated with the published A. saccharum genome and annotated unknown genes with blastx 36 , blastp 36 , hmmscan 37 . All gene and transcript annotations were wrapped together with Trinotate 38 . Gene expression levels of each sample were summarized using transcript-level expression. It is important to note that we analyzed gene-level expression via summarized transcript-level expression, which may lead to “cancelation effects” in the RNAseq data. Data integration Gene expression data for all samples were summarized into a single data matrix per species. In this analysis, we only analyzed genes with annotations that contained the words: ABA, drought, pathogen, photosynthesis, pigment or water for A. saccharum ( n = 590 ) and A. rubrum ( n = 1219 ). We focused on these general terms as they are linked to functions and processes of interest to forest ecologists. We note that other annotated or unannotated genes are ecologically important and could or should be analyzed by ecologists when they fully employ the approach presented in this report. Spectral reflectance measurements of all samples were summarized as a data matrix. To quantify the maximum correlation between the two groups of variables, we implemented a regularized canonical correlation analysis via the mixOmics package 16 in R 39 . We optimized the regulatory parameters using a parallel version of the tune.rcc() function. Next, we calculated the loadings of each variable in each analysis under the optimal lambda value calculated. Last, we calculated and plotted the canonical correlation of each variable. Reporting summary Further information on research design is available in the Nature Portfolio Reporting Summary linked to this article."
+  },
+  "references_count": 39
+}

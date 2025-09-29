@@ -1,0 +1,996 @@
+{
+  "metadata": {
+    "extraction_timestamp": "2025-09-26T10:54:43.028792",
+    "article_type": "research-article",
+    "language": "en"
+  },
+  "publication_info": {
+    "journal": "BMC Genomics",
+    "issn": "1471-2164",
+    "publisher": "BioMed Central",
+    "doi": "10.1186/s12864-025-11922-1",
+    "volume": "26",
+    "issue": "1",
+    "publication_dates": {
+      "pub": "2025-08-02",
+      "collection": "2025-12"
+    }
+  },
+  "title": "A Candidatus liberibacter Asiaticus effector, CLIBASIA_00185 controls sugar metabolism, phenylpropanoid biosynthesis, and endocytosis pathway in Citrus sinensis",
+  "authors": [
+    {
+      "surname": "Zhang",
+      "given_names": "Shushe",
+      "full_name": "Shushe Zhang",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff1",
+        "Aff2"
+      ]
+    },
+    {
+      "surname": "Lu",
+      "given_names": "Yaobin",
+      "full_name": "Yaobin Lu",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff2"
+      ]
+    },
+    {
+      "surname": "He",
+      "given_names": "Jun",
+      "full_name": "Jun He",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff2"
+      ]
+    },
+    {
+      "surname": "Zhou",
+      "given_names": "Changyong",
+      "full_name": "Changyong Zhou",
+      "email": "zhoucy@cric.cn",
+      "is_corresponding": true,
+      "affiliation_refs": [
+        "Aff1"
+      ]
+    },
+    {
+      "surname": "Wang",
+      "given_names": "Xuefeng",
+      "full_name": "Xuefeng Wang",
+      "email": "xfwang@swu.edu.cn",
+      "is_corresponding": true,
+      "affiliation_refs": [
+        "Aff1"
+      ]
+    }
+  ],
+  "affiliations": {
+    "Aff1": {
+      "institution": "Southwest University",
+      "department": "College of Plant Protection",
+      "address": {
+        "city": "Chongqing",
+        "country": "P. R. China"
+      }
+    },
+    "Aff2": {
+      "institution": "Xianghu Laboratory",
+      "address": {
+        "city": "Hangzhou",
+        "state": "Zhejiang",
+        "country": "P. R. China"
+      }
+    }
+  },
+  "abstract": {
+    "sections": {
+      "background": "Citrus Huanglongbing (HLB) is the most catastrophic citrus disease worldwide. SEC-dependent effectors (SDEs) play prominent roles in HLB pathogenesis, and 86 were predicted from the genome of Candidatus Liberibacter asiaticus. Nevertheless, little is known about the comprehensive picture of effector action mechanisms. In this study, RNA-seq was performed to explore the gene expression profiling of transgenic citrus plants expressing a C Las SDE, CLIBASIA_00185 (0185-OE).",
+      "results": "A total of 6,506 differentially expressed genes (DEGs) were identified between 0185-OEs and the wild-type (WT) control through RNA-seq. Gene ontology (GO) analysis indicated that molecular functions associated with cellular process, cell part, binding, and catalysis activity were affected. Kyoto encyclopedia of genes and genomes (KEGG) pathway analysis revealed that DEGs were enriched in pathways including primary and secondary metabolisms. Further analysis demonstrated that DEGs implicated in sugar metabolism, phenylpropanoid biosynthesis, and endocytosis pathway were markedly induced in 0185-OE group compared to those in WTs. Ten genes were chosen to verify RNA-seq data with qRT-PCR, and their expression patterns were in good agreement with those of RNA-seq.",
+      "conclusions": "The transcriptomic analysis demonstrated that CLIBASIA_00185 ( C Las0185) governed sugar metabolism, phenylpropanoid biosynthesis and endocytosis for pathogen survival and development. The results determined a prominent role of C Las0185 in HLB pathogenicity that could be a target for disease management."
+    },
+    "full_text": "Abstract Background Citrus Huanglongbing (HLB) is the most catastrophic citrus disease worldwide. SEC-dependent effectors (SDEs) play prominent roles in HLB pathogenesis, and 86 were predicted from the genome of Candidatus Liberibacter asiaticus. Nevertheless, little is known about the comprehensive picture of effector action mechanisms. In this study, RNA-seq was performed to explore the gene expression profiling of transgenic citrus plants expressing a C Las SDE, CLIBASIA_00185 (0185-OE). Results A total of 6,506 differentially expressed genes (DEGs) were identified between 0185-OEs and the wild-type (WT) control through RNA-seq. Gene ontology (GO) analysis indicated that molecular functions associated with cellular process, cell part, binding, and catalysis activity were affected. Kyoto encyclopedia of genes and genomes (KEGG) pathway analysis revealed that DEGs were enriched in pathways including primary and secondary metabolisms. Further analysis demonstrated that DEGs implicated in sugar metabolism, phenylpropanoid biosynthesis, and endocytosis pathway were markedly induced in 0185-OE group compared to those in WTs. Ten genes were chosen to verify RNA-seq data with qRT-PCR, and their expression patterns were in good agreement with those of RNA-seq. Conclusions The transcriptomic analysis demonstrated that CLIBASIA_00185 ( C Las0185) governed sugar metabolism, phenylpropanoid biosynthesis and endocytosis for pathogen survival and development. The results determined a prominent role of C Las0185 in HLB pathogenicity that could be a target for disease management."
+  },
+  "keywords": [
+    {
+      "language": "en",
+      "keywords": [
+        "Citrus Huanglongbing",
+        "CLIBASIA_00185",
+        "RNA-seq",
+        "Sugar metabolism",
+        "Phenylpropanoid biosynthesis",
+        "Endocytosis"
+      ]
+    },
+    {
+      "language": "en",
+      "keywords": [
+        "Plant Biochemistry",
+        "Biosynthesis",
+        "Arabidopsis thaliana",
+        "Plant Secondary Metabolism",
+        "Effectors in plant pathology",
+        "Glycoside"
+      ]
+    },
+    {
+      "language": "en",
+      "keywords": [
+        "Biological Sciences",
+        "Biochemistry and Cell Biology",
+        "Genetics"
+      ]
+    }
+  ],
+  "funding": [
+    {
+      "source": "Key R&D Program of Zhejiang",
+      "award_id": "2024SSYS0105"
+    },
+    {
+      "source": "National Key Research and Development Program of China",
+      "award_id": "2021YFD1400800"
+    },
+    {
+      "source": "National Citrus Engineering Research Center",
+      "award_id": "4142100025"
+    },
+    {
+      "source": "National Natural Sciences Foundation of China",
+      "award_id": "U23A20196"
+    },
+    {
+      "source": "Special Fund for Youth Team of Soutwest University",
+      "award_id": "SWU-XJLJ202310"
+    },
+    {
+      "source": "Innovation Research 2035 Pilot Plan of Southwest University",
+      "award_id": "SWU-5331000008"
+    }
+  ],
+  "content": {
+    "sections": [
+      {
+        "id": "Sec1",
+        "title": "Introduction",
+        "paragraphs": [
+          {
+            "id": "Par4",
+            "text": "Citrus, with a productivity of 9.2 tons/ha, is one of top three fruit crops worldwide (FAO Stat, 2023). However, its production faces the persistent threats of biotic and abiotic stresses. Among them, citrus Huanglongbing (HLB), the most devastating disease of citrus, has spread to the major growing regions including China, Brazil, and USA [ 1 ]. The causal agents of HLB are three Candidatus Liberibacter species [ 2 ]. Due to the widest distribution and strongest pathogenicity, Ca . L. asiaticus ( C Las) has been mostly studied. The pathogen infection interferes with the global gene expression, metabolism, and fitness in plant hosts [ 3 ]. Studies concluded some general trends in citrus responses to HLB. For instance, the expression of sugar metabolic genes is altered in C Las-infected plants [ 4 ]. Consistently, metabolomic studies revealed that sugar levels vary during the bacteria infection [ 5 , 6 ]. Despite the highly reduced genome, C Las encodes a variety of traits that allow it to scavenge energy and nutrients from plant hosts [ 7 ]. Correspondingly, systemic and chronic immunity are initiated in the plant hosts, including callose deposition, reactive oxygen species (ROS) production, induced expression of defense-related genes, and increased levels of salicylic acid (SA) [ 8 , 9 – 10 ]. Nevertheless, no known commercial cultivars confer HLB resistance. Additionally, none of the current strategies are efficient in preventing the disease. Hence, it is necessary to explore the intricacy of C Las-citrus interaction."
+          },
+          {
+            "id": "Par5",
+            "text": "A zigzag model has been commonly used to clarify pathogen-plant interactions [ 11 ]. In this theory, plant cells perceive exogenous intruders based on receptors anchored on outer membranes and intracellular receptors, which recognize pathogen-associated molecular patterns (PAMPs) and pathogen-delivered effectors, respectively. As C Las can be transmitted directly into the phloem by the Asian citrus psyllid ( Diaphorina citri ), it avoids the recognition by outer membrane receptors [ 8 ]. Therefore, effectors play a prominent role in C Las pathogenicity. 86 s-dependent effectors (SDEs) have been predicted [ 12 ], while few have been characterized, and they enhance citrus susceptibility to HLB in different ways. For instance, SDE1 (CLIBASIA_05315) induces accelerated senescence in citrus [ 13 ]; CLIBASIA_04425 decreases SA accumulation [ 14 ]; SDE3 (CLIBASIA_00420) and SDE4405 (CLIBASIA_04405) manipulate host autophagy [ 15 , 16 ]; SDE15 (CLIBASIA_4025) and CLIBASIA_05330 reduce immunity-related genes [ 17 , 18 ]; SDE19 (CLIBASIA_05320) disrupts vesicle trafficking [ 19 ]; and CLIBASIA_03230 suppresses calcium signaling in defense [ 20 ]. Alliance with mechanism research and artificial intelligence (AI), represents an effective strategy to combat HLB. Identified by AI, the antiproteolysis peptides 3 (APP3) controlls the disease via stabilizing MYC2, which is disrupted by SDE5-PUB21 module [ 21 ]. Prior study determined that C Las effector CLIBASIA_00185 ( C Las0185) benefits pathogen colonization by depressing ROS-mediated plant immunity. With yeast-two-hybrid (Y2H) assay, 49 candidates were identified, indicating that C Las0185 induces various changes within the hosts [ 22 ]."
+          },
+          {
+            "id": "Par6",
+            "text": "Transcriptomics serves as a fundamental approach for exploring transcriptional changes in organisms, and has been extensively used to investigate genetic reprogramming in citrus plants respond to Ca . Liberibacter spp. infection [ 23 , 24 ]. Transcriptome profiling of C Las in citrus and psyllids advances the understanding of HLB biology and provides a novel insight into the interactions within pathogen, plant host, and insect vector [ 25 ]. Comparative transcriptome analysis was performed to find the target genes that could be critical for HLB resistance [ 26 , 27 ]. Moreover, an integrated approach to evaluate molecular changes of HLB-diseased citrus plants was conducted with the combination of transcriptomic, proteomic, and metabolomic analysis [ 28 ]. Due to the convenience of genetic transformation, citrus cultivar Wanjincheng ( Citrus sinensis ) was selected as the plant material to generate C Las0185-transgenic citrus plants (0185-OE). Here, high-throughput RNA sequencing (RNA-seq) was conducted to assay the transcriptomes of 0185-OEs and wild-type controls (WT). The findings lead the way for a better understanding of the action mechanisms of C Las0185."
+          }
+        ]
+      },
+      {
+        "id": "Sec2",
+        "title": "Results",
+        "paragraphs": [
+          {
+            "id": "Par7",
+            "text": "To analyze the effects of C Las0185 on gene expression of C . sinensis ‘ Wanjincheng’, high-throughput RNA-seq were performed on three 0185-OEs and three WTs. In total, 40,848,494 to 47,734,208 and 41,154,856 to 45,039,584 raw reads were detected for OE and WT groups, respectively (Table S1 ). After filtering, the clean reads ranged from 40,256,444 to 47,244,968 for OE group while 40,790,252 to 44,681,792 for WT group. Q20 and Q30 percentages were above 90%, and the guanine-cytosine percentage (GC%) was ca. 44% in each library. On average, 88.30% of the reads were uniquely mapped to the C . sinensis genome. Sample to sample clustering analysis was based on Pearson distance calculated using fragments per kilobase of transcript per million (FPKM) values (Fig. 1 A). It showed that samples were strongly clustered based on their types, and the Pearson correlation coefficients ( R 2 ) within OEs and WTs were above 0.85. The principal component analysis (PCA) illustrated the overall expression profiles of OE and WT groups, suggesting a good reproducibility for the biological replicates with the same group but different between two groups (Fig. 1 B). A Venn diagram was used to identify their co-expression genes (Fig. 1 C). Filtered by a threshold of 1.0 mean-FPKM, 15,379 genes were expressed in both OE and WT groups, while 1,291 and 1,869 genes were specific to WTs and OEs, respectively."
+          },
+          {
+            "id": "Par8",
+            "text": "Fig. 1 Transcriptome data analysis. A Sample to sample clustering analysis for examining batch effects and similarity. OE, transgenic citrus plants expressing CLIBASIA_00185 ( CLas0185 ); WT, wild-type group. The analysis was based on Pearson distance calculated using Fragments per kilobase of transcript per million (FPKM) values. R 2 was calculated via Pearson’s correlation analysis, and the colors from red to cyan represent the correlationship from high to low. B Principle component analysis (PCA) for the classification of gene expression patterns between OE and WT groups measured in FPKM values. PC1, the first principle component; PC2, the second principle component. C A Venn diagram representing the shared/unique genes between OEs and WTs. D The volcano plot of differentially expressed genes (DEGs) between OEs and WTs. The padjust < 0.05 and ꟾlog2(mean-FPKM of OE/mean-FPKM of WT)ꟾ˃1 were set as the threshold. E Hierarchical clustering heatmap of DEGs between OEs and WTs. Each column indicates a library, and each row indicates a DEG. The data were normalized via FPKM values, and the colors from red to blue represent the expression levels from high to low"
+          },
+          {
+            "id": "",
+            "text": "Transcriptome data analysis. A Sample to sample clustering analysis for examining batch effects and similarity. OE, transgenic citrus plants expressing CLIBASIA_00185 ( CLas0185 ); WT, wild-type group. The analysis was based on Pearson distance calculated using Fragments per kilobase of transcript per million (FPKM) values. R 2 was calculated via Pearson’s correlation analysis, and the colors from red to cyan represent the correlationship from high to low. B Principle component analysis (PCA) for the classification of gene expression patterns between OE and WT groups measured in FPKM values. PC1, the first principle component; PC2, the second principle component. C A Venn diagram representing the shared/unique genes between OEs and WTs. D The volcano plot of differentially expressed genes (DEGs) between OEs and WTs. The padjust < 0.05 and ꟾlog2(mean-FPKM of OE/mean-FPKM of WT)ꟾ˃1 were set as the threshold. E Hierarchical clustering heatmap of DEGs between OEs and WTs. Each column indicates a library, and each row indicates a DEG. The data were normalized via FPKM values, and the colors from red to blue represent the expression levels from high to low"
+          },
+          {
+            "id": "Par9",
+            "text": "The unique mapping genes were used for the analysis of DEGs with DESeq2 v 1.20.0 [ 29 ] The padjust < 0.05 and ꟾlog 2 (mean-FPKM of OE/mean-FPKM of WT)ꟾ˃1 were set as the standard selection criterion. A total of 6,506 DEGs were identified, with 3,985 up-regulated and 2,521 down-regulated (Fig. 1 D, Table S2). These different genes were expressed in a range from − 12 to 12 log 2 (mean-FPKM of OE/mean-FPKM of WT)."
+          },
+          {
+            "id": "Par10",
+            "text": "To visualize the expression patterns of DEGs between two groups, we normalized the expression of DEGs using FPKM-mapped reads and generated a heat map. As a result, the expression profiles of DEGs were different from OE to WT groups, while they were similar in the replicates within the same group (Fig. 1 E)."
+          },
+          {
+            "id": "Par11",
+            "text": "Gene ontology (GO) enrichment analysis was performed on the DEGs of OE/WT with clusterProfiler v 3.8.1 [ 30 ], which were annotated to 50 functional groups (padjust < 0.05), including 20 biological processes (BP), three cellular components (CC), and 27 molecular functions (MF) (Fig. 2 A, Table S3). In BP category, the DEGs were mainly enriched in carbohydrate metabolic process; in CC category, the DEGs were enriched in cell wall, external encapsulating structure, and cell periphery; in MF category, the DEGs were enriched in hydrolase activity, oxidoreductase activity, iron ion binding, tetrapyrrole binding, heme binding, carbohydrate binding, and nucleoside-triphosphate activity, indicating that C Las0185 interferes with various alterations in citrus plants."
+          },
+          {
+            "id": "Par12",
+            "text": "Fig. 2 The analysis of Gene ontology (GO) annotation (A) and Kyoto encyclopedia of genes and genomes (KEGG) enrichment (B) . A term with padjust < 0.05 was deemed significant. In A , the ordinate indicates the significantly enriched GO term. The abscissa represents -log 10 (padjust) and gene count, respectively. In B , the ordinate indicates the KEGG pathway, and the abscissa represents the Rich factor. The greater the Rich factor, the greater the degree of enrichment. The larger the dot, the greater the number of differential genes enriched with the pathway"
+          },
+          {
+            "id": "",
+            "text": "The analysis of Gene ontology (GO) annotation (A) and Kyoto encyclopedia of genes and genomes (KEGG) enrichment (B) . A term with padjust < 0.05 was deemed significant. In A , the ordinate indicates the significantly enriched GO term. The abscissa represents -log 10 (padjust) and gene count, respectively. In B , the ordinate indicates the KEGG pathway, and the abscissa represents the Rich factor. The greater the Rich factor, the greater the degree of enrichment. The larger the dot, the greater the number of differential genes enriched with the pathway"
+          },
+          {
+            "id": "Par13",
+            "text": "Kyoto encyclopedia of genes and genomes (KEGG) analysis was conducted for a better understanding of the pathways associated with DEGs in transgenic citrus plants with clusterProfiler v 3.8.1 [ 31 ]. The results showed that DEGs were categorized into 19 KEGG pathways (padjust < 0.05) (Fig. 2 B, Table S4), which mainly included the phenylpropanoid biosynthesis (cit00940), amino sugar and nucleotide sugar metabolism (cit00520), starch and sucrose metabolism (cit00500), glycolysis/gluconeogenesis (cit00010), fructose and mannose metabolism (cit00051), and pyruvate metabolism (cit00620). The pathway analysis indicated that C Las0185 had profound effects on plant primary metabolism, for instance, sugar and sugar derivatives, energy, amino acids, and lipid biosynthesis."
+          },
+          {
+            "id": "Par14",
+            "text": "The results showed that C Las0185 could support pathogen to obtain nutrients and to propagate. Intriguingly, genes enriched in phenylpropanoid biosynthesis were largely manipulated by the effector. Moreover, endocytosis that participates in host innate immunity was also enriched by DEGs."
+          },
+          {
+            "id": "Par15",
+            "text": "Sucrose and starch play a fundamental role in plant growth and development. Here, we discovered that five DEGs were enriched in the sucrose-starch metabolic pathway, namely SPS1F (sucrose-phosphate synthase 1 F), APL3 (glucose-1-phosphate adenylyltransferase 3), SS s (starch synthase), and SBE2.2 (starch branching enzyme 2.2). Their expression profiles were all down-regulated in 0185-OEs (Fig. 3 A). We further examined the contents of soluble sugars, which were at a lower level in 0185-OE group than in WTs (Fig. 3 B)."
+          },
+          {
+            "id": "Par16",
+            "text": "Fig. 3 Analysis of differentially expressed genes (DEGs) implicated in sugar metabolisms. A , C , and E MapMan v 3.7.0 illustration of genes associated with sucrose-starch metabolism (A) , glycolysis (C) , and tricarboxylic acid (TCA) cycle (E) in transgenic citrus lines (0185-OE) and wild-type (WT) group. Genes significantly up-regulated and down-regulated in 0185-OEs are displayed in red and blue, respectively. Genes were represented as log 2 (mean-FPKM of OE/mean-FPKM of WT) values. B , D , and F Determination of soluble sugar contents (B) , hexokinase activity (D) , and pyruvate dehydrogenase activity (F) in leaves of 0185-OEs and WTs. 0185-OE#, transgenic lines. Data in B , D , and F represent mean ± SD. Asterisks indicate significant differences determined by the Student’s t -test (* P < 0.05, ** P < 0.01; n = 3). The experiments comprised three independent biological replicates, and performed twice with similar results"
+          },
+          {
+            "id": "",
+            "text": "Analysis of differentially expressed genes (DEGs) implicated in sugar metabolisms. A , C , and E MapMan v 3.7.0 illustration of genes associated with sucrose-starch metabolism (A) , glycolysis (C) , and tricarboxylic acid (TCA) cycle (E) in transgenic citrus lines (0185-OE) and wild-type (WT) group. Genes significantly up-regulated and down-regulated in 0185-OEs are displayed in red and blue, respectively. Genes were represented as log 2 (mean-FPKM of OE/mean-FPKM of WT) values. B , D , and F Determination of soluble sugar contents (B) , hexokinase activity (D) , and pyruvate dehydrogenase activity (F) in leaves of 0185-OEs and WTs. 0185-OE#, transgenic lines. Data in B , D , and F represent mean ± SD. Asterisks indicate significant differences determined by the Student’s t -test (* P < 0.05, ** P < 0.01; n = 3). The experiments comprised three independent biological replicates, and performed twice with similar results"
+          },
+          {
+            "id": "Par17",
+            "text": "The sucrose-starch metabolism and glycolysis are tightly correlated. Simple sugars can be metabolized in the process of glycolysis along with free energy release [ 32 ]. Our results indicated that C Las0185 interfered with plant glycolysis (Fig. 3 C). The DEGs implicated in pyruvate production from sucrose were identified, the expression profiles of SUS s (sucrose synthase), HXK3 (hexokinase 3), PEP s (pyrophosphate-fructose-6-phosphate 1-phosphotransferase), GAPC1 (glyceraldehyde-3-phosphate dehydrogenase 1), and PK1 (pyruvate kinase 1) were up-regulated in 0185-OEs. Additionally, the DEGs implicated in pyruvate production from starch were also identified: Two DEGs were associated with the conversion from starch to maltose, with the up-regulation of AMY1 (α-amylase like 1) and the down-regulation of AMY2 ; Two DEGs, namely PFK2 (phosphofructokinase 2) and PFK3 , were down-regulated, which were related to the conversion from fructose 6-phosphate to glucose 6-phosphate; Two DEGs encoding FBA (fructose-bisphosphate aldolase), were depressed; One DEG encoding TIM (triosephosphate isomerase) was induced. Since HXK is the enzyme that catalyses the ATP [ 33 ], we then detected its enzymatic activity. In consistent with a high level of HXK3 transcription in 0185-OEs, HXK activity was enhanced in transgenic citrus plants compared to WTs (Fig. 3 D)."
+          },
+          {
+            "id": "Par18",
+            "text": "Pyruvate, the end product of glycolysis, enters mitochondria to fuel the TCA (tricarboxylic acid) cycle. In comparison between WT and 0185-OE groups, nine DEGs were enriched in the process of TCA (Fig. 3 E). The expression profiles of NAD - ME s (NAD-dependent malic enzyme), DLAT s (dihydrolipoyllysine-residue acetyltransferase), MDH (malate dehydrogenase), and PDH (pyruvate dehydrogenase) were up-regulated. The expression patterns of PMDH1 (peroxisomal NAD-malate dehydrogenase 1), PPDK (pyruvate orthophosphate dikinase), and PCK1 (phosphoenolpyruvate carboxykinase 1) were down-regulated. Due to the role of PDH in acetyl-CoA biosynthesis, we measured its enzymatic activity, which was accelerated in most 0185-OEs compared to WTs (Fig. 3 F)."
+          },
+          {
+            "id": "Par19",
+            "text": "The phenylpropanoid pathway contributes to produce a large number of secondary metabolites, including precursors for lignin biosynthesis. Here, we illustrated that C Las0185 induced the expressions of PAL s (phenylalanine ammonia-lyase), 4CL s (4-coumarate CoA ligase), CCoAOMT (caffeoyl CoA-O methyltransferase), CCR1 (cinnamoyl CoA reductase 1), and CAD9 (cinnamyl alcohol dehydrogenase 9) (Fig. 4 A). These genes led to the accumulation of basic units of lignin polymers, namely counaryl alcohol, caffeyl alcohol, coniferyl alcohol, 5 H coniferyl alcohol. To verify C Las0185 effect on lignin, we examined its content in citrus plants. The result indicated that C Las0185 increased the accumulation of lignin in most 0185-OEs compared to WT group (Fig. 4 B)."
+          },
+          {
+            "id": "Par20",
+            "text": "Fig. 4 Analysis of differentially expressed genes (DEGs) related to phenylpropanoid biosynthesis. A MapMan v 3.7.0 illustration of genes enriched in phenylpropanoid biosynthesis. Genes markedly up-regulated and down-regulated in transgenic citrus lines (0185-OE) are displayed in red and blue, respectively, and they were represented as log2(mean-FPKM of OE/mean-FPKM of WT) values. B The lignin accumulation in 0185-OEs and wild-type (WT) group. 0185-OE#, transgenic lines. Asterisks indicate significant differences determined by the Student’s t -test (** P < 0.01; n = 3). The experiments comprised three independent biological replicates, and performed twice with similar results"
+          },
+          {
+            "id": "",
+            "text": "Analysis of differentially expressed genes (DEGs) related to phenylpropanoid biosynthesis. A MapMan v 3.7.0 illustration of genes enriched in phenylpropanoid biosynthesis. Genes markedly up-regulated and down-regulated in transgenic citrus lines (0185-OE) are displayed in red and blue, respectively, and they were represented as log2(mean-FPKM of OE/mean-FPKM of WT) values. B The lignin accumulation in 0185-OEs and wild-type (WT) group. 0185-OE#, transgenic lines. Asterisks indicate significant differences determined by the Student’s t -test (** P < 0.01; n = 3). The experiments comprised three independent biological replicates, and performed twice with similar results"
+          },
+          {
+            "id": "Par21",
+            "text": "Notably, DEGs were also enriched in transcription regulator activity (Fig. 2 A). Visualized with Mapman v 3.7.0 [ 34 ], they were clustered into seven families (Fig. 5 , Table S5). Playing essentials roles in plant development, metabolism, and responses to stresses, DEGs from AP2/ERF, bZIP, and GATA families were mainly up-regulated. Comparatively, the majority of DEGs from WRKY and HSF families were down-regulated, which are prominent components in plant immunity. TFs from HB and MYB families regulate plant secondary metabolism, such as lignin biosynthesis. Remarkably, the expression of one MYB gene ( CsMYB124 ) was highly up-regulated in 0185-OEs with the log 2 (mean-FPKM of OE/mean-FPKM of WT) of 5.5."
+          },
+          {
+            "id": "Par22",
+            "text": "Fig. 5 MapMan v 3.7.0 illustration of genes enriched in transcription factors (TF). Genes remarkably up-regulated and down-regulated in transgenic citrus lines (0185-OE) are displayed in red and blue, respectively, and genes were represented as log 2 (mean-FPKM of OE/mean-FPKM of WT) values. AP2/ERF, APETALA2/ethylene-responsive factor; bZIP, basic region/leucine zipper motif; GATA, zinc finger motif containing TF; MYB, v-myb avian myeloblastosis viral oncogene homolog; WRKY, WRKYGOK-conserved domain containing TF; HSF, heat shock transcription factor; HB, homeobox"
+          },
+          {
+            "id": "",
+            "text": "MapMan v 3.7.0 illustration of genes enriched in transcription factors (TF). Genes remarkably up-regulated and down-regulated in transgenic citrus lines (0185-OE) are displayed in red and blue, respectively, and genes were represented as log 2 (mean-FPKM of OE/mean-FPKM of WT) values. AP2/ERF, APETALA2/ethylene-responsive factor; bZIP, basic region/leucine zipper motif; GATA, zinc finger motif containing TF; MYB, v-myb avian myeloblastosis viral oncogene homolog; WRKY, WRKYGOK-conserved domain containing TF; HSF, heat shock transcription factor; HB, homeobox"
+          },
+          {
+            "id": "Par23",
+            "text": "Endocytosis is a crucial process in innate immunity and homeostasis via taking in relatively large particles by living cells termed endosomes [ 35 ]. Here, we identified 16 DEGs implicated in endocytosis, among them, 14 DEGs exhibited higher expression levels in 0185-OE group, compared to WT samples (Fig. 6 A and Table S5). These genes encode proteins, for example, tubulin chains, rac-like GTP-binding proteins, and V-type protein ATPase subunits."
+          },
+          {
+            "id": "Par24",
+            "text": "Fig. 6 Endocytosis was facilitated by CLIBASIA_00185 ( C Las0185). A The heatmap of differentially expressed genes (DEGs) enriched in endocytosis pathway between C Las0185-transgenic citrus lines (0185-OE) and wild-type (WT) group. Each column indicates a library, and each row indicates a DEG. The data were normalized via FPKM values. The colors from red to blue represent the expression levels from high to low. B Electron microscopic images of vesicles structures in citrus leaves, marked by red arrow. CW, cell wall; ME, membrane; Chl, chloroplast; Sg, starch granule; Og, osmophilic garnule; Mi, mitochondria; Li, Lipidosome; Scar bar: 2 μm, 1 μm, and 500 nm"
+          },
+          {
+            "id": "",
+            "text": "Endocytosis was facilitated by CLIBASIA_00185 ( C Las0185). A The heatmap of differentially expressed genes (DEGs) enriched in endocytosis pathway between C Las0185-transgenic citrus lines (0185-OE) and wild-type (WT) group. Each column indicates a library, and each row indicates a DEG. The data were normalized via FPKM values. The colors from red to blue represent the expression levels from high to low. B Electron microscopic images of vesicles structures in citrus leaves, marked by red arrow. CW, cell wall; ME, membrane; Chl, chloroplast; Sg, starch granule; Og, osmophilic garnule; Mi, mitochondria; Li, Lipidosome; Scar bar: 2 μm, 1 μm, and 500 nm"
+          },
+          {
+            "id": "Par25",
+            "text": "Vesicles are predominent structures during the endocytic process, which provide a means of cellular entry for extracellular substance and for recycling of membrane constituents [ 36 ]. With transmission electron microscopy (TEM), vesicle structures were observed in 0185-OE group, while none was in WTs. Here, we suggested that C Las0185 enhanced endocytosis."
+          },
+          {
+            "id": "Par26",
+            "text": "To further analysis of the expression of DEGs in HLB-diseased citrus plants, ten DEGs were selected for qRT-PCR analysis, including five up-regulated genes, VTP (25.3 kDa vesicle transport protein), HK2 (hexokinase 2), GAPC1 (glyceraldehyde-3-phosphate dehydrogenase C subunit 1), HCT (shikimate O-hydroxycinnamoyltransferase), and POD48 (peroxidase 48), as well as five down-regulated genes, PCK1 (phosphoenolpyruvate carboxykinase (ATP) 1-like), VHA (V-type H + ATPase subunit F), CLC3 (calreticulin 3), FBA1 (fructose-bisphosphate aldolase 1), and PFK2 (ATP-dependent 6-phosphofructokinase 2), respectively. The results showed that the expression patterns of all selected genes were in good agreement with those analyzed by transcriptome sequencing (Fig. S1 )."
+          }
+        ],
+        "subsections": [
+          {
+            "id": "Sec3",
+            "title": "Overview of RNA-seq and differentially expressed genes (DEGs) analysis",
+            "paragraphs": [
+              {
+                "id": "Par7",
+                "text": "To analyze the effects of C Las0185 on gene expression of C . sinensis ‘ Wanjincheng’, high-throughput RNA-seq were performed on three 0185-OEs and three WTs. In total, 40,848,494 to 47,734,208 and 41,154,856 to 45,039,584 raw reads were detected for OE and WT groups, respectively (Table S1 ). After filtering, the clean reads ranged from 40,256,444 to 47,244,968 for OE group while 40,790,252 to 44,681,792 for WT group. Q20 and Q30 percentages were above 90%, and the guanine-cytosine percentage (GC%) was ca. 44% in each library. On average, 88.30% of the reads were uniquely mapped to the C . sinensis genome. Sample to sample clustering analysis was based on Pearson distance calculated using fragments per kilobase of transcript per million (FPKM) values (Fig. 1 A). It showed that samples were strongly clustered based on their types, and the Pearson correlation coefficients ( R 2 ) within OEs and WTs were above 0.85. The principal component analysis (PCA) illustrated the overall expression profiles of OE and WT groups, suggesting a good reproducibility for the biological replicates with the same group but different between two groups (Fig. 1 B). A Venn diagram was used to identify their co-expression genes (Fig. 1 C). Filtered by a threshold of 1.0 mean-FPKM, 15,379 genes were expressed in both OE and WT groups, while 1,291 and 1,869 genes were specific to WTs and OEs, respectively."
+              },
+              {
+                "id": "Par8",
+                "text": "Fig. 1 Transcriptome data analysis. A Sample to sample clustering analysis for examining batch effects and similarity. OE, transgenic citrus plants expressing CLIBASIA_00185 ( CLas0185 ); WT, wild-type group. The analysis was based on Pearson distance calculated using Fragments per kilobase of transcript per million (FPKM) values. R 2 was calculated via Pearson’s correlation analysis, and the colors from red to cyan represent the correlationship from high to low. B Principle component analysis (PCA) for the classification of gene expression patterns between OE and WT groups measured in FPKM values. PC1, the first principle component; PC2, the second principle component. C A Venn diagram representing the shared/unique genes between OEs and WTs. D The volcano plot of differentially expressed genes (DEGs) between OEs and WTs. The padjust < 0.05 and ꟾlog2(mean-FPKM of OE/mean-FPKM of WT)ꟾ˃1 were set as the threshold. E Hierarchical clustering heatmap of DEGs between OEs and WTs. Each column indicates a library, and each row indicates a DEG. The data were normalized via FPKM values, and the colors from red to blue represent the expression levels from high to low"
+              },
+              {
+                "id": "",
+                "text": "Transcriptome data analysis. A Sample to sample clustering analysis for examining batch effects and similarity. OE, transgenic citrus plants expressing CLIBASIA_00185 ( CLas0185 ); WT, wild-type group. The analysis was based on Pearson distance calculated using Fragments per kilobase of transcript per million (FPKM) values. R 2 was calculated via Pearson’s correlation analysis, and the colors from red to cyan represent the correlationship from high to low. B Principle component analysis (PCA) for the classification of gene expression patterns between OE and WT groups measured in FPKM values. PC1, the first principle component; PC2, the second principle component. C A Venn diagram representing the shared/unique genes between OEs and WTs. D The volcano plot of differentially expressed genes (DEGs) between OEs and WTs. The padjust < 0.05 and ꟾlog2(mean-FPKM of OE/mean-FPKM of WT)ꟾ˃1 were set as the threshold. E Hierarchical clustering heatmap of DEGs between OEs and WTs. Each column indicates a library, and each row indicates a DEG. The data were normalized via FPKM values, and the colors from red to blue represent the expression levels from high to low"
+              },
+              {
+                "id": "Par9",
+                "text": "The unique mapping genes were used for the analysis of DEGs with DESeq2 v 1.20.0 [ 29 ] The padjust < 0.05 and ꟾlog 2 (mean-FPKM of OE/mean-FPKM of WT)ꟾ˃1 were set as the standard selection criterion. A total of 6,506 DEGs were identified, with 3,985 up-regulated and 2,521 down-regulated (Fig. 1 D, Table S2). These different genes were expressed in a range from − 12 to 12 log 2 (mean-FPKM of OE/mean-FPKM of WT)."
+              },
+              {
+                "id": "Par10",
+                "text": "To visualize the expression patterns of DEGs between two groups, we normalized the expression of DEGs using FPKM-mapped reads and generated a heat map. As a result, the expression profiles of DEGs were different from OE to WT groups, while they were similar in the replicates within the same group (Fig. 1 E)."
+              }
+            ]
+          },
+          {
+            "id": "Sec4",
+            "title": "Functional analysis of DEGs",
+            "paragraphs": [
+              {
+                "id": "Par11",
+                "text": "Gene ontology (GO) enrichment analysis was performed on the DEGs of OE/WT with clusterProfiler v 3.8.1 [ 30 ], which were annotated to 50 functional groups (padjust < 0.05), including 20 biological processes (BP), three cellular components (CC), and 27 molecular functions (MF) (Fig. 2 A, Table S3). In BP category, the DEGs were mainly enriched in carbohydrate metabolic process; in CC category, the DEGs were enriched in cell wall, external encapsulating structure, and cell periphery; in MF category, the DEGs were enriched in hydrolase activity, oxidoreductase activity, iron ion binding, tetrapyrrole binding, heme binding, carbohydrate binding, and nucleoside-triphosphate activity, indicating that C Las0185 interferes with various alterations in citrus plants."
+              },
+              {
+                "id": "Par12",
+                "text": "Fig. 2 The analysis of Gene ontology (GO) annotation (A) and Kyoto encyclopedia of genes and genomes (KEGG) enrichment (B) . A term with padjust < 0.05 was deemed significant. In A , the ordinate indicates the significantly enriched GO term. The abscissa represents -log 10 (padjust) and gene count, respectively. In B , the ordinate indicates the KEGG pathway, and the abscissa represents the Rich factor. The greater the Rich factor, the greater the degree of enrichment. The larger the dot, the greater the number of differential genes enriched with the pathway"
+              },
+              {
+                "id": "",
+                "text": "The analysis of Gene ontology (GO) annotation (A) and Kyoto encyclopedia of genes and genomes (KEGG) enrichment (B) . A term with padjust < 0.05 was deemed significant. In A , the ordinate indicates the significantly enriched GO term. The abscissa represents -log 10 (padjust) and gene count, respectively. In B , the ordinate indicates the KEGG pathway, and the abscissa represents the Rich factor. The greater the Rich factor, the greater the degree of enrichment. The larger the dot, the greater the number of differential genes enriched with the pathway"
+              }
+            ]
+          },
+          {
+            "id": "Sec5",
+            "title": "Pathway analysis of DEGs",
+            "paragraphs": [
+              {
+                "id": "Par13",
+                "text": "Kyoto encyclopedia of genes and genomes (KEGG) analysis was conducted for a better understanding of the pathways associated with DEGs in transgenic citrus plants with clusterProfiler v 3.8.1 [ 31 ]. The results showed that DEGs were categorized into 19 KEGG pathways (padjust < 0.05) (Fig. 2 B, Table S4), which mainly included the phenylpropanoid biosynthesis (cit00940), amino sugar and nucleotide sugar metabolism (cit00520), starch and sucrose metabolism (cit00500), glycolysis/gluconeogenesis (cit00010), fructose and mannose metabolism (cit00051), and pyruvate metabolism (cit00620). The pathway analysis indicated that C Las0185 had profound effects on plant primary metabolism, for instance, sugar and sugar derivatives, energy, amino acids, and lipid biosynthesis."
+              },
+              {
+                "id": "Par14",
+                "text": "The results showed that C Las0185 could support pathogen to obtain nutrients and to propagate. Intriguingly, genes enriched in phenylpropanoid biosynthesis were largely manipulated by the effector. Moreover, endocytosis that participates in host innate immunity was also enriched by DEGs."
+              }
+            ]
+          },
+          {
+            "id": "Sec6",
+            "title": "Analysis of DEGs related to sugar metabolisms",
+            "paragraphs": [
+              {
+                "id": "Par15",
+                "text": "Sucrose and starch play a fundamental role in plant growth and development. Here, we discovered that five DEGs were enriched in the sucrose-starch metabolic pathway, namely SPS1F (sucrose-phosphate synthase 1 F), APL3 (glucose-1-phosphate adenylyltransferase 3), SS s (starch synthase), and SBE2.2 (starch branching enzyme 2.2). Their expression profiles were all down-regulated in 0185-OEs (Fig. 3 A). We further examined the contents of soluble sugars, which were at a lower level in 0185-OE group than in WTs (Fig. 3 B)."
+              },
+              {
+                "id": "Par16",
+                "text": "Fig. 3 Analysis of differentially expressed genes (DEGs) implicated in sugar metabolisms. A , C , and E MapMan v 3.7.0 illustration of genes associated with sucrose-starch metabolism (A) , glycolysis (C) , and tricarboxylic acid (TCA) cycle (E) in transgenic citrus lines (0185-OE) and wild-type (WT) group. Genes significantly up-regulated and down-regulated in 0185-OEs are displayed in red and blue, respectively. Genes were represented as log 2 (mean-FPKM of OE/mean-FPKM of WT) values. B , D , and F Determination of soluble sugar contents (B) , hexokinase activity (D) , and pyruvate dehydrogenase activity (F) in leaves of 0185-OEs and WTs. 0185-OE#, transgenic lines. Data in B , D , and F represent mean ± SD. Asterisks indicate significant differences determined by the Student’s t -test (* P < 0.05, ** P < 0.01; n = 3). The experiments comprised three independent biological replicates, and performed twice with similar results"
+              },
+              {
+                "id": "",
+                "text": "Analysis of differentially expressed genes (DEGs) implicated in sugar metabolisms. A , C , and E MapMan v 3.7.0 illustration of genes associated with sucrose-starch metabolism (A) , glycolysis (C) , and tricarboxylic acid (TCA) cycle (E) in transgenic citrus lines (0185-OE) and wild-type (WT) group. Genes significantly up-regulated and down-regulated in 0185-OEs are displayed in red and blue, respectively. Genes were represented as log 2 (mean-FPKM of OE/mean-FPKM of WT) values. B , D , and F Determination of soluble sugar contents (B) , hexokinase activity (D) , and pyruvate dehydrogenase activity (F) in leaves of 0185-OEs and WTs. 0185-OE#, transgenic lines. Data in B , D , and F represent mean ± SD. Asterisks indicate significant differences determined by the Student’s t -test (* P < 0.05, ** P < 0.01; n = 3). The experiments comprised three independent biological replicates, and performed twice with similar results"
+              },
+              {
+                "id": "Par17",
+                "text": "The sucrose-starch metabolism and glycolysis are tightly correlated. Simple sugars can be metabolized in the process of glycolysis along with free energy release [ 32 ]. Our results indicated that C Las0185 interfered with plant glycolysis (Fig. 3 C). The DEGs implicated in pyruvate production from sucrose were identified, the expression profiles of SUS s (sucrose synthase), HXK3 (hexokinase 3), PEP s (pyrophosphate-fructose-6-phosphate 1-phosphotransferase), GAPC1 (glyceraldehyde-3-phosphate dehydrogenase 1), and PK1 (pyruvate kinase 1) were up-regulated in 0185-OEs. Additionally, the DEGs implicated in pyruvate production from starch were also identified: Two DEGs were associated with the conversion from starch to maltose, with the up-regulation of AMY1 (α-amylase like 1) and the down-regulation of AMY2 ; Two DEGs, namely PFK2 (phosphofructokinase 2) and PFK3 , were down-regulated, which were related to the conversion from fructose 6-phosphate to glucose 6-phosphate; Two DEGs encoding FBA (fructose-bisphosphate aldolase), were depressed; One DEG encoding TIM (triosephosphate isomerase) was induced. Since HXK is the enzyme that catalyses the ATP [ 33 ], we then detected its enzymatic activity. In consistent with a high level of HXK3 transcription in 0185-OEs, HXK activity was enhanced in transgenic citrus plants compared to WTs (Fig. 3 D)."
+              },
+              {
+                "id": "Par18",
+                "text": "Pyruvate, the end product of glycolysis, enters mitochondria to fuel the TCA (tricarboxylic acid) cycle. In comparison between WT and 0185-OE groups, nine DEGs were enriched in the process of TCA (Fig. 3 E). The expression profiles of NAD - ME s (NAD-dependent malic enzyme), DLAT s (dihydrolipoyllysine-residue acetyltransferase), MDH (malate dehydrogenase), and PDH (pyruvate dehydrogenase) were up-regulated. The expression patterns of PMDH1 (peroxisomal NAD-malate dehydrogenase 1), PPDK (pyruvate orthophosphate dikinase), and PCK1 (phosphoenolpyruvate carboxykinase 1) were down-regulated. Due to the role of PDH in acetyl-CoA biosynthesis, we measured its enzymatic activity, which was accelerated in most 0185-OEs compared to WTs (Fig. 3 F)."
+              }
+            ]
+          },
+          {
+            "id": "Sec7",
+            "title": "Analysis of DEGs related to phenylpropanoid biosynthesis",
+            "paragraphs": [
+              {
+                "id": "Par19",
+                "text": "The phenylpropanoid pathway contributes to produce a large number of secondary metabolites, including precursors for lignin biosynthesis. Here, we illustrated that C Las0185 induced the expressions of PAL s (phenylalanine ammonia-lyase), 4CL s (4-coumarate CoA ligase), CCoAOMT (caffeoyl CoA-O methyltransferase), CCR1 (cinnamoyl CoA reductase 1), and CAD9 (cinnamyl alcohol dehydrogenase 9) (Fig. 4 A). These genes led to the accumulation of basic units of lignin polymers, namely counaryl alcohol, caffeyl alcohol, coniferyl alcohol, 5 H coniferyl alcohol. To verify C Las0185 effect on lignin, we examined its content in citrus plants. The result indicated that C Las0185 increased the accumulation of lignin in most 0185-OEs compared to WT group (Fig. 4 B)."
+              },
+              {
+                "id": "Par20",
+                "text": "Fig. 4 Analysis of differentially expressed genes (DEGs) related to phenylpropanoid biosynthesis. A MapMan v 3.7.0 illustration of genes enriched in phenylpropanoid biosynthesis. Genes markedly up-regulated and down-regulated in transgenic citrus lines (0185-OE) are displayed in red and blue, respectively, and they were represented as log2(mean-FPKM of OE/mean-FPKM of WT) values. B The lignin accumulation in 0185-OEs and wild-type (WT) group. 0185-OE#, transgenic lines. Asterisks indicate significant differences determined by the Student’s t -test (** P < 0.01; n = 3). The experiments comprised three independent biological replicates, and performed twice with similar results"
+              },
+              {
+                "id": "",
+                "text": "Analysis of differentially expressed genes (DEGs) related to phenylpropanoid biosynthesis. A MapMan v 3.7.0 illustration of genes enriched in phenylpropanoid biosynthesis. Genes markedly up-regulated and down-regulated in transgenic citrus lines (0185-OE) are displayed in red and blue, respectively, and they were represented as log2(mean-FPKM of OE/mean-FPKM of WT) values. B The lignin accumulation in 0185-OEs and wild-type (WT) group. 0185-OE#, transgenic lines. Asterisks indicate significant differences determined by the Student’s t -test (** P < 0.01; n = 3). The experiments comprised three independent biological replicates, and performed twice with similar results"
+              }
+            ]
+          },
+          {
+            "id": "Sec8",
+            "title": "Expression of transcription factor (TF)-encoding genes in 0185-OEs",
+            "paragraphs": [
+              {
+                "id": "Par21",
+                "text": "Notably, DEGs were also enriched in transcription regulator activity (Fig. 2 A). Visualized with Mapman v 3.7.0 [ 34 ], they were clustered into seven families (Fig. 5 , Table S5). Playing essentials roles in plant development, metabolism, and responses to stresses, DEGs from AP2/ERF, bZIP, and GATA families were mainly up-regulated. Comparatively, the majority of DEGs from WRKY and HSF families were down-regulated, which are prominent components in plant immunity. TFs from HB and MYB families regulate plant secondary metabolism, such as lignin biosynthesis. Remarkably, the expression of one MYB gene ( CsMYB124 ) was highly up-regulated in 0185-OEs with the log 2 (mean-FPKM of OE/mean-FPKM of WT) of 5.5."
+              },
+              {
+                "id": "Par22",
+                "text": "Fig. 5 MapMan v 3.7.0 illustration of genes enriched in transcription factors (TF). Genes remarkably up-regulated and down-regulated in transgenic citrus lines (0185-OE) are displayed in red and blue, respectively, and genes were represented as log 2 (mean-FPKM of OE/mean-FPKM of WT) values. AP2/ERF, APETALA2/ethylene-responsive factor; bZIP, basic region/leucine zipper motif; GATA, zinc finger motif containing TF; MYB, v-myb avian myeloblastosis viral oncogene homolog; WRKY, WRKYGOK-conserved domain containing TF; HSF, heat shock transcription factor; HB, homeobox"
+              },
+              {
+                "id": "",
+                "text": "MapMan v 3.7.0 illustration of genes enriched in transcription factors (TF). Genes remarkably up-regulated and down-regulated in transgenic citrus lines (0185-OE) are displayed in red and blue, respectively, and genes were represented as log 2 (mean-FPKM of OE/mean-FPKM of WT) values. AP2/ERF, APETALA2/ethylene-responsive factor; bZIP, basic region/leucine zipper motif; GATA, zinc finger motif containing TF; MYB, v-myb avian myeloblastosis viral oncogene homolog; WRKY, WRKYGOK-conserved domain containing TF; HSF, heat shock transcription factor; HB, homeobox"
+              }
+            ]
+          },
+          {
+            "id": "Sec9",
+            "title": "Expression of endocytosis-related genes in 0185-OEs",
+            "paragraphs": [
+              {
+                "id": "Par23",
+                "text": "Endocytosis is a crucial process in innate immunity and homeostasis via taking in relatively large particles by living cells termed endosomes [ 35 ]. Here, we identified 16 DEGs implicated in endocytosis, among them, 14 DEGs exhibited higher expression levels in 0185-OE group, compared to WT samples (Fig. 6 A and Table S5). These genes encode proteins, for example, tubulin chains, rac-like GTP-binding proteins, and V-type protein ATPase subunits."
+              },
+              {
+                "id": "Par24",
+                "text": "Fig. 6 Endocytosis was facilitated by CLIBASIA_00185 ( C Las0185). A The heatmap of differentially expressed genes (DEGs) enriched in endocytosis pathway between C Las0185-transgenic citrus lines (0185-OE) and wild-type (WT) group. Each column indicates a library, and each row indicates a DEG. The data were normalized via FPKM values. The colors from red to blue represent the expression levels from high to low. B Electron microscopic images of vesicles structures in citrus leaves, marked by red arrow. CW, cell wall; ME, membrane; Chl, chloroplast; Sg, starch granule; Og, osmophilic garnule; Mi, mitochondria; Li, Lipidosome; Scar bar: 2 μm, 1 μm, and 500 nm"
+              },
+              {
+                "id": "",
+                "text": "Endocytosis was facilitated by CLIBASIA_00185 ( C Las0185). A The heatmap of differentially expressed genes (DEGs) enriched in endocytosis pathway between C Las0185-transgenic citrus lines (0185-OE) and wild-type (WT) group. Each column indicates a library, and each row indicates a DEG. The data were normalized via FPKM values. The colors from red to blue represent the expression levels from high to low. B Electron microscopic images of vesicles structures in citrus leaves, marked by red arrow. CW, cell wall; ME, membrane; Chl, chloroplast; Sg, starch granule; Og, osmophilic garnule; Mi, mitochondria; Li, Lipidosome; Scar bar: 2 μm, 1 μm, and 500 nm"
+              },
+              {
+                "id": "Par25",
+                "text": "Vesicles are predominent structures during the endocytic process, which provide a means of cellular entry for extracellular substance and for recycling of membrane constituents [ 36 ]. With transmission electron microscopy (TEM), vesicle structures were observed in 0185-OE group, while none was in WTs. Here, we suggested that C Las0185 enhanced endocytosis."
+              }
+            ]
+          },
+          {
+            "id": "Sec10",
+            "title": "Quantitative RT-PCR (qRT-PCR) analysis of ten DEGs in HLB-diseased citrus plants",
+            "paragraphs": [
+              {
+                "id": "Par26",
+                "text": "To further analysis of the expression of DEGs in HLB-diseased citrus plants, ten DEGs were selected for qRT-PCR analysis, including five up-regulated genes, VTP (25.3 kDa vesicle transport protein), HK2 (hexokinase 2), GAPC1 (glyceraldehyde-3-phosphate dehydrogenase C subunit 1), HCT (shikimate O-hydroxycinnamoyltransferase), and POD48 (peroxidase 48), as well as five down-regulated genes, PCK1 (phosphoenolpyruvate carboxykinase (ATP) 1-like), VHA (V-type H + ATPase subunit F), CLC3 (calreticulin 3), FBA1 (fructose-bisphosphate aldolase 1), and PFK2 (ATP-dependent 6-phosphofructokinase 2), respectively. The results showed that the expression patterns of all selected genes were in good agreement with those analyzed by transcriptome sequencing (Fig. S1 )."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Sec3",
+        "title": "Overview of RNA-seq and differentially expressed genes (DEGs) analysis",
+        "paragraphs": [
+          {
+            "id": "Par7",
+            "text": "To analyze the effects of C Las0185 on gene expression of C . sinensis ‘ Wanjincheng’, high-throughput RNA-seq were performed on three 0185-OEs and three WTs. In total, 40,848,494 to 47,734,208 and 41,154,856 to 45,039,584 raw reads were detected for OE and WT groups, respectively (Table S1 ). After filtering, the clean reads ranged from 40,256,444 to 47,244,968 for OE group while 40,790,252 to 44,681,792 for WT group. Q20 and Q30 percentages were above 90%, and the guanine-cytosine percentage (GC%) was ca. 44% in each library. On average, 88.30% of the reads were uniquely mapped to the C . sinensis genome. Sample to sample clustering analysis was based on Pearson distance calculated using fragments per kilobase of transcript per million (FPKM) values (Fig. 1 A). It showed that samples were strongly clustered based on their types, and the Pearson correlation coefficients ( R 2 ) within OEs and WTs were above 0.85. The principal component analysis (PCA) illustrated the overall expression profiles of OE and WT groups, suggesting a good reproducibility for the biological replicates with the same group but different between two groups (Fig. 1 B). A Venn diagram was used to identify their co-expression genes (Fig. 1 C). Filtered by a threshold of 1.0 mean-FPKM, 15,379 genes were expressed in both OE and WT groups, while 1,291 and 1,869 genes were specific to WTs and OEs, respectively."
+          },
+          {
+            "id": "Par8",
+            "text": "Fig. 1 Transcriptome data analysis. A Sample to sample clustering analysis for examining batch effects and similarity. OE, transgenic citrus plants expressing CLIBASIA_00185 ( CLas0185 ); WT, wild-type group. The analysis was based on Pearson distance calculated using Fragments per kilobase of transcript per million (FPKM) values. R 2 was calculated via Pearson’s correlation analysis, and the colors from red to cyan represent the correlationship from high to low. B Principle component analysis (PCA) for the classification of gene expression patterns between OE and WT groups measured in FPKM values. PC1, the first principle component; PC2, the second principle component. C A Venn diagram representing the shared/unique genes between OEs and WTs. D The volcano plot of differentially expressed genes (DEGs) between OEs and WTs. The padjust < 0.05 and ꟾlog2(mean-FPKM of OE/mean-FPKM of WT)ꟾ˃1 were set as the threshold. E Hierarchical clustering heatmap of DEGs between OEs and WTs. Each column indicates a library, and each row indicates a DEG. The data were normalized via FPKM values, and the colors from red to blue represent the expression levels from high to low"
+          },
+          {
+            "id": "",
+            "text": "Transcriptome data analysis. A Sample to sample clustering analysis for examining batch effects and similarity. OE, transgenic citrus plants expressing CLIBASIA_00185 ( CLas0185 ); WT, wild-type group. The analysis was based on Pearson distance calculated using Fragments per kilobase of transcript per million (FPKM) values. R 2 was calculated via Pearson’s correlation analysis, and the colors from red to cyan represent the correlationship from high to low. B Principle component analysis (PCA) for the classification of gene expression patterns between OE and WT groups measured in FPKM values. PC1, the first principle component; PC2, the second principle component. C A Venn diagram representing the shared/unique genes between OEs and WTs. D The volcano plot of differentially expressed genes (DEGs) between OEs and WTs. The padjust < 0.05 and ꟾlog2(mean-FPKM of OE/mean-FPKM of WT)ꟾ˃1 were set as the threshold. E Hierarchical clustering heatmap of DEGs between OEs and WTs. Each column indicates a library, and each row indicates a DEG. The data were normalized via FPKM values, and the colors from red to blue represent the expression levels from high to low"
+          },
+          {
+            "id": "Par9",
+            "text": "The unique mapping genes were used for the analysis of DEGs with DESeq2 v 1.20.0 [ 29 ] The padjust < 0.05 and ꟾlog 2 (mean-FPKM of OE/mean-FPKM of WT)ꟾ˃1 were set as the standard selection criterion. A total of 6,506 DEGs were identified, with 3,985 up-regulated and 2,521 down-regulated (Fig. 1 D, Table S2). These different genes were expressed in a range from − 12 to 12 log 2 (mean-FPKM of OE/mean-FPKM of WT)."
+          },
+          {
+            "id": "Par10",
+            "text": "To visualize the expression patterns of DEGs between two groups, we normalized the expression of DEGs using FPKM-mapped reads and generated a heat map. As a result, the expression profiles of DEGs were different from OE to WT groups, while they were similar in the replicates within the same group (Fig. 1 E)."
+          }
+        ]
+      },
+      {
+        "id": "Sec4",
+        "title": "Functional analysis of DEGs",
+        "paragraphs": [
+          {
+            "id": "Par11",
+            "text": "Gene ontology (GO) enrichment analysis was performed on the DEGs of OE/WT with clusterProfiler v 3.8.1 [ 30 ], which were annotated to 50 functional groups (padjust < 0.05), including 20 biological processes (BP), three cellular components (CC), and 27 molecular functions (MF) (Fig. 2 A, Table S3). In BP category, the DEGs were mainly enriched in carbohydrate metabolic process; in CC category, the DEGs were enriched in cell wall, external encapsulating structure, and cell periphery; in MF category, the DEGs were enriched in hydrolase activity, oxidoreductase activity, iron ion binding, tetrapyrrole binding, heme binding, carbohydrate binding, and nucleoside-triphosphate activity, indicating that C Las0185 interferes with various alterations in citrus plants."
+          },
+          {
+            "id": "Par12",
+            "text": "Fig. 2 The analysis of Gene ontology (GO) annotation (A) and Kyoto encyclopedia of genes and genomes (KEGG) enrichment (B) . A term with padjust < 0.05 was deemed significant. In A , the ordinate indicates the significantly enriched GO term. The abscissa represents -log 10 (padjust) and gene count, respectively. In B , the ordinate indicates the KEGG pathway, and the abscissa represents the Rich factor. The greater the Rich factor, the greater the degree of enrichment. The larger the dot, the greater the number of differential genes enriched with the pathway"
+          },
+          {
+            "id": "",
+            "text": "The analysis of Gene ontology (GO) annotation (A) and Kyoto encyclopedia of genes and genomes (KEGG) enrichment (B) . A term with padjust < 0.05 was deemed significant. In A , the ordinate indicates the significantly enriched GO term. The abscissa represents -log 10 (padjust) and gene count, respectively. In B , the ordinate indicates the KEGG pathway, and the abscissa represents the Rich factor. The greater the Rich factor, the greater the degree of enrichment. The larger the dot, the greater the number of differential genes enriched with the pathway"
+          }
+        ]
+      },
+      {
+        "id": "Sec5",
+        "title": "Pathway analysis of DEGs",
+        "paragraphs": [
+          {
+            "id": "Par13",
+            "text": "Kyoto encyclopedia of genes and genomes (KEGG) analysis was conducted for a better understanding of the pathways associated with DEGs in transgenic citrus plants with clusterProfiler v 3.8.1 [ 31 ]. The results showed that DEGs were categorized into 19 KEGG pathways (padjust < 0.05) (Fig. 2 B, Table S4), which mainly included the phenylpropanoid biosynthesis (cit00940), amino sugar and nucleotide sugar metabolism (cit00520), starch and sucrose metabolism (cit00500), glycolysis/gluconeogenesis (cit00010), fructose and mannose metabolism (cit00051), and pyruvate metabolism (cit00620). The pathway analysis indicated that C Las0185 had profound effects on plant primary metabolism, for instance, sugar and sugar derivatives, energy, amino acids, and lipid biosynthesis."
+          },
+          {
+            "id": "Par14",
+            "text": "The results showed that C Las0185 could support pathogen to obtain nutrients and to propagate. Intriguingly, genes enriched in phenylpropanoid biosynthesis were largely manipulated by the effector. Moreover, endocytosis that participates in host innate immunity was also enriched by DEGs."
+          }
+        ]
+      },
+      {
+        "id": "Sec6",
+        "title": "Analysis of DEGs related to sugar metabolisms",
+        "paragraphs": [
+          {
+            "id": "Par15",
+            "text": "Sucrose and starch play a fundamental role in plant growth and development. Here, we discovered that five DEGs were enriched in the sucrose-starch metabolic pathway, namely SPS1F (sucrose-phosphate synthase 1 F), APL3 (glucose-1-phosphate adenylyltransferase 3), SS s (starch synthase), and SBE2.2 (starch branching enzyme 2.2). Their expression profiles were all down-regulated in 0185-OEs (Fig. 3 A). We further examined the contents of soluble sugars, which were at a lower level in 0185-OE group than in WTs (Fig. 3 B)."
+          },
+          {
+            "id": "Par16",
+            "text": "Fig. 3 Analysis of differentially expressed genes (DEGs) implicated in sugar metabolisms. A , C , and E MapMan v 3.7.0 illustration of genes associated with sucrose-starch metabolism (A) , glycolysis (C) , and tricarboxylic acid (TCA) cycle (E) in transgenic citrus lines (0185-OE) and wild-type (WT) group. Genes significantly up-regulated and down-regulated in 0185-OEs are displayed in red and blue, respectively. Genes were represented as log 2 (mean-FPKM of OE/mean-FPKM of WT) values. B , D , and F Determination of soluble sugar contents (B) , hexokinase activity (D) , and pyruvate dehydrogenase activity (F) in leaves of 0185-OEs and WTs. 0185-OE#, transgenic lines. Data in B , D , and F represent mean ± SD. Asterisks indicate significant differences determined by the Student’s t -test (* P < 0.05, ** P < 0.01; n = 3). The experiments comprised three independent biological replicates, and performed twice with similar results"
+          },
+          {
+            "id": "",
+            "text": "Analysis of differentially expressed genes (DEGs) implicated in sugar metabolisms. A , C , and E MapMan v 3.7.0 illustration of genes associated with sucrose-starch metabolism (A) , glycolysis (C) , and tricarboxylic acid (TCA) cycle (E) in transgenic citrus lines (0185-OE) and wild-type (WT) group. Genes significantly up-regulated and down-regulated in 0185-OEs are displayed in red and blue, respectively. Genes were represented as log 2 (mean-FPKM of OE/mean-FPKM of WT) values. B , D , and F Determination of soluble sugar contents (B) , hexokinase activity (D) , and pyruvate dehydrogenase activity (F) in leaves of 0185-OEs and WTs. 0185-OE#, transgenic lines. Data in B , D , and F represent mean ± SD. Asterisks indicate significant differences determined by the Student’s t -test (* P < 0.05, ** P < 0.01; n = 3). The experiments comprised three independent biological replicates, and performed twice with similar results"
+          },
+          {
+            "id": "Par17",
+            "text": "The sucrose-starch metabolism and glycolysis are tightly correlated. Simple sugars can be metabolized in the process of glycolysis along with free energy release [ 32 ]. Our results indicated that C Las0185 interfered with plant glycolysis (Fig. 3 C). The DEGs implicated in pyruvate production from sucrose were identified, the expression profiles of SUS s (sucrose synthase), HXK3 (hexokinase 3), PEP s (pyrophosphate-fructose-6-phosphate 1-phosphotransferase), GAPC1 (glyceraldehyde-3-phosphate dehydrogenase 1), and PK1 (pyruvate kinase 1) were up-regulated in 0185-OEs. Additionally, the DEGs implicated in pyruvate production from starch were also identified: Two DEGs were associated with the conversion from starch to maltose, with the up-regulation of AMY1 (α-amylase like 1) and the down-regulation of AMY2 ; Two DEGs, namely PFK2 (phosphofructokinase 2) and PFK3 , were down-regulated, which were related to the conversion from fructose 6-phosphate to glucose 6-phosphate; Two DEGs encoding FBA (fructose-bisphosphate aldolase), were depressed; One DEG encoding TIM (triosephosphate isomerase) was induced. Since HXK is the enzyme that catalyses the ATP [ 33 ], we then detected its enzymatic activity. In consistent with a high level of HXK3 transcription in 0185-OEs, HXK activity was enhanced in transgenic citrus plants compared to WTs (Fig. 3 D)."
+          },
+          {
+            "id": "Par18",
+            "text": "Pyruvate, the end product of glycolysis, enters mitochondria to fuel the TCA (tricarboxylic acid) cycle. In comparison between WT and 0185-OE groups, nine DEGs were enriched in the process of TCA (Fig. 3 E). The expression profiles of NAD - ME s (NAD-dependent malic enzyme), DLAT s (dihydrolipoyllysine-residue acetyltransferase), MDH (malate dehydrogenase), and PDH (pyruvate dehydrogenase) were up-regulated. The expression patterns of PMDH1 (peroxisomal NAD-malate dehydrogenase 1), PPDK (pyruvate orthophosphate dikinase), and PCK1 (phosphoenolpyruvate carboxykinase 1) were down-regulated. Due to the role of PDH in acetyl-CoA biosynthesis, we measured its enzymatic activity, which was accelerated in most 0185-OEs compared to WTs (Fig. 3 F)."
+          }
+        ]
+      },
+      {
+        "id": "Sec7",
+        "title": "Analysis of DEGs related to phenylpropanoid biosynthesis",
+        "paragraphs": [
+          {
+            "id": "Par19",
+            "text": "The phenylpropanoid pathway contributes to produce a large number of secondary metabolites, including precursors for lignin biosynthesis. Here, we illustrated that C Las0185 induced the expressions of PAL s (phenylalanine ammonia-lyase), 4CL s (4-coumarate CoA ligase), CCoAOMT (caffeoyl CoA-O methyltransferase), CCR1 (cinnamoyl CoA reductase 1), and CAD9 (cinnamyl alcohol dehydrogenase 9) (Fig. 4 A). These genes led to the accumulation of basic units of lignin polymers, namely counaryl alcohol, caffeyl alcohol, coniferyl alcohol, 5 H coniferyl alcohol. To verify C Las0185 effect on lignin, we examined its content in citrus plants. The result indicated that C Las0185 increased the accumulation of lignin in most 0185-OEs compared to WT group (Fig. 4 B)."
+          },
+          {
+            "id": "Par20",
+            "text": "Fig. 4 Analysis of differentially expressed genes (DEGs) related to phenylpropanoid biosynthesis. A MapMan v 3.7.0 illustration of genes enriched in phenylpropanoid biosynthesis. Genes markedly up-regulated and down-regulated in transgenic citrus lines (0185-OE) are displayed in red and blue, respectively, and they were represented as log2(mean-FPKM of OE/mean-FPKM of WT) values. B The lignin accumulation in 0185-OEs and wild-type (WT) group. 0185-OE#, transgenic lines. Asterisks indicate significant differences determined by the Student’s t -test (** P < 0.01; n = 3). The experiments comprised three independent biological replicates, and performed twice with similar results"
+          },
+          {
+            "id": "",
+            "text": "Analysis of differentially expressed genes (DEGs) related to phenylpropanoid biosynthesis. A MapMan v 3.7.0 illustration of genes enriched in phenylpropanoid biosynthesis. Genes markedly up-regulated and down-regulated in transgenic citrus lines (0185-OE) are displayed in red and blue, respectively, and they were represented as log2(mean-FPKM of OE/mean-FPKM of WT) values. B The lignin accumulation in 0185-OEs and wild-type (WT) group. 0185-OE#, transgenic lines. Asterisks indicate significant differences determined by the Student’s t -test (** P < 0.01; n = 3). The experiments comprised three independent biological replicates, and performed twice with similar results"
+          }
+        ]
+      },
+      {
+        "id": "Sec8",
+        "title": "Expression of transcription factor (TF)-encoding genes in 0185-OEs",
+        "paragraphs": [
+          {
+            "id": "Par21",
+            "text": "Notably, DEGs were also enriched in transcription regulator activity (Fig. 2 A). Visualized with Mapman v 3.7.0 [ 34 ], they were clustered into seven families (Fig. 5 , Table S5). Playing essentials roles in plant development, metabolism, and responses to stresses, DEGs from AP2/ERF, bZIP, and GATA families were mainly up-regulated. Comparatively, the majority of DEGs from WRKY and HSF families were down-regulated, which are prominent components in plant immunity. TFs from HB and MYB families regulate plant secondary metabolism, such as lignin biosynthesis. Remarkably, the expression of one MYB gene ( CsMYB124 ) was highly up-regulated in 0185-OEs with the log 2 (mean-FPKM of OE/mean-FPKM of WT) of 5.5."
+          },
+          {
+            "id": "Par22",
+            "text": "Fig. 5 MapMan v 3.7.0 illustration of genes enriched in transcription factors (TF). Genes remarkably up-regulated and down-regulated in transgenic citrus lines (0185-OE) are displayed in red and blue, respectively, and genes were represented as log 2 (mean-FPKM of OE/mean-FPKM of WT) values. AP2/ERF, APETALA2/ethylene-responsive factor; bZIP, basic region/leucine zipper motif; GATA, zinc finger motif containing TF; MYB, v-myb avian myeloblastosis viral oncogene homolog; WRKY, WRKYGOK-conserved domain containing TF; HSF, heat shock transcription factor; HB, homeobox"
+          },
+          {
+            "id": "",
+            "text": "MapMan v 3.7.0 illustration of genes enriched in transcription factors (TF). Genes remarkably up-regulated and down-regulated in transgenic citrus lines (0185-OE) are displayed in red and blue, respectively, and genes were represented as log 2 (mean-FPKM of OE/mean-FPKM of WT) values. AP2/ERF, APETALA2/ethylene-responsive factor; bZIP, basic region/leucine zipper motif; GATA, zinc finger motif containing TF; MYB, v-myb avian myeloblastosis viral oncogene homolog; WRKY, WRKYGOK-conserved domain containing TF; HSF, heat shock transcription factor; HB, homeobox"
+          }
+        ]
+      },
+      {
+        "id": "Sec9",
+        "title": "Expression of endocytosis-related genes in 0185-OEs",
+        "paragraphs": [
+          {
+            "id": "Par23",
+            "text": "Endocytosis is a crucial process in innate immunity and homeostasis via taking in relatively large particles by living cells termed endosomes [ 35 ]. Here, we identified 16 DEGs implicated in endocytosis, among them, 14 DEGs exhibited higher expression levels in 0185-OE group, compared to WT samples (Fig. 6 A and Table S5). These genes encode proteins, for example, tubulin chains, rac-like GTP-binding proteins, and V-type protein ATPase subunits."
+          },
+          {
+            "id": "Par24",
+            "text": "Fig. 6 Endocytosis was facilitated by CLIBASIA_00185 ( C Las0185). A The heatmap of differentially expressed genes (DEGs) enriched in endocytosis pathway between C Las0185-transgenic citrus lines (0185-OE) and wild-type (WT) group. Each column indicates a library, and each row indicates a DEG. The data were normalized via FPKM values. The colors from red to blue represent the expression levels from high to low. B Electron microscopic images of vesicles structures in citrus leaves, marked by red arrow. CW, cell wall; ME, membrane; Chl, chloroplast; Sg, starch granule; Og, osmophilic garnule; Mi, mitochondria; Li, Lipidosome; Scar bar: 2 μm, 1 μm, and 500 nm"
+          },
+          {
+            "id": "",
+            "text": "Endocytosis was facilitated by CLIBASIA_00185 ( C Las0185). A The heatmap of differentially expressed genes (DEGs) enriched in endocytosis pathway between C Las0185-transgenic citrus lines (0185-OE) and wild-type (WT) group. Each column indicates a library, and each row indicates a DEG. The data were normalized via FPKM values. The colors from red to blue represent the expression levels from high to low. B Electron microscopic images of vesicles structures in citrus leaves, marked by red arrow. CW, cell wall; ME, membrane; Chl, chloroplast; Sg, starch granule; Og, osmophilic garnule; Mi, mitochondria; Li, Lipidosome; Scar bar: 2 μm, 1 μm, and 500 nm"
+          },
+          {
+            "id": "Par25",
+            "text": "Vesicles are predominent structures during the endocytic process, which provide a means of cellular entry for extracellular substance and for recycling of membrane constituents [ 36 ]. With transmission electron microscopy (TEM), vesicle structures were observed in 0185-OE group, while none was in WTs. Here, we suggested that C Las0185 enhanced endocytosis."
+          }
+        ]
+      },
+      {
+        "id": "Sec10",
+        "title": "Quantitative RT-PCR (qRT-PCR) analysis of ten DEGs in HLB-diseased citrus plants",
+        "paragraphs": [
+          {
+            "id": "Par26",
+            "text": "To further analysis of the expression of DEGs in HLB-diseased citrus plants, ten DEGs were selected for qRT-PCR analysis, including five up-regulated genes, VTP (25.3 kDa vesicle transport protein), HK2 (hexokinase 2), GAPC1 (glyceraldehyde-3-phosphate dehydrogenase C subunit 1), HCT (shikimate O-hydroxycinnamoyltransferase), and POD48 (peroxidase 48), as well as five down-regulated genes, PCK1 (phosphoenolpyruvate carboxykinase (ATP) 1-like), VHA (V-type H + ATPase subunit F), CLC3 (calreticulin 3), FBA1 (fructose-bisphosphate aldolase 1), and PFK2 (ATP-dependent 6-phosphofructokinase 2), respectively. The results showed that the expression patterns of all selected genes were in good agreement with those analyzed by transcriptome sequencing (Fig. S1 )."
+          }
+        ]
+      },
+      {
+        "id": "Sec11",
+        "title": "Discussion",
+        "paragraphs": [
+          {
+            "id": "Par27",
+            "text": "C Las effectors promote HLB development via inhibiting protease activity, interfering with autophage and vesicle trafficking, as well as suppressing SA and ROS accumulation [ 14 , 15 , 19 ]. C Las0185 is characterized as a virulence factor that compromises ROS-medieated plant defense, while a wide range of functions for C Las0185 remain to be clarified [ 22 ]. In this study, we used RNA-seq to uncover the impacts of C Las0185 on host responses. Marked differences between OE and WT samples by KEGG were discovered, which were mainly enriched in sugar metabolism, phenylpropanoid biosynthesis, and endocytosis pathway. It is widely acknowledged that C Las impacts sugar metabolism and phenylpropanoid pathway in citrus plants [ 4 , 27 ], while little is known about C Las-mediated endocytosis in host plants. To our knowledge, this study is the first large-scale transcriptome analysis that investigates the functions of C Las-delivered effector on host plants."
+          },
+          {
+            "id": "Par28",
+            "text": "Sugars are energy-rich metabolites for organelles, and source-to-sink transported through the phloem [ 37 ]. Encoding a glucose/galactose transporter, HLB pathogens likely rely on host-derived sugars for energy [ 7 ]. In addition, sugar is also known to serve as a signal molecule that governs various signal pathways and activates defense responses [ 38 ]. Evidences showed that sugar levels, especially fructose, glucose, and sucrose, alter at different time points during HLB progression [ 5 , 6 , 39 ]. Here, we determined that C Las0185 depressed the expression of genes implicated in sucrose-starch biosynthesis, and the content of soluble sugars was decreased in 0185-OE group. However, it remains to be elucidated whether the effector inhibits sugar-mediated defense signaling."
+          },
+          {
+            "id": "Par29",
+            "text": "Glycolysis is the only pathway that can generate ATP via metabolizing simple sugars in the absence of oxygen [ 32 , 40 ]. Ca . Liberibacter spp. have a limited capacity for aerobic respiration, while the glycolysis pathway dysfunctions in HLB pathogens [ 7 ]. Prior work demonstrated that glycolysis-dependent ATP biosynthesis in citrus is prompted at the early stage of C Las inoculation [ 41 , 42 ]. Transcriptome analysis revealed that the expression of genes related to glycolysis pathway was mainly increased in 0185-OE group, including HXK3 . HXK serves to maintain a close relationship with ATP production via catalyzing the phosphorylation of glucose [ 43 ], and its activity was enhanced in 0185-OE group. Supposingly, the effector accelerates glycolysis in the host, thereby providing favorable environment for pathogen survival."
+          },
+          {
+            "id": "Par30",
+            "text": "As the end product of glycolysis, pyruvate is converted to acetyl-CoA by enzymes such as PDH. Acetyl-CoA serves as the precursor for a wide range of metabolites [ 44 , 45 ]. Its production is commonly elevated during pathogen infection [ 46 , 47 ]. Here, we discovered that the genes associated with the pyruvate conversion were induced, and the PDH activity was triggered in 0185-OEs. In agreement with our results, acetyl-CoA metabolism in D . citri is manipulated by C Las [ 48 ]. Conclusively, C Las0185 probably takes charge of nutrient supply of HLB."
+          },
+          {
+            "id": "Par31",
+            "text": "Subjected to biotic/abiotic stresses, plants have evolved various pathways for the biosynthesis of secondary metabolites. The phenylpropanoid pathway contributes to generation of diverse specialized metabolites that play functions in plant development, as well as plant interactions with surrounding environment [ 49 ]. On the one hand, phenylpropanoid-based polymers such as lignin play a defense-responsive role in scale insect attacks [ 50 , 51 ]; on the other, the products facilitate the attraction of insects as agents for pollination and seed dispersal [ 52 ]. Integrated transcriptome and metabolome analysis determined that phenylpropanoid biosynthesis benefits C Las accumulation in citrus [ 53 ]. In our study, the genes related to this pathway were largely induced in transgenic citrus plants. Consistently, lignin content was elevated in 0185-OEs. Hence, the stimulation of phenylpropanoid metabolism pathway may disadvantage psyllids feeding on HLB-diseased plants, while could benefit C Las for its survival in phloem."
+          },
+          {
+            "id": "Par32",
+            "text": "Our results demonstrated that C Las0185 influenced the transcript levels of TF s. Among them, MYB124 was highly induced in 0185-OE group compared to WTs. It has been documented that MdMYB124 enhances metabolite accumulation in the phenylpropanoid biosynthesis pathway in apple [ 54 ]. Comparatively, the transcript levels of WRKY type TF s were mostly depressed in 0185-OE group, apart from WRKY74 and WRKY75 . Their encoding TFs trigger ROS bursts, and increase the transcription of defense-related genes in Triticum aestivum and Arabidopsis [ 55 , 56 ]. It is commonly acknowledged that WRKY proteins trigger defense mechanisms in conjunction with ROS signaling cascade, which in turn manipulates WRKY expression [ 57 , 58 ]. Targeting CsMsrB1, C Las0185 scavenges ROS accumulation in cascade with the depression of WRKY transcriptions. Hence, CsMsrB1 could be a genome-editing target for the development of HLB-resistant citrus germplasm."
+          },
+          {
+            "id": "Par33",
+            "text": "Moreover, C Las0185 interfered with the expressions of AP2/ERF, bZIP, GATA, HSF and HB type TF s. They are involved in plant development, stress responses, and phytohormone crosstalk [ 59 , 60 ]. Due to multiple functions of C Las0185, the effector could be an anti- C Las target."
+          },
+          {
+            "id": "Par34",
+            "text": "Endocytosis functions as an intracellular defense mechanism whereby exogenous particles are engulfed and internalized. However, to successfully colonize host organisms and establish infections, pathogens have evolved strategies to subvert this cellular process. For instance, they redirect endocytosis from the degradative pathway to a non-degradative pathway and transfer between cells [ 61 , 62 ]. Prior studies revealed that endocytosis is not only used by C Las to mediate bacterial invasion in psyllid gut cells, but also affects bacterial titers [ 63 , 64 ]. Involving in endocytosis, glyceraldehyde-3-phosphate dehydrogenase (GAPDH) and guanine nucleotide exchange factor, Sect. 12 are targeted by C Las effectors, SDE3 and SDE19, respectively, which interfere with autophage and vesicle traffciking in C . sinensis [ 15 , 19 ]."
+          },
+          {
+            "id": "Par35",
+            "text": "In our study, DEGs of OE/WT enriched in endocytosis were induced, and vesicle structures were observed. Consistently, endocytosis-associated proteins, namely CLCs (clathrin light chain 1-like, and 2), RHO1 (rac-like GTP-binding protein 1), and PAP6 (plastid-lipid-associated protein 6) were characterized as C Las0185-interacting proteins in citrus plants with Y2H screening [ 22 ]. Moreover, CLC1 was significantly induced in 0185-OEs. According to endocytosis stimulation caused by C Las0185, further researches could focus on how C Las benefits from endocytic process in host plants."
+          }
+        ],
+        "subsections": [
+          {
+            "id": "Sec12",
+            "title": "Impacts of ",
+            "paragraphs": [
+              {
+                "id": "Par28",
+                "text": "Sugars are energy-rich metabolites for organelles, and source-to-sink transported through the phloem [ 37 ]. Encoding a glucose/galactose transporter, HLB pathogens likely rely on host-derived sugars for energy [ 7 ]. In addition, sugar is also known to serve as a signal molecule that governs various signal pathways and activates defense responses [ 38 ]. Evidences showed that sugar levels, especially fructose, glucose, and sucrose, alter at different time points during HLB progression [ 5 , 6 , 39 ]. Here, we determined that C Las0185 depressed the expression of genes implicated in sucrose-starch biosynthesis, and the content of soluble sugars was decreased in 0185-OE group. However, it remains to be elucidated whether the effector inhibits sugar-mediated defense signaling."
+              },
+              {
+                "id": "Par29",
+                "text": "Glycolysis is the only pathway that can generate ATP via metabolizing simple sugars in the absence of oxygen [ 32 , 40 ]. Ca . Liberibacter spp. have a limited capacity for aerobic respiration, while the glycolysis pathway dysfunctions in HLB pathogens [ 7 ]. Prior work demonstrated that glycolysis-dependent ATP biosynthesis in citrus is prompted at the early stage of C Las inoculation [ 41 , 42 ]. Transcriptome analysis revealed that the expression of genes related to glycolysis pathway was mainly increased in 0185-OE group, including HXK3 . HXK serves to maintain a close relationship with ATP production via catalyzing the phosphorylation of glucose [ 43 ], and its activity was enhanced in 0185-OE group. Supposingly, the effector accelerates glycolysis in the host, thereby providing favorable environment for pathogen survival."
+              },
+              {
+                "id": "Par30",
+                "text": "As the end product of glycolysis, pyruvate is converted to acetyl-CoA by enzymes such as PDH. Acetyl-CoA serves as the precursor for a wide range of metabolites [ 44 , 45 ]. Its production is commonly elevated during pathogen infection [ 46 , 47 ]. Here, we discovered that the genes associated with the pyruvate conversion were induced, and the PDH activity was triggered in 0185-OEs. In agreement with our results, acetyl-CoA metabolism in D . citri is manipulated by C Las [ 48 ]. Conclusively, C Las0185 probably takes charge of nutrient supply of HLB."
+              }
+            ]
+          },
+          {
+            "id": "Sec13",
+            "title": "Induction of phenylpropanoid biosynthesis",
+            "paragraphs": [
+              {
+                "id": "Par31",
+                "text": "Subjected to biotic/abiotic stresses, plants have evolved various pathways for the biosynthesis of secondary metabolites. The phenylpropanoid pathway contributes to generation of diverse specialized metabolites that play functions in plant development, as well as plant interactions with surrounding environment [ 49 ]. On the one hand, phenylpropanoid-based polymers such as lignin play a defense-responsive role in scale insect attacks [ 50 , 51 ]; on the other, the products facilitate the attraction of insects as agents for pollination and seed dispersal [ 52 ]. Integrated transcriptome and metabolome analysis determined that phenylpropanoid biosynthesis benefits C Las accumulation in citrus [ 53 ]. In our study, the genes related to this pathway were largely induced in transgenic citrus plants. Consistently, lignin content was elevated in 0185-OEs. Hence, the stimulation of phenylpropanoid metabolism pathway may disadvantage psyllids feeding on HLB-diseased plants, while could benefit C Las for its survival in phloem."
+              }
+            ]
+          },
+          {
+            "id": "Sec14",
+            "title": null,
+            "paragraphs": [
+              {
+                "id": "Par32",
+                "text": "Our results demonstrated that C Las0185 influenced the transcript levels of TF s. Among them, MYB124 was highly induced in 0185-OE group compared to WTs. It has been documented that MdMYB124 enhances metabolite accumulation in the phenylpropanoid biosynthesis pathway in apple [ 54 ]. Comparatively, the transcript levels of WRKY type TF s were mostly depressed in 0185-OE group, apart from WRKY74 and WRKY75 . Their encoding TFs trigger ROS bursts, and increase the transcription of defense-related genes in Triticum aestivum and Arabidopsis [ 55 , 56 ]. It is commonly acknowledged that WRKY proteins trigger defense mechanisms in conjunction with ROS signaling cascade, which in turn manipulates WRKY expression [ 57 , 58 ]. Targeting CsMsrB1, C Las0185 scavenges ROS accumulation in cascade with the depression of WRKY transcriptions. Hence, CsMsrB1 could be a genome-editing target for the development of HLB-resistant citrus germplasm."
+              },
+              {
+                "id": "Par33",
+                "text": "Moreover, C Las0185 interfered with the expressions of AP2/ERF, bZIP, GATA, HSF and HB type TF s. They are involved in plant development, stress responses, and phytohormone crosstalk [ 59 , 60 ]. Due to multiple functions of C Las0185, the effector could be an anti- C Las target."
+              }
+            ]
+          },
+          {
+            "id": "Sec15",
+            "title": "Enhancement of endocytosis by ",
+            "paragraphs": [
+              {
+                "id": "Par34",
+                "text": "Endocytosis functions as an intracellular defense mechanism whereby exogenous particles are engulfed and internalized. However, to successfully colonize host organisms and establish infections, pathogens have evolved strategies to subvert this cellular process. For instance, they redirect endocytosis from the degradative pathway to a non-degradative pathway and transfer between cells [ 61 , 62 ]. Prior studies revealed that endocytosis is not only used by C Las to mediate bacterial invasion in psyllid gut cells, but also affects bacterial titers [ 63 , 64 ]. Involving in endocytosis, glyceraldehyde-3-phosphate dehydrogenase (GAPDH) and guanine nucleotide exchange factor, Sect. 12 are targeted by C Las effectors, SDE3 and SDE19, respectively, which interfere with autophage and vesicle traffciking in C . sinensis [ 15 , 19 ]."
+              },
+              {
+                "id": "Par35",
+                "text": "In our study, DEGs of OE/WT enriched in endocytosis were induced, and vesicle structures were observed. Consistently, endocytosis-associated proteins, namely CLCs (clathrin light chain 1-like, and 2), RHO1 (rac-like GTP-binding protein 1), and PAP6 (plastid-lipid-associated protein 6) were characterized as C Las0185-interacting proteins in citrus plants with Y2H screening [ 22 ]. Moreover, CLC1 was significantly induced in 0185-OEs. According to endocytosis stimulation caused by C Las0185, further researches could focus on how C Las benefits from endocytic process in host plants."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Sec12",
+        "title": "Impacts of ",
+        "paragraphs": [
+          {
+            "id": "Par28",
+            "text": "Sugars are energy-rich metabolites for organelles, and source-to-sink transported through the phloem [ 37 ]. Encoding a glucose/galactose transporter, HLB pathogens likely rely on host-derived sugars for energy [ 7 ]. In addition, sugar is also known to serve as a signal molecule that governs various signal pathways and activates defense responses [ 38 ]. Evidences showed that sugar levels, especially fructose, glucose, and sucrose, alter at different time points during HLB progression [ 5 , 6 , 39 ]. Here, we determined that C Las0185 depressed the expression of genes implicated in sucrose-starch biosynthesis, and the content of soluble sugars was decreased in 0185-OE group. However, it remains to be elucidated whether the effector inhibits sugar-mediated defense signaling."
+          },
+          {
+            "id": "Par29",
+            "text": "Glycolysis is the only pathway that can generate ATP via metabolizing simple sugars in the absence of oxygen [ 32 , 40 ]. Ca . Liberibacter spp. have a limited capacity for aerobic respiration, while the glycolysis pathway dysfunctions in HLB pathogens [ 7 ]. Prior work demonstrated that glycolysis-dependent ATP biosynthesis in citrus is prompted at the early stage of C Las inoculation [ 41 , 42 ]. Transcriptome analysis revealed that the expression of genes related to glycolysis pathway was mainly increased in 0185-OE group, including HXK3 . HXK serves to maintain a close relationship with ATP production via catalyzing the phosphorylation of glucose [ 43 ], and its activity was enhanced in 0185-OE group. Supposingly, the effector accelerates glycolysis in the host, thereby providing favorable environment for pathogen survival."
+          },
+          {
+            "id": "Par30",
+            "text": "As the end product of glycolysis, pyruvate is converted to acetyl-CoA by enzymes such as PDH. Acetyl-CoA serves as the precursor for a wide range of metabolites [ 44 , 45 ]. Its production is commonly elevated during pathogen infection [ 46 , 47 ]. Here, we discovered that the genes associated with the pyruvate conversion were induced, and the PDH activity was triggered in 0185-OEs. In agreement with our results, acetyl-CoA metabolism in D . citri is manipulated by C Las [ 48 ]. Conclusively, C Las0185 probably takes charge of nutrient supply of HLB."
+          }
+        ]
+      },
+      {
+        "id": "Sec13",
+        "title": "Induction of phenylpropanoid biosynthesis",
+        "paragraphs": [
+          {
+            "id": "Par31",
+            "text": "Subjected to biotic/abiotic stresses, plants have evolved various pathways for the biosynthesis of secondary metabolites. The phenylpropanoid pathway contributes to generation of diverse specialized metabolites that play functions in plant development, as well as plant interactions with surrounding environment [ 49 ]. On the one hand, phenylpropanoid-based polymers such as lignin play a defense-responsive role in scale insect attacks [ 50 , 51 ]; on the other, the products facilitate the attraction of insects as agents for pollination and seed dispersal [ 52 ]. Integrated transcriptome and metabolome analysis determined that phenylpropanoid biosynthesis benefits C Las accumulation in citrus [ 53 ]. In our study, the genes related to this pathway were largely induced in transgenic citrus plants. Consistently, lignin content was elevated in 0185-OEs. Hence, the stimulation of phenylpropanoid metabolism pathway may disadvantage psyllids feeding on HLB-diseased plants, while could benefit C Las for its survival in phloem."
+          }
+        ]
+      },
+      {
+        "id": "Sec14",
+        "title": null,
+        "paragraphs": [
+          {
+            "id": "Par32",
+            "text": "Our results demonstrated that C Las0185 influenced the transcript levels of TF s. Among them, MYB124 was highly induced in 0185-OE group compared to WTs. It has been documented that MdMYB124 enhances metabolite accumulation in the phenylpropanoid biosynthesis pathway in apple [ 54 ]. Comparatively, the transcript levels of WRKY type TF s were mostly depressed in 0185-OE group, apart from WRKY74 and WRKY75 . Their encoding TFs trigger ROS bursts, and increase the transcription of defense-related genes in Triticum aestivum and Arabidopsis [ 55 , 56 ]. It is commonly acknowledged that WRKY proteins trigger defense mechanisms in conjunction with ROS signaling cascade, which in turn manipulates WRKY expression [ 57 , 58 ]. Targeting CsMsrB1, C Las0185 scavenges ROS accumulation in cascade with the depression of WRKY transcriptions. Hence, CsMsrB1 could be a genome-editing target for the development of HLB-resistant citrus germplasm."
+          },
+          {
+            "id": "Par33",
+            "text": "Moreover, C Las0185 interfered with the expressions of AP2/ERF, bZIP, GATA, HSF and HB type TF s. They are involved in plant development, stress responses, and phytohormone crosstalk [ 59 , 60 ]. Due to multiple functions of C Las0185, the effector could be an anti- C Las target."
+          }
+        ]
+      },
+      {
+        "id": "Sec15",
+        "title": "Enhancement of endocytosis by ",
+        "paragraphs": [
+          {
+            "id": "Par34",
+            "text": "Endocytosis functions as an intracellular defense mechanism whereby exogenous particles are engulfed and internalized. However, to successfully colonize host organisms and establish infections, pathogens have evolved strategies to subvert this cellular process. For instance, they redirect endocytosis from the degradative pathway to a non-degradative pathway and transfer between cells [ 61 , 62 ]. Prior studies revealed that endocytosis is not only used by C Las to mediate bacterial invasion in psyllid gut cells, but also affects bacterial titers [ 63 , 64 ]. Involving in endocytosis, glyceraldehyde-3-phosphate dehydrogenase (GAPDH) and guanine nucleotide exchange factor, Sect. 12 are targeted by C Las effectors, SDE3 and SDE19, respectively, which interfere with autophage and vesicle traffciking in C . sinensis [ 15 , 19 ]."
+          },
+          {
+            "id": "Par35",
+            "text": "In our study, DEGs of OE/WT enriched in endocytosis were induced, and vesicle structures were observed. Consistently, endocytosis-associated proteins, namely CLCs (clathrin light chain 1-like, and 2), RHO1 (rac-like GTP-binding protein 1), and PAP6 (plastid-lipid-associated protein 6) were characterized as C Las0185-interacting proteins in citrus plants with Y2H screening [ 22 ]. Moreover, CLC1 was significantly induced in 0185-OEs. According to endocytosis stimulation caused by C Las0185, further researches could focus on how C Las benefits from endocytic process in host plants."
+          }
+        ]
+      },
+      {
+        "id": "Sec16",
+        "title": "Conclusion",
+        "paragraphs": [
+          {
+            "id": "Par36",
+            "text": "The transcriptomic analysis determines C Las0185 impacts in host physiological characteristics, as well as defense responses. The effector scavenges host nutrients via interrupting sugar metabolism; contributes to pathogen survival in phloem via enhanced phenylpropanoid biosynthesis; inhibits plant defense via affecting WRKY-mediated signaling and endocytosis pathways. Our findings provide a comprehensive insight into the action mechanisms of C Las0185, which could be exploited for HLB management."
+          }
+        ]
+      },
+      {
+        "id": "Sec17",
+        "title": "Materials and methods",
+        "paragraphs": [
+          {
+            "id": "Par37",
+            "text": "Etiolated epicotyl segments of Wanjincheng were transformed by Agrobacterium tumefaciens , containing the recombinant plasmid, pLGN- C Las0185 under control of a cauliflower mosaic virus 35 S (CaMV 35 S) promoter [ 22 ]. Transformants were confirmed with GUS staining, and the buds without transformation served as the WT controls. For the bacteria inoculation, stems from HLB-diseased C . reticulata plants were grafted onto healty citrus plants, and C Las was identifed with PCR. Plant materials were obtained in National Citrus Virus Exclusion Center (NCVEC) of Southwest University, and cultured at 28 °C under a photoperiod of 16 h light/8 h darkness."
+          },
+          {
+            "id": "Par38",
+            "text": "RNA library construction and sequencing were conducted by Novogene Biotechnology Co., Ltd. (Peking, China) using the Ӏllumina Hiseq PE150 platform. Fully-expanded leaves were collected from three one-year old WTs (named as WT-1, WT-2, and WT-3), and three independent transgenic citrus plants (named as OE-1, OE-2, and OE-3), respectively. Total RNA was extracted with RNAiso Plus (Takara, Japan) following the manufacturer’s instruction. RNA integrity was assessed using the RNA Nano 6 000 assay kit of the Bioanalyzer 2 100 system (Agilent Technologies, USA). RNA libraries were prepared with NEBNext Ultra RNA Library Prep Kit for Ӏllumina (NEB, USA), then sequenced on the platform for the generation of 150 bp paired-end reads."
+          },
+          {
+            "id": "Par39",
+            "text": "To obtain clean data, reads containing adapter, poly-N, and with low quality were removed from raw data using fastp v 0.19.7. The clean data were then mapped to the reference genome of C . sinensis ( http://www.ncbi.nlm.nih.gov/genome/10702 ) using Hisat2 v 2.0.5. To assemble and quantitate full length transcripts representing multiple splice variant for each gene locus, StringTie v 1.3.3b was used in a reference-based approach."
+          },
+          {
+            "id": "Par40",
+            "text": "FPKM was used to estimate gene expression levels, and DESeq2 was used to screen DEGs between of WT and 0185-OE groups. Adjusted p -value of 0.05 and absolute log 2 (mean-FPKM of OE/mean-FPKM of WT) of 1 were set as the threshold for significantly differential expression."
+          },
+          {
+            "id": "Par41",
+            "text": "To determine the molecular functions of DEGs, GO enrichment analysis was conducted, and all DEGs were mapped to GO terms in the database ( http://www.geneontology.org ). GO terms with padjust < 0.05 were considered significantly enriched by DEGs. KEGG was utilized to understand high-level functions and utilities of the biological system. An enriched pathway with padjust < 0.05 was deemed statistically significant. MapMan v 3.7.0 was used for data visualization and specific pathway analysis."
+          },
+          {
+            "id": "Par42",
+            "text": "Leaves from WT and OE groups were collected for the measurement of following physiological and biochemical properties. Soluble sugar contents were measured with anthrone colorimetric method using a plant soluble sugar detection kit (#BC0035, Solarbio). 0.05 g of lyophilized leaf powder was put into a 1.5 mL centrifuge tube, added with 0.5 mL ultrapure water, and then they were bathed in 100 °C water for 10 min. After centrifugation at 8,000 × g for 10 min, the supernatant was collected and diluted to 5 mL with ultrapure water. Working fluid (anthrone) and sulfuric acid (H 2 SO 4 ) were added according to the kit instruction. The mixture was incubated in 95 °C water for 10 min before detection of the absorbance value at 620 nm."
+          },
+          {
+            "id": "Par43",
+            "text": "The enzymatic activity of HXK was measured using a HXK activity assay kit (#BC0745, Solarbio). 0.05 g of lyophilized leaf powder was put into a 1.5 mL centrifuge tube, added with 0.5 mL extraction buffer. After centrifugation at 8,000 × g for 10 min, the liquid supernatant was collected, and the HXK activity was detected of the absorbance value at 340 nm."
+          },
+          {
+            "id": "Par44",
+            "text": "The enzymatic activity of PDH was measured using a PDH activity assay kit (#BC0385, Solarbio). 0.05 g of lyophilized leaf powder was put into a 1.5 mL centrifuge tube, added with working buffer according to the kit instruction. After centrifugation at 11,000 × g for 10 min, the supernatant was collected, and the PDH activity was detected of the absorbance value at 605 nm."
+          },
+          {
+            "id": "Par45",
+            "text": "The lignin accumulation was measured using a lignin content assay kit (#BC4205, Solarbio). 0.01 g of finely grounded dried leaf was put into a 1.5 mL centrifuge tube, added with working buffer according to the kit instruction. After acetylation and centrifugation, the supernatant was collected, and the lignin content was detected of the absorbance value at 280 nm."
+          },
+          {
+            "id": "Par46",
+            "text": "Tissues with the size of 4 mm × 1 mm were excise from leaves. The samples were fixed in 2.5% glutaraldehyde (pH 7.4) for 2 h. Washed with 0.1 M phosphate buffer (pH 7.2), samples were then fixed in 1% osmic acid at 4℃ for 2 h. After dehydrated in a graded series of ethanol, they were embedded in Epon-Araldite resin for penetration and placed in a mold for polymerization. The semi thin section was used for positioning, and then the ultrathin section was made and collected for micro-structure analysis. 3% uranyl acetate and 2.7% lead citrate were used to counterstain. Subcellular structures were observed with HT7800 TEM (HITACHI, Japan) at an accelerating voltage of 80 kV."
+          },
+          {
+            "id": "Par47",
+            "text": "Ten DEGs enriched in sugar metabolism, phenylpropanoid biosynthesis, and endocytosis, were selected from the transcriptome data. The primers (Table S3) for qRT-PCR analysis were designed with NCBI primer-BLAST ( https://www.ncbi.nlm.nih.gov/tools/primer-blast/ ). C . sinensis housekeeping gene, CsGAPDH was used as an internal reference. In a 20 µL volume, 1 µg of total RNA was reverse transcribed with All-In-One 5×RT MasterMix (ABM, Canada) following the manufacturer’s instruction, and the cDNA products were 10× diluted for further use. PCR reactions were performed in 10 µL volumes using, BlastTaqTM 2× qPCR MasterMix (ABM) on the qTOWER3 Real Time System (Jena, Germany). The cycling conditions were as follows: 95 °C for 3 min, followed by 40 cycles of 95 °C for 15 s, 55 °C for 15 s, and 72 °C for 15 s The experiments contained three independent biological replicates, and three technical repeats were performed. Relative expression levels were determined using 2 −ΔΔCt method and log 2 normalized [ 65 ]."
+          }
+        ],
+        "subsections": [
+          {
+            "id": "Sec18",
+            "title": "Plant materials and grown condition",
+            "paragraphs": [
+              {
+                "id": "Par37",
+                "text": "Etiolated epicotyl segments of Wanjincheng were transformed by Agrobacterium tumefaciens , containing the recombinant plasmid, pLGN- C Las0185 under control of a cauliflower mosaic virus 35 S (CaMV 35 S) promoter [ 22 ]. Transformants were confirmed with GUS staining, and the buds without transformation served as the WT controls. For the bacteria inoculation, stems from HLB-diseased C . reticulata plants were grafted onto healty citrus plants, and C Las was identifed with PCR. Plant materials were obtained in National Citrus Virus Exclusion Center (NCVEC) of Southwest University, and cultured at 28 °C under a photoperiod of 16 h light/8 h darkness."
+              }
+            ]
+          },
+          {
+            "id": "Sec19",
+            "title": "Sample preparation and RNA-seq",
+            "paragraphs": [
+              {
+                "id": "Par38",
+                "text": "RNA library construction and sequencing were conducted by Novogene Biotechnology Co., Ltd. (Peking, China) using the Ӏllumina Hiseq PE150 platform. Fully-expanded leaves were collected from three one-year old WTs (named as WT-1, WT-2, and WT-3), and three independent transgenic citrus plants (named as OE-1, OE-2, and OE-3), respectively. Total RNA was extracted with RNAiso Plus (Takara, Japan) following the manufacturer’s instruction. RNA integrity was assessed using the RNA Nano 6 000 assay kit of the Bioanalyzer 2 100 system (Agilent Technologies, USA). RNA libraries were prepared with NEBNext Ultra RNA Library Prep Kit for Ӏllumina (NEB, USA), then sequenced on the platform for the generation of 150 bp paired-end reads."
+              }
+            ]
+          },
+          {
+            "id": "Sec20",
+            "title": "Quality control and mapping",
+            "paragraphs": [
+              {
+                "id": "Par39",
+                "text": "To obtain clean data, reads containing adapter, poly-N, and with low quality were removed from raw data using fastp v 0.19.7. The clean data were then mapped to the reference genome of C . sinensis ( http://www.ncbi.nlm.nih.gov/genome/10702 ) using Hisat2 v 2.0.5. To assemble and quantitate full length transcripts representing multiple splice variant for each gene locus, StringTie v 1.3.3b was used in a reference-based approach."
+              }
+            ]
+          },
+          {
+            "id": "Sec21",
+            "title": "Differential expression analysis",
+            "paragraphs": [
+              {
+                "id": "Par40",
+                "text": "FPKM was used to estimate gene expression levels, and DESeq2 was used to screen DEGs between of WT and 0185-OE groups. Adjusted p -value of 0.05 and absolute log 2 (mean-FPKM of OE/mean-FPKM of WT) of 1 were set as the threshold for significantly differential expression."
+              }
+            ]
+          },
+          {
+            "id": "Sec22",
+            "title": "GO and KEGG enrichment analysis of DEGs",
+            "paragraphs": [
+              {
+                "id": "Par41",
+                "text": "To determine the molecular functions of DEGs, GO enrichment analysis was conducted, and all DEGs were mapped to GO terms in the database ( http://www.geneontology.org ). GO terms with padjust < 0.05 were considered significantly enriched by DEGs. KEGG was utilized to understand high-level functions and utilities of the biological system. An enriched pathway with padjust < 0.05 was deemed statistically significant. MapMan v 3.7.0 was used for data visualization and specific pathway analysis."
+              }
+            ]
+          },
+          {
+            "id": "Sec23",
+            "title": "Measurement of physiological and biochemical properties",
+            "paragraphs": [
+              {
+                "id": "Par42",
+                "text": "Leaves from WT and OE groups were collected for the measurement of following physiological and biochemical properties. Soluble sugar contents were measured with anthrone colorimetric method using a plant soluble sugar detection kit (#BC0035, Solarbio). 0.05 g of lyophilized leaf powder was put into a 1.5 mL centrifuge tube, added with 0.5 mL ultrapure water, and then they were bathed in 100 °C water for 10 min. After centrifugation at 8,000 × g for 10 min, the supernatant was collected and diluted to 5 mL with ultrapure water. Working fluid (anthrone) and sulfuric acid (H 2 SO 4 ) were added according to the kit instruction. The mixture was incubated in 95 °C water for 10 min before detection of the absorbance value at 620 nm."
+              },
+              {
+                "id": "Par43",
+                "text": "The enzymatic activity of HXK was measured using a HXK activity assay kit (#BC0745, Solarbio). 0.05 g of lyophilized leaf powder was put into a 1.5 mL centrifuge tube, added with 0.5 mL extraction buffer. After centrifugation at 8,000 × g for 10 min, the liquid supernatant was collected, and the HXK activity was detected of the absorbance value at 340 nm."
+              },
+              {
+                "id": "Par44",
+                "text": "The enzymatic activity of PDH was measured using a PDH activity assay kit (#BC0385, Solarbio). 0.05 g of lyophilized leaf powder was put into a 1.5 mL centrifuge tube, added with working buffer according to the kit instruction. After centrifugation at 11,000 × g for 10 min, the supernatant was collected, and the PDH activity was detected of the absorbance value at 605 nm."
+              },
+              {
+                "id": "Par45",
+                "text": "The lignin accumulation was measured using a lignin content assay kit (#BC4205, Solarbio). 0.01 g of finely grounded dried leaf was put into a 1.5 mL centrifuge tube, added with working buffer according to the kit instruction. After acetylation and centrifugation, the supernatant was collected, and the lignin content was detected of the absorbance value at 280 nm."
+              }
+            ]
+          },
+          {
+            "id": "Sec24",
+            "title": "TEM analysis",
+            "paragraphs": [
+              {
+                "id": "Par46",
+                "text": "Tissues with the size of 4 mm × 1 mm were excise from leaves. The samples were fixed in 2.5% glutaraldehyde (pH 7.4) for 2 h. Washed with 0.1 M phosphate buffer (pH 7.2), samples were then fixed in 1% osmic acid at 4℃ for 2 h. After dehydrated in a graded series of ethanol, they were embedded in Epon-Araldite resin for penetration and placed in a mold for polymerization. The semi thin section was used for positioning, and then the ultrathin section was made and collected for micro-structure analysis. 3% uranyl acetate and 2.7% lead citrate were used to counterstain. Subcellular structures were observed with HT7800 TEM (HITACHI, Japan) at an accelerating voltage of 80 kV."
+              }
+            ]
+          },
+          {
+            "id": "Sec25",
+            "title": "qRT-PCR analysis",
+            "paragraphs": [
+              {
+                "id": "Par47",
+                "text": "Ten DEGs enriched in sugar metabolism, phenylpropanoid biosynthesis, and endocytosis, were selected from the transcriptome data. The primers (Table S3) for qRT-PCR analysis were designed with NCBI primer-BLAST ( https://www.ncbi.nlm.nih.gov/tools/primer-blast/ ). C . sinensis housekeeping gene, CsGAPDH was used as an internal reference. In a 20 µL volume, 1 µg of total RNA was reverse transcribed with All-In-One 5×RT MasterMix (ABM, Canada) following the manufacturer’s instruction, and the cDNA products were 10× diluted for further use. PCR reactions were performed in 10 µL volumes using, BlastTaqTM 2× qPCR MasterMix (ABM) on the qTOWER3 Real Time System (Jena, Germany). The cycling conditions were as follows: 95 °C for 3 min, followed by 40 cycles of 95 °C for 15 s, 55 °C for 15 s, and 72 °C for 15 s The experiments contained three independent biological replicates, and three technical repeats were performed. Relative expression levels were determined using 2 −ΔΔCt method and log 2 normalized [ 65 ]."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Sec18",
+        "title": "Plant materials and grown condition",
+        "paragraphs": [
+          {
+            "id": "Par37",
+            "text": "Etiolated epicotyl segments of Wanjincheng were transformed by Agrobacterium tumefaciens , containing the recombinant plasmid, pLGN- C Las0185 under control of a cauliflower mosaic virus 35 S (CaMV 35 S) promoter [ 22 ]. Transformants were confirmed with GUS staining, and the buds without transformation served as the WT controls. For the bacteria inoculation, stems from HLB-diseased C . reticulata plants were grafted onto healty citrus plants, and C Las was identifed with PCR. Plant materials were obtained in National Citrus Virus Exclusion Center (NCVEC) of Southwest University, and cultured at 28 °C under a photoperiod of 16 h light/8 h darkness."
+          }
+        ]
+      },
+      {
+        "id": "Sec19",
+        "title": "Sample preparation and RNA-seq",
+        "paragraphs": [
+          {
+            "id": "Par38",
+            "text": "RNA library construction and sequencing were conducted by Novogene Biotechnology Co., Ltd. (Peking, China) using the Ӏllumina Hiseq PE150 platform. Fully-expanded leaves were collected from three one-year old WTs (named as WT-1, WT-2, and WT-3), and three independent transgenic citrus plants (named as OE-1, OE-2, and OE-3), respectively. Total RNA was extracted with RNAiso Plus (Takara, Japan) following the manufacturer’s instruction. RNA integrity was assessed using the RNA Nano 6 000 assay kit of the Bioanalyzer 2 100 system (Agilent Technologies, USA). RNA libraries were prepared with NEBNext Ultra RNA Library Prep Kit for Ӏllumina (NEB, USA), then sequenced on the platform for the generation of 150 bp paired-end reads."
+          }
+        ]
+      },
+      {
+        "id": "Sec20",
+        "title": "Quality control and mapping",
+        "paragraphs": [
+          {
+            "id": "Par39",
+            "text": "To obtain clean data, reads containing adapter, poly-N, and with low quality were removed from raw data using fastp v 0.19.7. The clean data were then mapped to the reference genome of C . sinensis ( http://www.ncbi.nlm.nih.gov/genome/10702 ) using Hisat2 v 2.0.5. To assemble and quantitate full length transcripts representing multiple splice variant for each gene locus, StringTie v 1.3.3b was used in a reference-based approach."
+          }
+        ]
+      },
+      {
+        "id": "Sec21",
+        "title": "Differential expression analysis",
+        "paragraphs": [
+          {
+            "id": "Par40",
+            "text": "FPKM was used to estimate gene expression levels, and DESeq2 was used to screen DEGs between of WT and 0185-OE groups. Adjusted p -value of 0.05 and absolute log 2 (mean-FPKM of OE/mean-FPKM of WT) of 1 were set as the threshold for significantly differential expression."
+          }
+        ]
+      },
+      {
+        "id": "Sec22",
+        "title": "GO and KEGG enrichment analysis of DEGs",
+        "paragraphs": [
+          {
+            "id": "Par41",
+            "text": "To determine the molecular functions of DEGs, GO enrichment analysis was conducted, and all DEGs were mapped to GO terms in the database ( http://www.geneontology.org ). GO terms with padjust < 0.05 were considered significantly enriched by DEGs. KEGG was utilized to understand high-level functions and utilities of the biological system. An enriched pathway with padjust < 0.05 was deemed statistically significant. MapMan v 3.7.0 was used for data visualization and specific pathway analysis."
+          }
+        ]
+      },
+      {
+        "id": "Sec23",
+        "title": "Measurement of physiological and biochemical properties",
+        "paragraphs": [
+          {
+            "id": "Par42",
+            "text": "Leaves from WT and OE groups were collected for the measurement of following physiological and biochemical properties. Soluble sugar contents were measured with anthrone colorimetric method using a plant soluble sugar detection kit (#BC0035, Solarbio). 0.05 g of lyophilized leaf powder was put into a 1.5 mL centrifuge tube, added with 0.5 mL ultrapure water, and then they were bathed in 100 °C water for 10 min. After centrifugation at 8,000 × g for 10 min, the supernatant was collected and diluted to 5 mL with ultrapure water. Working fluid (anthrone) and sulfuric acid (H 2 SO 4 ) were added according to the kit instruction. The mixture was incubated in 95 °C water for 10 min before detection of the absorbance value at 620 nm."
+          },
+          {
+            "id": "Par43",
+            "text": "The enzymatic activity of HXK was measured using a HXK activity assay kit (#BC0745, Solarbio). 0.05 g of lyophilized leaf powder was put into a 1.5 mL centrifuge tube, added with 0.5 mL extraction buffer. After centrifugation at 8,000 × g for 10 min, the liquid supernatant was collected, and the HXK activity was detected of the absorbance value at 340 nm."
+          },
+          {
+            "id": "Par44",
+            "text": "The enzymatic activity of PDH was measured using a PDH activity assay kit (#BC0385, Solarbio). 0.05 g of lyophilized leaf powder was put into a 1.5 mL centrifuge tube, added with working buffer according to the kit instruction. After centrifugation at 11,000 × g for 10 min, the supernatant was collected, and the PDH activity was detected of the absorbance value at 605 nm."
+          },
+          {
+            "id": "Par45",
+            "text": "The lignin accumulation was measured using a lignin content assay kit (#BC4205, Solarbio). 0.01 g of finely grounded dried leaf was put into a 1.5 mL centrifuge tube, added with working buffer according to the kit instruction. After acetylation and centrifugation, the supernatant was collected, and the lignin content was detected of the absorbance value at 280 nm."
+          }
+        ]
+      },
+      {
+        "id": "Sec24",
+        "title": "TEM analysis",
+        "paragraphs": [
+          {
+            "id": "Par46",
+            "text": "Tissues with the size of 4 mm × 1 mm were excise from leaves. The samples were fixed in 2.5% glutaraldehyde (pH 7.4) for 2 h. Washed with 0.1 M phosphate buffer (pH 7.2), samples were then fixed in 1% osmic acid at 4℃ for 2 h. After dehydrated in a graded series of ethanol, they were embedded in Epon-Araldite resin for penetration and placed in a mold for polymerization. The semi thin section was used for positioning, and then the ultrathin section was made and collected for micro-structure analysis. 3% uranyl acetate and 2.7% lead citrate were used to counterstain. Subcellular structures were observed with HT7800 TEM (HITACHI, Japan) at an accelerating voltage of 80 kV."
+          }
+        ]
+      },
+      {
+        "id": "Sec25",
+        "title": "qRT-PCR analysis",
+        "paragraphs": [
+          {
+            "id": "Par47",
+            "text": "Ten DEGs enriched in sugar metabolism, phenylpropanoid biosynthesis, and endocytosis, were selected from the transcriptome data. The primers (Table S3) for qRT-PCR analysis were designed with NCBI primer-BLAST ( https://www.ncbi.nlm.nih.gov/tools/primer-blast/ ). C . sinensis housekeeping gene, CsGAPDH was used as an internal reference. In a 20 µL volume, 1 µg of total RNA was reverse transcribed with All-In-One 5×RT MasterMix (ABM, Canada) following the manufacturer’s instruction, and the cDNA products were 10× diluted for further use. PCR reactions were performed in 10 µL volumes using, BlastTaqTM 2× qPCR MasterMix (ABM) on the qTOWER3 Real Time System (Jena, Germany). The cycling conditions were as follows: 95 °C for 3 min, followed by 40 cycles of 95 °C for 15 s, 55 °C for 15 s, and 72 °C for 15 s The experiments contained three independent biological replicates, and three technical repeats were performed. Relative expression levels were determined using 2 −ΔΔCt method and log 2 normalized [ 65 ]."
+          }
+        ]
+      }
+    ],
+    "full_text": "Introduction Citrus, with a productivity of 9.2 tons/ha, is one of top three fruit crops worldwide (FAO Stat, 2023). However, its production faces the persistent threats of biotic and abiotic stresses. Among them, citrus Huanglongbing (HLB), the most devastating disease of citrus, has spread to the major growing regions including China, Brazil, and USA [ 1 ]. The causal agents of HLB are three Candidatus Liberibacter species [ 2 ]. Due to the widest distribution and strongest pathogenicity, Ca . L. asiaticus ( C Las) has been mostly studied. The pathogen infection interferes with the global gene expression, metabolism, and fitness in plant hosts [ 3 ]. Studies concluded some general trends in citrus responses to HLB. For instance, the expression of sugar metabolic genes is altered in C Las-infected plants [ 4 ]. Consistently, metabolomic studies revealed that sugar levels vary during the bacteria infection [ 5 , 6 ]. Despite the highly reduced genome, C Las encodes a variety of traits that allow it to scavenge energy and nutrients from plant hosts [ 7 ]. Correspondingly, systemic and chronic immunity are initiated in the plant hosts, including callose deposition, reactive oxygen species (ROS) production, induced expression of defense-related genes, and increased levels of salicylic acid (SA) [ 8 , 9 – 10 ]. Nevertheless, no known commercial cultivars confer HLB resistance. Additionally, none of the current strategies are efficient in preventing the disease. Hence, it is necessary to explore the intricacy of C Las-citrus interaction. A zigzag model has been commonly used to clarify pathogen-plant interactions [ 11 ]. In this theory, plant cells perceive exogenous intruders based on receptors anchored on outer membranes and intracellular receptors, which recognize pathogen-associated molecular patterns (PAMPs) and pathogen-delivered effectors, respectively. As C Las can be transmitted directly into the phloem by the Asian citrus psyllid ( Diaphorina citri ), it avoids the recognition by outer membrane receptors [ 8 ]. Therefore, effectors play a prominent role in C Las pathogenicity. 86 s-dependent effectors (SDEs) have been predicted [ 12 ], while few have been characterized, and they enhance citrus susceptibility to HLB in different ways. For instance, SDE1 (CLIBASIA_05315) induces accelerated senescence in citrus [ 13 ]; CLIBASIA_04425 decreases SA accumulation [ 14 ]; SDE3 (CLIBASIA_00420) and SDE4405 (CLIBASIA_04405) manipulate host autophagy [ 15 , 16 ]; SDE15 (CLIBASIA_4025) and CLIBASIA_05330 reduce immunity-related genes [ 17 , 18 ]; SDE19 (CLIBASIA_05320) disrupts vesicle trafficking [ 19 ]; and CLIBASIA_03230 suppresses calcium signaling in defense [ 20 ]. Alliance with mechanism research and artificial intelligence (AI), represents an effective strategy to combat HLB. Identified by AI, the antiproteolysis peptides 3 (APP3) controlls the disease via stabilizing MYC2, which is disrupted by SDE5-PUB21 module [ 21 ]. Prior study determined that C Las effector CLIBASIA_00185 ( C Las0185) benefits pathogen colonization by depressing ROS-mediated plant immunity. With yeast-two-hybrid (Y2H) assay, 49 candidates were identified, indicating that C Las0185 induces various changes within the hosts [ 22 ]. Transcriptomics serves as a fundamental approach for exploring transcriptional changes in organisms, and has been extensively used to investigate genetic reprogramming in citrus plants respond to Ca . Liberibacter spp. infection [ 23 , 24 ]. Transcriptome profiling of C Las in citrus and psyllids advances the understanding of HLB biology and provides a novel insight into the interactions within pathogen, plant host, and insect vector [ 25 ]. Comparative transcriptome analysis was performed to find the target genes that could be critical for HLB resistance [ 26 , 27 ]. Moreover, an integrated approach to evaluate molecular changes of HLB-diseased citrus plants was conducted with the combination of transcriptomic, proteomic, and metabolomic analysis [ 28 ]. Due to the convenience of genetic transformation, citrus cultivar Wanjincheng ( Citrus sinensis ) was selected as the plant material to generate C Las0185-transgenic citrus plants (0185-OE). Here, high-throughput RNA sequencing (RNA-seq) was conducted to assay the transcriptomes of 0185-OEs and wild-type controls (WT). The findings lead the way for a better understanding of the action mechanisms of C Las0185. Results Overview of RNA-seq and differentially expressed genes (DEGs) analysis To analyze the effects of C Las0185 on gene expression of C . sinensis ‘ Wanjincheng’, high-throughput RNA-seq were performed on three 0185-OEs and three WTs. In total, 40,848,494 to 47,734,208 and 41,154,856 to 45,039,584 raw reads were detected for OE and WT groups, respectively (Table S1 ). After filtering, the clean reads ranged from 40,256,444 to 47,244,968 for OE group while 40,790,252 to 44,681,792 for WT group. Q20 and Q30 percentages were above 90%, and the guanine-cytosine percentage (GC%) was ca. 44% in each library. On average, 88.30% of the reads were uniquely mapped to the C . sinensis genome. Sample to sample clustering analysis was based on Pearson distance calculated using fragments per kilobase of transcript per million (FPKM) values (Fig. 1 A). It showed that samples were strongly clustered based on their types, and the Pearson correlation coefficients ( R 2 ) within OEs and WTs were above 0.85. The principal component analysis (PCA) illustrated the overall expression profiles of OE and WT groups, suggesting a good reproducibility for the biological replicates with the same group but different between two groups (Fig. 1 B). A Venn diagram was used to identify their co-expression genes (Fig. 1 C). Filtered by a threshold of 1.0 mean-FPKM, 15,379 genes were expressed in both OE and WT groups, while 1,291 and 1,869 genes were specific to WTs and OEs, respectively. Fig. 1 Transcriptome data analysis. A Sample to sample clustering analysis for examining batch effects and similarity. OE, transgenic citrus plants expressing CLIBASIA_00185 ( CLas0185 ); WT, wild-type group. The analysis was based on Pearson distance calculated using Fragments per kilobase of transcript per million (FPKM) values. R 2 was calculated via Pearson’s correlation analysis, and the colors from red to cyan represent the correlationship from high to low. B Principle component analysis (PCA) for the classification of gene expression patterns between OE and WT groups measured in FPKM values. PC1, the first principle component; PC2, the second principle component. C A Venn diagram representing the shared/unique genes between OEs and WTs. D The volcano plot of differentially expressed genes (DEGs) between OEs and WTs. The padjust < 0.05 and ꟾlog2(mean-FPKM of OE/mean-FPKM of WT)ꟾ˃1 were set as the threshold. E Hierarchical clustering heatmap of DEGs between OEs and WTs. Each column indicates a library, and each row indicates a DEG. The data were normalized via FPKM values, and the colors from red to blue represent the expression levels from high to low The unique mapping genes were used for the analysis of DEGs with DESeq2 v 1.20.0 [ 29 ] The padjust < 0.05 and ꟾlog 2 (mean-FPKM of OE/mean-FPKM of WT)ꟾ˃1 were set as the standard selection criterion. A total of 6,506 DEGs were identified, with 3,985 up-regulated and 2,521 down-regulated (Fig. 1 D, Table S2). These different genes were expressed in a range from − 12 to 12 log 2 (mean-FPKM of OE/mean-FPKM of WT). To visualize the expression patterns of DEGs between two groups, we normalized the expression of DEGs using FPKM-mapped reads and generated a heat map. As a result, the expression profiles of DEGs were different from OE to WT groups, while they were similar in the replicates within the same group (Fig. 1 E). Functional analysis of DEGs Gene ontology (GO) enrichment analysis was performed on the DEGs of OE/WT with clusterProfiler v 3.8.1 [ 30 ], which were annotated to 50 functional groups (padjust < 0.05), including 20 biological processes (BP), three cellular components (CC), and 27 molecular functions (MF) (Fig. 2 A, Table S3). In BP category, the DEGs were mainly enriched in carbohydrate metabolic process; in CC category, the DEGs were enriched in cell wall, external encapsulating structure, and cell periphery; in MF category, the DEGs were enriched in hydrolase activity, oxidoreductase activity, iron ion binding, tetrapyrrole binding, heme binding, carbohydrate binding, and nucleoside-triphosphate activity, indicating that C Las0185 interferes with various alterations in citrus plants. Fig. 2 The analysis of Gene ontology (GO) annotation (A) and Kyoto encyclopedia of genes and genomes (KEGG) enrichment (B) . A term with padjust < 0.05 was deemed significant. In A , the ordinate indicates the significantly enriched GO term. The abscissa represents -log 10 (padjust) and gene count, respectively. In B , the ordinate indicates the KEGG pathway, and the abscissa represents the Rich factor. The greater the Rich factor, the greater the degree of enrichment. The larger the dot, the greater the number of differential genes enriched with the pathway Pathway analysis of DEGs Kyoto encyclopedia of genes and genomes (KEGG) analysis was conducted for a better understanding of the pathways associated with DEGs in transgenic citrus plants with clusterProfiler v 3.8.1 [ 31 ]. The results showed that DEGs were categorized into 19 KEGG pathways (padjust < 0.05) (Fig. 2 B, Table S4), which mainly included the phenylpropanoid biosynthesis (cit00940), amino sugar and nucleotide sugar metabolism (cit00520), starch and sucrose metabolism (cit00500), glycolysis/gluconeogenesis (cit00010), fructose and mannose metabolism (cit00051), and pyruvate metabolism (cit00620). The pathway analysis indicated that C Las0185 had profound effects on plant primary metabolism, for instance, sugar and sugar derivatives, energy, amino acids, and lipid biosynthesis. The results showed that C Las0185 could support pathogen to obtain nutrients and to propagate. Intriguingly, genes enriched in phenylpropanoid biosynthesis were largely manipulated by the effector. Moreover, endocytosis that participates in host innate immunity was also enriched by DEGs. Analysis of DEGs related to sugar metabolisms Sucrose and starch play a fundamental role in plant growth and development. Here, we discovered that five DEGs were enriched in the sucrose-starch metabolic pathway, namely SPS1F (sucrose-phosphate synthase 1 F), APL3 (glucose-1-phosphate adenylyltransferase 3), SS s (starch synthase), and SBE2.2 (starch branching enzyme 2.2). Their expression profiles were all down-regulated in 0185-OEs (Fig. 3 A). We further examined the contents of soluble sugars, which were at a lower level in 0185-OE group than in WTs (Fig. 3 B). Fig. 3 Analysis of differentially expressed genes (DEGs) implicated in sugar metabolisms. A , C , and E MapMan v 3.7.0 illustration of genes associated with sucrose-starch metabolism (A) , glycolysis (C) , and tricarboxylic acid (TCA) cycle (E) in transgenic citrus lines (0185-OE) and wild-type (WT) group. Genes significantly up-regulated and down-regulated in 0185-OEs are displayed in red and blue, respectively. Genes were represented as log 2 (mean-FPKM of OE/mean-FPKM of WT) values. B , D , and F Determination of soluble sugar contents (B) , hexokinase activity (D) , and pyruvate dehydrogenase activity (F) in leaves of 0185-OEs and WTs. 0185-OE#, transgenic lines. Data in B , D , and F represent mean ± SD. Asterisks indicate significant differences determined by the Student’s t -test (* P < 0.05, ** P < 0.01; n = 3). The experiments comprised three independent biological replicates, and performed twice with similar results The sucrose-starch metabolism and glycolysis are tightly correlated. Simple sugars can be metabolized in the process of glycolysis along with free energy release [ 32 ]. Our results indicated that C Las0185 interfered with plant glycolysis (Fig. 3 C). The DEGs implicated in pyruvate production from sucrose were identified, the expression profiles of SUS s (sucrose synthase), HXK3 (hexokinase 3), PEP s (pyrophosphate-fructose-6-phosphate 1-phosphotransferase), GAPC1 (glyceraldehyde-3-phosphate dehydrogenase 1), and PK1 (pyruvate kinase 1) were up-regulated in 0185-OEs. Additionally, the DEGs implicated in pyruvate production from starch were also identified: Two DEGs were associated with the conversion from starch to maltose, with the up-regulation of AMY1 (α-amylase like 1) and the down-regulation of AMY2 ; Two DEGs, namely PFK2 (phosphofructokinase 2) and PFK3 , were down-regulated, which were related to the conversion from fructose 6-phosphate to glucose 6-phosphate; Two DEGs encoding FBA (fructose-bisphosphate aldolase), were depressed; One DEG encoding TIM (triosephosphate isomerase) was induced. Since HXK is the enzyme that catalyses the ATP [ 33 ], we then detected its enzymatic activity. In consistent with a high level of HXK3 transcription in 0185-OEs, HXK activity was enhanced in transgenic citrus plants compared to WTs (Fig. 3 D). Pyruvate, the end product of glycolysis, enters mitochondria to fuel the TCA (tricarboxylic acid) cycle. In comparison between WT and 0185-OE groups, nine DEGs were enriched in the process of TCA (Fig. 3 E). The expression profiles of NAD - ME s (NAD-dependent malic enzyme), DLAT s (dihydrolipoyllysine-residue acetyltransferase), MDH (malate dehydrogenase), and PDH (pyruvate dehydrogenase) were up-regulated. The expression patterns of PMDH1 (peroxisomal NAD-malate dehydrogenase 1), PPDK (pyruvate orthophosphate dikinase), and PCK1 (phosphoenolpyruvate carboxykinase 1) were down-regulated. Due to the role of PDH in acetyl-CoA biosynthesis, we measured its enzymatic activity, which was accelerated in most 0185-OEs compared to WTs (Fig. 3 F). Analysis of DEGs related to phenylpropanoid biosynthesis The phenylpropanoid pathway contributes to produce a large number of secondary metabolites, including precursors for lignin biosynthesis. Here, we illustrated that C Las0185 induced the expressions of PAL s (phenylalanine ammonia-lyase), 4CL s (4-coumarate CoA ligase), CCoAOMT (caffeoyl CoA-O methyltransferase), CCR1 (cinnamoyl CoA reductase 1), and CAD9 (cinnamyl alcohol dehydrogenase 9) (Fig. 4 A). These genes led to the accumulation of basic units of lignin polymers, namely counaryl alcohol, caffeyl alcohol, coniferyl alcohol, 5 H coniferyl alcohol. To verify C Las0185 effect on lignin, we examined its content in citrus plants. The result indicated that C Las0185 increased the accumulation of lignin in most 0185-OEs compared to WT group (Fig. 4 B). Fig. 4 Analysis of differentially expressed genes (DEGs) related to phenylpropanoid biosynthesis. A MapMan v 3.7.0 illustration of genes enriched in phenylpropanoid biosynthesis. Genes markedly up-regulated and down-regulated in transgenic citrus lines (0185-OE) are displayed in red and blue, respectively, and they were represented as log2(mean-FPKM of OE/mean-FPKM of WT) values. B The lignin accumulation in 0185-OEs and wild-type (WT) group. 0185-OE#, transgenic lines. Asterisks indicate significant differences determined by the Student’s t -test (** P < 0.01; n = 3). The experiments comprised three independent biological replicates, and performed twice with similar results Expression of transcription factor (TF)-encoding genes in 0185-OEs Notably, DEGs were also enriched in transcription regulator activity (Fig. 2 A). Visualized with Mapman v 3.7.0 [ 34 ], they were clustered into seven families (Fig. 5 , Table S5). Playing essentials roles in plant development, metabolism, and responses to stresses, DEGs from AP2/ERF, bZIP, and GATA families were mainly up-regulated. Comparatively, the majority of DEGs from WRKY and HSF families were down-regulated, which are prominent components in plant immunity. TFs from HB and MYB families regulate plant secondary metabolism, such as lignin biosynthesis. Remarkably, the expression of one MYB gene ( CsMYB124 ) was highly up-regulated in 0185-OEs with the log 2 (mean-FPKM of OE/mean-FPKM of WT) of 5.5. Fig. 5 MapMan v 3.7.0 illustration of genes enriched in transcription factors (TF). Genes remarkably up-regulated and down-regulated in transgenic citrus lines (0185-OE) are displayed in red and blue, respectively, and genes were represented as log 2 (mean-FPKM of OE/mean-FPKM of WT) values. AP2/ERF, APETALA2/ethylene-responsive factor; bZIP, basic region/leucine zipper motif; GATA, zinc finger motif containing TF; MYB, v-myb avian myeloblastosis viral oncogene homolog; WRKY, WRKYGOK-conserved domain containing TF; HSF, heat shock transcription factor; HB, homeobox Expression of endocytosis-related genes in 0185-OEs Endocytosis is a crucial process in innate immunity and homeostasis via taking in relatively large particles by living cells termed endosomes [ 35 ]. Here, we identified 16 DEGs implicated in endocytosis, among them, 14 DEGs exhibited higher expression levels in 0185-OE group, compared to WT samples (Fig. 6 A and Table S5). These genes encode proteins, for example, tubulin chains, rac-like GTP-binding proteins, and V-type protein ATPase subunits. Fig. 6 Endocytosis was facilitated by CLIBASIA_00185 ( C Las0185). A The heatmap of differentially expressed genes (DEGs) enriched in endocytosis pathway between C Las0185-transgenic citrus lines (0185-OE) and wild-type (WT) group. Each column indicates a library, and each row indicates a DEG. The data were normalized via FPKM values. The colors from red to blue represent the expression levels from high to low. B Electron microscopic images of vesicles structures in citrus leaves, marked by red arrow. CW, cell wall; ME, membrane; Chl, chloroplast; Sg, starch granule; Og, osmophilic garnule; Mi, mitochondria; Li, Lipidosome; Scar bar: 2 μm, 1 μm, and 500 nm Vesicles are predominent structures during the endocytic process, which provide a means of cellular entry for extracellular substance and for recycling of membrane constituents [ 36 ]. With transmission electron microscopy (TEM), vesicle structures were observed in 0185-OE group, while none was in WTs. Here, we suggested that C Las0185 enhanced endocytosis. Quantitative RT-PCR (qRT-PCR) analysis of ten DEGs in HLB-diseased citrus plants To further analysis of the expression of DEGs in HLB-diseased citrus plants, ten DEGs were selected for qRT-PCR analysis, including five up-regulated genes, VTP (25.3 kDa vesicle transport protein), HK2 (hexokinase 2), GAPC1 (glyceraldehyde-3-phosphate dehydrogenase C subunit 1), HCT (shikimate O-hydroxycinnamoyltransferase), and POD48 (peroxidase 48), as well as five down-regulated genes, PCK1 (phosphoenolpyruvate carboxykinase (ATP) 1-like), VHA (V-type H + ATPase subunit F), CLC3 (calreticulin 3), FBA1 (fructose-bisphosphate aldolase 1), and PFK2 (ATP-dependent 6-phosphofructokinase 2), respectively. The results showed that the expression patterns of all selected genes were in good agreement with those analyzed by transcriptome sequencing (Fig. S1 ). Discussion C Las effectors promote HLB development via inhibiting protease activity, interfering with autophage and vesicle trafficking, as well as suppressing SA and ROS accumulation [ 14 , 15 , 19 ]. C Las0185 is characterized as a virulence factor that compromises ROS-medieated plant defense, while a wide range of functions for C Las0185 remain to be clarified [ 22 ]. In this study, we used RNA-seq to uncover the impacts of C Las0185 on host responses. Marked differences between OE and WT samples by KEGG were discovered, which were mainly enriched in sugar metabolism, phenylpropanoid biosynthesis, and endocytosis pathway. It is widely acknowledged that C Las impacts sugar metabolism and phenylpropanoid pathway in citrus plants [ 4 , 27 ], while little is known about C Las-mediated endocytosis in host plants. To our knowledge, this study is the first large-scale transcriptome analysis that investigates the functions of C Las-delivered effector on host plants. Impacts of C Las0185 on sugar metabolism Sugars are energy-rich metabolites for organelles, and source-to-sink transported through the phloem [ 37 ]. Encoding a glucose/galactose transporter, HLB pathogens likely rely on host-derived sugars for energy [ 7 ]. In addition, sugar is also known to serve as a signal molecule that governs various signal pathways and activates defense responses [ 38 ]. Evidences showed that sugar levels, especially fructose, glucose, and sucrose, alter at different time points during HLB progression [ 5 , 6 , 39 ]. Here, we determined that C Las0185 depressed the expression of genes implicated in sucrose-starch biosynthesis, and the content of soluble sugars was decreased in 0185-OE group. However, it remains to be elucidated whether the effector inhibits sugar-mediated defense signaling. Glycolysis is the only pathway that can generate ATP via metabolizing simple sugars in the absence of oxygen [ 32 , 40 ]. Ca . Liberibacter spp. have a limited capacity for aerobic respiration, while the glycolysis pathway dysfunctions in HLB pathogens [ 7 ]. Prior work demonstrated that glycolysis-dependent ATP biosynthesis in citrus is prompted at the early stage of C Las inoculation [ 41 , 42 ]. Transcriptome analysis revealed that the expression of genes related to glycolysis pathway was mainly increased in 0185-OE group, including HXK3 . HXK serves to maintain a close relationship with ATP production via catalyzing the phosphorylation of glucose [ 43 ], and its activity was enhanced in 0185-OE group. Supposingly, the effector accelerates glycolysis in the host, thereby providing favorable environment for pathogen survival. As the end product of glycolysis, pyruvate is converted to acetyl-CoA by enzymes such as PDH. Acetyl-CoA serves as the precursor for a wide range of metabolites [ 44 , 45 ]. Its production is commonly elevated during pathogen infection [ 46 , 47 ]. Here, we discovered that the genes associated with the pyruvate conversion were induced, and the PDH activity was triggered in 0185-OEs. In agreement with our results, acetyl-CoA metabolism in D . citri is manipulated by C Las [ 48 ]. Conclusively, C Las0185 probably takes charge of nutrient supply of HLB. Induction of phenylpropanoid biosynthesis Subjected to biotic/abiotic stresses, plants have evolved various pathways for the biosynthesis of secondary metabolites. The phenylpropanoid pathway contributes to generation of diverse specialized metabolites that play functions in plant development, as well as plant interactions with surrounding environment [ 49 ]. On the one hand, phenylpropanoid-based polymers such as lignin play a defense-responsive role in scale insect attacks [ 50 , 51 ]; on the other, the products facilitate the attraction of insects as agents for pollination and seed dispersal [ 52 ]. Integrated transcriptome and metabolome analysis determined that phenylpropanoid biosynthesis benefits C Las accumulation in citrus [ 53 ]. In our study, the genes related to this pathway were largely induced in transgenic citrus plants. Consistently, lignin content was elevated in 0185-OEs. Hence, the stimulation of phenylpropanoid metabolism pathway may disadvantage psyllids feeding on HLB-diseased plants, while could benefit C Las for its survival in phloem. C Las0185 interfered with TFs Our results demonstrated that C Las0185 influenced the transcript levels of TF s. Among them, MYB124 was highly induced in 0185-OE group compared to WTs. It has been documented that MdMYB124 enhances metabolite accumulation in the phenylpropanoid biosynthesis pathway in apple [ 54 ]. Comparatively, the transcript levels of WRKY type TF s were mostly depressed in 0185-OE group, apart from WRKY74 and WRKY75 . Their encoding TFs trigger ROS bursts, and increase the transcription of defense-related genes in Triticum aestivum and Arabidopsis [ 55 , 56 ]. It is commonly acknowledged that WRKY proteins trigger defense mechanisms in conjunction with ROS signaling cascade, which in turn manipulates WRKY expression [ 57 , 58 ]. Targeting CsMsrB1, C Las0185 scavenges ROS accumulation in cascade with the depression of WRKY transcriptions. Hence, CsMsrB1 could be a genome-editing target for the development of HLB-resistant citrus germplasm. Moreover, C Las0185 interfered with the expressions of AP2/ERF, bZIP, GATA, HSF and HB type TF s. They are involved in plant development, stress responses, and phytohormone crosstalk [ 59 , 60 ]. Due to multiple functions of C Las0185, the effector could be an anti- C Las target. Enhancement of endocytosis by C Las0185 Endocytosis functions as an intracellular defense mechanism whereby exogenous particles are engulfed and internalized. However, to successfully colonize host organisms and establish infections, pathogens have evolved strategies to subvert this cellular process. For instance, they redirect endocytosis from the degradative pathway to a non-degradative pathway and transfer between cells [ 61 , 62 ]. Prior studies revealed that endocytosis is not only used by C Las to mediate bacterial invasion in psyllid gut cells, but also affects bacterial titers [ 63 , 64 ]. Involving in endocytosis, glyceraldehyde-3-phosphate dehydrogenase (GAPDH) and guanine nucleotide exchange factor, Sect. 12 are targeted by C Las effectors, SDE3 and SDE19, respectively, which interfere with autophage and vesicle traffciking in C . sinensis [ 15 , 19 ]. In our study, DEGs of OE/WT enriched in endocytosis were induced, and vesicle structures were observed. Consistently, endocytosis-associated proteins, namely CLCs (clathrin light chain 1-like, and 2), RHO1 (rac-like GTP-binding protein 1), and PAP6 (plastid-lipid-associated protein 6) were characterized as C Las0185-interacting proteins in citrus plants with Y2H screening [ 22 ]. Moreover, CLC1 was significantly induced in 0185-OEs. According to endocytosis stimulation caused by C Las0185, further researches could focus on how C Las benefits from endocytic process in host plants. Conclusion The transcriptomic analysis determines C Las0185 impacts in host physiological characteristics, as well as defense responses. The effector scavenges host nutrients via interrupting sugar metabolism; contributes to pathogen survival in phloem via enhanced phenylpropanoid biosynthesis; inhibits plant defense via affecting WRKY-mediated signaling and endocytosis pathways. Our findings provide a comprehensive insight into the action mechanisms of C Las0185, which could be exploited for HLB management. Materials and methods Plant materials and grown condition Etiolated epicotyl segments of Wanjincheng were transformed by Agrobacterium tumefaciens , containing the recombinant plasmid, pLGN- C Las0185 under control of a cauliflower mosaic virus 35 S (CaMV 35 S) promoter [ 22 ]. Transformants were confirmed with GUS staining, and the buds without transformation served as the WT controls. For the bacteria inoculation, stems from HLB-diseased C . reticulata plants were grafted onto healty citrus plants, and C Las was identifed with PCR. Plant materials were obtained in National Citrus Virus Exclusion Center (NCVEC) of Southwest University, and cultured at 28 °C under a photoperiod of 16 h light/8 h darkness. Sample preparation and RNA-seq RNA library construction and sequencing were conducted by Novogene Biotechnology Co., Ltd. (Peking, China) using the Ӏllumina Hiseq PE150 platform. Fully-expanded leaves were collected from three one-year old WTs (named as WT-1, WT-2, and WT-3), and three independent transgenic citrus plants (named as OE-1, OE-2, and OE-3), respectively. Total RNA was extracted with RNAiso Plus (Takara, Japan) following the manufacturer’s instruction. RNA integrity was assessed using the RNA Nano 6 000 assay kit of the Bioanalyzer 2 100 system (Agilent Technologies, USA). RNA libraries were prepared with NEBNext Ultra RNA Library Prep Kit for Ӏllumina (NEB, USA), then sequenced on the platform for the generation of 150 bp paired-end reads. Quality control and mapping To obtain clean data, reads containing adapter, poly-N, and with low quality were removed from raw data using fastp v 0.19.7. The clean data were then mapped to the reference genome of C . sinensis ( http://www.ncbi.nlm.nih.gov/genome/10702 ) using Hisat2 v 2.0.5. To assemble and quantitate full length transcripts representing multiple splice variant for each gene locus, StringTie v 1.3.3b was used in a reference-based approach. Differential expression analysis FPKM was used to estimate gene expression levels, and DESeq2 was used to screen DEGs between of WT and 0185-OE groups. Adjusted p -value of 0.05 and absolute log 2 (mean-FPKM of OE/mean-FPKM of WT) of 1 were set as the threshold for significantly differential expression. GO and KEGG enrichment analysis of DEGs To determine the molecular functions of DEGs, GO enrichment analysis was conducted, and all DEGs were mapped to GO terms in the database ( http://www.geneontology.org ). GO terms with padjust < 0.05 were considered significantly enriched by DEGs. KEGG was utilized to understand high-level functions and utilities of the biological system. An enriched pathway with padjust < 0.05 was deemed statistically significant. MapMan v 3.7.0 was used for data visualization and specific pathway analysis. Measurement of physiological and biochemical properties Leaves from WT and OE groups were collected for the measurement of following physiological and biochemical properties. Soluble sugar contents were measured with anthrone colorimetric method using a plant soluble sugar detection kit (#BC0035, Solarbio). 0.05 g of lyophilized leaf powder was put into a 1.5 mL centrifuge tube, added with 0.5 mL ultrapure water, and then they were bathed in 100 °C water for 10 min. After centrifugation at 8,000 × g for 10 min, the supernatant was collected and diluted to 5 mL with ultrapure water. Working fluid (anthrone) and sulfuric acid (H 2 SO 4 ) were added according to the kit instruction. The mixture was incubated in 95 °C water for 10 min before detection of the absorbance value at 620 nm. The enzymatic activity of HXK was measured using a HXK activity assay kit (#BC0745, Solarbio). 0.05 g of lyophilized leaf powder was put into a 1.5 mL centrifuge tube, added with 0.5 mL extraction buffer. After centrifugation at 8,000 × g for 10 min, the liquid supernatant was collected, and the HXK activity was detected of the absorbance value at 340 nm. The enzymatic activity of PDH was measured using a PDH activity assay kit (#BC0385, Solarbio). 0.05 g of lyophilized leaf powder was put into a 1.5 mL centrifuge tube, added with working buffer according to the kit instruction. After centrifugation at 11,000 × g for 10 min, the supernatant was collected, and the PDH activity was detected of the absorbance value at 605 nm. The lignin accumulation was measured using a lignin content assay kit (#BC4205, Solarbio). 0.01 g of finely grounded dried leaf was put into a 1.5 mL centrifuge tube, added with working buffer according to the kit instruction. After acetylation and centrifugation, the supernatant was collected, and the lignin content was detected of the absorbance value at 280 nm. TEM analysis Tissues with the size of 4 mm × 1 mm were excise from leaves. The samples were fixed in 2.5% glutaraldehyde (pH 7.4) for 2 h. Washed with 0.1 M phosphate buffer (pH 7.2), samples were then fixed in 1% osmic acid at 4℃ for 2 h. After dehydrated in a graded series of ethanol, they were embedded in Epon-Araldite resin for penetration and placed in a mold for polymerization. The semi thin section was used for positioning, and then the ultrathin section was made and collected for micro-structure analysis. 3% uranyl acetate and 2.7% lead citrate were used to counterstain. Subcellular structures were observed with HT7800 TEM (HITACHI, Japan) at an accelerating voltage of 80 kV. qRT-PCR analysis Ten DEGs enriched in sugar metabolism, phenylpropanoid biosynthesis, and endocytosis, were selected from the transcriptome data. The primers (Table S3) for qRT-PCR analysis were designed with NCBI primer-BLAST ( https://www.ncbi.nlm.nih.gov/tools/primer-blast/ ). C . sinensis housekeeping gene, CsGAPDH was used as an internal reference. In a 20 µL volume, 1 µg of total RNA was reverse transcribed with All-In-One 5×RT MasterMix (ABM, Canada) following the manufacturer’s instruction, and the cDNA products were 10× diluted for further use. PCR reactions were performed in 10 µL volumes using, BlastTaqTM 2× qPCR MasterMix (ABM) on the qTOWER3 Real Time System (Jena, Germany). The cycling conditions were as follows: 95 °C for 3 min, followed by 40 cycles of 95 °C for 15 s, 55 °C for 15 s, and 72 °C for 15 s The experiments contained three independent biological replicates, and three technical repeats were performed. Relative expression levels were determined using 2 −ΔΔCt method and log 2 normalized [ 65 ]."
+  },
+  "references_count": 65
+}

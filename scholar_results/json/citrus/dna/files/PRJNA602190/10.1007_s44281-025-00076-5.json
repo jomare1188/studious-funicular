@@ -1,0 +1,2263 @@
+{
+  "metadata": {
+    "extraction_timestamp": "2025-09-27T13:01:48.349861",
+    "article_type": "research-article",
+    "language": "en"
+  },
+  "publication_info": {
+    "journal": "Horticulture Advances",
+    "issn": "2948-1104",
+    "publisher": "Springer Nature Singapore",
+    "doi": "10.1007/s44281-025-00076-5",
+    "volume": "3",
+    "issue": "1",
+    "publication_dates": {
+      "pub": "2025-07-30",
+      "collection": "2025-12"
+    }
+  },
+  "title": "Chromosome painting reveals conserved centromere oligonucleotide sequences and comparable karyotypes across diverse Citrus species",
+  "authors": [
+    {
+      "surname": "Xiao",
+      "given_names": "Gong-Ao",
+      "full_name": "Gong-Ao Xiao",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff1"
+      ]
+    },
+    {
+      "surname": "Xia",
+      "given_names": "Qiang-Ming",
+      "full_name": "Qiang-Ming Xia",
+      "email": "qiangming-xia@hbaas.com",
+      "is_corresponding": true,
+      "affiliation_refs": [
+        "Aff1",
+        "Aff2"
+      ]
+    },
+    {
+      "surname": "Ren",
+      "given_names": "Jia-Qin",
+      "full_name": "Jia-Qin Ren",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff1"
+      ]
+    },
+    {
+      "surname": "Duan",
+      "given_names": "Yao-Yuan",
+      "full_name": "Yao-Yuan Duan",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff1"
+      ]
+    },
+    {
+      "surname": "Wu",
+      "given_names": "Xiao-Meng",
+      "full_name": "Xiao-Meng Wu",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff1"
+      ]
+    },
+    {
+      "surname": "Guo",
+      "given_names": "Wen-Wu",
+      "full_name": "Wen-Wu Guo",
+      "is_corresponding": false,
+      "affiliation_refs": [
+        "Aff1"
+      ]
+    },
+    {
+      "surname": "Xie",
+      "given_names": "Kai-Dong",
+      "full_name": "Kai-Dong Xie",
+      "email": "xiekaidong@mail.hzau.edu.cn",
+      "is_corresponding": true,
+      "affiliation_refs": [
+        "Aff1"
+      ]
+    }
+  ],
+  "affiliations": {
+    "Aff1": {
+      "institution": "Huazhong Agricultural University",
+      "department": "National Key Laboratory for Germplasm Innovation & Utilization of Horticultural Crops, College of Horticulture & Forestry Sciences",
+      "address": {
+        "city": "Wuhan",
+        "country": "People’s Republic of China"
+      }
+    },
+    "Aff2": {
+      "institution": "Hubei Academy of Agricultural Sciences",
+      "department": "Hubei Key Laboratory of Germplasm Innovation and Utilization of Fruit Trees, Institute of Fruit and Tea",
+      "address": {
+        "city": "Wuhan",
+        "country": "People’s Republic of China"
+      }
+    }
+  },
+  "abstract": {
+    "full_text": "Abstract The centromere plays a pivotal role in the karyotype of citrus chromosomes. However, the development of markers capable of distinguishing individual chromosomes remains a challenge. Oligo-FISH provides an efficient method for generating citrus centromere-specific markers. Accurate identification of centromere positions is a prerequisite for marker development. In this study, centromere locations on each chromosome were recalibrated using previously published ChIP-seq data of CsCENH3, aligned with the high-quality sweet orange genome (SWO v3). A total of 16,827 45-nucleotide oligos spanning nine centromeric regions were screened, with each region containing between 868 and 5,965 oligos, yielding an approximate density of one oligo per kilobase. Oligos from the centromere regions of chromosomes 1 (Chr1) and 4 (Chr4) were randomly selected to synthesize centromere-specific probes. Dual-color FISH assays on mitotic and meiotic chromosomes revealed distinct signals from each probe on homologous chromosomes. These signals coincided with those from the previously identified centromeric marker CL34contig88, demonstrating the ability of the probes to differentiate centromeres of individual chromosomes. Furthermore, chromosome painting was conducted across several citrus species, including Citrus sinensis , C. reticulata , C. limon , C. grandis , Fortunella japonica , and Poncirus trifoliata , with centromeric signals for Chr1 and Chr4 observable in all species. Chr1 and Chr4 exhibited characteristics of submetacentric and metacentric chromosomes, respectively, based on arm ratios, reflecting the conserved karyotypic structure of these chromosomes across citrus species and their consistent centromeric oligo sequences. These findings underscore the potential of centromere-specific probes in advancing citrus cytology and provide a robust foundation for exploring centromeric sequence evolution in citrus."
+  },
+  "keywords": [
+    {
+      "language": "en",
+      "keywords": [
+        "Citrus",
+        "Centromere marker",
+        "Oligo-FISH",
+        "Karyotype",
+        "Homologous chromosome"
+      ]
+    },
+    {
+      "language": "en",
+      "keywords": [
+        "Centromeres",
+        "Chromosome conformation capture-based methods",
+        "Chromosomes",
+        "Cytogenetics",
+        "Kinetochores",
+        "Chromosome segregation"
+      ]
+    },
+    {
+      "language": "en",
+      "keywords": [
+        "Biological Sciences",
+        "Genetics"
+      ]
+    }
+  ],
+  "funding": [
+    {
+      "source": "National Natural Science Foundation of China",
+      "award_id": "32202432"
+    },
+    {
+      "source": "Natural Science Foundation of Hubei Province",
+      "award_id": "2022CFB675"
+    },
+    {
+      "source": "Agriculture Research System of China",
+      "award_id": "CARS-26"
+    },
+    {
+      "source": "National Natural Science Foundation of China",
+      "award_id": "U23A20203"
+    },
+    {
+      "source": "National Key Research & Development Program of China",
+      "award_id": "2024YFD1200501"
+    }
+  ],
+  "content": {
+    "sections": [
+      {
+        "id": "Sec1",
+        "title": "Introduction",
+        "paragraphs": [
+          {
+            "id": "Par2",
+            "text": "Citrus (2n=2x=18) ranks among the most economically significant and widely cultivated fruit trees globally. Throughout its evolutionary history, various popular species and cultivars have emerged, including orange, mandarin, pummelo, grapefruit, lemon, and others (Wu et al. 34 ). Karyotypic analyses of these related species, encompassing chromosome number and morphology, serve as valuable tools for studying genetic relationships and species evolution (Carvalho et al. 5 ; He et al. 15 ; Song et al. 28 , 29 ). Chromosome painting, a robust method for investigating plant karyotypes, utilizes repetitive DNA sequences, bacterial artificial chromosome (BAC) clones, or single-copy oligonucleotides (oligos) as fluorescence in situ hybridization (FISH) probes (Kim et al. 18 ; Kato et al. 17 ; Jiang 16 ; YaMamoto et al. 37 ). Oligos, designed to target specific chromosomal regions or entire chromosomes, have been successfully applied in various plants for karyotyping, comparative physical mapping, and chromosomal evolution studies (Han et al. 12 ; Braz et al. 2 , 3 ; Xin et al. 36 ; Albert et al. 1 ; He et al. 15 ; Song et al. 28 , 29 )."
+          },
+          {
+            "id": "Par3",
+            "text": "The centromere, a critical cytological marker in plant chromosomes, is primarily composed of repeat sequences, with some single-copy sequences interspersed (CoMai et al. 7 ; Wang et al. 33 ). Studies on centromeric repeat sequences in various plants have revealed substantial variability in their composition and distribution across species, genomes, and chromosomes (Melters et al. 23 ; OLiveira and Torres 26 ), suggesting a lack of overall conservation in these sequences. Several centromeric cytological markers, based on repeat sequences, have been reported (CHeng et al. 6 ; Zhong et al. 40 ; Nagaki et al. 24 ), including markers specifically developed for citrus (Xia et al. 35 ; Song et al. 28 , 29 ). However, while these markers can differentiate centromeres across chromosomes, they lack the specificity required to identify centromeres on individual chromosomes, unlike single-copy sequence or oligo-based markers. The use of chromosome-specific oligo probes derived from the genome of Citrus maxima (pummelo) has demonstrated the conservation of all nine chromosomes across six different Citrus and related species. However, these probes failed to distinguish centromeric sequences of individual chromosomes (He et al. 15 ). Consequently, there is an urgent need to develop centromere oligo markers capable of specifically identifying individual chromosomes to enable comprehensive studies of citrus karyotypes and centromere evolution."
+          },
+          {
+            "id": "Par4",
+            "text": "The accurate assembly of a reference genome and precise centromere localization are essential for developing centromere-specific oligo markers for individual chromosomes. Computational identification of oligos specific to a chromosomal region or entire chromosome can be performed for any plant species with an assembled genome (Han et al. 12 ; Braz et al. 2 ; Martins et al. 9 ; He et al. 15 ; Song et al. 28 , 29 ). Therefore, the quality of the reference genome directly influences the quality of oligo probes. In our previous study, centromere locations on citrus chromosomes were identified using chromatin immunoprecipitation sequencing (ChIP-seq) with an anti-CenH3 antibody and the earlier sweet orange genome (SWO v2) as the reference (Xia et al. 35 ). However, the centromeric regions identified using SWO v2 were not localized to single loci on most chromosomes, likely due to the incomplete assembly of centromeric sequences in that reference genome. Recently, a higher-quality sweet orange genome (SWO v3), assembled using long-range sequencing, has been released (Wang et al. 32 ), enabling more precise centromere localization and facilitating the development of centromere-specific probes."
+          },
+          {
+            "id": "Par5",
+            "text": "In this study, to develop centromere-specific oligo probes for citrus karyotype analysis, the centromere positions were reanalyzed using the previously reported anti-CsCenH3 ChIP-seq data with SWO v3 as the reference genome. After repositioning the centromeres, centromere-specific oligo probes were developed. To test their ability to distinguish homologous chromosomes, oligo probes targeting the centromeres of Chr1 and Chr4 were selected and hybridized with mitotic metaphase and meiotic pachytene chromosomes of C. reticulata . Additionally, dual-color FISH assays were performed to evaluate the conservation of centromeric oligo sequences across various citrus genotypes, aiming to explore the evolution of citrus centromere sequences. The development of these centromere-specific oligo probes is critical for the precise identification of individual chromosomes, thus advancing comprehensive studies of citrus karyotyping and chromosomal evolution."
+          }
+        ]
+      },
+      {
+        "id": "Sec2",
+        "title": "Materials and methods",
+        "paragraphs": [
+          {
+            "id": "Par6",
+            "text": "Four genotypes, representing different species within the Citrus genus, were selected for chromosome painting: Valencia sweet orange ( C. sinensis ), Red tangerine ( C. reticulata ), Eureka lemon ( C. limon ), and Hirado Buntan pink pummelo ( C. grandis ). Additionally, two citrus relatives, Fortunella japonica and Poncirus trifoliata , were included in this study. All plants were grown in the citrus germplasm resource nursery at Huazhong Agricultural University (Longitude: 114.36, Latitude: 30.47) in Wuhan, China, under uniform conditions that support flowering and fruit setting."
+          },
+          {
+            "id": "Par7",
+            "text": "Root tips from germinated seeds and young flower buds were collected to prepare mitotic metaphase and meiotic pachytene chromosomes, respectively. Chromosomes from root tips and anthers of C. reticulata were used to verify the efficacy of the probes, while chromosomes from root tips of the four Citrus species and two citrus relatives were utilized for centromere comparative analysis."
+          },
+          {
+            "id": "Par8",
+            "text": "For root tip collection, seeds were extracted from mature fruits and treated with a 1 M NaOH solution to remove surface pectin. After the inner and outer seed coats were removed, seeds were placed in moistened Petri dishes and incubated in the dark at 28 °C to induce root germination. When the primary roots reached approximately 1 cm, the apical 3–mm of root tips were excised using a scalpel. Freshly harvested root tips were treated with a saturated p-dichlorobenzene solution at 20 °C for 2–3 h. Following hypotonic treatment in 0.075 M KCl solution for 30 min, the root tips were fixed in fresh Carnoy’s fixative solution (3 parts ethanol, 1 part acetic acid). Young flower buds were immediately immersed in fresh Carnoy’s fixative solution for later use."
+          },
+          {
+            "id": "Par9",
+            "text": "Mitotic metaphase and meiotic pachytene chromosomes were prepared following the method of Yu et al. ( 38 ) with minor modifications. Root tips and anthers from young flower buds were washed in distilled water for 10 min and then digested in an enzyme solution (1.25% pectinase from Aspergillus niger, 2.5% cellulase\"Onozuka\"RS, 1.25% pectolyase Y-23) at 37 °C for 1.5 to 2 h. After washing with distilled water for 10 min, enzyme-digested root tips were placed on a glass slide, and meristem cells were released with a dissecting needle. Carnoy’s fixative solution (20 μL) was added to spread the cells, and the slide was air-dried at room temperature. Enzyme-digested anthers were placed into a centrifuge tube and rinsed with 70% ethanol for 10 min, and microsporocytes were released using a dissecting needle. The microsporocyte suspension was centrifuged for 5 s, excess supernatant removed, and the precipitate resuspended in 30 μL of acetic acid solution. This suspension was spread onto a glass slide and air-dried. The slides with well-spread mitotic metaphase or meiotic pachytene chromosomes were then used for chromosome painting experiments."
+          },
+          {
+            "id": "Par10",
+            "text": "To obtain more accurate locations and sizes of citrus centromeres, the SWO v3 genome ( http://citrus.hzau.edu.cn/orange/download/index.php ) was used as the reference for re-analyzing previously published ChIP-seq data (PRJNA602190) of anti-CsCenH3 (Xia et al. 35 ). After aligning the reads to the reference genome using Bowtie2 ( https://bowtie-bio.sourceforge.net/bowtie2/index.shtml ) with default parameters (Langmead and Salzberg 19 ), the resulting SAM files were sorted and converted into BAM files for further analysis using SAMtools ( https://github.com/samtools/samtools ) (Li et al. 21 ). Enriched peaks were called using MACS2 ( https://pypi.org/project/MACS2/ ) with the parameters “-q 0.01 -f BAM -B -ghs” (ZHang et al. 39 ). Centromere locations and sizes were determined based on the visualization of CenH3 ChIP-seq peaks in the Integrative Genome Viewer (IGV, https://igv.org ) (Thorvaldsdottir et al. 31 ). Reads coverage and enrichment were calculated across chromosomes with a sliding 20-kb window using Bedmap ( https://bedops.readthedocs.io/en/latest/content/reference/statistics/bedmap.html ) (Neph et al. 25 ), and the results were plotted using RIdeogram ( https://cran.r-project.org/web/packages/RIdeogram/vignettes/RIdeogram.html ) (Hao et al. 13 )."
+          },
+          {
+            "id": "Par11",
+            "text": "Centromere-specific oligos were selected following the method of Albert et al. ( 1 ), with minor modifications. A set of 45-nt oligos, with more than 80% homology to the reference genome, was computationally identified across each chromosome in 25-nt steps using Chorus2 ( https://github.com/forrestzhang/Chorus2 ). A repetitive sequence database was generated from the SWO v3 genome using RepeatMasker ( http://www.repeatmasker.org ), which was used to filter out repeat oligos. Centromere-specific oligos were then isolated based on the centromeric regions identified from the ChIP-seq data, with high-density regions further refined to construct nine centromere-specific oligo libraries for citrus. The positions of these oligo probes on the nine chromosomes were determined via BLAST ( https://blast.ncbi.nlm.nih.gov/Blast.cgi ) analysis, using the parameters “-evalue 1e-5 -max_hsps 1 -num_alignments 1”(CaMacho et al. 4 ). To assess the distribution density of the oligos, chromosomes were divided into 20-kb windows, and the results were visualized using RIdeogram software."
+          },
+          {
+            "id": "Par12",
+            "text": "Oligo-FISH was performed following the protocol outlined by Han et al. ( 12 ) with minor modifications. Oligo libraries targeting the centromeres of Chr1 and Chr4 were synthesized by Arbor Biosciences (Ann Arbor, MI, USA) to prepare oligo probes. These probes were labeled with Fam or Tamra modifications at their 5'ends using primers (5'-CGTGGTCGCGTCTCA-3'). The citrus centromeric repeat sequence CL34contig88 (Xia et al. 35 ) was labeled using Fluorescein-12-dUTP (Thermo Scientific, R0101) and Tetramethyl-Rhodamine-5-dUTP (Roche, 11 534 378 910) via the nick translation method. Slides containing well-spread mitotic metaphase or meiotic pachytene chromosomes were counterstained with 4,6-diamidino-2-phenylindole (DAPI) and VectaShield antifade solution (Vector Laboratories). FISH images were captured with an Axio imager.M2 microscope (ZEISS, Jena, Germany). A filter set (365 EX/445 ± 50 EM) was used to detect the DAPI signal from chromosomes, while a GFP filter set (500 ± 20 EX/535 ± 30 EM) was used for probes labeled with Fam and Fluorescein. Additionally, a Cy3 filter (545 ± 25 EX/605 ± 70 EM) was employed to detect probes labeled with Tamra and Tetramethyl-Rhodamine. The CCD (Zeiss Axiocam 506 color, Oberkochen, Germany) was controlled by ZEN2 (Blue Edition) software to capture images in separate channels. Pseudo-colors were applied, and adjustments to brightness and contrast were made within the software before generating merged channel images."
+          },
+          {
+            "id": "Par13",
+            "text": "Karyotype analysis was conducted using FISH signals generated on citrus root tip chromosomes with centromere-specific oligo probes for Chr1 and Chr4. Ideograms were constructed based on the calculation of relative chromosome lengths from the chromosome edge to the centromeric signal in 15 cells with well-dispersed metaphase chromosomes, measured using the \"measure\" tool in Image J software ( https://imagej.net/ij/ ) for each species. The arm ratios (AR), representing the ratio of the long arm (L) to the short arm (S), were calculated, and karyotypes were characterized following the method of Levan et al. ( 20 ). For meiotic image analysis, Image J software was used to delineate the path of chromosomes with the “Segmented Line” tool. The chromosomes were straightened by setting the line width to 20 pixels using the \"Straighten\" function."
+          }
+        ],
+        "subsections": [
+          {
+            "id": "Sec3",
+            "title": "Plant materials",
+            "paragraphs": [
+              {
+                "id": "Par6",
+                "text": "Four genotypes, representing different species within the Citrus genus, were selected for chromosome painting: Valencia sweet orange ( C. sinensis ), Red tangerine ( C. reticulata ), Eureka lemon ( C. limon ), and Hirado Buntan pink pummelo ( C. grandis ). Additionally, two citrus relatives, Fortunella japonica and Poncirus trifoliata , were included in this study. All plants were grown in the citrus germplasm resource nursery at Huazhong Agricultural University (Longitude: 114.36, Latitude: 30.47) in Wuhan, China, under uniform conditions that support flowering and fruit setting."
+              }
+            ]
+          },
+          {
+            "id": "Sec4",
+            "title": "Mitotic and meiotic chromosome preparation",
+            "paragraphs": [
+              {
+                "id": "Par7",
+                "text": "Root tips from germinated seeds and young flower buds were collected to prepare mitotic metaphase and meiotic pachytene chromosomes, respectively. Chromosomes from root tips and anthers of C. reticulata were used to verify the efficacy of the probes, while chromosomes from root tips of the four Citrus species and two citrus relatives were utilized for centromere comparative analysis."
+              },
+              {
+                "id": "Par8",
+                "text": "For root tip collection, seeds were extracted from mature fruits and treated with a 1 M NaOH solution to remove surface pectin. After the inner and outer seed coats were removed, seeds were placed in moistened Petri dishes and incubated in the dark at 28 °C to induce root germination. When the primary roots reached approximately 1 cm, the apical 3–mm of root tips were excised using a scalpel. Freshly harvested root tips were treated with a saturated p-dichlorobenzene solution at 20 °C for 2–3 h. Following hypotonic treatment in 0.075 M KCl solution for 30 min, the root tips were fixed in fresh Carnoy’s fixative solution (3 parts ethanol, 1 part acetic acid). Young flower buds were immediately immersed in fresh Carnoy’s fixative solution for later use."
+              },
+              {
+                "id": "Par9",
+                "text": "Mitotic metaphase and meiotic pachytene chromosomes were prepared following the method of Yu et al. ( 38 ) with minor modifications. Root tips and anthers from young flower buds were washed in distilled water for 10 min and then digested in an enzyme solution (1.25% pectinase from Aspergillus niger, 2.5% cellulase\"Onozuka\"RS, 1.25% pectolyase Y-23) at 37 °C for 1.5 to 2 h. After washing with distilled water for 10 min, enzyme-digested root tips were placed on a glass slide, and meristem cells were released with a dissecting needle. Carnoy’s fixative solution (20 μL) was added to spread the cells, and the slide was air-dried at room temperature. Enzyme-digested anthers were placed into a centrifuge tube and rinsed with 70% ethanol for 10 min, and microsporocytes were released using a dissecting needle. The microsporocyte suspension was centrifuged for 5 s, excess supernatant removed, and the precipitate resuspended in 30 μL of acetic acid solution. This suspension was spread onto a glass slide and air-dried. The slides with well-spread mitotic metaphase or meiotic pachytene chromosomes were then used for chromosome painting experiments."
+              }
+            ]
+          },
+          {
+            "id": "Sec5",
+            "title": "Bioinformatic pipeline for the selection of oligos that target citrus centromeres",
+            "paragraphs": [
+              {
+                "id": "Par10",
+                "text": "To obtain more accurate locations and sizes of citrus centromeres, the SWO v3 genome ( http://citrus.hzau.edu.cn/orange/download/index.php ) was used as the reference for re-analyzing previously published ChIP-seq data (PRJNA602190) of anti-CsCenH3 (Xia et al. 35 ). After aligning the reads to the reference genome using Bowtie2 ( https://bowtie-bio.sourceforge.net/bowtie2/index.shtml ) with default parameters (Langmead and Salzberg 19 ), the resulting SAM files were sorted and converted into BAM files for further analysis using SAMtools ( https://github.com/samtools/samtools ) (Li et al. 21 ). Enriched peaks were called using MACS2 ( https://pypi.org/project/MACS2/ ) with the parameters “-q 0.01 -f BAM -B -ghs” (ZHang et al. 39 ). Centromere locations and sizes were determined based on the visualization of CenH3 ChIP-seq peaks in the Integrative Genome Viewer (IGV, https://igv.org ) (Thorvaldsdottir et al. 31 ). Reads coverage and enrichment were calculated across chromosomes with a sliding 20-kb window using Bedmap ( https://bedops.readthedocs.io/en/latest/content/reference/statistics/bedmap.html ) (Neph et al. 25 ), and the results were plotted using RIdeogram ( https://cran.r-project.org/web/packages/RIdeogram/vignettes/RIdeogram.html ) (Hao et al. 13 )."
+              },
+              {
+                "id": "Par11",
+                "text": "Centromere-specific oligos were selected following the method of Albert et al. ( 1 ), with minor modifications. A set of 45-nt oligos, with more than 80% homology to the reference genome, was computationally identified across each chromosome in 25-nt steps using Chorus2 ( https://github.com/forrestzhang/Chorus2 ). A repetitive sequence database was generated from the SWO v3 genome using RepeatMasker ( http://www.repeatmasker.org ), which was used to filter out repeat oligos. Centromere-specific oligos were then isolated based on the centromeric regions identified from the ChIP-seq data, with high-density regions further refined to construct nine centromere-specific oligo libraries for citrus. The positions of these oligo probes on the nine chromosomes were determined via BLAST ( https://blast.ncbi.nlm.nih.gov/Blast.cgi ) analysis, using the parameters “-evalue 1e-5 -max_hsps 1 -num_alignments 1”(CaMacho et al. 4 ). To assess the distribution density of the oligos, chromosomes were divided into 20-kb windows, and the results were visualized using RIdeogram software."
+              }
+            ]
+          },
+          {
+            "id": "Sec6",
+            "title": "Oligo-FISH and karyotyping",
+            "paragraphs": [
+              {
+                "id": "Par12",
+                "text": "Oligo-FISH was performed following the protocol outlined by Han et al. ( 12 ) with minor modifications. Oligo libraries targeting the centromeres of Chr1 and Chr4 were synthesized by Arbor Biosciences (Ann Arbor, MI, USA) to prepare oligo probes. These probes were labeled with Fam or Tamra modifications at their 5'ends using primers (5'-CGTGGTCGCGTCTCA-3'). The citrus centromeric repeat sequence CL34contig88 (Xia et al. 35 ) was labeled using Fluorescein-12-dUTP (Thermo Scientific, R0101) and Tetramethyl-Rhodamine-5-dUTP (Roche, 11 534 378 910) via the nick translation method. Slides containing well-spread mitotic metaphase or meiotic pachytene chromosomes were counterstained with 4,6-diamidino-2-phenylindole (DAPI) and VectaShield antifade solution (Vector Laboratories). FISH images were captured with an Axio imager.M2 microscope (ZEISS, Jena, Germany). A filter set (365 EX/445 ± 50 EM) was used to detect the DAPI signal from chromosomes, while a GFP filter set (500 ± 20 EX/535 ± 30 EM) was used for probes labeled with Fam and Fluorescein. Additionally, a Cy3 filter (545 ± 25 EX/605 ± 70 EM) was employed to detect probes labeled with Tamra and Tetramethyl-Rhodamine. The CCD (Zeiss Axiocam 506 color, Oberkochen, Germany) was controlled by ZEN2 (Blue Edition) software to capture images in separate channels. Pseudo-colors were applied, and adjustments to brightness and contrast were made within the software before generating merged channel images."
+              },
+              {
+                "id": "Par13",
+                "text": "Karyotype analysis was conducted using FISH signals generated on citrus root tip chromosomes with centromere-specific oligo probes for Chr1 and Chr4. Ideograms were constructed based on the calculation of relative chromosome lengths from the chromosome edge to the centromeric signal in 15 cells with well-dispersed metaphase chromosomes, measured using the \"measure\" tool in Image J software ( https://imagej.net/ij/ ) for each species. The arm ratios (AR), representing the ratio of the long arm (L) to the short arm (S), were calculated, and karyotypes were characterized following the method of Levan et al. ( 20 ). For meiotic image analysis, Image J software was used to delineate the path of chromosomes with the “Segmented Line” tool. The chromosomes were straightened by setting the line width to 20 pixels using the \"Straighten\" function."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Sec3",
+        "title": "Plant materials",
+        "paragraphs": [
+          {
+            "id": "Par6",
+            "text": "Four genotypes, representing different species within the Citrus genus, were selected for chromosome painting: Valencia sweet orange ( C. sinensis ), Red tangerine ( C. reticulata ), Eureka lemon ( C. limon ), and Hirado Buntan pink pummelo ( C. grandis ). Additionally, two citrus relatives, Fortunella japonica and Poncirus trifoliata , were included in this study. All plants were grown in the citrus germplasm resource nursery at Huazhong Agricultural University (Longitude: 114.36, Latitude: 30.47) in Wuhan, China, under uniform conditions that support flowering and fruit setting."
+          }
+        ]
+      },
+      {
+        "id": "Sec4",
+        "title": "Mitotic and meiotic chromosome preparation",
+        "paragraphs": [
+          {
+            "id": "Par7",
+            "text": "Root tips from germinated seeds and young flower buds were collected to prepare mitotic metaphase and meiotic pachytene chromosomes, respectively. Chromosomes from root tips and anthers of C. reticulata were used to verify the efficacy of the probes, while chromosomes from root tips of the four Citrus species and two citrus relatives were utilized for centromere comparative analysis."
+          },
+          {
+            "id": "Par8",
+            "text": "For root tip collection, seeds were extracted from mature fruits and treated with a 1 M NaOH solution to remove surface pectin. After the inner and outer seed coats were removed, seeds were placed in moistened Petri dishes and incubated in the dark at 28 °C to induce root germination. When the primary roots reached approximately 1 cm, the apical 3–mm of root tips were excised using a scalpel. Freshly harvested root tips were treated with a saturated p-dichlorobenzene solution at 20 °C for 2–3 h. Following hypotonic treatment in 0.075 M KCl solution for 30 min, the root tips were fixed in fresh Carnoy’s fixative solution (3 parts ethanol, 1 part acetic acid). Young flower buds were immediately immersed in fresh Carnoy’s fixative solution for later use."
+          },
+          {
+            "id": "Par9",
+            "text": "Mitotic metaphase and meiotic pachytene chromosomes were prepared following the method of Yu et al. ( 38 ) with minor modifications. Root tips and anthers from young flower buds were washed in distilled water for 10 min and then digested in an enzyme solution (1.25% pectinase from Aspergillus niger, 2.5% cellulase\"Onozuka\"RS, 1.25% pectolyase Y-23) at 37 °C for 1.5 to 2 h. After washing with distilled water for 10 min, enzyme-digested root tips were placed on a glass slide, and meristem cells were released with a dissecting needle. Carnoy’s fixative solution (20 μL) was added to spread the cells, and the slide was air-dried at room temperature. Enzyme-digested anthers were placed into a centrifuge tube and rinsed with 70% ethanol for 10 min, and microsporocytes were released using a dissecting needle. The microsporocyte suspension was centrifuged for 5 s, excess supernatant removed, and the precipitate resuspended in 30 μL of acetic acid solution. This suspension was spread onto a glass slide and air-dried. The slides with well-spread mitotic metaphase or meiotic pachytene chromosomes were then used for chromosome painting experiments."
+          }
+        ]
+      },
+      {
+        "id": "Sec5",
+        "title": "Bioinformatic pipeline for the selection of oligos that target citrus centromeres",
+        "paragraphs": [
+          {
+            "id": "Par10",
+            "text": "To obtain more accurate locations and sizes of citrus centromeres, the SWO v3 genome ( http://citrus.hzau.edu.cn/orange/download/index.php ) was used as the reference for re-analyzing previously published ChIP-seq data (PRJNA602190) of anti-CsCenH3 (Xia et al. 35 ). After aligning the reads to the reference genome using Bowtie2 ( https://bowtie-bio.sourceforge.net/bowtie2/index.shtml ) with default parameters (Langmead and Salzberg 19 ), the resulting SAM files were sorted and converted into BAM files for further analysis using SAMtools ( https://github.com/samtools/samtools ) (Li et al. 21 ). Enriched peaks were called using MACS2 ( https://pypi.org/project/MACS2/ ) with the parameters “-q 0.01 -f BAM -B -ghs” (ZHang et al. 39 ). Centromere locations and sizes were determined based on the visualization of CenH3 ChIP-seq peaks in the Integrative Genome Viewer (IGV, https://igv.org ) (Thorvaldsdottir et al. 31 ). Reads coverage and enrichment were calculated across chromosomes with a sliding 20-kb window using Bedmap ( https://bedops.readthedocs.io/en/latest/content/reference/statistics/bedmap.html ) (Neph et al. 25 ), and the results were plotted using RIdeogram ( https://cran.r-project.org/web/packages/RIdeogram/vignettes/RIdeogram.html ) (Hao et al. 13 )."
+          },
+          {
+            "id": "Par11",
+            "text": "Centromere-specific oligos were selected following the method of Albert et al. ( 1 ), with minor modifications. A set of 45-nt oligos, with more than 80% homology to the reference genome, was computationally identified across each chromosome in 25-nt steps using Chorus2 ( https://github.com/forrestzhang/Chorus2 ). A repetitive sequence database was generated from the SWO v3 genome using RepeatMasker ( http://www.repeatmasker.org ), which was used to filter out repeat oligos. Centromere-specific oligos were then isolated based on the centromeric regions identified from the ChIP-seq data, with high-density regions further refined to construct nine centromere-specific oligo libraries for citrus. The positions of these oligo probes on the nine chromosomes were determined via BLAST ( https://blast.ncbi.nlm.nih.gov/Blast.cgi ) analysis, using the parameters “-evalue 1e-5 -max_hsps 1 -num_alignments 1”(CaMacho et al. 4 ). To assess the distribution density of the oligos, chromosomes were divided into 20-kb windows, and the results were visualized using RIdeogram software."
+          }
+        ]
+      },
+      {
+        "id": "Sec6",
+        "title": "Oligo-FISH and karyotyping",
+        "paragraphs": [
+          {
+            "id": "Par12",
+            "text": "Oligo-FISH was performed following the protocol outlined by Han et al. ( 12 ) with minor modifications. Oligo libraries targeting the centromeres of Chr1 and Chr4 were synthesized by Arbor Biosciences (Ann Arbor, MI, USA) to prepare oligo probes. These probes were labeled with Fam or Tamra modifications at their 5'ends using primers (5'-CGTGGTCGCGTCTCA-3'). The citrus centromeric repeat sequence CL34contig88 (Xia et al. 35 ) was labeled using Fluorescein-12-dUTP (Thermo Scientific, R0101) and Tetramethyl-Rhodamine-5-dUTP (Roche, 11 534 378 910) via the nick translation method. Slides containing well-spread mitotic metaphase or meiotic pachytene chromosomes were counterstained with 4,6-diamidino-2-phenylindole (DAPI) and VectaShield antifade solution (Vector Laboratories). FISH images were captured with an Axio imager.M2 microscope (ZEISS, Jena, Germany). A filter set (365 EX/445 ± 50 EM) was used to detect the DAPI signal from chromosomes, while a GFP filter set (500 ± 20 EX/535 ± 30 EM) was used for probes labeled with Fam and Fluorescein. Additionally, a Cy3 filter (545 ± 25 EX/605 ± 70 EM) was employed to detect probes labeled with Tamra and Tetramethyl-Rhodamine. The CCD (Zeiss Axiocam 506 color, Oberkochen, Germany) was controlled by ZEN2 (Blue Edition) software to capture images in separate channels. Pseudo-colors were applied, and adjustments to brightness and contrast were made within the software before generating merged channel images."
+          },
+          {
+            "id": "Par13",
+            "text": "Karyotype analysis was conducted using FISH signals generated on citrus root tip chromosomes with centromere-specific oligo probes for Chr1 and Chr4. Ideograms were constructed based on the calculation of relative chromosome lengths from the chromosome edge to the centromeric signal in 15 cells with well-dispersed metaphase chromosomes, measured using the \"measure\" tool in Image J software ( https://imagej.net/ij/ ) for each species. The arm ratios (AR), representing the ratio of the long arm (L) to the short arm (S), were calculated, and karyotypes were characterized following the method of Levan et al. ( 20 ). For meiotic image analysis, Image J software was used to delineate the path of chromosomes with the “Segmented Line” tool. The chromosomes were straightened by setting the line width to 20 pixels using the \"Straighten\" function."
+          }
+        ]
+      },
+      {
+        "id": "Sec7",
+        "title": "Results",
+        "paragraphs": [
+          {
+            "id": "Par14",
+            "text": "To develop centromere-specific probes that can specifically recognize the centromeres of individual chromosomes, centromere locations on each chromosome were repositioned based on the SWO v3 reference genome, utilizing previously published ChIP-seq data derived from the CsCenH3 protein. When comparing the mapping rates of the ChIP-seq and Input-seq reads between the data reported by Xia et al. ( 35 ) (72.57% and 87.16%, respectively) and the results obtained in this study (90.38% and 91.41%, respectively), the higher mapping rates achieved using the SWO v3 reference genome indicate its superior completeness. This suggests that the SWO v3 genome assembly facilitates a more precise identification of centromere locations across all chromosomes. ChIP-seq analysis revealed a single, distinct enrichment peak of anti-CsCenH3 on each of the nine chromosomes (Fig. 1 ; Table 1 ), in contrast to previous findings that reported multiple peaks (Table 1 ). The positions and sizes of the centromeric regions were estimated based on the prominent anti-CsCenH3 enrichment peaks, with sizes ranging from 0.75 Mb for Chr3 to 4.51 Mb for Chr8 (Table 1 ). The centromeric region of Chr4, which was previously omitted, was also found to be 0.97 Mb, representing 3.09% of the total length of Chr4 (Table 1 ). Fig. 1 Distribution density of single-copy oligos, CsCenH3 enrichment peaks, and centromere-specific oligos along all nine chromosomes in SWO v3. The blue curves represent single-copy oligos, the orange curves represent CsCenH3 enrichment peaks, and the red lines represent centromere-specific oligos. The sliding window length used for alignment is 20 kb Table 1 Comparison of the centromeric regions identified in this study and those reported by Xia et al. ( 35 ), along with the number of 45-nt oligos within the centromeric regions Chr Centromeric regions located with SWO v3 as reference Centromeric regions identified by Xia et al. ( 35 ) 45-nt oligos in centromeric regions Chr size (Mb) Percentage of Cen Cen location (Mb) Cen size (Mb) Number Density (oligo/kb) Chr1 8.20–9.18 0.98 10.14–17.74 1,149 1.17 30.62 3.20% 21.98–22.31 Chr2 16.90–18.14 1.24 20.37–20.88 1,507 1.22 33.65 3.68% 25.29–25.57 Chr3 23.75–24.50 0.75 5.07–5.51 868 1.16 37.42 2.00% 9.32–10.79 14.11–14.81 Chr4* 14.41–15.38 0.97 9.17–11.29 1,030 1.06 31.35 3.09% 12.23–12.24 15.57–17.31 Chr5 28.98–30.59 1.61 14.33–15.95 2,034 1.26 50.23 3.21% 16.53–18.41 23.81–23.82 Chr6 17.64–18.93 1.29 1.55–1.56 1,941 1.51 26.16 4.93% 6.31–6.44 9.02–11.22 Chr7 12.10–13.30 1.20 13.99–15.50 1,241 1.03 29.70 4.04% 21.33–23.54 Chr8 14.28–18.79 4.51 3.68–4.18 5,695 1.26 32.77 13.76% 12.47–12.62 Chr9 17.10–18.71 1.61 7.98–8.80 1,362 0.84 32.31 4.98% 12.72–14.24 15.85–17.94 * , the centromere region of chromosome 4 located in this study; Chr, chromosome; Cen, centromere.\"Cen\"refers to centromere. The overlapping areas between the centromeric regions identified by ChIP-seq and HTA in Xia et al. ( 35 ) are highlighted in bold"
+          },
+          {
+            "id": "",
+            "text": "Distribution density of single-copy oligos, CsCenH3 enrichment peaks, and centromere-specific oligos along all nine chromosomes in SWO v3. The blue curves represent single-copy oligos, the orange curves represent CsCenH3 enrichment peaks, and the red lines represent centromere-specific oligos. The sliding window length used for alignment is 20 kb"
+          },
+          {
+            "id": "",
+            "text": "Comparison of the centromeric regions identified in this study and those reported by Xia et al. ( 35 ), along with the number of 45-nt oligos within the centromeric regions"
+          },
+          {
+            "id": "",
+            "text": "Chr"
+          },
+          {
+            "id": "",
+            "text": "Centromeric regions located with SWO v3 as reference"
+          },
+          {
+            "id": "",
+            "text": "Centromeric regions identified by Xia et al. ( 35 )"
+          },
+          {
+            "id": "",
+            "text": "45-nt oligos in centromeric regions"
+          },
+          {
+            "id": "",
+            "text": "Chr size (Mb)"
+          },
+          {
+            "id": "",
+            "text": "Percentage of Cen"
+          },
+          {
+            "id": "",
+            "text": "Cen location (Mb)"
+          },
+          {
+            "id": "",
+            "text": "Cen size (Mb)"
+          },
+          {
+            "id": "",
+            "text": "Number"
+          },
+          {
+            "id": "",
+            "text": "Density (oligo/kb)"
+          },
+          {
+            "id": "",
+            "text": "Chr1"
+          },
+          {
+            "id": "",
+            "text": "8.20–9.18"
+          },
+          {
+            "id": "",
+            "text": "0.98"
+          },
+          {
+            "id": "",
+            "text": "10.14–17.74"
+          },
+          {
+            "id": "",
+            "text": "1,149"
+          },
+          {
+            "id": "",
+            "text": "1.17"
+          },
+          {
+            "id": "",
+            "text": "30.62"
+          },
+          {
+            "id": "",
+            "text": "3.20%"
+          },
+          {
+            "id": "",
+            "text": "21.98–22.31"
+          },
+          {
+            "id": "",
+            "text": "Chr2"
+          },
+          {
+            "id": "",
+            "text": "16.90–18.14"
+          },
+          {
+            "id": "",
+            "text": "1.24"
+          },
+          {
+            "id": "",
+            "text": "20.37–20.88"
+          },
+          {
+            "id": "",
+            "text": "1,507"
+          },
+          {
+            "id": "",
+            "text": "1.22"
+          },
+          {
+            "id": "",
+            "text": "33.65"
+          },
+          {
+            "id": "",
+            "text": "3.68%"
+          },
+          {
+            "id": "",
+            "text": "25.29–25.57"
+          },
+          {
+            "id": "",
+            "text": "Chr3"
+          },
+          {
+            "id": "",
+            "text": "23.75–24.50"
+          },
+          {
+            "id": "",
+            "text": "0.75"
+          },
+          {
+            "id": "",
+            "text": "5.07–5.51"
+          },
+          {
+            "id": "",
+            "text": "868"
+          },
+          {
+            "id": "",
+            "text": "1.16"
+          },
+          {
+            "id": "",
+            "text": "37.42"
+          },
+          {
+            "id": "",
+            "text": "2.00%"
+          },
+          {
+            "id": "",
+            "text": "9.32–10.79"
+          },
+          {
+            "id": "",
+            "text": "14.11–14.81"
+          },
+          {
+            "id": "",
+            "text": "Chr4*"
+          },
+          {
+            "id": "",
+            "text": "14.41–15.38"
+          },
+          {
+            "id": "",
+            "text": "0.97"
+          },
+          {
+            "id": "",
+            "text": "9.17–11.29"
+          },
+          {
+            "id": "",
+            "text": "1,030"
+          },
+          {
+            "id": "",
+            "text": "1.06"
+          },
+          {
+            "id": "",
+            "text": "31.35"
+          },
+          {
+            "id": "",
+            "text": "3.09%"
+          },
+          {
+            "id": "",
+            "text": "12.23–12.24"
+          },
+          {
+            "id": "",
+            "text": "15.57–17.31"
+          },
+          {
+            "id": "",
+            "text": "Chr5"
+          },
+          {
+            "id": "",
+            "text": "28.98–30.59"
+          },
+          {
+            "id": "",
+            "text": "1.61"
+          },
+          {
+            "id": "",
+            "text": "14.33–15.95"
+          },
+          {
+            "id": "",
+            "text": "2,034"
+          },
+          {
+            "id": "",
+            "text": "1.26"
+          },
+          {
+            "id": "",
+            "text": "50.23"
+          },
+          {
+            "id": "",
+            "text": "3.21%"
+          },
+          {
+            "id": "",
+            "text": "16.53–18.41"
+          },
+          {
+            "id": "",
+            "text": "23.81–23.82"
+          },
+          {
+            "id": "",
+            "text": "Chr6"
+          },
+          {
+            "id": "",
+            "text": "17.64–18.93"
+          },
+          {
+            "id": "",
+            "text": "1.29"
+          },
+          {
+            "id": "",
+            "text": "1.55–1.56"
+          },
+          {
+            "id": "",
+            "text": "1,941"
+          },
+          {
+            "id": "",
+            "text": "1.51"
+          },
+          {
+            "id": "",
+            "text": "26.16"
+          },
+          {
+            "id": "",
+            "text": "4.93%"
+          },
+          {
+            "id": "",
+            "text": "6.31–6.44"
+          },
+          {
+            "id": "",
+            "text": "9.02–11.22"
+          },
+          {
+            "id": "",
+            "text": "Chr7"
+          },
+          {
+            "id": "",
+            "text": "12.10–13.30"
+          },
+          {
+            "id": "",
+            "text": "1.20"
+          },
+          {
+            "id": "",
+            "text": "13.99–15.50"
+          },
+          {
+            "id": "",
+            "text": "1,241"
+          },
+          {
+            "id": "",
+            "text": "1.03"
+          },
+          {
+            "id": "",
+            "text": "29.70"
+          },
+          {
+            "id": "",
+            "text": "4.04%"
+          },
+          {
+            "id": "",
+            "text": "21.33–23.54"
+          },
+          {
+            "id": "",
+            "text": "Chr8"
+          },
+          {
+            "id": "",
+            "text": "14.28–18.79"
+          },
+          {
+            "id": "",
+            "text": "4.51"
+          },
+          {
+            "id": "",
+            "text": "3.68–4.18"
+          },
+          {
+            "id": "",
+            "text": "5,695"
+          },
+          {
+            "id": "",
+            "text": "1.26"
+          },
+          {
+            "id": "",
+            "text": "32.77"
+          },
+          {
+            "id": "",
+            "text": "13.76%"
+          },
+          {
+            "id": "",
+            "text": "12.47–12.62"
+          },
+          {
+            "id": "",
+            "text": "Chr9"
+          },
+          {
+            "id": "",
+            "text": "17.10–18.71"
+          },
+          {
+            "id": "",
+            "text": "1.61"
+          },
+          {
+            "id": "",
+            "text": "7.98–8.80"
+          },
+          {
+            "id": "",
+            "text": "1,362"
+          },
+          {
+            "id": "",
+            "text": "0.84"
+          },
+          {
+            "id": "",
+            "text": "32.31"
+          },
+          {
+            "id": "",
+            "text": "4.98%"
+          },
+          {
+            "id": "",
+            "text": "12.72–14.24"
+          },
+          {
+            "id": "",
+            "text": "15.85–17.94"
+          },
+          {
+            "id": "",
+            "text": "* , the centromere region of chromosome 4 located in this study; Chr, chromosome; Cen, centromere.\"Cen\"refers to centromere. The overlapping areas between the centromeric regions identified by ChIP-seq and HTA in Xia et al. ( 35 ) are highlighted in bold"
+          },
+          {
+            "id": "Par15",
+            "text": "For the development of centromere-specific single-copy oligo probes in Citrus species, Chorus2 was used to computationally identify 45-nt oligos associated with single-copy sequences from each of the nine chromosomes of the SWO v3 genome. A total of 1,043,510 oligos were identified, which unevenly covered all chromosomes and were less densely distributed in the centromeric regions. Additionally, small deletions of oligos were observed at the ends of Chr2 and Chr4 (Fig. 1 ). Based on the centromeric regions identified above, a total of 16,827 centromere-specific oligos were screened, with each centromeric region containing between 868 and 5,965 oligos, yielding a density of 0.84–1.51 oligos per kilobase (Table 1 ). The oligos located within the centromeric regions of Chr1 and Chr4 were selected and designed as citrus centromere-specific oligo probes, termed Chr1-Cen and Chr4-Cen, respectively. These probes were subsequently validated by oligo-FISH. The specific sequence information for Chr1-Cen (Table S1) and Chr4-Cen (Table S2) is provided in the supplementary materials."
+          },
+          {
+            "id": "Par16",
+            "text": "The accuracy of the two newly developed oligo probes, Chr1-Cen and Chr4-Cen, targeting the centromeric regions, was evaluated using dual-color FISH in combination with the centromeric repeat sequence probe CL34contig88, which is known to label all citrus centromeres. The Chr1-Cen oligo probe was fluorescently labeled with Fam (Fig. 2 b, yellow), while the CL34contig88 probe was labeled with Tetramethyl-Rhodamine (Fig. 2 c, red). Both probes were hybridized to metaphase chromosomes prepared from the root tips of ‘Red tangerine'. The results of the dual-color FISH assay revealed that the CL34contig88 probe displayed 18 distinct signals at the primary constriction of each chromosome, while only two signals coincided with those of the Chr1-Cen probe (Fig. 2 d, arrow). Similarly, the Chr4-Cen oligo probe was labeled with Tamra (Fig. 2 f, red), and the CL34contig88 probe was labeled with Fluorescein (Fig. 2 g, yellow). The dual-color FISH assay showed that the Chr4-Cen signals overlapped with those of CL34contig88 (Fig. 2 h, arrow). These results confirm that both Chr1-Cen and Chr4-Cen probes exhibit high specificity in localizing the centromeric regions of Chr1 and Chr4, respectively. Thus, these probes can be considered valuable cytological markers for specifically identifying the centromeres of Chr1 and Chr4 in citrus cytogenetic research. Fig. 2 Co-localization of oligo probes (Chr1-Cen and Chr4-Cen) with the previously reported citrus centromere marker CL34contig88. a DAPI-stained chromosomes (blue); b FISH signals of Chr1-Cen (yellow); c FISH signals of CL34contig88 (red); d Integrated signals from images ( a ), ( b ), and ( c ); ( e ) DAPI-stained chromosomes (blue); f FISH signals of Chr4-Cen (red); g FISH signals of CL34contig88 (yellow); h Integrated signals from images ( e ), ( f ), and ( g ). Bar=5 μm. The white arrows indicate the co-localization of oligo probes with CL34contig88 at the centromeres on Chr1 and Chr4, respectively"
+          },
+          {
+            "id": "",
+            "text": "Co-localization of oligo probes (Chr1-Cen and Chr4-Cen) with the previously reported citrus centromere marker CL34contig88. a DAPI-stained chromosomes (blue); b FISH signals of Chr1-Cen (yellow); c FISH signals of CL34contig88 (red); d Integrated signals from images ( a ), ( b ), and ( c ); ( e ) DAPI-stained chromosomes (blue); f FISH signals of Chr4-Cen (red); g FISH signals of CL34contig88 (yellow); h Integrated signals from images ( e ), ( f ), and ( g ). Bar=5 μm. The white arrows indicate the co-localization of oligo probes with CL34contig88 at the centromeres on Chr1 and Chr4, respectively"
+          },
+          {
+            "id": "Par17",
+            "text": "To assess whether the Chr1-Cen and Chr4-Cen probes can generate paired signals during meiosis, dual-color FISH assays were performed on pollen mother cells (PMCs) at the pachytene stage in ‘Red tangerine', where homologous chromosomes form synaptic complexes. The results revealed that Chr1-Cen and Chr4-Cen each produced one distinct signal at the centromere of the chromosome in the pachytene PMCs (Fig. 3 a–d), confirming that the signals from Chr1-Cen and Chr4-Cen were localized to two pairs of homologous chromosomes. Digitally excised images of Chr1 and Chr4 (Fig. 3 e) showed alignment with the computationally identified centromeric features (Fig. 1 ), further validating the design of the probes. Fig. 3 Localization of centromere-specific oligo probes Chr1-Cen and Chr4-Cen on meiotic pachytene chromosomes of ‘Red tangerine’ by dual-color FISH assay. a DAPI-stained chromosomes (blue); b FISH signals of Chr1-Cen (yellow); c FISH signals of Chr4-Cen (red); d Integrated signals from images ( a ), ( b ), and ( c ). Bar=5 μm. e Digitally excised Chr1 and Chr4 from the pachytene image shown in ( d )"
+          },
+          {
+            "id": "",
+            "text": "Localization of centromere-specific oligo probes Chr1-Cen and Chr4-Cen on meiotic pachytene chromosomes of ‘Red tangerine’ by dual-color FISH assay. a DAPI-stained chromosomes (blue); b FISH signals of Chr1-Cen (yellow); c FISH signals of Chr4-Cen (red); d Integrated signals from images ( a ), ( b ), and ( c ). Bar=5 μm. e Digitally excised Chr1 and Chr4 from the pachytene image shown in ( d )"
+          },
+          {
+            "id": "Par18",
+            "text": "Dual-color FISH was performed to assess the applicability of centromere-specific oligo probes Chr1-Cen and Chr4-Cen using metaphase chromosomes from root tips of six distinct genotypes, each representing a different Citrus species, including Valencia orange ( C. sinensis ), Red Tangerine ( C. reticulata ), Eureka lemon ( C. limon ), Hirado Buntan pummelo ( C. grandis ), F. japonica , and P. trifoliata . The results showed that each oligo probe, designed based on the SWO v3 ( C. sinensis ) genome, specifically hybridized to only one pair of chromosomes in all species tested (Fig. 4 ). The two oligo probes generated clear cross-hybridization signals exclusively at their respective centromeres, indicating a high degree of conservation in the centromeric oligo sequences of Chr1 and Chr4 across these species. Consequently, the Chr1-Cen and Chr4-Cen probes are reliable cytological markers for distinguishing the centromeres of Chr1 and Chr4 in various citrus species. These cross-species painting results suggest that, despite the long evolutionary divergence of Citrus and its related genera, significant conservation remains in the centromeric oligo sequences of Chr1 and Chr4. Fig. 4 Dual-color FISH signals of centromere-specific oligo probes Chr1-Cen and Chr4-Cen in six genotypes of Citrus and related genera. a1–a4, b1–b4, c1–c4, d1–d4, e1–e4, f1–f4 FISH signals of Chr1-Cen and Chr4-Cen in metaphase cells from root tips of Citrus sinensis , C. reticulata , C. limon , C. grandis , Fortunella japonica , and Poncirus trifoliata ; a1–f1 DAPI-stained chromosomes (blue); a2–f2 FISH signals of Chr1-Cen (yellow); a3 –f3 FISH signals of Chr4-Cen (red); a4–f4 Combined images offigures a1–a3, b1–b3, c1–c3, d1–d3, e1–e3, and f1–f3. Bar =5 μm"
+          },
+          {
+            "id": "",
+            "text": "Dual-color FISH signals of centromere-specific oligo probes Chr1-Cen and Chr4-Cen in six genotypes of Citrus and related genera. a1–a4, b1–b4, c1–c4, d1–d4, e1–e4, f1–f4 FISH signals of Chr1-Cen and Chr4-Cen in metaphase cells from root tips of Citrus sinensis , C. reticulata , C. limon , C. grandis , Fortunella japonica , and Poncirus trifoliata ; a1–f1 DAPI-stained chromosomes (blue); a2–f2 FISH signals of Chr1-Cen (yellow); a3 –f3 FISH signals of Chr4-Cen (red); a4–f4 Combined images offigures a1–a3, b1–b3, c1–c3, d1–d3, e1–e3, and f1–f3. Bar =5 μm"
+          },
+          {
+            "id": "Par19",
+            "text": "Pinpointing the centromere positions on Chr1 and Chr4 aids in determining the karyotype of these chromosomes across different citrus species. The karyotypes of the four Citrus species and two citrus relatives were investigated and compared. The lengths of the long and short arms of Chr1 and Chr4 in each species were measured in at least 15 cells using dual-color FISH with the Chr1-Cen and Chr4-Cen oligo probes, followed by calculation of the arm ratios. Despite their millions of years of evolutionary divergence, the karyotypes of Chr1 and Chr4 showed remarkable similarity across the four Citrus species and two citrus relatives (Fig. 5 ; Table 2 ). The arm ratio of Chr1 ranged from 1.70 ±0.28 in C. reticulata to 1.90 ± 0.27 in C. limon (Table 2 ), with Chr1 displaying a submetacentric (sm) morphology, characterized by the centromere positioned closer to the telomere, as per traditional chromosome classification. Likewise, the arm ratio of Chr4 ranged from 1.25 ± 0.15 in P. trifoliata to 1.34 ± 0.13 in C. reticulata (Table 2 ), indicating a metacentric (m) morphology, with the centromere centrally located on Chr4. Fig. 5 Highly similar karyotypes of Chr1 and Chr4 across four species of Citrus and two citrus relatives. The colored karyotype of Chr1 and Chr4 was digitally excised from Fig. 4 (a4–f4) Table 2 Arm ratios of Chr1 and Chr4 in four species of Citrus and two citrus relatives Genotype Chr1 Chr4 Arm ratio Type Arm ratio Type Citrus. sinensis 1.72 ± 0.15 sm 1.31 ± 0.14 m C. reticulata 1.70 ± 0.28 sm 1.34 ± 0.13 m C. limon 1.90 ± 0.27 sm 1.26 ± 0.15 m C. grandis 1.73 ± 0.20 sm 1.30 ± 0.14 m Fortunella. japonica 1.87 ± 0.23 sm 1.32 ± 0.15 m Poncirus. trifoliata 1.81 ± 0.19 sm 1.25 ± 0.15 m"
+          },
+          {
+            "id": "",
+            "text": "Highly similar karyotypes of Chr1 and Chr4 across four species of Citrus and two citrus relatives. The colored karyotype of Chr1 and Chr4 was digitally excised from Fig. 4 (a4–f4)"
+          },
+          {
+            "id": "",
+            "text": "Arm ratios of Chr1 and Chr4 in four species of Citrus and two citrus relatives"
+          },
+          {
+            "id": "",
+            "text": "Genotype"
+          },
+          {
+            "id": "",
+            "text": "Chr1"
+          },
+          {
+            "id": "",
+            "text": "Chr4"
+          },
+          {
+            "id": "",
+            "text": "Arm ratio"
+          },
+          {
+            "id": "",
+            "text": "Type"
+          },
+          {
+            "id": "",
+            "text": "Arm ratio"
+          },
+          {
+            "id": "",
+            "text": "Type"
+          },
+          {
+            "id": "",
+            "text": "Citrus. sinensis"
+          },
+          {
+            "id": "",
+            "text": "1.72 ± 0.15"
+          },
+          {
+            "id": "",
+            "text": "sm"
+          },
+          {
+            "id": "",
+            "text": "1.31 ± 0.14"
+          },
+          {
+            "id": "",
+            "text": "m"
+          },
+          {
+            "id": "",
+            "text": "C. reticulata"
+          },
+          {
+            "id": "",
+            "text": "1.70 ± 0.28"
+          },
+          {
+            "id": "",
+            "text": "sm"
+          },
+          {
+            "id": "",
+            "text": "1.34 ± 0.13"
+          },
+          {
+            "id": "",
+            "text": "m"
+          },
+          {
+            "id": "",
+            "text": "C. limon"
+          },
+          {
+            "id": "",
+            "text": "1.90 ± 0.27"
+          },
+          {
+            "id": "",
+            "text": "sm"
+          },
+          {
+            "id": "",
+            "text": "1.26 ± 0.15"
+          },
+          {
+            "id": "",
+            "text": "m"
+          },
+          {
+            "id": "",
+            "text": "C. grandis"
+          },
+          {
+            "id": "",
+            "text": "1.73 ± 0.20"
+          },
+          {
+            "id": "",
+            "text": "sm"
+          },
+          {
+            "id": "",
+            "text": "1.30 ± 0.14"
+          },
+          {
+            "id": "",
+            "text": "m"
+          },
+          {
+            "id": "",
+            "text": "Fortunella. japonica"
+          },
+          {
+            "id": "",
+            "text": "1.87 ± 0.23"
+          },
+          {
+            "id": "",
+            "text": "sm"
+          },
+          {
+            "id": "",
+            "text": "1.32 ± 0.15"
+          },
+          {
+            "id": "",
+            "text": "m"
+          },
+          {
+            "id": "",
+            "text": "Poncirus. trifoliata"
+          },
+          {
+            "id": "",
+            "text": "1.81 ± 0.19"
+          },
+          {
+            "id": "",
+            "text": "sm"
+          },
+          {
+            "id": "",
+            "text": "1.25 ± 0.15"
+          },
+          {
+            "id": "",
+            "text": "m"
+          }
+        ],
+        "subsections": [
+          {
+            "id": "Sec8",
+            "title": "Identification of centromere-specific oligos",
+            "paragraphs": [
+              {
+                "id": "Par14",
+                "text": "To develop centromere-specific probes that can specifically recognize the centromeres of individual chromosomes, centromere locations on each chromosome were repositioned based on the SWO v3 reference genome, utilizing previously published ChIP-seq data derived from the CsCenH3 protein. When comparing the mapping rates of the ChIP-seq and Input-seq reads between the data reported by Xia et al. ( 35 ) (72.57% and 87.16%, respectively) and the results obtained in this study (90.38% and 91.41%, respectively), the higher mapping rates achieved using the SWO v3 reference genome indicate its superior completeness. This suggests that the SWO v3 genome assembly facilitates a more precise identification of centromere locations across all chromosomes. ChIP-seq analysis revealed a single, distinct enrichment peak of anti-CsCenH3 on each of the nine chromosomes (Fig. 1 ; Table 1 ), in contrast to previous findings that reported multiple peaks (Table 1 ). The positions and sizes of the centromeric regions were estimated based on the prominent anti-CsCenH3 enrichment peaks, with sizes ranging from 0.75 Mb for Chr3 to 4.51 Mb for Chr8 (Table 1 ). The centromeric region of Chr4, which was previously omitted, was also found to be 0.97 Mb, representing 3.09% of the total length of Chr4 (Table 1 ). Fig. 1 Distribution density of single-copy oligos, CsCenH3 enrichment peaks, and centromere-specific oligos along all nine chromosomes in SWO v3. The blue curves represent single-copy oligos, the orange curves represent CsCenH3 enrichment peaks, and the red lines represent centromere-specific oligos. The sliding window length used for alignment is 20 kb Table 1 Comparison of the centromeric regions identified in this study and those reported by Xia et al. ( 35 ), along with the number of 45-nt oligos within the centromeric regions Chr Centromeric regions located with SWO v3 as reference Centromeric regions identified by Xia et al. ( 35 ) 45-nt oligos in centromeric regions Chr size (Mb) Percentage of Cen Cen location (Mb) Cen size (Mb) Number Density (oligo/kb) Chr1 8.20–9.18 0.98 10.14–17.74 1,149 1.17 30.62 3.20% 21.98–22.31 Chr2 16.90–18.14 1.24 20.37–20.88 1,507 1.22 33.65 3.68% 25.29–25.57 Chr3 23.75–24.50 0.75 5.07–5.51 868 1.16 37.42 2.00% 9.32–10.79 14.11–14.81 Chr4* 14.41–15.38 0.97 9.17–11.29 1,030 1.06 31.35 3.09% 12.23–12.24 15.57–17.31 Chr5 28.98–30.59 1.61 14.33–15.95 2,034 1.26 50.23 3.21% 16.53–18.41 23.81–23.82 Chr6 17.64–18.93 1.29 1.55–1.56 1,941 1.51 26.16 4.93% 6.31–6.44 9.02–11.22 Chr7 12.10–13.30 1.20 13.99–15.50 1,241 1.03 29.70 4.04% 21.33–23.54 Chr8 14.28–18.79 4.51 3.68–4.18 5,695 1.26 32.77 13.76% 12.47–12.62 Chr9 17.10–18.71 1.61 7.98–8.80 1,362 0.84 32.31 4.98% 12.72–14.24 15.85–17.94 * , the centromere region of chromosome 4 located in this study; Chr, chromosome; Cen, centromere.\"Cen\"refers to centromere. The overlapping areas between the centromeric regions identified by ChIP-seq and HTA in Xia et al. ( 35 ) are highlighted in bold"
+              },
+              {
+                "id": "",
+                "text": "Distribution density of single-copy oligos, CsCenH3 enrichment peaks, and centromere-specific oligos along all nine chromosomes in SWO v3. The blue curves represent single-copy oligos, the orange curves represent CsCenH3 enrichment peaks, and the red lines represent centromere-specific oligos. The sliding window length used for alignment is 20 kb"
+              },
+              {
+                "id": "",
+                "text": "Comparison of the centromeric regions identified in this study and those reported by Xia et al. ( 35 ), along with the number of 45-nt oligos within the centromeric regions"
+              },
+              {
+                "id": "",
+                "text": "Chr"
+              },
+              {
+                "id": "",
+                "text": "Centromeric regions located with SWO v3 as reference"
+              },
+              {
+                "id": "",
+                "text": "Centromeric regions identified by Xia et al. ( 35 )"
+              },
+              {
+                "id": "",
+                "text": "45-nt oligos in centromeric regions"
+              },
+              {
+                "id": "",
+                "text": "Chr size (Mb)"
+              },
+              {
+                "id": "",
+                "text": "Percentage of Cen"
+              },
+              {
+                "id": "",
+                "text": "Cen location (Mb)"
+              },
+              {
+                "id": "",
+                "text": "Cen size (Mb)"
+              },
+              {
+                "id": "",
+                "text": "Number"
+              },
+              {
+                "id": "",
+                "text": "Density (oligo/kb)"
+              },
+              {
+                "id": "",
+                "text": "Chr1"
+              },
+              {
+                "id": "",
+                "text": "8.20–9.18"
+              },
+              {
+                "id": "",
+                "text": "0.98"
+              },
+              {
+                "id": "",
+                "text": "10.14–17.74"
+              },
+              {
+                "id": "",
+                "text": "1,149"
+              },
+              {
+                "id": "",
+                "text": "1.17"
+              },
+              {
+                "id": "",
+                "text": "30.62"
+              },
+              {
+                "id": "",
+                "text": "3.20%"
+              },
+              {
+                "id": "",
+                "text": "21.98–22.31"
+              },
+              {
+                "id": "",
+                "text": "Chr2"
+              },
+              {
+                "id": "",
+                "text": "16.90–18.14"
+              },
+              {
+                "id": "",
+                "text": "1.24"
+              },
+              {
+                "id": "",
+                "text": "20.37–20.88"
+              },
+              {
+                "id": "",
+                "text": "1,507"
+              },
+              {
+                "id": "",
+                "text": "1.22"
+              },
+              {
+                "id": "",
+                "text": "33.65"
+              },
+              {
+                "id": "",
+                "text": "3.68%"
+              },
+              {
+                "id": "",
+                "text": "25.29–25.57"
+              },
+              {
+                "id": "",
+                "text": "Chr3"
+              },
+              {
+                "id": "",
+                "text": "23.75–24.50"
+              },
+              {
+                "id": "",
+                "text": "0.75"
+              },
+              {
+                "id": "",
+                "text": "5.07–5.51"
+              },
+              {
+                "id": "",
+                "text": "868"
+              },
+              {
+                "id": "",
+                "text": "1.16"
+              },
+              {
+                "id": "",
+                "text": "37.42"
+              },
+              {
+                "id": "",
+                "text": "2.00%"
+              },
+              {
+                "id": "",
+                "text": "9.32–10.79"
+              },
+              {
+                "id": "",
+                "text": "14.11–14.81"
+              },
+              {
+                "id": "",
+                "text": "Chr4*"
+              },
+              {
+                "id": "",
+                "text": "14.41–15.38"
+              },
+              {
+                "id": "",
+                "text": "0.97"
+              },
+              {
+                "id": "",
+                "text": "9.17–11.29"
+              },
+              {
+                "id": "",
+                "text": "1,030"
+              },
+              {
+                "id": "",
+                "text": "1.06"
+              },
+              {
+                "id": "",
+                "text": "31.35"
+              },
+              {
+                "id": "",
+                "text": "3.09%"
+              },
+              {
+                "id": "",
+                "text": "12.23–12.24"
+              },
+              {
+                "id": "",
+                "text": "15.57–17.31"
+              },
+              {
+                "id": "",
+                "text": "Chr5"
+              },
+              {
+                "id": "",
+                "text": "28.98–30.59"
+              },
+              {
+                "id": "",
+                "text": "1.61"
+              },
+              {
+                "id": "",
+                "text": "14.33–15.95"
+              },
+              {
+                "id": "",
+                "text": "2,034"
+              },
+              {
+                "id": "",
+                "text": "1.26"
+              },
+              {
+                "id": "",
+                "text": "50.23"
+              },
+              {
+                "id": "",
+                "text": "3.21%"
+              },
+              {
+                "id": "",
+                "text": "16.53–18.41"
+              },
+              {
+                "id": "",
+                "text": "23.81–23.82"
+              },
+              {
+                "id": "",
+                "text": "Chr6"
+              },
+              {
+                "id": "",
+                "text": "17.64–18.93"
+              },
+              {
+                "id": "",
+                "text": "1.29"
+              },
+              {
+                "id": "",
+                "text": "1.55–1.56"
+              },
+              {
+                "id": "",
+                "text": "1,941"
+              },
+              {
+                "id": "",
+                "text": "1.51"
+              },
+              {
+                "id": "",
+                "text": "26.16"
+              },
+              {
+                "id": "",
+                "text": "4.93%"
+              },
+              {
+                "id": "",
+                "text": "6.31–6.44"
+              },
+              {
+                "id": "",
+                "text": "9.02–11.22"
+              },
+              {
+                "id": "",
+                "text": "Chr7"
+              },
+              {
+                "id": "",
+                "text": "12.10–13.30"
+              },
+              {
+                "id": "",
+                "text": "1.20"
+              },
+              {
+                "id": "",
+                "text": "13.99–15.50"
+              },
+              {
+                "id": "",
+                "text": "1,241"
+              },
+              {
+                "id": "",
+                "text": "1.03"
+              },
+              {
+                "id": "",
+                "text": "29.70"
+              },
+              {
+                "id": "",
+                "text": "4.04%"
+              },
+              {
+                "id": "",
+                "text": "21.33–23.54"
+              },
+              {
+                "id": "",
+                "text": "Chr8"
+              },
+              {
+                "id": "",
+                "text": "14.28–18.79"
+              },
+              {
+                "id": "",
+                "text": "4.51"
+              },
+              {
+                "id": "",
+                "text": "3.68–4.18"
+              },
+              {
+                "id": "",
+                "text": "5,695"
+              },
+              {
+                "id": "",
+                "text": "1.26"
+              },
+              {
+                "id": "",
+                "text": "32.77"
+              },
+              {
+                "id": "",
+                "text": "13.76%"
+              },
+              {
+                "id": "",
+                "text": "12.47–12.62"
+              },
+              {
+                "id": "",
+                "text": "Chr9"
+              },
+              {
+                "id": "",
+                "text": "17.10–18.71"
+              },
+              {
+                "id": "",
+                "text": "1.61"
+              },
+              {
+                "id": "",
+                "text": "7.98–8.80"
+              },
+              {
+                "id": "",
+                "text": "1,362"
+              },
+              {
+                "id": "",
+                "text": "0.84"
+              },
+              {
+                "id": "",
+                "text": "32.31"
+              },
+              {
+                "id": "",
+                "text": "4.98%"
+              },
+              {
+                "id": "",
+                "text": "12.72–14.24"
+              },
+              {
+                "id": "",
+                "text": "15.85–17.94"
+              },
+              {
+                "id": "",
+                "text": "* , the centromere region of chromosome 4 located in this study; Chr, chromosome; Cen, centromere.\"Cen\"refers to centromere. The overlapping areas between the centromeric regions identified by ChIP-seq and HTA in Xia et al. ( 35 ) are highlighted in bold"
+              },
+              {
+                "id": "Par15",
+                "text": "For the development of centromere-specific single-copy oligo probes in Citrus species, Chorus2 was used to computationally identify 45-nt oligos associated with single-copy sequences from each of the nine chromosomes of the SWO v3 genome. A total of 1,043,510 oligos were identified, which unevenly covered all chromosomes and were less densely distributed in the centromeric regions. Additionally, small deletions of oligos were observed at the ends of Chr2 and Chr4 (Fig. 1 ). Based on the centromeric regions identified above, a total of 16,827 centromere-specific oligos were screened, with each centromeric region containing between 868 and 5,965 oligos, yielding a density of 0.84–1.51 oligos per kilobase (Table 1 ). The oligos located within the centromeric regions of Chr1 and Chr4 were selected and designed as citrus centromere-specific oligo probes, termed Chr1-Cen and Chr4-Cen, respectively. These probes were subsequently validated by oligo-FISH. The specific sequence information for Chr1-Cen (Table S1) and Chr4-Cen (Table S2) is provided in the supplementary materials."
+              }
+            ]
+          },
+          {
+            "id": "Sec9",
+            "title": "Validation of the centromeric regions targeted by oligo probes",
+            "paragraphs": [
+              {
+                "id": "Par16",
+                "text": "The accuracy of the two newly developed oligo probes, Chr1-Cen and Chr4-Cen, targeting the centromeric regions, was evaluated using dual-color FISH in combination with the centromeric repeat sequence probe CL34contig88, which is known to label all citrus centromeres. The Chr1-Cen oligo probe was fluorescently labeled with Fam (Fig. 2 b, yellow), while the CL34contig88 probe was labeled with Tetramethyl-Rhodamine (Fig. 2 c, red). Both probes were hybridized to metaphase chromosomes prepared from the root tips of ‘Red tangerine'. The results of the dual-color FISH assay revealed that the CL34contig88 probe displayed 18 distinct signals at the primary constriction of each chromosome, while only two signals coincided with those of the Chr1-Cen probe (Fig. 2 d, arrow). Similarly, the Chr4-Cen oligo probe was labeled with Tamra (Fig. 2 f, red), and the CL34contig88 probe was labeled with Fluorescein (Fig. 2 g, yellow). The dual-color FISH assay showed that the Chr4-Cen signals overlapped with those of CL34contig88 (Fig. 2 h, arrow). These results confirm that both Chr1-Cen and Chr4-Cen probes exhibit high specificity in localizing the centromeric regions of Chr1 and Chr4, respectively. Thus, these probes can be considered valuable cytological markers for specifically identifying the centromeres of Chr1 and Chr4 in citrus cytogenetic research. Fig. 2 Co-localization of oligo probes (Chr1-Cen and Chr4-Cen) with the previously reported citrus centromere marker CL34contig88. a DAPI-stained chromosomes (blue); b FISH signals of Chr1-Cen (yellow); c FISH signals of CL34contig88 (red); d Integrated signals from images ( a ), ( b ), and ( c ); ( e ) DAPI-stained chromosomes (blue); f FISH signals of Chr4-Cen (red); g FISH signals of CL34contig88 (yellow); h Integrated signals from images ( e ), ( f ), and ( g ). Bar=5 μm. The white arrows indicate the co-localization of oligo probes with CL34contig88 at the centromeres on Chr1 and Chr4, respectively"
+              },
+              {
+                "id": "",
+                "text": "Co-localization of oligo probes (Chr1-Cen and Chr4-Cen) with the previously reported citrus centromere marker CL34contig88. a DAPI-stained chromosomes (blue); b FISH signals of Chr1-Cen (yellow); c FISH signals of CL34contig88 (red); d Integrated signals from images ( a ), ( b ), and ( c ); ( e ) DAPI-stained chromosomes (blue); f FISH signals of Chr4-Cen (red); g FISH signals of CL34contig88 (yellow); h Integrated signals from images ( e ), ( f ), and ( g ). Bar=5 μm. The white arrows indicate the co-localization of oligo probes with CL34contig88 at the centromeres on Chr1 and Chr4, respectively"
+              },
+              {
+                "id": "Par17",
+                "text": "To assess whether the Chr1-Cen and Chr4-Cen probes can generate paired signals during meiosis, dual-color FISH assays were performed on pollen mother cells (PMCs) at the pachytene stage in ‘Red tangerine', where homologous chromosomes form synaptic complexes. The results revealed that Chr1-Cen and Chr4-Cen each produced one distinct signal at the centromere of the chromosome in the pachytene PMCs (Fig. 3 a–d), confirming that the signals from Chr1-Cen and Chr4-Cen were localized to two pairs of homologous chromosomes. Digitally excised images of Chr1 and Chr4 (Fig. 3 e) showed alignment with the computationally identified centromeric features (Fig. 1 ), further validating the design of the probes. Fig. 3 Localization of centromere-specific oligo probes Chr1-Cen and Chr4-Cen on meiotic pachytene chromosomes of ‘Red tangerine’ by dual-color FISH assay. a DAPI-stained chromosomes (blue); b FISH signals of Chr1-Cen (yellow); c FISH signals of Chr4-Cen (red); d Integrated signals from images ( a ), ( b ), and ( c ). Bar=5 μm. e Digitally excised Chr1 and Chr4 from the pachytene image shown in ( d )"
+              },
+              {
+                "id": "",
+                "text": "Localization of centromere-specific oligo probes Chr1-Cen and Chr4-Cen on meiotic pachytene chromosomes of ‘Red tangerine’ by dual-color FISH assay. a DAPI-stained chromosomes (blue); b FISH signals of Chr1-Cen (yellow); c FISH signals of Chr4-Cen (red); d Integrated signals from images ( a ), ( b ), and ( c ). Bar=5 μm. e Digitally excised Chr1 and Chr4 from the pachytene image shown in ( d )"
+              }
+            ]
+          },
+          {
+            "id": "Sec10",
+            "title": "The oligo sequences in the centromeres are conserved in Citrus and its related genera",
+            "paragraphs": [
+              {
+                "id": "Par18",
+                "text": "Dual-color FISH was performed to assess the applicability of centromere-specific oligo probes Chr1-Cen and Chr4-Cen using metaphase chromosomes from root tips of six distinct genotypes, each representing a different Citrus species, including Valencia orange ( C. sinensis ), Red Tangerine ( C. reticulata ), Eureka lemon ( C. limon ), Hirado Buntan pummelo ( C. grandis ), F. japonica , and P. trifoliata . The results showed that each oligo probe, designed based on the SWO v3 ( C. sinensis ) genome, specifically hybridized to only one pair of chromosomes in all species tested (Fig. 4 ). The two oligo probes generated clear cross-hybridization signals exclusively at their respective centromeres, indicating a high degree of conservation in the centromeric oligo sequences of Chr1 and Chr4 across these species. Consequently, the Chr1-Cen and Chr4-Cen probes are reliable cytological markers for distinguishing the centromeres of Chr1 and Chr4 in various citrus species. These cross-species painting results suggest that, despite the long evolutionary divergence of Citrus and its related genera, significant conservation remains in the centromeric oligo sequences of Chr1 and Chr4. Fig. 4 Dual-color FISH signals of centromere-specific oligo probes Chr1-Cen and Chr4-Cen in six genotypes of Citrus and related genera. a1–a4, b1–b4, c1–c4, d1–d4, e1–e4, f1–f4 FISH signals of Chr1-Cen and Chr4-Cen in metaphase cells from root tips of Citrus sinensis , C. reticulata , C. limon , C. grandis , Fortunella japonica , and Poncirus trifoliata ; a1–f1 DAPI-stained chromosomes (blue); a2–f2 FISH signals of Chr1-Cen (yellow); a3 –f3 FISH signals of Chr4-Cen (red); a4–f4 Combined images offigures a1–a3, b1–b3, c1–c3, d1–d3, e1–e3, and f1–f3. Bar =5 μm"
+              },
+              {
+                "id": "",
+                "text": "Dual-color FISH signals of centromere-specific oligo probes Chr1-Cen and Chr4-Cen in six genotypes of Citrus and related genera. a1–a4, b1–b4, c1–c4, d1–d4, e1–e4, f1–f4 FISH signals of Chr1-Cen and Chr4-Cen in metaphase cells from root tips of Citrus sinensis , C. reticulata , C. limon , C. grandis , Fortunella japonica , and Poncirus trifoliata ; a1–f1 DAPI-stained chromosomes (blue); a2–f2 FISH signals of Chr1-Cen (yellow); a3 –f3 FISH signals of Chr4-Cen (red); a4–f4 Combined images offigures a1–a3, b1–b3, c1–c3, d1–d3, e1–e3, and f1–f3. Bar =5 μm"
+              }
+            ]
+          },
+          {
+            "id": "Sec11",
+            "title": "Different citrus species exhibited a comparable karyotype",
+            "paragraphs": [
+              {
+                "id": "Par19",
+                "text": "Pinpointing the centromere positions on Chr1 and Chr4 aids in determining the karyotype of these chromosomes across different citrus species. The karyotypes of the four Citrus species and two citrus relatives were investigated and compared. The lengths of the long and short arms of Chr1 and Chr4 in each species were measured in at least 15 cells using dual-color FISH with the Chr1-Cen and Chr4-Cen oligo probes, followed by calculation of the arm ratios. Despite their millions of years of evolutionary divergence, the karyotypes of Chr1 and Chr4 showed remarkable similarity across the four Citrus species and two citrus relatives (Fig. 5 ; Table 2 ). The arm ratio of Chr1 ranged from 1.70 ±0.28 in C. reticulata to 1.90 ± 0.27 in C. limon (Table 2 ), with Chr1 displaying a submetacentric (sm) morphology, characterized by the centromere positioned closer to the telomere, as per traditional chromosome classification. Likewise, the arm ratio of Chr4 ranged from 1.25 ± 0.15 in P. trifoliata to 1.34 ± 0.13 in C. reticulata (Table 2 ), indicating a metacentric (m) morphology, with the centromere centrally located on Chr4. Fig. 5 Highly similar karyotypes of Chr1 and Chr4 across four species of Citrus and two citrus relatives. The colored karyotype of Chr1 and Chr4 was digitally excised from Fig. 4 (a4–f4) Table 2 Arm ratios of Chr1 and Chr4 in four species of Citrus and two citrus relatives Genotype Chr1 Chr4 Arm ratio Type Arm ratio Type Citrus. sinensis 1.72 ± 0.15 sm 1.31 ± 0.14 m C. reticulata 1.70 ± 0.28 sm 1.34 ± 0.13 m C. limon 1.90 ± 0.27 sm 1.26 ± 0.15 m C. grandis 1.73 ± 0.20 sm 1.30 ± 0.14 m Fortunella. japonica 1.87 ± 0.23 sm 1.32 ± 0.15 m Poncirus. trifoliata 1.81 ± 0.19 sm 1.25 ± 0.15 m"
+              },
+              {
+                "id": "",
+                "text": "Highly similar karyotypes of Chr1 and Chr4 across four species of Citrus and two citrus relatives. The colored karyotype of Chr1 and Chr4 was digitally excised from Fig. 4 (a4–f4)"
+              },
+              {
+                "id": "",
+                "text": "Arm ratios of Chr1 and Chr4 in four species of Citrus and two citrus relatives"
+              },
+              {
+                "id": "",
+                "text": "Genotype"
+              },
+              {
+                "id": "",
+                "text": "Chr1"
+              },
+              {
+                "id": "",
+                "text": "Chr4"
+              },
+              {
+                "id": "",
+                "text": "Arm ratio"
+              },
+              {
+                "id": "",
+                "text": "Type"
+              },
+              {
+                "id": "",
+                "text": "Arm ratio"
+              },
+              {
+                "id": "",
+                "text": "Type"
+              },
+              {
+                "id": "",
+                "text": "Citrus. sinensis"
+              },
+              {
+                "id": "",
+                "text": "1.72 ± 0.15"
+              },
+              {
+                "id": "",
+                "text": "sm"
+              },
+              {
+                "id": "",
+                "text": "1.31 ± 0.14"
+              },
+              {
+                "id": "",
+                "text": "m"
+              },
+              {
+                "id": "",
+                "text": "C. reticulata"
+              },
+              {
+                "id": "",
+                "text": "1.70 ± 0.28"
+              },
+              {
+                "id": "",
+                "text": "sm"
+              },
+              {
+                "id": "",
+                "text": "1.34 ± 0.13"
+              },
+              {
+                "id": "",
+                "text": "m"
+              },
+              {
+                "id": "",
+                "text": "C. limon"
+              },
+              {
+                "id": "",
+                "text": "1.90 ± 0.27"
+              },
+              {
+                "id": "",
+                "text": "sm"
+              },
+              {
+                "id": "",
+                "text": "1.26 ± 0.15"
+              },
+              {
+                "id": "",
+                "text": "m"
+              },
+              {
+                "id": "",
+                "text": "C. grandis"
+              },
+              {
+                "id": "",
+                "text": "1.73 ± 0.20"
+              },
+              {
+                "id": "",
+                "text": "sm"
+              },
+              {
+                "id": "",
+                "text": "1.30 ± 0.14"
+              },
+              {
+                "id": "",
+                "text": "m"
+              },
+              {
+                "id": "",
+                "text": "Fortunella. japonica"
+              },
+              {
+                "id": "",
+                "text": "1.87 ± 0.23"
+              },
+              {
+                "id": "",
+                "text": "sm"
+              },
+              {
+                "id": "",
+                "text": "1.32 ± 0.15"
+              },
+              {
+                "id": "",
+                "text": "m"
+              },
+              {
+                "id": "",
+                "text": "Poncirus. trifoliata"
+              },
+              {
+                "id": "",
+                "text": "1.81 ± 0.19"
+              },
+              {
+                "id": "",
+                "text": "sm"
+              },
+              {
+                "id": "",
+                "text": "1.25 ± 0.15"
+              },
+              {
+                "id": "",
+                "text": "m"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Sec8",
+        "title": "Identification of centromere-specific oligos",
+        "paragraphs": [
+          {
+            "id": "Par14",
+            "text": "To develop centromere-specific probes that can specifically recognize the centromeres of individual chromosomes, centromere locations on each chromosome were repositioned based on the SWO v3 reference genome, utilizing previously published ChIP-seq data derived from the CsCenH3 protein. When comparing the mapping rates of the ChIP-seq and Input-seq reads between the data reported by Xia et al. ( 35 ) (72.57% and 87.16%, respectively) and the results obtained in this study (90.38% and 91.41%, respectively), the higher mapping rates achieved using the SWO v3 reference genome indicate its superior completeness. This suggests that the SWO v3 genome assembly facilitates a more precise identification of centromere locations across all chromosomes. ChIP-seq analysis revealed a single, distinct enrichment peak of anti-CsCenH3 on each of the nine chromosomes (Fig. 1 ; Table 1 ), in contrast to previous findings that reported multiple peaks (Table 1 ). The positions and sizes of the centromeric regions were estimated based on the prominent anti-CsCenH3 enrichment peaks, with sizes ranging from 0.75 Mb for Chr3 to 4.51 Mb for Chr8 (Table 1 ). The centromeric region of Chr4, which was previously omitted, was also found to be 0.97 Mb, representing 3.09% of the total length of Chr4 (Table 1 ). Fig. 1 Distribution density of single-copy oligos, CsCenH3 enrichment peaks, and centromere-specific oligos along all nine chromosomes in SWO v3. The blue curves represent single-copy oligos, the orange curves represent CsCenH3 enrichment peaks, and the red lines represent centromere-specific oligos. The sliding window length used for alignment is 20 kb Table 1 Comparison of the centromeric regions identified in this study and those reported by Xia et al. ( 35 ), along with the number of 45-nt oligos within the centromeric regions Chr Centromeric regions located with SWO v3 as reference Centromeric regions identified by Xia et al. ( 35 ) 45-nt oligos in centromeric regions Chr size (Mb) Percentage of Cen Cen location (Mb) Cen size (Mb) Number Density (oligo/kb) Chr1 8.20–9.18 0.98 10.14–17.74 1,149 1.17 30.62 3.20% 21.98–22.31 Chr2 16.90–18.14 1.24 20.37–20.88 1,507 1.22 33.65 3.68% 25.29–25.57 Chr3 23.75–24.50 0.75 5.07–5.51 868 1.16 37.42 2.00% 9.32–10.79 14.11–14.81 Chr4* 14.41–15.38 0.97 9.17–11.29 1,030 1.06 31.35 3.09% 12.23–12.24 15.57–17.31 Chr5 28.98–30.59 1.61 14.33–15.95 2,034 1.26 50.23 3.21% 16.53–18.41 23.81–23.82 Chr6 17.64–18.93 1.29 1.55–1.56 1,941 1.51 26.16 4.93% 6.31–6.44 9.02–11.22 Chr7 12.10–13.30 1.20 13.99–15.50 1,241 1.03 29.70 4.04% 21.33–23.54 Chr8 14.28–18.79 4.51 3.68–4.18 5,695 1.26 32.77 13.76% 12.47–12.62 Chr9 17.10–18.71 1.61 7.98–8.80 1,362 0.84 32.31 4.98% 12.72–14.24 15.85–17.94 * , the centromere region of chromosome 4 located in this study; Chr, chromosome; Cen, centromere.\"Cen\"refers to centromere. The overlapping areas between the centromeric regions identified by ChIP-seq and HTA in Xia et al. ( 35 ) are highlighted in bold"
+          },
+          {
+            "id": "",
+            "text": "Distribution density of single-copy oligos, CsCenH3 enrichment peaks, and centromere-specific oligos along all nine chromosomes in SWO v3. The blue curves represent single-copy oligos, the orange curves represent CsCenH3 enrichment peaks, and the red lines represent centromere-specific oligos. The sliding window length used for alignment is 20 kb"
+          },
+          {
+            "id": "",
+            "text": "Comparison of the centromeric regions identified in this study and those reported by Xia et al. ( 35 ), along with the number of 45-nt oligos within the centromeric regions"
+          },
+          {
+            "id": "",
+            "text": "Chr"
+          },
+          {
+            "id": "",
+            "text": "Centromeric regions located with SWO v3 as reference"
+          },
+          {
+            "id": "",
+            "text": "Centromeric regions identified by Xia et al. ( 35 )"
+          },
+          {
+            "id": "",
+            "text": "45-nt oligos in centromeric regions"
+          },
+          {
+            "id": "",
+            "text": "Chr size (Mb)"
+          },
+          {
+            "id": "",
+            "text": "Percentage of Cen"
+          },
+          {
+            "id": "",
+            "text": "Cen location (Mb)"
+          },
+          {
+            "id": "",
+            "text": "Cen size (Mb)"
+          },
+          {
+            "id": "",
+            "text": "Number"
+          },
+          {
+            "id": "",
+            "text": "Density (oligo/kb)"
+          },
+          {
+            "id": "",
+            "text": "Chr1"
+          },
+          {
+            "id": "",
+            "text": "8.20–9.18"
+          },
+          {
+            "id": "",
+            "text": "0.98"
+          },
+          {
+            "id": "",
+            "text": "10.14–17.74"
+          },
+          {
+            "id": "",
+            "text": "1,149"
+          },
+          {
+            "id": "",
+            "text": "1.17"
+          },
+          {
+            "id": "",
+            "text": "30.62"
+          },
+          {
+            "id": "",
+            "text": "3.20%"
+          },
+          {
+            "id": "",
+            "text": "21.98–22.31"
+          },
+          {
+            "id": "",
+            "text": "Chr2"
+          },
+          {
+            "id": "",
+            "text": "16.90–18.14"
+          },
+          {
+            "id": "",
+            "text": "1.24"
+          },
+          {
+            "id": "",
+            "text": "20.37–20.88"
+          },
+          {
+            "id": "",
+            "text": "1,507"
+          },
+          {
+            "id": "",
+            "text": "1.22"
+          },
+          {
+            "id": "",
+            "text": "33.65"
+          },
+          {
+            "id": "",
+            "text": "3.68%"
+          },
+          {
+            "id": "",
+            "text": "25.29–25.57"
+          },
+          {
+            "id": "",
+            "text": "Chr3"
+          },
+          {
+            "id": "",
+            "text": "23.75–24.50"
+          },
+          {
+            "id": "",
+            "text": "0.75"
+          },
+          {
+            "id": "",
+            "text": "5.07–5.51"
+          },
+          {
+            "id": "",
+            "text": "868"
+          },
+          {
+            "id": "",
+            "text": "1.16"
+          },
+          {
+            "id": "",
+            "text": "37.42"
+          },
+          {
+            "id": "",
+            "text": "2.00%"
+          },
+          {
+            "id": "",
+            "text": "9.32–10.79"
+          },
+          {
+            "id": "",
+            "text": "14.11–14.81"
+          },
+          {
+            "id": "",
+            "text": "Chr4*"
+          },
+          {
+            "id": "",
+            "text": "14.41–15.38"
+          },
+          {
+            "id": "",
+            "text": "0.97"
+          },
+          {
+            "id": "",
+            "text": "9.17–11.29"
+          },
+          {
+            "id": "",
+            "text": "1,030"
+          },
+          {
+            "id": "",
+            "text": "1.06"
+          },
+          {
+            "id": "",
+            "text": "31.35"
+          },
+          {
+            "id": "",
+            "text": "3.09%"
+          },
+          {
+            "id": "",
+            "text": "12.23–12.24"
+          },
+          {
+            "id": "",
+            "text": "15.57–17.31"
+          },
+          {
+            "id": "",
+            "text": "Chr5"
+          },
+          {
+            "id": "",
+            "text": "28.98–30.59"
+          },
+          {
+            "id": "",
+            "text": "1.61"
+          },
+          {
+            "id": "",
+            "text": "14.33–15.95"
+          },
+          {
+            "id": "",
+            "text": "2,034"
+          },
+          {
+            "id": "",
+            "text": "1.26"
+          },
+          {
+            "id": "",
+            "text": "50.23"
+          },
+          {
+            "id": "",
+            "text": "3.21%"
+          },
+          {
+            "id": "",
+            "text": "16.53–18.41"
+          },
+          {
+            "id": "",
+            "text": "23.81–23.82"
+          },
+          {
+            "id": "",
+            "text": "Chr6"
+          },
+          {
+            "id": "",
+            "text": "17.64–18.93"
+          },
+          {
+            "id": "",
+            "text": "1.29"
+          },
+          {
+            "id": "",
+            "text": "1.55–1.56"
+          },
+          {
+            "id": "",
+            "text": "1,941"
+          },
+          {
+            "id": "",
+            "text": "1.51"
+          },
+          {
+            "id": "",
+            "text": "26.16"
+          },
+          {
+            "id": "",
+            "text": "4.93%"
+          },
+          {
+            "id": "",
+            "text": "6.31–6.44"
+          },
+          {
+            "id": "",
+            "text": "9.02–11.22"
+          },
+          {
+            "id": "",
+            "text": "Chr7"
+          },
+          {
+            "id": "",
+            "text": "12.10–13.30"
+          },
+          {
+            "id": "",
+            "text": "1.20"
+          },
+          {
+            "id": "",
+            "text": "13.99–15.50"
+          },
+          {
+            "id": "",
+            "text": "1,241"
+          },
+          {
+            "id": "",
+            "text": "1.03"
+          },
+          {
+            "id": "",
+            "text": "29.70"
+          },
+          {
+            "id": "",
+            "text": "4.04%"
+          },
+          {
+            "id": "",
+            "text": "21.33–23.54"
+          },
+          {
+            "id": "",
+            "text": "Chr8"
+          },
+          {
+            "id": "",
+            "text": "14.28–18.79"
+          },
+          {
+            "id": "",
+            "text": "4.51"
+          },
+          {
+            "id": "",
+            "text": "3.68–4.18"
+          },
+          {
+            "id": "",
+            "text": "5,695"
+          },
+          {
+            "id": "",
+            "text": "1.26"
+          },
+          {
+            "id": "",
+            "text": "32.77"
+          },
+          {
+            "id": "",
+            "text": "13.76%"
+          },
+          {
+            "id": "",
+            "text": "12.47–12.62"
+          },
+          {
+            "id": "",
+            "text": "Chr9"
+          },
+          {
+            "id": "",
+            "text": "17.10–18.71"
+          },
+          {
+            "id": "",
+            "text": "1.61"
+          },
+          {
+            "id": "",
+            "text": "7.98–8.80"
+          },
+          {
+            "id": "",
+            "text": "1,362"
+          },
+          {
+            "id": "",
+            "text": "0.84"
+          },
+          {
+            "id": "",
+            "text": "32.31"
+          },
+          {
+            "id": "",
+            "text": "4.98%"
+          },
+          {
+            "id": "",
+            "text": "12.72–14.24"
+          },
+          {
+            "id": "",
+            "text": "15.85–17.94"
+          },
+          {
+            "id": "",
+            "text": "* , the centromere region of chromosome 4 located in this study; Chr, chromosome; Cen, centromere.\"Cen\"refers to centromere. The overlapping areas between the centromeric regions identified by ChIP-seq and HTA in Xia et al. ( 35 ) are highlighted in bold"
+          },
+          {
+            "id": "Par15",
+            "text": "For the development of centromere-specific single-copy oligo probes in Citrus species, Chorus2 was used to computationally identify 45-nt oligos associated with single-copy sequences from each of the nine chromosomes of the SWO v3 genome. A total of 1,043,510 oligos were identified, which unevenly covered all chromosomes and were less densely distributed in the centromeric regions. Additionally, small deletions of oligos were observed at the ends of Chr2 and Chr4 (Fig. 1 ). Based on the centromeric regions identified above, a total of 16,827 centromere-specific oligos were screened, with each centromeric region containing between 868 and 5,965 oligos, yielding a density of 0.84–1.51 oligos per kilobase (Table 1 ). The oligos located within the centromeric regions of Chr1 and Chr4 were selected and designed as citrus centromere-specific oligo probes, termed Chr1-Cen and Chr4-Cen, respectively. These probes were subsequently validated by oligo-FISH. The specific sequence information for Chr1-Cen (Table S1) and Chr4-Cen (Table S2) is provided in the supplementary materials."
+          }
+        ]
+      },
+      {
+        "id": "Sec9",
+        "title": "Validation of the centromeric regions targeted by oligo probes",
+        "paragraphs": [
+          {
+            "id": "Par16",
+            "text": "The accuracy of the two newly developed oligo probes, Chr1-Cen and Chr4-Cen, targeting the centromeric regions, was evaluated using dual-color FISH in combination with the centromeric repeat sequence probe CL34contig88, which is known to label all citrus centromeres. The Chr1-Cen oligo probe was fluorescently labeled with Fam (Fig. 2 b, yellow), while the CL34contig88 probe was labeled with Tetramethyl-Rhodamine (Fig. 2 c, red). Both probes were hybridized to metaphase chromosomes prepared from the root tips of ‘Red tangerine'. The results of the dual-color FISH assay revealed that the CL34contig88 probe displayed 18 distinct signals at the primary constriction of each chromosome, while only two signals coincided with those of the Chr1-Cen probe (Fig. 2 d, arrow). Similarly, the Chr4-Cen oligo probe was labeled with Tamra (Fig. 2 f, red), and the CL34contig88 probe was labeled with Fluorescein (Fig. 2 g, yellow). The dual-color FISH assay showed that the Chr4-Cen signals overlapped with those of CL34contig88 (Fig. 2 h, arrow). These results confirm that both Chr1-Cen and Chr4-Cen probes exhibit high specificity in localizing the centromeric regions of Chr1 and Chr4, respectively. Thus, these probes can be considered valuable cytological markers for specifically identifying the centromeres of Chr1 and Chr4 in citrus cytogenetic research. Fig. 2 Co-localization of oligo probes (Chr1-Cen and Chr4-Cen) with the previously reported citrus centromere marker CL34contig88. a DAPI-stained chromosomes (blue); b FISH signals of Chr1-Cen (yellow); c FISH signals of CL34contig88 (red); d Integrated signals from images ( a ), ( b ), and ( c ); ( e ) DAPI-stained chromosomes (blue); f FISH signals of Chr4-Cen (red); g FISH signals of CL34contig88 (yellow); h Integrated signals from images ( e ), ( f ), and ( g ). Bar=5 μm. The white arrows indicate the co-localization of oligo probes with CL34contig88 at the centromeres on Chr1 and Chr4, respectively"
+          },
+          {
+            "id": "",
+            "text": "Co-localization of oligo probes (Chr1-Cen and Chr4-Cen) with the previously reported citrus centromere marker CL34contig88. a DAPI-stained chromosomes (blue); b FISH signals of Chr1-Cen (yellow); c FISH signals of CL34contig88 (red); d Integrated signals from images ( a ), ( b ), and ( c ); ( e ) DAPI-stained chromosomes (blue); f FISH signals of Chr4-Cen (red); g FISH signals of CL34contig88 (yellow); h Integrated signals from images ( e ), ( f ), and ( g ). Bar=5 μm. The white arrows indicate the co-localization of oligo probes with CL34contig88 at the centromeres on Chr1 and Chr4, respectively"
+          },
+          {
+            "id": "Par17",
+            "text": "To assess whether the Chr1-Cen and Chr4-Cen probes can generate paired signals during meiosis, dual-color FISH assays were performed on pollen mother cells (PMCs) at the pachytene stage in ‘Red tangerine', where homologous chromosomes form synaptic complexes. The results revealed that Chr1-Cen and Chr4-Cen each produced one distinct signal at the centromere of the chromosome in the pachytene PMCs (Fig. 3 a–d), confirming that the signals from Chr1-Cen and Chr4-Cen were localized to two pairs of homologous chromosomes. Digitally excised images of Chr1 and Chr4 (Fig. 3 e) showed alignment with the computationally identified centromeric features (Fig. 1 ), further validating the design of the probes. Fig. 3 Localization of centromere-specific oligo probes Chr1-Cen and Chr4-Cen on meiotic pachytene chromosomes of ‘Red tangerine’ by dual-color FISH assay. a DAPI-stained chromosomes (blue); b FISH signals of Chr1-Cen (yellow); c FISH signals of Chr4-Cen (red); d Integrated signals from images ( a ), ( b ), and ( c ). Bar=5 μm. e Digitally excised Chr1 and Chr4 from the pachytene image shown in ( d )"
+          },
+          {
+            "id": "",
+            "text": "Localization of centromere-specific oligo probes Chr1-Cen and Chr4-Cen on meiotic pachytene chromosomes of ‘Red tangerine’ by dual-color FISH assay. a DAPI-stained chromosomes (blue); b FISH signals of Chr1-Cen (yellow); c FISH signals of Chr4-Cen (red); d Integrated signals from images ( a ), ( b ), and ( c ). Bar=5 μm. e Digitally excised Chr1 and Chr4 from the pachytene image shown in ( d )"
+          }
+        ]
+      },
+      {
+        "id": "Sec10",
+        "title": "The oligo sequences in the centromeres are conserved in Citrus and its related genera",
+        "paragraphs": [
+          {
+            "id": "Par18",
+            "text": "Dual-color FISH was performed to assess the applicability of centromere-specific oligo probes Chr1-Cen and Chr4-Cen using metaphase chromosomes from root tips of six distinct genotypes, each representing a different Citrus species, including Valencia orange ( C. sinensis ), Red Tangerine ( C. reticulata ), Eureka lemon ( C. limon ), Hirado Buntan pummelo ( C. grandis ), F. japonica , and P. trifoliata . The results showed that each oligo probe, designed based on the SWO v3 ( C. sinensis ) genome, specifically hybridized to only one pair of chromosomes in all species tested (Fig. 4 ). The two oligo probes generated clear cross-hybridization signals exclusively at their respective centromeres, indicating a high degree of conservation in the centromeric oligo sequences of Chr1 and Chr4 across these species. Consequently, the Chr1-Cen and Chr4-Cen probes are reliable cytological markers for distinguishing the centromeres of Chr1 and Chr4 in various citrus species. These cross-species painting results suggest that, despite the long evolutionary divergence of Citrus and its related genera, significant conservation remains in the centromeric oligo sequences of Chr1 and Chr4. Fig. 4 Dual-color FISH signals of centromere-specific oligo probes Chr1-Cen and Chr4-Cen in six genotypes of Citrus and related genera. a1–a4, b1–b4, c1–c4, d1–d4, e1–e4, f1–f4 FISH signals of Chr1-Cen and Chr4-Cen in metaphase cells from root tips of Citrus sinensis , C. reticulata , C. limon , C. grandis , Fortunella japonica , and Poncirus trifoliata ; a1–f1 DAPI-stained chromosomes (blue); a2–f2 FISH signals of Chr1-Cen (yellow); a3 –f3 FISH signals of Chr4-Cen (red); a4–f4 Combined images offigures a1–a3, b1–b3, c1–c3, d1–d3, e1–e3, and f1–f3. Bar =5 μm"
+          },
+          {
+            "id": "",
+            "text": "Dual-color FISH signals of centromere-specific oligo probes Chr1-Cen and Chr4-Cen in six genotypes of Citrus and related genera. a1–a4, b1–b4, c1–c4, d1–d4, e1–e4, f1–f4 FISH signals of Chr1-Cen and Chr4-Cen in metaphase cells from root tips of Citrus sinensis , C. reticulata , C. limon , C. grandis , Fortunella japonica , and Poncirus trifoliata ; a1–f1 DAPI-stained chromosomes (blue); a2–f2 FISH signals of Chr1-Cen (yellow); a3 –f3 FISH signals of Chr4-Cen (red); a4–f4 Combined images offigures a1–a3, b1–b3, c1–c3, d1–d3, e1–e3, and f1–f3. Bar =5 μm"
+          }
+        ]
+      },
+      {
+        "id": "Sec11",
+        "title": "Different citrus species exhibited a comparable karyotype",
+        "paragraphs": [
+          {
+            "id": "Par19",
+            "text": "Pinpointing the centromere positions on Chr1 and Chr4 aids in determining the karyotype of these chromosomes across different citrus species. The karyotypes of the four Citrus species and two citrus relatives were investigated and compared. The lengths of the long and short arms of Chr1 and Chr4 in each species were measured in at least 15 cells using dual-color FISH with the Chr1-Cen and Chr4-Cen oligo probes, followed by calculation of the arm ratios. Despite their millions of years of evolutionary divergence, the karyotypes of Chr1 and Chr4 showed remarkable similarity across the four Citrus species and two citrus relatives (Fig. 5 ; Table 2 ). The arm ratio of Chr1 ranged from 1.70 ±0.28 in C. reticulata to 1.90 ± 0.27 in C. limon (Table 2 ), with Chr1 displaying a submetacentric (sm) morphology, characterized by the centromere positioned closer to the telomere, as per traditional chromosome classification. Likewise, the arm ratio of Chr4 ranged from 1.25 ± 0.15 in P. trifoliata to 1.34 ± 0.13 in C. reticulata (Table 2 ), indicating a metacentric (m) morphology, with the centromere centrally located on Chr4. Fig. 5 Highly similar karyotypes of Chr1 and Chr4 across four species of Citrus and two citrus relatives. The colored karyotype of Chr1 and Chr4 was digitally excised from Fig. 4 (a4–f4) Table 2 Arm ratios of Chr1 and Chr4 in four species of Citrus and two citrus relatives Genotype Chr1 Chr4 Arm ratio Type Arm ratio Type Citrus. sinensis 1.72 ± 0.15 sm 1.31 ± 0.14 m C. reticulata 1.70 ± 0.28 sm 1.34 ± 0.13 m C. limon 1.90 ± 0.27 sm 1.26 ± 0.15 m C. grandis 1.73 ± 0.20 sm 1.30 ± 0.14 m Fortunella. japonica 1.87 ± 0.23 sm 1.32 ± 0.15 m Poncirus. trifoliata 1.81 ± 0.19 sm 1.25 ± 0.15 m"
+          },
+          {
+            "id": "",
+            "text": "Highly similar karyotypes of Chr1 and Chr4 across four species of Citrus and two citrus relatives. The colored karyotype of Chr1 and Chr4 was digitally excised from Fig. 4 (a4–f4)"
+          },
+          {
+            "id": "",
+            "text": "Arm ratios of Chr1 and Chr4 in four species of Citrus and two citrus relatives"
+          },
+          {
+            "id": "",
+            "text": "Genotype"
+          },
+          {
+            "id": "",
+            "text": "Chr1"
+          },
+          {
+            "id": "",
+            "text": "Chr4"
+          },
+          {
+            "id": "",
+            "text": "Arm ratio"
+          },
+          {
+            "id": "",
+            "text": "Type"
+          },
+          {
+            "id": "",
+            "text": "Arm ratio"
+          },
+          {
+            "id": "",
+            "text": "Type"
+          },
+          {
+            "id": "",
+            "text": "Citrus. sinensis"
+          },
+          {
+            "id": "",
+            "text": "1.72 ± 0.15"
+          },
+          {
+            "id": "",
+            "text": "sm"
+          },
+          {
+            "id": "",
+            "text": "1.31 ± 0.14"
+          },
+          {
+            "id": "",
+            "text": "m"
+          },
+          {
+            "id": "",
+            "text": "C. reticulata"
+          },
+          {
+            "id": "",
+            "text": "1.70 ± 0.28"
+          },
+          {
+            "id": "",
+            "text": "sm"
+          },
+          {
+            "id": "",
+            "text": "1.34 ± 0.13"
+          },
+          {
+            "id": "",
+            "text": "m"
+          },
+          {
+            "id": "",
+            "text": "C. limon"
+          },
+          {
+            "id": "",
+            "text": "1.90 ± 0.27"
+          },
+          {
+            "id": "",
+            "text": "sm"
+          },
+          {
+            "id": "",
+            "text": "1.26 ± 0.15"
+          },
+          {
+            "id": "",
+            "text": "m"
+          },
+          {
+            "id": "",
+            "text": "C. grandis"
+          },
+          {
+            "id": "",
+            "text": "1.73 ± 0.20"
+          },
+          {
+            "id": "",
+            "text": "sm"
+          },
+          {
+            "id": "",
+            "text": "1.30 ± 0.14"
+          },
+          {
+            "id": "",
+            "text": "m"
+          },
+          {
+            "id": "",
+            "text": "Fortunella. japonica"
+          },
+          {
+            "id": "",
+            "text": "1.87 ± 0.23"
+          },
+          {
+            "id": "",
+            "text": "sm"
+          },
+          {
+            "id": "",
+            "text": "1.32 ± 0.15"
+          },
+          {
+            "id": "",
+            "text": "m"
+          },
+          {
+            "id": "",
+            "text": "Poncirus. trifoliata"
+          },
+          {
+            "id": "",
+            "text": "1.81 ± 0.19"
+          },
+          {
+            "id": "",
+            "text": "sm"
+          },
+          {
+            "id": "",
+            "text": "1.25 ± 0.15"
+          },
+          {
+            "id": "",
+            "text": "m"
+          }
+        ]
+      },
+      {
+        "id": "Sec12",
+        "title": "Discussion",
+        "paragraphs": [
+          {
+            "id": "Par20",
+            "text": "Multiple trials have been conducted to establish the karyotypes of citrus chromosomes. Early studies commonly employed chromosomal staining techniques, such as chromomycin A3 (CMA) and DAPI, for chromosome identification (Guerra 11 ). However, these methods often produced similar banding patterns within the same species, undermining the reliability of chromosomal identification. The integration of FISH with BAC, ribosomal DNA (rDNA), and other repeat sequence probes, along with CMA/DAPI banding, has emerged as a critical technique for precise karyotype identification in Citrus (Yu et al. 38 ; Deng et al. 8 ). However, the high species specificity of these cytological probes limits their applicability across different species."
+          },
+          {
+            "id": "Par21",
+            "text": "Oligo sequences, specific to chromosomal regions or entire chromosomes, can be synthesized in parallel and labeled as FISH probes, generating distinct signal patterns on each chromosome within the same species. These oligo probes are genotype-independent, serving as an important complement to earlier methods that rely on clustered repetitive sequences. They are capable of identifying homologous chromosomes (Han et al. 12 ; Braz et al. 2 ; Xin et al. 36 ; Harun et al. 14 ). The combination of oligo-FISH paints with genotype-specific probes offers a more precise evaluation of chromosome homology, compared to pairing analysis based on metaphase I of meiosis (Albert et al. 1 ). This strategy has been widely applied in various crop plants to investigate karyotypes, chromosomal evolution (Han et al. 12 ; Braz et al. 3 ; He et al. 15 ), and chromosomal relationships, such as rearrangements and crossovers (Albert et al. 1 ; Martins et al. 9 ). However, few reports have addressed the use of oligo-FISH for karyotype identification, chromosomal translocation, and species evolution in citrus and other fruit trees (He et al. 15 ; Song et al. 28 , 29 ). Furthermore, these studies lacked descriptions of centromeres on individual chromosomes, one of the most important cytological features. In this study, nine centromere-specific oligo probes were computationally designed based on a high-quality sweet orange genome. Chr1-Cen and Chr4-Cen were selected as probes for specific centromere recognition, and their co-localization with the previously published centromeric marker CL34contig88 was demonstrated. This analysis confirmed that these two centromere-specific oligo probes accurately identified homologous chromosomes. As a result, the Chr1-Cen and Chr4-Cen probes serve as reliable cytological markers for targeting Chr1 and Chr4 in citrus, providing a valuable tool for precise chromosomal identification and karyotyping. Given the significant suppression of chromosome recombination in centromeric regions compared to other chromosome areas (Gore et al. 10 ), the development of centromere-specific oligo probes near the centromere not only minimizes recombination susceptibility but also requires fewer synthesized oligo sequences. This approach is more cost-effective and offers greater stability than previously published oligo markers."
+          },
+          {
+            "id": "Par22",
+            "text": "Centromeres in plants typically exhibit a scarcity of genes and a prevalence of repetitive sequences, consisting of megabase-sized arrays of simple tandem repeats, occasionally interspersed with long terminal repeats (Plohl et al. 27 ). Extensive variation in centromeric sequences has been observed among different species, across chromosomes, and even within the same centromere from different plant varieties (Su et al. 30 ; Ma et al. 22 ; Wang et al. 33 ). Moreover, the repetitive monomer lengths in typical centromeric repeats generally range from 150 to 180 bp, such as the 155 bp (CentO) in rice (CHeng et al. 6 ), 156 bp (CentC) in maize (Zhong et al. 40 ), and 180 bp (pAL1) in Arabidopsis (Nagaki et al. 24 ). In citrus, centromeric monomer sizes have been characterized, ranging from 469 to 5,433 bp (Xia et al. 35 ). Some centromeric repeat sequence markers, such as CL17, chr7-gt16294136, and CL34contig88, have been developed (Deng et al. 8 ; Xia et al. 35 ). However, these cytological markers failed to distinguish individual chromosomes, and the number of chromosomes covered was inconsistent, suggesting significant variation in centromeric repeat sequences across Citrus and its related species. The highly similar karyotypes of four Citrus species and two citrus relatives, established through chromosome-specific oligo-FISH, confirmed the conservation of chromosomal synteny among these species but lacked centromere-related information (He et al. 15 ). In this study, in contrast to previous reports that focused on centromeric repetitive sequences, oligo-FISH was employed to conduct cytogenetic characterization of centromeres in four Citrus species and two citrus relatives at the single-copy oligo sequence level. The centromere-specific oligo probes Chr1-Cen and Chr4-Cen specifically recognized the centromeres of Chr1 and Chr4 in all four Citrus species and two citrus relatives, with their karyotypes showing high consistency. This suggests that the single-copy oligo sequences of citrus centromeres have remained relatively conserved throughout the long evolutionary process, at least for Chr1 and Chr4. This discovery not only highlights the presence of abundant single-copy oligo sequences in citrus centromeres but also provides a novel tool for the specific recognition of centromeres in citrus species. Additionally, it lays a solid foundation for further investigations into the evolution of centromeric sequences."
+          },
+          {
+            "id": "Par23",
+            "text": "Centromere-specific markers are essential cytological tools with significant potential in cytogenetic research. Centromeres, as functional sites in eukaryotic chromosomes, are responsible for the condensation and separation of chromatids during cell division, ensuring accurate chromosome segregation and maintaining genomic stability. Citrus centromere-specific oligo probes demonstrate remarkable efficacy in identifying homologous chromosome centromeres at the cytological level, showing substantial potential for recognizing homologous chromosome pairing and segregation during meiosis. The ability to identify centromeres on individual chromosomes is pivotal for karyotype analysis, particularly for small chromosomes like those in citrus species. Karyotypes, which reflect the phenotypic characteristics of genetic material at the cellular level, reveal species-specific traits at the chromosomal level, providing vital cytological evidence for studies on species origin, evolution, genetic relationships, and genetic evolution. The frequent hybridization and polyploidization events within the Citrus genus may lead to rapid reorganization of centromeric sequences. Karyotype studies using widely applicable citrus centromere-specific oligo probes could reveal the historical remnants of these events. Although no relevant results were obtained in this study, this could be due to the limited sample size, particularly the absence of data from ancient varieties. Therefore, future research should broaden the species sampling, focusing on including historically and genetically diverse varieties to comprehensively evaluate the efficacy and precision of centromere-specific oligo probes in citrus genetic research. Furthermore, the stability and cost-effectiveness of these probes make them a valuable, economical, and broadly applicable tool for chromosome identification in large-scale genomic studies."
+          }
+        ],
+        "subsections": [
+          {
+            "id": "Sec13",
+            "title": "Centromere-specific oligo-FISH offers a valuable approach for identifying chromosomes and karyotype in plants",
+            "paragraphs": [
+              {
+                "id": "Par20",
+                "text": "Multiple trials have been conducted to establish the karyotypes of citrus chromosomes. Early studies commonly employed chromosomal staining techniques, such as chromomycin A3 (CMA) and DAPI, for chromosome identification (Guerra 11 ). However, these methods often produced similar banding patterns within the same species, undermining the reliability of chromosomal identification. The integration of FISH with BAC, ribosomal DNA (rDNA), and other repeat sequence probes, along with CMA/DAPI banding, has emerged as a critical technique for precise karyotype identification in Citrus (Yu et al. 38 ; Deng et al. 8 ). However, the high species specificity of these cytological probes limits their applicability across different species."
+              },
+              {
+                "id": "Par21",
+                "text": "Oligo sequences, specific to chromosomal regions or entire chromosomes, can be synthesized in parallel and labeled as FISH probes, generating distinct signal patterns on each chromosome within the same species. These oligo probes are genotype-independent, serving as an important complement to earlier methods that rely on clustered repetitive sequences. They are capable of identifying homologous chromosomes (Han et al. 12 ; Braz et al. 2 ; Xin et al. 36 ; Harun et al. 14 ). The combination of oligo-FISH paints with genotype-specific probes offers a more precise evaluation of chromosome homology, compared to pairing analysis based on metaphase I of meiosis (Albert et al. 1 ). This strategy has been widely applied in various crop plants to investigate karyotypes, chromosomal evolution (Han et al. 12 ; Braz et al. 3 ; He et al. 15 ), and chromosomal relationships, such as rearrangements and crossovers (Albert et al. 1 ; Martins et al. 9 ). However, few reports have addressed the use of oligo-FISH for karyotype identification, chromosomal translocation, and species evolution in citrus and other fruit trees (He et al. 15 ; Song et al. 28 , 29 ). Furthermore, these studies lacked descriptions of centromeres on individual chromosomes, one of the most important cytological features. In this study, nine centromere-specific oligo probes were computationally designed based on a high-quality sweet orange genome. Chr1-Cen and Chr4-Cen were selected as probes for specific centromere recognition, and their co-localization with the previously published centromeric marker CL34contig88 was demonstrated. This analysis confirmed that these two centromere-specific oligo probes accurately identified homologous chromosomes. As a result, the Chr1-Cen and Chr4-Cen probes serve as reliable cytological markers for targeting Chr1 and Chr4 in citrus, providing a valuable tool for precise chromosomal identification and karyotyping. Given the significant suppression of chromosome recombination in centromeric regions compared to other chromosome areas (Gore et al. 10 ), the development of centromere-specific oligo probes near the centromere not only minimizes recombination susceptibility but also requires fewer synthesized oligo sequences. This approach is more cost-effective and offers greater stability than previously published oligo markers."
+              }
+            ]
+          },
+          {
+            "id": "Sec14",
+            "title": "Single-copy oligo sequences in citrus exhibit greater conservation than in the repetitive sequences",
+            "paragraphs": [
+              {
+                "id": "Par22",
+                "text": "Centromeres in plants typically exhibit a scarcity of genes and a prevalence of repetitive sequences, consisting of megabase-sized arrays of simple tandem repeats, occasionally interspersed with long terminal repeats (Plohl et al. 27 ). Extensive variation in centromeric sequences has been observed among different species, across chromosomes, and even within the same centromere from different plant varieties (Su et al. 30 ; Ma et al. 22 ; Wang et al. 33 ). Moreover, the repetitive monomer lengths in typical centromeric repeats generally range from 150 to 180 bp, such as the 155 bp (CentO) in rice (CHeng et al. 6 ), 156 bp (CentC) in maize (Zhong et al. 40 ), and 180 bp (pAL1) in Arabidopsis (Nagaki et al. 24 ). In citrus, centromeric monomer sizes have been characterized, ranging from 469 to 5,433 bp (Xia et al. 35 ). Some centromeric repeat sequence markers, such as CL17, chr7-gt16294136, and CL34contig88, have been developed (Deng et al. 8 ; Xia et al. 35 ). However, these cytological markers failed to distinguish individual chromosomes, and the number of chromosomes covered was inconsistent, suggesting significant variation in centromeric repeat sequences across Citrus and its related species. The highly similar karyotypes of four Citrus species and two citrus relatives, established through chromosome-specific oligo-FISH, confirmed the conservation of chromosomal synteny among these species but lacked centromere-related information (He et al. 15 ). In this study, in contrast to previous reports that focused on centromeric repetitive sequences, oligo-FISH was employed to conduct cytogenetic characterization of centromeres in four Citrus species and two citrus relatives at the single-copy oligo sequence level. The centromere-specific oligo probes Chr1-Cen and Chr4-Cen specifically recognized the centromeres of Chr1 and Chr4 in all four Citrus species and two citrus relatives, with their karyotypes showing high consistency. This suggests that the single-copy oligo sequences of citrus centromeres have remained relatively conserved throughout the long evolutionary process, at least for Chr1 and Chr4. This discovery not only highlights the presence of abundant single-copy oligo sequences in citrus centromeres but also provides a novel tool for the specific recognition of centromeres in citrus species. Additionally, it lays a solid foundation for further investigations into the evolution of centromeric sequences."
+              }
+            ]
+          },
+          {
+            "id": "Sec15",
+            "title": "The potential applications and future prospects of centromere-specific oligo probes",
+            "paragraphs": [
+              {
+                "id": "Par23",
+                "text": "Centromere-specific markers are essential cytological tools with significant potential in cytogenetic research. Centromeres, as functional sites in eukaryotic chromosomes, are responsible for the condensation and separation of chromatids during cell division, ensuring accurate chromosome segregation and maintaining genomic stability. Citrus centromere-specific oligo probes demonstrate remarkable efficacy in identifying homologous chromosome centromeres at the cytological level, showing substantial potential for recognizing homologous chromosome pairing and segregation during meiosis. The ability to identify centromeres on individual chromosomes is pivotal for karyotype analysis, particularly for small chromosomes like those in citrus species. Karyotypes, which reflect the phenotypic characteristics of genetic material at the cellular level, reveal species-specific traits at the chromosomal level, providing vital cytological evidence for studies on species origin, evolution, genetic relationships, and genetic evolution. The frequent hybridization and polyploidization events within the Citrus genus may lead to rapid reorganization of centromeric sequences. Karyotype studies using widely applicable citrus centromere-specific oligo probes could reveal the historical remnants of these events. Although no relevant results were obtained in this study, this could be due to the limited sample size, particularly the absence of data from ancient varieties. Therefore, future research should broaden the species sampling, focusing on including historically and genetically diverse varieties to comprehensively evaluate the efficacy and precision of centromere-specific oligo probes in citrus genetic research. Furthermore, the stability and cost-effectiveness of these probes make them a valuable, economical, and broadly applicable tool for chromosome identification in large-scale genomic studies."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Sec13",
+        "title": "Centromere-specific oligo-FISH offers a valuable approach for identifying chromosomes and karyotype in plants",
+        "paragraphs": [
+          {
+            "id": "Par20",
+            "text": "Multiple trials have been conducted to establish the karyotypes of citrus chromosomes. Early studies commonly employed chromosomal staining techniques, such as chromomycin A3 (CMA) and DAPI, for chromosome identification (Guerra 11 ). However, these methods often produced similar banding patterns within the same species, undermining the reliability of chromosomal identification. The integration of FISH with BAC, ribosomal DNA (rDNA), and other repeat sequence probes, along with CMA/DAPI banding, has emerged as a critical technique for precise karyotype identification in Citrus (Yu et al. 38 ; Deng et al. 8 ). However, the high species specificity of these cytological probes limits their applicability across different species."
+          },
+          {
+            "id": "Par21",
+            "text": "Oligo sequences, specific to chromosomal regions or entire chromosomes, can be synthesized in parallel and labeled as FISH probes, generating distinct signal patterns on each chromosome within the same species. These oligo probes are genotype-independent, serving as an important complement to earlier methods that rely on clustered repetitive sequences. They are capable of identifying homologous chromosomes (Han et al. 12 ; Braz et al. 2 ; Xin et al. 36 ; Harun et al. 14 ). The combination of oligo-FISH paints with genotype-specific probes offers a more precise evaluation of chromosome homology, compared to pairing analysis based on metaphase I of meiosis (Albert et al. 1 ). This strategy has been widely applied in various crop plants to investigate karyotypes, chromosomal evolution (Han et al. 12 ; Braz et al. 3 ; He et al. 15 ), and chromosomal relationships, such as rearrangements and crossovers (Albert et al. 1 ; Martins et al. 9 ). However, few reports have addressed the use of oligo-FISH for karyotype identification, chromosomal translocation, and species evolution in citrus and other fruit trees (He et al. 15 ; Song et al. 28 , 29 ). Furthermore, these studies lacked descriptions of centromeres on individual chromosomes, one of the most important cytological features. In this study, nine centromere-specific oligo probes were computationally designed based on a high-quality sweet orange genome. Chr1-Cen and Chr4-Cen were selected as probes for specific centromere recognition, and their co-localization with the previously published centromeric marker CL34contig88 was demonstrated. This analysis confirmed that these two centromere-specific oligo probes accurately identified homologous chromosomes. As a result, the Chr1-Cen and Chr4-Cen probes serve as reliable cytological markers for targeting Chr1 and Chr4 in citrus, providing a valuable tool for precise chromosomal identification and karyotyping. Given the significant suppression of chromosome recombination in centromeric regions compared to other chromosome areas (Gore et al. 10 ), the development of centromere-specific oligo probes near the centromere not only minimizes recombination susceptibility but also requires fewer synthesized oligo sequences. This approach is more cost-effective and offers greater stability than previously published oligo markers."
+          }
+        ]
+      },
+      {
+        "id": "Sec14",
+        "title": "Single-copy oligo sequences in citrus exhibit greater conservation than in the repetitive sequences",
+        "paragraphs": [
+          {
+            "id": "Par22",
+            "text": "Centromeres in plants typically exhibit a scarcity of genes and a prevalence of repetitive sequences, consisting of megabase-sized arrays of simple tandem repeats, occasionally interspersed with long terminal repeats (Plohl et al. 27 ). Extensive variation in centromeric sequences has been observed among different species, across chromosomes, and even within the same centromere from different plant varieties (Su et al. 30 ; Ma et al. 22 ; Wang et al. 33 ). Moreover, the repetitive monomer lengths in typical centromeric repeats generally range from 150 to 180 bp, such as the 155 bp (CentO) in rice (CHeng et al. 6 ), 156 bp (CentC) in maize (Zhong et al. 40 ), and 180 bp (pAL1) in Arabidopsis (Nagaki et al. 24 ). In citrus, centromeric monomer sizes have been characterized, ranging from 469 to 5,433 bp (Xia et al. 35 ). Some centromeric repeat sequence markers, such as CL17, chr7-gt16294136, and CL34contig88, have been developed (Deng et al. 8 ; Xia et al. 35 ). However, these cytological markers failed to distinguish individual chromosomes, and the number of chromosomes covered was inconsistent, suggesting significant variation in centromeric repeat sequences across Citrus and its related species. The highly similar karyotypes of four Citrus species and two citrus relatives, established through chromosome-specific oligo-FISH, confirmed the conservation of chromosomal synteny among these species but lacked centromere-related information (He et al. 15 ). In this study, in contrast to previous reports that focused on centromeric repetitive sequences, oligo-FISH was employed to conduct cytogenetic characterization of centromeres in four Citrus species and two citrus relatives at the single-copy oligo sequence level. The centromere-specific oligo probes Chr1-Cen and Chr4-Cen specifically recognized the centromeres of Chr1 and Chr4 in all four Citrus species and two citrus relatives, with their karyotypes showing high consistency. This suggests that the single-copy oligo sequences of citrus centromeres have remained relatively conserved throughout the long evolutionary process, at least for Chr1 and Chr4. This discovery not only highlights the presence of abundant single-copy oligo sequences in citrus centromeres but also provides a novel tool for the specific recognition of centromeres in citrus species. Additionally, it lays a solid foundation for further investigations into the evolution of centromeric sequences."
+          }
+        ]
+      },
+      {
+        "id": "Sec15",
+        "title": "The potential applications and future prospects of centromere-specific oligo probes",
+        "paragraphs": [
+          {
+            "id": "Par23",
+            "text": "Centromere-specific markers are essential cytological tools with significant potential in cytogenetic research. Centromeres, as functional sites in eukaryotic chromosomes, are responsible for the condensation and separation of chromatids during cell division, ensuring accurate chromosome segregation and maintaining genomic stability. Citrus centromere-specific oligo probes demonstrate remarkable efficacy in identifying homologous chromosome centromeres at the cytological level, showing substantial potential for recognizing homologous chromosome pairing and segregation during meiosis. The ability to identify centromeres on individual chromosomes is pivotal for karyotype analysis, particularly for small chromosomes like those in citrus species. Karyotypes, which reflect the phenotypic characteristics of genetic material at the cellular level, reveal species-specific traits at the chromosomal level, providing vital cytological evidence for studies on species origin, evolution, genetic relationships, and genetic evolution. The frequent hybridization and polyploidization events within the Citrus genus may lead to rapid reorganization of centromeric sequences. Karyotype studies using widely applicable citrus centromere-specific oligo probes could reveal the historical remnants of these events. Although no relevant results were obtained in this study, this could be due to the limited sample size, particularly the absence of data from ancient varieties. Therefore, future research should broaden the species sampling, focusing on including historically and genetically diverse varieties to comprehensively evaluate the efficacy and precision of centromere-specific oligo probes in citrus genetic research. Furthermore, the stability and cost-effectiveness of these probes make them a valuable, economical, and broadly applicable tool for chromosome identification in large-scale genomic studies."
+          }
+        ]
+      },
+      {
+        "id": "Sec16",
+        "title": "Conclusions",
+        "paragraphs": [
+          {
+            "id": "Par24",
+            "text": "By synthesizing centromere-specific probes from 2,179 oligos exclusively derived from Chr1 and Chr4, and employing dual-color FISH and comparative chromosome painting, this study revealed karyotypic similarities and conserved centromeric sequences among four Citrus species and two related genera. These findings demonstrate that centromere-specific probes combine the stability of whole-chromosome painting probes with the cost-effectiveness of regional painting probes, offering a novel, economical, and versatile tool for chromosome identification in large-scale genomic analyses."
+          }
+        ]
+      }
+    ],
+    "full_text": "Introduction Citrus (2n=2x=18) ranks among the most economically significant and widely cultivated fruit trees globally. Throughout its evolutionary history, various popular species and cultivars have emerged, including orange, mandarin, pummelo, grapefruit, lemon, and others (Wu et al. 34 ). Karyotypic analyses of these related species, encompassing chromosome number and morphology, serve as valuable tools for studying genetic relationships and species evolution (Carvalho et al. 5 ; He et al. 15 ; Song et al. 28 , 29 ). Chromosome painting, a robust method for investigating plant karyotypes, utilizes repetitive DNA sequences, bacterial artificial chromosome (BAC) clones, or single-copy oligonucleotides (oligos) as fluorescence in situ hybridization (FISH) probes (Kim et al. 18 ; Kato et al. 17 ; Jiang 16 ; YaMamoto et al. 37 ). Oligos, designed to target specific chromosomal regions or entire chromosomes, have been successfully applied in various plants for karyotyping, comparative physical mapping, and chromosomal evolution studies (Han et al. 12 ; Braz et al. 2 , 3 ; Xin et al. 36 ; Albert et al. 1 ; He et al. 15 ; Song et al. 28 , 29 ). The centromere, a critical cytological marker in plant chromosomes, is primarily composed of repeat sequences, with some single-copy sequences interspersed (CoMai et al. 7 ; Wang et al. 33 ). Studies on centromeric repeat sequences in various plants have revealed substantial variability in their composition and distribution across species, genomes, and chromosomes (Melters et al. 23 ; OLiveira and Torres 26 ), suggesting a lack of overall conservation in these sequences. Several centromeric cytological markers, based on repeat sequences, have been reported (CHeng et al. 6 ; Zhong et al. 40 ; Nagaki et al. 24 ), including markers specifically developed for citrus (Xia et al. 35 ; Song et al. 28 , 29 ). However, while these markers can differentiate centromeres across chromosomes, they lack the specificity required to identify centromeres on individual chromosomes, unlike single-copy sequence or oligo-based markers. The use of chromosome-specific oligo probes derived from the genome of Citrus maxima (pummelo) has demonstrated the conservation of all nine chromosomes across six different Citrus and related species. However, these probes failed to distinguish centromeric sequences of individual chromosomes (He et al. 15 ). Consequently, there is an urgent need to develop centromere oligo markers capable of specifically identifying individual chromosomes to enable comprehensive studies of citrus karyotypes and centromere evolution. The accurate assembly of a reference genome and precise centromere localization are essential for developing centromere-specific oligo markers for individual chromosomes. Computational identification of oligos specific to a chromosomal region or entire chromosome can be performed for any plant species with an assembled genome (Han et al. 12 ; Braz et al. 2 ; Martins et al. 9 ; He et al. 15 ; Song et al. 28 , 29 ). Therefore, the quality of the reference genome directly influences the quality of oligo probes. In our previous study, centromere locations on citrus chromosomes were identified using chromatin immunoprecipitation sequencing (ChIP-seq) with an anti-CenH3 antibody and the earlier sweet orange genome (SWO v2) as the reference (Xia et al. 35 ). However, the centromeric regions identified using SWO v2 were not localized to single loci on most chromosomes, likely due to the incomplete assembly of centromeric sequences in that reference genome. Recently, a higher-quality sweet orange genome (SWO v3), assembled using long-range sequencing, has been released (Wang et al. 32 ), enabling more precise centromere localization and facilitating the development of centromere-specific probes. In this study, to develop centromere-specific oligo probes for citrus karyotype analysis, the centromere positions were reanalyzed using the previously reported anti-CsCenH3 ChIP-seq data with SWO v3 as the reference genome. After repositioning the centromeres, centromere-specific oligo probes were developed. To test their ability to distinguish homologous chromosomes, oligo probes targeting the centromeres of Chr1 and Chr4 were selected and hybridized with mitotic metaphase and meiotic pachytene chromosomes of C. reticulata . Additionally, dual-color FISH assays were performed to evaluate the conservation of centromeric oligo sequences across various citrus genotypes, aiming to explore the evolution of citrus centromere sequences. The development of these centromere-specific oligo probes is critical for the precise identification of individual chromosomes, thus advancing comprehensive studies of citrus karyotyping and chromosomal evolution. Materials and methods Plant materials Four genotypes, representing different species within the Citrus genus, were selected for chromosome painting: Valencia sweet orange ( C. sinensis ), Red tangerine ( C. reticulata ), Eureka lemon ( C. limon ), and Hirado Buntan pink pummelo ( C. grandis ). Additionally, two citrus relatives, Fortunella japonica and Poncirus trifoliata , were included in this study. All plants were grown in the citrus germplasm resource nursery at Huazhong Agricultural University (Longitude: 114.36, Latitude: 30.47) in Wuhan, China, under uniform conditions that support flowering and fruit setting. Mitotic and meiotic chromosome preparation Root tips from germinated seeds and young flower buds were collected to prepare mitotic metaphase and meiotic pachytene chromosomes, respectively. Chromosomes from root tips and anthers of C. reticulata were used to verify the efficacy of the probes, while chromosomes from root tips of the four Citrus species and two citrus relatives were utilized for centromere comparative analysis. For root tip collection, seeds were extracted from mature fruits and treated with a 1 M NaOH solution to remove surface pectin. After the inner and outer seed coats were removed, seeds were placed in moistened Petri dishes and incubated in the dark at 28 °C to induce root germination. When the primary roots reached approximately 1 cm, the apical 3–mm of root tips were excised using a scalpel. Freshly harvested root tips were treated with a saturated p-dichlorobenzene solution at 20 °C for 2–3 h. Following hypotonic treatment in 0.075 M KCl solution for 30 min, the root tips were fixed in fresh Carnoy’s fixative solution (3 parts ethanol, 1 part acetic acid). Young flower buds were immediately immersed in fresh Carnoy’s fixative solution for later use. Mitotic metaphase and meiotic pachytene chromosomes were prepared following the method of Yu et al. ( 38 ) with minor modifications. Root tips and anthers from young flower buds were washed in distilled water for 10 min and then digested in an enzyme solution (1.25% pectinase from Aspergillus niger, 2.5% cellulase\"Onozuka\"RS, 1.25% pectolyase Y-23) at 37 °C for 1.5 to 2 h. After washing with distilled water for 10 min, enzyme-digested root tips were placed on a glass slide, and meristem cells were released with a dissecting needle. Carnoy’s fixative solution (20 μL) was added to spread the cells, and the slide was air-dried at room temperature. Enzyme-digested anthers were placed into a centrifuge tube and rinsed with 70% ethanol for 10 min, and microsporocytes were released using a dissecting needle. The microsporocyte suspension was centrifuged for 5 s, excess supernatant removed, and the precipitate resuspended in 30 μL of acetic acid solution. This suspension was spread onto a glass slide and air-dried. The slides with well-spread mitotic metaphase or meiotic pachytene chromosomes were then used for chromosome painting experiments. Bioinformatic pipeline for the selection of oligos that target citrus centromeres To obtain more accurate locations and sizes of citrus centromeres, the SWO v3 genome ( http://citrus.hzau.edu.cn/orange/download/index.php ) was used as the reference for re-analyzing previously published ChIP-seq data (PRJNA602190) of anti-CsCenH3 (Xia et al. 35 ). After aligning the reads to the reference genome using Bowtie2 ( https://bowtie-bio.sourceforge.net/bowtie2/index.shtml ) with default parameters (Langmead and Salzberg 19 ), the resulting SAM files were sorted and converted into BAM files for further analysis using SAMtools ( https://github.com/samtools/samtools ) (Li et al. 21 ). Enriched peaks were called using MACS2 ( https://pypi.org/project/MACS2/ ) with the parameters “-q 0.01 -f BAM -B -ghs” (ZHang et al. 39 ). Centromere locations and sizes were determined based on the visualization of CenH3 ChIP-seq peaks in the Integrative Genome Viewer (IGV, https://igv.org ) (Thorvaldsdottir et al. 31 ). Reads coverage and enrichment were calculated across chromosomes with a sliding 20-kb window using Bedmap ( https://bedops.readthedocs.io/en/latest/content/reference/statistics/bedmap.html ) (Neph et al. 25 ), and the results were plotted using RIdeogram ( https://cran.r-project.org/web/packages/RIdeogram/vignettes/RIdeogram.html ) (Hao et al. 13 ). Centromere-specific oligos were selected following the method of Albert et al. ( 1 ), with minor modifications. A set of 45-nt oligos, with more than 80% homology to the reference genome, was computationally identified across each chromosome in 25-nt steps using Chorus2 ( https://github.com/forrestzhang/Chorus2 ). A repetitive sequence database was generated from the SWO v3 genome using RepeatMasker ( http://www.repeatmasker.org ), which was used to filter out repeat oligos. Centromere-specific oligos were then isolated based on the centromeric regions identified from the ChIP-seq data, with high-density regions further refined to construct nine centromere-specific oligo libraries for citrus. The positions of these oligo probes on the nine chromosomes were determined via BLAST ( https://blast.ncbi.nlm.nih.gov/Blast.cgi ) analysis, using the parameters “-evalue 1e-5 -max_hsps 1 -num_alignments 1”(CaMacho et al. 4 ). To assess the distribution density of the oligos, chromosomes were divided into 20-kb windows, and the results were visualized using RIdeogram software. Oligo-FISH and karyotyping Oligo-FISH was performed following the protocol outlined by Han et al. ( 12 ) with minor modifications. Oligo libraries targeting the centromeres of Chr1 and Chr4 were synthesized by Arbor Biosciences (Ann Arbor, MI, USA) to prepare oligo probes. These probes were labeled with Fam or Tamra modifications at their 5'ends using primers (5'-CGTGGTCGCGTCTCA-3'). The citrus centromeric repeat sequence CL34contig88 (Xia et al. 35 ) was labeled using Fluorescein-12-dUTP (Thermo Scientific, R0101) and Tetramethyl-Rhodamine-5-dUTP (Roche, 11 534 378 910) via the nick translation method. Slides containing well-spread mitotic metaphase or meiotic pachytene chromosomes were counterstained with 4,6-diamidino-2-phenylindole (DAPI) and VectaShield antifade solution (Vector Laboratories). FISH images were captured with an Axio imager.M2 microscope (ZEISS, Jena, Germany). A filter set (365 EX/445 ± 50 EM) was used to detect the DAPI signal from chromosomes, while a GFP filter set (500 ± 20 EX/535 ± 30 EM) was used for probes labeled with Fam and Fluorescein. Additionally, a Cy3 filter (545 ± 25 EX/605 ± 70 EM) was employed to detect probes labeled with Tamra and Tetramethyl-Rhodamine. The CCD (Zeiss Axiocam 506 color, Oberkochen, Germany) was controlled by ZEN2 (Blue Edition) software to capture images in separate channels. Pseudo-colors were applied, and adjustments to brightness and contrast were made within the software before generating merged channel images. Karyotype analysis was conducted using FISH signals generated on citrus root tip chromosomes with centromere-specific oligo probes for Chr1 and Chr4. Ideograms were constructed based on the calculation of relative chromosome lengths from the chromosome edge to the centromeric signal in 15 cells with well-dispersed metaphase chromosomes, measured using the \"measure\" tool in Image J software ( https://imagej.net/ij/ ) for each species. The arm ratios (AR), representing the ratio of the long arm (L) to the short arm (S), were calculated, and karyotypes were characterized following the method of Levan et al. ( 20 ). For meiotic image analysis, Image J software was used to delineate the path of chromosomes with the “Segmented Line” tool. The chromosomes were straightened by setting the line width to 20 pixels using the \"Straighten\" function. Results Identification of centromere-specific oligos To develop centromere-specific probes that can specifically recognize the centromeres of individual chromosomes, centromere locations on each chromosome were repositioned based on the SWO v3 reference genome, utilizing previously published ChIP-seq data derived from the CsCenH3 protein. When comparing the mapping rates of the ChIP-seq and Input-seq reads between the data reported by Xia et al. ( 35 ) (72.57% and 87.16%, respectively) and the results obtained in this study (90.38% and 91.41%, respectively), the higher mapping rates achieved using the SWO v3 reference genome indicate its superior completeness. This suggests that the SWO v3 genome assembly facilitates a more precise identification of centromere locations across all chromosomes. ChIP-seq analysis revealed a single, distinct enrichment peak of anti-CsCenH3 on each of the nine chromosomes (Fig. 1 ; Table 1 ), in contrast to previous findings that reported multiple peaks (Table 1 ). The positions and sizes of the centromeric regions were estimated based on the prominent anti-CsCenH3 enrichment peaks, with sizes ranging from 0.75 Mb for Chr3 to 4.51 Mb for Chr8 (Table 1 ). The centromeric region of Chr4, which was previously omitted, was also found to be 0.97 Mb, representing 3.09% of the total length of Chr4 (Table 1 ). Fig. 1 Distribution density of single-copy oligos, CsCenH3 enrichment peaks, and centromere-specific oligos along all nine chromosomes in SWO v3. The blue curves represent single-copy oligos, the orange curves represent CsCenH3 enrichment peaks, and the red lines represent centromere-specific oligos. The sliding window length used for alignment is 20 kb Table 1 Comparison of the centromeric regions identified in this study and those reported by Xia et al. ( 35 ), along with the number of 45-nt oligos within the centromeric regions Chr Centromeric regions located with SWO v3 as reference Centromeric regions identified by Xia et al. ( 35 ) 45-nt oligos in centromeric regions Chr size (Mb) Percentage of Cen Cen location (Mb) Cen size (Mb) Number Density (oligo/kb) Chr1 8.20–9.18 0.98 10.14–17.74 1,149 1.17 30.62 3.20% 21.98–22.31 Chr2 16.90–18.14 1.24 20.37–20.88 1,507 1.22 33.65 3.68% 25.29–25.57 Chr3 23.75–24.50 0.75 5.07–5.51 868 1.16 37.42 2.00% 9.32–10.79 14.11–14.81 Chr4* 14.41–15.38 0.97 9.17–11.29 1,030 1.06 31.35 3.09% 12.23–12.24 15.57–17.31 Chr5 28.98–30.59 1.61 14.33–15.95 2,034 1.26 50.23 3.21% 16.53–18.41 23.81–23.82 Chr6 17.64–18.93 1.29 1.55–1.56 1,941 1.51 26.16 4.93% 6.31–6.44 9.02–11.22 Chr7 12.10–13.30 1.20 13.99–15.50 1,241 1.03 29.70 4.04% 21.33–23.54 Chr8 14.28–18.79 4.51 3.68–4.18 5,695 1.26 32.77 13.76% 12.47–12.62 Chr9 17.10–18.71 1.61 7.98–8.80 1,362 0.84 32.31 4.98% 12.72–14.24 15.85–17.94 * , the centromere region of chromosome 4 located in this study; Chr, chromosome; Cen, centromere.\"Cen\"refers to centromere. The overlapping areas between the centromeric regions identified by ChIP-seq and HTA in Xia et al. ( 35 ) are highlighted in bold For the development of centromere-specific single-copy oligo probes in Citrus species, Chorus2 was used to computationally identify 45-nt oligos associated with single-copy sequences from each of the nine chromosomes of the SWO v3 genome. A total of 1,043,510 oligos were identified, which unevenly covered all chromosomes and were less densely distributed in the centromeric regions. Additionally, small deletions of oligos were observed at the ends of Chr2 and Chr4 (Fig. 1 ). Based on the centromeric regions identified above, a total of 16,827 centromere-specific oligos were screened, with each centromeric region containing between 868 and 5,965 oligos, yielding a density of 0.84–1.51 oligos per kilobase (Table 1 ). The oligos located within the centromeric regions of Chr1 and Chr4 were selected and designed as citrus centromere-specific oligo probes, termed Chr1-Cen and Chr4-Cen, respectively. These probes were subsequently validated by oligo-FISH. The specific sequence information for Chr1-Cen (Table S1) and Chr4-Cen (Table S2) is provided in the supplementary materials. Validation of the centromeric regions targeted by oligo probes The accuracy of the two newly developed oligo probes, Chr1-Cen and Chr4-Cen, targeting the centromeric regions, was evaluated using dual-color FISH in combination with the centromeric repeat sequence probe CL34contig88, which is known to label all citrus centromeres. The Chr1-Cen oligo probe was fluorescently labeled with Fam (Fig. 2 b, yellow), while the CL34contig88 probe was labeled with Tetramethyl-Rhodamine (Fig. 2 c, red). Both probes were hybridized to metaphase chromosomes prepared from the root tips of ‘Red tangerine'. The results of the dual-color FISH assay revealed that the CL34contig88 probe displayed 18 distinct signals at the primary constriction of each chromosome, while only two signals coincided with those of the Chr1-Cen probe (Fig. 2 d, arrow). Similarly, the Chr4-Cen oligo probe was labeled with Tamra (Fig. 2 f, red), and the CL34contig88 probe was labeled with Fluorescein (Fig. 2 g, yellow). The dual-color FISH assay showed that the Chr4-Cen signals overlapped with those of CL34contig88 (Fig. 2 h, arrow). These results confirm that both Chr1-Cen and Chr4-Cen probes exhibit high specificity in localizing the centromeric regions of Chr1 and Chr4, respectively. Thus, these probes can be considered valuable cytological markers for specifically identifying the centromeres of Chr1 and Chr4 in citrus cytogenetic research. Fig. 2 Co-localization of oligo probes (Chr1-Cen and Chr4-Cen) with the previously reported citrus centromere marker CL34contig88. a DAPI-stained chromosomes (blue); b FISH signals of Chr1-Cen (yellow); c FISH signals of CL34contig88 (red); d Integrated signals from images ( a ), ( b ), and ( c ); ( e ) DAPI-stained chromosomes (blue); f FISH signals of Chr4-Cen (red); g FISH signals of CL34contig88 (yellow); h Integrated signals from images ( e ), ( f ), and ( g ). Bar=5 μm. The white arrows indicate the co-localization of oligo probes with CL34contig88 at the centromeres on Chr1 and Chr4, respectively To assess whether the Chr1-Cen and Chr4-Cen probes can generate paired signals during meiosis, dual-color FISH assays were performed on pollen mother cells (PMCs) at the pachytene stage in ‘Red tangerine', where homologous chromosomes form synaptic complexes. The results revealed that Chr1-Cen and Chr4-Cen each produced one distinct signal at the centromere of the chromosome in the pachytene PMCs (Fig. 3 a–d), confirming that the signals from Chr1-Cen and Chr4-Cen were localized to two pairs of homologous chromosomes. Digitally excised images of Chr1 and Chr4 (Fig. 3 e) showed alignment with the computationally identified centromeric features (Fig. 1 ), further validating the design of the probes. Fig. 3 Localization of centromere-specific oligo probes Chr1-Cen and Chr4-Cen on meiotic pachytene chromosomes of ‘Red tangerine’ by dual-color FISH assay. a DAPI-stained chromosomes (blue); b FISH signals of Chr1-Cen (yellow); c FISH signals of Chr4-Cen (red); d Integrated signals from images ( a ), ( b ), and ( c ). Bar=5 μm. e Digitally excised Chr1 and Chr4 from the pachytene image shown in ( d ) The oligo sequences in the centromeres are conserved in Citrus and its related genera Dual-color FISH was performed to assess the applicability of centromere-specific oligo probes Chr1-Cen and Chr4-Cen using metaphase chromosomes from root tips of six distinct genotypes, each representing a different Citrus species, including Valencia orange ( C. sinensis ), Red Tangerine ( C. reticulata ), Eureka lemon ( C. limon ), Hirado Buntan pummelo ( C. grandis ), F. japonica , and P. trifoliata . The results showed that each oligo probe, designed based on the SWO v3 ( C. sinensis ) genome, specifically hybridized to only one pair of chromosomes in all species tested (Fig. 4 ). The two oligo probes generated clear cross-hybridization signals exclusively at their respective centromeres, indicating a high degree of conservation in the centromeric oligo sequences of Chr1 and Chr4 across these species. Consequently, the Chr1-Cen and Chr4-Cen probes are reliable cytological markers for distinguishing the centromeres of Chr1 and Chr4 in various citrus species. These cross-species painting results suggest that, despite the long evolutionary divergence of Citrus and its related genera, significant conservation remains in the centromeric oligo sequences of Chr1 and Chr4. Fig. 4 Dual-color FISH signals of centromere-specific oligo probes Chr1-Cen and Chr4-Cen in six genotypes of Citrus and related genera. a1–a4, b1–b4, c1–c4, d1–d4, e1–e4, f1–f4 FISH signals of Chr1-Cen and Chr4-Cen in metaphase cells from root tips of Citrus sinensis , C. reticulata , C. limon , C. grandis , Fortunella japonica , and Poncirus trifoliata ; a1–f1 DAPI-stained chromosomes (blue); a2–f2 FISH signals of Chr1-Cen (yellow); a3 –f3 FISH signals of Chr4-Cen (red); a4–f4 Combined images offigures a1–a3, b1–b3, c1–c3, d1–d3, e1–e3, and f1–f3. Bar =5 μm Different citrus species exhibited a comparable karyotype Pinpointing the centromere positions on Chr1 and Chr4 aids in determining the karyotype of these chromosomes across different citrus species. The karyotypes of the four Citrus species and two citrus relatives were investigated and compared. The lengths of the long and short arms of Chr1 and Chr4 in each species were measured in at least 15 cells using dual-color FISH with the Chr1-Cen and Chr4-Cen oligo probes, followed by calculation of the arm ratios. Despite their millions of years of evolutionary divergence, the karyotypes of Chr1 and Chr4 showed remarkable similarity across the four Citrus species and two citrus relatives (Fig. 5 ; Table 2 ). The arm ratio of Chr1 ranged from 1.70 ±0.28 in C. reticulata to 1.90 ± 0.27 in C. limon (Table 2 ), with Chr1 displaying a submetacentric (sm) morphology, characterized by the centromere positioned closer to the telomere, as per traditional chromosome classification. Likewise, the arm ratio of Chr4 ranged from 1.25 ± 0.15 in P. trifoliata to 1.34 ± 0.13 in C. reticulata (Table 2 ), indicating a metacentric (m) morphology, with the centromere centrally located on Chr4. Fig. 5 Highly similar karyotypes of Chr1 and Chr4 across four species of Citrus and two citrus relatives. The colored karyotype of Chr1 and Chr4 was digitally excised from Fig. 4 (a4–f4) Table 2 Arm ratios of Chr1 and Chr4 in four species of Citrus and two citrus relatives Genotype Chr1 Chr4 Arm ratio Type Arm ratio Type Citrus. sinensis 1.72 ± 0.15 sm 1.31 ± 0.14 m C. reticulata 1.70 ± 0.28 sm 1.34 ± 0.13 m C. limon 1.90 ± 0.27 sm 1.26 ± 0.15 m C. grandis 1.73 ± 0.20 sm 1.30 ± 0.14 m Fortunella. japonica 1.87 ± 0.23 sm 1.32 ± 0.15 m Poncirus. trifoliata 1.81 ± 0.19 sm 1.25 ± 0.15 m Discussion Centromere-specific oligo-FISH offers a valuable approach for identifying chromosomes and karyotype in plants Multiple trials have been conducted to establish the karyotypes of citrus chromosomes. Early studies commonly employed chromosomal staining techniques, such as chromomycin A3 (CMA) and DAPI, for chromosome identification (Guerra 11 ). However, these methods often produced similar banding patterns within the same species, undermining the reliability of chromosomal identification. The integration of FISH with BAC, ribosomal DNA (rDNA), and other repeat sequence probes, along with CMA/DAPI banding, has emerged as a critical technique for precise karyotype identification in Citrus (Yu et al. 38 ; Deng et al. 8 ). However, the high species specificity of these cytological probes limits their applicability across different species. Oligo sequences, specific to chromosomal regions or entire chromosomes, can be synthesized in parallel and labeled as FISH probes, generating distinct signal patterns on each chromosome within the same species. These oligo probes are genotype-independent, serving as an important complement to earlier methods that rely on clustered repetitive sequences. They are capable of identifying homologous chromosomes (Han et al. 12 ; Braz et al. 2 ; Xin et al. 36 ; Harun et al. 14 ). The combination of oligo-FISH paints with genotype-specific probes offers a more precise evaluation of chromosome homology, compared to pairing analysis based on metaphase I of meiosis (Albert et al. 1 ). This strategy has been widely applied in various crop plants to investigate karyotypes, chromosomal evolution (Han et al. 12 ; Braz et al. 3 ; He et al. 15 ), and chromosomal relationships, such as rearrangements and crossovers (Albert et al. 1 ; Martins et al. 9 ). However, few reports have addressed the use of oligo-FISH for karyotype identification, chromosomal translocation, and species evolution in citrus and other fruit trees (He et al. 15 ; Song et al. 28 , 29 ). Furthermore, these studies lacked descriptions of centromeres on individual chromosomes, one of the most important cytological features. In this study, nine centromere-specific oligo probes were computationally designed based on a high-quality sweet orange genome. Chr1-Cen and Chr4-Cen were selected as probes for specific centromere recognition, and their co-localization with the previously published centromeric marker CL34contig88 was demonstrated. This analysis confirmed that these two centromere-specific oligo probes accurately identified homologous chromosomes. As a result, the Chr1-Cen and Chr4-Cen probes serve as reliable cytological markers for targeting Chr1 and Chr4 in citrus, providing a valuable tool for precise chromosomal identification and karyotyping. Given the significant suppression of chromosome recombination in centromeric regions compared to other chromosome areas (Gore et al. 10 ), the development of centromere-specific oligo probes near the centromere not only minimizes recombination susceptibility but also requires fewer synthesized oligo sequences. This approach is more cost-effective and offers greater stability than previously published oligo markers. Single-copy oligo sequences in citrus exhibit greater conservation than in the repetitive sequences Centromeres in plants typically exhibit a scarcity of genes and a prevalence of repetitive sequences, consisting of megabase-sized arrays of simple tandem repeats, occasionally interspersed with long terminal repeats (Plohl et al. 27 ). Extensive variation in centromeric sequences has been observed among different species, across chromosomes, and even within the same centromere from different plant varieties (Su et al. 30 ; Ma et al. 22 ; Wang et al. 33 ). Moreover, the repetitive monomer lengths in typical centromeric repeats generally range from 150 to 180 bp, such as the 155 bp (CentO) in rice (CHeng et al. 6 ), 156 bp (CentC) in maize (Zhong et al. 40 ), and 180 bp (pAL1) in Arabidopsis (Nagaki et al. 24 ). In citrus, centromeric monomer sizes have been characterized, ranging from 469 to 5,433 bp (Xia et al. 35 ). Some centromeric repeat sequence markers, such as CL17, chr7-gt16294136, and CL34contig88, have been developed (Deng et al. 8 ; Xia et al. 35 ). However, these cytological markers failed to distinguish individual chromosomes, and the number of chromosomes covered was inconsistent, suggesting significant variation in centromeric repeat sequences across Citrus and its related species. The highly similar karyotypes of four Citrus species and two citrus relatives, established through chromosome-specific oligo-FISH, confirmed the conservation of chromosomal synteny among these species but lacked centromere-related information (He et al. 15 ). In this study, in contrast to previous reports that focused on centromeric repetitive sequences, oligo-FISH was employed to conduct cytogenetic characterization of centromeres in four Citrus species and two citrus relatives at the single-copy oligo sequence level. The centromere-specific oligo probes Chr1-Cen and Chr4-Cen specifically recognized the centromeres of Chr1 and Chr4 in all four Citrus species and two citrus relatives, with their karyotypes showing high consistency. This suggests that the single-copy oligo sequences of citrus centromeres have remained relatively conserved throughout the long evolutionary process, at least for Chr1 and Chr4. This discovery not only highlights the presence of abundant single-copy oligo sequences in citrus centromeres but also provides a novel tool for the specific recognition of centromeres in citrus species. Additionally, it lays a solid foundation for further investigations into the evolution of centromeric sequences. The potential applications and future prospects of centromere-specific oligo probes Centromere-specific markers are essential cytological tools with significant potential in cytogenetic research. Centromeres, as functional sites in eukaryotic chromosomes, are responsible for the condensation and separation of chromatids during cell division, ensuring accurate chromosome segregation and maintaining genomic stability. Citrus centromere-specific oligo probes demonstrate remarkable efficacy in identifying homologous chromosome centromeres at the cytological level, showing substantial potential for recognizing homologous chromosome pairing and segregation during meiosis. The ability to identify centromeres on individual chromosomes is pivotal for karyotype analysis, particularly for small chromosomes like those in citrus species. Karyotypes, which reflect the phenotypic characteristics of genetic material at the cellular level, reveal species-specific traits at the chromosomal level, providing vital cytological evidence for studies on species origin, evolution, genetic relationships, and genetic evolution. The frequent hybridization and polyploidization events within the Citrus genus may lead to rapid reorganization of centromeric sequences. Karyotype studies using widely applicable citrus centromere-specific oligo probes could reveal the historical remnants of these events. Although no relevant results were obtained in this study, this could be due to the limited sample size, particularly the absence of data from ancient varieties. Therefore, future research should broaden the species sampling, focusing on including historically and genetically diverse varieties to comprehensively evaluate the efficacy and precision of centromere-specific oligo probes in citrus genetic research. Furthermore, the stability and cost-effectiveness of these probes make them a valuable, economical, and broadly applicable tool for chromosome identification in large-scale genomic studies. Conclusions By synthesizing centromere-specific probes from 2,179 oligos exclusively derived from Chr1 and Chr4, and employing dual-color FISH and comparative chromosome painting, this study revealed karyotypic similarities and conserved centromeric sequences among four Citrus species and two related genera. These findings demonstrate that centromere-specific probes combine the stability of whole-chromosome painting probes with the cost-effectiveness of regional painting probes, offering a novel, economical, and versatile tool for chromosome identification in large-scale genomic analyses."
+  },
+  "references_count": 40
+}
