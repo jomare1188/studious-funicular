@@ -64,7 +64,7 @@ def parse_links(x: str) -> list[str]:
         x = x.replace("''", "'")
         try:
             return ast.literal_eval(x)
-        except:
+        except Exception:
             return []
     return []
 
@@ -266,7 +266,7 @@ def process_json_articles(json_file_path: str) -> list[dict]:
 
 
 def add_dois_to_dataframe(
-    df: pd.DataFrame, json_files_dict: dict[str, str] = None
+    df: pd.DataFrame, json_files_dict: dict[str, str] | None = None
 ) -> pd.DataFrame:
     """
     Add DOI information to dataframe

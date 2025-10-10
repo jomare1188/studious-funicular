@@ -498,7 +498,7 @@ class ProcessSpringerXML:
 
         return content
 
-    def extract_metadata(self) -> dict:
+    def extract_metadata(self) -> dict | None:
         """
         Extract metadata from the XML content.
 
@@ -999,7 +999,7 @@ class TXTDownloader:
             return "unknown", "unknown"
 
     @_rate_limiter.track_request("springer")
-    def get_springer_txt(self, doi: str) -> dict | tuple:
+    def get_springer_txt(self, doi: str) -> tuple | None:
         """
         Download TXT from Springer.
 

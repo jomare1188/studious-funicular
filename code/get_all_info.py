@@ -235,8 +235,8 @@ class SRAInfoExtractor:
             return []
 
     def get_pmid_for_run(
-        self, run_accession: str, bioproject_id: str = None
-    ) -> dict[str, any]:
+        self, run_accession: str, bioproject_id: str | None = None
+    ) -> dict:
         """
         Get PMID(s) for a single SRA run accession with Scholar fallback.
 
@@ -300,7 +300,7 @@ class SRAInfoExtractor:
         total_runs = len(df)
 
         with progress:
-            progress.add_task(f"[cyan]Processing SRA runs", total=total_runs)
+            progress.add_task("[cyan]Processing SRA runs", total=total_runs)
             for i, row in df.iterrows():
                 run_accession = row[run_column]
                 bioproject_id = (
